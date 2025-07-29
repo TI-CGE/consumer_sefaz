@@ -1,0 +1,131 @@
+package br.gov.se.setc.controller;
+
+import br.gov.se.setc.scheduler.ContractConsumptionScheduler;
+import br.gov.se.setc.logging.annotation.LogOperation;
+import br.gov.se.setc.logging.util.MDCUtil;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Controller para gerenciamento e monitoramento do scheduler
+ */
+@RestController
+@RequestMapping("/scheduler")
+@Tag(name = "Scheduler", description = "Endpoints para gerenciamento do scheduler de consumo de contratos")
+public class SchedulerController {
+    
+    private static final Logger logger = LoggerFactory.getLogger(SchedulerController.class);
+    
+    @Autowired
+    private ContractConsumptionScheduler scheduler;
+    
+    /**
+     * Executa o consumo de contratos manualmente
+     */
+    @PostMapping("/execute")
+    @Operation(summary = "Execução manual", description = "Executa o consumo de contratos manualmente para testes")
+    @LogOperation(operation = "MANUAL_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeManually() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setComponent("SCHEDULER_CONTROLLER");
+        MDCUtil.setOperation("MANUAL_EXECUTION");
+        
+        logger.info("Solicitação de execução manual recebida - Correlation ID: {}", correlationId);
+        
+        try {
+            Map<String, Object> result = scheduler.executeManually();
+            result.put("correlationId", correlationId);
+            
+            return ResponseEntity.ok(result);
+            
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual", e);
+            
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução manual: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            errorResult.put("error", e.getClass().getSimpleName());
+            
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    
+    /**
+     * Verifica o status do scheduler
+     */
+    @GetMapping("/status")
+    @Operation(summary = "Status do scheduler", description = "Retorna informações sobre o status atual do scheduler")
+    public ResponseEntity<Map<String, Object>> getSchedulerStatus() {
+        try {
+            Map<String, Object> status = scheduler.getSchedulerStatus();
+            status.put("timestamp", System.currentTimeMillis());
+            
+            return ResponseEntity.ok(status);
+            
+        } catch (Exception e) {
+            logger.error("Erro ao obter status do scheduler", e);
+            
+            Map<String, Object> errorStatus = new HashMap<>();
+            errorStatus.put("status", "ERROR");
+            errorStatus.put("message", "Erro ao obter status: " + e.getMessage());
+            errorStatus.put("timestamp", System.currentTimeMillis());
+            
+            return ResponseEntity.internalServerError().body(errorStatus);
+        }
+    }
+    
+    /**
+     * Informações sobre configuração do scheduler
+     */
+    @GetMapping("/info")
+    @Operation(summary = "Informações do scheduler", description = "Retorna informações detalhadas sobre a configuração do scheduler")
+    public ResponseEntity<Map<String, Object>> getSchedulerInfo() {
+        Map<String, Object> info = new HashMap<>();
+        
+        info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
+        info.put("testExecution", "5 segundos após inicialização da aplicação");
+        info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
+        info.put("manualExecution", "Disponível via POST /scheduler/execute");
+        info.put("endpoints", Map.of(
+            "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
+            "unidadeGestora", "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora"
+        ));
+        info.put("logging", Map.of(
+            "structured", true,
+            "performance", true,
+            "correlation", true,
+            "logFiles", Map.of(
+                "contracts", "./logs/contracts/contract-consumption.log",
+                "performance", "./logs/performance/performance.log",
+                "errors", "./logs/errors/errors.log"
+            )
+        ));
+        
+        return ResponseEntity.ok(info);
+    }
+    
+    /**
+     * Endpoint de teste simples
+     */
+    @GetMapping("/ping")
+    @Operation(summary = "Ping", description = "Endpoint simples para verificar se o controller está funcionando")
+    public ResponseEntity<Map<String, Object>> ping() {
+        Map<String, Object> response = new HashMap<>();
+        response.put("status", "OK");
+        response.put("message", "Scheduler controller is running");
+        response.put("timestamp", System.currentTimeMillis());
+        
+        return ResponseEntity.ok(response);
+    }
+}

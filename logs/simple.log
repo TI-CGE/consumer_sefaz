@@ -1,0 +1,54 @@
+14:02:03 | APPLICATION | ✅ SEFAZ Transparency Consumer vDEV iniciada
+14:02:03 | APPLICATION | ✅ Pronta para receber requisições
+14:02:08 | SCHEDULER | 🚀 Iniciando STARTUP_TEST | CORRELATION_ID: 50b94b5c
+14:02:08 | SCHEDULER | 🚀 Iniciando SCHEDULED_EXECUTION | ENDPOINTS: MULTIPLE_ENDPOINTS
+14:02:08 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+14:02:08 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+14:02:08 | SECURITY | 🚀 Iniciando GET_TOKEN
+14:02:08 | SECURITY | 🚀 Iniciando GET_TOKEN | CLIENT_ID: 87f72053 | URL: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+14:02:15 | SECURITY | 🐌 GET_TOKEN | 1 registros (6,3s)
+14:02:15 | DATABASE | 🚀 Iniciando INSERT_BATCH | TABLE: consumer_sefaz.unidade_gestora | COUNT: 119
+14:02:19 | DATABASE | ✅ INSERT_BATCH | 119 registros | TABLE: consumer_sefaz.unidade_gestora (4,4s)
+14:02:19 | CONTRACT_CONSUMER | 🐌 CONSUMIR_PERSISTIR | 119 registros | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E (10,9s)
+14:02:19 | CONTRACT_CONSUMER | 🐌 CONSUMIR_PERSISTIR | 119 registros (10,9s)
+14:02:21 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+14:02:21 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais
+14:02:21 | SECURITY | 🚀 Iniciando GET_TOKEN
+14:02:21 | SECURITY | 🚀 Iniciando GET_TOKEN | CLIENT_ID: 87f72053 | URL: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+14:02:21 | SECURITY | ✅ GET_TOKEN | 1 registros (28ms)
+14:02:21 | DATABASE | 🚀 Iniciando INSERT_BATCH | TABLE: consumer_sefaz.contratos_fiscais | COUNT: 2
+14:02:21 | DATABASE | ✅ INSERT_BATCH | 2 registros | TABLE: consumer_sefaz.contratos_fiscais (59ms)
+14:02:21 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 2 registros | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais (284ms)
+14:02:21 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 2 registros (285ms)
+14:02:21 | SCHEDULER | 🐌 SCHEDULED_CONTRACT_CONSUMPTION | 121 registros | RESULTS: {UnidadeGestora=119, ContratosFiscais=2} (13,2s)
+14:25:00 | APPLICATION | ✅ SEFAZ Transparency Consumer vDEV iniciada
+14:25:00 | APPLICATION | ✅ Pronta para receber requisições
+14:25:05 | SCHEDULER | 🚀 Iniciando STARTUP_TEST | CORRELATION_ID: 4d78b447
+14:25:05 | SCHEDULER | 🚀 Iniciando SCHEDULED_EXECUTION | ENDPOINTS: MULTIPLE_ENDPOINTS
+14:25:05 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+14:25:05 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+14:25:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+14:25:05 | SECURITY | 🚀 Iniciando GET_TOKEN | CLIENT_ID: 87f72053 | URL: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+14:25:05 | SECURITY | ✅ GET_TOKEN | 1 registros (134ms)
+14:25:05 | DATABASE | 🚀 Iniciando INSERT_BATCH | TABLE: consumer_sefaz.unidade_gestora | COUNT: 119
+14:25:08 | DATABASE | ✅ INSERT_BATCH | 119 registros | TABLE: consumer_sefaz.unidade_gestora (2,7s)
+14:25:08 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 119 registros | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E (3,0s)
+14:25:08 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 119 registros (3,0s)
+14:25:10 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+14:25:10 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais
+14:25:10 | SECURITY | 🚀 Iniciando GET_TOKEN
+14:25:10 | SECURITY | 🚀 Iniciando GET_TOKEN | CLIENT_ID: 87f72053 | URL: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+14:25:10 | SECURITY | ✅ GET_TOKEN | 1 registros (26ms)
+14:25:10 | DATABASE | 🚀 Iniciando INSERT_BATCH | TABLE: consumer_sefaz.contratos_fiscais | COUNT: 2
+14:25:10 | DATABASE | ✅ INSERT_BATCH | 2 registros | TABLE: consumer_sefaz.contratos_fiscais (75ms)
+14:25:10 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 2 registros | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais (341ms)
+14:25:10 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 2 registros (341ms)
+14:25:10 | SCHEDULER | 🐌 SCHEDULED_CONTRACT_CONSUMPTION | 121 registros | RESULTS: {UnidadeGestora=119, ContratosFiscais=2} (5,3s)
+14:28:14 | TEST | Iniciando teste do sistema de logging
+14:28:14 | TEST | 🚀 Iniciando Executando testes
+14:28:14 | TEST | ✅ Logs básicos funcionando
+14:28:14 | TEST | ⚠️ Este é um aviso de teste
+14:28:14 | EXEMPLO | 🚀 Iniciando Processamento de dados
+14:28:15 | EXEMPLO | 🔄 Validando dados - 50/100 (50%)
+14:28:16 | EXEMPLO | ✅ Dados processados com sucesso (1,5s)
+14:28:17 | TEST | ✅ Teste concluído com sucesso

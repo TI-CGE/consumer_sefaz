@@ -1,0 +1,88 @@
+2025-07-29 14:01:59.817 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 27372 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-07-29 14:01:59.819 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-07-29 14:02:02.002 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-29 14:02:02.817 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean
+2025-07-29 14:02:02.881 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-07-29 14:02:02.908 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-07-29 14:02:02.909 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-07-29 14:02:03.164 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-29 14:02:03.718 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 4.328 seconds (process running for 4.954)
+2025-07-29 14:02:08.729 INFO  [50b94b5c] [APPLICATION] [SCHEDULER_STARTUP_TEST] - 🔸 [14:02:08.729] SCHEDULER_STARTUP_TEST | Execução de teste do scheduler
+2025-07-29 14:02:08.730 INFO  [50b94b5c] [SCHEDULER] [STARTUP_TEST] - === INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER ===
+2025-07-29 14:02:08.730 INFO  [8adaa55b] [SCHEDULER] [SCHEDULED_EXECUTION] - === INICIANDO CONSUMO DE UNIDADES GESTORAS ===
+2025-07-29 14:02:15.017 INFO  [8adaa55b] [SECURITY] [AUTH_SUCCESS] - ✅ AUTENTICAÇÃO SUCESSO | Cliente: 87f72053 | Endpoint: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token | DURATION: 6,27s | ID: 8adaa55b
+2025-07-29 14:02:15.019 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-07-29 14:02:15.019 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-07-29 14:02:15.269 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 17988
+2025-07-29 14:02:15.269 WARN  [fca4485a] [API_CLIENT] [API_CALL] - 🐌 API LENTA GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E | STATUS: 200 | DURATION: 6,53s | REQUEST: 0 B | RESPONSE: 17,61 KB
+2025-07-29 14:02:15.270 INFO  [fca4485a] [API_CLIENT] [API_CALL] - Resposta da API recebida. Status: 200 OK | URL: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-07-29 14:02:15.270 INFO  [fca4485a] [API_CLIENT] [API_CALL] - Processando JSON da resposta...
+2025-07-29 14:02:15.271 INFO  [fca4485a] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"nmUnidadeGestora":"ASSEMBLÉIA LEGISLATIVA","sgUnidadeGestora":"ALESE","cdUnidadeGestora":"011011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"FUNDO DE MODERNIZAÇÃO DO TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE
+2025-07-29 14:02:15.274 INFO  [fca4485a] [API_CLIENT] [API_CALL] - Dados processados com sucesso: 119 registros
+2025-07-29 14:02:19.063 INFO  [fca4485a] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.unidade_gestora | RECORDS: 100 | DURATION: 0ms
+2025-07-29 14:02:19.679 INFO  [fca4485a] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 0ms
+2025-07-29 14:02:19.680 INFO  [fca4485a] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 4,41s
+2025-07-29 14:02:19.680 INFO  [fca4485a] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 4,41s
+2025-07-29 14:02:19.680 INFO  [N/A] [APP] [UNKNOWN] - Unidades Gestoras processadas: 119
+2025-07-29 14:02:21.694 INFO  [N/A] [APP] [UNKNOWN] - === INICIANDO CONSUMO DE CONTRATOS FISCAIS ===
+2025-07-29 14:02:21.750 INFO  [ba4c2955] [SECURITY] [AUTH_SUCCESS] - ✅ AUTENTICAÇÃO SUCESSO | Cliente: 87f72053 | Endpoint: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token | DURATION: 26ms | ID: ba4c2955
+2025-07-29 14:02:21.750 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais?cdUnidadeGestora=173011&dtAnoExercicio=2025&nuMes=7&cdQualificador=133
+2025-07-29 14:02:21.750 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-07-29 14:02:21.908 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 780
+2025-07-29 14:02:21.908 INFO  [8972b712] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais?cdUnidadeGestora=173011&dtAnoExercicio=2025&nuMes=7&cdQualificador=133 | STATUS: 200 | DURATION: 186ms | REQUEST: 0 B | RESPONSE: 780 B
+2025-07-29 14:02:21.909 INFO  [8972b712] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtFimVigenciaContrato":"2026-07-01","sgUnidadeGestora":"EMDAGRO","cdLicitacao":"1730112022000071","cdUnidadeGestora":"173011","nmFiscal":"GILBERTO SOUZA NUNES","nuDocumentoContratado":"34968784520","nmContratado":"CLARICE SILVEIRA DOS SANTOS","dsQualificador":"FISCAL DE CONTRATO","dtAnoExercicio":2025,"cdContrato":"1730112025000038","dtInicioVigenciaContrato":"2025-07-01"},{"dtFimVigenciaContrato":"2026-07-10","sgUnidadeGestora":"EMDAGRO","cdLicitacao":"1730112022000078","cdUnidadeGestora":"1
+2025-07-29 14:02:21.920 INFO  [8972b712] [DATABASE] [DELETE_consumer_sefaz.contratos_fiscais] - 🗄️ DB DELETE na tabela consumer_sefaz.contratos_fiscais | RECORDS: 0 | DURATION: 10ms
+2025-07-29 14:02:21.979 INFO  [8972b712] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 0ms
+2025-07-29 14:02:21.979 INFO  [8972b712] [DATABASE] [INSERT_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 59ms
+2025-07-29 14:02:21.979 INFO  [8972b712] [DATABASE] [INSERT_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 69ms
+2025-07-29 14:02:21.979 INFO  [N/A] [APP] [UNKNOWN] - Contratos Fiscais processados: 2
+2025-07-29 14:02:21.980 INFO  [8731f3d1] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - === EXECUÇÃO CONCLUÍDA ===
+2025-07-29 14:02:21.980 INFO  [8731f3d1] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Tempo total: 13249 ms
+2025-07-29 14:02:21.980 INFO  [8731f3d1] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Total de registros processados: 121
+2025-07-29 14:02:21.980 INFO  [8731f3d1] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Resultados por tipo: {UnidadeGestora=119, ContratosFiscais=2}
+2025-07-29 14:24:56.852 INFO  [N/A] [APP] [UNKNOWN] - Initializing Servlet 'dispatcherServlet'
+2025-07-29 14:24:56.856 INFO  [N/A] [APP] [UNKNOWN] - Completed initialization in 2 ms
+2025-07-29 14:24:59.263 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 27372 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-07-29 14:24:59.263 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-07-29 14:24:59.650 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-29 14:24:59.758 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean
+2025-07-29 14:24:59.775 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-07-29 14:24:59.785 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-07-29 14:24:59.786 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-07-29 14:24:59.871 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-29 14:25:00.062 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 0.837 seconds (process running for 1381.345)
+2025-07-29 14:25:01.221 INFO  [N/A] [APP] [UNKNOWN] - Initializing Servlet 'dispatcherServlet'
+2025-07-29 14:25:01.222 INFO  [N/A] [APP] [UNKNOWN] - Completed initialization in 1 ms
+2025-07-29 14:25:05.079 INFO  [4d78b447] [APPLICATION] [SCHEDULER_STARTUP_TEST] - 🔸 [14:25:05.079] SCHEDULER_STARTUP_TEST | Execução de teste do scheduler
+2025-07-29 14:25:05.080 INFO  [4d78b447] [SCHEDULER] [STARTUP_TEST] - === INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER ===
+2025-07-29 14:25:05.080 INFO  [67806a11] [SCHEDULER] [SCHEDULED_EXECUTION] - === INICIANDO CONSUMO DE UNIDADES GESTORAS ===
+2025-07-29 14:25:05.215 INFO  [67806a11] [SECURITY] [AUTH_SUCCESS] - ✅ AUTENTICAÇÃO SUCESSO | Cliente: 87f72053 | Endpoint: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token | DURATION: 132ms | ID: 67806a11
+2025-07-29 14:25:05.216 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-07-29 14:25:05.216 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-07-29 14:25:05.333 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 17988
+2025-07-29 14:25:05.333 INFO  [33d47bb8] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E | STATUS: 200 | DURATION: 251ms | REQUEST: 0 B | RESPONSE: 17,61 KB
+2025-07-29 14:25:05.334 INFO  [33d47bb8] [API_CLIENT] [API_CALL] - Resposta da API recebida. Status: 200 OK | URL: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-07-29 14:25:05.334 INFO  [33d47bb8] [API_CLIENT] [API_CALL] - Processando JSON da resposta...
+2025-07-29 14:25:05.334 INFO  [33d47bb8] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"nmUnidadeGestora":"ASSEMBLÉIA LEGISLATIVA","sgUnidadeGestora":"ALESE","cdUnidadeGestora":"011011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"FUNDO DE MODERNIZAÇÃO DO TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE
+2025-07-29 14:25:05.337 INFO  [33d47bb8] [API_CLIENT] [API_CALL] - Dados processados com sucesso: 119 registros
+2025-07-29 14:25:07.718 INFO  [33d47bb8] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.unidade_gestora | RECORDS: 100 | DURATION: 0ms
+2025-07-29 14:25:08.067 INFO  [33d47bb8] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 0ms
+2025-07-29 14:25:08.067 INFO  [33d47bb8] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 2,73s
+2025-07-29 14:25:08.067 INFO  [33d47bb8] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 2,73s
+2025-07-29 14:25:08.068 INFO  [N/A] [APP] [UNKNOWN] - Unidades Gestoras processadas: 119
+2025-07-29 14:25:10.084 INFO  [N/A] [APP] [UNKNOWN] - === INICIANDO CONSUMO DE CONTRATOS FISCAIS ===
+2025-07-29 14:25:10.144 INFO  [5660300a] [SECURITY] [AUTH_SUCCESS] - ✅ AUTENTICAÇÃO SUCESSO | Cliente: 87f72053 | Endpoint: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token | DURATION: 25ms | ID: 5660300a
+2025-07-29 14:25:10.144 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais?cdUnidadeGestora=173011&dtAnoExercicio=2025&nuMes=7&cdQualificador=133
+2025-07-29 14:25:10.144 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-07-29 14:25:10.328 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 780
+2025-07-29 14:25:10.328 INFO  [0ac63a32] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais?cdUnidadeGestora=173011&dtAnoExercicio=2025&nuMes=7&cdQualificador=133 | STATUS: 200 | DURATION: 210ms | REQUEST: 0 B | RESPONSE: 780 B
+2025-07-29 14:25:10.329 INFO  [0ac63a32] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtFimVigenciaContrato":"2026-07-01","sgUnidadeGestora":"EMDAGRO","cdLicitacao":"1730112022000071","cdUnidadeGestora":"173011","nmFiscal":"GILBERTO SOUZA NUNES","nuDocumentoContratado":"34968784520","nmContratado":"CLARICE SILVEIRA DOS SANTOS","dsQualificador":"FISCAL DE CONTRATO","dtAnoExercicio":2025,"cdContrato":"1730112025000038","dtInicioVigenciaContrato":"2025-07-01"},{"dtFimVigenciaContrato":"2026-07-10","sgUnidadeGestora":"EMDAGRO","cdLicitacao":"1730112022000078","cdUnidadeGestora":"1
+2025-07-29 14:25:10.350 INFO  [0ac63a32] [DATABASE] [DELETE_consumer_sefaz.contratos_fiscais] - 🗄️ DB DELETE na tabela consumer_sefaz.contratos_fiscais | RECORDS: 0 | DURATION: 20ms
+2025-07-29 14:25:10.424 INFO  [0ac63a32] [DATABASE] [INSERT_PROGRESS_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT_PROGRESS na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 0ms
+2025-07-29 14:25:10.425 INFO  [0ac63a32] [DATABASE] [INSERT_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 75ms
+2025-07-29 14:25:10.425 INFO  [0ac63a32] [DATABASE] [INSERT_consumer_sefaz.contratos_fiscais] - 🗄️ DB INSERT na tabela consumer_sefaz.contratos_fiscais | RECORDS: 2 | DURATION: 95ms
+2025-07-29 14:25:10.425 INFO  [N/A] [APP] [UNKNOWN] - Contratos Fiscais processados: 2
+2025-07-29 14:25:10.425 INFO  [fddbee04] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - === EXECUÇÃO CONCLUÍDA ===
+2025-07-29 14:25:10.425 INFO  [fddbee04] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Tempo total: 5345 ms
+2025-07-29 14:25:10.425 INFO  [fddbee04] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Total de registros processados: 121
+2025-07-29 14:25:10.425 INFO  [fddbee04] [SCHEDULER] [SCHEDULED_CONTRACT_CONSUMPTION] - Resultados por tipo: {UnidadeGestora=119, ContratosFiscais=2}
