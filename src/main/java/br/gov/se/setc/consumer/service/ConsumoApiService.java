@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
 
+import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
@@ -43,17 +44,20 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private List<String> ugCdArray;
     private final UnifiedLogger unifiedLogger;
     private UserFriendlyLogger userFriendlyLogger;
+    private MarkdownLogger markdownLogger;
 
     public ConsumoApiService(RestTemplate restTemplate,
     AcessoTokenService acessoTokenService,
     JdbcTemplate jdbcTemplate, ValidacaoUtil<T> utilsService,
-    UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger, Class<T> type) {
+    UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger,
+    MarkdownLogger markdownLogger, Class<T> type) {
         this.restTemplate = restTemplate;
         this.acessoTokenService = acessoTokenService;
         this.utilsService = utilsService;
         this.typeClass = type;
         this.unifiedLogger = unifiedLogger;
         this.userFriendlyLogger = userFriendlyLogger;
+        this.markdownLogger = markdownLogger;
         contratosFiscaisDAO = new EndpontSefazRepository<T>(jdbcTemplate, unifiedLogger);
         this.ugCdArray = utilsService.getUgs();
     }
@@ -76,6 +80,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         // Log técnico para arquivo
         unifiedLogger.logOperationStart("CONTRACT_CONSUMER", operation, "ENDPOINT", endpoint);
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Consumo de " + dataType.substring(0, 1).toUpperCase() + dataType.substring(1));
+        markdownSection.info("Endpoint: " + endpoint)
+                      .progress("Iniciando consumo de dados...");
 
         long startTime = System.currentTimeMillis();
         List<T> resultList = new ArrayList<>();
@@ -118,6 +127,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
                 logger.warning(errorMessage + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
 
+                // Log em markdown para dados não encontrados
+                markdownSection.warning("Nenhum dado encontrado")
+                              .info("Pode ser normal se não houver dados para o período")
+                              .summary("0 registros processados")
+                              .log();
+
                 // Em vez de lançar exceção, vamos apenas retornar uma lista vazia
                 // throw new RuntimeException(errorMessage);
                 return new ArrayList<>();
@@ -126,8 +141,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Log simples para usuário
             userFriendlyLogger.logDataFound(dataType, totalRecordsProcessed);
 
+            // Log em markdown para dados encontrados
+            markdownSection.success(totalRecordsProcessed + " registros encontrados");
+
             if (totalRecordsProcessed > 0) {
                 userFriendlyLogger.logSavingStart();
+                markdownSection.progress("Salvando dados no banco...");
             }
 
             // Log de persistência
@@ -143,11 +162,24 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Log simples para usuário
             if (totalRecordsProcessed > 0) {
                 userFriendlyLogger.logDataSaved(totalRecordsProcessed);
+                markdownSection.success("Dados salvos no banco", persistTime);
             }
             userFriendlyLogger.logOperationComplete(totalTime);
 
             // Log técnico para arquivo
             unifiedLogger.logOperationSuccess("CONTRACT_CONSUMER", operation, totalTime, totalRecordsProcessed, "ENDPOINT", endpoint);
+
+            // Finalizar log markdown com estatísticas
+            markdownSection.info("📊 Estatísticas:")
+                          .info("  • Registros processados: " + totalRecordsProcessed)
+                          .info("  • Tempo de persistência: " + persistTime + "ms")
+                          .info("  • Tabela: " + mapper.getTabelaBanco());
+
+            if (totalTime > 10000) { // Mais de 10 segundos
+                markdownSection.warning("Operação demorou mais que 10 segundos");
+            }
+
+            markdownSection.logWithSummary(totalRecordsProcessed);
 
             return resultList;
 
@@ -159,6 +191,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
             // Log técnico para arquivo
             unifiedLogger.logOperationError("CONTRACT_CONSUMER", operation, totalTime, e, "ENDPOINT", endpoint);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha na operação: " + e.getMessage())
+                          .info("Tempo até falha: " + totalTime + "ms")
+                          .summary("Operação interrompida por erro")
+                          .log();
             throw e;
         } finally {
             MDCUtil.clear();
@@ -206,6 +244,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 int responseSize = response.getBody() != null ? LoggingUtils.calculateSizeInBytes(response.getBody()) : 0;
                 unifiedLogger.logApiCall(apiUrl, "GET", statusCode, responseTime, 0, responseSize);
 
+                // Log estruturado em markdown para chamada de API
+                logApiCallToMarkdown(apiUrl, statusCode, responseTime, responseSize, null);
+
                 return response;
 
             } catch (Exception e) {
@@ -215,6 +256,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
                 // Log de erro na API
                 unifiedLogger.logApiCall(apiUrl, "GET", 500, responseTime, 0, 0);
+
+                // Log estruturado em markdown para erro de API
+                logApiCallToMarkdown(apiUrl, 500, responseTime, 0, e);
 
                 return null;
             }
@@ -510,5 +554,53 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return resultadoTodosAnos;
     }
 
-    
+    /**
+     * Log estruturado em markdown para chamadas de API
+     */
+    private void logApiCallToMarkdown(String apiUrl, int statusCode, long responseTime, int responseSize, Exception error) {
+        try {
+            String endpoint = apiUrl.contains("?") ? apiUrl.substring(0, apiUrl.indexOf("?")) : apiUrl;
+            String title = "Chamada de API SEFAZ";
+
+            if (error != null) {
+                // Log de erro de API
+                markdownLogger.logError(title, "Falha na chamada: " + endpoint, error);
+            } else {
+                // Log de sucesso de API
+                MarkdownLogger.MarkdownSection section = markdownLogger.startSection(title);
+
+                if (statusCode == 200) {
+                    section.success("GET " + endpoint + " - Status: " + statusCode, responseTime);
+                } else if (statusCode >= 400) {
+                    section.error("GET " + endpoint + " - Status: " + statusCode + " (Erro HTTP)");
+                } else {
+                    section.warning("GET " + endpoint + " - Status: " + statusCode + " (Status não-200)");
+                }
+
+                section.info("📊 Detalhes da chamada:")
+                      .info("  • Tempo de resposta: " + responseTime + "ms")
+                      .info("  • Tamanho da resposta: " + formatBytes(responseSize))
+                      .info("  • Endpoint: " + endpoint);
+
+                if (responseTime > 5000) {
+                    section.warning("Chamada lenta detectada (>5s)");
+                }
+
+                section.log();
+            }
+        } catch (Exception e) {
+            // Evitar que erros de logging quebrem a aplicação
+            logger.warning("Erro ao registrar log de API em markdown: " + e.getMessage());
+        }
+    }
+
+    /**
+     * Formata bytes em formato legível
+     */
+    private String formatBytes(int bytes) {
+        if (bytes < 1024) return bytes + " bytes";
+        if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
+        return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
+    }
+
 }
