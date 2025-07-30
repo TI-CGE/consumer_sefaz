@@ -92,6 +92,7 @@
     <!-- Logger simplificado -->
     <logger name="SIMPLE" level="INFO" additivity="false">
         <appender-ref ref="SIMPLE_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>
 

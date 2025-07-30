@@ -15,8 +15,10 @@ import java.util.UUID;
  */
 @Component
 public class SimpleLogger {
-    
+
     private static final Logger logger = LoggerFactory.getLogger("SIMPLE");
+    private static final Logger errorLogger = LoggerFactory.getLogger(SimpleLogger.class);
+    private static final Logger markdownLogger = LoggerFactory.getLogger("MARKDOWN");
     private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm:ss");
     
     /**
@@ -57,15 +59,25 @@ public class SimpleLogger {
      */
     public void error(String component, String message) {
         setContext(component);
+        // Log no formato simples
         logger.error("{} | {} | ❌ {}", getCurrentTime(), component, message);
+        // Log técnico para arquivo de erros
+        errorLogger.error("ERRO em {} - {}", component, message);
+        // Log estruturado em markdown
+        logErrorToMarkdown(component, message, null);
     }
-    
+
     /**
      * Log de erro com exceção
      */
     public void error(String component, String message, Exception e) {
         setContext(component);
+        // Log no formato simples
         logger.error("{} | {} | ❌ {}: {}", getCurrentTime(), component, message, e.getMessage());
+        // Log técnico completo para arquivo de erros
+        errorLogger.error("ERRO em {} - {}: {}", component, message, e.getMessage(), e);
+        // Log estruturado em markdown
+        logErrorToMarkdown(component, message, e);
     }
     
     /**
@@ -116,5 +128,33 @@ public class SimpleLogger {
         if (MDC.get("correlationId") == null) {
             MDC.put("correlationId", UUID.randomUUID().toString().substring(0, 8));
         }
+    }
+
+    /**
+     * Log de erro estruturado em markdown
+     */
+    private void logErrorToMarkdown(String component, String message, Exception e) {
+        StringBuilder markdownError = new StringBuilder();
+        markdownError.append("\n## ").append(getCurrentTime()).append(" | ❌ ERRO em ").append(component).append("\n");
+        markdownError.append("- 🚨 **Erro**: ").append(message).append("\n");
+
+        if (e != null) {
+            markdownError.append("- 🔍 **Tipo**: ").append(e.getClass().getSimpleName()).append("\n");
+            markdownError.append("- 📋 **Detalhes**: ").append(e.getMessage()).append("\n");
+
+            // Adicionar algumas linhas do stack trace mais relevantes
+            StackTraceElement[] stackTrace = e.getStackTrace();
+            if (stackTrace.length > 0) {
+                markdownError.append("- 📍 **Local**: ").append(stackTrace[0].toString()).append("\n");
+            }
+        }
+
+        String correlationId = MDC.get("correlationId");
+        if (correlationId != null) {
+            markdownError.append("- 🔗 **Correlation ID**: ").append(correlationId).append("\n");
+        }
+
+        markdownError.append("\n");
+        markdownLogger.info(markdownError.toString());
     }
 }

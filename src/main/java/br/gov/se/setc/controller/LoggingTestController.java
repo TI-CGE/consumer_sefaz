@@ -3,6 +3,10 @@ package br.gov.se.setc.controller;
 import br.gov.se.setc.logging.SimpleLogger;
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.SimplifiedLoggingExample;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/test")
+@Tag(name = "Testes de Logging", description = "Endpoints para testar o sistema de logging simplificado")
 public class LoggingTestController {
     
     @Autowired
@@ -29,6 +34,14 @@ public class LoggingTestController {
      * Testa o sistema de logging simplificado
      */
     @GetMapping("/logging")
+    @Operation(
+        summary = "Testa o sistema de logging simplificado",
+        description = "Executa testes do SimpleLogger e MarkdownLogger para demonstrar o funcionamento do sistema"
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Testes executados com sucesso - verifique os arquivos de log"),
+        @ApiResponse(responseCode = "500", description = "Erro interno do servidor")
+    })
     public String testLogging() {
         simpleLogger.info("TEST", "Iniciando teste do sistema de logging");
         
