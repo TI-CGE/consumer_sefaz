@@ -1,8 +1,10 @@
 package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
+import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
@@ -36,12 +38,19 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("unidadeGestoraConsumoApiService")
     private ConsumoApiService<UnidadeGestoraDTO> unidadeGestoraService;
-    
+
+    @Autowired
+    @Qualifier("receitaConsumoApiService")
+    private ConsumoApiService<ReceitaDTO> receitaConsumoApiService;
+
     @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
     private UserFriendlyLogger userFriendlyLogger;
+
+    @Autowired
+    private MarkdownLogger markdownLogger;
     
     private boolean isFirstExecution = true;
     
@@ -52,7 +61,7 @@ public class ContractConsumptionScheduler {
     public void executeOnStartup() {
         CompletableFuture.runAsync(() -> {
             try {
-                Thread.sleep(5000); // Aguarda 5 segundos
+                Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
                 unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler");
@@ -97,11 +106,14 @@ public class ContractConsumptionScheduler {
     private void executeContractConsumption() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
         MDCUtil.setupOperationContext("SCHEDULER", "SCHEDULED_CONTRACT_CONSUMPTION");
-        
+
         long totalStartTime = System.currentTimeMillis();
         Map<String, Integer> processingResults = new HashMap<>();
         int totalRecordsProcessed = 0;
-        
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Automática do Scheduler");
+
         try {
             // Log simples para usuário
             userFriendlyLogger.logScheduledExecutionStart();
@@ -109,20 +121,30 @@ public class ContractConsumptionScheduler {
             // Log técnico para arquivo
             unifiedLogger.logOperationStart("SCHEDULER", "SCHEDULED_EXECUTION", "ENDPOINTS", "MULTIPLE_ENDPOINTS");
 
+            // Log estruturado em markdown
+            markdownSection.info("Iniciando consumo automático de dados da SEFAZ")
+                          .info("Correlation ID: " + correlationId);
+
             // 1. Consumir Unidades Gestoras primeiro (necessário para contratos)
             logger.info("=== INICIANDO CONSUMO DE UNIDADES GESTORAS ===");
+            markdownSection.progress("Processando Unidades Gestoras...");
+
             try {
+                long ugStartTime = System.currentTimeMillis();
                 UnidadeGestoraDTO ugDto = new UnidadeGestoraDTO();
                 List<UnidadeGestoraDTO> ugResults = unidadeGestoraService.consumirPersistir(ugDto);
                 int ugCount = ugResults != null ? ugResults.size() : 0;
                 processingResults.put("UnidadeGestora", ugCount);
                 totalRecordsProcessed += ugCount;
-                
+
+                long ugDuration = System.currentTimeMillis() - ugStartTime;
                 logger.info("Unidades Gestoras processadas: {}", ugCount);
+                markdownSection.success(ugCount + " Unidades Gestoras processadas", ugDuration);
                 
             } catch (Exception e) {
                 logger.error("Erro ao consumir Unidades Gestoras", e);
                 processingResults.put("UnidadeGestora", 0);
+                markdownSection.error("Falha no processamento de Unidades Gestoras: " + e.getMessage());
             }
             
             // 2. Aguardar um pouco antes de consumir contratos
@@ -130,18 +152,49 @@ public class ContractConsumptionScheduler {
             
             // 3. Consumir Contratos Fiscais
             logger.info("=== INICIANDO CONSUMO DE CONTRATOS FISCAIS ===");
+            markdownSection.progress("Processando Contratos Fiscais...");
+
             try {
+                long cfStartTime = System.currentTimeMillis();
                 ContratosFiscaisDTO contratoDto = new ContratosFiscaisDTO();
                 List<ContratosFiscaisDTO> contratoResults = contratosFiscaisService.consumirPersistir(contratoDto);
                 int contratoCount = contratoResults != null ? contratoResults.size() : 0;
                 processingResults.put("ContratosFiscais", contratoCount);
                 totalRecordsProcessed += contratoCount;
-                
+
+                long cfDuration = System.currentTimeMillis() - cfStartTime;
                 logger.info("Contratos Fiscais processados: {}", contratoCount);
+                markdownSection.success(contratoCount + " Contratos Fiscais processados", cfDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos Fiscais", e);
+                processingResults.put("ContratosFiscais", 0);
+                markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
+            }
+
+            // 4. Aguardar um pouco antes de consumir receita
+            Thread.sleep(2000);
+
+            // 5. Consumir Receita
+            logger.info("=== INICIANDO CONSUMO DE RECEITA ===");
+            markdownSection.progress("Processando Receita...");
+
+            try {
+                long receitaStartTime = System.currentTimeMillis();
+                ReceitaDTO receitaDto = new ReceitaDTO();
+                List<ReceitaDTO> receitaResults = receitaConsumoApiService.consumirPersistir(receitaDto);
+                int receitaCount = receitaResults != null ? receitaResults.size() : 0;
+                processingResults.put("Receita", receitaCount);
+                totalRecordsProcessed += receitaCount;
+
+                long receitaDuration = System.currentTimeMillis() - receitaStartTime;
+                logger.info("Receita processada: {}", receitaCount);
+                markdownSection.success(receitaCount + " registros de Receita processados", receitaDuration);
                 
             } catch (Exception e) {
                 logger.error("Erro ao consumir Contratos Fiscais", e);
                 processingResults.put("ContratosFiscais", 0);
+                markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
             }
             
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
@@ -152,6 +205,20 @@ public class ContractConsumptionScheduler {
             // Log técnico para arquivo
             unifiedLogger.logOperationSuccess("SCHEDULER", "SCHEDULED_CONTRACT_CONSUMPTION",
                 totalExecutionTime, totalRecordsProcessed, "RESULTS", processingResults.toString());
+
+            // Adicionar estatísticas ao log markdown
+            if (totalRecordsProcessed > 0) {
+                markdownSection.info("📊 Estatísticas de processamento:")
+                              .info("  • Unidades Gestoras: " + processingResults.getOrDefault("UnidadeGestora", 0))
+                              .info("  • Contratos Fiscais: " + processingResults.getOrDefault("ContratosFiscais", 0));
+
+                if (totalExecutionTime > 30000) { // Mais de 30 segundos
+                    markdownSection.warning("Execução demorou mais que 30 segundos");
+                }
+            }
+
+            // Finalizar log markdown com resumo
+            markdownSection.logWithSummary(totalRecordsProcessed);
 
             logger.info("=== EXECUÇÃO CONCLUÍDA ===");
             logger.info("Tempo total: {} ms", totalExecutionTime);
@@ -168,6 +235,11 @@ public class ContractConsumptionScheduler {
             unifiedLogger.logOperationError("SCHEDULER", "SCHEDULED_EXECUTION", totalExecutionTime, e,
                 "ENDPOINTS", "MULTIPLE_ENDPOINTS");
             logger.error("Erro durante execução do scheduler", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha crítica na execução: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
         } finally {
             isFirstExecution = false;
             MDCUtil.clear();
