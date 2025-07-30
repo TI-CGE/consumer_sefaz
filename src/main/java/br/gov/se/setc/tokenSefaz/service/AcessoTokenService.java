@@ -32,7 +32,7 @@ public class AcessoTokenService {
     @LogOperation(operation = "GET_TOKEN", component = "SECURITY", logParameters = false, logResult = false, slowOperationThresholdMs = 5000)
     public String getToken() {
         String clientId = "87f72053";
-        String clientSecret = "ee84146bb06f9fc7e6aca34bb84ca1a2";
+        String clientSecret = "44019d983f556130ee774f1a36e5bcc2";
         String grantType = "client_credentials";
         String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
 
