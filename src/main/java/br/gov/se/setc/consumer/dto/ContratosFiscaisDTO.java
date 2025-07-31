@@ -198,11 +198,13 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     }
 
 
-    public int getDtAnoExercicio() {
+    public Integer getDtAnoExercicio() {
         return dtAnoExercicio;
     }
 
-
+    public void setDtAnoExercicio(Integer dtAnoExercicio) {
+        this.dtAnoExercicio = dtAnoExercicio;
+    }
 
     public String getCdContrato() {
         return cdContrato;

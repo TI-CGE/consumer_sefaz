@@ -1,1 +1,184 @@
-2025-07-30 07:42:25.341 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:04:59.139 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:04:59.142 ERROR [60d328af] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=182011&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 179ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:05:16.188 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:05:16.192 ERROR [3a3c127b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=101011&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 471ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:40.055 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:40.059 ERROR [42ae464e] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=135011&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 191ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:50.268 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:50.273 ERROR [de055874] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=141011&nuAnoCelebracao=2024 | STATUS: 500 | DURATION: 100ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:51.720 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:51.722 ERROR [866fbda0] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=374021&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 118ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:53.774 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:53.778 ERROR [b6cfdbf0] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=244041&nuAnoCelebracao=2023 | STATUS: 500 | DURATION: 126ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:55.169 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:55.171 ERROR [39dd8554] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=132011&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 177ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:56.442 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:56.445 ERROR [ce218de2] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=244051&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 153ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:08:58.527 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:08:58.529 ERROR [d1ac5393] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=411011&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 156ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:00.429 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:00.431 ERROR [ffcc299e] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=291051&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 99ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:01.064 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:01.067 ERROR [ded7ca8f] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=263021&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 549ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:02.649 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:02.652 ERROR [cb4f7f58] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=144031&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 101ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:03.117 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:03.119 ERROR [dc22c3bf] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=114021&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 96ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:04.562 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:04.564 ERROR [60efc0c9] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=404011&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 118ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:04.813 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:04.817 ERROR [b583f553] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=132011&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 83ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:05.517 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:05.521 ERROR [5c3ea781] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=324011&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 122ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:05.873 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:05.877 ERROR [e6220d7e] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=131011&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 106ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:06.451 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:06.455 ERROR [37b28a21] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=244051&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 118ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:07.112 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:07.114 ERROR [185c3fba] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=281011&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 119ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:07.783 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:07.786 ERROR [428379c7] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=111011&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 120ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:08.044 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:08.047 ERROR [38e59b4b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=261061&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 122ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:09.961 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:09.965 ERROR [0d8386ce] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=151041&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 101ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:10.318 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:10.320 ERROR [11b6db75] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=262031&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 113ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:11.735 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:11.739 ERROR [5854bdf6] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=144031&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 118ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:12.071 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:12.074 ERROR [5c78fd2b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=114021&nuAnoCelebracao=2024 | STATUS: 500 | DURATION: 87ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:12.974 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:12.978 ERROR [d4c4e183] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=241131&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 119ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:13.630 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:13.634 ERROR [783e90b0] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=404011&nuAnoCelebracao=2025 | STATUS: 500 | DURATION: 129ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:14.790 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:14.794 ERROR [c3561a03] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=173021&nuAnoCelebracao=2024 | STATUS: 500 | DURATION: 116ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:16.778 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:16.781 ERROR [b9daecd3] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=242021&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 93ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:17.095 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:17.097 ERROR [65b3641a] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=231011&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 156ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:18.665 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:18.667 ERROR [1668cf48] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=391011&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 125ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:18.859 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:18.861 ERROR [f1cb789b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=251011&nuAnoCelebracao=2024 | STATUS: 500 | DURATION: 94ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:20.305 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:20.307 ERROR [fbedf9a9] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=214021&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 158ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:22.039 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:22.040 ERROR [49be7873] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=421011&nuAnoCelebracao=2023 | STATUS: 500 | DURATION: 118ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:22.521 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:22.522 ERROR [5e9cfd5e] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=322011&nuAnoCelebracao=2024 | STATUS: 500 | DURATION: 120ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:22.954 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:22.957 ERROR [77d383af] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=191051&nuAnoCelebracao=2022 | STATUS: 500 | DURATION: 140ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:23.532 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:23.534 ERROR [4aad024a] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=214011&nuAnoCelebracao=2023 | STATUS: 500 | DURATION: 101ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:23.716 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:23.718 ERROR [12b7b17b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=214011&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 110ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:24.794 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:24.796 ERROR [8ead939f] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=351011&nuAnoCelebracao=2021 | STATUS: 500 | DURATION: 103ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:25.423 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-07-31 10:09:25.425 ERROR [e904e6c6] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita?cdUnidadeGestora=244021&nuAnoCelebracao=2020 | STATUS: 500 | DURATION: 154ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-07-31 10:09:53.118 ERROR [7ca551ac] [CONTRACT_CONSUMER] [UNKNOWN] - 10:09:53 | CONTRACT_CONSUMER | ❌ Falha na conexão com API: Connection timeout: Unable to connect to SEFAZ API
+2025-07-31 10:09:53.118 ERROR [7ca551ac] [CONTRACT_CONSUMER] [UNKNOWN] - ERRO em CONTRACT_CONSUMER - Falha na conexão com API: Connection timeout: Unable to connect to SEFAZ API
+java.lang.RuntimeException: Connection timeout: Unable to connect to SEFAZ API
+	at br.gov.se.setc.controller.ErrorTestController.testApiConnectionError(ErrorTestController.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-07-31 10:09:53.119 ERROR [7ca551ac] [CONTRACT_CONSUMER] [CONSUMIR_CONTRATOS] - 10:09:53 | CONTRACT_CONSUMER | ❌ CONSUMIR_CONTRATOS | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais: Connection timeout: Unable to connect to SEFAZ API
+2025-07-31 10:09:53.119 ERROR [7ca551ac] [CONTRACT_CONSUMER] [CONSUMIR_CONTRATOS] - ERRO em CONTRACT_CONSUMER - CONSUMIR_CONTRATOS | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais: Connection timeout: Unable to connect to SEFAZ API
+java.lang.RuntimeException: Connection timeout: Unable to connect to SEFAZ API
+	at br.gov.se.setc.controller.ErrorTestController.testApiConnectionError(ErrorTestController.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
