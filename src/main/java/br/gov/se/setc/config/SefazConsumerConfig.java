@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Logger;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
@@ -132,6 +133,35 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<ReceitaDTO> receitaValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating Receita ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("pagamentoConsumoApiService")
+    public ConsumoApiService<PagamentoDTO> pagamentoConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<PagamentoDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating Pagamento ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            PagamentoDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<PagamentoDTO> pagamentoValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating Pagamento ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }
