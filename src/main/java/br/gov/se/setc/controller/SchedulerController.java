@@ -116,6 +116,37 @@ public class SchedulerController {
     }
     
     /**
+     * Executa manualmente apenas o processamento de Pagamento
+     */
+    @PostMapping("/execute/pagamento")
+    @Operation(summary = "Executar Apenas Pagamento", description = "Executa manualmente apenas o processamento da entidade Pagamento")
+    @LogOperation(operation = "MANUAL_PAGAMENTO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePagamentoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Pagamento solicitada via endpoint");
+            Map<String, Object> result = scheduler.executePagamentoManually();
+
+            logger.info("Execução manual de Pagamento concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de Pagamento via endpoint", e);
+
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execução manual de Pagamento: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
      * Endpoint de teste simples
      */
     @GetMapping("/ping")
@@ -125,7 +156,7 @@ public class SchedulerController {
         response.put("status", "OK");
         response.put("message", "Scheduler controller is running");
         response.put("timestamp", System.currentTimeMillis());
-        
+
         return ResponseEntity.ok(response);
     }
 }
