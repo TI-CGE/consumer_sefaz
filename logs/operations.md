@@ -7901,3 +7901,16318 @@
 - ⚠️ Execução demorou mais que 15 segundos
 - ⏱️ **Total: 149 registros | Tempo total: 17,0s**
 
+
+## 11:31:08 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:31:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 64,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 153 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 6,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 702 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 920 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 1,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+
+
+## 11:31:25 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: ec9d0a36
+
+
+
+## 11:31:18 | Consumo de Ordens de fornecimento
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/ordem-fornecimento
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 6940ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 6,9s**
+
+
+## 11:31:25 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 380f5e18
+
+
+
+## 11:31:18 | Execução Específica - Ordem de Fornecimento
+- 📋 Iniciando consumo específico de Ordens de Fornecimento da SEFAZ
+- 📋 Correlation ID: e9e62b8d
+- 🔄 Processando Ordens de Fornecimento...
+- ❌ Falha no processamento de Ordens de Fornecimento: Failed to obtain JDBC Connection
+- ⏱️ **Total: 0 registros | Tempo total: 6,9s**
+
+
+## 11:35:45 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:35:47 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:35:55 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 687b8891
+
+
+
+## 11:35:55 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 0ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 1ms**
+
+
+## 11:35:55 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 14e2acfa
+
+
+
+## 11:35:55 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: LIQUIDACAO_ONLY_CONSUMPTION | ENDPOINT: liquidacao
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 8eaf8bc7
+
+
+
+## 11:35:55 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:35:55.068334500
+- 📋 🔗 Correlation ID: 687b8891
+- 🔄 Processando Liquidações...
+- ❌ Falha no processamento de Liquidações: Failed to obtain JDBC Connection
+- ⏱️ **Execução interrompida por erro | Tempo total: 5ms**
+
+
+## 11:35:57 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:00 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:05 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:07 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:08 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:09 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:14 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:17 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:36:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:35:57 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ⚠️ Nenhum dado encontrado
+- 📋 Pode ser normal se não houver dados para o período
+- ⏱️ **0 registros processados | Tempo total: 40,6s**
+
+
+## 11:35:57 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:35:57.677265100
+- 📋 🔗 Correlation ID: 4902426f
+- 🔄 Processando Liquidações...
+- ✅ 0 registros de Liquidação processados (40,6s)
+- 📋 📊 Resumo da execução:
+- 📋   • Total de registros: 0
+- 📋   • Tempo de execução: 40633 ms
+- ⏱️ **Total: 0 registros | Tempo total: 40,6s**
+
+
+## 11:41:26 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:42 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:43 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:45 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:46 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:47 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:49 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:41:50 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:12 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:23 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 400 Bad Request: "Erro na leitura de parametros do request, pois existe pelo menos um parametro requisitado nulo. Parametro -> cdGestao = null"
+
+
+## 11:45:02 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1860ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3006ms
+- 📋   • Tamanho da resposta: 3,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3769ms
+- 📋   • Tamanho da resposta: 6,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3930ms
+- 📋   • Tamanho da resposta: 6,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2977ms
+- 📋   • Tamanho da resposta: 5,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (4,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4441ms
+- 📋   • Tamanho da resposta: 3,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3411ms
+- 📋   • Tamanho da resposta: 2,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 334,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1891ms
+- 📋   • Tamanho da resposta: 648,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1417ms
+- 📋   • Tamanho da resposta: 689,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (997ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 997ms
+- 📋   • Tamanho da resposta: 690,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1035ms
+- 📋   • Tamanho da resposta: 604,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (993ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 993ms
+- 📋   • Tamanho da resposta: 534,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 52,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 61,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 29,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 3,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (155ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 155ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (120ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 120ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 49,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 96,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 80,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (712ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 712ms
+- 📋   • Tamanho da resposta: 96,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (499ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 499ms
+- 📋   • Tamanho da resposta: 78,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 69,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (296ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 296ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 131,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 33,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 4,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 738 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (115ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 115ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 87,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1071ms
+- 📋   • Tamanho da resposta: 209,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (512ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 512ms
+- 📋   • Tamanho da resposta: 285,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1233ms
+- 📋   • Tamanho da resposta: 429,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (877ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 877ms
+- 📋   • Tamanho da resposta: 195,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (378ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 378ms
+- 📋   • Tamanho da resposta: 101,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (122ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 122ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (426ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 426ms
+- 📋   • Tamanho da resposta: 849,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2180ms
+- 📋   • Tamanho da resposta: 1,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1829ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1782ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1302ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1222ms
+- 📋   • Tamanho da resposta: 768,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 357,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (827ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 827ms
+- 📋   • Tamanho da resposta: 671,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1962ms
+- 📋   • Tamanho da resposta: 791,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1037ms
+- 📋   • Tamanho da resposta: 662,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (789ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 789ms
+- 📋   • Tamanho da resposta: 571,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1795ms
+- 📋   • Tamanho da resposta: 3,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1036ms
+- 📋   • Tamanho da resposta: 559,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 398,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1404ms
+- 📋   • Tamanho da resposta: 723,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1292ms
+- 📋   • Tamanho da resposta: 570,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (941ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 941ms
+- 📋   • Tamanho da resposta: 591,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (732ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 732ms
+- 📋   • Tamanho da resposta: 473,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3681ms
+- 📋   • Tamanho da resposta: 6,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (939ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 939ms
+- 📋   • Tamanho da resposta: 396,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 89,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 90,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 245,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (867ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 867ms
+- 📋   • Tamanho da resposta: 510,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (374ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 374ms
+- 📋   • Tamanho da resposta: 238,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 266,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (644ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 644ms
+- 📋   • Tamanho da resposta: 565,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (439ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 439ms
+- 📋   • Tamanho da resposta: 436,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (493ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 493ms
+- 📋   • Tamanho da resposta: 435,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (689ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 689ms
+- 📋   • Tamanho da resposta: 421,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2569ms
+- 📋   • Tamanho da resposta: 6,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (544ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 544ms
+- 📋   • Tamanho da resposta: 460,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (464ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 464ms
+- 📋   • Tamanho da resposta: 76,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 116,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (686ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 686ms
+- 📋   • Tamanho da resposta: 270,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (467ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 467ms
+- 📋   • Tamanho da resposta: 278,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (713ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 713ms
+- 📋   • Tamanho da resposta: 335,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (369ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 369ms
+- 📋   • Tamanho da resposta: 230,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (404ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 404ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 102,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (807ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 807ms
+- 📋   • Tamanho da resposta: 487,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (444ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 444ms
+- 📋   • Tamanho da resposta: 218,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2764ms
+- 📋   • Tamanho da resposta: 5,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (359ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 359ms
+- 📋   • Tamanho da resposta: 190,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (664ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 664ms
+- 📋   • Tamanho da resposta: 146,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 119,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 129,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (627ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 627ms
+- 📋   • Tamanho da resposta: 293,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (759ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 759ms
+- 📋   • Tamanho da resposta: 247,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (799ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 799ms
+- 📋   • Tamanho da resposta: 231,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (592ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 592ms
+- 📋   • Tamanho da resposta: 257,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 207,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1799ms
+- 📋   • Tamanho da resposta: 3,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (123ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 123ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 173,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1538ms
+- 📋   • Tamanho da resposta: 2,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1043ms
+- 📋   • Tamanho da resposta: 354,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (502ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 502ms
+- 📋   • Tamanho da resposta: 301,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (447ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 447ms
+- 📋   • Tamanho da resposta: 246,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1028ms
+- 📋   • Tamanho da resposta: 220,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 201,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (640ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 640ms
+- 📋   • Tamanho da resposta: 334,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (577ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 577ms
+- 📋   • Tamanho da resposta: 577,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (354ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 354ms
+- 📋   • Tamanho da resposta: 648,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 689,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 690,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2178ms
+- 📋   • Tamanho da resposta: 813,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (502ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 502ms
+- 📋   • Tamanho da resposta: 604,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 534,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (935ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 935ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (472ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 472ms
+- 📋   • Tamanho da resposta: 52,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 61,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1579ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (136ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 136ms
+- 📋   • Tamanho da resposta: 29,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (115ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 115ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (336ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 336ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 3,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (944ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 944ms
+- 📋   • Tamanho da resposta: 824,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 2,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (524ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 524ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1428ms
+- 📋   • Tamanho da resposta: 726,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 122,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 49,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 96,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (654ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 654ms
+- 📋   • Tamanho da resposta: 337,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 80,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 96,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 78,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 69,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (714ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 714ms
+- 📋   • Tamanho da resposta: 219,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 176,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (331ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 331ms
+- 📋   • Tamanho da resposta: 231,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 103,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 74,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (532ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 532ms
+- 📋   • Tamanho da resposta: 160,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 141,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 131,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (315ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 315ms
+- 📋   • Tamanho da resposta: 136,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 33,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 4,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 106,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 738 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 547,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (130ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 130ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 87,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 209,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 285,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 429,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 195,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 101,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (3,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3133ms
+- 📋   • Tamanho da resposta: 849,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (605ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 605ms
+- 📋   • Tamanho da resposta: 548,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (760ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 760ms
+- 📋   • Tamanho da resposta: 440,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (438ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 438ms
+- 📋   • Tamanho da resposta: 849,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (125ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 125ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (805ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 805ms
+- 📋   • Tamanho da resposta: 1,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (888ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 888ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 159,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 229,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 65,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (556ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 556ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 201,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (936ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 936ms
+- 📋   • Tamanho da resposta: 498,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (709ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 709ms
+- 📋   • Tamanho da resposta: 335,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (423ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 423ms
+- 📋   • Tamanho da resposta: 327,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (487ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 487ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (865ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 865ms
+- 📋   • Tamanho da resposta: 333,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 768,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (760ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 760ms
+- 📋   • Tamanho da resposta: 303,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (469ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 469ms
+- 📋   • Tamanho da resposta: 358,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (334ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 334ms
+- 📋   • Tamanho da resposta: 671,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 422,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 791,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (325ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 325ms
+- 📋   • Tamanho da resposta: 662,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1110ms
+- 📋   • Tamanho da resposta: 755,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 571,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 559,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1154ms
+- 📋   • Tamanho da resposta: 570,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (484ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 484ms
+- 📋   • Tamanho da resposta: 398,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (630ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 630ms
+- 📋   • Tamanho da resposta: 517,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (398ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 398ms
+- 📋   • Tamanho da resposta: 723,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (318ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 318ms
+- 📋   • Tamanho da resposta: 570,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (913ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 913ms
+- 📋   • Tamanho da resposta: 458,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 591,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (687ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 687ms
+- 📋   • Tamanho da resposta: 453,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 473,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 542,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 396,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (890ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 890ms
+- 📋   • Tamanho da resposta: 978,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 89,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 90,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 245,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (932ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 932ms
+- 📋   • Tamanho da resposta: 922,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (318ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 318ms
+- 📋   • Tamanho da resposta: 510,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 238,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 266,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1160ms
+- 📋   • Tamanho da resposta: 912,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (407ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 407ms
+- 📋   • Tamanho da resposta: 565,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 436,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (901ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 901ms
+- 📋   • Tamanho da resposta: 804,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (479ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 479ms
+- 📋   • Tamanho da resposta: 435,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (631ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 631ms
+- 📋   • Tamanho da resposta: 709,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (339ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 339ms
+- 📋   • Tamanho da resposta: 421,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (123ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 123ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (357ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 357ms
+- 📋   • Tamanho da resposta: 460,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 76,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 116,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 270,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (349ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 349ms
+- 📋   • Tamanho da resposta: 305,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 278,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 335,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 230,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 103,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 102,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (363ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 363ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 487,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 91,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 218,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 190,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 146,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:07 | ❌ ERRO em DATABASE
+- 🚨 **Erro**: INSERT_BATCH | TABLE: consumer_sefaz.liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 08ebecbf
+
+
+
+## 11:48:07 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 08ebecbf
+
+
+
+## 11:45:12 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ✅ 95668 registros encontrados
+- 🔄 Salvando dados no banco...
+- ❌ Falha na operação: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📋 Tempo até falha: 175214ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 2m 55s**
+
+
+## 11:48:07 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 3e5539b4
+
+
+
+## 11:48:07 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: LIQUIDACAO_ONLY_CONSUMPTION | ENDPOINT: liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 39c2ff91
+
+
+
+## 11:45:12 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:45:12.449135800
+- 📋 🔗 Correlation ID: 374f1dfd
+- 🔄 Processando Liquidações...
+- ❌ Falha no processamento de Liquidações: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- ⏱️ **Execução interrompida por erro | Tempo total: 2m 55s**
+
+
+## 11:48:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 119,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 129,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 293,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 247,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 231,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 257,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 207,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (141ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 141ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 173,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 354,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (410ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 410ms
+- 📋   • Tamanho da resposta: 301,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 246,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 220,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 201,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 577,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (593ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 593ms
+- 📋   • Tamanho da resposta: 813,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (695ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 695ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (707ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 707ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 824,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (352ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 352ms
+- 📋   • Tamanho da resposta: 726,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (430ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 430ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (291ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 291ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 122,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 337,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (155ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 155ms
+- 📋   • Tamanho da resposta: 219,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 176,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 231,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (358ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 358ms
+- 📋   • Tamanho da resposta: 103,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (130ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 130ms
+- 📋   • Tamanho da resposta: 74,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 160,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 151,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 141,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (136ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 136ms
+- 📋   • Tamanho da resposta: 136,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 106,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (487ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 487ms
+- 📋   • Tamanho da resposta: 547,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (782ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 782ms
+- 📋   • Tamanho da resposta: 849,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (773ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 773ms
+- 📋   • Tamanho da resposta: 580,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 548,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (612ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 612ms
+- 📋   • Tamanho da resposta: 499,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 440,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 159,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 229,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 65,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 201,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (487ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 487ms
+- 📋   • Tamanho da resposta: 498,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 335,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 327,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 333,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 303,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (315ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 315ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (296ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 296ms
+- 📋   • Tamanho da resposta: 422,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 755,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (566ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 566ms
+- 📋   • Tamanho da resposta: 570,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 517,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 458,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (340ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 340ms
+- 📋   • Tamanho da resposta: 453,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 542,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (448ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 448ms
+- 📋   • Tamanho da resposta: 978,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (495ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 495ms
+- 📋   • Tamanho da resposta: 922,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (627ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 627ms
+- 📋   • Tamanho da resposta: 912,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (431ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 431ms
+- 📋   • Tamanho da resposta: 804,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (728ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 728ms
+- 📋   • Tamanho da resposta: 709,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 305,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 103,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 91,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:48:57 | ❌ ERRO em DATABASE
+- 🚨 **Erro**: INSERT_BATCH | TABLE: consumer_sefaz.liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 88d24bc4
+
+
+
+## 11:48:57 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: 88d24bc4
+
+
+
+## 11:46:35 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ✅ 97140 registros encontrados
+- 🔄 Salvando dados no banco...
+- ❌ Falha na operação: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📋 Tempo até falha: 141151ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 2m 21s**
+
+
+## 11:48:57 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: c5ba9c96
+
+
+
+## 11:48:57 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: LIQUIDACAO_ONLY_CONSUMPTION | ENDPOINT: liquidacao
+- 🔍 **Tipo**: DataIntegrityViolationException
+- 📋 **Detalhes**: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:118)
+- 🔗 **Correlation ID**: e3e272a7
+
+
+
+## 11:46:35 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:46:35.882831100
+- 📋 🔗 Correlation ID: 06d5daae
+- 🔄 Processando Liquidações...
+- ❌ Falha no processamento de Liquidações: PreparedStatementCallback; SQL [INSERT INTO consumer_sefaz.liquidacao (sq_empenho, sq_liquidacao, dt_liquidacao, cd_unidade_gestora, sg_unidade_gestora, id_orgao, sg_orgao, id_orgao_supervisor, sg_orgao_supervisor, vl_bruto_liquidacao, nu_documento, tp_documento, dt_ano_exercicio_ctb, cd_gestao, nm_razao_social_pessoa, cd_natureza_despesa, vl_estornado_liquidacao, cd_funcao, nm_funcao, cd_sub_funcao, nm_sub_funcao, cd_elemento_despesa, cd_fonte_recurso, cd_licitacao, ds_objeto_licitacao, nu_processo_licitacao, nm_modalidade_licitacao) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]; ERROR: value too long for type character varying(255)
+- ⏱️ **Execução interrompida por erro | Tempo total: 2m 21s**
+
+
+## 11:50:08 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:50:28 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (406ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 406ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 61,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:50:38 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ✅ 70 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (3,7s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 70
+- 📋   • Tempo de persistência: 3697ms
+- 📋   • Tabela: consumer_sefaz.liquidacao
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 70 registros | Tempo total: 12,8s**
+
+
+## 11:50:38 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:50:38.605071700
+- 📋 🔗 Correlation ID: 8949709d
+- 🔄 Processando Liquidações...
+- ✅ 70 registros de Liquidação processados (12,8s)
+- 📋 📊 Resumo da execução:
+- 📋   • Total de registros: 70
+- 📋   • Tempo de execução: 12845 ms
+- ⏱️ **Total: 70 registros | Tempo total: 12,8s**
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (136ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 136ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (332ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 332ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 61,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:51:05 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ✅ 70 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (4,0s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 70
+- 📋   • Tempo de persistência: 4027ms
+- 📋   • Tabela: consumer_sefaz.liquidacao
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 70 registros | Tempo total: 12,5s**
+
+
+## 11:51:05 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:51:05.947630300
+- 📋 🔗 Correlation ID: 078b12f5
+- 🔄 Processando Liquidações...
+- ✅ 70 registros de Liquidação processados (12,5s)
+- 📋 📊 Resumo da execução:
+- 📋   • Total de registros: 70
+- 📋   • Tempo de execução: 12496 ms
+- ⏱️ **Total: 70 registros | Tempo total: 12,5s**
+
+
+## 11:53:47 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1045ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (687ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 687ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 61,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (973ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 973ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 11:53:57 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ✅ 70 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (2,9s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 70
+- 📋   • Tempo de persistência: 2943ms
+- 📋   • Tabela: consumer_sefaz.liquidacao
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 70 registros | Tempo total: 14,8s**
+
+
+## 11:53:57 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-05T11:53:57.030343500
+- 📋 🔗 Correlation ID: 0444b962
+- 🔄 Processando Liquidações...
+- ✅ 70 registros de Liquidação processados (14,8s)
+- 📋 📊 Resumo da execução:
+- 📋   • Total de registros: 70
+- 📋   • Tempo de execução: 14785 ms
+- ⏱️ **Total: 70 registros | Tempo total: 14,8s**
+

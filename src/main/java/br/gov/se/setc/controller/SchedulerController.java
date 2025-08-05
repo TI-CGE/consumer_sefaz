@@ -94,11 +94,12 @@ public class SchedulerController {
         Map<String, Object> info = new HashMap<>();
         
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
-        info.put("testExecution", "10 segundos após inicialização da aplicação - Ordem de Fornecimento");
+        info.put("testExecution", "10 segundos após inicialização da aplicação - Liquidação");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
         info.put("manualExecution", Map.of(
             "allEntities", "POST /scheduler/execute",
             "pagamentoOnly", "POST /scheduler/execute/pagamento",
+            "liquidacaoOnly", "POST /scheduler/execute/liquidacao",
             "ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento"
         ));
         info.put("endpoints", Map.of(
@@ -141,6 +142,37 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Pagamento: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Liquidação
+     */
+    @PostMapping("/execute/liquidacao")
+    @Operation(summary = "Executar Apenas Liquidação", description = "Executa manualmente apenas o processamento da entidade Liquidação")
+    @LogOperation(operation = "MANUAL_LIQUIDACAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeLiquidacaoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Liquidação solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeLiquidacaoManually();
+
+            logger.info("Execução manual de Liquidação concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de Liquidação via endpoint", e);
+
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execução manual de Liquidação: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
 
