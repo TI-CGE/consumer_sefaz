@@ -92,30 +92,71 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         try {
             if(utilsService.isEndpointIdependenteUGData(mapper)){
+                logger.info("Processando dados independentes de UG para: " + mapper.getTabelaBanco());
+                userFriendlyLogger.logInfo("Buscando dados independentes de UG...");
+
                 List<T> result = pegarDadosIndependenteDataUg(mapper);
                 if(result != null ){
                     resultList.addAll(result);
                     totalRecordsProcessed += result.size();
                 }
             } else {
-                for (String ugCd : ugCdArray) {
-                    // Processar UG específica
+                // Determinar se deve processar apenas ano atual ou todos os anos
+                boolean hasDataInDatabase = utilsService.isPresenteBanco(mapper);
+                String entityName = mapper.getTabelaBanco().substring(mapper.getTabelaBanco().lastIndexOf('.') + 1);
 
-                    if (utilsService.isPresenteBanco(mapper)) {
-                        List<T> result = pegarDadosMesAnoVigente(ugCd,mapper);
-                        if(result != null ){
-                            resultList.addAll(result);
-                            totalRecordsProcessed += result.size();
-                        }
-                        break; // Sair do loop após processar dados vigentes
-                    } else {
+                logger.info("=== PROCESSAMENTO DE " + entityName.toUpperCase() + " ===");
+                logger.info("Total de UGs a processar: " + ugCdArray.size());
+                logger.info("Dados existentes no banco: " + (hasDataInDatabase ? "SIM" : "NÃO"));
+
+                userFriendlyLogger.logInfo("Processando " + ugCdArray.size() + " Unidades Gestoras...");
+
+                if (!hasDataInDatabase) {
+                    // PRIMEIRA EXECUÇÃO: Não há dados no banco - processar TODOS OS ANOS
+                    logger.info("Modo: TODOS OS ANOS (2020-2025) - Carga inicial completa");
+                    userFriendlyLogger.logInfo("Modo: Carga inicial completa (todos os anos)");
+
+                    int ugProcessed = 0;
+                    for (String ugCd : ugCdArray) {
+                        ugProcessed++;
+                        logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+
                         List<T> result = pegarDeTodosAnos(ugCd,mapper);
                         if(result != null ){
                             resultList.addAll(result);
                             totalRecordsProcessed += result.size();
+                            logger.info("UG " + ugCd + ": " + result.size() + " registros encontrados (todos os anos)");
+                        } else {
+                            logger.info("UG " + ugCd + ": 0 registros encontrados");
                         }
                     }
+                } else {
+                    // EXECUÇÃO INCREMENTAL: Há dados no banco - processar APENAS ANO ATUAL (DELETE-BEFORE-INSERT)
+                    logger.info("Modo: APENAS ANO ATUAL (" + utilsService.getAnoAtual() + ") - DELETE-BEFORE-INSERT");
+                    userFriendlyLogger.logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
+
+                    int ugProcessed = 0;
+                    for (String ugCd : ugCdArray) {
+                        ugProcessed++;
+                        logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+
+                        List<T> result = pegarDadosMesAnoVigente(ugCd,mapper);
+                        if(result != null ){
+                            resultList.addAll(result);
+                            totalRecordsProcessed += result.size();
+                            logger.info("UG " + ugCd + ": " + result.size() + " registros atualizados (ano atual)");
+                        } else {
+                            logger.info("UG " + ugCd + ": 0 registros para atualizar");
+                        }
+                        break; // Sair do loop após processar dados vigentes
+                    }
                 }
+
+                logger.info("=== PROCESSAMENTO CONCLUÍDO ===");
+                logger.info("Total de registros processados: " + totalRecordsProcessed);
+                userFriendlyLogger.logInfo("Processamento concluído: " + totalRecordsProcessed + " registros");
             }
 
             if(resultList == null || resultList.isEmpty()) {
@@ -494,30 +535,50 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private List<T> pegarDadosMesAnoVigente(String ugCd, T mapper){
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         String apiUrl = null;
-                try {
-                    UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
-                    for (Map.Entry<String, Object> entry : mapper.getCamposParametrosAtual(ugCd, utilsService).entrySet()) {
-                            builder.queryParam(entry.getKey(), entry.getValue());
-                    }
-                    apiUrl = builder.toUriString();
 
-                } catch (Exception e) {
-                      logger.severe("Erro ao consumir API vigente Url com parametros: " + e.getMessage());
+        Short anoAtual = utilsService.getAnoAtual();
+        Short mesAtual = utilsService.getMesAtual();
 
+        logger.info("Buscando dados do ano atual (" + anoAtual + ") para UG: " + ugCd);
+
+        try {
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+            Map<String, Object> parametros = mapper.getCamposParametrosAtual(ugCd, utilsService);
+
+            logger.info("Parâmetros da consulta: " + parametros);
+
+            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
+                    builder.queryParam(entry.getKey(), entry.getValue());
+            }
+            apiUrl = builder.toUriString();
+
+            logger.info("URL da API: " + apiUrl);
+
+        } catch (Exception e) {
+              logger.severe("Erro ao montar URL para ano vigente: " + e.getMessage());
+              return resultadoAnoMesVigente;
+        }
+
+        try {
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
+                if (processedData != null) {
+                    resultadoAnoMesVigente.addAll(processedData);
+                    logger.info("Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
+                } else {
+                    logger.warning("Processamento retornou null para UG " + ugCd);
                 }
-                try {
-                    ResponseEntity<String> response = respostaApiRaw(apiUrl);
-                    if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
-                        List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
-                        if (processedData != null) {
-                            resultadoAnoMesVigente.addAll(processedData);
-                        }
-                    }
+            } else {
+                logger.warning("API retornou erro para UG " + ugCd + ". Status: " +
+                             (response != null ? response.getStatusCode() : "null"));
+            }
 
-                } catch (RestClientException e) {
-                    logger.severe("Erro ao consumir API vigente: " + e.getMessage());
-                }
-                return resultadoAnoMesVigente;
+        } catch (RestClientException e) {
+            logger.severe("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
+        }
+
+        return resultadoAnoMesVigente;
     }
 
     private List<T> pegarDeTodosAnos(String ugCd, T mapper){
