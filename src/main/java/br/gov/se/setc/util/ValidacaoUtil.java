@@ -89,7 +89,7 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
     }
 
     public  Boolean getValidaOrdemFornecimento() {
-        String sql = "Select count(dt_recebimento) > 0 from sco.ordem_fornecimento LIMIT 1;";
+        String sql = "Select count(dt_recebimento) > 0 from consumer_sefaz.ordem_fornecimento LIMIT 1;";
         return jdbcTemplate.queryForObject(sql, Boolean.class);
     }
 

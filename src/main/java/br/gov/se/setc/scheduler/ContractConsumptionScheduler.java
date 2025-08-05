@@ -1,6 +1,7 @@
 package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
@@ -49,6 +50,10 @@ public class ContractConsumptionScheduler {
     private ConsumoApiService<PagamentoDTO> pagamentoConsumoApiService;
 
     @Autowired
+    @Qualifier("ordemFornecimentoConsumoApiService")
+    private ConsumoApiService<OrdemFornecimentoDTO> ordemFornecimentoConsumoApiService;
+
+    @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
@@ -60,7 +65,7 @@ public class ContractConsumptionScheduler {
     private boolean isFirstExecution = true;
     
     /**
-     * Executa apenas Pagamento 10 segundos após a aplicação estar pronta (para testes)
+     * Executa apenas Ordem de Fornecimento 10 segundos após a aplicação estar pronta (para testes)
      */
     @EventListener(ApplicationReadyEvent.class)
     public void executeOnStartup() {
@@ -69,11 +74,11 @@ public class ContractConsumptionScheduler {
                 Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
-                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Pagamento");
-                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_PAGAMENTO", "CORRELATION_ID", correlationId);
+                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Ordem de Fornecimento");
+                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_ORDEM_FORNECIMENTO", "CORRELATION_ID", correlationId);
 
-                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - PAGAMENTO ===");
-                executePagamentoOnly();
+                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - ORDEM DE FORNECIMENTO ===");
+                executeOrdemFornecimentoOnly();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Execução de startup interrompida", e);
@@ -228,6 +233,31 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Pagamentos: " + e.getMessage());
             }
 
+            // 8. Aguardar um pouco antes de consumir ordens de fornecimento
+            Thread.sleep(2000);
+
+            // 9. Consumir Ordens de Fornecimento
+            logger.info("=== INICIANDO CONSUMO DE ORDENS DE FORNECIMENTO ===");
+            markdownSection.progress("Processando Ordens de Fornecimento...");
+
+            try {
+                long ordemFornecimentoStartTime = System.currentTimeMillis();
+                OrdemFornecimentoDTO ordemFornecimentoDto = new OrdemFornecimentoDTO();
+                List<OrdemFornecimentoDTO> ordemFornecimentoResults = ordemFornecimentoConsumoApiService.consumirPersistir(ordemFornecimentoDto);
+                int ordemFornecimentoCount = ordemFornecimentoResults != null ? ordemFornecimentoResults.size() : 0;
+                processingResults.put("OrdemFornecimento", ordemFornecimentoCount);
+                totalRecordsProcessed += ordemFornecimentoCount;
+
+                long ordemFornecimentoDuration = System.currentTimeMillis() - ordemFornecimentoStartTime;
+                logger.info("Ordens de Fornecimento processadas: {}", ordemFornecimentoCount);
+                markdownSection.success(ordemFornecimentoCount + " registros de Ordem de Fornecimento processados", ordemFornecimentoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Ordens de Fornecimento", e);
+                processingResults.put("OrdemFornecimento", 0);
+                markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -243,7 +273,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Unidades Gestoras: " + processingResults.getOrDefault("UnidadeGestora", 0))
                               .info("  • Contratos Fiscais: " + processingResults.getOrDefault("ContratosFiscais", 0))
                               .info("  • Receitas: " + processingResults.getOrDefault("Receita", 0))
-                              .info("  • Pagamentos: " + processingResults.getOrDefault("Pagamento", 0));
+                              .info("  • Pagamentos: " + processingResults.getOrDefault("Pagamento", 0))
+                              .info("  • Ordens de Fornecimento: " + processingResults.getOrDefault("OrdemFornecimento", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -372,6 +403,98 @@ public class ContractConsumptionScheduler {
     }
 
     /**
+     * Método específico para executar apenas Ordem de Fornecimento
+     */
+    @LogOperation(operation = "SCHEDULED_ORDEM_FORNECIMENTO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeOrdemFornecimentoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "ORDEM_FORNECIMENTO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Ordem de Fornecimento");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionStart();
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "ORDEM_FORNECIMENTO_EXECUTION", "ENDPOINTS", "ORDEM_FORNECIMENTO_ENDPOINT");
+
+            // Log estruturado em markdown
+            markdownSection.info("Iniciando consumo específico de Ordens de Fornecimento da SEFAZ")
+                          .info("Correlation ID: " + correlationId);
+
+            // Consumir apenas Ordens de Fornecimento
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE ORDENS DE FORNECIMENTO ===");
+            markdownSection.progress("Processando Ordens de Fornecimento...");
+
+            try {
+                long ordemFornecimentoStartTime = System.currentTimeMillis();
+                OrdemFornecimentoDTO ordemFornecimentoDto = new OrdemFornecimentoDTO();
+                List<OrdemFornecimentoDTO> ordemFornecimentoResults = ordemFornecimentoConsumoApiService.consumirPersistir(ordemFornecimentoDto);
+                int ordemFornecimentoCount = ordemFornecimentoResults != null ? ordemFornecimentoResults.size() : 0;
+                totalRecordsProcessed = ordemFornecimentoCount;
+
+                long ordemFornecimentoDuration = System.currentTimeMillis() - ordemFornecimentoStartTime;
+                logger.info("Ordens de Fornecimento processadas: {}", ordemFornecimentoCount);
+                markdownSection.success(ordemFornecimentoCount + " registros de Ordem de Fornecimento processados", ordemFornecimentoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Ordens de Fornecimento", e);
+                markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "ORDEM_FORNECIMENTO_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "RESULTS", "Ordens de Fornecimento: " + totalRecordsProcessed);
+
+            // Adicionar estatísticas ao log markdown
+            if (totalRecordsProcessed > 0) {
+                markdownSection.info("📊 Estatísticas de processamento:")
+                              .info("  • Ordens de Fornecimento: " + totalRecordsProcessed);
+
+                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                    markdownSection.warning("Execução demorou mais que 15 segundos");
+                }
+            }
+
+            // Finalizar log markdown com resumo
+            markdownSection.logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ESPECÍFICA DE ORDEM DE FORNECIMENTO CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("execução específica de ordem de fornecimento", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "ORDEM_FORNECIMENTO_EXECUTION", totalExecutionTime, e,
+                "ENDPOINTS", "ORDEM_FORNECIMENTO_ENDPOINT");
+            logger.error("Erro durante execução específica de ordem de fornecimento", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha crítica na execução de ordem de fornecimento: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            isFirstExecution = false;
+            MDCUtil.clear();
+        }
+    }
+
+    /**
      * Método para execução manual via endpoint (útil para testes)
      */
     public Map<String, Object> executeManually() {
@@ -424,6 +547,32 @@ public class ContractConsumptionScheduler {
     }
 
     /**
+     * Método para execução manual apenas de Ordem de Fornecimento via endpoint
+     */
+    public Map<String, Object> executeOrdemFornecimentoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE ORDEM DE FORNECIMENTO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeOrdemFornecimentoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Ordem de Fornecimento concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Ordem de Fornecimento: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
      * Método para verificar status do scheduler
      */
     public Map<String, Object> getSchedulerStatus() {
@@ -431,9 +580,9 @@ public class ContractConsumptionScheduler {
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
         status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
-        status.put("testExecutionOnStartup", "10 seconds after application ready - Pagamento only");
-        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos");
-        status.put("startupExecution", "Pagamento only");
+        status.put("testExecutionOnStartup", "10 seconds after application ready - Ordem de Fornecimento only");
+        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Ordens de Fornecimento");
+        status.put("startupExecution", "Ordem de Fornecimento only");
         status.put("scheduledExecution", "All entities");
 
         return status;

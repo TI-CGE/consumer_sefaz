@@ -73,7 +73,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         MDCUtil.setupOperationContext("CONTRACT_CONSUMER", operation);
 
         // Determinar tipo de dados baseado no mapper
-        String dataType = mapper.getTabelaBanco().contains("unidade_gestora") ? "unidades gestoras" : "contratos fiscais";
+        String dataType = getDataTypeFromMapper(mapper);
+        boolean isUnidadeGestora = mapper.getTabelaBanco().contains("unidade_gestora");
 
         // Log simples para usuário
         userFriendlyLogger.logDataFetchStart(dataType);
@@ -92,13 +93,40 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         try {
             if(utilsService.isEndpointIdependenteUGData(mapper)){
-                logger.info("Processando dados independentes de UG para: " + mapper.getTabelaBanco());
-                userFriendlyLogger.logInfo("Buscando dados independentes de UG...");
+                // Tratamento especial para Unidades Gestoras
+                if (isUnidadeGestora) {
+                    logger.info("=== PROCESSAMENTO DE UNIDADES GESTORAS ===");
+                    logger.info("Tipo: Dados independentes de UG e ano (busca todas as UGs ativas)");
+                    logger.info("Filtro aplicado: sgTipoUnidadeGestora=E");
+                    userFriendlyLogger.logInfo("Buscando todas as Unidades Gestoras ativas...");
+                    markdownSection.info("Buscando todas as UGs ativas (sgTipoUnidadeGestora=E)")
+                                  .info("Não utiliza filtros de ano ou UG específica");
+                } else {
+                    logger.info("Processando dados independentes de UG para: " + mapper.getTabelaBanco());
+                    userFriendlyLogger.logInfo("Buscando dados independentes de UG...");
+                }
 
+                long ugStartTime = System.currentTimeMillis();
                 List<T> result = pegarDadosIndependenteDataUg(mapper);
+                long ugDuration = System.currentTimeMillis() - ugStartTime;
+
                 if(result != null ){
                     resultList.addAll(result);
                     totalRecordsProcessed += result.size();
+
+                    if (isUnidadeGestora) {
+                        logger.info("UGs encontradas: " + result.size());
+                        userFriendlyLogger.logInfo(result.size() + " Unidades Gestoras encontradas");
+                        markdownSection.success(result.size() + " Unidades Gestoras processadas", ugDuration);
+                    } else {
+                        logger.info("Registros encontrados: " + result.size());
+                    }
+                } else {
+                    if (isUnidadeGestora) {
+                        logger.warning("Nenhuma UG encontrada");
+                        userFriendlyLogger.logWarning("Nenhuma Unidade Gestora encontrada");
+                        markdownSection.warning("Nenhuma UG encontrada");
+                    }
                 }
             } else {
                 // Determinar se deve processar apenas ano atual ou todos os anos
@@ -150,7 +178,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         } else {
                             logger.info("UG " + ugCd + ": 0 registros para atualizar");
                         }
-                        break; // Sair do loop após processar dados vigentes
+                        // Removido o break incorreto que estava interrompendo o processamento de todas as UGs
                     }
                 }
 
@@ -495,9 +523,16 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private List<T> pegarDadosIndependenteDataUg(T mapper) {
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         String apiUrl = null;
+        boolean isUnidadeGestora = mapper.getTabelaBanco().contains("unidade_gestora");
+
         try {
             UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
             apiUrl = builder.toUriString();
+
+            if (isUnidadeGestora) {
+                logger.info("URL da API UG: " + apiUrl);
+                logger.info("Fazendo requisição para buscar todas as UGs ativas...");
+            }
 
         } catch (Exception e) {
             logger.severe("Erro ao montar URL independente de data e ug: " + e.getMessage());
@@ -505,29 +540,57 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         try {
             ResponseEntity<String> response = respostaApiRaw(apiUrl);
             if (response != null) {
-                logger.info("Resposta da API recebida. Status: " + response.getStatusCode() + " | URL: " + apiUrl);
+                if (isUnidadeGestora) {
+                    logger.info("Resposta da API UG recebida. Status: " + response.getStatusCode());
+                } else {
+                    logger.info("Resposta da API recebida. Status: " + response.getStatusCode() + " | URL: " + apiUrl);
+                }
 
                 if (response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
-                    logger.info("Processando JSON da resposta...");
+                    if (isUnidadeGestora) {
+                        logger.info("Processando JSON das Unidades Gestoras...");
+                    } else {
+                        logger.info("Processando JSON da resposta...");
+                    }
+
                     List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
                     if (processedData != null) {
                         resultadoAnoMesVigente.addAll(processedData);
-                        logger.info("Dados processados com sucesso: " + processedData.size() + " registros");
+
+                        if (isUnidadeGestora) {
+                            logger.info("UGs processadas com sucesso: " + processedData.size() + " unidades gestoras");
+                            userFriendlyLogger.logInfo("Processamento concluído: " + processedData.size() + " UGs");
+                        } else {
+                            logger.info("Dados processados com sucesso: " + processedData.size() + " registros");
+                        }
                     } else {
-                        logger.warning("processarRespostaSefaz retornou null");
+                        if (isUnidadeGestora) {
+                            logger.warning("Processamento de UGs retornou null");
+                        } else {
+                            logger.warning("processarRespostaSefaz retornou null");
+                        }
                     }
                 } else {
-                    logger.warning("API retornou erro. Status: " + response.getStatusCode() +
-                                 " | Body: " + (response.getBody() != null ? response.getBody().substring(0, Math.min(200, response.getBody().length())) : "null"));
+                    String errorMsg = "API retornou erro. Status: " + response.getStatusCode();
+                    if (isUnidadeGestora) {
+                        errorMsg = "API de UG retornou erro. Status: " + response.getStatusCode();
+                    }
+                    logger.warning(errorMsg + " | Body: " + (response.getBody() != null ? response.getBody().substring(0, Math.min(200, response.getBody().length())) : "null"));
                 }
             } else {
-                logger.warning("Resposta da API é null");
+                if (isUnidadeGestora) {
+                    logger.warning("Resposta da API UG é null");
+                } else {
+                    logger.warning("Resposta da API é null");
+                }
             }
 
-            // Log técnico removido - dados processados internamente
-
         } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API vigente: " + e.getMessage());
+            if (isUnidadeGestora) {
+                logger.severe("Erro ao consumir API de UG: " + e.getMessage());
+            } else {
+                logger.severe("Erro ao consumir API vigente: " + e.getMessage());
+            }
         }
         return resultadoAnoMesVigente;
     }
@@ -662,6 +725,26 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         if (bytes < 1024) return bytes + " bytes";
         if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
+    }
+
+    /**
+     * Determina o tipo de dados baseado no mapper
+     */
+    private String getDataTypeFromMapper(T mapper) {
+        String tableName = mapper.getTabelaBanco();
+        if (tableName.contains("unidade_gestora")) {
+            return "unidades gestoras";
+        } else if (tableName.contains("pagamento")) {
+            return "pagamentos";
+        } else if (tableName.contains("ordem_fornecimento")) {
+            return "ordens de fornecimento";
+        } else if (tableName.contains("receita")) {
+            return "receitas";
+        } else if (tableName.contains("contratos_fiscais")) {
+            return "contratos fiscais";
+        } else {
+            return "dados";
+        }
     }
 
 }

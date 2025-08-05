@@ -34,7 +34,7 @@ class PagamentoDTOTest {
     void deveInicializarDadosEndpoint() {
         // Assert
         assertEquals("consumer_sefaz.pagamento", pagamentoDTO.getTabelaBanco());
-        assertEquals("https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/pagamento", pagamentoDTO.getUrl());
+        assertEquals("https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento", pagamentoDTO.getUrl());
         assertEquals("dt_lancamento_ob", pagamentoDTO.getNomeDataInicialPadraoFiltro());
         assertEquals("dt_lancamento_ob", pagamentoDTO.getNomeDataFinalPadraoFiltro());
         assertEquals("dt_ano_exercicio_ctb", pagamentoDTO.getDtAnoPadrao());
