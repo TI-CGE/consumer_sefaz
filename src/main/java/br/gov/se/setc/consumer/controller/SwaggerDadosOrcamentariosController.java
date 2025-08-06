@@ -34,33 +34,40 @@ public class SwaggerDadosOrcamentariosController {
     
     @GetMapping
     @Operation(
-        summary = "Lista todos os dados orçamentários", 
-        description = "Retorna uma lista com todos os dados orçamentários disponíveis.",
+        summary = "Lista dados orçamentários por UG e Ano",
+        description = "Retorna uma lista com os dados orçamentários filtrados por Unidade Gestora e Ano do exercício contábil.",
         parameters = {
-            @Parameter(name = "dtAnoExercicioCTB", description = "Ano do exercício contábil", example = "2025"),
-            @Parameter(name = "cdUnidadeGestora", description = "Código da unidade gestora", example = "123456"),
-            @Parameter(name = "cdGestao", description = "Código da gestão", example = "00001"),
-            @Parameter(name = "sqEmpenho", description = "Sequencial do empenho", example = "1")
+            @Parameter(name = "cdUnidadeGestora", description = "Código da unidade gestora", example = "123456", required = true),
+            @Parameter(name = "dtAnoExercicioCTB", description = "Ano do exercício contábil", example = "2025", required = true)
         }
     )
-    public List<DadosOrcamentariosDTO> listarDadosOrcamentarios() {
+    public List<DadosOrcamentariosDTO> listarDadosOrcamentarios(
+            @RequestParam(name = "cdUnidadeGestora", required = true) String cdUnidadeGestora,
+            @RequestParam(name = "dtAnoExercicioCTB", required = true) Integer dtAnoExercicioCTB) {
         try {
             unifiedLogger.logOperationStart("CONTROLLER", "LISTAR_DADOS_ORCAMENTARIOS", "ENDPOINT", "/dados-orcamentarios");
-            
-            logger.info("Iniciando consumo da API de Dados Orçamentários");
-            DadosOrcamentariosDTO consumirPersistir = new DadosOrcamentariosDTO();
-            List<DadosOrcamentariosDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
-            
-            unifiedLogger.logOperationSuccess("CONTROLLER", "LISTAR_DADOS_ORCAMENTARIOS", 0,
+
+            logger.info("Iniciando consumo da API de Dados Orçamentários para UG: " + cdUnidadeGestora + " e Ano: " + dtAnoExercicioCTB);
+
+            // Criar DTO com os parâmetros específicos
+            DadosOrcamentariosDTO dadosOrcamentariosDTO = new DadosOrcamentariosDTO();
+            dadosOrcamentariosDTO.setCdUnidadeGestora(cdUnidadeGestora);
+            dadosOrcamentariosDTO.setDtAnoExercicioCTB(dtAnoExercicioCTB);
+
+            List<DadosOrcamentariosDTO> result = consumoApiService.consumirPersistir(dadosOrcamentariosDTO);
+
+            unifiedLogger.logOperationSuccess("CONTROLLER", "LISTAR_DADOS_ORCAMENTARIOS", 0L,
                 result != null ? result.size() : 0, "ENDPOINT", "/dados-orcamentarios");
-            
-            logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
+
+            logger.info("Consumo concluído para UG " + cdUnidadeGestora + " e Ano " + dtAnoExercicioCTB +
+                       ". Retornando " + (result != null ? result.size() : 0) + " registros");
             return result;
         } catch (Exception e) {
-            unifiedLogger.logOperationError("CONTROLLER", "LISTAR_DADOS_ORCAMENTARIOS", e.getMessage(), 
+            unifiedLogger.logOperationError("CONTROLLER", "LISTAR_DADOS_ORCAMENTARIOS", 0L, e,
                 "ENDPOINT", "/dados-orcamentarios");
-            
-            logger.severe("Erro ao consumir API de Dados Orçamentários: " + e.getMessage());
+
+            logger.severe("Erro ao consumir API de Dados Orçamentários para UG " + cdUnidadeGestora +
+                         " e Ano " + dtAnoExercicioCTB + ": " + e.getMessage());
             e.printStackTrace();
             throw e;
         }
@@ -86,10 +93,11 @@ public class SwaggerDadosOrcamentariosController {
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
             info.append("Parâmetros requeridos: ").append(dto.getParametrosRequeridos()).append("\n");
             info.append("\nParâmetros obrigatórios:\n");
-            info.append("- dtAnoExercicioCTB (integer): Ano do exercício contábil\n");
             info.append("- cdUnidadeGestora (string): Código da unidade gestora\n");
-            info.append("- cdGestao (string): Código da gestão\n");
-            info.append("- sqEmpenho (integer): Sequencial do empenho\n");
+            info.append("- dtAnoExercicioCTB (integer): Ano do exercício contábil\n");
+            info.append("\nObservação:\n");
+            info.append("- A busca utiliza APENAS os parâmetros UG e Ano\n");
+            info.append("- Parâmetros cdGestao e sqEmpenho foram removidos desta versão\n");
             info.append("\nCampos de resposta (14 campos):\n");
             info.append("- cdFuncaoPLO, nmFuncaoPLO\n");
             info.append("- cdSubFuncao, nmSubFuncao\n");
@@ -99,13 +107,13 @@ public class SwaggerDadosOrcamentariosController {
             info.append("- cdFonteRecurso, nmFonteRecurso\n");
             info.append("- cdGrupoDespesa, nmGrupoDespesa\n");
             
-            unifiedLogger.logOperationSuccess("CONTROLLER", "TESTE_DADOS_ORCAMENTARIOS", 0, 1, 
+            unifiedLogger.logOperationSuccess("CONTROLLER", "TESTE_DADOS_ORCAMENTARIOS", 0L, 1,
                 "ENDPOINT", "/dados-orcamentarios/test");
             
             logger.info("Teste do endpoint concluído com sucesso");
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
-            unifiedLogger.logOperationError("CONTROLLER", "TESTE_DADOS_ORCAMENTARIOS", e.getMessage(), 
+            unifiedLogger.logOperationError("CONTROLLER", "TESTE_DADOS_ORCAMENTARIOS", 0L, e,
                 "ENDPOINT", "/dados-orcamentarios/test");
             
             logger.severe("Erro no teste do endpoint de Dados Orçamentários: " + e.getMessage());

@@ -22,7 +22,10 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     private String nmFonteRecurso;
     private Integer cdGrupoDespesa;
     private String nmGrupoDespesa;
-    
+    private String cdLicitacao;
+    private String dsObjetoLicitacao;
+    private String nuProcessoLicitacao;
+
     // Parâmetros para a API
     private Integer dtAnoExercicioCTB;
     private String cdUnidadeGestora;
@@ -38,10 +41,10 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     @Override
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.dados_orcamentarios";
-        url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/dados-orcamentarios";
-        nomeDataInicialPadraoFiltro = "dt_ano_exercicio_ctb";
-        nomeDataFinalPadraoFiltro = "dt_ano_exercicio_ctb";
-        dtAnoPadrao = "dt_ano_exercicio_ctb";
+        url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho";
+        nomeDataInicialPadraoFiltro = null; // Não há campo de data específico
+        nomeDataFinalPadraoFiltro = null; // Não há campo de data específico
+        dtAnoPadrao = null; // Não há campo de ano específico
         parametrosRequeridos = true;
     }
 
@@ -61,6 +64,9 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         camposResposta.put("nm_fonte_recurso", nmFonteRecurso);
         camposResposta.put("cd_grupo_despesa", cdGrupoDespesa);
         camposResposta.put("nm_grupo_despesa", nmGrupoDespesa);
+        camposResposta.put("cd_licitacao", cdLicitacao);
+        camposResposta.put("ds_objeto_licitacao", dsObjetoLicitacao);
+        camposResposta.put("nu_processo_licitacao", nuProcessoLicitacao);
     }
 
     @Override
@@ -75,16 +81,15 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
 
-        // Adicionar cdGestao obrigatório para a API de dados orçamentários
-        // Usar o primeiro cdGestao disponível da lista
-        List<String> cdGestaoList = utilsService.cdGestao();
-        if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
-            camposParametros.put("cdGestao", cdGestaoList.get(0));
+        // Se o ano foi definido no DTO, usar ele; senão usar o ano atual
+        if (this.dtAnoExercicioCTB != null) {
+            camposParametros.put("dtAnoExercicioCTB", this.dtAnoExercicioCTB);
+        } else {
+            camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
         }
 
-        // Nota: sqEmpenho será tratado pelo service que iterará sobre empenhos existentes
+        // Busca apenas por UG e Ano - removido cdGestao e sqEmpenho
         return camposParametros;
     }
 
@@ -93,12 +98,21 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
         camposParametros.put("dtAnoExercicioCTB", ano);
-        
-        // Adicionar cdGestao obrigatório para a API de dados orçamentários
-        // Para este método, vamos usar um valor padrão (valor comum no SEFAZ)
-        camposParametros.put("cdGestao", "00001");
 
-        // Nota: sqEmpenho será tratado pelo service que iterará sobre empenhos existentes
+        // Busca apenas por UG e Ano - removido cdGestao e sqEmpenho
+        return camposParametros;
+    }
+
+    /**
+     * Método específico para buscar dados orçamentários com UG e Ano específicos
+     * Usado quando os parâmetros são fornecidos diretamente pelo controller
+     */
+    public Map<String, Object> getCamposParametrosEspecificos(String cdUnidadeGestora, Integer dtAnoExercicioCTB, ValidacaoUtil<?> utilsService) {
+        Map<String, Object> camposParametros = new LinkedHashMap<>();
+        camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
+        camposParametros.put("dtAnoExercicioCTB", dtAnoExercicioCTB);
+
+        // Busca apenas por UG e Ano - removido cdGestao
         return camposParametros;
     }
 
@@ -245,5 +259,29 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
 
     public void setSqEmpenho(Integer sqEmpenho) {
         this.sqEmpenho = sqEmpenho;
+    }
+
+    public String getCdLicitacao() {
+        return cdLicitacao;
+    }
+
+    public void setCdLicitacao(String cdLicitacao) {
+        this.cdLicitacao = cdLicitacao;
+    }
+
+    public String getDsObjetoLicitacao() {
+        return dsObjetoLicitacao;
+    }
+
+    public void setDsObjetoLicitacao(String dsObjetoLicitacao) {
+        this.dsObjetoLicitacao = dsObjetoLicitacao;
+    }
+
+    public String getNuProcessoLicitacao() {
+        return nuProcessoLicitacao;
+    }
+
+    public void setNuProcessoLicitacao(String nuProcessoLicitacao) {
+        this.nuProcessoLicitacao = nuProcessoLicitacao;
     }
 }

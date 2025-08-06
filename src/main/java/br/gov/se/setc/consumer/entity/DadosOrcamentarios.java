@@ -13,44 +13,53 @@ public class DadosOrcamentarios {
     @Column(name = "cd_funcao_plo")
     private Integer cdFuncaoPLO;
     
-    @Column(name = "nm_funcao_plo")
+    @Column(name = "nm_funcao_plo", length = 500)
     private String nmFuncaoPLO;
-    
+
     @Column(name = "cd_sub_funcao")
     private Integer cdSubFuncao;
-    
-    @Column(name = "nm_sub_funcao")
+
+    @Column(name = "nm_sub_funcao", length = 500)
     private String nmSubFuncao;
-    
+
     @Column(name = "cd_programa_governo")
     private Integer cdProgramaGoverno;
-    
-    @Column(name = "nm_programa_governo")
+
+    @Column(name = "nm_programa_governo", length = 500)
     private String nmProgramaGoverno;
-    
+
     @Column(name = "cd_categoria_economica")
     private Integer cdCategoriaEconomica;
-    
-    @Column(name = "nm_categoria_economica")
+
+    @Column(name = "nm_categoria_economica", length = 500)
     private String nmCategoriaEconomica;
-    
+
     @Column(name = "cd_modalidade_aplicacao")
     private Integer cdModalidadeAplicacao;
-    
-    @Column(name = "nm_modalidade_aplicacao")
+
+    @Column(name = "nm_modalidade_aplicacao", length = 500)
     private String nmModalidadeAplicacao;
-    
+
     @Column(name = "cd_fonte_recurso")
     private Integer cdFonteRecurso;
-    
-    @Column(name = "nm_fonte_recurso")
+
+    @Column(name = "nm_fonte_recurso", length = 500)
     private String nmFonteRecurso;
-    
+
     @Column(name = "cd_grupo_despesa")
     private Integer cdGrupoDespesa;
-    
-    @Column(name = "nm_grupo_despesa")
+
+    @Column(name = "nm_grupo_despesa", length = 500)
     private String nmGrupoDespesa;
+
+    @Column(name = "cd_licitacao")
+    private String cdLicitacao;
+
+    @Column(name = "ds_objeto_licitacao", length = 1000)
+    private String dsObjetoLicitacao;
+
+    @Column(name = "nu_processo_licitacao")
+    private String nuProcessoLicitacao;
 
     // Construtor padrão
     public DadosOrcamentarios() {
@@ -60,7 +69,8 @@ public class DadosOrcamentarios {
     public DadosOrcamentarios(Integer cdFuncaoPLO, String nmFuncaoPLO, Integer cdSubFuncao, String nmSubFuncao,
                              Integer cdProgramaGoverno, String nmProgramaGoverno, Integer cdCategoriaEconomica,
                              String nmCategoriaEconomica, Integer cdModalidadeAplicacao, String nmModalidadeAplicacao,
-                             Integer cdFonteRecurso, String nmFonteRecurso, Integer cdGrupoDespesa, String nmGrupoDespesa) {
+                             Integer cdFonteRecurso, String nmFonteRecurso, Integer cdGrupoDespesa, String nmGrupoDespesa,
+                             String cdLicitacao, String dsObjetoLicitacao, String nuProcessoLicitacao) {
         this.cdFuncaoPLO = cdFuncaoPLO;
         this.nmFuncaoPLO = nmFuncaoPLO;
         this.cdSubFuncao = cdSubFuncao;
@@ -75,6 +85,9 @@ public class DadosOrcamentarios {
         this.nmFonteRecurso = nmFonteRecurso;
         this.cdGrupoDespesa = cdGrupoDespesa;
         this.nmGrupoDespesa = nmGrupoDespesa;
+        this.cdLicitacao = cdLicitacao;
+        this.dsObjetoLicitacao = dsObjetoLicitacao;
+        this.nuProcessoLicitacao = nuProcessoLicitacao;
     }
 
     // Getters and Setters
@@ -198,6 +211,30 @@ public class DadosOrcamentarios {
         this.nmGrupoDespesa = nmGrupoDespesa;
     }
 
+    public String getCdLicitacao() {
+        return cdLicitacao;
+    }
+
+    public void setCdLicitacao(String cdLicitacao) {
+        this.cdLicitacao = cdLicitacao;
+    }
+
+    public String getDsObjetoLicitacao() {
+        return dsObjetoLicitacao;
+    }
+
+    public void setDsObjetoLicitacao(String dsObjetoLicitacao) {
+        this.dsObjetoLicitacao = dsObjetoLicitacao;
+    }
+
+    public String getNuProcessoLicitacao() {
+        return nuProcessoLicitacao;
+    }
+
+    public void setNuProcessoLicitacao(String nuProcessoLicitacao) {
+        this.nuProcessoLicitacao = nuProcessoLicitacao;
+    }
+
     @Override
     public String toString() {
         return "DadosOrcamentarios{" +
@@ -216,6 +253,9 @@ public class DadosOrcamentarios {
                 ", nmFonteRecurso='" + nmFonteRecurso + '\'' +
                 ", cdGrupoDespesa=" + cdGrupoDespesa +
                 ", nmGrupoDespesa='" + nmGrupoDespesa + '\'' +
+                ", cdLicitacao='" + cdLicitacao + '\'' +
+                ", dsObjetoLicitacao='" + dsObjetoLicitacao + '\'' +
+                ", nuProcessoLicitacao='" + nuProcessoLicitacao + '\'' +
                 '}';
     }
 }
