@@ -94,13 +94,14 @@ public class SchedulerController {
         Map<String, Object> info = new HashMap<>();
         
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
-        info.put("testExecution", "10 segundos após inicialização da aplicação - Liquidação");
+        info.put("testExecution", "10 segundos após inicialização da aplicação - Dados Orçamentários");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
         info.put("manualExecution", Map.of(
             "allEntities", "POST /scheduler/execute",
             "pagamentoOnly", "POST /scheduler/execute/pagamento",
             "liquidacaoOnly", "POST /scheduler/execute/liquidacao",
-            "ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento"
+            "ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento",
+            "dadosOrcamentariosOnly", "POST /scheduler/execute/dados-orcamentarios"
         ));
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -204,6 +205,37 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Ordem de Fornecimento: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Dados Orçamentários
+     */
+    @PostMapping("/execute/dados-orcamentarios")
+    @Operation(summary = "Executar Apenas Dados Orçamentários", description = "Executa manualmente apenas o processamento da entidade Dados Orçamentários")
+    @LogOperation(operation = "MANUAL_DADOS_ORCAMENTARIOS_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeDadosOrcamentariosOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Dados Orçamentários solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeDadosOrcamentariosManually();
+
+            logger.info("Execução manual de Dados Orçamentários concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de Dados Orçamentários via endpoint", e);
+
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execução manual de Dados Orçamentários: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
 

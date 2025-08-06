@@ -1,6 +1,7 @@
 package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
@@ -59,6 +60,10 @@ public class ContractConsumptionScheduler {
     private ConsumoApiService<LiquidacaoDTO> liquidacaoConsumoApiService;
 
     @Autowired
+    @Qualifier("dadosOrcamentariosConsumoApiService")
+    private ConsumoApiService<DadosOrcamentariosDTO> dadosOrcamentariosConsumoApiService;
+
+    @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
@@ -70,7 +75,7 @@ public class ContractConsumptionScheduler {
     private boolean isFirstExecution = true;
     
     /**
-     * Executa apenas Liquidação 10 segundos após a aplicação estar pronta (para testes)
+     * Executa apenas Dados Orçamentários 10 segundos após a aplicação estar pronta (para testes)
      */
     @EventListener(ApplicationReadyEvent.class)
     public void executeOnStartup() {
@@ -79,11 +84,11 @@ public class ContractConsumptionScheduler {
                 Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
-                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Liquidação");
-                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_LIQUIDACAO", "CORRELATION_ID", correlationId);
+                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Dados Orçamentários");
+                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_DADOS_ORCAMENTARIOS", "CORRELATION_ID", correlationId);
 
-                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - LIQUIDAÇÃO ===");
-                executeLiquidacaoOnly();
+                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - DADOS ORÇAMENTÁRIOS ===");
+                executeDadosOrcamentariosOnly();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Execução de startup interrompida", e);
@@ -288,6 +293,28 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
             }
 
+            // 6. Consumir Dados Orçamentários
+            logger.info("=== INICIANDO CONSUMO DE DADOS ORÇAMENTÁRIOS ===");
+            markdownSection.progress("Processando Dados Orçamentários...");
+
+            try {
+                long dadosOrcamentariosStartTime = System.currentTimeMillis();
+                DadosOrcamentariosDTO dadosOrcamentariosDto = new DadosOrcamentariosDTO();
+                List<DadosOrcamentariosDTO> dadosOrcamentariosResults = dadosOrcamentariosConsumoApiService.consumirPersistir(dadosOrcamentariosDto);
+                int dadosOrcamentariosCount = dadosOrcamentariosResults != null ? dadosOrcamentariosResults.size() : 0;
+                processingResults.put("DadosOrcamentarios", dadosOrcamentariosCount);
+                totalRecordsProcessed += dadosOrcamentariosCount;
+
+                long dadosOrcamentariosDuration = System.currentTimeMillis() - dadosOrcamentariosStartTime;
+                logger.info("Dados Orçamentários processados: {}", dadosOrcamentariosCount);
+                markdownSection.success(dadosOrcamentariosCount + " Dados Orçamentários processados", dadosOrcamentariosDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Dados Orçamentários", e);
+                processingResults.put("DadosOrcamentarios", 0);
+                markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -305,7 +332,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Receitas: " + processingResults.getOrDefault("Receita", 0))
                               .info("  • Pagamentos: " + processingResults.getOrDefault("Pagamento", 0))
                               .info("  • Liquidações: " + processingResults.getOrDefault("Liquidacao", 0))
-                              .info("  • Ordens de Fornecimento: " + processingResults.getOrDefault("OrdemFornecimento", 0));
+                              .info("  • Ordens de Fornecimento: " + processingResults.getOrDefault("OrdemFornecimento", 0))
+                              .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -707,6 +735,106 @@ public class ContractConsumptionScheduler {
     }
 
     /**
+     * Método específico para executar apenas Dados Orçamentários
+     */
+    @LogOperation(operation = "DADOS_ORCAMENTARIOS_ONLY_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeDadosOrcamentariosOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "DADOS_ORCAMENTARIOS_ONLY");
+
+        long startTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Manual - Dados Orçamentários");
+
+        try {
+            unifiedLogger.logOperationStart("SCHEDULER", "DADOS_ORCAMENTARIOS_ONLY", "CORRELATION_ID", correlationId);
+
+            logger.info("=== INICIANDO CONSUMO DE DADOS ORÇAMENTÁRIOS ===");
+            markdownSection.progress("Processando Dados Orçamentários...");
+
+            try {
+                long dadosOrcamentariosStartTime = System.currentTimeMillis();
+                DadosOrcamentariosDTO dadosOrcamentariosDto = new DadosOrcamentariosDTO();
+                List<DadosOrcamentariosDTO> dadosOrcamentariosResults = dadosOrcamentariosConsumoApiService.consumirPersistir(dadosOrcamentariosDto);
+                int dadosOrcamentariosCount = dadosOrcamentariosResults != null ? dadosOrcamentariosResults.size() : 0;
+                totalRecordsProcessed = dadosOrcamentariosCount;
+
+                long dadosOrcamentariosDuration = System.currentTimeMillis() - dadosOrcamentariosStartTime;
+                logger.info("Dados Orçamentários processados: {}", dadosOrcamentariosCount);
+                markdownSection.success(dadosOrcamentariosCount + " registros de Dados Orçamentários processados", dadosOrcamentariosDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Dados Orçamentários", e);
+                markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
+                throw e;
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - startTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "DADOS_ORCAMENTARIOS_ONLY",
+                totalExecutionTime, totalRecordsProcessed, "ENTITY", "DadosOrcamentarios");
+
+            // Finalizar log markdown com resumo
+            markdownSection.logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO DE DADOS ORÇAMENTÁRIOS CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - startTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("execução de dados orçamentários", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "DADOS_ORCAMENTARIOS_ONLY", totalExecutionTime, e,
+                "ENDPOINT", "dados-orcamentarios");
+            logger.error("Erro durante execução de Dados Orçamentários", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha na execução de Dados Orçamentários: " + e.getMessage())
+                          .summary("Execução de Dados Orçamentários interrompida por erro")
+                          .log();
+            throw e;
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Dados Orçamentários via endpoint
+     */
+    public Map<String, Object> executeDadosOrcamentariosManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE DADOS ORÇAMENTÁRIOS SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeDadosOrcamentariosOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Dados Orçamentários concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Dados Orçamentários: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
      * Método para verificar status do scheduler
      */
     public Map<String, Object> getSchedulerStatus() {
@@ -714,9 +842,9 @@ public class ContractConsumptionScheduler {
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
         status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
-        status.put("testExecutionOnStartup", "10 seconds after application ready - Liquidação only");
-        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento");
-        status.put("startupExecution", "Liquidação only");
+        status.put("testExecutionOnStartup", "10 seconds after application ready - Dados Orçamentários only");
+        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários");
+        status.put("startupExecution", "Dados Orçamentários only");
         status.put("scheduledExecution", "All entities");
 
         return status;
