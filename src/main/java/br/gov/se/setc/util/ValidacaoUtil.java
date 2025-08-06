@@ -28,8 +28,14 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
 
     
     public boolean isPresenteBanco(T endpointInstance){
-         String sql = "select ( coalesce(count( "+endpointInstance.getDtAnoPadrao()+ "),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
-         return jdbcTemplate.queryForObject(sql, Boolean.class);
+        // Se não há campo de data/ano definido, verificar apenas se a tabela tem registros
+        if (endpointInstance.getDtAnoPadrao() == null) {
+            String sql = "select ( coalesce(count(*),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
+            return jdbcTemplate.queryForObject(sql, Boolean.class);
+        } else {
+            String sql = "select ( coalesce(count( "+endpointInstance.getDtAnoPadrao()+ "),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
+            return jdbcTemplate.queryForObject(sql, Boolean.class);
+        }
     }
 
     public boolean isEndpointIdependenteUGData(T mapper){

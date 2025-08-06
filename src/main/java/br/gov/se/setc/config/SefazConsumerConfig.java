@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Logger;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
@@ -222,6 +223,35 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<LiquidacaoDTO> liquidacaoValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating Liquidacao ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("dadosOrcamentariosConsumoApiService")
+    public ConsumoApiService<DadosOrcamentariosDTO> dadosOrcamentariosConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<DadosOrcamentariosDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating DadosOrcamentarios ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            DadosOrcamentariosDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<DadosOrcamentariosDTO> dadosOrcamentariosValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating DadosOrcamentarios ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }

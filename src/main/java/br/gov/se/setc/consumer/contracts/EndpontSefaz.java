@@ -38,6 +38,10 @@ public abstract class EndpontSefaz {
         return dtAnoPadrao;
     }
 
+    public Boolean getParametrosRequeridos() {
+        return parametrosRequeridos;
+    }
+
     public Map<String, Object> getCamposResposta(){
         return camposResposta;
     }
