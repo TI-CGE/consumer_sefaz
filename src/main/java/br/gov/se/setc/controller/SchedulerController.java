@@ -94,7 +94,7 @@ public class SchedulerController {
         Map<String, Object> info = new HashMap<>();
         
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
-        info.put("testExecution", "10 segundos após inicialização da aplicação - Dados Orçamentários");
+        info.put("testExecution", "10 segundos após inicialização da aplicação - Liquidação");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
         info.put("manualExecution", Map.of(
             "allEntities", "POST /scheduler/execute",

@@ -75,7 +75,7 @@ public class ContractConsumptionScheduler {
     private boolean isFirstExecution = true;
     
     /**
-     * Executa apenas Dados Orçamentários 10 segundos após a aplicação estar pronta (para testes)
+     * Executa apenas Liquidação 10 segundos após a aplicação estar pronta (para testes)
      */
     @EventListener(ApplicationReadyEvent.class)
     public void executeOnStartup() {
@@ -84,11 +84,11 @@ public class ContractConsumptionScheduler {
                 Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
-                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Dados Orçamentários");
-                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_DADOS_ORCAMENTARIOS", "CORRELATION_ID", correlationId);
+                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Liquidação");
+                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_LIQUIDACAO", "CORRELATION_ID", correlationId);
 
-                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - DADOS ORÇAMENTÁRIOS ===");
-                executeDadosOrcamentariosOnly();
+                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - LIQUIDAÇÃO ===");
+                executeLiquidacaoOnly();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Execução de startup interrompida", e);
@@ -842,9 +842,9 @@ public class ContractConsumptionScheduler {
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
         status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
-        status.put("testExecutionOnStartup", "10 seconds after application ready - Dados Orçamentários only");
+        status.put("testExecutionOnStartup", "10 seconds after application ready - Liquidação only");
         status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários");
-        status.put("startupExecution", "Dados Orçamentários only");
+        status.put("startupExecution", "Liquidação only");
         status.put("scheduledExecution", "All entities");
 
         return status;
