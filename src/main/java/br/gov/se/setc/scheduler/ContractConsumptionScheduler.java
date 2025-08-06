@@ -2,6 +2,7 @@ package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
+import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
@@ -64,6 +65,10 @@ public class ContractConsumptionScheduler {
     private ConsumoApiService<DadosOrcamentariosDTO> dadosOrcamentariosConsumoApiService;
 
     @Autowired
+    @Qualifier("empenhoConsumoApiService")
+    private ConsumoApiService<EmpenhoDTO> empenhoConsumoApiService;
+
+    @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
@@ -75,7 +80,7 @@ public class ContractConsumptionScheduler {
     private boolean isFirstExecution = true;
     
     /**
-     * Executa apenas Liquidação 10 segundos após a aplicação estar pronta (para testes)
+     * Executa apenas Empenho 10 segundos após a aplicação estar pronta (para testes)
      */
     @EventListener(ApplicationReadyEvent.class)
     public void executeOnStartup() {
@@ -84,11 +89,11 @@ public class ContractConsumptionScheduler {
                 Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
-                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Liquidação");
-                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_LIQUIDACAO", "CORRELATION_ID", correlationId);
+                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Empenho");
+                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_EMPENHO", "CORRELATION_ID", correlationId);
 
-                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - LIQUIDAÇÃO ===");
-                executeLiquidacaoOnly();
+                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - EMPENHO ===");
+                executeEmpenhoOnly();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Execução de startup interrompida", e);
@@ -315,6 +320,31 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
             }
 
+            // 13. Aguardar um pouco antes de consumir empenhos
+            Thread.sleep(2000);
+
+            // 14. Consumir Empenhos
+            logger.info("=== INICIANDO CONSUMO DE EMPENHOS ===");
+            markdownSection.progress("Processando Empenhos...");
+
+            try {
+                long empenhoStartTime = System.currentTimeMillis();
+                EmpenhoDTO empenhoDto = new EmpenhoDTO();
+                List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
+                int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
+                processingResults.put("Empenho", empenhoCount);
+                totalRecordsProcessed += empenhoCount;
+
+                long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
+                logger.info("Empenhos processados: {}", empenhoCount);
+                markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Empenhos", e);
+                processingResults.put("Empenho", 0);
+                markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -333,7 +363,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Pagamentos: " + processingResults.getOrDefault("Pagamento", 0))
                               .info("  • Liquidações: " + processingResults.getOrDefault("Liquidacao", 0))
                               .info("  • Ordens de Fornecimento: " + processingResults.getOrDefault("OrdemFornecimento", 0))
-                              .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0));
+                              .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0))
+                              .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -835,6 +866,101 @@ public class ContractConsumptionScheduler {
     }
 
     /**
+     * Método específico para executar apenas Empenho
+     */
+    @LogOperation(operation = "SCHEDULED_EMPENHO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeEmpenhoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "EMPENHO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Empenho");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logInfo("Iniciando processamento específico de Empenhos");
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "EMPENHO_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE EMPENHOS ===");
+            markdownSection.progress("Processando Empenhos...");
+
+            long empenhoStartTime = System.currentTimeMillis();
+            EmpenhoDTO empenhoDto = new EmpenhoDTO();
+            List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
+            int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
+            totalRecordsProcessed = empenhoCount;
+
+            long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            logger.info("Empenhos processados: {}", empenhoCount);
+            markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
+
+            // Log simples para usuário
+            userFriendlyLogger.logOperationComplete(totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "EMPENHO_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "empenho");
+
+            // Finalizar log markdown com resumo
+            markdownSection.summary("Processamento de Empenho concluído com sucesso")
+                          .info("Total de registros: " + totalRecordsProcessed)
+                          .info("Tempo de execução: " + totalExecutionTime + "ms")
+                          .log();
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("processamento de Empenhos", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "EMPENHO_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "empenho");
+            logger.error("Erro durante execução específica de Empenho", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Empenho via endpoint
+     */
+    public Map<String, Object> executeEmpenhoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE EMPENHO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeEmpenhoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Empenho concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Empenho: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
      * Método para verificar status do scheduler
      */
     public Map<String, Object> getSchedulerStatus() {
@@ -842,9 +968,9 @@ public class ContractConsumptionScheduler {
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
         status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
-        status.put("testExecutionOnStartup", "10 seconds after application ready - Liquidação only");
-        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários");
-        status.put("startupExecution", "Liquidação only");
+        status.put("testExecutionOnStartup", "10 seconds after application ready - Empenho only");
+        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários, Empenhos");
+        status.put("startupExecution", "Empenho only");
         status.put("scheduledExecution", "All entities");
 
         return status;

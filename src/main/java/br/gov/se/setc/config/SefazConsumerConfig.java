@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
+import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
@@ -252,6 +253,35 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<DadosOrcamentariosDTO> dadosOrcamentariosValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating DadosOrcamentarios ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("empenhoConsumoApiService")
+    public ConsumoApiService<EmpenhoDTO> empenhoConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<EmpenhoDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating Empenho ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            EmpenhoDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<EmpenhoDTO> empenhoValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating Empenho ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }
