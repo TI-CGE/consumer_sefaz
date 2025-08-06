@@ -81,7 +81,14 @@ public abstract class EndpontSefaz {
      public abstract void mapearCamposResposta();
 
      protected abstract void mapearParametros();
-    
+
+     /**
+      * Indica se este endpoint requer iteração sobre todos os valores de cdGestao
+      * @return true se o endpoint precisa iterar sobre cdGestao, false caso contrário
+      */
+     public boolean requerIteracaoCdGestao() {
+         return false; // Padrão é false, DTOs específicos podem sobrescrever
+     }
 
 
 

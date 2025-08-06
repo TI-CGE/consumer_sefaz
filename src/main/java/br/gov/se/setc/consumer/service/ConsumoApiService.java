@@ -597,48 +597,37 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
     private List<T> pegarDadosMesAnoVigente(String ugCd, T mapper){
         List<T> resultadoAnoMesVigente = new ArrayList<>();
-        String apiUrl = null;
 
         Short anoAtual = utilsService.getAnoAtual();
         Short mesAtual = utilsService.getMesAtual();
 
         logger.info("Buscando dados do ano atual (" + anoAtual + ") para UG: " + ugCd);
 
-        try {
-            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
-            Map<String, Object> parametros = mapper.getCamposParametrosAtual(ugCd, utilsService);
+        // Verificar se o DTO requer iteração sobre cdGestao
+        if (mapper.requerIteracaoCdGestao()) {
+            logger.info("DTO requer iteração sobre cdGestao. Buscando todos os códigos de gestão...");
+            List<String> cdGestaoList = utilsService.cdGestao();
 
-            logger.info("Parâmetros da consulta: " + parametros);
+            if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
+                logger.info("Encontrados " + cdGestaoList.size() + " códigos de gestão para iterar");
 
-            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
-                    builder.queryParam(entry.getKey(), entry.getValue());
-            }
-            apiUrl = builder.toUriString();
-
-            logger.info("URL da API: " + apiUrl);
-
-        } catch (Exception e) {
-              logger.severe("Erro ao montar URL para ano vigente: " + e.getMessage());
-              return resultadoAnoMesVigente;
-        }
-
-        try {
-            ResponseEntity<String> response = respostaApiRaw(apiUrl);
-            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
-                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
-                if (processedData != null) {
-                    resultadoAnoMesVigente.addAll(processedData);
-                    logger.info("Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
-                } else {
-                    logger.warning("Processamento retornou null para UG " + ugCd);
+                for (String cdGestao : cdGestaoList) {
+                    logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
+                    List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                    if (resultadoCdGestao != null) {
+                        resultadoAnoMesVigente.addAll(resultadoCdGestao);
+                        logger.info("cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros processados");
+                    }
                 }
             } else {
-                logger.warning("API retornou erro para UG " + ugCd + ". Status: " +
-                             (response != null ? response.getStatusCode() : "null"));
+                logger.warning("Nenhum código de gestão encontrado na tabela consumer_sefaz.empenho");
             }
-
-        } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
+        } else {
+            // Processamento normal sem iteração de cdGestao
+            List<T> resultado = processarSemCdGestao(ugCd, mapper, true);
+            if (resultado != null) {
+                resultadoAnoMesVigente.addAll(resultado);
+            }
         }
 
         return resultadoAnoMesVigente;
@@ -649,33 +638,34 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         Short anoAtual = utilsService.getAnoAtual();
 
         for (Short dtAno = anoAtual; dtAno >= anoAtual-5;  dtAno--) {
-                    String apiUrl = null;
-                    try {
-                        UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
-                        for (Map.Entry<String, Object> entry : mapper.getCamposParametrosTodosOsAnos(ugCd, dtAno).entrySet()) {
-                                builder.queryParam(entry.getKey(), entry.getValue());
-                        }
-                        apiUrl = builder.toUriString();
+            logger.info("Processando ano: " + dtAno + " para UG: " + ugCd);
 
-                    } catch (Exception e) {
-                         logger.severe("Erro ao montar URL antiga: " + e.getMessage());
+            // Verificar se o DTO requer iteração sobre cdGestao
+            if (mapper.requerIteracaoCdGestao()) {
+                logger.info("DTO requer iteração sobre cdGestao para ano " + dtAno);
+                List<String> cdGestaoList = utilsService.cdGestao();
+
+                if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
+                    for (String cdGestao : cdGestaoList) {
+                        logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd + " e ano: " + dtAno);
+                        List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                        if (resultadoCdGestao != null) {
+                            resultadoTodosAnos.addAll(resultadoCdGestao);
+                            logger.info("Ano " + dtAno + " cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros");
+                        }
                     }
-                  try {
-                        ResponseEntity<String> response = respostaApiRaw(apiUrl);
-
-                        if (response != null &&  response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
-                            List<T> anoResult = processarRespostaSefaz(response.getBody(), mapper);
-                            if (anoResult != null) {
-                                 resultadoTodosAnos.addAll(anoResult);
-                            }
-                        }
-
-                  } catch (RestClientException e) {
-                         logger.severe("Erro ao consumir API antiga: " + e.getMessage());
+                } else {
+                    logger.warning("Nenhum código de gestão encontrado para ano " + dtAno);
                 }
-
+            } else {
+                // Processamento normal sem iteração de cdGestao
+                List<T> resultadoAno = processarSemCdGestaoTodosAnos(ugCd, mapper, dtAno);
+                if (resultadoAno != null) {
+                    resultadoTodosAnos.addAll(resultadoAno);
+                }
             }
-            return resultadoTodosAnos;
+        }
+        return resultadoTodosAnos;
     }
 
     /**
@@ -745,6 +735,178 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         } else {
             return "dados";
         }
+    }
+
+    /**
+     * Processa requisição com cdGestao específico para dados atuais
+     */
+    private List<T> processarComCdGestao(String ugCd, T mapper, String cdGestao, boolean isAnoAtual) {
+        List<T> resultado = new ArrayList<>();
+        String apiUrl = null;
+
+        try {
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+            Map<String, Object> parametros = mapper.getCamposParametrosAtual(ugCd, utilsService);
+
+            // Adicionar cdGestao aos parâmetros
+            parametros.put("cdGestao", cdGestao);
+
+            logger.info("Parâmetros da consulta com cdGestao " + cdGestao + ": " + parametros);
+
+            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
+                builder.queryParam(entry.getKey(), entry.getValue());
+            }
+            apiUrl = builder.toUriString();
+
+            logger.info("URL da API com cdGestao: " + apiUrl);
+
+        } catch (Exception e) {
+            logger.severe("Erro ao montar URL com cdGestao " + cdGestao + ": " + e.getMessage());
+            return resultado;
+        }
+
+        try {
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
+                if (processedData != null) {
+                    resultado.addAll(processedData);
+                    logger.info("Dados processados com sucesso para cdGestao " + cdGestao + ": " + processedData.size() + " registros");
+                } else {
+                    logger.warning("Processamento retornou null para cdGestao " + cdGestao);
+                }
+            } else {
+                logger.warning("API retornou erro para cdGestao " + cdGestao + ". Status: " +
+                             (response != null ? response.getStatusCode() : "null"));
+            }
+
+        } catch (RestClientException e) {
+            logger.severe("Erro ao consumir API para cdGestao " + cdGestao + ": " + e.getMessage());
+        }
+
+        return resultado;
+    }
+
+    /**
+     * Processa requisição com cdGestao específico para todos os anos
+     */
+    private List<T> processarComCdGestaoTodosAnos(String ugCd, T mapper, String cdGestao, Short ano) {
+        List<T> resultado = new ArrayList<>();
+        String apiUrl = null;
+
+        try {
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+            Map<String, Object> parametros = mapper.getCamposParametrosTodosOsAnos(ugCd, ano);
+
+            // Adicionar cdGestao aos parâmetros
+            parametros.put("cdGestao", cdGestao);
+
+            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
+                builder.queryParam(entry.getKey(), entry.getValue());
+            }
+            apiUrl = builder.toUriString();
+
+        } catch (Exception e) {
+            logger.severe("Erro ao montar URL com cdGestao " + cdGestao + " para ano " + ano + ": " + e.getMessage());
+            return resultado;
+        }
+
+        try {
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
+                if (processedData != null) {
+                    resultado.addAll(processedData);
+                }
+            }
+        } catch (RestClientException e) {
+            logger.severe("Erro ao consumir API para cdGestao " + cdGestao + " e ano " + ano + ": " + e.getMessage());
+        }
+
+        return resultado;
+    }
+
+    /**
+     * Processa requisição sem cdGestao para dados atuais (DTOs que não precisam de iteração)
+     */
+    private List<T> processarSemCdGestao(String ugCd, T mapper, boolean isAnoAtual) {
+        List<T> resultado = new ArrayList<>();
+        String apiUrl = null;
+
+        try {
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+            Map<String, Object> parametros = mapper.getCamposParametrosAtual(ugCd, utilsService);
+
+            logger.info("Parâmetros da consulta: " + parametros);
+
+            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
+                builder.queryParam(entry.getKey(), entry.getValue());
+            }
+            apiUrl = builder.toUriString();
+
+            logger.info("URL da API: " + apiUrl);
+
+        } catch (Exception e) {
+            logger.severe("Erro ao montar URL para ano vigente: " + e.getMessage());
+            return resultado;
+        }
+
+        try {
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
+                if (processedData != null) {
+                    resultado.addAll(processedData);
+                    logger.info("Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
+                } else {
+                    logger.warning("Processamento retornou null para UG " + ugCd);
+                }
+            } else {
+                logger.warning("API retornou erro para UG " + ugCd + ". Status: " +
+                             (response != null ? response.getStatusCode() : "null"));
+            }
+
+        } catch (RestClientException e) {
+            logger.severe("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
+        }
+
+        return resultado;
+    }
+
+    /**
+     * Processa requisição sem cdGestao para todos os anos (DTOs que não precisam de iteração)
+     */
+    private List<T> processarSemCdGestaoTodosAnos(String ugCd, T mapper, Short ano) {
+        List<T> resultado = new ArrayList<>();
+        String apiUrl = null;
+
+        try {
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+            for (Map.Entry<String, Object> entry : mapper.getCamposParametrosTodosOsAnos(ugCd, ano).entrySet()) {
+                builder.queryParam(entry.getKey(), entry.getValue());
+            }
+            apiUrl = builder.toUriString();
+
+        } catch (Exception e) {
+            logger.severe("Erro ao montar URL antiga: " + e.getMessage());
+            return resultado;
+        }
+
+        try {
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> anoResult = processarRespostaSefaz(response.getBody(), mapper);
+                if (anoResult != null) {
+                    resultado.addAll(anoResult);
+                }
+            }
+
+        } catch (RestClientException e) {
+            logger.severe("Erro ao consumir API antiga: " + e.getMessage());
+        }
+
+        return resultado;
     }
 
 }

@@ -101,12 +101,9 @@ public class LiquidacaoDTO extends EndpontSefaz {
         camposParametros.put("nuAnoLancamento", utilsService.getAnoAtual());
         camposParametros.put("nuMesLancamento", utilsService.getMesAtual());
 
-        // Adicionar cdGestao obrigatório para a API de liquidação
-        // Usar o primeiro cdGestao disponível da lista
-        List<String> cdGestaoList = utilsService.cdGestao();
-        if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
-            camposParametros.put("cdGestao", cdGestaoList.get(0));
-        }
+        // Nota: cdGestao será adicionado dinamicamente durante o processamento
+        // Este método retorna os parâmetros base, e o cdGestao será iterado
+        // no serviço de consumo para buscar dados de todos os códigos de gestão
 
         return camposParametros;
     }
@@ -118,13 +115,16 @@ public class LiquidacaoDTO extends EndpontSefaz {
         camposParametros.put("dtAnoExercicioCTB", ano);
         camposParametros.put("nuAnoLancamento", ano);
 
-        // Adicionar cdGestao obrigatório para a API de liquidação
-        // Para este método, vamos usar um valor padrão ou o primeiro disponível
-        // Idealmente deveria ser obtido do ValidacaoUtil, mas não temos acesso aqui
-        // Vamos usar "00001" como padrão (valor comum no SEFAZ)
-        camposParametros.put("cdGestao", "00001");
+        // Nota: cdGestao será adicionado dinamicamente durante o processamento
+        // Este método retorna os parâmetros base, e o cdGestao será iterado
+        // no serviço de consumo para buscar dados de todos os códigos de gestão
 
         return camposParametros;
+    }
+
+    @Override
+    public boolean requerIteracaoCdGestao() {
+        return true; // LiquidacaoDTO precisa iterar sobre todos os valores de cdGestao
     }
 
     // Getters and Setters

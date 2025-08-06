@@ -115,7 +115,7 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
     }
 
     public List<String> cdGestao(){
-        String sql = "SELECT DISTINCT cd_gestao FROM sco.empenhos ";
+        String sql = "SELECT DISTINCT cd_gestao FROM consumer_sefaz.empenho ";
         return jdbcTemplate.queryForList(sql, String.class);
     }
 
