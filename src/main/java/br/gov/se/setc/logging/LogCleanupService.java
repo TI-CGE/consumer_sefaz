@@ -2,6 +2,7 @@ package br.gov.se.setc.logging;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -20,18 +21,21 @@ import java.util.concurrent.atomic.AtomicLong;
  */
 @Service
 public class LogCleanupService {
-    
+
     private static final Logger logger = LoggerFactory.getLogger(LogCleanupService.class);
-    
+
+    @Autowired
+    private LogRotationService logRotationService;
+
     @Value("${logging.cleanup.enabled:true}")
     private boolean cleanupEnabled;
-    
+
     @Value("${logging.cleanup.max-age-days:7}")
     private int maxAgeDays;
-    
+
     @Value("${logging.cleanup.max-size-mb:500}")
     private long maxSizeMb;
-    
+
     @Value("${logging.path:./logs}")
     private String logPath;
     
@@ -60,18 +64,21 @@ public class LogCleanupService {
         }
         
         try {
-            // 1. Remove arquivos antigos
+            // 1. Verifica se operations.md precisa de rotação
+            checkOperationsRotation(result);
+
+            // 2. Remove arquivos antigos
             removeOldFiles(logsDir, result);
-            
-            // 2. Compacta logs grandes
+
+            // 3. Compacta logs grandes
             compressLargeFiles(logsDir, result);
-            
-            // 3. Remove logs vazios
+
+            // 4. Remove logs vazios
             removeEmptyFiles(logsDir, result);
-            
-            // 4. Verifica tamanho total
+
+            // 5. Verifica tamanho total
             checkTotalSize(logsDir, result);
-            
+
             logger.info("✅ Limpeza concluída: {}", result);
             
         } catch (IOException e) {
@@ -81,7 +88,35 @@ public class LogCleanupService {
         
         return result;
     }
-    
+
+    /**
+     * Verifica se o operations.md precisa de rotação e executa se necessário
+     */
+    private void checkOperationsRotation(CleanupResult result) {
+        try {
+            LogRotationService.FileInfo fileInfo = logRotationService.getCurrentFileInfo();
+
+            if (fileInfo.needsRotation) {
+                logger.info("🔄 operations.md precisa de rotação ({}MB), executando...",
+                        String.format("%.1f", fileInfo.sizeMb));
+
+                LogRotationService.RotationResult rotationResult = logRotationService.forceRotation();
+
+                if (rotationResult.success) {
+                    result.operationsRotated = true;
+                    result.operationsRotationMessage = rotationResult.message;
+                    logger.info("✅ Rotação do operations.md concluída: {}", rotationResult.message);
+                } else {
+                    logger.error("❌ Falha na rotação do operations.md: {}", rotationResult.message);
+                    result.errors++;
+                }
+            }
+        } catch (Exception e) {
+            logger.error("❌ Erro ao verificar rotação do operations.md", e);
+            result.errors++;
+        }
+    }
+
     /**
      * Remove arquivos mais antigos que o limite configurado
      */
@@ -205,11 +240,24 @@ public class LogCleanupService {
         public long totalSizeBytes = 0;
         public boolean sizeExceeded = false;
         public int errors = 0;
-        
+        public boolean operationsRotated = false;
+        public String operationsRotationMessage = "";
+
         @Override
         public String toString() {
-            return String.format("Arquivos removidos: %d, Vazios removidos: %d, Espaço liberado: %s, Tamanho total: %s, Erros: %d",
-                    filesDeleted, emptyFilesDeleted, formatBytes(bytesFreed), formatBytes(totalSizeBytes), errors);
+            StringBuilder sb = new StringBuilder();
+            sb.append(String.format("Arquivos removidos: %d, Vazios removidos: %d, Espaço liberado: %s, Tamanho total: %s",
+                    filesDeleted, emptyFilesDeleted, formatBytes(bytesFreed), formatBytes(totalSizeBytes)));
+
+            if (operationsRotated) {
+                sb.append(", Operations.md rotacionado: ").append(operationsRotationMessage);
+            }
+
+            if (errors > 0) {
+                sb.append(", Erros: ").append(errors);
+            }
+
+            return sb.toString();
         }
         
         private String formatBytes(long bytes) {

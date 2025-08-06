@@ -1,13 +1,17 @@
 package br.gov.se.setc.controller;
 
+import br.gov.se.setc.logging.LogCleanupService;
+import br.gov.se.setc.logging.LogRotationService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,7 +28,13 @@ import java.time.format.DateTimeFormatter;
 @RequestMapping("/api/logs")
 @Tag(name = "Gerenciamento de Logs", description = "Endpoints para gerenciar e visualizar logs")
 public class LogManagementController {
-    
+
+    @Autowired
+    private LogRotationService logRotationService;
+
+    @Autowired
+    private LogCleanupService logCleanupService;
+
     private static final String LOGS_DIR = "logs";
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     
@@ -179,5 +189,126 @@ public class LogManagementController {
         if (bytes < 1024) return bytes + " B";
         if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
+    }
+
+    /**
+     * Força rotação do arquivo operations.md
+     */
+    @PostMapping("/rotate")
+    @Operation(
+        summary = "Forçar rotação do operations.md",
+        description = "Força a rotação imediata do arquivo operations.md quando está muito grande"
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Rotação executada com sucesso"),
+        @ApiResponse(responseCode = "500", description = "Erro durante a rotação")
+    })
+    public ResponseEntity<Map<String, Object>> forceRotation() {
+        try {
+            LogRotationService.RotationResult result = logRotationService.forceRotation();
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("success", result.success);
+            response.put("message", result.message);
+            response.put("rotatedFileName", result.rotatedFileName);
+            response.put("originalSizeBytes", result.originalSizeBytes);
+            response.put("compressedSizeBytes", result.compressedSizeBytes);
+            response.put("compressionRatio", String.format("%.1f%%", result.compressionRatio * 100));
+
+            if (result.success) {
+                return ResponseEntity.ok(response);
+            } else {
+                return ResponseEntity.internalServerError().body(response);
+            }
+
+        } catch (Exception e) {
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("success", false);
+            errorResponse.put("error", e.getMessage());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        }
+    }
+
+    /**
+     * Verifica informações detalhadas do operations.md
+     */
+    @GetMapping("/operations/info")
+    @Operation(
+        summary = "Informações do operations.md",
+        description = "Retorna informações detalhadas sobre o arquivo operations.md"
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Informações obtidas com sucesso"),
+        @ApiResponse(responseCode = "500", description = "Erro interno do servidor")
+    })
+    public ResponseEntity<Map<String, Object>> getOperationsInfo() {
+        try {
+            LogRotationService.FileInfo fileInfo = logRotationService.getCurrentFileInfo();
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("success", true);
+            response.put("fileExists", fileInfo.exists);
+            response.put("sizeBytes", fileInfo.sizeBytes);
+            response.put("sizeMB", String.format("%.2f", fileInfo.sizeMb));
+            response.put("estimatedLines", fileInfo.estimatedLines);
+            response.put("lastModified", fileInfo.lastModified);
+            response.put("needsRotation", fileInfo.needsRotation);
+            response.put("error", fileInfo.error);
+            response.put("message", fileInfo.toString());
+
+            // Adicionar recomendação
+            if (fileInfo.needsRotation) {
+                response.put("recommendation", "⚠️ Arquivo precisa de rotação! Execute POST /api/logs/rotate");
+            } else if (fileInfo.sizeMb > 1.0) {
+                response.put("recommendation", "📊 Arquivo está crescendo. Monitore o tamanho.");
+            } else {
+                response.put("recommendation", "✅ Arquivo em tamanho normal.");
+            }
+
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("success", false);
+            errorResponse.put("error", e.getMessage());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        }
+    }
+
+    /**
+     * Executa limpeza automática de logs
+     */
+    @PostMapping("/cleanup")
+    @Operation(
+        summary = "Executar limpeza de logs",
+        description = "Executa limpeza manual de logs antigos e otimização"
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Limpeza executada com sucesso"),
+        @ApiResponse(responseCode = "500", description = "Erro durante a limpeza")
+    })
+    public ResponseEntity<Map<String, Object>> performCleanup() {
+        try {
+            LogCleanupService.CleanupResult result = logCleanupService.performCleanup();
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("success", true);
+            response.put("filesDeleted", result.filesDeleted);
+            response.put("emptyFilesDeleted", result.emptyFilesDeleted);
+            response.put("largeFiles", result.largeFiles);
+            response.put("bytesFreed", result.bytesFreed);
+            response.put("totalSizeBytes", result.totalSizeBytes);
+            response.put("sizeExceeded", result.sizeExceeded);
+            response.put("errors", result.errors);
+            response.put("message", result.toString());
+
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("success", false);
+            errorResponse.put("error", e.getMessage());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        }
     }
 }
