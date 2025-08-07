@@ -9,12 +9,14 @@ import org.springframework.web.client.RestTemplate;
 import java.util.logging.Logger;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
+import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.consumer.service.ContratodFiscaisServices;
@@ -282,6 +284,64 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<EmpenhoDTO> empenhoValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating Empenho ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("totalizadoresExecucaoConsumoApiService")
+    public ConsumoApiService<TotalizadoresExecucaoDTO> totalizadoresExecucaoConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<TotalizadoresExecucaoDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating TotalizadoresExecucao ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            TotalizadoresExecucaoDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<TotalizadoresExecucaoDTO> totalizadoresExecucaoValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating TotalizadoresExecucao ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("consultaGerencialConsumoApiService")
+    public ConsumoApiService<ConsultaGerencialDTO> consultaGerencialConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<ConsultaGerencialDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating ConsultaGerencial ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            ConsultaGerencialDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<ConsultaGerencialDTO> consultaGerencialValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating ConsultaGerencial ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }

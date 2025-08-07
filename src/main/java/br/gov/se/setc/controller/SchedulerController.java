@@ -94,7 +94,7 @@ public class SchedulerController {
         Map<String, Object> info = new HashMap<>();
         
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
-        info.put("testExecution", "10 segundos após inicialização da aplicação - Empenho");
+        info.put("testExecution", "DESABILITADO - Sem execução automática no startup");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
         info.put("manualExecution", Map.of(
             "allEntities", "POST /scheduler/execute",
@@ -272,6 +272,62 @@ public class SchedulerController {
             errorResponse.put("timestamp", System.currentTimeMillis());
 
             return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Totalizadores de Execução
+     */
+    @PostMapping("/execute/totalizadores-execucao")
+    @Operation(summary = "Executar Apenas Totalizadores de Execução", description = "Executa manualmente apenas o processamento da entidade Totalizadores de Execução")
+    @LogOperation(operation = "MANUAL_TOTALIZADORES_EXECUCAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeTotalizadoresExecucaoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Totalizadores de Execução solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeTotalizadoresExecucaoManually();
+
+            logger.info("Execução manual de Totalizadores de Execução concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Totalizadores de Execução", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Consulta Gerencial
+     */
+    @PostMapping("/execute/consulta-gerencial")
+    @Operation(summary = "Executar Apenas Consulta Gerencial", description = "Executa manualmente apenas o processamento da entidade Consulta Gerencial (Diárias)")
+    @LogOperation(operation = "MANUAL_CONSULTA_GERENCIAL_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConsultaGerencialOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Consulta Gerencial solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeConsultaGerencialManually();
+
+            logger.info("Execução manual de Consulta Gerencial concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Consulta Gerencial", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
         } finally {
             MDCUtil.clear();
         }

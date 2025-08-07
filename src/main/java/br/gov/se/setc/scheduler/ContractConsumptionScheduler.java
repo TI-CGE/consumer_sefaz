@@ -1,12 +1,14 @@
 package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
+import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.MarkdownLogger;
@@ -69,6 +71,14 @@ public class ContractConsumptionScheduler {
     private ConsumoApiService<EmpenhoDTO> empenhoConsumoApiService;
 
     @Autowired
+    @Qualifier("totalizadoresExecucaoConsumoApiService")
+    private ConsumoApiService<TotalizadoresExecucaoDTO> totalizadoresExecucaoConsumoApiService;
+
+    @Autowired
+    @Qualifier("consultaGerencialConsumoApiService")
+    private ConsumoApiService<ConsultaGerencialDTO> consultaGerencialConsumoApiService;
+
+    @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
@@ -80,20 +90,21 @@ public class ContractConsumptionScheduler {
     private boolean isFirstExecution = true;
     
     /**
-     * Executa apenas Empenho 10 segundos após a aplicação estar pronta (para testes)
+     * Executa apenas Pagamento 10 segundos após a aplicação estar pronta (para testes)
+     * COMENTADO - Sem execução automática no startup
      */
-    @EventListener(ApplicationReadyEvent.class)
+    // @EventListener(ApplicationReadyEvent.class)
     public void executeOnStartup() {
         CompletableFuture.runAsync(() -> {
             try {
                 Thread.sleep(10000); // Aguarda 10 segundos
 
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
-                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Empenho");
-                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_EMPENHO", "CORRELATION_ID", correlationId);
+                unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Pagamento");
+                unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_PAGAMENTO", "CORRELATION_ID", correlationId);
 
-                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - EMPENHO ===");
-                executeEmpenhoOnly();
+                logger.info("=== INICIANDO EXECUÇÃO DE TESTE DO SCHEDULER - PAGAMENTO ===");
+                executePagamentoOnly();
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
                 logger.error("Execução de startup interrompida", e);
@@ -345,6 +356,56 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
             }
 
+            // 15. Aguardar um pouco antes de consumir totalizadores de execução
+            Thread.sleep(2000);
+
+            // 16. Consumir Totalizadores de Execução
+            logger.info("=== INICIANDO CONSUMO DE TOTALIZADORES DE EXECUÇÃO ===");
+            markdownSection.progress("Processando Totalizadores de Execução...");
+
+            try {
+                long totalizadoresExecucaoStartTime = System.currentTimeMillis();
+                TotalizadoresExecucaoDTO totalizadoresExecucaoDto = new TotalizadoresExecucaoDTO();
+                List<TotalizadoresExecucaoDTO> totalizadoresExecucaoResults = totalizadoresExecucaoConsumoApiService.consumirPersistir(totalizadoresExecucaoDto);
+                int totalizadoresExecucaoCount = totalizadoresExecucaoResults != null ? totalizadoresExecucaoResults.size() : 0;
+                processingResults.put("TotalizadoresExecucao", totalizadoresExecucaoCount);
+                totalRecordsProcessed += totalizadoresExecucaoCount;
+
+                long totalizadoresExecucaoDuration = System.currentTimeMillis() - totalizadoresExecucaoStartTime;
+                logger.info("Totalizadores de Execução processados: {}", totalizadoresExecucaoCount);
+                markdownSection.success(totalizadoresExecucaoCount + " registros de Totalizadores de Execução processados", totalizadoresExecucaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Totalizadores de Execução", e);
+                processingResults.put("TotalizadoresExecucao", 0);
+                markdownSection.error("Falha no processamento de Totalizadores de Execução: " + e.getMessage());
+            }
+
+            // 17. Aguardar um pouco antes de consumir consulta gerencial
+            Thread.sleep(2000);
+
+            // 18. Consumir Consulta Gerencial (Diárias)
+            logger.info("=== INICIANDO CONSUMO DE CONSULTA GERENCIAL ===");
+            markdownSection.progress("Processando Consulta Gerencial (Diárias)...");
+
+            try {
+                long consultaGerencialStartTime = System.currentTimeMillis();
+                ConsultaGerencialDTO consultaGerencialDto = new ConsultaGerencialDTO();
+                List<ConsultaGerencialDTO> consultaGerencialResults = consultaGerencialConsumoApiService.consumirPersistir(consultaGerencialDto);
+                int consultaGerencialCount = consultaGerencialResults != null ? consultaGerencialResults.size() : 0;
+                processingResults.put("ConsultaGerencial", consultaGerencialCount);
+                totalRecordsProcessed += consultaGerencialCount;
+
+                long consultaGerencialDuration = System.currentTimeMillis() - consultaGerencialStartTime;
+                logger.info("Consulta Gerencial processada: {}", consultaGerencialCount);
+                markdownSection.success(consultaGerencialCount + " registros de Consulta Gerencial processados", consultaGerencialDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Consulta Gerencial", e);
+                processingResults.put("ConsultaGerencial", 0);
+                markdownSection.error("Falha no processamento de Consulta Gerencial: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -364,7 +425,9 @@ public class ContractConsumptionScheduler {
                               .info("  • Liquidações: " + processingResults.getOrDefault("Liquidacao", 0))
                               .info("  • Ordens de Fornecimento: " + processingResults.getOrDefault("OrdemFornecimento", 0))
                               .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0))
-                              .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0));
+                              .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0))
+                              .info("  • Totalizadores de Execução: " + processingResults.getOrDefault("TotalizadoresExecucao", 0))
+                              .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -961,6 +1024,177 @@ public class ContractConsumptionScheduler {
     }
 
     /**
+     * Método específico para executar apenas Totalizadores de Execução
+     */
+    @LogOperation(operation = "SCHEDULED_TOTALIZADORES_EXECUCAO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeTotalizadoresExecucaoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "TOTALIZADORES_EXECUCAO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Totalizadores de Execução");
+
+        try {
+            unifiedLogger.logApplicationEvent("SCHEDULER_TOTALIZADORES_EXECUCAO_START", "Iniciando execução específica de Totalizadores de Execução");
+            unifiedLogger.logOperationStart("SCHEDULER", "TOTALIZADORES_EXECUCAO_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            markdownSection.info("Iniciando processamento de Totalizadores de Execução...");
+
+            long startTime = System.currentTimeMillis();
+            TotalizadoresExecucaoDTO totalizadoresExecucaoDto = new TotalizadoresExecucaoDTO();
+            List<TotalizadoresExecucaoDTO> totalizadoresExecucaoResults = totalizadoresExecucaoConsumoApiService.consumirPersistir(totalizadoresExecucaoDto);
+            int totalizadoresExecucaoCount = totalizadoresExecucaoResults != null ? totalizadoresExecucaoResults.size() : 0;
+            totalRecordsProcessed += totalizadoresExecucaoCount;
+
+            long duration = System.currentTimeMillis() - startTime;
+            logger.info("Totalizadores de Execução processados: {}", totalizadoresExecucaoCount);
+            markdownSection.success(totalizadoresExecucaoCount + " Totalizadores de Execução processados", duration);
+
+            long totalDuration = System.currentTimeMillis() - totalStartTime;
+            unifiedLogger.logOperationSuccess("SCHEDULER", "TOTALIZADORES_EXECUCAO_ONLY_CONSUMPTION", totalDuration,
+                    totalRecordsProcessed, "CORRELATION_ID", correlationId);
+
+            // Finalizar log markdown com resumo
+            markdownSection.summary("Processamento de Totalizadores de Execução concluído com sucesso")
+                          .info("Total de registros: " + totalRecordsProcessed)
+                          .info("Tempo de execução: " + totalDuration + "ms")
+                          .log();
+
+        } catch (Exception e) {
+            long totalDuration = System.currentTimeMillis() - totalStartTime;
+            logger.error("Erro durante execução específica de Totalizadores de Execução", e);
+            unifiedLogger.logOperationError("SCHEDULER", "TOTALIZADORES_EXECUCAO_ONLY_CONSUMPTION", totalDuration, e, "CORRELATION_ID", correlationId);
+            markdownSection.error("Erro durante execução específica: " + e.getMessage()).log();
+            throw e;
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Totalizadores de Execução via endpoint
+     */
+    public Map<String, Object> executeTotalizadoresExecucaoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE TOTALIZADORES DE EXECUÇÃO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeTotalizadoresExecucaoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Totalizadores de Execução concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Totalizadores de Execução: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
+     * Método específico para executar apenas Consulta Gerencial
+     */
+    @LogOperation(operation = "SCHEDULED_CONSULTA_GERENCIAL_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeConsultaGerencialOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "CONSULTA_GERENCIAL_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Consulta Gerencial");
+
+        try {
+            markdownSection.info("Iniciando processamento de Consulta Gerencial (Diárias)");
+            unifiedLogger.logOperationStart("SCHEDULER", "CONSULTA_GERENCIAL_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            long consultaGerencialStartTime = System.currentTimeMillis();
+            ConsultaGerencialDTO consultaGerencialDto = new ConsultaGerencialDTO();
+            List<ConsultaGerencialDTO> consultaGerencialResults = consultaGerencialConsumoApiService.consumirPersistir(consultaGerencialDto);
+            int consultaGerencialCount = consultaGerencialResults != null ? consultaGerencialResults.size() : 0;
+            totalRecordsProcessed += consultaGerencialCount;
+
+            long consultaGerencialDuration = System.currentTimeMillis() - consultaGerencialStartTime;
+            logger.info("Consulta Gerencial processada: {}", consultaGerencialCount);
+            markdownSection.success(consultaGerencialCount + " registros de Consulta Gerencial processados", consultaGerencialDuration);
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Adicionar estatísticas ao log markdown
+            if (totalRecordsProcessed > 0) {
+                markdownSection.info("📊 Estatísticas de processamento:")
+                              .info("  • Consulta Gerencial: " + totalRecordsProcessed);
+
+                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                    markdownSection.warning("Execução demorou mais que 15 segundos");
+                }
+            }
+
+            // Finalizar log markdown com resumo
+            markdownSection.logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ESPECÍFICA DE CONSULTA GERENCIAL CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("execução específica de consulta gerencial", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "CONSULTA_GERENCIAL_EXECUTION", totalExecutionTime, e,
+                "ENDPOINTS", "CONSULTA_GERENCIAL_ENDPOINT");
+            logger.error("Erro durante execução específica de consulta gerencial", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha crítica na execução de consulta gerencial: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            isFirstExecution = false;
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Consulta Gerencial via endpoint
+     */
+    public Map<String, Object> executeConsultaGerencialManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE CONSULTA GERENCIAL SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeConsultaGerencialOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Consulta Gerencial concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Consulta Gerencial: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
      * Método para verificar status do scheduler
      */
     public Map<String, Object> getSchedulerStatus() {
@@ -968,9 +1202,9 @@ public class ContractConsumptionScheduler {
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
         status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
-        status.put("testExecutionOnStartup", "10 seconds after application ready - Empenho only");
-        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários, Empenhos");
-        status.put("startupExecution", "Empenho only");
+        status.put("testExecutionOnStartup", "DISABLED - No automatic execution on startup");
+        status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários, Empenhos, Totalizadores de Execução, Consulta Gerencial");
+        status.put("startupExecution", "DISABLED");
         status.put("scheduledExecution", "All entities");
 
         return status;
