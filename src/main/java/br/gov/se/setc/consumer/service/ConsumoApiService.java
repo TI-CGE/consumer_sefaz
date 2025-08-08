@@ -345,6 +345,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Log the raw response for debugging
             logger.info("Resposta SEFAZ (primeiros 500 chars): " +  jsonResponse.substring(0, Math.min(500, jsonResponse.length())));
 
+            // Verificar se é BaseDespesaCredor que tem estrutura aninhada
+            if (mapper.getTabelaBanco().contains("base_despesa_credor")) {
+                return processarRespostaBaseDespesaCredor(rootNode, mapper);
+            }
+
             // Handle array responses (most SEFAZ endpoints return arrays)
             if (rootNode.isArray()) {
                 for (JsonNode itemNode : rootNode) {
@@ -363,6 +368,102 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         } catch (Exception e) {
             logger.severe("Erro ao processar resposta JSON: " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        return resultList;
+    }
+
+    /**
+     * Processa resposta específica para BaseDespesaCredor com estrutura aninhada ou array direto
+     * Estrutura esperada: result > dados > colecao[] OU array direto []
+     */
+    private List<T> processarRespostaBaseDespesaCredor(JsonNode rootNode, T mapper) {
+        List<T> resultList = new ArrayList<>();
+
+        try {
+            // Verificar se tem a estrutura result > dados > colecao (estrutura aninhada)
+            JsonNode resultNode = rootNode.get("result");
+            if (resultNode != null) {
+                logger.info("Processando estrutura aninhada (result > dados > colecao)");
+                JsonNode dadosNode = resultNode.get("dados");
+                if (dadosNode != null) {
+                    JsonNode colecaoNode = dadosNode.get("colecao");
+                    if (colecaoNode != null && colecaoNode.isArray()) {
+                        logger.info("Processando estrutura aninhada - colecao com " + colecaoNode.size() + " itens");
+
+                        for (JsonNode itemNode : colecaoNode) {
+                            T newInstance = criarInstanciaGenerica(itemNode, mapper);
+                            if (newInstance != null) {
+                                resultList.add(newInstance);
+                            }
+                        }
+                    }
+
+                    // Extrair informações de paginação se disponível
+                    JsonNode nuFaixaPaginacao = dadosNode.get("nuFaixaPaginacao");
+                    JsonNode qtTotalFaixasPaginacao = dadosNode.get("qtTotalFaixasPaginacao");
+
+                    if (nuFaixaPaginacao != null && qtTotalFaixasPaginacao != null) {
+                        logger.info("Informações de paginação - Faixa: " + nuFaixaPaginacao.asInt() + "/" + qtTotalFaixasPaginacao.asInt());
+
+                        // Adicionar informações de paginação ao primeiro item se existir
+                        if (!resultList.isEmpty()) {
+                            T firstItem = resultList.get(0);
+                            // Usar reflexão para definir os campos de paginação
+                            try {
+                                firstItem.getClass().getMethod("setNuFaixaPaginacao", Integer.class)
+                                         .invoke(firstItem, nuFaixaPaginacao.asInt());
+                                firstItem.getClass().getMethod("setQtTotalFaixasPaginacao", Integer.class)
+                                         .invoke(firstItem, qtTotalFaixasPaginacao.asInt());
+                            } catch (Exception e) {
+                                logger.warning("Erro ao definir informações de paginação: " + e.getMessage());
+                            }
+                        }
+                    }
+                }
+
+                // Extrair campos de retorno técnico para logging
+                JsonNode msgUsuario = resultNode.get("msgUsuario");
+                JsonNode msgTecnica = resultNode.get("msgTecnica");
+                JsonNode cdRetorno = resultNode.get("cdRetorno");
+
+                if (msgUsuario != null) {
+                    logger.info("Mensagem da API: " + msgUsuario.asText());
+                }
+                if (cdRetorno != null) {
+                    logger.info("Código de retorno: " + cdRetorno.asText());
+                }
+                if (msgTecnica != null && !msgTecnica.asText().isEmpty()) {
+                    logger.info("Mensagem técnica: " + msgTecnica.asText());
+                }
+            } else {
+                // Estrutura de array direto (formato real da API)
+                logger.info("Processando estrutura de array direto para BaseDespesaCredor");
+
+                if (rootNode.isArray()) {
+                    logger.info("Array direto com " + rootNode.size() + " itens");
+                    for (JsonNode itemNode : rootNode) {
+                        T newInstance = criarInstanciaGenerica(itemNode, mapper);
+                        if (newInstance != null) {
+                            resultList.add(newInstance);
+                        }
+                    }
+                } else {
+                    // Single object response
+                    T newInstance = criarInstanciaGenerica(rootNode, mapper);
+                    if (newInstance != null) {
+                        resultList.add(newInstance);
+                    }
+                }
+
+                // Para array direto, não há informações de paginação na resposta
+                // A paginação é controlada pelos parâmetros da requisição
+                logger.info("Array direto processado - " + resultList.size() + " registros");
+            }
+
+        } catch (Exception e) {
+            logger.severe("Erro ao processar resposta de BaseDespesaCredor: " + e.getMessage());
             e.printStackTrace();
         }
 
@@ -732,6 +833,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return "receitas";
         } else if (tableName.contains("contratos_fiscais")) {
             return "contratos fiscais";
+        } else if (tableName.contains("base_despesa_credor")) {
+            return "base despesa credor";
         } else {
             return "dados";
         }

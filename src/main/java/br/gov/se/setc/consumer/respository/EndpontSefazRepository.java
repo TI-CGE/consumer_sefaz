@@ -1,5 +1,6 @@
 package br.gov.se.setc.consumer.respository;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -41,34 +42,71 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         unifiedLogger.logOperationStart("DATABASE", "INSERT_BATCH", "TABLE", tableName, "COUNT", contratos.size());
 
         try {
-            int percorrido = 0;
             int total = contratos.size();
+            int batchSize = 1000; // Tamanho do lote para evitar timeouts
+            int processedTotal = 0;
 
-            for (T contrato : contratos) {
-                Map<String, Object> fieldMap = contrato.getCamposResposta();
+            // Processar em lotes menores
+            for (int i = 0; i < total; i += batchSize) {
+                int endIndex = Math.min(i + batchSize, total);
+                List<T> batch = contratos.subList(i, endIndex);
 
-                String columns = String.join(", ", fieldMap.keySet());
-                String placeholders = fieldMap.keySet().stream().map(k -> "?").collect(Collectors.joining(", "));
-                String insertSql = "INSERT INTO "+contrato.getTabelaBanco()+ " (" + columns + ") VALUES (" + placeholders + ")";
+                // Log de início do lote
+                long batchStartTime = System.currentTimeMillis();
 
-                jdbcTemplate.update(insertSql, fieldMap.values().toArray());
-                percorrido++;
+                // Processar lote atual
+                processBatch(batch, tableName);
 
-                // Log de progresso a cada 100 registros (apenas para arquivo técnico)
-                if (percorrido % 100 == 0 || percorrido == total) {
-                    unifiedLogger.logDatabaseOperation("INSERT_PROGRESS", contrato.getTabelaBanco(), percorrido, 0);
+                processedTotal += batch.size();
+                long batchTime = System.currentTimeMillis() - batchStartTime;
+
+                // Log de progresso do lote
+                unifiedLogger.logDatabaseOperation("INSERT_BATCH_PROGRESS", tableName, batch.size(), batchTime);
+
+                // Pequena pausa entre lotes para evitar sobrecarga
+                if (endIndex < total) {
+                    try {
+                        Thread.sleep(100); // 100ms de pausa
+                    } catch (InterruptedException e) {
+                        Thread.currentThread().interrupt();
+                        break;
+                    }
                 }
             }
 
             long executionTime = System.currentTimeMillis() - startTime;
-            unifiedLogger.logOperationSuccess("DATABASE", "INSERT_BATCH", executionTime, total, "TABLE", tableName);
-            unifiedLogger.logDatabaseOperation("INSERT", tableName, total, executionTime);
+            unifiedLogger.logOperationSuccess("DATABASE", "INSERT_BATCH", executionTime, processedTotal, "TABLE", tableName);
+            unifiedLogger.logDatabaseOperation("INSERT", tableName, processedTotal, executionTime);
 
         } catch (Exception e) {
             long executionTime = System.currentTimeMillis() - startTime;
             unifiedLogger.logOperationError("DATABASE", "INSERT_BATCH", executionTime, e, "TABLE", tableName);
             throw e;
         }
+    }
+
+    /**
+     * Processa um lote de registros usando batch insert otimizado
+     */
+    private void processBatch(List<T> batch, String tableName) {
+        if (batch.isEmpty()) return;
+
+        // Usar o primeiro item para obter a estrutura da query
+        T firstItem = batch.get(0);
+        Map<String, Object> fieldMap = firstItem.getCamposResposta();
+
+        String columns = String.join(", ", fieldMap.keySet());
+        String placeholders = fieldMap.keySet().stream().map(k -> "?").collect(Collectors.joining(", "));
+        String insertSql = "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ")";
+
+        // Usar batchUpdate para melhor performance
+        List<Object[]> batchArgs = new ArrayList<>();
+        for (T item : batch) {
+            Map<String, Object> itemFieldMap = item.getCamposResposta();
+            batchArgs.add(itemFieldMap.values().toArray());
+        }
+
+        jdbcTemplate.batchUpdate(insertSql, batchArgs);
     }
 
     @LogOperation(operation = "DELETE_BY_MONTH", component = "DATABASE")
