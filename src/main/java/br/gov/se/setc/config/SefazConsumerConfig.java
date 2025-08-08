@@ -8,6 +8,9 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.logging.Logger;
 
+import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
+import br.gov.se.setc.consumer.dto.ContratoDTO;
+import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
@@ -342,6 +345,93 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<ConsultaGerencialDTO> consultaGerencialValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating ConsultaGerencial ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("contratoConsumoApiService")
+    public ConsumoApiService<ContratoDTO> contratoConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<ContratoDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating Contrato ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            ContratoDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<ContratoDTO> contratoValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating Contrato ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("contratoEmpenhoConsumoApiService")
+    public ConsumoApiService<ContratoEmpenhoDTO> contratoEmpenhoConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<ContratoEmpenhoDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating ContratoEmpenho ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            ContratoEmpenhoDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<ContratoEmpenhoDTO> contratoEmpenhoValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating ContratoEmpenho ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("baseDespesaCredorConsumoApiService")
+    public ConsumoApiService<BaseDespesaCredorDTO> baseDespesaCredorConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<BaseDespesaCredorDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating BaseDespesaCredor ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            BaseDespesaCredorDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<BaseDespesaCredorDTO> baseDespesaCredorValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating BaseDespesaCredor ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }

@@ -1,5 +1,8 @@
 package br.gov.se.setc.scheduler;
 
+import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
+import br.gov.se.setc.consumer.dto.ContratoDTO;
+import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
@@ -77,6 +80,18 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("consultaGerencialConsumoApiService")
     private ConsumoApiService<ConsultaGerencialDTO> consultaGerencialConsumoApiService;
+
+    @Autowired
+    @Qualifier("contratoConsumoApiService")
+    private ConsumoApiService<ContratoDTO> contratoConsumoApiService;
+
+    @Autowired
+    @Qualifier("contratoEmpenhoConsumoApiService")
+    private ConsumoApiService<ContratoEmpenhoDTO> contratoEmpenhoConsumoApiService;
+
+    @Autowired
+    @Qualifier("baseDespesaCredorConsumoApiService")
+    private ConsumoApiService<BaseDespesaCredorDTO> baseDespesaCredorConsumoApiService;
 
     @Autowired
     private UnifiedLogger unifiedLogger;
@@ -209,10 +224,60 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
             }
 
-            // 4. Aguardar um pouco antes de consumir receita
+            // 4. Aguardar um pouco antes de consumir contratos
             Thread.sleep(2000);
 
-            // 5. Consumir Receita
+            // 4.1. Consumir Contratos
+            logger.info("=== INICIANDO CONSUMO DE CONTRATOS ===");
+            markdownSection.progress("Processando Contratos...");
+
+            try {
+                long contratoStartTime = System.currentTimeMillis();
+                ContratoDTO contratoDto = new ContratoDTO();
+                List<ContratoDTO> contratoResults = contratoConsumoApiService.consumirPersistir(contratoDto);
+                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
+                processingResults.put("Contrato", contratoCount);
+                totalRecordsProcessed += contratoCount;
+
+                long contratoDuration = System.currentTimeMillis() - contratoStartTime;
+                logger.info("Contratos processados: {}", contratoCount);
+                markdownSection.success(contratoCount + " registros de Contrato processados", contratoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos", e);
+                processingResults.put("Contrato", 0);
+                markdownSection.error("Falha no processamento de Contratos: " + e.getMessage());
+            }
+
+            // 4.2. Aguardar um pouco antes de consumir contrato-empenho
+            Thread.sleep(2000);
+
+            // 4.3. Consumir Contrato-Empenho
+            logger.info("=== INICIANDO CONSUMO DE CONTRATO-EMPENHO ===");
+            markdownSection.progress("Processando Contrato-Empenho...");
+
+            try {
+                long contratoEmpenhoStartTime = System.currentTimeMillis();
+                ContratoEmpenhoDTO contratoEmpenhoDto = new ContratoEmpenhoDTO();
+                List<ContratoEmpenhoDTO> contratoEmpenhoResults = contratoEmpenhoConsumoApiService.consumirPersistir(contratoEmpenhoDto);
+                int contratoEmpenhoCount = contratoEmpenhoResults != null ? contratoEmpenhoResults.size() : 0;
+                processingResults.put("ContratoEmpenho", contratoEmpenhoCount);
+                totalRecordsProcessed += contratoEmpenhoCount;
+
+                long contratoEmpenhoDuration = System.currentTimeMillis() - contratoEmpenhoStartTime;
+                logger.info("Contrato-Empenho processados: {}", contratoEmpenhoCount);
+                markdownSection.success(contratoEmpenhoCount + " registros de Contrato-Empenho processados", contratoEmpenhoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contrato-Empenho", e);
+                processingResults.put("ContratoEmpenho", 0);
+                markdownSection.error("Falha no processamento de Contrato-Empenho: " + e.getMessage());
+            }
+
+            // 5. Aguardar um pouco antes de consumir receita
+            Thread.sleep(2000);
+
+            // 6. Consumir Receita
             logger.info("=== INICIANDO CONSUMO DE RECEITA ===");
             markdownSection.progress("Processando Receita...");
 
@@ -406,6 +471,37 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Consulta Gerencial: " + e.getMessage());
             }
 
+            Thread.sleep(2000);
+
+            // 19. Consumir Base Despesa Credor
+            logger.info("=== INICIANDO CONSUMO DE BASE DESPESA CREDOR ===");
+            markdownSection.progress("Processando Base Despesa Credor...");
+
+            try {
+                long baseDespesaCredorStartTime = System.currentTimeMillis();
+                BaseDespesaCredorDTO baseDespesaCredorDto = new BaseDespesaCredorDTO();
+                List<BaseDespesaCredorDTO> baseDespesaCredorResults = baseDespesaCredorConsumoApiService.consumirPersistir(baseDespesaCredorDto);
+                int baseDespesaCredorCount = baseDespesaCredorResults != null ? baseDespesaCredorResults.size() : 0;
+                processingResults.put("BaseDespesaCredor", baseDespesaCredorCount);
+                totalRecordsProcessed += baseDespesaCredorCount;
+
+                long baseDespesaCredorDuration = System.currentTimeMillis() - baseDespesaCredorStartTime;
+                logger.info("Base Despesa Credor processada: {}", baseDespesaCredorCount);
+                markdownSection.success(baseDespesaCredorCount + " registros de Base Despesa Credor processados", baseDespesaCredorDuration);
+
+                // Log informações de paginação se disponível
+                if (baseDespesaCredorResults != null && !baseDespesaCredorResults.isEmpty() &&
+                    baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao() != null) {
+                    logger.info("Paginação processada - Total de faixas: {}", baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao());
+                    markdownSection.info("Paginação: " + baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao() + " faixas processadas");
+                }
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Base Despesa Credor", e);
+                processingResults.put("BaseDespesaCredor", 0);
+                markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -420,6 +516,8 @@ public class ContractConsumptionScheduler {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Unidades Gestoras: " + processingResults.getOrDefault("UnidadeGestora", 0))
                               .info("  • Contratos Fiscais: " + processingResults.getOrDefault("ContratosFiscais", 0))
+                              .info("  • Contratos: " + processingResults.getOrDefault("Contrato", 0))
+                              .info("  • Contrato-Empenho: " + processingResults.getOrDefault("ContratoEmpenho", 0))
                               .info("  • Receitas: " + processingResults.getOrDefault("Receita", 0))
                               .info("  • Pagamentos: " + processingResults.getOrDefault("Pagamento", 0))
                               .info("  • Liquidações: " + processingResults.getOrDefault("Liquidacao", 0))
@@ -427,7 +525,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0))
                               .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0))
                               .info("  • Totalizadores de Execução: " + processingResults.getOrDefault("TotalizadoresExecucao", 0))
-                              .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0));
+                              .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0))
+                              .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -1208,5 +1307,312 @@ public class ContractConsumptionScheduler {
         status.put("scheduledExecution", "All entities");
 
         return status;
+    }
+
+    /**
+     * Método específico para executar apenas Contratos
+     */
+    @LogOperation(operation = "SCHEDULED_CONTRATO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeContratoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "CONTRATO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Contratos");
+
+        try {
+            markdownSection.progress("Processando Contratos...");
+
+            try {
+                long contratoStartTime = System.currentTimeMillis();
+                ContratoDTO contratoDto = new ContratoDTO();
+                List<ContratoDTO> contratoResults = contratoConsumoApiService.consumirPersistir(contratoDto);
+                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
+                totalRecordsProcessed = contratoCount;
+
+                long contratoDuration = System.currentTimeMillis() - contratoStartTime;
+                logger.info("Contratos processados: {}", contratoCount);
+                markdownSection.success(contratoCount + " registros de Contrato processados", contratoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos", e);
+                markdownSection.error("Falha no processamento de Contratos: " + e.getMessage());
+                throw e;
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "CONTRATO_ONLY",
+                totalExecutionTime, totalRecordsProcessed, "ENTITY", "Contrato");
+
+            // Log de sucesso estruturado em markdown
+            markdownSection.summary("Execução de Contratos concluída com sucesso")
+                          .log();
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("execução de contratos", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "CONTRATO_ONLY", totalExecutionTime, e,
+                "ENDPOINT", "contrato");
+            logger.error("Erro durante execução de Contratos", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha na execução de Contratos: " + e.getMessage())
+                          .summary("Execução de Contratos interrompida por erro")
+                          .log();
+            throw e;
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Contratos via endpoint
+     */
+    public Map<String, Object> executeContratoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE CONTRATOS SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeContratoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Contratos concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Contratos: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
+     * Método específico para executar apenas Contrato-Empenho
+     */
+    @LogOperation(operation = "SCHEDULED_CONTRATO_EMPENHO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeContratoEmpenhoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "CONTRATO_EMPENHO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Contrato-Empenho");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logInfo("Iniciando processamento específico de Contrato-Empenho");
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "CONTRATO_EMPENHO_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE CONTRATO-EMPENHO ===");
+            markdownSection.progress("Processando Contrato-Empenho...");
+
+            long contratoEmpenhoStartTime = System.currentTimeMillis();
+            ContratoEmpenhoDTO contratoEmpenhoDto = new ContratoEmpenhoDTO();
+            List<ContratoEmpenhoDTO> contratoEmpenhoResults = contratoEmpenhoConsumoApiService.consumirPersistir(contratoEmpenhoDto);
+            int contratoEmpenhoCount = contratoEmpenhoResults != null ? contratoEmpenhoResults.size() : 0;
+            totalRecordsProcessed = contratoEmpenhoCount;
+
+            long contratoEmpenhoDuration = System.currentTimeMillis() - contratoEmpenhoStartTime;
+            logger.info("Contrato-Empenho processados: {}", contratoEmpenhoCount);
+            markdownSection.success(contratoEmpenhoCount + " registros de Contrato-Empenho processados", contratoEmpenhoDuration);
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logDataProcessed("Contrato-Empenho", contratoEmpenhoCount);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "CONTRATO_EMPENHO_ONLY_CONSUMPTION", totalExecutionTime, totalRecordsProcessed,
+                "ENDPOINT", "contrato-empenho");
+
+            // Finalizar log markdown com resumo
+            markdownSection.summary("Processamento específico de Contrato-Empenho concluído com sucesso")
+                          .info("Total processado: " + totalRecordsProcessed + " registros")
+                          .info("Tempo de execução: " + totalExecutionTime + " ms")
+                          .log();
+
+            logger.info("=== CONSUMO ESPECÍFICO DE CONTRATO-EMPENHO CONCLUÍDO ===");
+            logger.info("Registros processados: {}", totalRecordsProcessed);
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("processamento de Contrato-Empenho", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "CONTRATO_EMPENHO_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "contrato-empenho");
+            logger.error("Erro durante execução específica de Contrato-Empenho", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Contrato-Empenho: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Contrato-Empenho via endpoint
+     */
+    public Map<String, Object> executeContratoEmpenhoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE CONTRATO-EMPENHO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeContratoEmpenhoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Contrato-Empenho concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Contrato-Empenho: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
+     * Método específico para executar apenas Base Despesa Credor
+     */
+    @LogOperation(operation = "SCHEDULED_BASE_DESPESA_CREDOR_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeBaseDespesaCredorOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "BASE_DESPESA_CREDOR_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Base Despesa Credor");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionStart();
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "BASE_DESPESA_CREDOR_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            // Consumir apenas Base Despesa Credor
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE BASE DESPESA CREDOR ===");
+            markdownSection.progress("Processando Base Despesa Credor...");
+
+            try {
+                long baseDespesaCredorStartTime = System.currentTimeMillis();
+                BaseDespesaCredorDTO baseDespesaCredorDto = new BaseDespesaCredorDTO();
+                List<BaseDespesaCredorDTO> baseDespesaCredorResults = baseDespesaCredorConsumoApiService.consumirPersistir(baseDespesaCredorDto);
+                int baseDespesaCredorCount = baseDespesaCredorResults != null ? baseDespesaCredorResults.size() : 0;
+                totalRecordsProcessed = baseDespesaCredorCount;
+
+                long baseDespesaCredorDuration = System.currentTimeMillis() - baseDespesaCredorStartTime;
+                logger.info("Base Despesa Credor processados: {}", baseDespesaCredorCount);
+                markdownSection.success(baseDespesaCredorCount + " registros de Base Despesa Credor processados", baseDespesaCredorDuration);
+
+                // Log informações de paginação se disponível
+                if (baseDespesaCredorResults != null && !baseDespesaCredorResults.isEmpty() &&
+                    baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao() != null) {
+                    logger.info("Paginação processada - Total de faixas: {}", baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao());
+                    markdownSection.info("Paginação: " + baseDespesaCredorResults.get(0).getQtTotalFaixasPaginacao() + " faixas processadas");
+                }
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Base Despesa Credor", e);
+                markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage());
+                throw e; // Re-throw para ser capturado pelo catch externo
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "BASE_DESPESA_CREDOR_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "base-despesa-credor");
+
+            // Finalizar log markdown com resumo
+            markdownSection.summary("Processamento específico de Base Despesa Credor concluído com sucesso")
+                          .info("Total processado: " + totalRecordsProcessed + " registros")
+                          .info("Tempo de execução: " + totalExecutionTime + " ms")
+                          .log();
+
+            logger.info("=== CONSUMO ESPECÍFICO DE BASE DESPESA CREDOR CONCLUÍDO ===");
+            logger.info("Registros processados: {}", totalRecordsProcessed);
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("processamento de Base Despesa Credor", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "BASE_DESPESA_CREDOR_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "base-despesa-credor");
+            logger.error("Erro durante execução específica de Base Despesa Credor", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Base Despesa Credor via endpoint
+     */
+    public Map<String, Object> executeBaseDespesaCredorManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE BASE DESPESA CREDOR SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeBaseDespesaCredorOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Base Despesa Credor concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Base Despesa Credor: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
     }
 }
