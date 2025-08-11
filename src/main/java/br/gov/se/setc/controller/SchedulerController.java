@@ -96,17 +96,19 @@ public class SchedulerController {
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
         info.put("testExecution", "DESABILITADO - Sem execução automática no startup");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
-        info.put("manualExecution", Map.of(
-            "allEntities", "POST /scheduler/execute",
-            "pagamentoOnly", "POST /scheduler/execute/pagamento",
-            "liquidacaoOnly", "POST /scheduler/execute/liquidacao",
-            "ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento",
-            "dadosOrcamentariosOnly", "POST /scheduler/execute/dados-orcamentarios",
-            "empenhoOnly", "POST /scheduler/execute/empenho",
-            "contratoOnly", "POST /scheduler/execute/contrato",
-            "contratoEmpenhoOnly", "POST /scheduler/execute/contrato-empenho",
-            "baseDespesaCredorOnly", "POST /scheduler/execute/base-despesa-credor"
-        ));
+        Map<String, String> manualExecutionMap = new HashMap<>();
+        manualExecutionMap.put("allEntities", "POST /scheduler/execute");
+        manualExecutionMap.put("pagamentoOnly", "POST /scheduler/execute/pagamento");
+        manualExecutionMap.put("liquidacaoOnly", "POST /scheduler/execute/liquidacao");
+        manualExecutionMap.put("ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento");
+        manualExecutionMap.put("dadosOrcamentariosOnly", "POST /scheduler/execute/dados-orcamentarios");
+        manualExecutionMap.put("empenhoOnly", "POST /scheduler/execute/empenho");
+        manualExecutionMap.put("contratoOnly", "POST /scheduler/execute/contrato");
+        manualExecutionMap.put("contratoEmpenhoOnly", "POST /scheduler/execute/contrato-empenho");
+        manualExecutionMap.put("baseDespesaCredorOnly", "POST /scheduler/execute/base-despesa-credor");
+        manualExecutionMap.put("baseDespesaLicitacaoOnly", "POST /scheduler/execute/base-despesa-licitacao");
+        manualExecutionMap.put("termoOnly", "POST /scheduler/execute/termo");
+        info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
             "unidadeGestora", "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora"
@@ -434,6 +436,71 @@ public class SchedulerController {
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Base Despesa Licitação
+     */
+    @PostMapping("/execute/base-despesa-licitacao")
+    @Operation(summary = "Executar Apenas Base Despesa Licitação", description = "Executa manualmente apenas o processamento da entidade Base Despesa Licitação")
+    @LogOperation(operation = "MANUAL_BASE_DESPESA_LICITACAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeBaseDespesaLicitacaoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Base Despesa Licitação solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeBaseDespesaLicitacaoManually();
+
+            logger.info("Execução manual de Base Despesa Licitação concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de Base Despesa Licitação via endpoint", e);
+
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execução manual de Base Despesa Licitação: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Termo (Convênios)
+     */
+    @PostMapping("/execute/termo")
+    @Operation(summary = "Executar Apenas Termo (Convênios)", description = "Executa manualmente apenas o processamento da entidade Termo (Convênios)")
+    @LogOperation(operation = "MANUAL_TERMO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeTermoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("=== EXECUÇÃO MANUAL DE TERMO (CONVÊNIOS) INICIADA ===");
+            logger.info("Correlation ID: {}", correlationId);
+
+            Map<String, Object> result = scheduler.executeTermoManually();
+
+            if ("SUCCESS".equals(result.get("status"))) {
+                logger.info("Execução manual de Termo concluída com sucesso");
+                return ResponseEntity.ok(result);
+            } else {
+                logger.error("Falha na execução manual de Termo: {}", result.get("message"));
+                return ResponseEntity.status(500).body(result);
+            }
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Termo", e);
+            Map<String, Object> errorResult = Map.of(
+                "status", "ERROR",
+                "message", "Erro inesperado: " + e.getMessage(),
+                "error", e.getClass().getSimpleName()
+            );
+            return ResponseEntity.status(500).body(errorResult);
         }
     }
 }

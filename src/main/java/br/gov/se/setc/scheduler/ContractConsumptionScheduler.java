@@ -1,6 +1,7 @@
 package br.gov.se.setc.scheduler;
 
 import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
+import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
@@ -11,6 +12,7 @@ import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
+import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
@@ -92,6 +94,14 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("baseDespesaCredorConsumoApiService")
     private ConsumoApiService<BaseDespesaCredorDTO> baseDespesaCredorConsumoApiService;
+
+    @Autowired
+    @Qualifier("baseDespesaLicitacaoConsumoApiService")
+    private ConsumoApiService<BaseDespesaLicitacaoDTO> baseDespesaLicitacaoConsumoApiService;
+
+    @Autowired
+    @Qualifier("termoConsumoApiService")
+    private ConsumoApiService<TermoDTO> termoConsumoApiService;
 
     @Autowired
     private UnifiedLogger unifiedLogger;
@@ -502,6 +512,53 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage());
             }
 
+            // 20. Consumir Base Despesa Licitação
+            logger.info("=== INICIANDO CONSUMO DE BASE DESPESA LICITAÇÃO ===");
+            markdownSection.progress("Processando Base Despesa Licitação...");
+
+            try {
+                long baseDespesaLicitacaoStartTime = System.currentTimeMillis();
+                BaseDespesaLicitacaoDTO baseDespesaLicitacaoDto = new BaseDespesaLicitacaoDTO();
+                List<BaseDespesaLicitacaoDTO> baseDespesaLicitacaoResults = baseDespesaLicitacaoConsumoApiService.consumirPersistir(baseDespesaLicitacaoDto);
+                int baseDespesaLicitacaoCount = baseDespesaLicitacaoResults != null ? baseDespesaLicitacaoResults.size() : 0;
+                processingResults.put("BaseDespesaLicitacao", baseDespesaLicitacaoCount);
+                totalRecordsProcessed += baseDespesaLicitacaoCount;
+
+                long baseDespesaLicitacaoDuration = System.currentTimeMillis() - baseDespesaLicitacaoStartTime;
+                logger.info("Base Despesa Licitação processada: {}", baseDespesaLicitacaoCount);
+                markdownSection.success(baseDespesaLicitacaoCount + " registros de Base Despesa Licitação processados", baseDespesaLicitacaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Base Despesa Licitação", e);
+                processingResults.put("BaseDespesaLicitacao", 0);
+                markdownSection.error("Falha no processamento de Base Despesa Licitação: " + e.getMessage());
+            }
+
+            // 21. Aguardar um pouco antes de consumir Termo
+            Thread.sleep(2000);
+
+            // 22. Consumir Termo (Convênios)
+            logger.info("=== INICIANDO CONSUMO DE TERMO (CONVÊNIOS) ===");
+            markdownSection.progress("Processando Termo (Convênios)...");
+
+            try {
+                long termoStartTime = System.currentTimeMillis();
+                TermoDTO termoDto = new TermoDTO();
+                List<TermoDTO> termoResults = termoConsumoApiService.consumirPersistir(termoDto);
+                int termoCount = termoResults != null ? termoResults.size() : 0;
+                processingResults.put("Termo", termoCount);
+                totalRecordsProcessed += termoCount;
+
+                long termoDuration = System.currentTimeMillis() - termoStartTime;
+                logger.info("Termo (Convênios) processados: {}", termoCount);
+                markdownSection.success(termoCount + " registros de Termo (Convênios) processados", termoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Termo (Convênios)", e);
+                processingResults.put("Termo", 0);
+                markdownSection.error("Falha no processamento de Termo (Convênios): " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -526,7 +583,9 @@ public class ContractConsumptionScheduler {
                               .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0))
                               .info("  • Totalizadores de Execução: " + processingResults.getOrDefault("TotalizadoresExecucao", 0))
                               .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0))
-                              .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0));
+                              .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0))
+                              .info("  • Base Despesa Licitação: " + processingResults.getOrDefault("BaseDespesaLicitacao", 0))
+                              .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -1614,5 +1673,223 @@ public class ContractConsumptionScheduler {
         }
 
         return result;
+    }
+
+    /**
+     * Método específico para executar apenas Base Despesa Licitação
+     */
+    @LogOperation(operation = "SCHEDULED_BASE_DESPESA_LICITACAO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeBaseDespesaLicitacaoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "BASE_DESPESA_LICITACAO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Base Despesa Licitação");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionStart();
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "BASE_DESPESA_LICITACAO_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+
+            // Consumir apenas Base Despesa Licitação
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE BASE DESPESA LICITAÇÃO ===");
+            markdownSection.progress("Processando Base Despesa Licitação...");
+
+            try {
+                long baseDespesaLicitacaoStartTime = System.currentTimeMillis();
+                BaseDespesaLicitacaoDTO baseDespesaLicitacaoDto = new BaseDespesaLicitacaoDTO();
+                List<BaseDespesaLicitacaoDTO> baseDespesaLicitacaoResults = baseDespesaLicitacaoConsumoApiService.consumirPersistir(baseDespesaLicitacaoDto);
+                int baseDespesaLicitacaoCount = baseDespesaLicitacaoResults != null ? baseDespesaLicitacaoResults.size() : 0;
+                totalRecordsProcessed = baseDespesaLicitacaoCount;
+
+                long baseDespesaLicitacaoDuration = System.currentTimeMillis() - baseDespesaLicitacaoStartTime;
+                logger.info("Base Despesa Licitação processados: {}", baseDespesaLicitacaoCount);
+                markdownSection.success(baseDespesaLicitacaoCount + " registros de Base Despesa Licitação processados", baseDespesaLicitacaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Base Despesa Licitação", e);
+                markdownSection.error("Falha no processamento de Base Despesa Licitação: " + e.getMessage());
+                throw e; // Re-throw para ser capturado pelo catch externo
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "BASE_DESPESA_LICITACAO_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "base-despesa-licitacao");
+
+            // Finalizar log markdown com resumo
+            markdownSection.summary("Processamento específico de Base Despesa Licitação concluído com sucesso")
+                          .info("Total processado: " + totalRecordsProcessed + " registros")
+                          .info("Tempo de execução: " + totalExecutionTime + " ms")
+                          .log();
+
+            logger.info("=== CONSUMO ESPECÍFICO DE BASE DESPESA LICITAÇÃO CONCLUÍDO ===");
+            logger.info("Registros processados: {}", totalRecordsProcessed);
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("processamento de Base Despesa Licitação", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "BASE_DESPESA_LICITACAO_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "base-despesa-licitacao");
+            logger.error("Erro durante execução específica de Base Despesa Licitação", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Base Despesa Licitação: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Método para execução manual apenas de Base Despesa Licitação via endpoint
+     */
+    public Map<String, Object> executeBaseDespesaLicitacaoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE BASE DESPESA LICITAÇÃO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeBaseDespesaLicitacaoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Base Despesa Licitação concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Base Despesa Licitação: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
+    }
+
+    /**
+     * Método específico para executar apenas Termo (Convênios)
+     */
+    @LogOperation(operation = "SCHEDULED_TERMO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeTermoOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "TERMO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Isolada - Termo (Convênios)");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logDataFetchStart("Termo (Convênios)");
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "TERMO_ONLY_CONSUMPTION", "ENDPOINT", "TERMO_CONVENIOS");
+
+            // Log estruturado em markdown
+            markdownSection.info("Iniciando consumo isolado de Termo (Convênios)")
+                          .info("Correlation ID: " + correlationId)
+                          .progress("Processando dados de convênios...");
+
+            // Consumir Termo (Convênios)
+            logger.info("=== INICIANDO CONSUMO ISOLADO DE TERMO (CONVÊNIOS) ===");
+
+            long termoStartTime = System.currentTimeMillis();
+            TermoDTO termoDto = new TermoDTO();
+            List<TermoDTO> termoResults = termoConsumoApiService.consumirPersistir(termoDto);
+            int termoCount = termoResults != null ? termoResults.size() : 0;
+            totalRecordsProcessed = termoCount;
+
+            long termoDuration = System.currentTimeMillis() - termoStartTime;
+            logger.info("Termo (Convênios) processados: {}", termoCount);
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logDataProcessed("Termo (Convênios)", termoCount);
+            userFriendlyLogger.logOperationComplete(totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "TERMO_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "TERMO_CONVENIOS");
+
+            // Log estruturado em markdown
+            markdownSection.success(termoCount + " registros de Termo (Convênios) processados", termoDuration)
+                          .info("📊 Estatísticas:")
+                          .info("  • Registros processados: " + termoCount)
+                          .info("  • Tempo total: " + String.format("%.2f", totalExecutionTime / 1000.0) + " segundos")
+                          .info("  • Endpoint: " + termoDto.getUrl())
+                          .info("  • Tabela destino: " + termoDto.getTabelaBanco())
+                          .logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ISOLADA DE TERMO CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("consumo de Termo (Convênios)", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "TERMO_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "TERMO_CONVENIOS");
+            logger.error("Erro durante execução isolada de Termo", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Termo (Convênios): " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Execução manual de Termo (Convênios)
+     */
+    public Map<String, Object> executeTermoManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE TERMO (CONVÊNIOS) SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeTermoOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Termo (Convênios) concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+            logger.info("Execução manual de Termo concluída com sucesso");
+            return result;
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro na execução manual de Termo (Convênios): " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+
+            logger.error("Erro na execução manual de Termo", e);
+            return result;
+        }
     }
 }

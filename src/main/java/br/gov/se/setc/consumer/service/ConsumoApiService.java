@@ -19,6 +19,7 @@ import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -218,9 +219,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 markdownSection.progress("Salvando dados no banco...");
             }
 
+            // Aplicar deduplicação se necessário
+            List<T> resultListDeduplicated = deduplicateIfNeeded(resultList);
+
             // Log de persistência
             long persistStartTime = System.currentTimeMillis();
-            contratosFiscaisDAO.persist(resultList);
+            contratosFiscaisDAO.persist(resultListDeduplicated);
             long persistTime = System.currentTimeMillis() - persistStartTime;
 
             // Log técnico para arquivo
@@ -1010,6 +1014,69 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
 
         return resultado;
+    }
+
+    /**
+     * Aplica deduplicação se necessário baseado no tipo de DTO
+     * Para TermoDTO, remove duplicatas baseadas em cdConvenio
+     */
+    private List<T> deduplicateIfNeeded(List<T> originalList) {
+        if (originalList == null || originalList.isEmpty()) {
+            return originalList;
+        }
+
+        // Verificar se é TermoDTO que precisa de deduplicação
+        T firstItem = originalList.get(0);
+        if (firstItem.getTabelaBanco().contains("termo")) {
+            return deduplicateTermoList(originalList);
+        }
+
+        // Para outros DTOs, retornar lista original (sem deduplicação)
+        return originalList;
+    }
+
+    /**
+     * Remove duplicatas de TermoDTO baseadas em cdConvenio
+     */
+    @SuppressWarnings("unchecked")
+    private List<T> deduplicateTermoList(List<T> originalList) {
+        logger.info("Aplicando deduplicação para Termo baseada em cdConvenio...");
+
+        Map<Long, T> uniqueTermos = new LinkedHashMap<>(); // Preserva ordem de inserção
+        int duplicatesRemoved = 0;
+
+        for (T item : originalList) {
+            try {
+                // Usar reflexão para obter cdConvenio
+                Long cdConvenio = (Long) item.getClass().getMethod("getCdConvenio").invoke(item);
+
+                if (cdConvenio != null) {
+                    if (uniqueTermos.containsKey(cdConvenio)) {
+                        duplicatesRemoved++;
+                        logger.fine("Removendo duplicata: cdConvenio=" + cdConvenio);
+                    } else {
+                        uniqueTermos.put(cdConvenio, item);
+                    }
+                } else {
+                    // Se cdConvenio for null, adicionar mesmo assim (não deveria acontecer)
+                    logger.warning("Termo com cdConvenio null encontrado - mantendo registro");
+                    uniqueTermos.put(System.currentTimeMillis(), item); // Usar timestamp como chave temporária
+                }
+            } catch (Exception e) {
+                logger.warning("Erro ao obter cdConvenio para deduplicação: " + e.getMessage());
+                // Em caso de erro, manter o registro
+                uniqueTermos.put(System.currentTimeMillis(), item);
+            }
+        }
+
+        List<T> deduplicatedList = new ArrayList<>(uniqueTermos.values());
+
+        logger.info("Deduplicação concluída:");
+        logger.info("  • Registros originais: " + originalList.size());
+        logger.info("  • Registros únicos: " + deduplicatedList.size());
+        logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
+
+        return deduplicatedList;
     }
 
 }
