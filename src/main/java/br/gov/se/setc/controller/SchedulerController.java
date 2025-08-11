@@ -21,12 +21,12 @@ import java.util.Map;
 @RequestMapping("/scheduler")
 @Tag(name = "Scheduler", description = "Endpoints para gerenciamento do scheduler de consumo de contratos")
 public class SchedulerController {
-    
+
     private static final Logger logger = LoggerFactory.getLogger(SchedulerController.class);
-    
+
     @Autowired
     private ContractConsumptionScheduler scheduler;
-    
+
     /**
      * Executa o consumo de contratos manualmente
      */
@@ -37,30 +37,30 @@ public class SchedulerController {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
         MDCUtil.setComponent("SCHEDULER_CONTROLLER");
         MDCUtil.setOperation("MANUAL_EXECUTION");
-        
+
         logger.info("Solicitação de execução manual recebida - Correlation ID: {}", correlationId);
-        
+
         try {
             Map<String, Object> result = scheduler.executeManually();
             result.put("correlationId", correlationId);
-            
+
             return ResponseEntity.ok(result);
-            
+
         } catch (Exception e) {
             logger.error("Erro durante execução manual", e);
-            
+
             Map<String, Object> errorResult = new HashMap<>();
             errorResult.put("status", "ERROR");
             errorResult.put("message", "Erro durante execução manual: " + e.getMessage());
             errorResult.put("correlationId", correlationId);
             errorResult.put("error", e.getClass().getSimpleName());
-            
+
             return ResponseEntity.internalServerError().body(errorResult);
         } finally {
             MDCUtil.clear();
         }
     }
-    
+
     /**
      * Verifica o status do scheduler
      */
@@ -70,21 +70,21 @@ public class SchedulerController {
         try {
             Map<String, Object> status = scheduler.getSchedulerStatus();
             status.put("timestamp", System.currentTimeMillis());
-            
+
             return ResponseEntity.ok(status);
-            
+
         } catch (Exception e) {
             logger.error("Erro ao obter status do scheduler", e);
-            
+
             Map<String, Object> errorStatus = new HashMap<>();
             errorStatus.put("status", "ERROR");
             errorStatus.put("message", "Erro ao obter status: " + e.getMessage());
             errorStatus.put("timestamp", System.currentTimeMillis());
-            
+
             return ResponseEntity.internalServerError().body(errorStatus);
         }
     }
-    
+
     /**
      * Informações sobre configuração do scheduler
      */
@@ -92,7 +92,7 @@ public class SchedulerController {
     @Operation(summary = "Informações do scheduler", description = "Retorna informações detalhadas sobre a configuração do scheduler")
     public ResponseEntity<Map<String, Object>> getSchedulerInfo() {
         Map<String, Object> info = new HashMap<>();
-        
+
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
         info.put("testExecution", "DESABILITADO - Sem execução automática no startup");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
@@ -108,6 +108,7 @@ public class SchedulerController {
         manualExecutionMap.put("baseDespesaCredorOnly", "POST /scheduler/execute/base-despesa-credor");
         manualExecutionMap.put("baseDespesaLicitacaoOnly", "POST /scheduler/execute/base-despesa-licitacao");
         manualExecutionMap.put("termoOnly", "POST /scheduler/execute/termo");
+            manualExecutionMap.put("despesaConvenioOnly", "POST /scheduler/execute/convenio/despesa");
         info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -123,10 +124,10 @@ public class SchedulerController {
                 "errors", "./logs/errors/errors.log"
             )
         ));
-        
+
         return ResponseEntity.ok(info);
     }
-    
+
     /**
      * Executa manualmente apenas o processamento de Pagamento
      */
@@ -461,6 +462,37 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Base Despesa Licitação: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Despesa de Convenio
+     */
+    @PostMapping("/execute/convenio/despesa")
+    @Operation(summary = "Executar Apenas Despesa de Convenio", description = "Executa manualmente apenas o processamento da entidade Despesa de Convenio")
+    @LogOperation(operation = "MANUAL_DESPESA_CONVENIO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeDespesaConvenioOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execucao manual de Despesa de Convenio solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeDespesaConvenioManually();
+
+            logger.info("Execucao manual de Despesa de Convenio concluida com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro na execucao manual de Despesa de Convenio via endpoint", e);
+
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execucao manual de Despesa de Convenio: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
 

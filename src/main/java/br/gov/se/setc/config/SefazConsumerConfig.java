@@ -23,6 +23,7 @@ import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
+import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.consumer.service.ContratodFiscaisServices;
 import br.gov.se.setc.logging.MarkdownLogger;
@@ -146,6 +147,36 @@ public class SefazConsumerConfig {
         logger.info("Creating Receita ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
+
+    @Bean("despesaConvenioConsumoApiService")
+    public ConsumoApiService<br.gov.se.setc.consumer.dto.DespesaConvenioDTO> despesaConvenioConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<br.gov.se.setc.consumer.dto.DespesaConvenioDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating DespesaConvenio ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            br.gov.se.setc.consumer.dto.DespesaConvenioDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<br.gov.se.setc.consumer.dto.DespesaConvenioDTO> despesaConvenioValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating DespesaConvenio ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
 
     @Bean("pagamentoConsumoApiService")
     public ConsumoApiService<PagamentoDTO> pagamentoConsumoApiService(

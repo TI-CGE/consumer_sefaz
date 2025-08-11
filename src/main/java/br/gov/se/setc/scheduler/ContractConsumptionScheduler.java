@@ -15,6 +15,7 @@ import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
+import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
@@ -40,13 +41,13 @@ import java.util.concurrent.CompletableFuture;
  */
 @Component
 public class ContractConsumptionScheduler {
-    
+
     private static final Logger logger = LoggerFactory.getLogger(ContractConsumptionScheduler.class);
-    
+
     @Autowired
     @Qualifier("contratosFiscaisConsumoApiService")
     private ConsumoApiService<ContratosFiscaisDTO> contratosFiscaisService;
-    
+
     @Autowired
     @Qualifier("unidadeGestoraConsumoApiService")
     private ConsumoApiService<UnidadeGestoraDTO> unidadeGestoraService;
@@ -104,6 +105,10 @@ public class ContractConsumptionScheduler {
     private ConsumoApiService<TermoDTO> termoConsumoApiService;
 
     @Autowired
+    @Qualifier("despesaConvenioConsumoApiService")
+    private ConsumoApiService<DespesaConvenioDTO> despesaConvenioConsumoApiService;
+
+    @Autowired
     private UnifiedLogger unifiedLogger;
 
     @Autowired
@@ -111,9 +116,9 @@ public class ContractConsumptionScheduler {
 
     @Autowired
     private MarkdownLogger markdownLogger;
-    
+
     private boolean isFirstExecution = true;
-    
+
     /**
      * Executa apenas Pagamento 10 segundos após a aplicação estar pronta (para testes)
      * COMENTADO - Sem execução automática no startup
@@ -137,7 +142,7 @@ public class ContractConsumptionScheduler {
             }
         });
     }
-    
+
     /**
      * Execução agendada para produção - diariamente às 2:45 AM
      * Processa todas as entidades (UG, Contratos, Receitas, Pagamentos)
@@ -148,7 +153,7 @@ public class ContractConsumptionScheduler {
         logger.info("=== INICIANDO EXECUÇÃO AGENDADA DO SCHEDULER - TODAS AS ENTIDADES ===");
         executeAllEntities();
     }
-    
+
     /**
      * Execução a cada 10 minutos para testes (comentado por padrão)
      * Descomente para testes frequentes
@@ -160,7 +165,7 @@ public class ContractConsumptionScheduler {
             executeAllEntities();
         }
     }
-    
+
     /**
      * Método principal que executa o consumo de todas as entidades
      */
@@ -202,16 +207,16 @@ public class ContractConsumptionScheduler {
                 long ugDuration = System.currentTimeMillis() - ugStartTime;
                 logger.info("Unidades Gestoras processadas: {}", ugCount);
                 markdownSection.success(ugCount + " Unidades Gestoras processadas", ugDuration);
-                
+
             } catch (Exception e) {
                 logger.error("Erro ao consumir Unidades Gestoras", e);
                 processingResults.put("UnidadeGestora", 0);
                 markdownSection.error("Falha no processamento de Unidades Gestoras: " + e.getMessage());
             }
-            
+
             // 2. Aguardar um pouco antes de consumir contratos
             Thread.sleep(2000);
-            
+
             // 3. Consumir Contratos Fiscais
             logger.info("=== INICIANDO CONSUMO DE CONTRATOS FISCAIS ===");
             markdownSection.progress("Processando Contratos Fiscais...");
@@ -302,7 +307,7 @@ public class ContractConsumptionScheduler {
                 long receitaDuration = System.currentTimeMillis() - receitaStartTime;
                 logger.info("Receita processada: {}", receitaCount);
                 markdownSection.success(receitaCount + " registros de Receita processados", receitaDuration);
-                
+
             } catch (Exception e) {
                 logger.error("Erro ao consumir Receita", e);
                 processingResults.put("Receita", 0);
@@ -538,6 +543,28 @@ public class ContractConsumptionScheduler {
             Thread.sleep(2000);
 
             // 22. Consumir Termo (Convênios)
+
+            // 21.1 Consumir Despesa de Convênio
+            Thread.sleep(2000);
+            logger.info("=== INICIANDO CONSUMO DE DESPESA DE CONVÊNIO ===");
+            try {
+                long despesaConvenioStartTime = System.currentTimeMillis();
+                DespesaConvenioDTO despesaConvenioDto = new DespesaConvenioDTO();
+                List<DespesaConvenioDTO> despesaConvenioResults = despesaConvenioConsumoApiService.consumirPersistir(despesaConvenioDto);
+                int despesaConvenioCount = despesaConvenioResults != null ? despesaConvenioResults.size() : 0;
+                processingResults.put("DespesaConvenio", despesaConvenioCount);
+                totalRecordsProcessed += despesaConvenioCount;
+
+                long despesaConvenioDuration = System.currentTimeMillis() - despesaConvenioStartTime;
+                logger.info("Despesa de Convênio processada: {}", despesaConvenioCount);
+                markdownSection.success(despesaConvenioCount + " registros de Despesa de Convênio processados", despesaConvenioDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Despesa de Convênio", e);
+                processingResults.put("DespesaConvenio", 0);
+                markdownSection.error("Falha no processamento de Despesa de Convênio: " + e.getMessage());
+            }
+
             logger.info("=== INICIANDO CONSUMO DE TERMO (CONVÊNIOS) ===");
             markdownSection.progress("Processando Termo (Convênios)...");
 
@@ -599,7 +626,7 @@ public class ContractConsumptionScheduler {
             logger.info("Tempo total: {} ms", totalExecutionTime);
             logger.info("Total de registros processados: {}", totalRecordsProcessed);
             logger.info("Resultados por tipo: {}", processingResults);
-            
+
         } catch (Exception e) {
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
@@ -887,24 +914,24 @@ public class ContractConsumptionScheduler {
      */
     public Map<String, Object> executeManually() {
         logger.info("=== EXECUÇÃO MANUAL SOLICITADA ===");
-        
+
         long startTime = System.currentTimeMillis();
         Map<String, Object> result = new HashMap<>();
-        
+
         try {
             executeAllEntities();
-            
+
             result.put("status", "SUCCESS");
             result.put("message", "Execução manual concluída com sucesso");
             result.put("executionTimeMs", System.currentTimeMillis() - startTime);
-            
+
         } catch (Exception e) {
             result.put("status", "ERROR");
             result.put("message", "Erro durante execução manual: " + e.getMessage());
             result.put("executionTimeMs", System.currentTimeMillis() - startTime);
             result.put("error", e.getClass().getSimpleName());
         }
-        
+
         return result;
     }
 
@@ -1350,6 +1377,61 @@ public class ContractConsumptionScheduler {
         }
 
         return result;
+    }
+
+    /**
+     * Método específico para executar apenas Despesa de Convênio
+     */
+    @LogOperation(operation = "SCHEDULED_DESPESA_CONVENIO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeDespesaConvenioOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "DESPESA_CONVENIO_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Isolada - Despesa de Convênio");
+
+        try {
+            userFriendlyLogger.logDataFetchStart("Despesa de Convênio");
+            unifiedLogger.logOperationStart("SCHEDULER", "DESPESA_CONVENIO_ONLY_CONSUMPTION", "ENDPOINT", "CONVENIO_DESPESA");
+            markdownSection.info("Iniciando consumo isolado de Despesa de Convênio")
+                          .info("Correlation ID: " + correlationId)
+                          .progress("Processando dados...");
+
+            logger.info("=== INICIANDO CONSUMO ISOLADO DE DESPESA DE CONVÊNIO ===");
+            long start = System.currentTimeMillis();
+            DespesaConvenioDTO dto = new DespesaConvenioDTO();
+            List<DespesaConvenioDTO> results = despesaConvenioConsumoApiService.consumirPersistir(dto);
+            int count = results != null ? results.size() : 0;
+            totalRecordsProcessed = count;
+            long duration = System.currentTimeMillis() - start;
+
+            userFriendlyLogger.logDataProcessed("Despesa de Convênio", count);
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            unifiedLogger.logOperationSuccess("SCHEDULER", "DESPESA_CONVENIO_ONLY_CONSUMPTION", totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "CONVENIO_DESPESA");
+            markdownSection.success(count + " registros processados", duration)
+                          .info("📊 Estatísticas:")
+                          .info("  • Registros processados: " + count)
+                          .info("  • Tempo total: " + String.format("%.2f", totalExecutionTime / 1000.0) + " segundos")
+                          .info("  • Endpoint: " + dto.getUrl())
+                          .info("  • Tabela destino: " + dto.getTabelaBanco())
+                          .logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ISOLADA DE DESPESA DE CONVÊNIO CONCLUÍDA ===");
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            userFriendlyLogger.logError("consumo de Despesa de Convênio", e.getMessage());
+            unifiedLogger.logOperationError("SCHEDULER", "DESPESA_CONVENIO_ONLY_CONSUMPTION", totalExecutionTime, e, "ENDPOINT", "CONVENIO_DESPESA");
+            logger.error("Erro durante execução isolada de Despesa de Convênio", e);
+            markdownSection.error("Falha no processamento de Despesa de Convênio: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
     }
 
     /**
@@ -1861,6 +1943,32 @@ public class ContractConsumptionScheduler {
         } finally {
             MDCUtil.clear();
         }
+    }
+
+    /**
+     * Execução manual de Despesa de Convênio
+     */
+    public Map<String, Object> executeDespesaConvenioManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE DESPESA DE CONVÊNIO SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeDespesaConvenioOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Despesa de Convênio concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Despesa de Convênio: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+
+        return result;
     }
 
     /**

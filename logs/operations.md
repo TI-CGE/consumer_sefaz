@@ -31124,3 +31124,4354 @@ nos programas da FAPITEC.'), (NULL), (NULL), (NULL), (NULL), ('29.372'), (NULL),
 - 📋   • Tabela destino: consumer_sefaz.termo
 - ⏱️ **Total: 216 registros | Tempo total: 38,3s**
 
+
+## 08:53:48 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 10:53:23 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 10:54:55 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 10:56:34 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 10:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (508ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 508ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (829ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 829ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (125ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 125ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1140ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (276ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 276ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 10:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (141ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 141ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (118ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 118ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (412ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 412ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (285ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 285ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+
+
+## 10:57:05 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+- 🔄 Iniciando consumo de dados...
+- ⚠️ Nenhum dado encontrado
+- 📋 Pode ser normal se não houver dados para o período
+- ⏱️ **0 registros processados | Tempo total: 35,9s**
+
+
+## 10:57:05 | Execução Isolada - Despesa de Convênio
+- 📋 Iniciando consumo isolado de Despesa de Convênio
+- 📋 Correlation ID: f83950ad
+- 🔄 Processando dados...
+- ✅ 0 registros processados (35,9s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 0
+- 📋   • Tempo total: 35,88 segundos
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
+- 📋   • Tabela destino: consumer_sefaz.convenio_despesa
+- ⏱️ **Total: 0 registros | Tempo total: 35,9s**
+
