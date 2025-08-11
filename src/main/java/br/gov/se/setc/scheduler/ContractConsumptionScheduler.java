@@ -11,6 +11,7 @@ import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
+import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
@@ -107,6 +108,10 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("despesaConvenioConsumoApiService")
     private ConsumoApiService<DespesaConvenioDTO> despesaConvenioConsumoApiService;
+
+    @Autowired
+    @Qualifier("previsaoRealizacaoReceitaConsumoApiService")
+    private ConsumoApiService<PrevisaoRealizacaoReceitaDTO> previsaoRealizacaoReceitaConsumoApiService;
 
     @Autowired
     private UnifiedLogger unifiedLogger;
@@ -586,6 +591,31 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Termo (Convênios): " + e.getMessage());
             }
 
+            // 23. Aguardar um pouco antes de consumir Previsão Realização Receita
+            Thread.sleep(2000);
+
+            // 24. Consumir Previsão Realização Receita
+            logger.info("=== INICIANDO CONSUMO DE PREVISÃO REALIZAÇÃO RECEITA ===");
+            markdownSection.progress("Processando Previsão Realização Receita...");
+
+            try {
+                long previsaoStartTime = System.currentTimeMillis();
+                PrevisaoRealizacaoReceitaDTO previsaoDto = new PrevisaoRealizacaoReceitaDTO();
+                List<PrevisaoRealizacaoReceitaDTO> previsaoResults = previsaoRealizacaoReceitaConsumoApiService.consumirPersistir(previsaoDto);
+                int previsaoCount = previsaoResults != null ? previsaoResults.size() : 0;
+                processingResults.put("PrevisaoRealizacaoReceita", previsaoCount);
+                totalRecordsProcessed += previsaoCount;
+
+                long previsaoDuration = System.currentTimeMillis() - previsaoStartTime;
+                logger.info("Previsão Realização Receita processados: {}", previsaoCount);
+                markdownSection.success(previsaoCount + " registros de Previsão Realização Receita processados", previsaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Previsão Realização Receita", e);
+                processingResults.put("PrevisaoRealizacaoReceita", 0);
+                markdownSection.error("Falha no processamento de Previsão Realização Receita: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -612,7 +642,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0))
                               .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0))
                               .info("  • Base Despesa Licitação: " + processingResults.getOrDefault("BaseDespesaLicitacao", 0))
-                              .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0));
+                              .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0))
+                              .info("  • Previsão Realização Receita: " + processingResults.getOrDefault("PrevisaoRealizacaoReceita", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -1997,6 +2028,117 @@ public class ContractConsumptionScheduler {
             result.put("error", e.getClass().getSimpleName());
 
             logger.error("Erro na execução manual de Termo", e);
+            return result;
+        }
+    }
+
+    /**
+     * Método específico para executar apenas Previsão Realização Receita
+     */
+    @LogOperation(operation = "SCHEDULED_PREVISAO_REALIZACAO_RECEITA_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executePrevisaoRealizacaoReceitaOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "PREVISAO_REALIZACAO_RECEITA_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Isolada - Previsão Realização Receita");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logDataFetchStart("Previsão Realização Receita");
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "PREVISAO_REALIZACAO_RECEITA_ONLY_CONSUMPTION", "ENDPOINT", "PREVISAO_REALIZACAO_RECEITA");
+
+            // Log estruturado em markdown
+            markdownSection.info("Iniciando consumo isolado de Previsão Realização Receita")
+                          .info("Correlation ID: " + correlationId)
+                          .progress("Processando dados de previsão e realização de receitas...");
+
+            // Consumir Previsão Realização Receita
+            logger.info("=== INICIANDO CONSUMO ISOLADO DE PREVISÃO REALIZAÇÃO RECEITA ===");
+
+            long previsaoStartTime = System.currentTimeMillis();
+            PrevisaoRealizacaoReceitaDTO previsaoDto = new PrevisaoRealizacaoReceitaDTO();
+            List<PrevisaoRealizacaoReceitaDTO> previsaoResults = previsaoRealizacaoReceitaConsumoApiService.consumirPersistir(previsaoDto);
+            int previsaoCount = previsaoResults != null ? previsaoResults.size() : 0;
+            totalRecordsProcessed = previsaoCount;
+
+            long previsaoDuration = System.currentTimeMillis() - previsaoStartTime;
+            logger.info("Previsão Realização Receita processados: {}", previsaoCount);
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logDataProcessed("Previsão Realização Receita", previsaoCount);
+            userFriendlyLogger.logOperationComplete(totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "PREVISAO_REALIZACAO_RECEITA_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "PREVISAO_REALIZACAO_RECEITA");
+
+            // Log estruturado em markdown
+            markdownSection.success(previsaoCount + " registros de Previsão Realização Receita processados", previsaoDuration)
+                          .info("📊 Estatísticas:")
+                          .info("  • Registros processados: " + previsaoCount)
+                          .info("  • Tempo total: " + String.format("%.2f", totalExecutionTime / 1000.0) + " segundos")
+                          .info("  • Endpoint: " + previsaoDto.getUrl())
+                          .info("  • Tabela destino: " + previsaoDto.getTabelaBanco())
+                          .logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ISOLADA DE PREVISÃO REALIZAÇÃO RECEITA CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("consumo de Previsão Realização Receita", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "PREVISAO_REALIZACAO_RECEITA_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "PREVISAO_REALIZACAO_RECEITA");
+            logger.error("Erro durante execução isolada de Previsão Realização Receita", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha no processamento de Previsão Realização Receita: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Execução manual de Previsão Realização Receita
+     */
+    public Map<String, Object> executePrevisaoRealizacaoReceitaManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE PREVISÃO REALIZAÇÃO RECEITA SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executePrevisaoRealizacaoReceitaOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Previsão Realização Receita concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+            logger.info("Execução manual de Previsão Realização Receita concluída com sucesso");
+            return result;
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro na execução manual de Previsão Realização Receita: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+
+            logger.error("Erro na execução manual de Previsão Realização Receita", e);
             return result;
         }
     }

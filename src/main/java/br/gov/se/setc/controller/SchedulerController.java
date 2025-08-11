@@ -109,6 +109,7 @@ public class SchedulerController {
         manualExecutionMap.put("baseDespesaLicitacaoOnly", "POST /scheduler/execute/base-despesa-licitacao");
         manualExecutionMap.put("termoOnly", "POST /scheduler/execute/termo");
             manualExecutionMap.put("despesaConvenioOnly", "POST /scheduler/execute/convenio/despesa");
+        manualExecutionMap.put("previsaoRealizacaoReceitaOnly", "POST /scheduler/execute/previsao-realizacao-receita");
         info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -533,6 +534,34 @@ public class SchedulerController {
                 "error", e.getClass().getSimpleName()
             );
             return ResponseEntity.status(500).body(errorResult);
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Previsão Realização Receita
+     */
+    @PostMapping("/execute/previsao-realizacao-receita")
+    @Operation(summary = "Executar Apenas Previsão Realização Receita", description = "Executa manualmente apenas o processamento da entidade Previsão Realização Receita")
+    @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Previsão Realização Receita solicitada via endpoint");
+            Map<String, Object> result = scheduler.executePrevisaoRealizacaoReceitaManually();
+
+            logger.info("Execução manual de Previsão Realização Receita concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Previsão Realização Receita", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
         }
     }
 }

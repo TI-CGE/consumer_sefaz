@@ -111,16 +111,26 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
 
     @LogOperation(operation = "DELETE_BY_MONTH", component = "DATABASE")
     public void deleteByMesVigente(T endpointInstance) {
-        if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){
-            return;
-        }
-
         String tableName = endpointInstance.getTabelaBanco();
         long startTime = System.currentTimeMillis();
+        String deleteSql;
 
-        String deleteSql = "DELETE FROM "+endpointInstance.getTabelaBanco()+ "  " +
-                "WHERE EXTRACT(YEAR FROM "+endpointInstance.getNomeDataInicialPadraoFiltro()+" ) = EXTRACT(YEAR FROM CURRENT_DATE) " +
-                "AND EXTRACT(MONTH FROM "+endpointInstance.getNomeDataFinalPadraoFiltro()+" ) = EXTRACT(MONTH FROM CURRENT_DATE)";
+        // Estratégia específica para previsao_realizacao_receita
+        if ("consumer_sefaz.previsao_realizacao_receita".equals(tableName)) {
+            // Para previsao_realizacao_receita, deletar TODOS os registros do ano atual
+            // Isso é necessário porque o serviço processa todos os 12 meses
+            deleteSql = "DELETE FROM " + tableName + " " +
+                    "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
+        } else {
+            // Estratégia padrão para outros endpoints
+            if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){
+                return;
+            }
+
+            deleteSql = "DELETE FROM "+endpointInstance.getTabelaBanco()+ "  " +
+                    "WHERE EXTRACT(YEAR FROM "+endpointInstance.getNomeDataInicialPadraoFiltro()+" ) = EXTRACT(YEAR FROM CURRENT_DATE) " +
+                    "AND EXTRACT(MONTH FROM "+endpointInstance.getNomeDataFinalPadraoFiltro()+" ) = EXTRACT(MONTH FROM CURRENT_DATE)";
+        }
 
         try {
             int deletedRecords = jdbcTemplate.update(deleteSql);

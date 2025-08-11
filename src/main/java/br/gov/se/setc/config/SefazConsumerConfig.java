@@ -19,6 +19,7 @@ import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
+import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
@@ -523,6 +524,35 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<TermoDTO> termoValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating Termo ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("previsaoRealizacaoReceitaConsumoApiService")
+    public ConsumoApiService<PrevisaoRealizacaoReceitaDTO> previsaoRealizacaoReceitaConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<PrevisaoRealizacaoReceitaDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating PrevisaoRealizacaoReceita ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            PrevisaoRealizacaoReceitaDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<PrevisaoRealizacaoReceitaDTO> previsaoRealizacaoReceitaValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating PrevisaoRealizacaoReceita ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }
