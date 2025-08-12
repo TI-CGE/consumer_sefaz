@@ -119,6 +119,7 @@ public class SchedulerController {
         manualExecutionMap.put("previsaoRealizacaoReceitaOnly", "POST /scheduler/execute/previsao-realizacao-receita");
         manualExecutionMap.put("previsaoRealizacaoReceitaMultiMes", "POST /scheduler/execute/previsao-realizacao-receita-multi-mes");
         manualExecutionMap.put("previsaoRealizacaoReceitaMesEspecifico", "POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes}");
+        manualExecutionMap.put("despesaDetalhadaOnly", "POST /scheduler/execute/despesa-detalhada");
         info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -655,6 +656,35 @@ public class SchedulerController {
             errorResult.put("status", "ERROR");
             errorResult.put("message", "Erro durante execução: " + e.getMessage());
             errorResult.put("month", mes);
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente apenas o processamento de Despesa Detalhada
+     */
+    @PostMapping("/execute/despesa-detalhada")
+    @Operation(summary = "Executar Apenas Despesa Detalhada",
+               description = "Executa manualmente apenas o processamento da entidade Despesa Detalhada")
+    @LogOperation(operation = "MANUAL_DESPESA_DETALHADA_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeDespesaDetalhadaOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual de Despesa Detalhada solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeDespesaDetalhadaManually();
+
+            logger.info("Execução manual de Despesa Detalhada concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Despesa Detalhada", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
             errorResult.put("correlationId", correlationId);
             return ResponseEntity.internalServerError().body(errorResult);
         } finally {

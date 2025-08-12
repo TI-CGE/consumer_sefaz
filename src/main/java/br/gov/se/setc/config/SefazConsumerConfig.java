@@ -15,6 +15,8 @@ import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
+import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
+import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
@@ -24,7 +26,6 @@ import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
-import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.consumer.service.ContratodFiscaisServices;
 import br.gov.se.setc.logging.MarkdownLogger;
@@ -553,6 +554,35 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<PrevisaoRealizacaoReceitaDTO> previsaoRealizacaoReceitaValidacaoUtil(JdbcTemplate jdbcTemplate) {
         logger.info("Creating PrevisaoRealizacaoReceita ValidacaoUtil bean");
+        return new ValidacaoUtil<>(jdbcTemplate);
+    }
+
+    @Bean("despesaDetalhadaConsumoApiService")
+    public ConsumoApiService<DespesaDetalhadaDTO> despesaDetalhadaConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<DespesaDetalhadaDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger) {
+
+        logger.info("Creating DespesaDetalhada ConsumoApiService bean");
+        return new ConsumoApiService<>(
+            restTemplate,
+            acessoTokenService,
+            jdbcTemplate,
+            validacaoUtil,
+            unifiedLogger,
+            userFriendlyLogger,
+            markdownLogger,
+            DespesaDetalhadaDTO.class
+        );
+    }
+
+    @Bean
+    public ValidacaoUtil<DespesaDetalhadaDTO> despesaDetalhadaValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        logger.info("Creating DespesaDetalhada ValidacaoUtil bean");
         return new ValidacaoUtil<>(jdbcTemplate);
     }
 }

@@ -7,6 +7,8 @@ import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
+import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
+import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
@@ -16,8 +18,9 @@ import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
-import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
+import br.gov.se.setc.consumer.service.DespesaDetalhadaMultiMesService;
+
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
@@ -112,6 +115,13 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("previsaoRealizacaoReceitaConsumoApiService")
     private ConsumoApiService<PrevisaoRealizacaoReceitaDTO> previsaoRealizacaoReceitaConsumoApiService;
+
+    @Autowired
+    @Qualifier("despesaDetalhadaConsumoApiService")
+    private ConsumoApiService<DespesaDetalhadaDTO> despesaDetalhadaConsumoApiService;
+
+    @Autowired
+    private DespesaDetalhadaMultiMesService despesaDetalhadaMultiMesService;
 
     @Autowired
     private UnifiedLogger unifiedLogger;
@@ -616,6 +626,32 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Previsão Realização Receita: " + e.getMessage());
             }
 
+            // Aguardar um pouco antes de consumir próxima entidade
+            Thread.sleep(2000);
+
+            // Consumir Despesa Detalhada (Multi-Mês)
+            logger.info("=== INICIANDO CONSUMO DE DESPESA DETALHADA (MULTI-MÊS) ===");
+            markdownSection.progress("Processando Despesa Detalhada (todos os 12 meses)...");
+
+            try {
+                long despesaDetalhadaStartTime = System.currentTimeMillis();
+
+                // Usar o serviço multi-mês para buscar todos os 12 meses
+                List<DespesaDetalhadaDTO> despesaDetalhadaResults = despesaDetalhadaMultiMesService.consumirTodosMeses();
+                int despesaDetalhadaCount = despesaDetalhadaResults != null ? despesaDetalhadaResults.size() : 0;
+                processingResults.put("DespesaDetalhada", despesaDetalhadaCount);
+                totalRecordsProcessed += despesaDetalhadaCount;
+
+                long despesaDetalhadaDuration = System.currentTimeMillis() - despesaDetalhadaStartTime;
+                logger.info("Despesa Detalhada (Multi-Mês) processados: {}", despesaDetalhadaCount);
+                markdownSection.success(despesaDetalhadaCount + " registros de Despesa Detalhada (12 meses) processados", despesaDetalhadaDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Despesa Detalhada", e);
+                processingResults.put("DespesaDetalhada", 0);
+                markdownSection.error("Falha no processamento de Despesa Detalhada: " + e.getMessage());
+            }
+
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
 
             // Log simples para usuário
@@ -643,7 +679,8 @@ public class ContractConsumptionScheduler {
                               .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0))
                               .info("  • Base Despesa Licitação: " + processingResults.getOrDefault("BaseDespesaLicitacao", 0))
                               .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0))
-                              .info("  • Previsão Realização Receita: " + processingResults.getOrDefault("PrevisaoRealizacaoReceita", 0));
+                              .info("  • Previsão Realização Receita: " + processingResults.getOrDefault("PrevisaoRealizacaoReceita", 0))
+                              .info("  • Despesa Detalhada: " + processingResults.getOrDefault("DespesaDetalhada", 0));
 
                 if (totalExecutionTime > 30000) { // Mais de 30 segundos
                     markdownSection.warning("Execução demorou mais que 30 segundos");
@@ -2139,6 +2176,128 @@ public class ContractConsumptionScheduler {
             result.put("error", e.getClass().getSimpleName());
 
             logger.error("Erro na execução manual de Previsão Realização Receita", e);
+            return result;
+        }
+    }
+
+    /**
+     * Método específico para executar apenas Despesa Detalhada
+     */
+    @LogOperation(operation = "SCHEDULED_DESPESA_DETALHADA_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeDespesaDetalhadaOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "DESPESA_DETALHADA_ONLY_CONSUMPTION");
+
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+
+        // Iniciar seção de log estruturado em markdown
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Despesa Detalhada");
+
+        try {
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionStart();
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationStart("SCHEDULER", "DESPESA_DETALHADA_EXECUTION", "ENDPOINTS", "DESPESA_DETALHADA_ENDPOINT");
+
+            // Log estruturado em markdown
+            markdownSection.info("Iniciando consumo específico de Despesa Detalhada da SEFAZ")
+                          .info("Correlation ID: " + correlationId);
+
+            // Consumir apenas Despesa Detalhada
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE DESPESA DETALHADA ===");
+            markdownSection.progress("Processando Despesa Detalhada...");
+
+            try {
+                long despesaDetalhadaStartTime = System.currentTimeMillis();
+
+                // Usar o serviço multi-mês para buscar todos os 12 meses
+                List<DespesaDetalhadaDTO> despesaDetalhadaResults = despesaDetalhadaMultiMesService.consumirTodosMeses();
+                int despesaDetalhadaCount = despesaDetalhadaResults != null ? despesaDetalhadaResults.size() : 0;
+                totalRecordsProcessed = despesaDetalhadaCount;
+
+                long despesaDetalhadaDuration = System.currentTimeMillis() - despesaDetalhadaStartTime;
+                logger.info("Registros de Despesa Detalhada (Multi-Mês) processados: {}", despesaDetalhadaCount);
+                markdownSection.success(despesaDetalhadaCount + " registros de Despesa Detalhada (12 meses) processados", despesaDetalhadaDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Despesa Detalhada", e);
+                markdownSection.error("Falha no processamento de Despesa Detalhada: " + e.getMessage());
+            }
+
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationSuccess("SCHEDULER", "DESPESA_DETALHADA_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "RESULTS", "Despesa Detalhada: " + totalRecordsProcessed);
+
+            // Adicionar estatísticas ao log markdown
+            if (totalRecordsProcessed > 0) {
+                markdownSection.info("📊 Estatísticas de processamento:")
+                              .info("  • Despesa Detalhada: " + totalRecordsProcessed);
+
+                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                    markdownSection.warning("Execução demorou mais que 15 segundos");
+                }
+            }
+
+            // Finalizar log markdown com resumo
+            markdownSection.logWithSummary(totalRecordsProcessed);
+
+            logger.info("=== EXECUÇÃO ESPECÍFICA DE DESPESA DETALHADA CONCLUÍDA ===");
+            logger.info("Tempo total: {} ms", totalExecutionTime);
+            logger.info("Total de registros processados: {}", totalRecordsProcessed);
+
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+
+            // Log simples para usuário
+            userFriendlyLogger.logError("execução específica de despesa detalhada", e.getMessage());
+
+            // Log técnico para arquivo
+            unifiedLogger.logOperationError("SCHEDULER", "DESPESA_DETALHADA_EXECUTION", totalExecutionTime, e,
+                "ENDPOINTS", "DESPESA_DETALHADA_ENDPOINT");
+            logger.error("Erro durante execução específica de despesa detalhada", e);
+
+            // Log de erro estruturado em markdown
+            markdownSection.error("Falha crítica na execução de despesa detalhada: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Execução manual de Despesa Detalhada
+     */
+    public Map<String, Object> executeDespesaDetalhadaManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE DESPESA DETALHADA SOLICITADA ===");
+
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+
+        try {
+            executeDespesaDetalhadaOnly();
+
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Despesa Detalhada concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+
+            logger.info("Execução manual de Despesa Detalhada concluída com sucesso");
+            return result;
+
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro na execução manual de Despesa Detalhada: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+
+            logger.error("Erro na execução manual de Despesa Detalhada", e);
             return result;
         }
     }

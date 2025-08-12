@@ -18,6 +18,7 @@ import br.gov.se.setc.consumer.respository.EndpontSefazRepository;
 import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -485,6 +486,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Create a new instance of the same type as the mapper
             T newInstance = (T) typeClass.getDeclaredConstructor().newInstance();
 
+            // CORREÇÃO CRÍTICA: Copiar parâmetros da consulta para a nova instância
+            if (mapper.getCamposParametros() != null && !mapper.getCamposParametros().isEmpty()) {
+                newInstance.setCamposParametros(new LinkedHashMap<>(mapper.getCamposParametros()));
+            }
+
             // Populate the new instance with JSON data using reflection
             mapearJsonParaDTO(itemNode, newInstance);
 
@@ -521,10 +527,30 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             });
 
+            // Após o mapeamento, definir campos derivados se o DTO suportar
+            definirCamposDerivadosSeSuportado(dtoInstance);
+
         } catch (Exception e) {
             logger.severe("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
         }
     }
+
+    /**
+     * Define campos derivados se o DTO suportar (especificamente para DespesaDetalhadaDTO)
+     */
+    private void definirCamposDerivadosSeSuportado(T dtoInstance) {
+        try {
+            // Verificar se é DespesaDetalhadaDTO e chamar definirCamposDerivados
+            if (dtoInstance.getClass().getSimpleName().equals("DespesaDetalhadaDTO")) {
+                Method definirCamposDerivadosMethod = dtoInstance.getClass().getDeclaredMethod("definirCamposDerivados");
+                definirCamposDerivadosMethod.setAccessible(true);
+                definirCamposDerivadosMethod.invoke(dtoInstance);
+            }
+        } catch (Exception e) {
+            logger.warning("Erro ao executar definirCamposDerivados: " + e.getMessage());
+        }
+    }
+
 
     /**
      * Uses reflection to find and invoke setter methods for JSON fields.
