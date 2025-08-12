@@ -18,11 +18,19 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 /**
  * Controller para execução de busca multi-mês da Previsão Realização Receita
+ *
+ * @deprecated Este controller foi movido para a seção Scheduler.
+ *             Use os novos endpoints:
+ *             - POST /scheduler/execute/previsao-realizacao-receita-multi-mes (todos os 12 meses)
+ *             - POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes} (mês específico)
  */
+@Deprecated
 @RestController
 @RequestMapping("/previsao-realizacao-receita-multi-mes")
-@Tag(name = "Previsão Realização Receita - Multi Mês", 
-     description = "Endpoints para busca de todos os 12 meses")
+@Tag(name = "Previsão Realização Receita - Multi Mês (DEPRECATED)",
+     description = "⚠️ DEPRECATED: Endpoints movidos para a seção Scheduler. " +
+                   "Use POST /scheduler/execute/previsao-realizacao-receita-multi-mes para todos os 12 meses ou " +
+                   "POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes} para mês específico.")
 public class PrevisaoRealizacaoReceitaMultiMesController {
 
     private static final Logger logger = Logger.getLogger(PrevisaoRealizacaoReceitaMultiMesController.class.getName());
@@ -65,15 +73,19 @@ public class PrevisaoRealizacaoReceitaMultiMesController {
     }
 
     @PostMapping("/executar")
-    @Operation(summary = "Executar busca de todos os 12 meses")
+    @Operation(summary = "Executar busca de todos os 12 meses",
+               description = "⚠️ DEPRECATED: Use POST /scheduler/execute/previsao-realizacao-receita-multi-mes")
+    @Deprecated
     public ResponseEntity<String> executarTodosMeses() {
         try {
-            logger.info("Iniciando execução manual multi-mês via endpoint");
-            
+            logger.info("Iniciando execução manual multi-mês via endpoint DEPRECATED");
+            logger.warning("DEPRECATED: Este endpoint foi movido para /scheduler/execute/previsao-realizacao-receita-multi-mes");
+
             String resultado = multiMesService.executarManual();
-            
-            logger.info("Execução manual multi-mês concluída via endpoint");
-            return ResponseEntity.ok(resultado);
+            String deprecationWarning = "⚠️ DEPRECATED: Este endpoint foi movido para /scheduler/execute/previsao-realizacao-receita-multi-mes\n\n" + resultado;
+
+            logger.info("Execução manual multi-mês concluída via endpoint DEPRECATED");
+            return ResponseEntity.ok(deprecationWarning);
             
         } catch (Exception e) {
             logger.severe("Erro durante execução manual multi-mês: " + e.getMessage());
@@ -83,7 +95,9 @@ public class PrevisaoRealizacaoReceitaMultiMesController {
     }
 
     @PostMapping("/executar-mes/{mes}")
-    @Operation(summary = "Executar busca de um mês específico")
+    @Operation(summary = "Executar busca de um mês específico",
+               description = "⚠️ DEPRECATED: Use POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes}")
+    @Deprecated
     public ResponseEntity<String> executarMesEspecifico(
             @Parameter(description = "Número do mês (1-12)", example = "12")
             @PathVariable int mes) {
@@ -94,13 +108,15 @@ public class PrevisaoRealizacaoReceitaMultiMesController {
                     .body("❌ Mês inválido. Deve estar entre 1 e 12.");
             }
             
-            logger.info("Iniciando execução manual para mês " + mes + " via endpoint");
-            
+            logger.info("Iniciando execução manual para mês " + mes + " via endpoint DEPRECATED");
+            logger.warning("DEPRECATED: Este endpoint foi movido para /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/" + mes);
+
             List<PrevisaoRealizacaoReceitaDTO> resultado = multiMesService.consumirMesEspecifico(mes);
-            
-            String resposta = "✅ Execução do mês " + mes + " concluída!\n" +
+
+            String resposta = "⚠️ DEPRECATED: Este endpoint foi movido para /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/" + mes + "\n\n" +
+                             "✅ Execução do mês " + mes + " concluída!\n" +
                              "Registros processados: " + (resultado != null ? resultado.size() : 0);
-            
+
             return ResponseEntity.ok(resposta);
             
         } catch (Exception e) {

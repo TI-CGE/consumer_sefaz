@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.List;
+import java.util.ArrayList;
 
 import java.io.File;
 import java.io.IOException;
@@ -192,12 +194,12 @@ public class LogManagementController {
     }
 
     /**
-     * Força rotação do arquivo operations.md
+     * Força rotação de todos os arquivos de log
      */
     @PostMapping("/rotate")
     @Operation(
-        summary = "Forçar rotação do operations.md",
-        description = "Força a rotação imediata do arquivo operations.md quando está muito grande"
+        summary = "Forçar rotação de todos os logs",
+        description = "Força a rotação imediata de todos os arquivos de log (operations.md, application.log, simple.log, errors.log)"
     )
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Rotação executada com sucesso"),
@@ -205,11 +207,67 @@ public class LogManagementController {
     })
     public ResponseEntity<Map<String, Object>> forceRotation() {
         try {
-            LogRotationService.RotationResult result = logRotationService.forceRotation();
+            LogRotationService.AllLogsRotationResult result = logRotationService.forceAllLogsRotation();
 
             Map<String, Object> response = new HashMap<>();
             response.put("success", result.success);
             response.put("message", result.message);
+            response.put("successCount", result.successCount);
+            response.put("failureCount", result.failureCount);
+            response.put("totalOriginalBytes", result.totalOriginalBytes);
+            response.put("totalCompressedBytes", result.totalCompressedBytes);
+            response.put("overallCompressionRatio", String.format("%.1f%%", result.overallCompressionRatio * 100));
+            response.put("errors", result.errors);
+
+            // Detalhes de cada arquivo rotacionado
+            List<Map<String, Object>> fileDetails = new ArrayList<>();
+            for (LogRotationService.RotationResult fileResult : result.results) {
+                Map<String, Object> fileDetail = new HashMap<>();
+                fileDetail.put("fileName", fileResult.fileName);
+                fileDetail.put("success", fileResult.success);
+                fileDetail.put("message", fileResult.message);
+                fileDetail.put("rotatedFileName", fileResult.rotatedFileName);
+                fileDetail.put("originalSizeBytes", fileResult.originalSizeBytes);
+                fileDetail.put("compressedSizeBytes", fileResult.compressedSizeBytes);
+                fileDetail.put("compressionRatio", String.format("%.1f%%", fileResult.compressionRatio * 100));
+                fileDetails.add(fileDetail);
+            }
+            response.put("fileDetails", fileDetails);
+
+            if (result.success) {
+                return ResponseEntity.ok(response);
+            } else {
+                return ResponseEntity.internalServerError().body(response);
+            }
+
+        } catch (Exception e) {
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("success", false);
+            errorResponse.put("error", e.getMessage());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        }
+    }
+
+    /**
+     * Força rotação apenas do arquivo operations.md
+     */
+    @PostMapping("/rotate/operations")
+    @Operation(
+        summary = "Forçar rotação apenas do operations.md",
+        description = "Força a rotação imediata apenas do arquivo operations.md (compatibilidade com versão anterior)"
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Rotação executada com sucesso"),
+        @ApiResponse(responseCode = "500", description = "Erro durante a rotação")
+    })
+    public ResponseEntity<Map<String, Object>> forceOperationsRotation() {
+        try {
+            LogRotationService.RotationResult result = logRotationService.forceOperationsRotation();
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("success", result.success);
+            response.put("message", result.message);
+            response.put("fileName", result.fileName);
             response.put("rotatedFileName", result.rotatedFileName);
             response.put("originalSizeBytes", result.originalSizeBytes);
             response.put("compressedSizeBytes", result.compressedSizeBytes);

@@ -1,9 +1,12 @@
 package br.gov.se.setc.controller;
 
 import br.gov.se.setc.scheduler.ContractConsumptionScheduler;
+import br.gov.se.setc.consumer.service.PrevisaoRealizacaoReceitaMultiMesService;
+import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.MDCUtil;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.List;
 
 /**
  * Controller para gerenciamento e monitoramento do scheduler
@@ -26,6 +30,9 @@ public class SchedulerController {
 
     @Autowired
     private ContractConsumptionScheduler scheduler;
+
+    @Autowired
+    private PrevisaoRealizacaoReceitaMultiMesService previsaoRealizacaoReceitaMultiMesService;
 
     /**
      * Executa o consumo de contratos manualmente
@@ -110,6 +117,8 @@ public class SchedulerController {
         manualExecutionMap.put("termoOnly", "POST /scheduler/execute/termo");
             manualExecutionMap.put("despesaConvenioOnly", "POST /scheduler/execute/convenio/despesa");
         manualExecutionMap.put("previsaoRealizacaoReceitaOnly", "POST /scheduler/execute/previsao-realizacao-receita");
+        manualExecutionMap.put("previsaoRealizacaoReceitaMultiMes", "POST /scheduler/execute/previsao-realizacao-receita-multi-mes");
+        manualExecutionMap.put("previsaoRealizacaoReceitaMesEspecifico", "POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes}");
         info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -538,10 +547,12 @@ public class SchedulerController {
     }
 
     /**
-     * Executa manualmente apenas o processamento de Previsão Realização Receita
+     * Executa manualmente apenas o processamento de Previsão Realização Receita (usando scheduler padrão)
      */
     @PostMapping("/execute/previsao-realizacao-receita")
-    @Operation(summary = "Executar Apenas Previsão Realização Receita", description = "Executa manualmente apenas o processamento da entidade Previsão Realização Receita")
+    @Operation(summary = "Executar Apenas Previsão Realização Receita",
+               description = "Executa manualmente apenas o processamento da entidade Previsão Realização Receita usando o scheduler padrão. " +
+                           "Para execução multi-mês (todos os 12 meses), use /execute/previsao-realizacao-receita-multi-mes")
     @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
@@ -558,6 +569,92 @@ public class SchedulerController {
             Map<String, Object> errorResult = new HashMap<>();
             errorResult.put("status", "ERROR");
             errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente a busca de todos os 12 meses da Previsão Realização Receita
+     */
+    @PostMapping("/execute/previsao-realizacao-receita-multi-mes")
+    @Operation(summary = "Executar busca de todos os 12 meses",
+               description = "Executa manualmente a busca de Previsão Realização Receita para todos os 12 meses do ano. " +
+                           "Faz 12 requisições sequenciais (uma para cada mês) com pausa de 500ms entre elas.")
+    @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_MULTI_MES_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaMultiMes() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            logger.info("Execução manual multi-mês de Previsão Realização Receita solicitada via endpoint");
+
+            String resultado = previsaoRealizacaoReceitaMultiMesService.executarManual();
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("message", resultado);
+            response.put("correlationId", correlationId);
+
+            logger.info("Execução manual multi-mês de Previsão Realização Receita concluída");
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual multi-mês de Previsão Realização Receita", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
+    /**
+     * Executa manualmente a busca de um mês específico da Previsão Realização Receita
+     */
+    @PostMapping("/execute/previsao-realizacao-receita-multi-mes/mes/{mes}")
+    @Operation(summary = "Executar busca de um mês específico",
+               description = "Executa manualmente a busca de Previsão Realização Receita para um mês específico (1-12).")
+    @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_MES_ESPECIFICO_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaMesEspecifico(
+            @Parameter(description = "Número do mês (1-12)", example = "12")
+            @PathVariable int mes) {
+
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+
+        try {
+            if (mes < 1 || mes > 12) {
+                Map<String, Object> errorResult = new HashMap<>();
+                errorResult.put("status", "ERROR");
+                errorResult.put("message", "Mês inválido. Deve estar entre 1 e 12.");
+                errorResult.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(errorResult);
+            }
+
+            logger.info("Execução manual para mês {} de Previsão Realização Receita solicitada via endpoint", mes);
+
+            List<PrevisaoRealizacaoReceitaDTO> resultado = previsaoRealizacaoReceitaMultiMesService.consumirMesEspecifico(mes);
+
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("message", "Execução do mês " + mes + " concluída! Registros processados: " +
+                        (resultado != null ? resultado.size() : 0));
+            response.put("recordsProcessed", resultado != null ? resultado.size() : 0);
+            response.put("month", mes);
+            response.put("correlationId", correlationId);
+
+            logger.info("Execução manual para mês {} de Previsão Realização Receita concluída", mes);
+            return ResponseEntity.ok(response);
+
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual para mês {} de Previsão Realização Receita", mes, e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("month", mes);
             errorResult.put("correlationId", correlationId);
             return ResponseEntity.internalServerError().body(errorResult);
         } finally {

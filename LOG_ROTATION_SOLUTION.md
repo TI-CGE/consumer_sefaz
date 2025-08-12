@@ -28,15 +28,29 @@ Retorna informações detalhadas sobre o `operations.md`:
 - Se precisa de rotação
 - Recomendações
 
-#### 🔄 Forçar Rotação
+#### 🔄 Forçar Rotação de Todos os Logs
 ```
 POST /api/logs/rotate
 ```
-Força rotação imediata do `operations.md`:
-- Move arquivo atual para arquivo timestampado
-- Compacta o arquivo rotacionado (.gz)
-- Cria novo `operations.md` vazio
-- Retorna estatísticas de compressão
+Força rotação imediata de **TODOS** os arquivos de log:
+- `operations.md` - Logs estruturados em markdown
+- `application.log` - Logs técnicos completos
+- `simple.log` - Logs simplificados para usuário
+- `errors.log` - Logs de erros
+- **Usa o sistema Logback** para rotação segura de arquivos ativos
+- Força rollover dos appenders sem interromper o logging
+- Arquivos são automaticamente compactados pelo Logback
+- Retorna estatísticas de rotação para cada arquivo
+
+#### 🔄 Forçar Rotação Apenas do Operations.md
+```
+POST /api/logs/rotate/operations
+```
+Força rotação imediata apenas do `operations.md` (compatibilidade):
+- **Usa o sistema Logback** para rotação segura
+- Força rollover do appender MARKDOWN_FILE
+- Arquivo é automaticamente compactado pelo Logback
+- Retorna estatísticas de rotação
 
 #### 🧹 Limpeza Geral
 ```
@@ -61,15 +75,22 @@ Executa limpeza completa:
    curl http://localhost:8080/api/logs/operations/info
    ```
 
-2. **Forçar rotação imediata**:
+2. **Forçar rotação de TODOS os logs**:
    ```bash
    curl -X POST http://localhost:8080/api/logs/rotate
    ```
 
-3. **Verificar resultado**:
-   - Novo `operations.md` vazio criado
-   - Arquivo antigo compactado e salvo
-   - Logs voltam a ser legíveis na IDE
+3. **Ou rotacionar apenas o operations.md**:
+   ```bash
+   curl -X POST http://localhost:8080/api/logs/rotate/operations
+   ```
+
+4. **Verificar resultado**:
+   - Arquivos de log rotacionados pelo sistema Logback
+   - Novos arquivos ativos criados automaticamente
+   - Arquivos antigos compactados (.gz) salvos com timestamp
+   - Logging continua funcionando sem interrupção
+   - Estatísticas de rotação para cada arquivo
 
 ### Monitoramento Contínuo
 - O sistema agora monitora automaticamente a cada 30 minutos
@@ -131,12 +152,17 @@ logging.cleanup.max-size-mb=500
    curl http://localhost:8080/api/logs/operations/info
    ```
 
-3. **Forçar rotação (se necessário)**:
+3. **Forçar rotação de todos os logs (recomendado)**:
    ```bash
    curl -X POST http://localhost:8080/api/logs/rotate
    ```
 
-4. **Executar limpeza**:
+4. **Ou forçar rotação apenas do operations.md**:
+   ```bash
+   curl -X POST http://localhost:8080/api/logs/rotate/operations
+   ```
+
+5. **Executar limpeza**:
    ```bash
    curl -X POST http://localhost:8080/api/logs/cleanup
    ```
