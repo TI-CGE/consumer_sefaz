@@ -2,34 +2,75 @@ package br.gov.se.setc.consumer.dto;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
 public class DadosOrcamentariosDTO extends EndpontSefaz {
+    @JsonProperty("cdFuncaoPLO")
     private Integer cdFuncaoPLO;
+
+    @JsonProperty("nmFuncaoPLO")
     private String nmFuncaoPLO;
+
+    @JsonProperty("cdSubFuncao")
     private Integer cdSubFuncao;
+
+    @JsonProperty("nmSubFuncao")
     private String nmSubFuncao;
+
+    @JsonProperty("cdProgramaGoverno")
     private Integer cdProgramaGoverno;
+
+    @JsonProperty("nmProgramaGoverno")
     private String nmProgramaGoverno;
+
+    @JsonProperty("cdCategoriaEconomica")
     private Integer cdCategoriaEconomica;
+
+    @JsonProperty("nmCategoriaEconomica")
     private String nmCategoriaEconomica;
+
+    @JsonProperty("cdModalidadeAplicacao")
     private Integer cdModalidadeAplicacao;
+
+    @JsonProperty("nmModalidadeAplicacao")
     private String nmModalidadeAplicacao;
+
+    @JsonProperty("cdFonteRecurso")
     private Integer cdFonteRecurso;
+
+    @JsonProperty("nmFonteRecurso")
     private String nmFonteRecurso;
+
+    @JsonProperty("cdGrupoDespesa")
     private Integer cdGrupoDespesa;
+
+    @JsonProperty("nmGrupoDespesa")
     private String nmGrupoDespesa;
+
+    @JsonProperty("cdLicitacao")
     private String cdLicitacao;
+
+    @JsonProperty("dsObjetoLicitacao")
     private String dsObjetoLicitacao;
+
+    @JsonProperty("nuProcessoLicitacao")
     private String nuProcessoLicitacao;
 
     // Parâmetros para a API
+    @JsonProperty("dtAnoExercicioCTB")
     private Integer dtAnoExercicioCTB;
+
+    @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
+
+    @JsonProperty("cdGestao")
     private String cdGestao;
+
+    @JsonProperty("sqEmpenho")
     private Integer sqEmpenho;
 
     public DadosOrcamentariosDTO() {

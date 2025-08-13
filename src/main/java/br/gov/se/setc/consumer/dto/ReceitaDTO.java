@@ -7,34 +7,88 @@ import java.util.Map;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ReceitaDTO extends EndpontSefaz {
+    @JsonProperty("dtFimVigenciaConvenio")
     private LocalDate dtFimVigenciaConvenio;
+
+    @JsonProperty("cdConvenio")
     private Integer cdConvenio;
+
+    @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
+
+    @JsonProperty("nmConcedente")
     private String nmConcedente;
+
+    @JsonProperty("inConvenioFichaIngresso")
     private String inConvenioFichaIngresso;
+
+    @JsonProperty("dtPublicacaoConvenio")
     private LocalDate dtPublicacaoConvenio;
+
+    @JsonProperty("dsObjetoConvenio")
     private String dsObjetoConvenio;
+
+    @JsonProperty("vlConcedenteConvenio")
     private BigDecimal vlConcedenteConvenio;
+
+    @JsonProperty("cdGestao")
     private String cdGestao;
+
+    @JsonProperty("txIdentOriginalConvenio")
     private String txIdentOriginalConvenio;
+
+    @JsonProperty("cdConcedentePessoa")
     private Integer cdConcedentePessoa;
+
+    @JsonProperty("cdEfetivacaoUsuario")
     private String cdEfetivacaoUsuario;
+
+    @JsonProperty("txObservacaoConvenio")
     private String txObservacaoConvenio;
+
+    @JsonProperty("cdBeneficiarioPessoa")
     private Integer cdBeneficiarioPessoa;
+
+    @JsonProperty("cdConvenioSituacao")
     private String cdConvenioSituacao;
+
+    @JsonProperty("cdAreaAtuacao")
     private Integer cdAreaAtuacao;
+
+    @JsonProperty("dtLancamentoConvenio")
     private LocalDate dtLancamentoConvenio;
+
+    @JsonProperty("dtPrazoPrestContasConvenio")
     private LocalDate dtPrazoPrestContasConvenio;
+
+    @JsonProperty("nmBeneficiario")
     private String nmBeneficiario;
+
+    @JsonProperty("dtCelebracaoConvenio")
     private LocalDate dtCelebracaoConvenio;
+
+    @JsonProperty("dtInicioVigenciaConvenio")
     private LocalDate dtInicioVigenciaConvenio;
+
+    @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
+
+    @JsonProperty("nmConvenio")
     private String nmConvenio;
+
+    @JsonProperty("inLocalPublicacaoConvenio")
     private String inLocalPublicacaoConvenio;
+
+    @JsonProperty("vlContrapartidaConvenio")
     private BigDecimal vlContrapartidaConvenio;
+
+    @JsonProperty("inConvenioEmpenhoIngresso")
     private String inConvenioEmpenhoIngresso;
+
+    @JsonProperty("sqUnidadeGestoraGestao")
     private Integer sqUnidadeGestoraGestao;
 
     public ReceitaDTO() {

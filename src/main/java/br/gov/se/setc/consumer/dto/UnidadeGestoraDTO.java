@@ -5,11 +5,19 @@ import java.util.Map;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class UnidadeGestoraDTO extends EndpontSefaz{
+    @JsonProperty("nmUnidadeGestora")
     String nmUnidadeGestora;
+
+    @JsonProperty("sgUnidadeGestora")
     String sgUnidadeGestora;
+
+    @JsonProperty("cdUnidadeGestora")
     String cdUnidadeGestora;
+
+    @JsonProperty("sgTipoUnidadeGestora")
     String sgTipoUnidadeGestora;
 
 

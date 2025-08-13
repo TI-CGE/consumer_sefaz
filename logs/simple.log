@@ -25929,3 +25929,7 @@
 09:46:00 | CONTRACT_CONSUMER | 🐌 CONSUMIR_PERSISTIR | 202011 registros (17m 12s)
 09:46:00 | SCHEDULER | 🐌 LIQUIDACAO_ONLY_CONSUMPTION | 202011 registros | ENDPOINT: liquidacao (17m 12s)
 09:46:00 | SCHEDULER_CONTROLLER | 🐌 MANUAL_LIQUIDACAO_EXECUTION | 1 registros (17m 12s)
+09:55:17 | APPLICATION | ✅ SEFAZ Transparency Consumer vDEV iniciada
+09:55:17 | APPLICATION | ✅ Pronta para receber requisições
+09:59:05 | APPLICATION | ✅ SEFAZ Transparency Consumer vDEV iniciada
+09:59:05 | APPLICATION | ✅ Pronta para receber requisições

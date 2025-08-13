@@ -2,6 +2,7 @@ package br.gov.se.setc.consumer.dto;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -9,53 +10,146 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class OrdemFornecimentoDTO extends EndpontSefaz {
+    @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
+
+    @JsonProperty("cdUnidadeAdministrativa")
     private String cdUnidadeAdministrativa;
+
+    @JsonProperty("cdGestao")
     private String cdGestao;
+
+    @JsonProperty("dtAnoExercicioEmp")
     private Integer dtAnoExercicioEmp;
+
+    @JsonProperty("dtAnoExercicioOF")
     private Integer dtAnoExercicioOF;
+
+    @JsonProperty("sqEmpenho")
     private Long sqEmpenho;
+
+    @JsonProperty("sqOrdemFornecimento")
     private Long sqOrdemFornecimento;
+
+    @JsonProperty("dtRecebimento")
     private LocalDate dtRecebimento;
+
+    @JsonProperty("vlOrdemFornecimento")
     private BigDecimal vlOrdemFornecimento;
+
+    @JsonProperty("nuDanfe")
     private String nuDanfe;
+
+    @JsonProperty("nuNfe")
     private String nuNfe;
+
+    @JsonProperty("cdVerificacaoNfse")
     private String cdVerificacaoNfse;
+
+    @JsonProperty("dtEmissao")
     private LocalDate dtEmissao;
+
+    @JsonProperty("dtServico")
     private LocalDate dtServico;
+
+    @JsonProperty("nuDocumentoDestinatario")
     private String nuDocumentoDestinatario;
+
+    @JsonProperty("nmDestinatario")
     private String nmDestinatario;
+
+    @JsonProperty("nuDocumentoEmitente")
     private String nuDocumentoEmitente;
+
+    @JsonProperty("nmRemetente")
     private String nmRemetente;
+    @JsonProperty("vltotaldesconto")
     private BigDecimal vltotaldesconto;
+
+    @JsonProperty("vltotalnfe")
     private BigDecimal vltotalnfe;
+
+    @JsonProperty("tpNfe")
     private String tpNfe;
+
+    @JsonProperty("vlTotalProdServ")
     private BigDecimal vlTotalProdServ;
+
+    @JsonProperty("vlTotalFrete")
     private BigDecimal vlTotalFrete;
+
+    @JsonProperty("vlTotalSeguro")
     private BigDecimal vlTotalSeguro;
+
+    @JsonProperty("vlBaseCalcICMS")
     private BigDecimal vlBaseCalcICMS;
+
+    @JsonProperty("vlBaseCalcICMSST")
     private BigDecimal vlBaseCalcICMSST;
+
+    @JsonProperty("vlTotalICMSST")
     private BigDecimal vlTotalICMSST;
+
+    @JsonProperty("vlPis")
     private BigDecimal vlPis;
+
+    @JsonProperty("vlCofins")
     private BigDecimal vlCofins;
+
+    @JsonProperty("vlIss")
     private BigDecimal vlIss;
+
+    @JsonProperty("vlBaseCalcIss")
     private BigDecimal vlBaseCalcIss;
+
+    @JsonProperty("vlAliqISS")
     private BigDecimal vlAliqISS;
+
+    @JsonProperty("vlTotalICMS")
     private BigDecimal vlTotalICMS;
+
+    @JsonProperty("vlIpi")
     private BigDecimal vlIpi;
+
+    @JsonProperty("vlLiquido")
     private BigDecimal vlLiquido;
+
+    @JsonProperty("vlDeducoes")
     private BigDecimal vlDeducoes;
+
+    @JsonProperty("vlOutRetencoes")
     private BigDecimal vlOutRetencoes;
+
+    @JsonProperty("vlDescIncondicionado")
     private BigDecimal vlDescIncondicionado;
+    @JsonProperty("vlDescCondicionado")
     private BigDecimal vlDescCondicionado;
+
+    @JsonProperty("discriminacao")
     private String discriminacao;
+
+    @JsonProperty("vlInss")
     private BigDecimal vlInss;
+
+    @JsonProperty("vlRetPis")
     private BigDecimal vlRetPis;
+
+    @JsonProperty("vlRetCofins")
     private BigDecimal vlRetCofins;
+
+    @JsonProperty("vlRetCsll")
     private BigDecimal vlRetCsll;
+
+    @JsonProperty("vlRetIRRF")
     private BigDecimal vlRetIRRF;
+
+    @JsonProperty("vlBaseCalcRetIRRF")
     private BigDecimal vlBaseCalcRetIRRF;
+
+    @JsonProperty("vlRetPrev")
     private BigDecimal vlRetPrev;
+
+    @JsonProperty("vlBaseCalcRetPrev")
     private BigDecimal vlBaseCalcRetPrev;
 
     public OrdemFornecimentoDTO() {

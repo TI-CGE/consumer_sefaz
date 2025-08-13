@@ -6,19 +6,43 @@ import java.util.Map;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class ContratosFiscaisDTO extends EndpontSefaz  {
+    @JsonProperty("dtFimVigenciaContrato")
     private LocalDate dtFimVigenciaContrato;
+
+    @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
+
+    @JsonProperty("cdLicitacao")
     private String cdLicitacao;
+
+    @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
+
+    @JsonProperty("nmFiscal")
     private String nmFiscal;
+
+    @JsonProperty("nuDocumentoContratado")
     private String nuDocumentoContratado;
+
+    @JsonProperty("nmContratado")
     private String nmContratado;
+
+    @JsonProperty("dtAnoExercicio")
     private Integer dtAnoExercicio;
+
+    @JsonProperty("cdContrato")
     private String cdContrato;
+
+    @JsonProperty("dtInicioVigenciaContrato")
     private LocalDate dtInicioVigenciaContrato;
+
+    @JsonProperty("dsQualificador")
     private String dsQualificador;
+
+    @JsonProperty("cdQualificador")
     private Integer cdQualificador;
     
 
