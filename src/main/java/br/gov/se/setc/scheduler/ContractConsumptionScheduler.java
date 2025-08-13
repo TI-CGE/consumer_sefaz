@@ -229,257 +229,10 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Unidades Gestoras: " + e.getMessage());
             }
 
-            // 2. Aguardar um pouco antes de consumir contratos
+            // 2. Aguardar um pouco antes de consumir consulta gerencial
             Thread.sleep(2000);
 
-            // 3. Consumir Contratos Fiscais
-            logger.info("=== INICIANDO CONSUMO DE CONTRATOS FISCAIS ===");
-            markdownSection.progress("Processando Contratos Fiscais...");
-
-            try {
-                long cfStartTime = System.currentTimeMillis();
-                ContratosFiscaisDTO contratoDto = new ContratosFiscaisDTO();
-                List<ContratosFiscaisDTO> contratoResults = contratosFiscaisService.consumirPersistir(contratoDto);
-                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
-                processingResults.put("ContratosFiscais", contratoCount);
-                totalRecordsProcessed += contratoCount;
-
-                long cfDuration = System.currentTimeMillis() - cfStartTime;
-                logger.info("Contratos Fiscais processados: {}", contratoCount);
-                markdownSection.success(contratoCount + " Contratos Fiscais processados", cfDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Contratos Fiscais", e);
-                processingResults.put("ContratosFiscais", 0);
-                markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
-            }
-
-            // 4. Aguardar um pouco antes de consumir contratos
-            Thread.sleep(2000);
-
-            // 4.1. Consumir Contratos
-            logger.info("=== INICIANDO CONSUMO DE CONTRATOS ===");
-            markdownSection.progress("Processando Contratos...");
-
-            try {
-                long contratoStartTime = System.currentTimeMillis();
-                ContratoDTO contratoDto = new ContratoDTO();
-                List<ContratoDTO> contratoResults = contratoConsumoApiService.consumirPersistir(contratoDto);
-                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
-                processingResults.put("Contrato", contratoCount);
-                totalRecordsProcessed += contratoCount;
-
-                long contratoDuration = System.currentTimeMillis() - contratoStartTime;
-                logger.info("Contratos processados: {}", contratoCount);
-                markdownSection.success(contratoCount + " registros de Contrato processados", contratoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Contratos", e);
-                processingResults.put("Contrato", 0);
-                markdownSection.error("Falha no processamento de Contratos: " + e.getMessage());
-            }
-
-            // 4.2. Aguardar um pouco antes de consumir contrato-empenho
-            Thread.sleep(2000);
-
-            // 4.3. Consumir Contrato-Empenho
-            logger.info("=== INICIANDO CONSUMO DE CONTRATO-EMPENHO ===");
-            markdownSection.progress("Processando Contrato-Empenho...");
-
-            try {
-                long contratoEmpenhoStartTime = System.currentTimeMillis();
-                ContratoEmpenhoDTO contratoEmpenhoDto = new ContratoEmpenhoDTO();
-                List<ContratoEmpenhoDTO> contratoEmpenhoResults = contratoEmpenhoConsumoApiService.consumirPersistir(contratoEmpenhoDto);
-                int contratoEmpenhoCount = contratoEmpenhoResults != null ? contratoEmpenhoResults.size() : 0;
-                processingResults.put("ContratoEmpenho", contratoEmpenhoCount);
-                totalRecordsProcessed += contratoEmpenhoCount;
-
-                long contratoEmpenhoDuration = System.currentTimeMillis() - contratoEmpenhoStartTime;
-                logger.info("Contrato-Empenho processados: {}", contratoEmpenhoCount);
-                markdownSection.success(contratoEmpenhoCount + " registros de Contrato-Empenho processados", contratoEmpenhoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Contrato-Empenho", e);
-                processingResults.put("ContratoEmpenho", 0);
-                markdownSection.error("Falha no processamento de Contrato-Empenho: " + e.getMessage());
-            }
-
-            // 5. Aguardar um pouco antes de consumir receita
-            Thread.sleep(2000);
-
-            // 6. Consumir Receita
-            logger.info("=== INICIANDO CONSUMO DE RECEITA ===");
-            markdownSection.progress("Processando Receita...");
-
-            try {
-                long receitaStartTime = System.currentTimeMillis();
-                ReceitaDTO receitaDto = new ReceitaDTO();
-                List<ReceitaDTO> receitaResults = receitaConsumoApiService.consumirPersistir(receitaDto);
-                int receitaCount = receitaResults != null ? receitaResults.size() : 0;
-                processingResults.put("Receita", receitaCount);
-                totalRecordsProcessed += receitaCount;
-
-                long receitaDuration = System.currentTimeMillis() - receitaStartTime;
-                logger.info("Receita processada: {}", receitaCount);
-                markdownSection.success(receitaCount + " registros de Receita processados", receitaDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Receita", e);
-                processingResults.put("Receita", 0);
-                markdownSection.error("Falha no processamento de Receita: " + e.getMessage());
-            }
-
-            // 6. Aguardar um pouco antes de consumir pagamentos
-            Thread.sleep(2000);
-
-            // 7. Consumir Pagamentos
-            logger.info("=== INICIANDO CONSUMO DE PAGAMENTOS ===");
-            markdownSection.progress("Processando Pagamentos...");
-
-            try {
-                long pagamentoStartTime = System.currentTimeMillis();
-                PagamentoDTO pagamentoDto = new PagamentoDTO();
-                List<PagamentoDTO> pagamentoResults = pagamentoConsumoApiService.consumirPersistir(pagamentoDto);
-                int pagamentoCount = pagamentoResults != null ? pagamentoResults.size() : 0;
-                processingResults.put("Pagamento", pagamentoCount);
-                totalRecordsProcessed += pagamentoCount;
-
-                long pagamentoDuration = System.currentTimeMillis() - pagamentoStartTime;
-                logger.info("Pagamentos processados: {}", pagamentoCount);
-                markdownSection.success(pagamentoCount + " registros de Pagamento processados", pagamentoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Pagamentos", e);
-                processingResults.put("Pagamento", 0);
-                markdownSection.error("Falha no processamento de Pagamentos: " + e.getMessage());
-            }
-
-            // 8. Aguardar um pouco antes de consumir liquidações
-            Thread.sleep(2000);
-
-            // 9. Consumir Liquidações
-            logger.info("=== INICIANDO CONSUMO DE LIQUIDAÇÕES ===");
-            markdownSection.progress("Processando Liquidações...");
-
-            try {
-                long liquidacaoStartTime = System.currentTimeMillis();
-                LiquidacaoDTO liquidacaoDto = new LiquidacaoDTO();
-                List<LiquidacaoDTO> liquidacaoResults = liquidacaoConsumoApiService.consumirPersistir(liquidacaoDto);
-                int liquidacaoCount = liquidacaoResults != null ? liquidacaoResults.size() : 0;
-                processingResults.put("Liquidacao", liquidacaoCount);
-                totalRecordsProcessed += liquidacaoCount;
-
-                long liquidacaoDuration = System.currentTimeMillis() - liquidacaoStartTime;
-                logger.info("Liquidações processadas: {}", liquidacaoCount);
-                markdownSection.success(liquidacaoCount + " registros de Liquidação processados", liquidacaoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Liquidações", e);
-                processingResults.put("Liquidacao", 0);
-                markdownSection.error("Falha no processamento de Liquidações: " + e.getMessage());
-            }
-
-            // 10. Aguardar um pouco antes de consumir ordens de fornecimento
-            Thread.sleep(2000);
-
-            // 11. Consumir Ordens de Fornecimento
-            logger.info("=== INICIANDO CONSUMO DE ORDENS DE FORNECIMENTO ===");
-            markdownSection.progress("Processando Ordens de Fornecimento...");
-
-            try {
-                long ordemFornecimentoStartTime = System.currentTimeMillis();
-                OrdemFornecimentoDTO ordemFornecimentoDto = new OrdemFornecimentoDTO();
-                List<OrdemFornecimentoDTO> ordemFornecimentoResults = ordemFornecimentoConsumoApiService.consumirPersistir(ordemFornecimentoDto);
-                int ordemFornecimentoCount = ordemFornecimentoResults != null ? ordemFornecimentoResults.size() : 0;
-                processingResults.put("OrdemFornecimento", ordemFornecimentoCount);
-                totalRecordsProcessed += ordemFornecimentoCount;
-
-                long ordemFornecimentoDuration = System.currentTimeMillis() - ordemFornecimentoStartTime;
-                logger.info("Ordens de Fornecimento processadas: {}", ordemFornecimentoCount);
-                markdownSection.success(ordemFornecimentoCount + " registros de Ordem de Fornecimento processados", ordemFornecimentoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Ordens de Fornecimento", e);
-                processingResults.put("OrdemFornecimento", 0);
-                markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
-            }
-
-            // 6. Consumir Dados Orçamentários
-            logger.info("=== INICIANDO CONSUMO DE DADOS ORÇAMENTÁRIOS ===");
-            markdownSection.progress("Processando Dados Orçamentários...");
-
-            try {
-                long dadosOrcamentariosStartTime = System.currentTimeMillis();
-                DadosOrcamentariosDTO dadosOrcamentariosDto = new DadosOrcamentariosDTO();
-                List<DadosOrcamentariosDTO> dadosOrcamentariosResults = dadosOrcamentariosConsumoApiService.consumirPersistir(dadosOrcamentariosDto);
-                int dadosOrcamentariosCount = dadosOrcamentariosResults != null ? dadosOrcamentariosResults.size() : 0;
-                processingResults.put("DadosOrcamentarios", dadosOrcamentariosCount);
-                totalRecordsProcessed += dadosOrcamentariosCount;
-
-                long dadosOrcamentariosDuration = System.currentTimeMillis() - dadosOrcamentariosStartTime;
-                logger.info("Dados Orçamentários processados: {}", dadosOrcamentariosCount);
-                markdownSection.success(dadosOrcamentariosCount + " Dados Orçamentários processados", dadosOrcamentariosDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Dados Orçamentários", e);
-                processingResults.put("DadosOrcamentarios", 0);
-                markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
-            }
-
-            // 13. Aguardar um pouco antes de consumir empenhos
-            Thread.sleep(2000);
-
-            // 14. Consumir Empenhos
-            logger.info("=== INICIANDO CONSUMO DE EMPENHOS ===");
-            markdownSection.progress("Processando Empenhos...");
-
-            try {
-                long empenhoStartTime = System.currentTimeMillis();
-                EmpenhoDTO empenhoDto = new EmpenhoDTO();
-                List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
-                int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
-                processingResults.put("Empenho", empenhoCount);
-                totalRecordsProcessed += empenhoCount;
-
-                long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
-                logger.info("Empenhos processados: {}", empenhoCount);
-                markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Empenhos", e);
-                processingResults.put("Empenho", 0);
-                markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
-            }
-
-            // 15. Aguardar um pouco antes de consumir totalizadores de execução
-            Thread.sleep(2000);
-
-            // 16. Consumir Totalizadores de Execução
-            logger.info("=== INICIANDO CONSUMO DE TOTALIZADORES DE EXECUÇÃO ===");
-            markdownSection.progress("Processando Totalizadores de Execução...");
-
-            try {
-                long totalizadoresExecucaoStartTime = System.currentTimeMillis();
-                TotalizadoresExecucaoDTO totalizadoresExecucaoDto = new TotalizadoresExecucaoDTO();
-                List<TotalizadoresExecucaoDTO> totalizadoresExecucaoResults = totalizadoresExecucaoConsumoApiService.consumirPersistir(totalizadoresExecucaoDto);
-                int totalizadoresExecucaoCount = totalizadoresExecucaoResults != null ? totalizadoresExecucaoResults.size() : 0;
-                processingResults.put("TotalizadoresExecucao", totalizadoresExecucaoCount);
-                totalRecordsProcessed += totalizadoresExecucaoCount;
-
-                long totalizadoresExecucaoDuration = System.currentTimeMillis() - totalizadoresExecucaoStartTime;
-                logger.info("Totalizadores de Execução processados: {}", totalizadoresExecucaoCount);
-                markdownSection.success(totalizadoresExecucaoCount + " registros de Totalizadores de Execução processados", totalizadoresExecucaoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Totalizadores de Execução", e);
-                processingResults.put("TotalizadoresExecucao", 0);
-                markdownSection.error("Falha no processamento de Totalizadores de Execução: " + e.getMessage());
-            }
-
-            // 17. Aguardar um pouco antes de consumir consulta gerencial
-            Thread.sleep(2000);
-
-            // 18. Consumir Consulta Gerencial (Diárias)
+            // 3. Consumir Consulta Gerencial (Diárias) - MOVIDO PARA CIMA PARA FORNECER DADOS PARA OUTROS CONSUMOS
             logger.info("=== INICIANDO CONSUMO DE CONSULTA GERENCIAL ===");
             markdownSection.progress("Processando Consulta Gerencial (Diárias)...");
 
@@ -501,9 +254,256 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Consulta Gerencial: " + e.getMessage());
             }
 
+            // 4. Aguardar um pouco antes de consumir contratos fiscais
             Thread.sleep(2000);
 
-            // 19. Consumir Base Despesa Credor
+            // 5. Consumir Contratos Fiscais
+            logger.info("=== INICIANDO CONSUMO DE CONTRATOS FISCAIS ===");
+            markdownSection.progress("Processando Contratos Fiscais...");
+
+            try {
+                long cfStartTime = System.currentTimeMillis();
+                ContratosFiscaisDTO contratoDto = new ContratosFiscaisDTO();
+                List<ContratosFiscaisDTO> contratoResults = contratosFiscaisService.consumirPersistir(contratoDto);
+                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
+                processingResults.put("ContratosFiscais", contratoCount);
+                totalRecordsProcessed += contratoCount;
+
+                long cfDuration = System.currentTimeMillis() - cfStartTime;
+                logger.info("Contratos Fiscais processados: {}", contratoCount);
+                markdownSection.success(contratoCount + " Contratos Fiscais processados", cfDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos Fiscais", e);
+                processingResults.put("ContratosFiscais", 0);
+                markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
+            }
+
+            // 6. Aguardar um pouco antes de consumir contratos
+            Thread.sleep(2000);
+
+            // 7. Consumir Contratos
+            logger.info("=== INICIANDO CONSUMO DE CONTRATOS ===");
+            markdownSection.progress("Processando Contratos...");
+
+            try {
+                long contratoStartTime = System.currentTimeMillis();
+                ContratoDTO contratoDto = new ContratoDTO();
+                List<ContratoDTO> contratoResults = contratoConsumoApiService.consumirPersistir(contratoDto);
+                int contratoCount = contratoResults != null ? contratoResults.size() : 0;
+                processingResults.put("Contrato", contratoCount);
+                totalRecordsProcessed += contratoCount;
+
+                long contratoDuration = System.currentTimeMillis() - contratoStartTime;
+                logger.info("Contratos processados: {}", contratoCount);
+                markdownSection.success(contratoCount + " registros de Contrato processados", contratoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos", e);
+                processingResults.put("Contrato", 0);
+                markdownSection.error("Falha no processamento de Contratos: " + e.getMessage());
+            }
+
+            // 8. Aguardar um pouco antes de consumir contrato-empenho
+            Thread.sleep(2000);
+
+            // 9. Consumir Contrato-Empenho
+            logger.info("=== INICIANDO CONSUMO DE CONTRATO-EMPENHO ===");
+            markdownSection.progress("Processando Contrato-Empenho...");
+
+            try {
+                long contratoEmpenhoStartTime = System.currentTimeMillis();
+                ContratoEmpenhoDTO contratoEmpenhoDto = new ContratoEmpenhoDTO();
+                List<ContratoEmpenhoDTO> contratoEmpenhoResults = contratoEmpenhoConsumoApiService.consumirPersistir(contratoEmpenhoDto);
+                int contratoEmpenhoCount = contratoEmpenhoResults != null ? contratoEmpenhoResults.size() : 0;
+                processingResults.put("ContratoEmpenho", contratoEmpenhoCount);
+                totalRecordsProcessed += contratoEmpenhoCount;
+
+                long contratoEmpenhoDuration = System.currentTimeMillis() - contratoEmpenhoStartTime;
+                logger.info("Contrato-Empenho processados: {}", contratoEmpenhoCount);
+                markdownSection.success(contratoEmpenhoCount + " registros de Contrato-Empenho processados", contratoEmpenhoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contrato-Empenho", e);
+                processingResults.put("ContratoEmpenho", 0);
+                markdownSection.error("Falha no processamento de Contrato-Empenho: " + e.getMessage());
+            }
+
+            // 10. Aguardar um pouco antes de consumir receita
+            Thread.sleep(2000);
+
+            // 11. Consumir Receita
+            logger.info("=== INICIANDO CONSUMO DE RECEITA ===");
+            markdownSection.progress("Processando Receita...");
+
+            try {
+                long receitaStartTime = System.currentTimeMillis();
+                ReceitaDTO receitaDto = new ReceitaDTO();
+                List<ReceitaDTO> receitaResults = receitaConsumoApiService.consumirPersistir(receitaDto);
+                int receitaCount = receitaResults != null ? receitaResults.size() : 0;
+                processingResults.put("Receita", receitaCount);
+                totalRecordsProcessed += receitaCount;
+
+                long receitaDuration = System.currentTimeMillis() - receitaStartTime;
+                logger.info("Receita processada: {}", receitaCount);
+                markdownSection.success(receitaCount + " registros de Receita processados", receitaDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Receita", e);
+                processingResults.put("Receita", 0);
+                markdownSection.error("Falha no processamento de Receita: " + e.getMessage());
+            }
+
+            // 12. Aguardar um pouco antes de consumir pagamentos
+            Thread.sleep(2000);
+
+            // 13. Consumir Pagamentos
+            logger.info("=== INICIANDO CONSUMO DE PAGAMENTOS ===");
+            markdownSection.progress("Processando Pagamentos...");
+
+            try {
+                long pagamentoStartTime = System.currentTimeMillis();
+                PagamentoDTO pagamentoDto = new PagamentoDTO();
+                List<PagamentoDTO> pagamentoResults = pagamentoConsumoApiService.consumirPersistir(pagamentoDto);
+                int pagamentoCount = pagamentoResults != null ? pagamentoResults.size() : 0;
+                processingResults.put("Pagamento", pagamentoCount);
+                totalRecordsProcessed += pagamentoCount;
+
+                long pagamentoDuration = System.currentTimeMillis() - pagamentoStartTime;
+                logger.info("Pagamentos processados: {}", pagamentoCount);
+                markdownSection.success(pagamentoCount + " registros de Pagamento processados", pagamentoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Pagamentos", e);
+                processingResults.put("Pagamento", 0);
+                markdownSection.error("Falha no processamento de Pagamentos: " + e.getMessage());
+            }
+
+            // 14. Aguardar um pouco antes de consumir liquidações
+            Thread.sleep(2000);
+
+            // 15. Consumir Liquidações
+            logger.info("=== INICIANDO CONSUMO DE LIQUIDAÇÕES ===");
+            markdownSection.progress("Processando Liquidações...");
+
+            try {
+                long liquidacaoStartTime = System.currentTimeMillis();
+                LiquidacaoDTO liquidacaoDto = new LiquidacaoDTO();
+                List<LiquidacaoDTO> liquidacaoResults = liquidacaoConsumoApiService.consumirPersistir(liquidacaoDto);
+                int liquidacaoCount = liquidacaoResults != null ? liquidacaoResults.size() : 0;
+                processingResults.put("Liquidacao", liquidacaoCount);
+                totalRecordsProcessed += liquidacaoCount;
+
+                long liquidacaoDuration = System.currentTimeMillis() - liquidacaoStartTime;
+                logger.info("Liquidações processadas: {}", liquidacaoCount);
+                markdownSection.success(liquidacaoCount + " registros de Liquidação processados", liquidacaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Liquidações", e);
+                processingResults.put("Liquidacao", 0);
+                markdownSection.error("Falha no processamento de Liquidações: " + e.getMessage());
+            }
+
+            // 16. Aguardar um pouco antes de consumir ordens de fornecimento
+            Thread.sleep(2000);
+
+            // 17. Consumir Ordens de Fornecimento
+            logger.info("=== INICIANDO CONSUMO DE ORDENS DE FORNECIMENTO ===");
+            markdownSection.progress("Processando Ordens de Fornecimento...");
+
+            try {
+                long ordemFornecimentoStartTime = System.currentTimeMillis();
+                OrdemFornecimentoDTO ordemFornecimentoDto = new OrdemFornecimentoDTO();
+                List<OrdemFornecimentoDTO> ordemFornecimentoResults = ordemFornecimentoConsumoApiService.consumirPersistir(ordemFornecimentoDto);
+                int ordemFornecimentoCount = ordemFornecimentoResults != null ? ordemFornecimentoResults.size() : 0;
+                processingResults.put("OrdemFornecimento", ordemFornecimentoCount);
+                totalRecordsProcessed += ordemFornecimentoCount;
+
+                long ordemFornecimentoDuration = System.currentTimeMillis() - ordemFornecimentoStartTime;
+                logger.info("Ordens de Fornecimento processadas: {}", ordemFornecimentoCount);
+                markdownSection.success(ordemFornecimentoCount + " registros de Ordem de Fornecimento processados", ordemFornecimentoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Ordens de Fornecimento", e);
+                processingResults.put("OrdemFornecimento", 0);
+                markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
+            }
+
+            // 18. Consumir Dados Orçamentários
+            logger.info("=== INICIANDO CONSUMO DE DADOS ORÇAMENTÁRIOS ===");
+            markdownSection.progress("Processando Dados Orçamentários...");
+
+            try {
+                long dadosOrcamentariosStartTime = System.currentTimeMillis();
+                DadosOrcamentariosDTO dadosOrcamentariosDto = new DadosOrcamentariosDTO();
+                List<DadosOrcamentariosDTO> dadosOrcamentariosResults = dadosOrcamentariosConsumoApiService.consumirPersistir(dadosOrcamentariosDto);
+                int dadosOrcamentariosCount = dadosOrcamentariosResults != null ? dadosOrcamentariosResults.size() : 0;
+                processingResults.put("DadosOrcamentarios", dadosOrcamentariosCount);
+                totalRecordsProcessed += dadosOrcamentariosCount;
+
+                long dadosOrcamentariosDuration = System.currentTimeMillis() - dadosOrcamentariosStartTime;
+                logger.info("Dados Orçamentários processados: {}", dadosOrcamentariosCount);
+                markdownSection.success(dadosOrcamentariosCount + " Dados Orçamentários processados", dadosOrcamentariosDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Dados Orçamentários", e);
+                processingResults.put("DadosOrcamentarios", 0);
+                markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
+            }
+
+            // 19. Aguardar um pouco antes de consumir empenhos
+            Thread.sleep(2000);
+
+            // 20. Consumir Empenhos
+            logger.info("=== INICIANDO CONSUMO DE EMPENHOS ===");
+            markdownSection.progress("Processando Empenhos...");
+
+            try {
+                long empenhoStartTime = System.currentTimeMillis();
+                EmpenhoDTO empenhoDto = new EmpenhoDTO();
+                List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
+                int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
+                processingResults.put("Empenho", empenhoCount);
+                totalRecordsProcessed += empenhoCount;
+
+                long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
+                logger.info("Empenhos processados: {}", empenhoCount);
+                markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Empenhos", e);
+                processingResults.put("Empenho", 0);
+                markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
+            }
+
+            // 21. Aguardar um pouco antes de consumir totalizadores de execução
+            Thread.sleep(2000);
+
+            // 22. Consumir Totalizadores de Execução
+            logger.info("=== INICIANDO CONSUMO DE TOTALIZADORES DE EXECUÇÃO ===");
+            markdownSection.progress("Processando Totalizadores de Execução...");
+
+            try {
+                long totalizadoresExecucaoStartTime = System.currentTimeMillis();
+                TotalizadoresExecucaoDTO totalizadoresExecucaoDto = new TotalizadoresExecucaoDTO();
+                List<TotalizadoresExecucaoDTO> totalizadoresExecucaoResults = totalizadoresExecucaoConsumoApiService.consumirPersistir(totalizadoresExecucaoDto);
+                int totalizadoresExecucaoCount = totalizadoresExecucaoResults != null ? totalizadoresExecucaoResults.size() : 0;
+                processingResults.put("TotalizadoresExecucao", totalizadoresExecucaoCount);
+                totalRecordsProcessed += totalizadoresExecucaoCount;
+
+                long totalizadoresExecucaoDuration = System.currentTimeMillis() - totalizadoresExecucaoStartTime;
+                logger.info("Totalizadores de Execução processados: {}", totalizadoresExecucaoCount);
+                markdownSection.success(totalizadoresExecucaoCount + " registros de Totalizadores de Execução processados", totalizadoresExecucaoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Totalizadores de Execução", e);
+                processingResults.put("TotalizadoresExecucao", 0);
+                markdownSection.error("Falha no processamento de Totalizadores de Execução: " + e.getMessage());
+            }
+
+            Thread.sleep(2000);
+
+            // 23. Consumir Base Despesa Credor
             logger.info("=== INICIANDO CONSUMO DE BASE DESPESA CREDOR ===");
             markdownSection.progress("Processando Base Despesa Credor...");
 
@@ -532,7 +532,7 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage());
             }
 
-            // 20. Consumir Base Despesa Licitação
+            // 24. Consumir Base Despesa Licitação
             logger.info("=== INICIANDO CONSUMO DE BASE DESPESA LICITAÇÃO ===");
             markdownSection.progress("Processando Base Despesa Licitação...");
 
@@ -554,12 +554,12 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Base Despesa Licitação: " + e.getMessage());
             }
 
-            // 21. Aguardar um pouco antes de consumir Termo
+            // 25. Aguardar um pouco antes de consumir Termo
             Thread.sleep(2000);
 
-            // 22. Consumir Termo (Convênios)
+            // 26. Consumir Termo (Convênios)
 
-            // 21.1 Consumir Despesa de Convênio
+            // 25.1 Consumir Despesa de Convênio
             Thread.sleep(2000);
             logger.info("=== INICIANDO CONSUMO DE DESPESA DE CONVÊNIO ===");
             try {
@@ -601,10 +601,10 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Termo (Convênios): " + e.getMessage());
             }
 
-            // 23. Aguardar um pouco antes de consumir Previsão Realização Receita
+            // 27. Aguardar um pouco antes de consumir Previsão Realização Receita
             Thread.sleep(2000);
 
-            // 24. Consumir Previsão Realização Receita
+            // 28. Consumir Previsão Realização Receita
             logger.info("=== INICIANDO CONSUMO DE PREVISÃO REALIZAÇÃO RECEITA ===");
             markdownSection.progress("Processando Previsão Realização Receita...");
 
@@ -665,6 +665,7 @@ public class ContractConsumptionScheduler {
             if (totalRecordsProcessed > 0) {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Unidades Gestoras: " + processingResults.getOrDefault("UnidadeGestora", 0))
+                              .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0))
                               .info("  • Contratos Fiscais: " + processingResults.getOrDefault("ContratosFiscais", 0))
                               .info("  • Contratos: " + processingResults.getOrDefault("Contrato", 0))
                               .info("  • Contrato-Empenho: " + processingResults.getOrDefault("ContratoEmpenho", 0))
@@ -675,9 +676,9 @@ public class ContractConsumptionScheduler {
                               .info("  • Dados Orçamentários: " + processingResults.getOrDefault("DadosOrcamentarios", 0))
                               .info("  • Empenhos: " + processingResults.getOrDefault("Empenho", 0))
                               .info("  • Totalizadores de Execução: " + processingResults.getOrDefault("TotalizadoresExecucao", 0))
-                              .info("  • Consulta Gerencial: " + processingResults.getOrDefault("ConsultaGerencial", 0))
                               .info("  • Base Despesa Credor: " + processingResults.getOrDefault("BaseDespesaCredor", 0))
                               .info("  • Base Despesa Licitação: " + processingResults.getOrDefault("BaseDespesaLicitacao", 0))
+                              .info("  • Despesa de Convênio: " + processingResults.getOrDefault("DespesaConvenio", 0))
                               .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0))
                               .info("  • Previsão Realização Receita: " + processingResults.getOrDefault("PrevisaoRealizacaoReceita", 0))
                               .info("  • Despesa Detalhada: " + processingResults.getOrDefault("DespesaDetalhada", 0));
