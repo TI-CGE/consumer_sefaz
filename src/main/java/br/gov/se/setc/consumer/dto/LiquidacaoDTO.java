@@ -2,6 +2,7 @@ package br.gov.se.setc.consumer.dto;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -10,32 +11,84 @@ import java.util.List;
 import java.util.Map;
 
 public class LiquidacaoDTO extends EndpontSefaz {
+    @JsonProperty("sqEmpenho")
     private Long sqEmpenho;
+
+    @JsonProperty("sqLiquidacao")
     private Long sqLiquidacao;
+
+    @JsonProperty("dtLiquidacao")
     private LocalDate dtLiquidacao;
+
+    @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
+
+    @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
+
+    @JsonProperty("idOrgao")
     private String idOrgao;
+
+    @JsonProperty("sgOrgao")
     private String sgOrgao;
+
+    @JsonProperty("idOrgaoSupervisor")
     private String idOrgaoSupervisor;
+
+    @JsonProperty("sgOrgaoSupervisor")
     private String sgOrgaoSupervisor;
+
+    @JsonProperty("vlBrutoLiquidacao")
     private BigDecimal vlBrutoLiquidacao;
+
+    @JsonProperty("nuDocumento")
     private String nuDocumento;
+
+    @JsonProperty("tpDocumento")
     private Integer tpDocumento;
+
+    @JsonProperty("dtAnoExercicioCTB")
     private Integer dtAnoExercicioCTB;
+
+    @JsonProperty("cdGestao")
     private String cdGestao;
+
+    @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
+
+    @JsonProperty("cdNaturezaDespesa")
     private String cdNaturezaDespesa;
+
+    @JsonProperty("vlEstornadoLiquidacao")
     private BigDecimal vlEstornadoLiquidacao;
+    @JsonProperty("cdFuncao")
     private Integer cdFuncao;
+
+    @JsonProperty("nmFuncao")
     private String nmFuncao;
+
+    @JsonProperty("cdSubFuncao")
     private Integer cdSubFuncao;
+
+    @JsonProperty("nmSubFuncao")
     private String nmSubFuncao;
+
+    @JsonProperty("cdElementoDespesa")
     private Integer cdElementoDespesa;
+
+    @JsonProperty("cdFonteRecurso")
     private Integer cdFonteRecurso;
+
+    @JsonProperty("cdLicitacao")
     private Integer cdLicitacao;
+
+    @JsonProperty("dsObjetoLicitacao")
     private String dsObjetoLicitacao;
+
+    @JsonProperty("nuProcessoLicitacao")
     private String nuProcessoLicitacao;
+
+    @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
 
     public LiquidacaoDTO() {

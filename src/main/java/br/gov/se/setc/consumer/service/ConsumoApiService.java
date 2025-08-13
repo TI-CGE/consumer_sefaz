@@ -345,6 +345,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
+            // Configurar suporte para LocalDate e BigDecimal
+            objectMapper.registerModule(new com.fasterxml.jackson.datatype.jsr310.JavaTimeModule());
+            objectMapper.disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
             JsonNode rootNode = objectMapper.readTree(jsonResponse);
 
             // Log the raw response for debugging
@@ -640,6 +643,24 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             try {
                 var method = dtoClass.getMethod(setterName, Boolean.class);
                 method.invoke(dtoInstance, fieldValue.asBoolean());
+                return true;
+            } catch (NoSuchMethodException ignored) {}
+
+            // Try BigDecimal parameter
+            try {
+                var method = dtoClass.getMethod(setterName, java.math.BigDecimal.class);
+                if (fieldValue.isNumber()) {
+                    method.invoke(dtoInstance, fieldValue.decimalValue());
+                } else {
+                    method.invoke(dtoInstance, new java.math.BigDecimal(fieldValue.asText()));
+                }
+                return true;
+            } catch (NoSuchMethodException ignored) {}
+
+            // Try LocalDate parameter
+            try {
+                var method = dtoClass.getMethod(setterName, java.time.LocalDate.class);
+                method.invoke(dtoInstance, java.time.LocalDate.parse(fieldValue.asText()));
                 return true;
             } catch (NoSuchMethodException ignored) {}
 
