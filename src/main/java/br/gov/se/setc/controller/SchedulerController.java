@@ -23,7 +23,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/scheduler")
-@Tag(name = "Scheduler", description = "Endpoints para gerenciamento do scheduler de consumo de contratos")
+@Tag(name = "Scheduler", description = "API para gerenciamento e controle do scheduler de consumo automático de dados")
 public class SchedulerController {
 
     private static final Logger logger = LoggerFactory.getLogger(SchedulerController.class);

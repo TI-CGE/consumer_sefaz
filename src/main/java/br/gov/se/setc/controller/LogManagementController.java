@@ -28,7 +28,7 @@ import java.time.format.DateTimeFormatter;
  */
 @RestController
 @RequestMapping("/api/logs")
-@Tag(name = "Gerenciamento de Logs", description = "Endpoints para gerenciar e visualizar logs")
+@Tag(name = "Gerenciamento de Logs", description = "API para gerenciamento, rotação e monitoramento de arquivos de log")
 public class LogManagementController {
 
     @Autowired

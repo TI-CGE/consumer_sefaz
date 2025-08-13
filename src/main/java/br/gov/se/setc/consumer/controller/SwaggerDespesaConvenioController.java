@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/convenio/despesa")
-@Tag(name = "Despesa Convenio", description = "API para consumo de dados de Despesa de Convênios da SEFAZ")
+@Tag(name = "Despesa Convênio", description = "API para consumo e gestão de dados de despesas de convênios do SEFAZ")
 public class SwaggerDespesaConvenioController {
 
     private static final Logger logger = Logger.getLogger(SwaggerDespesaConvenioController.class.getName());

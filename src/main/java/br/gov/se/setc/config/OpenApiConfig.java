@@ -30,14 +30,20 @@ public class OpenApiConfig {
                 ))
                 .info(new Info()
                         .title("SEFAZ Transparency Consumer API")
-                        .description("API para consumo e teste do sistema de transparência SEFAZ")
+                        .description("API para consumo de dados do sistema de transparência da SEFAZ Sergipe. " +
+                                   "Esta API permite o consumo automatizado de dados de contratos, empenhos, " +
+                                   "liquidações, pagamentos e outras informações de transparência fiscal. " +
+                                   "Os dados são consumidos das APIs oficiais da SEFAZ e armazenados localmente " +
+                                   "para consulta e análise.")
                         .version("1.0.0")
                         .contact(new Contact()
-                                .name("Equipe SETC")
+                                .name("Equipe SETC - Secretaria de Estado da Transparência e Controle")
                                 .email("setc@se.gov.br")
+                                .url("https://www.se.gov.br/setc")
                         )
                         .license(new License()
                                 .name("Governo do Estado de Sergipe")
+                                .url("https://www.se.gov.br")
                         )
                 );
     }

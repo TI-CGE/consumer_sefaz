@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/dados-orcamentarios")
-@Tag(name = "dados-orcamentarios", description = "Endpoints para documentar dados orçamentários")
+@Tag(name = "Dados Orçamentários", description = "API para consumo e gestão de dados orçamentários do SEFAZ")
 public class SwaggerDadosOrcamentariosController {
 
     private static final Logger logger = Logger.getLogger(SwaggerDadosOrcamentariosController.class.getName());

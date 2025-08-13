@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/pagamento")
-@Tag(name = "pagamento", description = "Endpoints para documentar pagamentos")
+@Tag(name = "Pagamentos", description = "API para consumo e gestão de dados de pagamentos do SEFAZ")
 public class SwaggerPagamentoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerPagamentoController.class.getName());
@@ -29,7 +29,13 @@ public class SwaggerPagamentoController {
     }
     
     @GetMapping
-    @Operation(summary = "Lista todos os pagamentos", description = "Retorna uma lista com todos os pagamentos disponíveis.")
+    @Operation(
+        summary = "Consumir e listar pagamentos",
+        description = "Consome dados de pagamentos da API de transparência SEFAZ e persiste no banco de dados local. " +
+                     "Retorna uma lista com todos os pagamentos processados, incluindo informações sobre " +
+                     "valores pagos, credores, situação do pagamento e datas de lançamento.",
+        tags = {"Pagamentos"}
+    )
     public List<PagamentoDTO> listarPagamento() {
         try {
             logger.info("Iniciando consumo da API de Pagamento");

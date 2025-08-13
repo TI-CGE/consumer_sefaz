@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/contrato")
-@Tag(name = "contrato", description = "Endpoints para documentar contratos")
+@Tag(name = "Contratos", description = "API para consumo e gestão de dados de contratos do SEFAZ")
 public class SwaggerContratoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerContratoController.class.getName());
@@ -30,9 +30,11 @@ public class SwaggerContratoController {
     
     @GetMapping
     @Operation(
-        summary = "Lista todos os contratos", 
-        description = "Retorna uma lista com todos os contratos disponíveis. " +
-                     "Este endpoint consome dados da API de transparência SEFAZ e persiste no banco local."
+        summary = "Consumir e listar contratos",
+        description = "Consome dados de contratos da API de transparência SEFAZ e persiste no banco de dados local. " +
+                     "Retorna uma lista com todos os contratos processados, incluindo informações sobre " +
+                     "unidade gestora, valores, datas e tipos de contrato.",
+        tags = {"Contratos"}
     )
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Lista de contratos retornada com sucesso"),

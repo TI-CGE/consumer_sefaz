@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/base-despesa-licitacao")
-@Tag(name = "Base Despesa Licitação", description = "API para consumo de dados de Base Despesa Licitação do SEFAZ")
+@Tag(name = "Base Despesa Licitação", description = "API para consumo e gestão de dados de base despesa licitação do SEFAZ")
 public class SwaggerBaseDespesaLicitacaoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerBaseDespesaLicitacaoController.class.getName());

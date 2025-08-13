@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.Operation;
 
 @RestController
 @RequestMapping("/unidade-gestora")
-@Tag(name = "unidade gestora", description = "Endpoints para documentar unidade gestora")
+@Tag(name = "Unidades Gestoras", description = "API para consumo e gestão de dados de unidades gestoras do SEFAZ")
 public class SwaggerUnidadeGestoraController {
 
     private static final Logger logger = Logger.getLogger(SwaggerUnidadeGestoraController.class.getName());
@@ -29,7 +29,13 @@ public class SwaggerUnidadeGestoraController {
     }
     
   @GetMapping
-  @Operation(summary = "Lista todos os unidade gestora", description = "Retorna uma lista com todos os unidade gestora disponíveis.")
+  @Operation(
+      summary = "Consumir e listar unidades gestoras",
+      description = "Consome dados de unidades gestoras da API de transparência SEFAZ e persiste no banco de dados local. " +
+                   "Retorna uma lista com todas as unidades gestoras processadas, incluindo informações sobre " +
+                   "códigos, nomes, órgãos supervisores e estrutura organizacional.",
+      tags = {"Unidades Gestoras"}
+  )
   public List<UnidadeGestoraDTO> listarUnidadeGestora() {
       try {
           logger.info("Iniciando consumo da API de Unidade Gestora");

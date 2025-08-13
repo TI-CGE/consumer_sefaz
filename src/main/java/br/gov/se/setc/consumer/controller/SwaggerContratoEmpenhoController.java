@@ -18,7 +18,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/contrato-empenho")
-@Tag(name = "contrato-empenho", description = "Endpoints para documentar contratos-empenho")
+@Tag(name = "Contrato Empenho", description = "API para consumo e gestão de dados de contrato-empenho do SEFAZ")
 public class SwaggerContratoEmpenhoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerContratoEmpenhoController.class.getName());

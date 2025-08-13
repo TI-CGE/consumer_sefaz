@@ -24,7 +24,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
  */
 @RestController
 @RequestMapping("/previsao-realizacao-receita")
-@Tag(name = "Previsão Realização Receita", description = "Endpoints para consulta de dados de previsão e realização de receitas por unidade gestora")
+@Tag(name = "Previsão Realização Receita", description = "API para consumo e gestão de dados de previsão e realização de receitas do SEFAZ")
 public class SwaggerPrevisaoRealizacaoReceitaController {
 
     private static final Logger logger = Logger.getLogger(SwaggerPrevisaoRealizacaoReceitaController.class.getName());
@@ -120,10 +120,7 @@ public class SwaggerPrevisaoRealizacaoReceitaController {
             info.append("• Hierarquia: Categoria Econômica → Origem → Espécie → Desdobramento → Tipo\n");
             info.append("• Valores: vlPrevisto, vlAtualizado, vlRealizado\n");
             info.append("• Chave única: UG + Ano + Mês + Hierarquia completa\n");
-            info.append("✅ IMPLEMENTAÇÃO: Busca automática de TODOS os 12 meses do ano!\n");
-            info.append("• 12 requisições sequenciais (mês 1 a 12) para dados anuais completos\n");
-            info.append("• Pausa de 500ms entre requisições para não sobrecarregar a API\n");
-            info.append("• Consolidação automática de todos os meses\n\n");
+            info.append("💡 BUSCA MULTI-MÊS: Use os endpoints do scheduler para busca de múltiplos meses\n\n");
             
             info.append("🔗 EXEMPLOS DE USO:\n");
             info.append("GET /previsao-realizacao-receita\n");
@@ -132,8 +129,10 @@ public class SwaggerPrevisaoRealizacaoReceitaController {
             info.append("GET /previsao-realizacao-receita?cdUnidadeGestora=110000&dtAnoExercicioCTB=2024\n");
             info.append("GET /previsao-realizacao-receita?cdUnidadeGestora=110000&dtAnoExercicioCTB=2024&nuMes=12\n\n");
             
-            info.append("⚙️ ENDPOINT MANUAL:\n");
-            info.append("POST /scheduler/execute/previsao-realizacao-receita\n\n");
+            info.append("⚙️ ENDPOINTS MANUAIS:\n");
+            info.append("POST /scheduler/execute/previsao-realizacao-receita (mês único)\n");
+            info.append("POST /scheduler/execute/previsao-realizacao-receita-multi-mes (todos os 12 meses)\n");
+            info.append("POST /scheduler/execute/previsao-realizacao-receita-multi-mes/mes/{mes} (mês específico)\n\n");
             
             info.append("📈 CONTEXTO:\n");
             info.append("Módulo: CTB (Contabilidade)\n");

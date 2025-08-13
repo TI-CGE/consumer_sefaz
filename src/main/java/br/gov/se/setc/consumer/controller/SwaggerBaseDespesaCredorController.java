@@ -20,7 +20,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/base-despesa-credor")
-@Tag(name = "base-despesa-credor", description = "Endpoints para consumo de dados de Base Despesa Credor do SEFAZ")
+@Tag(name = "Base Despesa Credor", description = "API para consumo e gestão de dados de base despesa credor do SEFAZ")
 public class SwaggerBaseDespesaCredorController {
 
     private static final Logger logger = Logger.getLogger(SwaggerBaseDespesaCredorController.class.getName());

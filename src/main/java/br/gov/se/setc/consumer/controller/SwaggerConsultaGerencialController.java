@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/consulta-gerencial")
-@Tag(name = "consulta-gerencial", description = "Endpoints para documentar consultas gerenciais (diárias)")
+@Tag(name = "Consulta Gerencial", description = "API para consumo de dados de consultas gerenciais e diárias do SEFAZ")
 public class SwaggerConsultaGerencialController {
 
     private static final Logger logger = Logger.getLogger(SwaggerConsultaGerencialController.class.getName());

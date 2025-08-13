@@ -21,7 +21,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/receita")
-@Tag(name = "receita", description = "Endpoints para documentar receita de convênios")
+@Tag(name = "Receitas", description = "API para consumo e gestão de dados de receitas de convênios do SEFAZ")
 public class SwaggerReceitaController {
 
     private static final Logger logger = Logger.getLogger(SwaggerReceitaController.class.getName());

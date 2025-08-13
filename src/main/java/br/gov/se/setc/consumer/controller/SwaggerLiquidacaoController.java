@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/liquidacao")
-@Tag(name = "liquidacao", description = "Endpoints para documentar liquidações")
+@Tag(name = "Liquidações", description = "API para consumo e gestão de dados de liquidações do SEFAZ")
 public class SwaggerLiquidacaoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerLiquidacaoController.class.getName());
@@ -29,7 +29,13 @@ public class SwaggerLiquidacaoController {
     }
     
     @GetMapping
-    @Operation(summary = "Lista todas as liquidações", description = "Retorna uma lista com todas as liquidações disponíveis.")
+    @Operation(
+        summary = "Consumir e listar liquidações",
+        description = "Consome dados de liquidações da API de transparência SEFAZ e persiste no banco de dados local. " +
+                     "Retorna uma lista com todas as liquidações processadas, incluindo informações sobre " +
+                     "valores liquidados, empenhos relacionados, credores e datas de liquidação.",
+        tags = {"Liquidações"}
+    )
     public List<LiquidacaoDTO> listarLiquidacao() {
         try {
             logger.info("Iniciando consumo da API de Liquidação");
@@ -45,7 +51,13 @@ public class SwaggerLiquidacaoController {
     }
 
     @GetMapping("/test")
-    @Operation(summary = "Teste básico do endpoint", description = "Retorna informações básicas para teste.")
+    @Operation(
+        summary = "Teste de configuração do endpoint",
+        description = "Retorna informações técnicas sobre a configuração do endpoint de liquidações, " +
+                     "incluindo URL da API SEFAZ, tabela de destino, filtros suportados e parâmetros de configuração. " +
+                     "Útil para verificar se o endpoint está configurado corretamente.",
+        tags = {"Liquidações"}
+    )
     public ResponseEntity<String> testeEndpoint() {
         try {
             logger.info("Teste do endpoint de Liquidação");

@@ -22,7 +22,7 @@ import java.util.logging.Logger;
  */
 @RestController
 @RequestMapping("/termo")
-@Tag(name = "Termo (Convênios)", description = "API para consumo de dados de Termo (Convênios) do SEFAZ")
+@Tag(name = "Termo (Convênios)", description = "API para consumo e gestão de dados de termo (convênios) do SEFAZ")
 public class SwaggerTermoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerTermoController.class.getName());

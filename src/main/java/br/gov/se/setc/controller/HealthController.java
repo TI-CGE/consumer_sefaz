@@ -8,6 +8,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,6 +19,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/health")
+@Tag(name = "Health Check", description = "API para monitoramento e verificação de saúde da aplicação")
 public class HealthController {
 
     private static final Logger logger = Logger.getLogger(HealthController.class.getName());
@@ -26,6 +31,18 @@ public class HealthController {
     private AcessoTokenService acessoTokenService;
 
     @GetMapping
+    @Operation(
+        summary = "Verificação de saúde da aplicação",
+        description = "Verifica o status de saúde da aplicação e de seus componentes principais, " +
+                     "incluindo conectividade com serviços externos, disponibilidade de beans " +
+                     "e funcionamento geral do sistema. Retorna informações detalhadas sobre " +
+                     "o estado de cada componente verificado.",
+        tags = {"Health Check"}
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Aplicação funcionando corretamente"),
+        @ApiResponse(responseCode = "500", description = "Problemas detectados na aplicação")
+    })
     public ResponseEntity<Map<String, Object>> health() {
         Map<String, Object> health = new HashMap<>();
         
@@ -52,6 +69,17 @@ public class HealthController {
     }
 
     @GetMapping("/token-test")
+    @Operation(
+        summary = "Teste de conectividade com serviço de token",
+        description = "Verifica se o serviço de token SEFAZ está funcionando corretamente, " +
+                     "testando a obtenção de token de autenticação. Retorna informações sobre " +
+                     "o status do token sem expor dados sensíveis.",
+        tags = {"Health Check"}
+    )
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Teste de token executado com sucesso"),
+        @ApiResponse(responseCode = "500", description = "Falha na obtenção do token")
+    })
     public ResponseEntity<Map<String, Object>> tokenTest() {
         Map<String, Object> result = new HashMap<>();
         

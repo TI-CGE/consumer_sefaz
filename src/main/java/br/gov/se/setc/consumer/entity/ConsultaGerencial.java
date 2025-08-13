@@ -51,7 +51,10 @@ public class ConsultaGerencial {
     
     @Column(name = "vl_valor_moeda", precision = 18, scale = 2)
     private BigDecimal vlValorMoeda;
-    
+
+    @Column(name = "vl_total_valor_pago_atualizado", precision = 18, scale = 2)
+    private BigDecimal vlTotalValorPagoAtualizado;
+
     @Column(name = "sq_solic_empenho")
     private Long sqSolicEmpenho;
     
@@ -205,6 +208,14 @@ public class ConsultaGerencial {
 
     public void setVlValorMoeda(BigDecimal vlValorMoeda) {
         this.vlValorMoeda = vlValorMoeda;
+    }
+
+    public BigDecimal getVlTotalValorPagoAtualizado() {
+        return vlTotalValorPagoAtualizado;
+    }
+
+    public void setVlTotalValorPagoAtualizado(BigDecimal vlTotalValorPagoAtualizado) {
+        this.vlTotalValorPagoAtualizado = vlTotalValorPagoAtualizado;
     }
 
     public Long getSqSolicEmpenho() {

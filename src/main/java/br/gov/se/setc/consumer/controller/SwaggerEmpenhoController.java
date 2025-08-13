@@ -16,7 +16,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 @RestController
 @RequestMapping("/empenho")
-@Tag(name = "empenho", description = "Endpoints para documentar empenhos")
+@Tag(name = "Empenhos", description = "API para consumo e gestão de dados de empenhos do SEFAZ")
 public class SwaggerEmpenhoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerEmpenhoController.class.getName());
@@ -29,7 +29,13 @@ public class SwaggerEmpenhoController {
     }
     
     @GetMapping
-    @Operation(summary = "Lista todos os empenhos", description = "Retorna uma lista com todos os empenhos disponíveis.")
+    @Operation(
+        summary = "Consumir e listar empenhos",
+        description = "Consome dados de empenhos da API de transparência SEFAZ e persiste no banco de dados local. " +
+                     "Retorna uma lista com todos os empenhos processados, incluindo informações sobre " +
+                     "valores empenhados, credores, natureza da despesa e datas de empenho.",
+        tags = {"Empenhos"}
+    )
     public List<EmpenhoDTO> listarEmpenho() {
         try {
             logger.info("Iniciando consumo da API de Empenho");
@@ -45,7 +51,13 @@ public class SwaggerEmpenhoController {
     }
 
     @GetMapping("/test")
-    @Operation(summary = "Teste básico do endpoint", description = "Retorna informações básicas para teste.")
+    @Operation(
+        summary = "Teste de configuração do endpoint",
+        description = "Retorna informações técnicas sobre a configuração do endpoint de empenhos, " +
+                     "incluindo URL da API SEFAZ, tabela de destino, filtros suportados e parâmetros de configuração. " +
+                     "Útil para verificar se o endpoint está configurado corretamente.",
+        tags = {"Empenhos"}
+    )
     public ResponseEntity<String> testeEndpoint() {
         try {
             logger.info("Teste do endpoint de Empenho");

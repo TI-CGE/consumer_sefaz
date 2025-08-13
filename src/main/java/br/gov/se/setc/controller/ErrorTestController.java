@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/test")
-@Tag(name = "Testes de Erro", description = "Endpoints para testar o sistema de logging de erros")
+@Tag(name = "Testes de Erro", description = "API para testes e simulação de diferentes tipos de erros do sistema")
 public class ErrorTestController {
     
     @Autowired

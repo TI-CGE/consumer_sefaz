@@ -19,7 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @RestController
 @RequestMapping("/contratos-fiscais")
-@Tag(name = "contratos fiscais", description = "Endpoints para documentar contratos fiscais")
+@Tag(name = "Contratos Fiscais", description = "API para consumo e gestão de dados de contratos fiscais do SEFAZ")
 public class SwaggerContratosFiscaisController {
 
     private final ConsumoApiService<ContratosFiscaisDTO> consumoApiService;

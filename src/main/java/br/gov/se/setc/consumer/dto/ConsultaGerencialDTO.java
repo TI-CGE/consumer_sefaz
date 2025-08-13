@@ -2,18 +2,22 @@ package br.gov.se.setc.consumer.dto;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 /**
  * DTO para consumo da API de Consulta Gerencial (Diárias) do SEFAZ
  * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial
  */
 public class ConsultaGerencialDTO extends EndpontSefaz {
+
+    private static final Logger logger = Logger.getLogger(ConsultaGerencialDTO.class.getName());
 
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
@@ -47,6 +51,9 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
 
     @JsonProperty("vlValorMoeda")
     private String vlValorMoedaStr;
+
+    @JsonProperty("vlTotalValorPagoAtualizado")
+    private String vlTotalValorPagoAtualizadoStr;
 
     @JsonProperty("sqSolicEmpenho")
     private Long sqSolicEmpenho;
@@ -99,6 +106,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     private BigDecimal vlTotalSolicitacaoDiaria;
     private BigDecimal vlDescontoSolicitacaoDiaria;
     private BigDecimal vlValorMoeda;
+    private BigDecimal vlTotalValorPagoAtualizado;
 
     // Campos para parâmetros de filtro
     private String cdUnidadeGestoraFiltro;
@@ -133,6 +141,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         camposResposta.put("vl_total_solicitacao_diaria", vlTotalSolicitacaoDiaria);
         camposResposta.put("vl_desconto_solicitacao_diaria", vlDescontoSolicitacaoDiaria);
         camposResposta.put("vl_valor_moeda", vlValorMoeda);
+        camposResposta.put("vl_total_valor_pago_atualizado", vlTotalValorPagoAtualizado);
         camposResposta.put("sq_solic_empenho", sqSolicEmpenho);
         camposResposta.put("sq_empenho", sqEmpenho);
         camposResposta.put("sq_solicitacao_diaria", sqSolicitacaoDiaria);
@@ -237,10 +246,14 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (dtSaidaSolicitacaoDiariaStr != null && !dtSaidaSolicitacaoDiariaStr.isEmpty()) {
             try {
                 this.dtSaidaSolicitacaoDiaria = LocalDate.parse(dtSaidaSolicitacaoDiariaStr);
+                logger.fine("Data de saída convertida com sucesso: " + dtSaidaSolicitacaoDiariaStr + " -> " + this.dtSaidaSolicitacaoDiaria);
             } catch (Exception e) {
-                // Log error but don't fail
+                logger.warning("Erro ao converter data de saída '" + dtSaidaSolicitacaoDiariaStr + "': " + e.getMessage());
                 this.dtSaidaSolicitacaoDiaria = null;
             }
+        } else {
+            logger.fine("Data de saída é null ou vazia: " + dtSaidaSolicitacaoDiariaStr);
+            this.dtSaidaSolicitacaoDiaria = null;
         }
     }
 
@@ -254,10 +267,14 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (dtRetornoSolicitacaoDiariaStr != null && !dtRetornoSolicitacaoDiariaStr.isEmpty()) {
             try {
                 this.dtRetornoSolicitacaoDiaria = LocalDate.parse(dtRetornoSolicitacaoDiariaStr);
+                logger.fine("Data de retorno convertida com sucesso: " + dtRetornoSolicitacaoDiariaStr + " -> " + this.dtRetornoSolicitacaoDiaria);
             } catch (Exception e) {
-                // Log error but don't fail
+                logger.warning("Erro ao converter data de retorno '" + dtRetornoSolicitacaoDiariaStr + "': " + e.getMessage());
                 this.dtRetornoSolicitacaoDiaria = null;
             }
+        } else {
+            logger.fine("Data de retorno é null ou vazia: " + dtRetornoSolicitacaoDiariaStr);
+            this.dtRetornoSolicitacaoDiaria = null;
         }
     }
 
@@ -279,10 +296,13 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (vlTotalSolicitacaoDiariaStr != null && !vlTotalSolicitacaoDiariaStr.isEmpty()) {
             try {
                 this.vlTotalSolicitacaoDiaria = new BigDecimal(vlTotalSolicitacaoDiariaStr);
+                logger.fine("Valor total solicitação convertido com sucesso: " + vlTotalSolicitacaoDiariaStr + " -> " + this.vlTotalSolicitacaoDiaria);
             } catch (Exception e) {
-                // Log error but don't fail
+                logger.warning("Erro ao converter valor total solicitação '" + vlTotalSolicitacaoDiariaStr + "': " + e.getMessage());
                 this.vlTotalSolicitacaoDiaria = BigDecimal.ZERO;
             }
+        } else {
+            this.vlTotalSolicitacaoDiaria = BigDecimal.ZERO;
         }
     }
 
@@ -296,10 +316,13 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (vlDescontoSolicitacaoDiariaStr != null && !vlDescontoSolicitacaoDiariaStr.isEmpty()) {
             try {
                 this.vlDescontoSolicitacaoDiaria = new BigDecimal(vlDescontoSolicitacaoDiariaStr);
+                logger.fine("Valor desconto convertido com sucesso: " + vlDescontoSolicitacaoDiariaStr + " -> " + this.vlDescontoSolicitacaoDiaria);
             } catch (Exception e) {
-                // Log error but don't fail
+                logger.warning("Erro ao converter valor desconto '" + vlDescontoSolicitacaoDiariaStr + "': " + e.getMessage());
                 this.vlDescontoSolicitacaoDiaria = BigDecimal.ZERO;
             }
+        } else {
+            this.vlDescontoSolicitacaoDiaria = BigDecimal.ZERO;
         }
     }
 
@@ -313,10 +336,33 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (vlValorMoedaStr != null && !vlValorMoedaStr.isEmpty()) {
             try {
                 this.vlValorMoeda = new BigDecimal(vlValorMoedaStr);
+                logger.fine("Valor moeda convertido com sucesso: " + vlValorMoedaStr + " -> " + this.vlValorMoeda);
             } catch (Exception e) {
-                // Log error but don't fail
+                logger.warning("Erro ao converter valor moeda '" + vlValorMoedaStr + "': " + e.getMessage());
                 this.vlValorMoeda = BigDecimal.ZERO;
             }
+        } else {
+            this.vlValorMoeda = BigDecimal.ZERO;
+        }
+    }
+
+    public String getVlTotalValorPagoAtualizadoStr() {
+        return vlTotalValorPagoAtualizadoStr;
+    }
+
+    public void setVlTotalValorPagoAtualizadoStr(String vlTotalValorPagoAtualizadoStr) {
+        this.vlTotalValorPagoAtualizadoStr = vlTotalValorPagoAtualizadoStr;
+        // Converter string para BigDecimal se necessário
+        if (vlTotalValorPagoAtualizadoStr != null && !vlTotalValorPagoAtualizadoStr.isEmpty()) {
+            try {
+                this.vlTotalValorPagoAtualizado = new BigDecimal(vlTotalValorPagoAtualizadoStr);
+                logger.fine("Valor pago atualizado convertido com sucesso: " + vlTotalValorPagoAtualizadoStr + " -> " + this.vlTotalValorPagoAtualizado);
+            } catch (Exception e) {
+                logger.warning("Erro ao converter valor pago atualizado '" + vlTotalValorPagoAtualizadoStr + "': " + e.getMessage());
+                this.vlTotalValorPagoAtualizado = BigDecimal.ZERO;
+            }
+        } else {
+            this.vlTotalValorPagoAtualizado = BigDecimal.ZERO;
         }
     }
 
@@ -441,6 +487,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
 
     // Getters para campos convertidos
+    @JsonIgnore
     public LocalDate getDtSaidaSolicitacaoDiaria() {
         return dtSaidaSolicitacaoDiaria;
     }
@@ -449,6 +496,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         this.dtSaidaSolicitacaoDiaria = dtSaidaSolicitacaoDiaria;
     }
 
+    @JsonIgnore
     public LocalDate getDtRetornoSolicitacaoDiaria() {
         return dtRetornoSolicitacaoDiaria;
     }
@@ -457,6 +505,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         this.dtRetornoSolicitacaoDiaria = dtRetornoSolicitacaoDiaria;
     }
 
+    @JsonIgnore
     public BigDecimal getVlTotalSolicitacaoDiaria() {
         return vlTotalSolicitacaoDiaria;
     }
@@ -465,6 +514,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         this.vlTotalSolicitacaoDiaria = vlTotalSolicitacaoDiaria;
     }
 
+    @JsonIgnore
     public BigDecimal getVlDescontoSolicitacaoDiaria() {
         return vlDescontoSolicitacaoDiaria;
     }
@@ -473,12 +523,71 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         this.vlDescontoSolicitacaoDiaria = vlDescontoSolicitacaoDiaria;
     }
 
+    @JsonIgnore
     public BigDecimal getVlValorMoeda() {
         return vlValorMoeda;
     }
 
     public void setVlValorMoeda(BigDecimal vlValorMoeda) {
         this.vlValorMoeda = vlValorMoeda;
+    }
+
+    @JsonIgnore
+    public BigDecimal getVlTotalValorPagoAtualizado() {
+        return vlTotalValorPagoAtualizado;
+    }
+
+    public void setVlTotalValorPagoAtualizado(BigDecimal vlTotalValorPagoAtualizado) {
+        this.vlTotalValorPagoAtualizado = vlTotalValorPagoAtualizado;
+    }
+
+    // Setters diretos para campos JSON (para reflexão)
+    public void setDtSaidaSolicitacaoDiaria(String dtSaidaSolicitacaoDiaria) {
+        setDtSaidaSolicitacaoDiariaStr(dtSaidaSolicitacaoDiaria);
+    }
+
+    public void setDtRetornoSolicitacaoDiaria(String dtRetornoSolicitacaoDiaria) {
+        setDtRetornoSolicitacaoDiariaStr(dtRetornoSolicitacaoDiaria);
+    }
+
+    public void setVlTotalSolicitacaoDiaria(String vlTotalSolicitacaoDiaria) {
+        setVlTotalSolicitacaoDiariaStr(vlTotalSolicitacaoDiaria);
+    }
+
+    public void setVlTotalSolicitacaoDiaria(Integer vlTotalSolicitacaoDiaria) {
+        if (vlTotalSolicitacaoDiaria != null) {
+            setVlTotalSolicitacaoDiariaStr(vlTotalSolicitacaoDiaria.toString());
+        }
+    }
+
+    public void setVlTotalValorPagoAtualizado(String vlTotalValorPagoAtualizado) {
+        setVlTotalValorPagoAtualizadoStr(vlTotalValorPagoAtualizado);
+    }
+
+    public void setVlTotalValorPagoAtualizado(Integer vlTotalValorPagoAtualizado) {
+        if (vlTotalValorPagoAtualizado != null) {
+            setVlTotalValorPagoAtualizadoStr(vlTotalValorPagoAtualizado.toString());
+        }
+    }
+
+    public void setVlDescontoSolicitacaoDiaria(String vlDescontoSolicitacaoDiaria) {
+        setVlDescontoSolicitacaoDiariaStr(vlDescontoSolicitacaoDiaria);
+    }
+
+    public void setVlDescontoSolicitacaoDiaria(Integer vlDescontoSolicitacaoDiaria) {
+        if (vlDescontoSolicitacaoDiaria != null) {
+            setVlDescontoSolicitacaoDiariaStr(vlDescontoSolicitacaoDiaria.toString());
+        }
+    }
+
+    public void setVlValorMoeda(String vlValorMoeda) {
+        setVlValorMoedaStr(vlValorMoeda);
+    }
+
+    public void setVlValorMoeda(Integer vlValorMoeda) {
+        if (vlValorMoeda != null) {
+            setVlValorMoedaStr(vlValorMoeda.toString());
+        }
     }
 
     // Getters e Setters para campos de filtro

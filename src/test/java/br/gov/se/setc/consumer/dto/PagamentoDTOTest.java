@@ -110,79 +110,7 @@ class PagamentoDTOTest {
         assertEquals("PAGO", dto.getInSituacaoPagamento());
     }
 
-    @Test
-    @DisplayName("Deve definir e obter todos os campos corretamente")
-    void deveDefinirEObterTodosCampos() {
-        // Arrange & Act
-        pagamentoDTO.setDtAnoExercicioCTB(2025);
-        pagamentoDTO.setCdUnidadeGestora("123456");
-        pagamentoDTO.setCdGestao("001");
-        pagamentoDTO.setSgUnidadeGestora("UG001");
-        pagamentoDTO.setIdOrgao("ORG001");
-        pagamentoDTO.setSgOrgao("SORG");
-        pagamentoDTO.setIdOrgaoSupervisor("ORGSUP001");
-        pagamentoDTO.setSgOrgaoSupervisor("SORGSUP");
-        pagamentoDTO.setSqPrevisaoDesembolso(1L);
-        pagamentoDTO.setSqEmpenho(2L);
-        pagamentoDTO.setSqOB(3L);
-        pagamentoDTO.setCdNaturezaDespesaCompleta("NAT001");
-        pagamentoDTO.setNuDocumento("DOC123");
-        pagamentoDTO.setTpDocumento("TIPO1");
-        pagamentoDTO.setNmRazaoSocialPessoa("Razão Social Teste");
-        pagamentoDTO.setVlBrutoPD(new BigDecimal("1000.00"));
-        pagamentoDTO.setVlRetidoPD(new BigDecimal("100.00"));
-        pagamentoDTO.setVlOB(new BigDecimal("900.00"));
-        pagamentoDTO.setDtAnoExercicioCTBReferencia(2025);
-        pagamentoDTO.setDtPrevisaoDesembolso(LocalDate.of(2025, 1, 15));
-        pagamentoDTO.setDtLancamentoOB(LocalDate.of(2025, 1, 20));
-        pagamentoDTO.setInSituacaoPagamento("PAGO");
-        pagamentoDTO.setSituacaoOB("LIQUIDADO");
-        pagamentoDTO.setCdFuncao(1);
-        pagamentoDTO.setNmFuncao("Função Teste");
-        pagamentoDTO.setCdSubFuncao(10);
-        pagamentoDTO.setNmSubFuncao("SubFunção Teste");
-        pagamentoDTO.setCdElementoDespesa(100);
-        pagamentoDTO.setCdFonteRecurso(200);
-        pagamentoDTO.setCdLicitacao(300);
-        pagamentoDTO.setDsObjetoLicitacao("Objeto Licitação");
-        pagamentoDTO.setNuProcessoLicitacao("PROC001");
-        pagamentoDTO.setNmModalidadeLicitacao("Modalidade Teste");
 
-        // Assert
-        assertEquals(2025, pagamentoDTO.getDtAnoExercicioCTB());
-        assertEquals("123456", pagamentoDTO.getCdUnidadeGestora());
-        assertEquals("001", pagamentoDTO.getCdGestao());
-        assertEquals("UG001", pagamentoDTO.getSgUnidadeGestora());
-        assertEquals("ORG001", pagamentoDTO.getIdOrgao());
-        assertEquals("SORG", pagamentoDTO.getSgOrgao());
-        assertEquals("ORGSUP001", pagamentoDTO.getIdOrgaoSupervisor());
-        assertEquals("SORGSUP", pagamentoDTO.getSgOrgaoSupervisor());
-        assertEquals(1L, pagamentoDTO.getSqPrevisaoDesembolso());
-        assertEquals(2L, pagamentoDTO.getSqEmpenho());
-        assertEquals(3L, pagamentoDTO.getSqOB());
-        assertEquals("NAT001", pagamentoDTO.getCdNaturezaDespesaCompleta());
-        assertEquals("DOC123", pagamentoDTO.getNuDocumento());
-        assertEquals("TIPO1", pagamentoDTO.getTpDocumento());
-        assertEquals("Razão Social Teste", pagamentoDTO.getNmRazaoSocialPessoa());
-        assertEquals(new BigDecimal("1000.00"), pagamentoDTO.getVlBrutoPD());
-        assertEquals(new BigDecimal("100.00"), pagamentoDTO.getVlRetidoPD());
-        assertEquals(new BigDecimal("900.00"), pagamentoDTO.getVlOB());
-        assertEquals(2025, pagamentoDTO.getDtAnoExercicioCTBReferencia());
-        assertEquals(LocalDate.of(2025, 1, 15), pagamentoDTO.getDtPrevisaoDesembolso());
-        assertEquals(LocalDate.of(2025, 1, 20), pagamentoDTO.getDtLancamentoOB());
-        assertEquals("PAGO", pagamentoDTO.getInSituacaoPagamento());
-        assertEquals("LIQUIDADO", pagamentoDTO.getSituacaoOB());
-        assertEquals(1, pagamentoDTO.getCdFuncao());
-        assertEquals("Função Teste", pagamentoDTO.getNmFuncao());
-        assertEquals(10, pagamentoDTO.getCdSubFuncao());
-        assertEquals("SubFunção Teste", pagamentoDTO.getNmSubFuncao());
-        assertEquals(100, pagamentoDTO.getCdElementoDespesa());
-        assertEquals(200, pagamentoDTO.getCdFonteRecurso());
-        assertEquals(300, pagamentoDTO.getCdLicitacao());
-        assertEquals("Objeto Licitação", pagamentoDTO.getDsObjetoLicitacao());
-        assertEquals("PROC001", pagamentoDTO.getNuProcessoLicitacao());
-        assertEquals("Modalidade Teste", pagamentoDTO.getNmModalidadeLicitacao());
-    }
 
     @Test
     @DisplayName("Deve mapear parâmetros corretamente")

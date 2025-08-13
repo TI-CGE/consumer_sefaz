@@ -350,6 +350,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Log the raw response for debugging
             logger.info("Resposta SEFAZ (primeiros 500 chars): " +  jsonResponse.substring(0, Math.min(500, jsonResponse.length())));
 
+            // Log específico para ConsultaGerencial para debug
+            if (mapper.getTabelaBanco().contains("consulta_gerencial")) {
+                logger.info("Processando resposta da API de Consulta Gerencial");
+                logger.info("Tipo do mapper: " + mapper.getClass().getSimpleName());
+            }
+
             // Verificar se é BaseDespesaCredor que tem estrutura aninhada
             if (mapper.getTabelaBanco().contains("base_despesa_credor")) {
                 return processarRespostaBaseDespesaCredor(rootNode, mapper);
@@ -357,14 +363,17 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
             // Handle array responses (most SEFAZ endpoints return arrays)
             if (rootNode.isArray()) {
+                logger.info("Processando array com " + rootNode.size() + " itens");
                 for (JsonNode itemNode : rootNode) {
                     T newInstance = criarInstanciaGenerica(itemNode, mapper);
                     if (newInstance != null) {
                         resultList.add(newInstance);
                     }
                 }
+                logger.info("Array processado: " + resultList.size() + " instâncias criadas");
             } else {
                 // Handle single object response
+                logger.info("Processando objeto único");
                 T newInstance = criarInstanciaGenerica(rootNode, mapper);
                 if (newInstance != null) {
                     resultList.add(newInstance);
@@ -519,8 +528,17 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 try {
                     JsonNode fieldValue = jsonNode.get(fieldName);
                     if (fieldValue != null && !fieldValue.isNull()) {
+                        // Log específico para ConsultaGerencial
+                        if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
+                            logger.fine("Mapeando campo ConsultaGerencial: " + fieldName + " = " + fieldValue.asText());
+                        }
                         // Try to find and invoke the corresponding setter method
                         invocarSetterSeExistir(dtoInstance, dtoClass, fieldName, fieldValue);
+                    } else {
+                        // Log campos nulos para ConsultaGerencial
+                        if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
+                            logger.warning("Campo null ou vazio em ConsultaGerencial: " + fieldName);
+                        }
                     }
                 } catch (Exception e) {
                     logger.warning("Erro ao mapear campo '" + fieldName + "': " + e.getMessage());
@@ -573,7 +591,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
 
-            logger.fine("Nenhum setter encontrado para campo: " + fieldName);
+            // Log mais detalhado para ConsultaGerencial quando setter não é encontrado
+            if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
+                logger.warning("Nenhum setter encontrado para campo ConsultaGerencial: " + fieldName + " (valor: " + fieldValue.asText() + ")");
+            } else {
+                logger.fine("Nenhum setter encontrado para campo: " + fieldName);
+            }
 
         } catch (Exception e) {
             logger.warning("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
@@ -595,6 +618,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             // Try Integer parameter
             try {
                 var method = dtoClass.getMethod(setterName, Integer.class);
+                method.invoke(dtoInstance, fieldValue.asInt());
+                return true;
+            } catch (NoSuchMethodException ignored) {}
+
+            // Try int parameter (primitive)
+            try {
+                var method = dtoClass.getMethod(setterName, int.class);
                 method.invoke(dtoInstance, fieldValue.asInt());
                 return true;
             } catch (NoSuchMethodException ignored) {}

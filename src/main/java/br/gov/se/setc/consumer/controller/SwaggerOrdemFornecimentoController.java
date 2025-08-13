@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 @RestController
 @RequestMapping("/api/ordem-fornecimento")
-@Tag(name = "Ordem de Fornecimento", description = "API para consumo de dados de Ordem de Fornecimento da SEFAZ")
+@Tag(name = "Ordem de Fornecimento", description = "API para consumo e gestão de dados de ordem de fornecimento do SEFAZ")
 public class SwaggerOrdemFornecimentoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerOrdemFornecimentoController.class.getName());
@@ -23,7 +23,13 @@ public class SwaggerOrdemFornecimentoController {
     private ConsumoApiService<OrdemFornecimentoDTO> consumoApiService;
     
     @GetMapping
-    @Operation(summary = "Lista todas as ordens de fornecimento", description = "Retorna uma lista com todas as ordens de fornecimento disponíveis.")
+    @Operation(
+        summary = "Consumir e listar ordens de fornecimento",
+        description = "Consome dados de ordens de fornecimento da API de transparência SEFAZ e persiste no banco de dados local. " +
+                     "Retorna uma lista com todas as ordens processadas, incluindo informações sobre " +
+                     "fornecedores, valores, datas de recebimento e status das ordens.",
+        tags = {"Ordem de Fornecimento"}
+    )
     public List<OrdemFornecimentoDTO> listarOrdemFornecimento() {
         try {
             logger.info("Iniciando consumo da API de Ordem de Fornecimento");

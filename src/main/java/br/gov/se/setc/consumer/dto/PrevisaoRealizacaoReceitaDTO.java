@@ -13,15 +13,8 @@ import java.util.Map;
  * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/ctb/v1/previsao-realizacao-receita
  * Contexto: CTB (Contabilidade)
  *
- * ✅ IMPLEMENTAÇÃO COMPLETA: Esta API requer o parâmetro 'nuMes' (número do mês de 1-12).
- * A implementação customizada faz 12 requisições sequenciais (uma para cada mês) para
- * obter dados anuais completos, consolidando automaticamente os resultados.
- *
- * Funcionalidades:
- * - Busca automática de todos os 12 meses
- * - Pausa de 500ms entre requisições
- * - Consolidação automática dos dados
- * - Deduplicação baseada na chave única
+ * Esta API requer o parâmetro 'nuMes' (número do mês de 1-12).
+ * Para busca de múltiplos meses, utilize os endpoints do scheduler.
  *
  * Estrutura de resposta: Array de objetos JSON com dados de previsão e realização de receitas
  * organizados em hierarquia de 5 níveis: Categoria → Origem → Espécie → Desdobramento → Tipo

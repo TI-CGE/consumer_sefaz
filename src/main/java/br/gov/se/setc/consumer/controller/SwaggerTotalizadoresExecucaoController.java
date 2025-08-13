@@ -22,7 +22,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
  */
 @RestController
 @RequestMapping("/totalizadores-execucao")
-@Tag(name = "totalizadores-execucao", description = "Endpoints para documentar totalizadores de execução")
+@Tag(name = "Totalizadores Execução", description = "API para consumo e gestão de dados de totalizadores de execução do SEFAZ")
 public class SwaggerTotalizadoresExecucaoController {
 
     private static final Logger logger = Logger.getLogger(SwaggerTotalizadoresExecucaoController.class.getName());
