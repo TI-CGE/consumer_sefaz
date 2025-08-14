@@ -1,34 +1,25 @@
 package br.gov.se.setc.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class ValidacaoUtil<T extends EndpontSefaz> {
-      private final JdbcTemplate jdbcTemplate;
 
+    private final JdbcTemplate jdbcTemplate;
 
-
-    String sqlDiarias = "select count(dt_ano_exercicio_ctb) > 0 from sco.diarias LIMIT 1;";
-    String sqlContratosFiscais = "Select count(dt_ano_exercicio) > 0 from sco.contratos_fiscais LIMIT 1;";
-    
     @Autowired
     public ValidacaoUtil(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    
     public boolean isPresenteBanco(T endpointInstance){
-        // Se não há campo de data/ano definido, verificar apenas se a tabela tem registros
         if (endpointInstance.getDtAnoPadrao() == null) {
             String sql = "select ( coalesce(count(*),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
             return jdbcTemplate.queryForObject(sql, Boolean.class);
@@ -42,7 +33,6 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         return mapper.getCamposParametrosAtual("", this) == null || mapper.getCamposParametrosAtual("", this).isEmpty();
     }
 
-
     public Short getAnoAtual() {
         String sql = "SELECT EXTRACT(YEAR FROM CURRENT_DATE) AS ano_atual";
         return jdbcTemplate.queryForObject(sql, Short.class);
@@ -53,12 +43,16 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         return jdbcTemplate.queryForObject(sql, Short.class);
     }
 
+    private Boolean hasDataInTable(String tableName, String columnName) {
+        String sql = "Select count(" + columnName + ") > 0 from " + tableName + " LIMIT 1;";
+        return jdbcTemplate.queryForObject(sql, Boolean.class);
+    }
+
     public List<String> getUgs() {
         try {
             String sql = " select distinct cd_unidade_gestora from consumer_sefaz.unidade_gestora where sg_tipo_unidade_gestora = 'E' ";
             List<String> result = jdbcTemplate.queryForList(sql, String.class);
             if (result.isEmpty()) {
-                // If no data found, return test data
                 List<String> testUgs = new ArrayList<>();
                 testUgs.add("001");
                 testUgs.add("002");
@@ -66,52 +60,12 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
             }
             return result;
         } catch (Exception e) {
-            // If database query fails, return a test list
             System.err.println("Warning: Database query failed in getUgs(), using test data: " + e.getMessage());
             List<String> testUgs = new ArrayList<>();
-            testUgs.add("001"); // Add some test UG codes
+            testUgs.add("001");
             testUgs.add("002");
             return testUgs;
         }
-    }
-
-
-
-
-
-
-
-
-    
-    public  Boolean getValidaContratosFiscais() {
-        String sql = "Select count(dt_ano_exercicio) > 0 from sco.contratos_fiscais LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
-    }
-  
-
-    public  Boolean getValidaEmpenho() {
-        String sql = "Select count(dt_ano_exercicio_ctb) > 0 from sco.empenhos LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
-    }
-
-    public  Boolean getValidaOrdemFornecimento() {
-        String sql = "Select count(dt_recebimento) > 0 from consumer_sefaz.ordem_fornecimento LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
-    }
-
-    public  Boolean getValidaPrevisaoRealizacaoReceita() {
-        String sql = "Select count(dt_ano_exercicio_ctb) > 0 from sco.previsao_realizacao_receita LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
-    }
-
-    public  Boolean getValidaLiquidacao() {
-        String sql = "Select count(dt_liquidacao) > 0 from sco.liquidacao LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
-    }
-
-    public Boolean getValidaDiarias() {
-        String sql = "select count(dt_saida_solicitacao_diaria) > 0 from sco.diarias LIMIT 1;";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
     }
 
     public List<String> cdGestao(){
@@ -119,34 +73,52 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         return jdbcTemplate.queryForList(sql, String.class);
     }
 
+    public Boolean getValidaContratosFiscais() {
+        return hasDataInTable("sco.contratos_fiscais", "dt_ano_exercicio");
+    }
+
+    public Boolean getValidaEmpenho() {
+        return hasDataInTable("sco.empenhos", "dt_ano_exercicio_ctb");
+    }
+
+    public Boolean getValidaOrdemFornecimento() {
+        return hasDataInTable("consumer_sefaz.ordem_fornecimento", "dt_recebimento");
+    }
+
+    public Boolean getValidaPrevisaoRealizacaoReceita() {
+        return hasDataInTable("sco.previsao_realizacao_receita", "dt_ano_exercicio_ctb");
+    }
+
+    public Boolean getValidaLiquidacao() {
+        return hasDataInTable("sco.liquidacao", "dt_liquidacao");
+    }
+
+    public Boolean getValidaDiarias() {
+        return hasDataInTable("sco.diarias", "dt_saida_solicitacao_diaria");
+    }
+
     public Boolean getValidaDespesaConvenio(){
-        String sql = "select count(dt_lancamento_convenio) > 0 from sco.despesa_convenio LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.despesa_convenio", "dt_lancamento_convenio");
     }
 
     public Boolean getValidaReceitaConvenio(){
-        String sql = "select count(dt_lancamento_convenio) > 0 from sco.receita_convenio LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.receita_convenio", "dt_lancamento_convenio");
     }
 
     public Boolean getValidaDespesaDetalhada(){
-        String sql = "select count(nu_mes) > 0 from sco.classificacao_orcamentaria LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.classificacao_orcamentaria", "nu_mes");
     }
 
     public Boolean getValidaContrato(){
-        String sql = "select count(nu_documento) > 0 from sco.contrato LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.contrato", "nu_documento");
     }
 
     public Boolean getValidaConvenio(){
-        String sql = "select count(cd_convenio) > 0 from sco.convenio LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.convenio", "cd_convenio");
     }
 
     public Boolean getValidaPagamento(){
-        String sql = "select count(cd_unidade_gestora) > 0 from sco.pagamento LIMIT 1; ";
-        return jdbcTemplate.queryForObject(sql, Boolean.class);
+        return hasDataInTable("sco.pagamento", "cd_unidade_gestora");
     }
 
 }

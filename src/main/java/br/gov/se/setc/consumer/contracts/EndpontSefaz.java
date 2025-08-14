@@ -87,10 +87,27 @@ public abstract class EndpontSefaz {
       * @return true se o endpoint precisa iterar sobre cdGestao, false caso contrário
       */
      public boolean requerIteracaoCdGestao() {
-         return false; // Padrão é false, DTOs específicos podem sobrescrever
+         return false;
      }
 
+     protected Map<String, Object> criarParametrosBasicos(String ugCd, Short ano) {
+         Map<String, Object> parametros = new LinkedHashMap<>();
+         if (ugCd != null && !ugCd.trim().isEmpty()) {
+             parametros.put("cdUnidadeGestora", ugCd);
+         }
+         if (ano != null) {
+             parametros.put("dtAnoExercicioCTB", ano);
+         }
+         return parametros;
+     }
 
-
+     protected Map<String, Object> criarParametrosComAnoAtual(String ugCd, ValidacaoUtil<?> utilsService) {
+         Map<String, Object> parametros = new LinkedHashMap<>();
+         if (ugCd != null && !ugCd.trim().isEmpty()) {
+             parametros.put("cdUnidadeGestora", ugCd);
+         }
+         parametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
+         return parametros;
+     }
 
 }

@@ -379,10 +379,35 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Pagamentos: " + e.getMessage());
             }
 
-            // 14. Aguardar um pouco antes de consumir liquidações
+            // 14. Aguardar um pouco antes de consumir empenhos
             Thread.sleep(2000);
 
-            // 15. Consumir Liquidações
+            // 15. Consumir Empenhos (MOVIDO PARA ANTES DE LIQUIDAÇÕES)
+            logger.info("=== INICIANDO CONSUMO DE EMPENHOS ===");
+            markdownSection.progress("Processando Empenhos...");
+
+            try {
+                long empenhoStartTime = System.currentTimeMillis();
+                EmpenhoDTO empenhoDto = new EmpenhoDTO();
+                List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
+                int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
+                processingResults.put("Empenho", empenhoCount);
+                totalRecordsProcessed += empenhoCount;
+
+                long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
+                logger.info("Empenhos processados: {}", empenhoCount);
+                markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
+
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Empenhos", e);
+                processingResults.put("Empenho", 0);
+                markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
+            }
+
+            // 16. Aguardar um pouco antes de consumir liquidações
+            Thread.sleep(2000);
+
+            // 17. Consumir Liquidações (MOVIDO PARA DEPOIS DE EMPENHOS)
             logger.info("=== INICIANDO CONSUMO DE LIQUIDAÇÕES ===");
             markdownSection.progress("Processando Liquidações...");
 
@@ -404,10 +429,10 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Liquidações: " + e.getMessage());
             }
 
-            // 16. Aguardar um pouco antes de consumir ordens de fornecimento
+            // 18. Aguardar um pouco antes de consumir ordens de fornecimento
             Thread.sleep(2000);
 
-            // 17. Consumir Ordens de Fornecimento
+            // 19. Consumir Ordens de Fornecimento
             logger.info("=== INICIANDO CONSUMO DE ORDENS DE FORNECIMENTO ===");
             markdownSection.progress("Processando Ordens de Fornecimento...");
 
@@ -429,7 +454,7 @@ public class ContractConsumptionScheduler {
                 markdownSection.error("Falha no processamento de Ordens de Fornecimento: " + e.getMessage());
             }
 
-            // 18. Consumir Dados Orçamentários
+            // 20. Consumir Dados Orçamentários
             logger.info("=== INICIANDO CONSUMO DE DADOS ORÇAMENTÁRIOS ===");
             markdownSection.progress("Processando Dados Orçamentários...");
 
@@ -449,31 +474,6 @@ public class ContractConsumptionScheduler {
                 logger.error("Erro ao consumir Dados Orçamentários", e);
                 processingResults.put("DadosOrcamentarios", 0);
                 markdownSection.error("Falha no processamento de Dados Orçamentários: " + e.getMessage());
-            }
-
-            // 19. Aguardar um pouco antes de consumir empenhos
-            Thread.sleep(2000);
-
-            // 20. Consumir Empenhos
-            logger.info("=== INICIANDO CONSUMO DE EMPENHOS ===");
-            markdownSection.progress("Processando Empenhos...");
-
-            try {
-                long empenhoStartTime = System.currentTimeMillis();
-                EmpenhoDTO empenhoDto = new EmpenhoDTO();
-                List<EmpenhoDTO> empenhoResults = empenhoConsumoApiService.consumirPersistir(empenhoDto);
-                int empenhoCount = empenhoResults != null ? empenhoResults.size() : 0;
-                processingResults.put("Empenho", empenhoCount);
-                totalRecordsProcessed += empenhoCount;
-
-                long empenhoDuration = System.currentTimeMillis() - empenhoStartTime;
-                logger.info("Empenhos processados: {}", empenhoCount);
-                markdownSection.success(empenhoCount + " registros de Empenho processados", empenhoDuration);
-
-            } catch (Exception e) {
-                logger.error("Erro ao consumir Empenhos", e);
-                processingResults.put("Empenho", 0);
-                markdownSection.error("Falha no processamento de Empenhos: " + e.getMessage());
             }
 
             // 21. Aguardar um pouco antes de consumir totalizadores de execução
