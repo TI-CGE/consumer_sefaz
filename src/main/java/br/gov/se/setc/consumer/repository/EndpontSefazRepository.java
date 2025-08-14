@@ -111,6 +111,11 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         else if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
             deleteSql = "DELETE FROM " + tableName + " " +
                     "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
+        }
+        else if ("consumer_sefaz.empenho".equals(tableName)) {
+            // Para empenho, usar comparação de string pois dt_geracao_empenho é VARCHAR
+            deleteSql = "DELETE FROM " + tableName + " " +
+                    "WHERE dt_geracao_empenho LIKE '" + java.time.Year.now().getValue() + "-%'";
         } else {
             if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){
                 return;

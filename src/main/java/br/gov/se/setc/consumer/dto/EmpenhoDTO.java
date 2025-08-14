@@ -5,7 +5,6 @@ import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
-import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,11 +42,20 @@ public class EmpenhoDTO extends EndpontSefaz {
     private Integer sqEmpenho;
     
     @JsonProperty("dtGeracaoEmpenho")
-    private LocalDate dtGeracaoEmpenho;
-    
+    private String dtGeracaoEmpenho;
+
+    @JsonProperty("dtEmissaoEmpenho")
+    private String dtEmissaoEmpenho;
+
+    @JsonProperty("dtLancamentoEmpenho")
+    private String dtLancamentoEmpenho;
+
     @JsonProperty("cdNaturezaDespesaCompleta")
     private String cdNaturezaDespesaCompleta;
-    
+
+    @JsonProperty("cdNaturezaDespesa")
+    private String cdNaturezaDespesa;
+
     @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
     
@@ -100,10 +108,10 @@ public class EmpenhoDTO extends EndpontSefaz {
     private Integer cdElementoDespesa;
     
     @JsonProperty("cdFonteRecurso")
-    private Integer cdFonteRecurso;
-    
+    private String cdFonteRecurso;
+
     @JsonProperty("cdLicitacao")
-    private Integer cdLicitacao;
+    private String cdLicitacao;
     
     @JsonProperty("dsObjetoLicitacao")
     private String dsObjetoLicitacao;
@@ -142,7 +150,10 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("sq_solic_empenho", sqSolicEmpenho);
         camposResposta.put("sq_empenho", sqEmpenho);
         camposResposta.put("dt_geracao_empenho", dtGeracaoEmpenho);
+        camposResposta.put("dt_emissao_empenho", dtEmissaoEmpenho);
+        camposResposta.put("dt_lancamento_empenho", dtLancamentoEmpenho);
         camposResposta.put("cd_natureza_despesa_completa", cdNaturezaDespesaCompleta);
+        camposResposta.put("cd_natureza_despesa", cdNaturezaDespesa);
         camposResposta.put("nm_razao_social_pessoa", nmRazaoSocialPessoa);
         camposResposta.put("nu_documento", nuDocumento);
         camposResposta.put("vl_solic_empenho", vlSolicEmpenho);
@@ -272,12 +283,28 @@ public class EmpenhoDTO extends EndpontSefaz {
         this.sqEmpenho = sqEmpenho;
     }
 
-    public LocalDate getDtGeracaoEmpenho() {
+    public String getDtGeracaoEmpenho() {
         return dtGeracaoEmpenho;
     }
 
-    public void setDtGeracaoEmpenho(LocalDate dtGeracaoEmpenho) {
+    public void setDtGeracaoEmpenho(String dtGeracaoEmpenho) {
         this.dtGeracaoEmpenho = dtGeracaoEmpenho;
+    }
+
+    public String getDtEmissaoEmpenho() {
+        return dtEmissaoEmpenho;
+    }
+
+    public void setDtEmissaoEmpenho(String dtEmissaoEmpenho) {
+        this.dtEmissaoEmpenho = dtEmissaoEmpenho;
+    }
+
+    public String getDtLancamentoEmpenho() {
+        return dtLancamentoEmpenho;
+    }
+
+    public void setDtLancamentoEmpenho(String dtLancamentoEmpenho) {
+        this.dtLancamentoEmpenho = dtLancamentoEmpenho;
     }
 
     public String getCdNaturezaDespesaCompleta() {
@@ -286,6 +313,14 @@ public class EmpenhoDTO extends EndpontSefaz {
 
     public void setCdNaturezaDespesaCompleta(String cdNaturezaDespesaCompleta) {
         this.cdNaturezaDespesaCompleta = cdNaturezaDespesaCompleta;
+    }
+
+    public String getCdNaturezaDespesa() {
+        return cdNaturezaDespesa;
+    }
+
+    public void setCdNaturezaDespesa(String cdNaturezaDespesa) {
+        this.cdNaturezaDespesa = cdNaturezaDespesa;
     }
 
     public String getNmRazaoSocialPessoa() {
@@ -424,19 +459,19 @@ public class EmpenhoDTO extends EndpontSefaz {
         this.cdElementoDespesa = cdElementoDespesa;
     }
 
-    public Integer getCdFonteRecurso() {
+    public String getCdFonteRecurso() {
         return cdFonteRecurso;
     }
 
-    public void setCdFonteRecurso(Integer cdFonteRecurso) {
+    public void setCdFonteRecurso(String cdFonteRecurso) {
         this.cdFonteRecurso = cdFonteRecurso;
     }
 
-    public Integer getCdLicitacao() {
+    public String getCdLicitacao() {
         return cdLicitacao;
     }
 
-    public void setCdLicitacao(Integer cdLicitacao) {
+    public void setCdLicitacao(String cdLicitacao) {
         this.cdLicitacao = cdLicitacao;
     }
 

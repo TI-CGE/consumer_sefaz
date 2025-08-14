@@ -2,7 +2,6 @@ package br.gov.se.setc.consumer.entity;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
-import java.time.LocalDate;
 
 @Entity
 @Table(name = "empenho", schema = "consumer_sefaz")
@@ -43,11 +42,20 @@ public class Empenho {
     private Integer sqEmpenho;
     
     @Column(name = "dt_geracao_empenho")
-    private LocalDate dtGeracaoEmpenho;
-    
+    private String dtGeracaoEmpenho;
+
+    @Column(name = "dt_emissao_empenho")
+    private String dtEmissaoEmpenho;
+
+    @Column(name = "dt_lancamento_empenho")
+    private String dtLancamentoEmpenho;
+
     @Column(name = "cd_natureza_despesa_completa")
     private String cdNaturezaDespesaCompleta;
-    
+
+    @Column(name = "cd_natureza_despesa")
+    private String cdNaturezaDespesa;
+
     @Column(name = "nm_razao_social_pessoa")
     private String nmRazaoSocialPessoa;
     
@@ -100,10 +108,10 @@ public class Empenho {
     private Integer cdElementoDespesa;
     
     @Column(name = "cd_fonte_recurso")
-    private Integer cdFonteRecurso;
-    
+    private String cdFonteRecurso;
+
     @Column(name = "cd_licitacao")
-    private Integer cdLicitacao;
+    private String cdLicitacao;
     
     @Column(name = "ds_objeto_licitacao", length = 1000)
     private String dsObjetoLicitacao;
@@ -206,12 +214,28 @@ public class Empenho {
         this.sqEmpenho = sqEmpenho;
     }
 
-    public LocalDate getDtGeracaoEmpenho() {
+    public String getDtGeracaoEmpenho() {
         return dtGeracaoEmpenho;
     }
 
-    public void setDtGeracaoEmpenho(LocalDate dtGeracaoEmpenho) {
+    public void setDtGeracaoEmpenho(String dtGeracaoEmpenho) {
         this.dtGeracaoEmpenho = dtGeracaoEmpenho;
+    }
+
+    public String getDtEmissaoEmpenho() {
+        return dtEmissaoEmpenho;
+    }
+
+    public void setDtEmissaoEmpenho(String dtEmissaoEmpenho) {
+        this.dtEmissaoEmpenho = dtEmissaoEmpenho;
+    }
+
+    public String getDtLancamentoEmpenho() {
+        return dtLancamentoEmpenho;
+    }
+
+    public void setDtLancamentoEmpenho(String dtLancamentoEmpenho) {
+        this.dtLancamentoEmpenho = dtLancamentoEmpenho;
     }
 
     public String getCdNaturezaDespesaCompleta() {
@@ -220,6 +244,14 @@ public class Empenho {
 
     public void setCdNaturezaDespesaCompleta(String cdNaturezaDespesaCompleta) {
         this.cdNaturezaDespesaCompleta = cdNaturezaDespesaCompleta;
+    }
+
+    public String getCdNaturezaDespesa() {
+        return cdNaturezaDespesa;
+    }
+
+    public void setCdNaturezaDespesa(String cdNaturezaDespesa) {
+        this.cdNaturezaDespesa = cdNaturezaDespesa;
     }
 
     public String getNmRazaoSocialPessoa() {
@@ -358,19 +390,19 @@ public class Empenho {
         this.cdElementoDespesa = cdElementoDespesa;
     }
 
-    public Integer getCdFonteRecurso() {
+    public String getCdFonteRecurso() {
         return cdFonteRecurso;
     }
 
-    public void setCdFonteRecurso(Integer cdFonteRecurso) {
+    public void setCdFonteRecurso(String cdFonteRecurso) {
         this.cdFonteRecurso = cdFonteRecurso;
     }
 
-    public Integer getCdLicitacao() {
+    public String getCdLicitacao() {
         return cdLicitacao;
     }
 
-    public void setCdLicitacao(Integer cdLicitacao) {
+    public void setCdLicitacao(String cdLicitacao) {
         this.cdLicitacao = cdLicitacao;
     }
 

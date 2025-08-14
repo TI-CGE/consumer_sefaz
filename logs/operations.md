@@ -48251,3 +48251,8817 @@
 ## 14:27:25 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
+
+## 14:52:16 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 14:52:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1067ms
+- 📋   • Tamanho da resposta: 336,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1327ms
+- 📋   • Tamanho da resposta: 625,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (955ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 955ms
+- 📋   • Tamanho da resposta: 710,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (725ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 725ms
+- 📋   • Tamanho da resposta: 612,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (902ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 902ms
+- 📋   • Tamanho da resposta: 577,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (594ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 594ms
+- 📋   • Tamanho da resposta: 506,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (6,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6017ms
+- 📋   • Tamanho da resposta: 2,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:52:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (8,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8688ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:52:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (3,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3589ms
+- 📋   • Tamanho da resposta: 2,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (4,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4700ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (3,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3920ms
+- 📋   • Tamanho da resposta: 2,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:52:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (3,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3276ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (9,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8952ms
+- 📋   • Tamanho da resposta: 4,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:53:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (15,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 15471ms
+- 📋   • Tamanho da resposta: 6,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:53:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (10,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 10944ms
+- 📋   • Tamanho da resposta: 4,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:53:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (7,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7452ms
+- 📋   • Tamanho da resposta: 4,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:53:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (7,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7034ms
+- 📋   • Tamanho da resposta: 4,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:54:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (7,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7109ms
+- 📋   • Tamanho da resposta: 3,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:54:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (728ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 728ms
+- 📋   • Tamanho da resposta: 408,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1317ms
+- 📋   • Tamanho da resposta: 657,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (944ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 944ms
+- 📋   • Tamanho da resposta: 788,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (799ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 799ms
+- 📋   • Tamanho da resposta: 577,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (660ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 660ms
+- 📋   • Tamanho da resposta: 510,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (688ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 688ms
+- 📋   • Tamanho da resposta: 490,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 220,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (541ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 541ms
+- 📋   • Tamanho da resposta: 385,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 321,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (598ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 598ms
+- 📋   • Tamanho da resposta: 376,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (528ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 528ms
+- 📋   • Tamanho da resposta: 304,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (482ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 482ms
+- 📋   • Tamanho da resposta: 311,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 9,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 13,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 34,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 29,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 36,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 11,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 6,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:54:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (20,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 20839ms
+- 📋   • Tamanho da resposta: 7,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:55:13 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 14:55:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (28,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 28500ms
+- 📋   • Tamanho da resposta: 10,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:56:15 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 14:56:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (27,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 27862ms
+- 📋   • Tamanho da resposta: 7,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:57:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (17,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 17306ms
+- 📋   • Tamanho da resposta: 7,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (399ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 399ms
+- 📋   • Tamanho da resposta: 185,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1259ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 60,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 101,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (256ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 256ms
+- 📋   • Tamanho da resposta: 85,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1893ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1879ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1957ms
+- 📋   • Tamanho da resposta: 984,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1422ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1085ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1121ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1050ms
+- 📋   • Tamanho da resposta: 1012,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 19,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 883 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 10,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 2,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (433ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 433ms
+- 📋   • Tamanho da resposta: 80,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 144,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (352ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 352ms
+- 📋   • Tamanho da resposta: 159,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 273,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 209,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 224,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 246,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (404ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 404ms
+- 📋   • Tamanho da resposta: 307,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (395ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 395ms
+- 📋   • Tamanho da resposta: 279,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 229,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 167,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (256ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 256ms
+- 📋   • Tamanho da resposta: 146,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 56,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 104,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 84,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 106,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 92,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 81,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 116,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 174,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (395ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 395ms
+- 📋   • Tamanho da resposta: 207,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (425ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 425ms
+- 📋   • Tamanho da resposta: 174,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 172,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (677ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 677ms
+- 📋   • Tamanho da resposta: 119,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (625ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 625ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (642ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 642ms
+- 📋   • Tamanho da resposta: 145,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (396ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 396ms
+- 📋   • Tamanho da resposta: 168,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (356ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 356ms
+- 📋   • Tamanho da resposta: 192,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (410ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 410ms
+- 📋   • Tamanho da resposta: 154,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (339ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 339ms
+- 📋   • Tamanho da resposta: 164,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 139,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1520ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1915ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1135ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (630ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 630ms
+- 📋   • Tamanho da resposta: 523,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (490ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 490ms
+- 📋   • Tamanho da resposta: 325,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (578ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 578ms
+- 📋   • Tamanho da resposta: 388,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (325ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 325ms
+- 📋   • Tamanho da resposta: 217,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 32,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 7,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 904 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (333ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 333ms
+- 📋   • Tamanho da resposta: 149,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (899ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 899ms
+- 📋   • Tamanho da resposta: 356,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (793ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 793ms
+- 📋   • Tamanho da resposta: 466,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (894ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 894ms
+- 📋   • Tamanho da resposta: 648,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (474ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 474ms
+- 📋   • Tamanho da resposta: 340,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (317ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 317ms
+- 📋   • Tamanho da resposta: 192,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 5,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (133ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 133ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 9,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (125ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 125ms
+- 📋   • Tamanho da resposta: 19,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (276ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 276ms
+- 📋   • Tamanho da resposta: 145,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 191,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 136,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 80,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 63,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 51,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:57:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1231ms
+- 📋   • Tamanho da resposta: 861,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2393ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1865ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1628ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1632ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (973ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 973ms
+- 📋   • Tamanho da resposta: 965,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 5,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 227,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (361ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 361ms
+- 📋   • Tamanho da resposta: 291,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 425,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (505ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 505ms
+- 📋   • Tamanho da resposta: 384,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (443ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 443ms
+- 📋   • Tamanho da resposta: 297,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (418ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 418ms
+- 📋   • Tamanho da resposta: 283,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (414ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 414ms
+- 📋   • Tamanho da resposta: 285,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (516ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 516ms
+- 📋   • Tamanho da resposta: 391,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (545ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 545ms
+- 📋   • Tamanho da resposta: 399,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (590ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 590ms
+- 📋   • Tamanho da resposta: 444,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (590ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 590ms
+- 📋   • Tamanho da resposta: 358,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 262,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 122,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 95,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (838ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 838ms
+- 📋   • Tamanho da resposta: 299,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (836ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 836ms
+- 📋   • Tamanho da resposta: 452,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 189,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (476ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 476ms
+- 📋   • Tamanho da resposta: 379,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1017ms
+- 📋   • Tamanho da resposta: 609,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (659ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 659ms
+- 📋   • Tamanho da resposta: 471,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (598ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 598ms
+- 📋   • Tamanho da resposta: 496,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (765ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 765ms
+- 📋   • Tamanho da resposta: 491,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1075ms
+- 📋   • Tamanho da resposta: 530,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 139,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 155,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (472ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 472ms
+- 📋   • Tamanho da resposta: 280,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:27 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 14:58:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (524ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 524ms
+- 📋   • Tamanho da resposta: 341,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (462ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 462ms
+- 📋   • Tamanho da resposta: 300,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (507ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 507ms
+- 📋   • Tamanho da resposta: 280,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 100,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (409ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 409ms
+- 📋   • Tamanho da resposta: 242,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (328ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 328ms
+- 📋   • Tamanho da resposta: 140,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (324ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 324ms
+- 📋   • Tamanho da resposta: 191,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 148,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (276ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 276ms
+- 📋   • Tamanho da resposta: 131,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (311ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 311ms
+- 📋   • Tamanho da resposta: 185,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (539ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 539ms
+- 📋   • Tamanho da resposta: 336,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (491ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 491ms
+- 📋   • Tamanho da resposta: 297,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (434ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 434ms
+- 📋   • Tamanho da resposta: 288,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (509ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 509ms
+- 📋   • Tamanho da resposta: 283,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 227,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (517ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 517ms
+- 📋   • Tamanho da resposta: 376,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1089ms
+- 📋   • Tamanho da resposta: 636,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (851ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 851ms
+- 📋   • Tamanho da resposta: 666,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1034ms
+- 📋   • Tamanho da resposta: 773,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (789ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 789ms
+- 📋   • Tamanho da resposta: 710,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (804ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 804ms
+- 📋   • Tamanho da resposta: 545,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 108,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 204,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 246,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (365ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 365ms
+- 📋   • Tamanho da resposta: 258,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (363ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 363ms
+- 📋   • Tamanho da resposta: 229,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 236,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 57,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 59,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 117,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 183,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 147,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (387ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 387ms
+- 📋   • Tamanho da resposta: 282,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (384ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 384ms
+- 📋   • Tamanho da resposta: 207,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 327,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (409ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 409ms
+- 📋   • Tamanho da resposta: 333,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (438ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 438ms
+- 📋   • Tamanho da resposta: 403,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (491ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 491ms
+- 📋   • Tamanho da resposta: 375,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (412ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 412ms
+- 📋   • Tamanho da resposta: 297,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (286ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 286ms
+- 📋   • Tamanho da resposta: 166,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (484ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 484ms
+- 📋   • Tamanho da resposta: 302,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (471ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 471ms
+- 📋   • Tamanho da resposta: 256,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (460ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 460ms
+- 📋   • Tamanho da resposta: 249,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (513ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 513ms
+- 📋   • Tamanho da resposta: 238,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (441ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 441ms
+- 📋   • Tamanho da resposta: 206,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (523ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 523ms
+- 📋   • Tamanho da resposta: 392,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (762ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 762ms
+- 📋   • Tamanho da resposta: 617,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (990ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 990ms
+- 📋   • Tamanho da resposta: 776,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1288ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:58:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1215ms
+- 📋   • Tamanho da resposta: 972,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1219ms
+- 📋   • Tamanho da resposta: 874,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 77,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (298ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 298ms
+- 📋   • Tamanho da resposta: 161,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 152,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (499ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 499ms
+- 📋   • Tamanho da resposta: 205,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 177,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 131,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 304,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (838ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 838ms
+- 📋   • Tamanho da resposta: 585,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (730ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 730ms
+- 📋   • Tamanho da resposta: 624,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (793ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 793ms
+- 📋   • Tamanho da resposta: 642,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (614ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 614ms
+- 📋   • Tamanho da resposta: 495,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (734ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 734ms
+- 📋   • Tamanho da resposta: 525,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1632ms
+- 📋   • Tamanho da resposta: 924,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2915ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1212ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1307ms
+- 📋   • Tamanho da resposta: 991,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (986ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 986ms
+- 📋   • Tamanho da resposta: 607,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (666ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 666ms
+- 📋   • Tamanho da resposta: 512,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 12,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (115ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 115ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 12,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 12,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 12,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 55,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 11,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 181,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (555ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 555ms
+- 📋   • Tamanho da resposta: 338,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (431ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 431ms
+- 📋   • Tamanho da resposta: 262,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (382ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 382ms
+- 📋   • Tamanho da resposta: 215,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 214,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 145,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 981 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 17,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 14,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 13,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 14,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 108,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (348ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 348ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 134,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 142,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 130,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 105,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1241ms
+- 📋   • Tamanho da resposta: 472,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1687ms
+- 📋   • Tamanho da resposta: 605,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (763ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 763ms
+- 📋   • Tamanho da resposta: 551,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (733ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 733ms
+- 📋   • Tamanho da resposta: 551,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1002ms
+- 📋   • Tamanho da resposta: 478,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (573ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 573ms
+- 📋   • Tamanho da resposta: 404,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 81,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (909ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 909ms
+- 📋   • Tamanho da resposta: 733,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (335ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 335ms
+- 📋   • Tamanho da resposta: 147,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 93,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:36 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 14:59:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (349ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 349ms
+- 📋   • Tamanho da resposta: 140,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 241,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (384ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 384ms
+- 📋   • Tamanho da resposta: 317,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (468ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 468ms
+- 📋   • Tamanho da resposta: 386,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (573ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 573ms
+- 📋   • Tamanho da resposta: 442,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 324,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 290,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 172,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 208,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (412ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 412ms
+- 📋   • Tamanho da resposta: 66,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (527ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 527ms
+- 📋   • Tamanho da resposta: 313,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (689ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 689ms
+- 📋   • Tamanho da resposta: 500,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (640ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 640ms
+- 📋   • Tamanho da resposta: 426,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (534ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 534ms
+- 📋   • Tamanho da resposta: 413,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (627ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 627ms
+- 📋   • Tamanho da resposta: 415,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (770ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 770ms
+- 📋   • Tamanho da resposta: 367,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 35,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (298ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 298ms
+- 📋   • Tamanho da resposta: 72,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (374ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 374ms
+- 📋   • Tamanho da resposta: 144,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (571ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 571ms
+- 📋   • Tamanho da resposta: 179,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 98,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 50,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 37,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 20,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 52,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (381ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 381ms
+- 📋   • Tamanho da resposta: 23,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1039ms
+- 📋   • Tamanho da resposta: 609,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1219ms
+- 📋   • Tamanho da resposta: 852,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (969ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 969ms
+- 📋   • Tamanho da resposta: 703,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (828ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 828ms
+- 📋   • Tamanho da resposta: 618,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (850ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 850ms
+- 📋   • Tamanho da resposta: 585,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (817ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 817ms
+- 📋   • Tamanho da resposta: 623,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (408ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 408ms
+- 📋   • Tamanho da resposta: 171,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 335,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (462ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 462ms
+- 📋   • Tamanho da resposta: 285,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (426ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 426ms
+- 📋   • Tamanho da resposta: 260,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 14:59:59 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (438ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 438ms
+- 📋   • Tamanho da resposta: 331,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 10,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 17,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 924 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1013ms
+- 📋   • Tamanho da resposta: 826,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1520ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1599ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1935ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1381ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1076ms
+- 📋   • Tamanho da resposta: 1019,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 223,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 369,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (730ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 730ms
+- 📋   • Tamanho da resposta: 360,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (415ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 415ms
+- 📋   • Tamanho da resposta: 329,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (390ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 390ms
+- 📋   • Tamanho da resposta: 317,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (536ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 536ms
+- 📋   • Tamanho da resposta: 321,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 9,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 12,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 5,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 10,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 5,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (359ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 359ms
+- 📋   • Tamanho da resposta: 239,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (531ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 531ms
+- 📋   • Tamanho da resposta: 308,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (544ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 544ms
+- 📋   • Tamanho da resposta: 419,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 339,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (566ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 566ms
+- 📋   • Tamanho da resposta: 403,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (576ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 576ms
+- 📋   • Tamanho da resposta: 318,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (473ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 473ms
+- 📋   • Tamanho da resposta: 282,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 60,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 97,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 45,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 61,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 61,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 68,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 57,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 91,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 87,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 9,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:00:24 | ❌ ERRO em DATABASE
+- 🚨 **Erro**: DELETE_BY_MONTH | TABLE: consumer_sefaz.empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: b7dc2242
+
+
+
+## 15:00:24 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: b7dc2242
+
+
+
+## 14:52:17 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 188177 registros encontrados
+- 🔄 Salvando dados no banco...
+- ❌ Falha na operação: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- 📋 Tempo até falha: 487159ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 8m 7s**
+
+
+## 15:00:24 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: 1176a187
+
+
+
+## 15:00:24 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: EMPENHO_ONLY_CONSUMPTION | ENDPOINT: empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: 2d30de8b
+
+
+
+## 14:52:17 | Execução Específica - Empenho
+- 🔄 Processando Empenhos...
+- ❌ Falha no processamento de Empenhos: StatementCallback; bad SQL grammar [DELETE FROM consumer_sefaz.empenho  WHERE EXTRACT(YEAR FROM dt_geracao_empenho ) = EXTRACT(YEAR FROM CURRENT_DATE) AND EXTRACT(MONTH FROM dt_geracao_empenho ) = EXTRACT(MONTH FROM CURRENT_DATE)]
+- ⏱️ **Execução interrompida por erro | Tempo total: 8m 7s**
+
+
+## 15:02:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1024ms
+- 📋   • Tamanho da resposta: 336,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1871ms
+- 📋   • Tamanho da resposta: 625,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1084ms
+- 📋   • Tamanho da resposta: 710,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (982ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 982ms
+- 📋   • Tamanho da resposta: 612,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (930ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 930ms
+- 📋   • Tamanho da resposta: 577,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (677ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 677ms
+- 📋   • Tamanho da resposta: 506,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:33 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: baaa3647
+
+
+
+## 15:02:25 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 7875ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 7,9s**
+
+
+## 15:02:33 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: bd6fcfba
+
+
+
+## 15:02:33 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: EMPENHO_ONLY_CONSUMPTION | ENDPOINT: empenho
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: f498b4ac
+
+
+
+## 15:02:25 | Execução Específica - Empenho
+- 🔄 Processando Empenhos...
+- ❌ Falha no processamento de Empenhos: Failed to obtain JDBC Connection
+- ⏱️ **Execução interrompida por erro | Tempo total: 7,9s**
+
+
+## 15:02:34 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 15:02:37 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 15:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (901ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 901ms
+- 📋   • Tamanho da resposta: 336,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1660ms
+- 📋   • Tamanho da resposta: 625,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1298ms
+- 📋   • Tamanho da resposta: 710,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (779ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 779ms
+- 📋   • Tamanho da resposta: 612,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (678ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 678ms
+- 📋   • Tamanho da resposta: 577,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (549ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 549ms
+- 📋   • Tamanho da resposta: 506,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:03:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (5,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5940ms
+- 📋   • Tamanho da resposta: 2,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:03:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (8,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8796ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:03:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3710ms
+- 📋   • Tamanho da resposta: 2,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:03:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (5,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5411ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:03:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (4,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4236ms
+- 📋   • Tamanho da resposta: 2,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:03:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3673ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (9,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 9311ms
+- 📋   • Tamanho da resposta: 4,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (15,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 15519ms
+- 📋   • Tamanho da resposta: 6,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (8,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8309ms
+- 📋   • Tamanho da resposta: 4,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:04:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (6,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6741ms
+- 📋   • Tamanho da resposta: 4,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (6,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6421ms
+- 📋   • Tamanho da resposta: 4,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:04:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (6,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6176ms
+- 📋   • Tamanho da resposta: 3,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (630ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 630ms
+- 📋   • Tamanho da resposta: 408,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1335ms
+- 📋   • Tamanho da resposta: 657,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (956ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 956ms
+- 📋   • Tamanho da resposta: 788,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (670ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 670ms
+- 📋   • Tamanho da resposta: 577,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (681ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 681ms
+- 📋   • Tamanho da resposta: 510,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (599ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 599ms
+- 📋   • Tamanho da resposta: 490,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 220,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (546ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 546ms
+- 📋   • Tamanho da resposta: 385,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 321,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 376,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (418ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 418ms
+- 📋   • Tamanho da resposta: 304,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (427ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 427ms
+- 📋   • Tamanho da resposta: 311,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 9,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 13,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 34,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 29,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 36,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 11,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 6,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:05:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (19,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 19158ms
+- 📋   • Tamanho da resposta: 7,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:05:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho": Read timed out
+
+
+## 15:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (29,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 29866ms
+- 📋   • Tamanho da resposta: 10,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (30,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 29958ms
+- 📋   • Tamanho da resposta: 11,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (26,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 25956ms
+- 📋   • Tamanho da resposta: 7,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:07:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (17,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 17229ms
+- 📋   • Tamanho da resposta: 7,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (395ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 395ms
+- 📋   • Tamanho da resposta: 185,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1645ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 60,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 101,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (345ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 345ms
+- 📋   • Tamanho da resposta: 85,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2301ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1694ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1663ms
+- 📋   • Tamanho da resposta: 984,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1051ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1354ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1462ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1214ms
+- 📋   • Tamanho da resposta: 1012,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 19,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 883 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 10,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 80,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (334ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 334ms
+- 📋   • Tamanho da resposta: 144,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (369ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 369ms
+- 📋   • Tamanho da resposta: 159,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (453ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 453ms
+- 📋   • Tamanho da resposta: 273,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (348ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 348ms
+- 📋   • Tamanho da resposta: 209,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (418ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 418ms
+- 📋   • Tamanho da resposta: 224,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (401ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 401ms
+- 📋   • Tamanho da resposta: 246,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 307,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 279,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (451ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 451ms
+- 📋   • Tamanho da resposta: 229,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (316ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 316ms
+- 📋   • Tamanho da resposta: 167,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (332ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 332ms
+- 📋   • Tamanho da resposta: 146,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (391ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 391ms
+- 📋   • Tamanho da resposta: 56,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 104,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 84,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 106,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 92,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 81,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 116,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (435ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 435ms
+- 📋   • Tamanho da resposta: 174,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:07:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (406ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 406ms
+- 📋   • Tamanho da resposta: 207,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 174,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (413ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 413ms
+- 📋   • Tamanho da resposta: 172,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (317ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 317ms
+- 📋   • Tamanho da resposta: 119,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 145,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (328ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 328ms
+- 📋   • Tamanho da resposta: 168,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (541ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 541ms
+- 📋   • Tamanho da resposta: 192,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (316ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 316ms
+- 📋   • Tamanho da resposta: 154,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (327ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 327ms
+- 📋   • Tamanho da resposta: 164,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 139,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1470ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1706ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1407ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (618ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 618ms
+- 📋   • Tamanho da resposta: 523,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (514ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 514ms
+- 📋   • Tamanho da resposta: 325,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (509ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 509ms
+- 📋   • Tamanho da resposta: 388,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 217,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 32,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 7,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 904 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (355ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 355ms
+- 📋   • Tamanho da resposta: 149,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (918ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 918ms
+- 📋   • Tamanho da resposta: 356,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (584ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 584ms
+- 📋   • Tamanho da resposta: 466,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (758ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 758ms
+- 📋   • Tamanho da resposta: 648,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (456ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 456ms
+- 📋   • Tamanho da resposta: 340,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (439ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 439ms
+- 📋   • Tamanho da resposta: 192,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 5,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 9,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 19,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (342ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 342ms
+- 📋   • Tamanho da resposta: 145,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (573ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 573ms
+- 📋   • Tamanho da resposta: 191,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 136,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 80,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 63,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 51,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1208ms
+- 📋   • Tamanho da resposta: 861,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2189ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1862ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1868ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1490ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1285ms
+- 📋   • Tamanho da resposta: 965,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 5,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 227,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (491ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 491ms
+- 📋   • Tamanho da resposta: 291,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (604ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 604ms
+- 📋   • Tamanho da resposta: 425,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (574ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 574ms
+- 📋   • Tamanho da resposta: 384,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (552ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 552ms
+- 📋   • Tamanho da resposta: 297,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (514ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 514ms
+- 📋   • Tamanho da resposta: 283,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (435ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 435ms
+- 📋   • Tamanho da resposta: 285,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (615ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 615ms
+- 📋   • Tamanho da resposta: 391,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (662ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 662ms
+- 📋   • Tamanho da resposta: 399,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (595ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 595ms
+- 📋   • Tamanho da resposta: 444,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (668ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 668ms
+- 📋   • Tamanho da resposta: 358,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 262,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 122,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 95,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (407ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 407ms
+- 📋   • Tamanho da resposta: 299,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (634ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 634ms
+- 📋   • Tamanho da resposta: 452,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (436ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 436ms
+- 📋   • Tamanho da resposta: 189,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (457ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 457ms
+- 📋   • Tamanho da resposta: 379,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (900ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 900ms
+- 📋   • Tamanho da resposta: 609,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (624ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 624ms
+- 📋   • Tamanho da resposta: 471,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (568ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 568ms
+- 📋   • Tamanho da resposta: 496,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (766ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 766ms
+- 📋   • Tamanho da resposta: 491,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (627ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 627ms
+- 📋   • Tamanho da resposta: 530,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (335ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 335ms
+- 📋   • Tamanho da resposta: 139,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 155,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 280,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:53 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 15:08:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (585ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 585ms
+- 📋   • Tamanho da resposta: 341,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (487ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 487ms
+- 📋   • Tamanho da resposta: 300,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (517ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 517ms
+- 📋   • Tamanho da resposta: 280,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 100,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (473ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 473ms
+- 📋   • Tamanho da resposta: 242,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 140,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (362ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 362ms
+- 📋   • Tamanho da resposta: 191,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 148,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 131,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 185,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (514ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 514ms
+- 📋   • Tamanho da resposta: 336,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:08:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (511ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 511ms
+- 📋   • Tamanho da resposta: 297,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 288,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (406ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 406ms
+- 📋   • Tamanho da resposta: 283,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 227,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (552ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 552ms
+- 📋   • Tamanho da resposta: 376,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (855ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 855ms
+- 📋   • Tamanho da resposta: 636,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (922ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 922ms
+- 📋   • Tamanho da resposta: 666,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (805ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 805ms
+- 📋   • Tamanho da resposta: 773,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (824ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 824ms
+- 📋   • Tamanho da resposta: 710,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (776ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 776ms
+- 📋   • Tamanho da resposta: 545,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 108,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (345ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 345ms
+- 📋   • Tamanho da resposta: 204,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 246,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 258,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (389ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 389ms
+- 📋   • Tamanho da resposta: 229,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (549ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 549ms
+- 📋   • Tamanho da resposta: 236,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 57,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 59,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 117,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (305ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 305ms
+- 📋   • Tamanho da resposta: 183,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 147,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1607ms
+- 📋   • Tamanho da resposta: 282,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (351ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 351ms
+- 📋   • Tamanho da resposta: 207,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (446ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 446ms
+- 📋   • Tamanho da resposta: 327,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 333,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 403,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (479ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 479ms
+- 📋   • Tamanho da resposta: 375,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 297,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (360ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 360ms
+- 📋   • Tamanho da resposta: 166,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (750ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 750ms
+- 📋   • Tamanho da resposta: 302,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 256,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (455ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 455ms
+- 📋   • Tamanho da resposta: 249,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (524ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 524ms
+- 📋   • Tamanho da resposta: 238,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 206,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (513ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 513ms
+- 📋   • Tamanho da resposta: 392,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (772ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 772ms
+- 📋   • Tamanho da resposta: 617,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (935ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 935ms
+- 📋   • Tamanho da resposta: 776,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1346ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1114ms
+- 📋   • Tamanho da resposta: 972,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1209ms
+- 📋   • Tamanho da resposta: 874,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 77,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 161,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (400ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 400ms
+- 📋   • Tamanho da resposta: 152,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (352ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 352ms
+- 📋   • Tamanho da resposta: 205,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 177,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 131,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (569ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 569ms
+- 📋   • Tamanho da resposta: 304,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (934ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 934ms
+- 📋   • Tamanho da resposta: 585,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (743ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 743ms
+- 📋   • Tamanho da resposta: 624,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (842ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 842ms
+- 📋   • Tamanho da resposta: 642,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (559ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 559ms
+- 📋   • Tamanho da resposta: 495,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (610ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 610ms
+- 📋   • Tamanho da resposta: 525,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1493ms
+- 📋   • Tamanho da resposta: 924,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2844ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1342ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1171ms
+- 📋   • Tamanho da resposta: 991,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (615ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 615ms
+- 📋   • Tamanho da resposta: 607,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 512,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 12,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 12,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 12,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 12,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 55,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 11,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 181,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (419ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 419ms
+- 📋   • Tamanho da resposta: 338,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (403ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 403ms
+- 📋   • Tamanho da resposta: 262,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 215,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (418ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 418ms
+- 📋   • Tamanho da resposta: 214,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 145,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 981 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 17,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 14,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 13,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 14,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 108,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 134,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 142,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 130,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 105,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (919ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 919ms
+- 📋   • Tamanho da resposta: 472,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1553ms
+- 📋   • Tamanho da resposta: 605,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (706ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 706ms
+- 📋   • Tamanho da resposta: 551,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (873ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 873ms
+- 📋   • Tamanho da resposta: 551,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (620ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 620ms
+- 📋   • Tamanho da resposta: 478,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (541ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 541ms
+- 📋   • Tamanho da resposta: 404,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 81,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:09:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (856ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 856ms
+- 📋   • Tamanho da resposta: 733,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 147,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 93,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (302ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 302ms
+- 📋   • Tamanho da resposta: 140,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 241,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 317,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (500ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 500ms
+- 📋   • Tamanho da resposta: 386,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (547ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 547ms
+- 📋   • Tamanho da resposta: 442,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (443ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 443ms
+- 📋   • Tamanho da resposta: 324,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 290,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 172,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (355ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 355ms
+- 📋   • Tamanho da resposta: 208,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 66,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (510ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 510ms
+- 📋   • Tamanho da resposta: 313,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (715ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 715ms
+- 📋   • Tamanho da resposta: 500,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (732ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 732ms
+- 📋   • Tamanho da resposta: 426,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 413,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (776ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 776ms
+- 📋   • Tamanho da resposta: 415,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (523ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 523ms
+- 📋   • Tamanho da resposta: 367,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 35,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 72,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 144,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (324ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 324ms
+- 📋   • Tamanho da resposta: 179,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (370ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 370ms
+- 📋   • Tamanho da resposta: 98,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 50,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 37,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 20,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 52,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 23,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (866ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 866ms
+- 📋   • Tamanho da resposta: 609,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1059ms
+- 📋   • Tamanho da resposta: 852,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (858ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 858ms
+- 📋   • Tamanho da resposta: 703,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (722ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 722ms
+- 📋   • Tamanho da resposta: 618,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (767ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 767ms
+- 📋   • Tamanho da resposta: 585,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (781ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 781ms
+- 📋   • Tamanho da resposta: 623,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 171,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (484ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 484ms
+- 📋   • Tamanho da resposta: 335,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (439ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 439ms
+- 📋   • Tamanho da resposta: 285,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (583ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 583ms
+- 📋   • Tamanho da resposta: 260,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:22 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (467ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 467ms
+- 📋   • Tamanho da resposta: 331,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 10,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 17,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 924 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (983ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 983ms
+- 📋   • Tamanho da resposta: 826,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1814ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1472ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1761ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1450ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1785ms
+- 📋   • Tamanho da resposta: 1019,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (358ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 358ms
+- 📋   • Tamanho da resposta: 223,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (513ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 513ms
+- 📋   • Tamanho da resposta: 369,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (471ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 471ms
+- 📋   • Tamanho da resposta: 360,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (409ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 409ms
+- 📋   • Tamanho da resposta: 329,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (414ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 414ms
+- 📋   • Tamanho da resposta: 317,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (447ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 447ms
+- 📋   • Tamanho da resposta: 321,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 9,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 12,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 5,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 10,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 5,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (336ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 336ms
+- 📋   • Tamanho da resposta: 239,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (678ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 678ms
+- 📋   • Tamanho da resposta: 308,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (602ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 602ms
+- 📋   • Tamanho da resposta: 419,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (468ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 468ms
+- 📋   • Tamanho da resposta: 339,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (506ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 506ms
+- 📋   • Tamanho da resposta: 403,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (434ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 434ms
+- 📋   • Tamanho da resposta: 318,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 282,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 60,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 97,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 45,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 61,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 61,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 68,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 57,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 91,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 87,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 9,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:10:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+
+
+## 15:02:47 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 199454 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (1m 39s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 199454
+- 📋   • Tempo de persistência: 99908ms
+- 📋   • Tabela: consumer_sefaz.empenho
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 199454 registros | Tempo total: 9m 39s**
+
+
+## 15:02:47 | Execução Específica - Empenho
+- 🔄 Processando Empenhos...
+- ✅ 199454 registros de Empenho processados (9m 39s)
+- ⏱️ **Processamento de Empenho concluído com sucesso | Tempo total: 9m 39s**
+- 📋 Total de registros: 199454
+- 📋 Tempo de execução: 579706ms
+
