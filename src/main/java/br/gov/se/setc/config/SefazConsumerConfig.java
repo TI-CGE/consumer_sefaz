@@ -3,6 +3,7 @@ package br.gov.se.setc.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.client.RestTemplate;
 
@@ -71,8 +72,25 @@ public class SefazConsumerConfig {
     @Bean("sefazRestTemplate")
     @Primary
     public RestTemplate restTemplate() {
-        logger.info("Creating primary SEFAZ RestTemplate bean");
-        return new RestTemplate();
+        logger.info("Creating primary SEFAZ RestTemplate bean with enhanced configuration");
+
+        // Configurar cliente HTTP com timeouts e pool de conexões
+        SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
+
+        // Timeouts mais conservadores para evitar connection reset
+        factory.setConnectTimeout(15000); // 15 segundos para conectar
+        factory.setReadTimeout(30000);    // 30 segundos para ler resposta
+
+        RestTemplate restTemplate = new RestTemplate(factory);
+
+        // Adicionar interceptor para logging de requisições
+        restTemplate.getInterceptors().add((request, body, execution) -> {
+            logger.info("HTTP Request: " + request.getMethod() + " " + request.getURI());
+            return execution.execute(request, body);
+        });
+
+        logger.info("RestTemplate configured with connect timeout: 15s, read timeout: 30s");
+        return restTemplate;
     }
 
     @Bean("unidadeGestoraConsumoApiService")

@@ -37870,3 +37870,9565 @@
 ## 11:12:31 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
+
+## 11:13:28 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:14:11 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:14:27 | ❌ ERRO em SECURITY
+- 🚨 **Erro**: GET_TOKEN
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: a49392b6
+
+
+
+## 11:14:27 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: 79e829ad
+
+
+
+## 11:14:17 | Consumo de Pagamentos
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📋 Tempo até falha: 10186ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 10,2s**
+
+
+## 11:14:27 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: 419d0e6c
+
+
+
+## 11:14:17 | Execução Específica - Pagamento
+- 📋 Iniciando consumo específico de Pagamentos da SEFAZ
+- 📋 Correlation ID: a49392b6
+- 🔄 Processando Pagamentos...
+- ❌ Falha no processamento de Pagamentos: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- ⏱️ **Total: 0 registros | Tempo total: 10,2s**
+
+
+## 11:14:48 | ❌ ERRO em SECURITY
+- 🚨 **Erro**: GET_TOKEN
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: 0d426dcb
+
+
+
+## 11:14:48 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: 4ffe017a
+
+
+
+## 11:14:37 | Consumo de Pagamentos
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📋 Tempo até falha: 10152ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 10,2s**
+
+
+## 11:14:48 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: RuntimeException
+- 📋 **Detalhes**: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- 📍 **Local**: br.gov.se.setc.tokenSefaz.service.AcessoTokenService.requestNewToken(AcessoTokenService.java:135)
+- 🔗 **Correlation ID**: c49415cf
+
+
+
+## 11:14:37 | Execução Específica - Pagamento
+- 📋 Iniciando consumo específico de Pagamentos da SEFAZ
+- 📋 Correlation ID: 0d426dcb
+- 🔄 Processando Pagamentos...
+- ❌ Falha no processamento de Pagamentos: Erro ao obter token: I/O error on POST request for "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token": Connection reset
+- ⏱️ **Total: 0 registros | Tempo total: 10,2s**
+
+
+## 11:22:57 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:23:32 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:25:54 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:27:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (8,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8227ms
+- 📋   • Tamanho da resposta: 336,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 11:27:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2986ms
+- 📋   • Tamanho da resposta: 4,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2661ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (759ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 759ms
+- 📋   • Tamanho da resposta: 565,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 215,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (6,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6503ms
+- 📋   • Tamanho da resposta: 8,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 11:27:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 273,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (679ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 679ms
+- 📋   • Tamanho da resposta: 1023,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 119,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (309ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 309ms
+- 📋   • Tamanho da resposta: 283,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 66,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 102,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 142,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (681ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 681ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 173,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (381ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 381ms
+- 📋   • Tamanho da resposta: 219,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 212,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (762ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 762ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (327ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 327ms
+- 📋   • Tamanho da resposta: 495,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (571ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 571ms
+- 📋   • Tamanho da resposta: 496,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 122,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (520ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 520ms
+- 📋   • Tamanho da resposta: 329,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 358,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 309,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 391,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 446,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 121,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 80,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 159,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 228,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (470ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 470ms
+- 📋   • Tamanho da resposta: 826,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 212,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:27:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (340ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 340ms
+- 📋   • Tamanho da resposta: 296,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 727,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 63,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 187,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 866 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 106,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (863ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 863ms
+- 📋   • Tamanho da resposta: 731,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 185,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 226,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (343ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 343ms
+- 📋   • Tamanho da resposta: 310,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (343ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 343ms
+- 📋   • Tamanho da resposta: 305,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 33,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 659,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (552ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 552ms
+- 📋   • Tamanho da resposta: 688,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (599ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 599ms
+- 📋   • Tamanho da resposta: 939,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (275ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 275ms
+- 📋   • Tamanho da resposta: 225,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 333,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 238,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 134,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 136,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:28:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 929 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:26:55 | Consumo de Pagamentos
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔄 Iniciando consumo de dados...
+- ✅ 36631 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (26,1s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 36631
+- 📋   • Tempo de persistência: 26140ms
+- 📋   • Tabela: consumer_sefaz.pagamento
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 36631 registros | Tempo total: 1m 45s**
+
+
+## 11:26:55 | Execução Específica - Pagamento
+- 📋 Iniciando consumo específico de Pagamentos da SEFAZ
+- 📋 Correlation ID: 57244421
+- 🔄 Processando Pagamentos...
+- ✅ 36631 registros de Pagamento processados (1m 45s)
+- 📋 📊 Estatísticas de processamento:
+- 📋   • Pagamentos: 36631
+- ⚠️ Execução demorou mais que 15 segundos
+- ⏱️ **Total: 36631 registros | Tempo total: 1m 45s**
+
+
+## 11:35:20 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:38:21 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:39:50 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:40:29 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:40:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (759ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 759ms
+- 📋   • Tamanho da resposta: 336,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (608ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 608ms
+- 📋   • Tamanho da resposta: 752,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (483ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 483ms
+- 📋   • Tamanho da resposta: 654,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 607,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (470ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 470ms
+- 📋   • Tamanho da resposta: 557,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (488ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 488ms
+- 📋   • Tamanho da resposta: 535,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3255ms
+- 📋   • Tamanho da resposta: 4,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4195ms
+- 📋   • Tamanho da resposta: 7,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4491ms
+- 📋   • Tamanho da resposta: 6,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3812ms
+- 📋   • Tamanho da resposta: 6,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2387ms
+- 📋   • Tamanho da resposta: 4,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1699ms
+- 📋   • Tamanho da resposta: 3,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2024ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:41:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3664ms
+- 📋   • Tamanho da resposta: 5,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2201ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2221ms
+- 📋   • Tamanho da resposta: 3,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1622ms
+- 📋   • Tamanho da resposta: 3,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1448ms
+- 📋   • Tamanho da resposta: 3,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (449ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 449ms
+- 📋   • Tamanho da resposta: 565,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (866ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 866ms
+- 📋   • Tamanho da resposta: 904,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (822ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 822ms
+- 📋   • Tamanho da resposta: 898,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (585ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 585ms
+- 📋   • Tamanho da resposta: 993,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (511ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 511ms
+- 📋   • Tamanho da resposta: 824,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (632ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 632ms
+- 📋   • Tamanho da resposta: 779,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (274ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 274ms
+- 📋   • Tamanho da resposta: 215,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 374,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 309,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 391,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 301,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (274ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 274ms
+- 📋   • Tamanho da resposta: 284,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 94,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 39,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4532ms
+- 📋   • Tamanho da resposta: 8,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:42:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (6,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6460ms
+- 📋   • Tamanho da resposta: 12,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 11:43:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4523ms
+- 📋   • Tamanho da resposta: 8,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (5,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5410ms
+- 📋   • Tamanho da resposta: 9,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 11:43:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4068ms
+- 📋   • Tamanho da resposta: 6,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2873ms
+- 📋   • Tamanho da resposta: 5,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:43:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 273,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (542ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 542ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 58,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 96,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 361,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (719ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 719ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (615ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 615ms
+- 📋   • Tamanho da resposta: 1023,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (930ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 930ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (690ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 690ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (662ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 662ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (657ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 657ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (133ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 133ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 910 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 7,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 6,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 119,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 274,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 208,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 339,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 350,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (283ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 283ms
+- 📋   • Tamanho da resposta: 366,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (338ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 338ms
+- 📋   • Tamanho da resposta: 283,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (356ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 356ms
+- 📋   • Tamanho da resposta: 452,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (287ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 287ms
+- 📋   • Tamanho da resposta: 426,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 378,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (518ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 518ms
+- 📋   • Tamanho da resposta: 301,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 299,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 66,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 109,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 97,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 118,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 83,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 89,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 103,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 193,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 182,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 169,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (295ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 295ms
+- 📋   • Tamanho da resposta: 158,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (490ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 490ms
+- 📋   • Tamanho da resposta: 142,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (285ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 285ms
+- 📋   • Tamanho da resposta: 160,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 159,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 145,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 149,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 119,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (769ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 769ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (847ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 847ms
+- 📋   • Tamanho da resposta: 1,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (582ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 582ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (350ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 350ms
+- 📋   • Tamanho da resposta: 531,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (317ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 317ms
+- 📋   • Tamanho da resposta: 364,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 1,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 173,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 40,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 6,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 10,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (463ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 463ms
+- 📋   • Tamanho da resposta: 219,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (343ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 343ms
+- 📋   • Tamanho da resposta: 281,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (553ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 553ms
+- 📋   • Tamanho da resposta: 385,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (607ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 607ms
+- 📋   • Tamanho da resposta: 521,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 214,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 135,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (385ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 385ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 19,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 213,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 328,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 203,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 137,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 120,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 93,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (37ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 37ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (36ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 36ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (681ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 681ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:44:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1398ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (731ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 731ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (700ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 700ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (622ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 622ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (482ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 482ms
+- 📋   • Tamanho da resposta: 913,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 6,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (37ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 37ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 495,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (436ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 436ms
+- 📋   • Tamanho da resposta: 802,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (522ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 522ms
+- 📋   • Tamanho da resposta: 938,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (521ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 521ms
+- 📋   • Tamanho da resposta: 788,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (354ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 354ms
+- 📋   • Tamanho da resposta: 634,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 634,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (362ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 362ms
+- 📋   • Tamanho da resposta: 496,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (599ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 599ms
+- 📋   • Tamanho da resposta: 786,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (493ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 493ms
+- 📋   • Tamanho da resposta: 709,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (481ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 481ms
+- 📋   • Tamanho da resposta: 728,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (470ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 470ms
+- 📋   • Tamanho da resposta: 576,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (617ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 617ms
+- 📋   • Tamanho da resposta: 488,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (133ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 133ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 122,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 90,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (298ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 298ms
+- 📋   • Tamanho da resposta: 329,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (362ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 362ms
+- 📋   • Tamanho da resposta: 533,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (283ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 283ms
+- 📋   • Tamanho da resposta: 240,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (302ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 302ms
+- 📋   • Tamanho da resposta: 358,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (419ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 419ms
+- 📋   • Tamanho da resposta: 676,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 471,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (587ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 587ms
+- 📋   • Tamanho da resposta: 519,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (351ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 351ms
+- 📋   • Tamanho da resposta: 465,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (349ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 349ms
+- 📋   • Tamanho da resposta: 516,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 106,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 309,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 752,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (291ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 291ms
+- 📋   • Tamanho da resposta: 352,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (286ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 286ms
+- 📋   • Tamanho da resposta: 395,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 290,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 223,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (374ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 374ms
+- 📋   • Tamanho da resposta: 391,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (393ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 393ms
+- 📋   • Tamanho da resposta: 553,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 212,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 282,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 180,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 143,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 374,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (311ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 311ms
+- 📋   • Tamanho da resposta: 268,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 285,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (275ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 275ms
+- 📋   • Tamanho da resposta: 276,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 226,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (337ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 337ms
+- 📋   • Tamanho da resposta: 446,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 558,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (593ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 593ms
+- 📋   • Tamanho da resposta: 619,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (420ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 420ms
+- 📋   • Tamanho da resposta: 719,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (382ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 382ms
+- 📋   • Tamanho da resposta: 660,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (340ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 340ms
+- 📋   • Tamanho da resposta: 467,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 121,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 208,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 233,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 246,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (453ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 453ms
+- 📋   • Tamanho da resposta: 230,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 256,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 80,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 119,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 99,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 165,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 136,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 332,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 159,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (323ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 323ms
+- 📋   • Tamanho da resposta: 363,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 287,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:45:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (334ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 334ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 310,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 228,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (324ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 324ms
+- 📋   • Tamanho da resposta: 421,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (390ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 390ms
+- 📋   • Tamanho da resposta: 354,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (387ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 387ms
+- 📋   • Tamanho da resposta: 290,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 252,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (276ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 276ms
+- 📋   • Tamanho da resposta: 233,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (454ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 454ms
+- 📋   • Tamanho da resposta: 826,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (508ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 508ms
+- 📋   • Tamanho da resposta: 938,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (694ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 694ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (704ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 704ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (545ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 545ms
+- 📋   • Tamanho da resposta: 1022,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (482ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 482ms
+- 📋   • Tamanho da resposta: 866,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (333ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 333ms
+- 📋   • Tamanho da resposta: 212,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (427ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 427ms
+- 📋   • Tamanho da resposta: 311,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 192,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (354ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 354ms
+- 📋   • Tamanho da resposta: 172,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 239,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 151,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (550ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 550ms
+- 📋   • Tamanho da resposta: 296,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (384ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 384ms
+- 📋   • Tamanho da resposta: 507,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 586,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 575,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (558ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 558ms
+- 📋   • Tamanho da resposta: 469,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 470,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (479ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 479ms
+- 📋   • Tamanho da resposta: 727,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (760ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 760ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (781ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 781ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (838ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 838ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1240ms
+- 📋   • Tamanho da resposta: 790,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (459ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 459ms
+- 📋   • Tamanho da resposta: 590,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 13,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 9,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 63,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 187,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (335ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 335ms
+- 📋   • Tamanho da resposta: 435,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (302ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 302ms
+- 📋   • Tamanho da resposta: 227,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 216,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (330ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 330ms
+- 📋   • Tamanho da resposta: 285,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 131,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 866 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 954 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 106,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 204,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 155,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 170,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 151,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 145,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 731,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (725ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 725ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (449ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 449ms
+- 📋   • Tamanho da resposta: 640,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (501ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 501ms
+- 📋   • Tamanho da resposta: 740,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 573,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (425ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 425ms
+- 📋   • Tamanho da resposta: 528,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 185,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (353ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 353ms
+- 📋   • Tamanho da resposta: 495,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 94,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 85,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 226,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (348ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 348ms
+- 📋   • Tamanho da resposta: 417,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (335ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 335ms
+- 📋   • Tamanho da resposta: 325,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (347ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 347ms
+- 📋   • Tamanho da resposta: 373,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (317ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 317ms
+- 📋   • Tamanho da resposta: 280,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 244,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 310,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (287ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 287ms
+- 📋   • Tamanho da resposta: 229,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 78,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (337ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 337ms
+- 📋   • Tamanho da resposta: 305,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (408ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 408ms
+- 📋   • Tamanho da resposta: 605,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 411,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (334ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 334ms
+- 📋   • Tamanho da resposta: 403,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (331ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 331ms
+- 📋   • Tamanho da resposta: 383,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (372ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 372ms
+- 📋   • Tamanho da resposta: 358,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 33,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 114,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 172,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 213,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 106,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 42,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 42,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 26,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 50,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (557ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 557ms
+- 📋   • Tamanho da resposta: 659,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (798ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 798ms
+- 📋   • Tamanho da resposta: 1011,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (457ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 457ms
+- 📋   • Tamanho da resposta: 681,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (416ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 416ms
+- 📋   • Tamanho da resposta: 607,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (489ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 489ms
+- 📋   • Tamanho da resposta: 557,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 522,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (751ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 751ms
+- 📋   • Tamanho da resposta: 688,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (568ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 568ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (725ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 725ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (625ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 625ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (588ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 588ms
+- 📋   • Tamanho da resposta: 918,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (521ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 521ms
+- 📋   • Tamanho da resposta: 791,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 15,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 29,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (553ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 553ms
+- 📋   • Tamanho da resposta: 939,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (981ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 981ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (754ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 754ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (735ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 735ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (599ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 599ms
+- 📋   • Tamanho da resposta: 946,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (654ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 654ms
+- 📋   • Tamanho da resposta: 921,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 231,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (347ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 347ms
+- 📋   • Tamanho da resposta: 373,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 324,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 306,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (283ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 283ms
+- 📋   • Tamanho da resposta: 300,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 310,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 16,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (346ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 346ms
+- 📋   • Tamanho da resposta: 333,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 238,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (328ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 328ms
+- 📋   • Tamanho da resposta: 363,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (316ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 316ms
+- 📋   • Tamanho da resposta: 323,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (540ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 540ms
+- 📋   • Tamanho da resposta: 404,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 290,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 261,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 134,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 301,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 220,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 157,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 99,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (401ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 401ms
+- 📋   • Tamanho da resposta: 222,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 91,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 929 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (169ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 169ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 1021 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 11:40:38 | Consumo de Pagamentos
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔄 Iniciando consumo de dados...
+- ✅ 242759 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (2m 14s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 242759
+- 📋   • Tempo de persistência: 134148ms
+- 📋   • Tabela: consumer_sefaz.pagamento
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 242759 registros | Tempo total: 9m 31s**
+
+
+## 11:40:38 | Execução Específica - Pagamento
+- 📋 Iniciando consumo específico de Pagamentos da SEFAZ
+- 📋 Correlation ID: 46ed384a
+- 🔄 Processando Pagamentos...
+- ✅ 242759 registros de Pagamento processados (9m 31s)
+- 📋 📊 Estatísticas de processamento:
+- 📋   • Pagamentos: 242759
+- ⚠️ Execução demorou mais que 15 segundos
+- ⏱️ **Total: 242759 registros | Tempo total: 9m 31s**
+
+
+## 11:54:43 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:54:54 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:54:57 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:56:13 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 11:59:51 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 12:00:02 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 12:00:53 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 12:00:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2032ms
+- 📋   • Tamanho da resposta: 336,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (578ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 578ms
+- 📋   • Tamanho da resposta: 752,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (454ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 454ms
+- 📋   • Tamanho da resposta: 654,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (899ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 899ms
+- 📋   • Tamanho da resposta: 607,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (501ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 501ms
+- 📋   • Tamanho da resposta: 557,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 535,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2581ms
+- 📋   • Tamanho da resposta: 4,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4271ms
+- 📋   • Tamanho da resposta: 7,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3630ms
+- 📋   • Tamanho da resposta: 6,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3436ms
+- 📋   • Tamanho da resposta: 6,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2648ms
+- 📋   • Tamanho da resposta: 4,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1488ms
+- 📋   • Tamanho da resposta: 3,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2523ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4010ms
+- 📋   • Tamanho da resposta: 5,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:01:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2534ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3416ms
+- 📋   • Tamanho da resposta: 3,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1738ms
+- 📋   • Tamanho da resposta: 3,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1584ms
+- 📋   • Tamanho da resposta: 3,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (511ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 511ms
+- 📋   • Tamanho da resposta: 565,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (600ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 600ms
+- 📋   • Tamanho da resposta: 904,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (514ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 514ms
+- 📋   • Tamanho da resposta: 898,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (818ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 818ms
+- 📋   • Tamanho da resposta: 993,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (736ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 736ms
+- 📋   • Tamanho da resposta: 824,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (589ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 589ms
+- 📋   • Tamanho da resposta: 779,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 215,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (344ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 344ms
+- 📋   • Tamanho da resposta: 374,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (668ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 668ms
+- 📋   • Tamanho da resposta: 309,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (309ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 309ms
+- 📋   • Tamanho da resposta: 391,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 301,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 284,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (370ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 370ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 94,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 39,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (155ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 155ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:02:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (5,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5210ms
+- 📋   • Tamanho da resposta: 8,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 12:02:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (6,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6161ms
+- 📋   • Tamanho da resposta: 12,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 12:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (6,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6319ms
+- 📋   • Tamanho da resposta: 8,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 12:02:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (6,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6180ms
+- 📋   • Tamanho da resposta: 9,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 12:03:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3398ms
+- 📋   • Tamanho da resposta: 6,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3313ms
+- 📋   • Tamanho da resposta: 5,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (887ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 887ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (949ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 949ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 273,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (798ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 798ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 58,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 96,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (287ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 287ms
+- 📋   • Tamanho da resposta: 361,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (858ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 858ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1018ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (742ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 742ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (652ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 652ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (652ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 652ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (667ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 667ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (639ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 639ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 910 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 7,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 6,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 119,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 274,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 208,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 339,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (887ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 887ms
+- 📋   • Tamanho da resposta: 350,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 366,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 283,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (624ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 624ms
+- 📋   • Tamanho da resposta: 452,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 426,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (350ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 350ms
+- 📋   • Tamanho da resposta: 378,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 301,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 299,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 66,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 109,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 97,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 118,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 83,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 89,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 103,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (508ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 508ms
+- 📋   • Tamanho da resposta: 193,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 182,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 169,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 158,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 142,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 160,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 159,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 145,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 149,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 119,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (851ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 851ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (887ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 887ms
+- 📋   • Tamanho da resposta: 1,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (679ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 679ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (571ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 571ms
+- 📋   • Tamanho da resposta: 531,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 364,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (413ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 413ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 1,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 173,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 40,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 6,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 10,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (307ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 307ms
+- 📋   • Tamanho da resposta: 219,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (404ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 404ms
+- 📋   • Tamanho da resposta: 281,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (373ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 373ms
+- 📋   • Tamanho da resposta: 385,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 521,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 214,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 135,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (125ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 125ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 19,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 214,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 328,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 203,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 137,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 120,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 93,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1958ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1259ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (677ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 677ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (941ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 941ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (527ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 527ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (521ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 521ms
+- 📋   • Tamanho da resposta: 913,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 6,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (37ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 37ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (459ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 459ms
+- 📋   • Tamanho da resposta: 495,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 802,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (569ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 569ms
+- 📋   • Tamanho da resposta: 938,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (451ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 451ms
+- 📋   • Tamanho da resposta: 788,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (349ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 349ms
+- 📋   • Tamanho da resposta: 634,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (414ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 414ms
+- 📋   • Tamanho da resposta: 634,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 496,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (481ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 481ms
+- 📋   • Tamanho da resposta: 786,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (461ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 461ms
+- 📋   • Tamanho da resposta: 709,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (483ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 483ms
+- 📋   • Tamanho da resposta: 728,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (431ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 431ms
+- 📋   • Tamanho da resposta: 576,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (384ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 384ms
+- 📋   • Tamanho da resposta: 488,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 122,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 90,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 329,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 533,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 240,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 360,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 676,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 471,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1018ms
+- 📋   • Tamanho da resposta: 519,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 465,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (332ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 332ms
+- 📋   • Tamanho da resposta: 516,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 106,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 309,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (413ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 413ms
+- 📋   • Tamanho da resposta: 752,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (266ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 266ms
+- 📋   • Tamanho da resposta: 352,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (312ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 312ms
+- 📋   • Tamanho da resposta: 395,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 290,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 223,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1873ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (359ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 359ms
+- 📋   • Tamanho da resposta: 391,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (589ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 589ms
+- 📋   • Tamanho da resposta: 553,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 212,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 282,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 180,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 143,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 184,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (335ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 335ms
+- 📋   • Tamanho da resposta: 374,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (344ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 344ms
+- 📋   • Tamanho da resposta: 268,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 285,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 276,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 226,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 447,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (561ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 561ms
+- 📋   • Tamanho da resposta: 558,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (451ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 451ms
+- 📋   • Tamanho da resposta: 619,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (573ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 573ms
+- 📋   • Tamanho da resposta: 719,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (407ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 407ms
+- 📋   • Tamanho da resposta: 660,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 467,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 121,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (636ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 636ms
+- 📋   • Tamanho da resposta: 208,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 233,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 246,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 230,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 256,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 80,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 119,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (251ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 251ms
+- 📋   • Tamanho da resposta: 99,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 165,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 136,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 332,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 159,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (474ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 474ms
+- 📋   • Tamanho da resposta: 363,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 287,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (334ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 334ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (330ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 330ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (291ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 291ms
+- 📋   • Tamanho da resposta: 310,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (275ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 275ms
+- 📋   • Tamanho da resposta: 228,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 421,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (363ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 363ms
+- 📋   • Tamanho da resposta: 354,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (342ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 342ms
+- 📋   • Tamanho da resposta: 290,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 252,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (316ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 316ms
+- 📋   • Tamanho da resposta: 233,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (616ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 616ms
+- 📋   • Tamanho da resposta: 826,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (519ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 519ms
+- 📋   • Tamanho da resposta: 938,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (886ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 886ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (818ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 818ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (559ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 559ms
+- 📋   • Tamanho da resposta: 1022,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 866,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2773ms
+- 📋   • Tamanho da resposta: 212,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 311,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (331ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 331ms
+- 📋   • Tamanho da resposta: 192,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 172,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (546ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 546ms
+- 📋   • Tamanho da resposta: 239,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (344ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 344ms
+- 📋   • Tamanho da resposta: 151,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 296,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (385ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 385ms
+- 📋   • Tamanho da resposta: 507,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (398ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 398ms
+- 📋   • Tamanho da resposta: 586,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (592ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 592ms
+- 📋   • Tamanho da resposta: 575,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (360ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 360ms
+- 📋   • Tamanho da resposta: 469,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 470,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (589ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 589ms
+- 📋   • Tamanho da resposta: 728,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (767ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 767ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (782ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 782ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (446ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 446ms
+- 📋   • Tamanho da resposta: 790,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (396ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 396ms
+- 📋   • Tamanho da resposta: 590,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 13,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 9,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 63,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 187,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 435,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 227,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (276ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 276ms
+- 📋   • Tamanho da resposta: 216,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 285,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 131,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 866 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 954 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 106,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 204,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 155,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 170,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 151,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 145,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (521ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 521ms
+- 📋   • Tamanho da resposta: 731,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (653ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 653ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (424ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 424ms
+- 📋   • Tamanho da resposta: 640,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (550ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 550ms
+- 📋   • Tamanho da resposta: 740,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (632ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 632ms
+- 📋   • Tamanho da resposta: 573,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 528,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 185,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (614ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 614ms
+- 📋   • Tamanho da resposta: 495,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 94,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 85,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 226,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (640ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 640ms
+- 📋   • Tamanho da resposta: 417,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (357ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 357ms
+- 📋   • Tamanho da resposta: 325,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (351ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 351ms
+- 📋   • Tamanho da resposta: 373,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 280,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 244,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (554ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 554ms
+- 📋   • Tamanho da resposta: 310,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 229,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 78,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (340ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 340ms
+- 📋   • Tamanho da resposta: 305,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (480ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 480ms
+- 📋   • Tamanho da resposta: 605,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (583ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 583ms
+- 📋   • Tamanho da resposta: 411,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 403,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (352ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 352ms
+- 📋   • Tamanho da resposta: 383,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (544ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 544ms
+- 📋   • Tamanho da resposta: 358,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 33,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 114,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 172,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (589ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 589ms
+- 📋   • Tamanho da resposta: 213,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 106,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 42,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 42,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 26,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 50,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 659,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (603ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 603ms
+- 📋   • Tamanho da resposta: 1011,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (501ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 501ms
+- 📋   • Tamanho da resposta: 681,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (649ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 649ms
+- 📋   • Tamanho da resposta: 607,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 557,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (443ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 443ms
+- 📋   • Tamanho da resposta: 522,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 689,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (606ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 606ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:05:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (734ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 734ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (522ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 522ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (565ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 565ms
+- 📋   • Tamanho da resposta: 918,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (612ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 612ms
+- 📋   • Tamanho da resposta: 791,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 15,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 29,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (564ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 564ms
+- 📋   • Tamanho da resposta: 939,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (806ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 806ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (795ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 795ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (718ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 718ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (583ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 583ms
+- 📋   • Tamanho da resposta: 946,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (508ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 508ms
+- 📋   • Tamanho da resposta: 921,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 232,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 373,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 324,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 306,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 300,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 310,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (169ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 169ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (136ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 136ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (141ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 141ms
+- 📋   • Tamanho da resposta: 16,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (169ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 169ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 333,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 238,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 363,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (277ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 277ms
+- 📋   • Tamanho da resposta: 323,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (323ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 323ms
+- 📋   • Tamanho da resposta: 404,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 290,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 261,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 134,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 301,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 220,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 157,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 99,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 222,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 91,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 929 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (130ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 130ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 1021 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 12:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+

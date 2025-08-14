@@ -65,7 +65,7 @@ public class AcessoTokenService {
     }
 
     /**
-     * Solicita um novo token da API
+     * Solicita um novo token da API com retry automático
      */
     private String requestNewToken() {
         String clientId = "87f72053";
@@ -77,63 +77,101 @@ public class AcessoTokenService {
         MDCUtil.setComponent("SECURITY");
         MDCUtil.setOperation("GET_TOKEN");
 
-        long startTime = System.currentTimeMillis();
-
         // Log simples para usuário
         userFriendlyLogger.logAuthenticationStart();
 
         // Log técnico para arquivo
         unifiedLogger.logOperationStart("SECURITY", "GET_NEW_TOKEN", "CLIENT_ID", clientId, "URL", tokenUrl);
 
-        String body = "client_id=" + clientId + "&client_secret=" + clientSecret + "&grant_type=" + grantType;
+        // Implementar retry com backoff exponencial
+        int maxRetries = 3;
+        long baseDelay = 1000; // 1 segundo
 
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
+        for (int attempt = 1; attempt <= maxRetries; attempt++) {
+            long startTime = System.currentTimeMillis();
 
-        HttpEntity<String> entity = new HttpEntity<>(body, headers);
+            try {
+                String body = "client_id=" + clientId + "&client_secret=" + clientSecret + "&grant_type=" + grantType;
 
-        try {
-            ResponseEntity<String> response = restTemplate.exchange(
-                    tokenUrl,
-                    HttpMethod.POST,
-                    entity,
-                    String.class
-            );
+                HttpHeaders headers = new HttpHeaders();
+                headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
+                headers.set("User-Agent", "SEFAZ-Consumer/1.0");
+                headers.set("Connection", "close"); // Evitar problemas de keep-alive
 
-            long responseTime = System.currentTimeMillis() - startTime;
+                HttpEntity<String> entity = new HttpEntity<>(body, headers);
 
-            if (response.getStatusCode() == HttpStatus.OK) {
-                String token = extractToken(response.getBody());
+                unifiedLogger.logOperationStart("SECURITY", "TOKEN_REQUEST_ATTEMPT",
+                    "ATTEMPT", String.valueOf(attempt), "MAX_RETRIES", String.valueOf(maxRetries));
 
-                // Armazenar token em cache
-                cacheToken(token);
+                ResponseEntity<String> response = restTemplate.exchange(
+                        tokenUrl,
+                        HttpMethod.POST,
+                        entity,
+                        String.class
+                );
 
-                // Log simples para usuário
-                userFriendlyLogger.logAuthenticationSuccess();
+                long responseTime = System.currentTimeMillis() - startTime;
 
-                // Log técnico para arquivo
-                unifiedLogger.logAuthentication(clientId, tokenUrl, true, responseTime, MDCUtil.getCorrelationId());
+                if (response.getStatusCode() == HttpStatus.OK) {
+                    String token = extractToken(response.getBody());
 
-                return token;
-            } else {
-                // Log simples para usuário
-                userFriendlyLogger.logAuthenticationError();
+                    // Armazenar token em cache
+                    cacheToken(token);
 
-                // Log técnico para arquivo
-                unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
-                throw new RuntimeException("Erro ao obter token: " + response.getStatusCode());
+                    // Log simples para usuário
+                    userFriendlyLogger.logAuthenticationSuccess();
+
+                    // Log técnico para arquivo
+                    unifiedLogger.logAuthentication(clientId, tokenUrl, true, responseTime, MDCUtil.getCorrelationId());
+
+                    return token;
+                } else {
+                    String errorMsg = "HTTP " + response.getStatusCode() + " na tentativa " + attempt;
+                    RuntimeException httpError = new RuntimeException(errorMsg);
+                    unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_FAILED", responseTime, httpError,
+                        "ATTEMPT", String.valueOf(attempt), "STATUS", response.getStatusCode().toString());
+
+                    if (attempt == maxRetries) {
+                        userFriendlyLogger.logAuthenticationError();
+                        unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
+                        throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + response.getStatusCode());
+                    }
+                }
+
+            } catch (Exception e) {
+                long responseTime = System.currentTimeMillis() - startTime;
+
+                String errorMsg = "Erro na tentativa " + attempt + ": " + e.getMessage();
+                unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_EXCEPTION", responseTime, e,
+                    "ATTEMPT", String.valueOf(attempt), "ERROR", e.getClass().getSimpleName());
+
+                if (attempt == maxRetries) {
+                    // Log simples para usuário
+                    userFriendlyLogger.logAuthenticationError();
+
+                    // Log técnico para arquivo
+                    unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
+                    throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + e.getMessage(), e);
+                }
             }
 
-        } catch (Exception e) {
-            long responseTime = System.currentTimeMillis() - startTime;
+            // Aguardar antes da próxima tentativa (backoff exponencial)
+            if (attempt < maxRetries) {
+                long delay = baseDelay * (long) Math.pow(2, attempt - 1);
+                unifiedLogger.logOperationStart("SECURITY", "TOKEN_RETRY_DELAY",
+                    "DELAY_MS", String.valueOf(delay), "NEXT_ATTEMPT", String.valueOf(attempt + 1));
 
-            // Log simples para usuário
-            userFriendlyLogger.logAuthenticationError();
-
-            // Log técnico para arquivo
-            unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
-            throw new RuntimeException("Erro ao obter token: " + e.getMessage(), e);
+                try {
+                    Thread.sleep(delay);
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                    throw new RuntimeException("Interrompido durante retry de token", ie);
+                }
+            }
         }
+
+        // Este ponto nunca deve ser alcançado
+        throw new RuntimeException("Falha inesperada ao obter token");
     }
 
     /**
@@ -154,6 +192,76 @@ public class AcessoTokenService {
             return jsonNode.get("access_token").asText();
         } catch (Exception e) {
             throw new RuntimeException("Erro ao processar resposta do token", e);
+        }
+    }
+
+    /**
+     * Testa a conectividade com o servidor de autenticação
+     */
+    public boolean testConnectivity() {
+        String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
+        long startTime = System.currentTimeMillis();
+
+        try {
+            unifiedLogger.logOperationStart("SECURITY", "CONNECTIVITY_TEST", "URL", tokenUrl);
+
+            // Fazer uma requisição simples para testar conectividade
+            HttpHeaders headers = new HttpHeaders();
+            headers.set("User-Agent", "SEFAZ-Consumer/1.0");
+            HttpEntity<String> entity = new HttpEntity<>(headers);
+
+            ResponseEntity<String> response = restTemplate.exchange(
+                tokenUrl,
+                HttpMethod.POST,
+                entity,
+                String.class
+            );
+            long responseTime = System.currentTimeMillis() - startTime;
+
+            unifiedLogger.logOperationSuccess("SECURITY", "CONNECTIVITY_TEST",
+                responseTime, 1, "STATUS", response.getStatusCode().toString());
+
+            return true;
+
+        } catch (Exception e) {
+            long responseTime = System.currentTimeMillis() - startTime;
+            unifiedLogger.logOperationError("SECURITY", "CONNECTIVITY_TEST", responseTime, e,
+                "ERROR", e.getClass().getSimpleName(), "MESSAGE", e.getMessage());
+            return false;
+        }
+    }
+
+    /**
+     * Força a renovação do token (limpa cache e solicita novo)
+     */
+    public String forceTokenRenewal() {
+        unifiedLogger.logOperationStart("SECURITY", "FORCE_TOKEN_RENEWAL", "REASON", "MANUAL_REQUEST");
+
+        // Limpar cache
+        this.cachedToken = null;
+        this.tokenExpirationTime = 0;
+
+        // Solicitar novo token
+        return requestNewToken();
+    }
+
+    /**
+     * Retorna informações sobre o status do token
+     */
+    public String getTokenStatus() {
+        if (cachedToken == null) {
+            return "Token não existe em cache";
+        }
+
+        long currentTime = System.currentTimeMillis();
+        long timeUntilExpiration = tokenExpirationTime - currentTime;
+
+        if (timeUntilExpiration <= 0) {
+            return "Token expirado há " + Math.abs(timeUntilExpiration / 1000) + " segundos";
+        } else if (timeUntilExpiration <= TOKEN_REFRESH_BUFFER) {
+            return "Token expira em " + (timeUntilExpiration / 1000) + " segundos (dentro do buffer de renovação)";
+        } else {
+            return "Token válido por mais " + (timeUntilExpiration / 1000) + " segundos";
         }
     }
 }

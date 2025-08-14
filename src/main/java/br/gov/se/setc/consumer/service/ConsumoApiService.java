@@ -19,11 +19,13 @@ import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 
 import java.lang.reflect.Method;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
@@ -576,16 +578,32 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     /**
      * Uses reflection to find and invoke setter methods for JSON fields.
      * Supports multiple naming conventions and data types.
+     * Also considers @JsonProperty annotations to map field names correctly.
      */
     private void invocarSetterSeExistir(T dtoInstance, Class<?> dtoClass, String fieldName, JsonNode fieldValue) {
         try {
+            // First, try to find a field with @JsonProperty annotation that matches the fieldName
+            String targetSetterName = findSetterNameByJsonProperty(dtoClass, fieldName);
+
             // Try different setter naming conventions
-            String[] possibleSetterNames = {
-                "set" + capitalize(fieldName),                    // setFieldName
-                "set" + capitalize(toCamelCase(fieldName)),       // setFieldName (from snake_case)
-                "set" + fieldName,                               // setfieldName
-                "set" + fieldName.toUpperCase()                  // setFIELDNAME
-            };
+            String[] possibleSetterNames;
+            if (targetSetterName != null) {
+                // If we found a field with matching @JsonProperty, prioritize its setter
+                possibleSetterNames = new String[]{
+                    targetSetterName,
+                    "set" + capitalize(fieldName),                    // setFieldName
+                    "set" + capitalize(toCamelCase(fieldName)),       // setFieldName (from snake_case)
+                    "set" + fieldName,                               // setfieldName
+                    "set" + fieldName.toUpperCase()                  // setFIELDNAME
+                };
+            } else {
+                possibleSetterNames = new String[]{
+                    "set" + capitalize(fieldName),                    // setFieldName
+                    "set" + capitalize(toCamelCase(fieldName)),       // setFieldName (from snake_case)
+                    "set" + fieldName,                               // setfieldName
+                    "set" + fieldName.toUpperCase()                  // setFIELDNAME
+                };
+            }
 
             for (String setterName : possibleSetterNames) {
                 if (tryInvokeSetterWithValue(dtoInstance, dtoClass, setterName, fieldValue)) {
@@ -604,6 +622,26 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         } catch (Exception e) {
             logger.warning("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
         }
+    }
+
+    /**
+     * Finds the setter name for a field that has a @JsonProperty annotation matching the given fieldName.
+     */
+    private String findSetterNameByJsonProperty(Class<?> dtoClass, String fieldName) {
+        try {
+            Field[] fields = dtoClass.getDeclaredFields();
+            for (Field field : fields) {
+                JsonProperty jsonProperty = field.getAnnotation(JsonProperty.class);
+                if (jsonProperty != null && jsonProperty.value().equals(fieldName)) {
+                    // Found a field with matching @JsonProperty annotation
+                    String fieldNameInClass = field.getName();
+                    return "set" + capitalize(fieldNameInClass);
+                }
+            }
+        } catch (Exception e) {
+            logger.fine("Erro ao buscar campo com @JsonProperty: " + e.getMessage());
+        }
+        return null;
     }
 
     /**

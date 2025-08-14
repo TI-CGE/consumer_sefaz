@@ -8,6 +8,7 @@ import java.util.Map;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class PagamentoDTO extends EndpontSefaz {
     @JsonProperty("dtAnoExercicioCTB")
@@ -40,10 +41,10 @@ public class PagamentoDTO extends EndpontSefaz {
     @JsonProperty("sqEmpenho")
     private Long sqEmpenho;
 
-    @JsonProperty("sqOB")
+    @JsonProperty("sqOrdemBancaria")
     private Long sqOB;
 
-    @JsonProperty("cdNaturezaDespesaCompleta")
+    @JsonProperty("cdNaturezaDespesa")
     private String cdNaturezaDespesaCompleta;
 
     @JsonProperty("nuDocumento")
@@ -64,7 +65,7 @@ public class PagamentoDTO extends EndpontSefaz {
     @JsonProperty("vlOB")
     private BigDecimal vlOB;
 
-    @JsonProperty("dtAnoExercicioCTBReferencia")
+    @JsonIgnore
     private Integer dtAnoExercicioCTBReferencia;
 
     @JsonProperty("dtPrevisaoDesembolso")
@@ -78,7 +79,7 @@ public class PagamentoDTO extends EndpontSefaz {
     @JsonProperty("situacaoOB")
     private String situacaoOB;
 
-    @JsonProperty("cdFuncao")
+    @JsonProperty("cdFuncaoPLO")
     private Integer cdFuncao;
 
     @JsonProperty("nmFuncao")
@@ -243,6 +244,8 @@ public class PagamentoDTO extends EndpontSefaz {
 
     public void setDtAnoExercicioCTB(Integer dtAnoExercicioCTB) {
         this.dtAnoExercicioCTB = dtAnoExercicioCTB;
+        // Também definir o campo de referência com o mesmo valor
+        this.dtAnoExercicioCTBReferencia = dtAnoExercicioCTB;
     }
 
     public String getCdUnidadeGestora() {
