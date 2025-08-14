@@ -121,6 +121,14 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
             // Isso é necessário porque o serviço processa todos os 12 meses
             deleteSql = "DELETE FROM " + tableName + " " +
                     "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
+        }
+        // Estratégia específica para despesa_detalhada
+        else if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
+            // Para despesa_detalhada, deletar TODOS os registros do ano atual
+            // Isso é necessário porque o serviço pode processar múltiplos meses
+            // e não possui campos de data padrão para filtros
+            deleteSql = "DELETE FROM " + tableName + " " +
+                    "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
         } else {
             // Estratégia padrão para outros endpoints
             if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){

@@ -5,6 +5,7 @@ import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Map;
 
 /**
@@ -61,6 +62,9 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
     @JsonProperty("dhUltimaAlteracao")
     private String dhUltimaAlteracao;
 
+    // Campo convertido para LocalDateTime
+    private LocalDateTime dhUltimaAlteracaoConverted;
+
     @JsonProperty("nmAcao")
     private String nmAcao;
 
@@ -113,7 +117,7 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         camposResposta.put("cd_sub_acao", cdSubAcao);
         camposResposta.put("sg_unidade_gestora", sgUnidadeGestora);
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
-        camposResposta.put("dh_ultima_alteracao", dhUltimaAlteracao);
+        camposResposta.put("dh_ultima_alteracao", dhUltimaAlteracaoConverted);
         camposResposta.put("nm_acao", nmAcao);
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);
         camposResposta.put("cd_acao", cdAcao);
@@ -282,8 +286,22 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         return dhUltimaAlteracao;
     }
 
+    public LocalDateTime getDhUltimaAlteracaoConverted() {
+        return dhUltimaAlteracaoConverted;
+    }
+
     public void setDhUltimaAlteracao(String dhUltimaAlteracao) {
         this.dhUltimaAlteracao = dhUltimaAlteracao;
+        // Converter string ISO 8601 para LocalDateTime
+        if (dhUltimaAlteracao != null && !dhUltimaAlteracao.isEmpty()) {
+            try {
+                this.dhUltimaAlteracaoConverted = LocalDateTime.parse(dhUltimaAlteracao);
+            } catch (Exception e) {
+                this.dhUltimaAlteracaoConverted = null;
+            }
+        } else {
+            this.dhUltimaAlteracaoConverted = null;
+        }
     }
 
     public String getNmAcao() {

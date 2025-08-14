@@ -664,6 +664,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 return true;
             } catch (NoSuchMethodException ignored) {}
 
+            // Try LocalDateTime parameter
+            try {
+                var method = dtoClass.getMethod(setterName, java.time.LocalDateTime.class);
+                method.invoke(dtoInstance, java.time.LocalDateTime.parse(fieldValue.asText()));
+                return true;
+            } catch (NoSuchMethodException ignored) {}
+
             return false;
 
         } catch (Exception e) {
@@ -1108,6 +1115,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return deduplicateTermoList(originalList);
         }
 
+        // Verificar se é DespesaDetalhadaDTO que precisa de deduplicação
+        if (firstItem.getTabelaBanco().contains("despesa_detalhada")) {
+            return deduplicateDespesaDetalhadaList(originalList);
+        }
+
         // Para outros DTOs, retornar lista original (sem deduplicação)
         return originalList;
     }
@@ -1149,6 +1161,65 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         List<T> deduplicatedList = new ArrayList<>(uniqueTermos.values());
 
         logger.info("Deduplicação concluída:");
+        logger.info("  • Registros originais: " + originalList.size());
+        logger.info("  • Registros únicos: " + deduplicatedList.size());
+        logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
+
+        return deduplicatedList;
+    }
+
+    /**
+     * Remove duplicatas de DespesaDetalhadaDTO baseadas na chave composta da constraint única
+     * Chave: cd_unidade_gestora + dt_ano_exercicio_ctb + nu_mes + cd_orgao + cd_unid_orc + cd_natureza_despesa + cd_ppa_acao + cd_sub_acao
+     */
+    @SuppressWarnings("unchecked")
+    private List<T> deduplicateDespesaDetalhadaList(List<T> originalList) {
+        logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave composta da constraint única...");
+
+        Map<String, T> uniqueDespesas = new LinkedHashMap<>(); // Preserva ordem de inserção
+        int duplicatesRemoved = 0;
+
+        for (T item : originalList) {
+            try {
+                // Usar reflexão para obter os campos da chave composta
+                String cdUnidadeGestora = (String) item.getClass().getMethod("getCdUnidadeGestora").invoke(item);
+                Integer dtAnoExercicioCTB = (Integer) item.getClass().getMethod("getDtAnoExercicioCTB").invoke(item);
+                Integer nuMes = (Integer) item.getClass().getMethod("getNuMes").invoke(item);
+                String cdOrgao = (String) item.getClass().getMethod("getCdOrgao").invoke(item);
+                String cdUnidOrc = (String) item.getClass().getMethod("getCdUnidOrc").invoke(item);
+                String cdNaturezaDespesa = (String) item.getClass().getMethod("getCdNaturezaDespesa").invoke(item);
+                String cdPPAAcao = (String) item.getClass().getMethod("getCdPPAAcao").invoke(item);
+                String cdSubAcao = (String) item.getClass().getMethod("getCdSubAcao").invoke(item);
+
+                // Criar chave composta concatenando todos os campos
+                String chaveComposta = String.format("%s|%s|%s|%s|%s|%s|%s|%s",
+                    cdUnidadeGestora != null ? cdUnidadeGestora : "NULL",
+                    dtAnoExercicioCTB != null ? dtAnoExercicioCTB.toString() : "NULL",
+                    nuMes != null ? nuMes.toString() : "NULL",
+                    cdOrgao != null ? cdOrgao : "NULL",
+                    cdUnidOrc != null ? cdUnidOrc : "NULL",
+                    cdNaturezaDespesa != null ? cdNaturezaDespesa : "NULL",
+                    cdPPAAcao != null ? cdPPAAcao : "NULL",
+                    cdSubAcao != null ? cdSubAcao : "NULL"
+                );
+
+                if (uniqueDespesas.containsKey(chaveComposta)) {
+                    duplicatesRemoved++;
+                    logger.fine("Removendo duplicata DespesaDetalhada: " + chaveComposta);
+                } else {
+                    uniqueDespesas.put(chaveComposta, item);
+                }
+
+            } catch (Exception e) {
+                logger.warning("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
+                // Em caso de erro, manter o registro usando timestamp como chave temporária
+                uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
+            }
+        }
+
+        List<T> deduplicatedList = new ArrayList<>(uniqueDespesas.values());
+
+        logger.info("Deduplicação DespesaDetalhada concluída:");
         logger.info("  • Registros originais: " + originalList.size());
         logger.info("  • Registros únicos: " + deduplicatedList.size());
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
