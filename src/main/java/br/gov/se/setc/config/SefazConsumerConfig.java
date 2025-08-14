@@ -32,6 +32,7 @@ import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
+import br.gov.se.setc.consumer.service.JpaPersistenceService;
 import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 
@@ -49,7 +50,8 @@ public class SefazConsumerConfig {
             ValidacaoUtil<T> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         logger.info("Creating " + serviceName + " ConsumoApiService bean");
         return new ConsumoApiService<>(
@@ -60,6 +62,7 @@ public class SefazConsumerConfig {
             unifiedLogger,
             userFriendlyLogger,
             markdownLogger,
+            jpaPersistenceService,
             dtoClass
         );
     }
@@ -101,11 +104,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<UnidadeGestoraDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("UnidadeGestora", UnidadeGestoraDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean("contratosFiscaisConsumoApiService")
@@ -116,11 +120,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ContratosFiscaisDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("ContratosFiscais", ContratosFiscaisDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean("contratosFiscaisConsumoApiServiceTeste")
@@ -131,11 +136,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ContratosFiscaisDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("ContratosFiscaisTeste", ContratosFiscaisDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean("receitaConsumoApiService")
@@ -146,11 +152,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ReceitaDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Receita", ReceitaDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -176,11 +183,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<DespesaConvenioDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("DespesaConvenio", DespesaConvenioDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -196,11 +204,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<PagamentoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Pagamento", PagamentoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -216,11 +225,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<OrdemFornecimentoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("OrdemFornecimento", OrdemFornecimentoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -236,11 +246,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<LiquidacaoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Liquidacao", LiquidacaoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -256,11 +267,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<DadosOrcamentariosDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("DadosOrcamentarios", DadosOrcamentariosDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -276,11 +288,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<EmpenhoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Empenho", EmpenhoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -296,11 +309,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<TotalizadoresExecucaoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("TotalizadoresExecucao", TotalizadoresExecucaoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -316,11 +330,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ConsultaGerencialDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("ConsultaGerencial", ConsultaGerencialDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -336,11 +351,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ContratoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Contrato", ContratoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -356,11 +372,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<ContratoEmpenhoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("ContratoEmpenho", ContratoEmpenhoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -376,11 +393,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<BaseDespesaCredorDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("BaseDespesaCredor", BaseDespesaCredorDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -396,11 +414,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<BaseDespesaLicitacaoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("BaseDespesaLicitacao", BaseDespesaLicitacaoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -416,11 +435,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<TermoDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("Termo", TermoDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -436,11 +456,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<PrevisaoRealizacaoReceitaDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("PrevisaoRealizacaoReceita", PrevisaoRealizacaoReceitaDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean
@@ -456,11 +477,12 @@ public class SefazConsumerConfig {
             ValidacaoUtil<DespesaDetalhadaDTO> validacaoUtil,
             UnifiedLogger unifiedLogger,
             UserFriendlyLogger userFriendlyLogger,
-            MarkdownLogger markdownLogger) {
+            MarkdownLogger markdownLogger,
+            JpaPersistenceService jpaPersistenceService) {
 
         return createConsumoApiService("DespesaDetalhada", DespesaDetalhadaDTO.class,
             restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
-            unifiedLogger, userFriendlyLogger, markdownLogger);
+            unifiedLogger, userFriendlyLogger, markdownLogger, jpaPersistenceService);
     }
 
     @Bean

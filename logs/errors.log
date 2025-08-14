@@ -2369,3 +2369,435 @@ Identify and stop the process that's listening on port 8083 or configure this ap
 2025-08-14 11:46:56.013 ERROR [4d020778] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento?cdUnidadeGestora=271011&dtAnoExercicioCTB=2023&nuAnoLancamento=2023 | STATUS: 500 | DURATION: 110ms | REQUEST: 0 B | RESPONSE: 0 B
 2025-08-14 12:03:56.289 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
 2025-08-14 12:03:56.290 ERROR [24812f1b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento?cdUnidadeGestora=263021&dtAnoExercicioCTB=2025&nuAnoLancamento=2025 | STATUS: 500 | DURATION: 585ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-08-14 12:41:08.169 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:41:10.432 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:41:54.056 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:41:56.267 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:44:47.544 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:46:23.911 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:46:26.365 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:52:01.370 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 12:52:03.651 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:07:58.238 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:08:32.227 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:15:06.357 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:15:08.958 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:17:01.613 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:17:04.325 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:23:37.939 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:23:40.253 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:24:24.043 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:24:26.355 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:24:43.123 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:24:51.196 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:24:53.495 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:25:23.055 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+
+2025-08-14 13:25:25.276 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in br.gov.se.setc.consumer.controller.SwaggerBaseDespesaCredorController required a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Qualifier("baseDespesaCredorConsumoApiService")
+
+
+Action:
+
+Consider defining a bean of type 'br.gov.se.setc.consumer.service.ConsumoApiService' in your configuration.
+

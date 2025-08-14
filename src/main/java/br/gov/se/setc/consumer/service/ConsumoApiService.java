@@ -14,7 +14,8 @@ import java.util.logging.Logger;
 
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
-import br.gov.se.setc.consumer.respository.EndpontSefazRepository;
+import br.gov.se.setc.consumer.repository.EndpontSefazRepository;
+import br.gov.se.setc.consumer.service.JpaPersistenceService;
 import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 
@@ -43,6 +44,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private final AcessoTokenService acessoTokenService;
     private ValidacaoUtil<T> utilsService;
     private final EndpontSefazRepository<T > contratosFiscaisDAO;
+    private final JpaPersistenceService jpaPersistenceService;
     private final Class<T> typeClass;
 
     private List<String> ugCdArray;
@@ -54,7 +56,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     AcessoTokenService acessoTokenService,
     JdbcTemplate jdbcTemplate, ValidacaoUtil<T> utilsService,
     UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger,
-    MarkdownLogger markdownLogger, Class<T> type) {
+    MarkdownLogger markdownLogger, JpaPersistenceService jpaPersistenceService, Class<T> type) {
         this.restTemplate = restTemplate;
         this.acessoTokenService = acessoTokenService;
         this.utilsService = utilsService;
@@ -62,6 +64,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         this.unifiedLogger = unifiedLogger;
         this.userFriendlyLogger = userFriendlyLogger;
         this.markdownLogger = markdownLogger;
+        this.jpaPersistenceService = jpaPersistenceService;
         contratosFiscaisDAO = new EndpontSefazRepository<T>(jdbcTemplate, unifiedLogger);
         this.ugCdArray = utilsService.getUgs();
     }
@@ -227,7 +230,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
             // Log de persistência
             long persistStartTime = System.currentTimeMillis();
-            contratosFiscaisDAO.persist(resultListDeduplicated);
+
+            // Usar persistência JPA se suportada, senão usar sistema legado
+            if (jpaPersistenceService.isJpaPersistenceSupported(mapper.getTabelaBanco())) {
+                jpaPersistenceService.persist(resultListDeduplicated);
+            } else {
+                contratosFiscaisDAO.persist(resultListDeduplicated);
+            }
+
             long persistTime = System.currentTimeMillis() - persistStartTime;
 
             // Log técnico para arquivo

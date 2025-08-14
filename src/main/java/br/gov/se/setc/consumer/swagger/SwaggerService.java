@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.gov.se.setc.consumer.entity.ContratosFiscais;
-import br.gov.se.setc.consumer.respository.EndpontSefazRepository;
+import br.gov.se.setc.consumer.repository.EndpontSefazRepository;
 import jakarta.websocket.Endpoint;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
