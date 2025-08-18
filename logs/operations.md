@@ -13834,3 +13834,3710 @@
 ## 08:43:10 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
+
+## 08:51:57 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (594ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 594ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (37ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 37ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 293,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (36ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 36ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2317ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2216ms
+- 📋   • Tamanho da resposta: 3,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 08:53:14 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: bf908096
+
+
+
+## 08:53:00 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 13785ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 13,8s**
+
+
+## 08:53:14 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 127da7bb
+
+
+
+## 08:53:14 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: LIQUIDACAO_ONLY_CONSUMPTION | ENDPOINT: liquidacao
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 6af64967
+
+
+
+## 08:53:00 | Execução Específica - Liquidação
+- 📋 🚀 Iniciando processamento de Liquidações
+- 📋 📅 Timestamp: 2025-08-18T08:53:00.681554100
+- 📋 🔗 Correlation ID: f52344dc
+- 🔄 Processando Liquidações...
+- ❌ Falha no processamento de Liquidações: Failed to obtain JDBC Connection
+- ⏱️ **Execução interrompida por erro | Tempo total: 13,8s**
+
+
+## 08:58:30 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 293,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2793ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (2,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2411ms
+- 📋   • Tamanho da resposta: 3,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (474ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 474ms
+- 📋   • Tamanho da resposta: 357,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:03:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 167,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (328ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 328ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+
+
+## 09:04:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/liquidacao
+

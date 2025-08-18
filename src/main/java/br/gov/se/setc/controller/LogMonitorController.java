@@ -9,6 +9,7 @@ import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 import jakarta.annotation.PostConstruct;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -274,18 +275,18 @@ public class LogMonitorController {
     }
 
     /**
-     * Lê as últimas N linhas de um arquivo
+     * Lê as últimas N linhas de um arquivo com encoding UTF-8
      */
     private List<String> readLastLines(Path filePath, int maxLines, long fromPosition) throws IOException {
         List<String> lines = new ArrayList<>();
 
-        try (RandomAccessFile file = new RandomAccessFile(filePath.toFile(), "r")) {
-            if (fromPosition > 0 && fromPosition < file.length()) {
-                file.seek(fromPosition);
+        try (BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)) {
+            if (fromPosition > 0) {
+                reader.skip(fromPosition);
             }
 
             String line;
-            while ((line = file.readLine()) != null && lines.size() < maxLines) {
+            while ((line = reader.readLine()) != null && lines.size() < maxLines) {
                 lines.add(line);
             }
         }
@@ -294,18 +295,28 @@ public class LogMonitorController {
     }
 
     /**
-     * Lê novas linhas adicionadas ao arquivo
+     * Lê novas linhas adicionadas ao arquivo com encoding UTF-8
      */
     private List<String> readNewLines(Path filePath, long fromPosition, long toPosition) throws IOException {
         List<String> newLines = new ArrayList<>();
 
-        try (RandomAccessFile file = new RandomAccessFile(filePath.toFile(), "r")) {
-            file.seek(fromPosition);
+        // Para arquivos pequenos, lê tudo e pega apenas as novas linhas
+        List<String> allLines = Files.readAllLines(filePath, StandardCharsets.UTF_8);
 
-            String line;
-            while (file.getFilePointer() < toPosition && (line = file.readLine()) != null) {
-                newLines.add(line);
+        // Calcula aproximadamente quantas linhas pular baseado na posição
+        long currentPosition = 0;
+        int startLineIndex = 0;
+
+        for (int i = 0; i < allLines.size() && currentPosition < fromPosition; i++) {
+            currentPosition += allLines.get(i).getBytes(StandardCharsets.UTF_8).length + 1; // +1 para \n
+            if (currentPosition <= fromPosition) {
+                startLineIndex = i + 1;
             }
+        }
+
+        // Adiciona as novas linhas
+        for (int i = startLineIndex; i < allLines.size(); i++) {
+            newLines.add(allLines.get(i));
         }
 
         return newLines;
