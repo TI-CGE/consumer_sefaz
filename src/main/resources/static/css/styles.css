@@ -557,14 +557,51 @@ input:checked + .slider:before {
     }
 }
 
-/* Emoji Support */
+/* Icon Support - SVG and Emoji */
 .icon, .panel-icon {
     font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', sans-serif;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SVG Icon Styles */
+.icon svg, .panel-icon svg {
+    width: 16px;
+    height: 16px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Title icon larger */
+h1 .icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+/* Panel icon larger */
+.panel-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Button icon sizing */
+.btn .icon svg, .btn-icon .icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Control button icon sizing */
+.controls .btn .icon svg {
+    width: 16px;
+    height: 16px;
 }
 
 /* Markdown Content Styles */

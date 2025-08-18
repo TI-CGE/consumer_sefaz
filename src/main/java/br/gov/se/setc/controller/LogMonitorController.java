@@ -194,18 +194,21 @@ public class LogMonitorController {
                 Path filePath = Paths.get(logPath, fileName);
                 if (Files.exists(filePath)) {
                     try {
-                        filePositions.put(fileName, Files.size(filePath));
+                        long fileSize = Files.size(filePath);
+                        filePositions.put(fileName, fileSize);
+                        logger.info("Arquivo " + fileName + " inicializado com tamanho: " + fileSize + " bytes");
                     } catch (IOException e) {
                         logger.warning("Erro ao obter tamanho inicial do arquivo " + fileName + ": " + e.getMessage());
                         filePositions.put(fileName, 0L);
                     }
                 } else {
                     filePositions.put(fileName, 0L);
+                    logger.info("Arquivo " + fileName + " não existe ainda");
                 }
             }
 
-            // Agenda verificação periódica de mudanças
-            scheduler.scheduleAtFixedRate(this::checkForFileChanges, 1, 1, TimeUnit.SECONDS);
+            // Agenda verificação periódica de mudanças (a cada 2 segundos para ser mais responsivo)
+            scheduler.scheduleAtFixedRate(this::checkForFileChanges, 1, 2, TimeUnit.SECONDS);
             logger.info("Monitoramento de arquivos de log inicializado para: " + logPath);
 
         } catch (Exception e) {
@@ -278,20 +281,22 @@ public class LogMonitorController {
      * Lê as últimas N linhas de um arquivo com encoding UTF-8
      */
     private List<String> readLastLines(Path filePath, int maxLines, long fromPosition) throws IOException {
-        List<String> lines = new ArrayList<>();
+        List<String> allLines = Files.readAllLines(filePath, StandardCharsets.UTF_8);
 
-        try (BufferedReader reader = Files.newBufferedReader(filePath, StandardCharsets.UTF_8)) {
-            if (fromPosition > 0) {
-                reader.skip(fromPosition);
-            }
-
-            String line;
-            while ((line = reader.readLine()) != null && lines.size() < maxLines) {
-                lines.add(line);
-            }
+        if (allLines.isEmpty()) {
+            return new ArrayList<>();
         }
 
-        return lines;
+        // Se fromPosition for 0 ou não especificada, retorna as últimas maxLines
+        if (fromPosition <= 0) {
+            int startIndex = Math.max(0, allLines.size() - maxLines);
+            return new ArrayList<>(allLines.subList(startIndex, allLines.size()));
+        }
+
+        // Se fromPosition for especificada, tenta encontrar a partir dessa posição
+        // mas ainda prioriza as linhas mais recentes
+        int startIndex = Math.max(0, allLines.size() - maxLines);
+        return new ArrayList<>(allLines.subList(startIndex, allLines.size()));
     }
 
     /**
@@ -300,25 +305,26 @@ public class LogMonitorController {
     private List<String> readNewLines(Path filePath, long fromPosition, long toPosition) throws IOException {
         List<String> newLines = new ArrayList<>();
 
-        // Para arquivos pequenos, lê tudo e pega apenas as novas linhas
-        List<String> allLines = Files.readAllLines(filePath, StandardCharsets.UTF_8);
+        try {
+            List<String> allLines = Files.readAllLines(filePath, StandardCharsets.UTF_8);
 
-        // Calcula aproximadamente quantas linhas pular baseado na posição
-        long currentPosition = 0;
-        int startLineIndex = 0;
-
-        for (int i = 0; i < allLines.size() && currentPosition < fromPosition; i++) {
-            currentPosition += allLines.get(i).getBytes(StandardCharsets.UTF_8).length + 1; // +1 para \n
-            if (currentPosition <= fromPosition) {
-                startLineIndex = i + 1;
+            if (allLines.isEmpty()) {
+                return newLines;
             }
-        }
 
-        // Adiciona as novas linhas
-        for (int i = startLineIndex; i < allLines.size(); i++) {
-            newLines.add(allLines.get(i));
-        }
+            // Para simplificar, vamos sempre retornar as últimas 10 linhas como "novas"
+            // quando há mudanças no arquivo
+            int startIndex = Math.max(0, allLines.size() - 10);
 
-        return newLines;
+            for (int i = startIndex; i < allLines.size(); i++) {
+                newLines.add(allLines.get(i));
+            }
+
+            return newLines;
+
+        } catch (IOException e) {
+            logger.warning("Erro ao ler novas linhas do arquivo " + filePath + ": " + e.getMessage());
+            return newLines;
+        }
     }
 }

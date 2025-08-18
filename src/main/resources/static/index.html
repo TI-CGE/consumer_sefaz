@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitor de Logs - SEFAZ Transparency Consumer</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23007acc' stroke-width='2'><path d='M18 20V10'/><path d='M12 20V4'/><path d='M6 20v-6'/></svg>">
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
     <!-- Markdown rendering library -->
     <script src="https://cdn.jsdelivr.net/npm/marked@9.1.2/marked.min.js"></script>
 </head>
@@ -16,7 +18,9 @@
             <div class="header-content">
                 <div class="header-left">
                     <h1>
-                        <span class="icon">📊</span>
+                        <span class="icon">
+                            <i data-feather="bar-chart-2"></i>
+                        </span>
                         Monitor de Logs
                     </h1>
                     <p class="subtitle">SEFAZ Transparency Consumer - Monitoramento em Tempo Real</p>
@@ -28,16 +32,24 @@
                     </div>
                     <div class="controls">
                         <button class="btn btn-secondary" id="themeToggle" title="Alternar tema">
-                            <span class="icon">🌙</span>
+                            <span class="icon">
+                                <i data-feather="moon"></i>
+                            </span>
                         </button>
                         <button class="btn btn-secondary" id="pauseBtn" title="Pausar/Retomar atualizações">
-                            <span class="icon">⏸️</span>
+                            <span class="icon">
+                                <i data-feather="pause"></i>
+                            </span>
                         </button>
                         <button class="btn btn-secondary" id="clearBtn" title="Limpar todos os logs">
-                            <span class="icon">🗑️</span>
+                            <span class="icon">
+                                <i data-feather="trash-2"></i>
+                            </span>
                         </button>
                         <button class="btn btn-primary" id="refreshBtn" title="Atualizar logs">
-                            <span class="icon">🔄</span>
+                            <span class="icon">
+                                <i data-feather="refresh-cw"></i>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -73,17 +85,23 @@
             <div class="log-panel" data-log="simple.log">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <span class="panel-icon">📝</span>
+                        <span class="panel-icon">
+                            <i data-feather="file-text"></i>
+                        </span>
                         <h3>Simple Log</h3>
                         <span class="file-badge">simple.log</span>
                     </div>
                     <div class="panel-controls">
                         <span class="line-count" id="simpleLogCount">0 linhas</span>
                         <button class="btn-icon" title="Filtrar" onclick="toggleFilter('simple.log')">
-                            <span class="icon">🔍</span>
+                            <span class="icon">
+                                <i data-feather="search"></i>
+                            </span>
                         </button>
                         <button class="btn-icon" title="Download" onclick="downloadLog('simple.log')">
-                            <span class="icon">💾</span>
+                            <span class="icon">
+                                <i data-feather="download"></i>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -100,17 +118,23 @@
             <div class="log-panel" data-log="application.log">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <span class="panel-icon">⚙️</span>
+                        <span class="panel-icon">
+                            <i data-feather="settings"></i>
+                        </span>
                         <h3>Application Log</h3>
                         <span class="file-badge">application.log</span>
                     </div>
                     <div class="panel-controls">
                         <span class="line-count" id="applicationLogCount">0 linhas</span>
                         <button class="btn-icon" title="Filtrar" onclick="toggleFilter('application.log')">
-                            <span class="icon">🔍</span>
+                            <span class="icon">
+                                <i data-feather="search"></i>
+                            </span>
                         </button>
                         <button class="btn-icon" title="Download" onclick="downloadLog('application.log')">
-                            <span class="icon">💾</span>
+                            <span class="icon">
+                                <i data-feather="download"></i>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -127,17 +151,23 @@
             <div class="log-panel" data-log="errors.log">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <span class="panel-icon">❌</span>
+                        <span class="panel-icon">
+                            <i data-feather="alert-circle"></i>
+                        </span>
                         <h3>Errors Log</h3>
                         <span class="file-badge">errors.log</span>
                     </div>
                     <div class="panel-controls">
                         <span class="line-count" id="errorsLogCount">0 linhas</span>
                         <button class="btn-icon" title="Filtrar" onclick="toggleFilter('errors.log')">
-                            <span class="icon">🔍</span>
+                            <span class="icon">
+                                <i data-feather="search"></i>
+                            </span>
                         </button>
                         <button class="btn-icon" title="Download" onclick="downloadLog('errors.log')">
-                            <span class="icon">💾</span>
+                            <span class="icon">
+                                <i data-feather="download"></i>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -154,7 +184,9 @@
             <div class="log-panel" data-log="operations.md">
                 <div class="panel-header">
                     <div class="panel-title">
-                        <span class="panel-icon">📋</span>
+                        <span class="panel-icon">
+                            <i data-feather="clipboard"></i>
+                        </span>
                         <h3>Operations Log</h3>
                         <span class="file-badge">operations.md</span>
                         <span class="markdown-indicator">Markdown</span>
@@ -162,10 +194,14 @@
                     <div class="panel-controls">
                         <span class="line-count" id="operationsLogCount">0 linhas</span>
                         <button class="btn-icon" title="Filtrar" onclick="toggleFilter('operations.md')">
-                            <span class="icon">🔍</span>
+                            <span class="icon">
+                                <i data-feather="search"></i>
+                            </span>
                         </button>
                         <button class="btn-icon" title="Download" onclick="downloadLog('operations.md')">
-                            <span class="icon">💾</span>
+                            <span class="icon">
+                                <i data-feather="download"></i>
+                            </span>
                         </button>
                     </div>
                 </div>
@@ -201,5 +237,9 @@
 
     <!-- Scripts -->
     <script src="/js/app.js"></script>
+    <script>
+        // Initialize Feather icons
+        feather.replace();
+    </script>
 </body>
 </html>

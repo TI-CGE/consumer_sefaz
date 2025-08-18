@@ -330,35 +330,58 @@ class LogMonitor {
     toggleTheme() {
         const currentTheme = document.documentElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        
+
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
-        
+
         const icon = document.querySelector('#themeToggle .icon');
-        icon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        if (newTheme === 'dark') {
+            icon.innerHTML = '<i data-feather="sun"></i>';
+        } else {
+            icon.innerHTML = '<i data-feather="moon"></i>';
+        }
+
+        // Re-initialize Feather icons
+        if (typeof feather !== 'undefined') {
+            feather.replace();
+        }
     }
 
     applyTheme() {
         const savedTheme = localStorage.getItem('theme') || 'light';
         document.documentElement.setAttribute('data-theme', savedTheme);
-        
+
         const icon = document.querySelector('#themeToggle .icon');
-        icon.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+        if (savedTheme === 'dark') {
+            icon.innerHTML = '<i data-feather="sun"></i>';
+        } else {
+            icon.innerHTML = '<i data-feather="moon"></i>';
+        }
+
+        // Re-initialize Feather icons
+        if (typeof feather !== 'undefined') {
+            feather.replace();
+        }
     }
 
     togglePause() {
         this.isPaused = !this.isPaused;
         const btn = document.getElementById('pauseBtn');
         const icon = btn.querySelector('.icon');
-        
+
         if (this.isPaused) {
-            icon.textContent = '▶️';
+            icon.innerHTML = '<i data-feather="play"></i>';
             btn.title = 'Retomar atualizações';
             this.showToast('Atualizações pausadas', 'warning');
         } else {
-            icon.textContent = '⏸️';
+            icon.innerHTML = '<i data-feather="pause"></i>';
             btn.title = 'Pausar atualizações';
             this.showToast('Atualizações retomadas', 'success');
+        }
+
+        // Re-initialize Feather icons
+        if (typeof feather !== 'undefined') {
+            feather.replace();
         }
     }
 
