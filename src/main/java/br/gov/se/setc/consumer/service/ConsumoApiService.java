@@ -840,8 +840,17 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
         logger.info("Buscando dados do ano atual (" + anoAtual + ") para UG: " + ugCd);
 
+        // Verificar se o DTO requer iteração sobre empenhos
+        if (mapper.requerIteracaoEmpenhos()) {
+            logger.info("DTO requer iteração sobre empenhos. Buscando empenhos para UG: " + ugCd + " e ano: " + anoAtual);
+            List<T> resultadoEmpenhos = processarIterandoEmpenhos(ugCd, mapper, anoAtual);
+            if (resultadoEmpenhos != null) {
+                resultadoAnoMesVigente.addAll(resultadoEmpenhos);
+                logger.info("Processamento por empenhos concluído: " + resultadoEmpenhos.size() + " registros");
+            }
+        }
         // Verificar se o DTO requer iteração sobre cdGestao
-        if (mapper.requerIteracaoCdGestao()) {
+        else if (mapper.requerIteracaoCdGestao()) {
             logger.info("DTO requer iteração sobre cdGestao. Buscando todos os códigos de gestão...");
             List<String> cdGestaoList = utilsService.cdGestao();
 
@@ -877,8 +886,17 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         for (Short dtAno = anoAtual; dtAno >= anoAtual-5;  dtAno--) {
             logger.info("Processando ano: " + dtAno + " para UG: " + ugCd);
 
+            // Verificar se o DTO requer iteração sobre empenhos
+            if (mapper.requerIteracaoEmpenhos()) {
+                logger.info("DTO requer iteração sobre empenhos para ano " + dtAno);
+                List<T> resultadoEmpenhos = processarIterandoEmpenhos(ugCd, mapper, dtAno);
+                if (resultadoEmpenhos != null) {
+                    resultadoTodosAnos.addAll(resultadoEmpenhos);
+                    logger.info("Ano " + dtAno + " processamento por empenhos: " + resultadoEmpenhos.size() + " registros");
+                }
+            }
             // Verificar se o DTO requer iteração sobre cdGestao
-            if (mapper.requerIteracaoCdGestao()) {
+            else if (mapper.requerIteracaoCdGestao()) {
                 logger.info("DTO requer iteração sobre cdGestao para ano " + dtAno);
                 List<String> cdGestaoList = utilsService.cdGestao();
 
@@ -1273,6 +1291,116 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
 
         return deduplicatedList;
+    }
+
+    /**
+     * Processa dados iterando sobre empenhos para obter cdGestao e sqEmpenho
+     * Usado especificamente para o endpoint de dados orçamentários
+     */
+    private List<T> processarIterandoEmpenhos(String ugCd, T mapper, Short ano) {
+        List<T> resultado = new ArrayList<>();
+
+        try {
+            // Buscar empenhos da UG e ano específicos
+            String queryEmpenhos = """
+                SELECT DISTINCT cd_gestao, sq_empenho
+                FROM consumer_sefaz.empenho
+                WHERE cd_unidade_gestora = ?
+                  AND dt_ano_exercicio_ctb = ?
+                  AND cd_gestao IS NOT NULL
+                  AND sq_empenho IS NOT NULL
+                ORDER BY cd_gestao, sq_empenho
+                """;
+
+            List<Map<String, Object>> empenhos = utilsService.getJdbcTemplate().queryForList(
+                queryEmpenhos, ugCd, ano.intValue());
+
+            if (empenhos.isEmpty()) {
+                logger.warning("Nenhum empenho encontrado para UG " + ugCd + " e ano " + ano);
+                return resultado;
+            }
+
+            logger.info("Encontrados " + empenhos.size() + " empenhos para UG " + ugCd + " e ano " + ano);
+
+            // Iterar sobre cada empenho
+            for (Map<String, Object> empenho : empenhos) {
+                String cdGestao = (String) empenho.get("cd_gestao");
+                Integer sqEmpenho = (Integer) empenho.get("sq_empenho");
+
+                logger.info("Processando empenho: cdGestao=" + cdGestao + ", sqEmpenho=" + sqEmpenho);
+
+                // Criar parâmetros específicos para este empenho
+                Map<String, Object> parametros;
+                if (mapper instanceof br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) {
+                    br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO dadosDTO =
+                        (br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) mapper;
+                    parametros = dadosDTO.criarParametrosComEmpenho(ugCd, ano.intValue(), cdGestao, sqEmpenho);
+                } else {
+                    // Fallback para outros DTOs que possam implementar iteração sobre empenhos
+                    parametros = new LinkedHashMap<>();
+                    parametros.put("cdUnidadeGestora", ugCd);
+                    parametros.put("dtAnoExercicioCTB", ano.intValue());
+                    parametros.put("cdGestao", cdGestao);
+                    parametros.put("sqEmpenho", sqEmpenho);
+                }
+
+                // Fazer chamada para a API
+                List<T> resultadoEmpenho = chamarApiComParametros(mapper, parametros);
+                if (resultadoEmpenho != null && !resultadoEmpenho.isEmpty()) {
+                    resultado.addAll(resultadoEmpenho);
+                    logger.info("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): " +
+                               resultadoEmpenho.size() + " registros obtidos");
+                } else {
+                    logger.fine("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): nenhum registro");
+                }
+            }
+
+            logger.info("Processamento de empenhos concluído para UG " + ugCd + " e ano " + ano +
+                       ": " + resultado.size() + " registros totais");
+
+        } catch (Exception e) {
+            logger.severe("Erro ao processar empenhos para UG " + ugCd + " e ano " + ano + ": " + e.getMessage());
+            e.printStackTrace();
+        }
+
+        return resultado;
+    }
+
+    /**
+     * Faz chamada para a API com parâmetros específicos
+     */
+    private List<T> chamarApiComParametros(T mapper, Map<String, Object> parametros) {
+        List<T> resultado = new ArrayList<>();
+
+        try {
+            // Construir URL com parâmetros
+            UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl(mapper.getUrl());
+
+            for (Map.Entry<String, Object> entry : parametros.entrySet()) {
+                builder.queryParam(entry.getKey(), entry.getValue());
+            }
+
+            String apiUrl = builder.toUriString();
+            logger.fine("Chamando API: " + apiUrl);
+
+            // Fazer requisição
+            ResponseEntity<String> response = respostaApiRaw(apiUrl);
+
+            if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
+                List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
+                if (processedData != null) {
+                    resultado.addAll(processedData);
+                }
+            } else {
+                logger.warning("API retornou erro. Status: " +
+                             (response != null ? response.getStatusCode() : "null"));
+            }
+
+        } catch (Exception e) {
+            logger.warning("Erro ao chamar API com parâmetros " + parametros + ": " + e.getMessage());
+        }
+
+        return resultado;
     }
 
 }

@@ -90,6 +90,14 @@ public abstract class EndpontSefaz {
          return false;
      }
 
+     /**
+      * Indica se este endpoint requer iteração sobre empenhos para obter cdGestao e sqEmpenho
+      * @return true se o endpoint precisa iterar sobre empenhos, false caso contrário
+      */
+     public boolean requerIteracaoEmpenhos() {
+         return false;
+     }
+
      protected Map<String, Object> criarParametrosBasicos(String ugCd, Short ano) {
          Map<String, Object> parametros = new LinkedHashMap<>();
          if (ugCd != null && !ugCd.trim().isEmpty()) {

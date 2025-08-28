@@ -82,7 +82,7 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     @Override
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.dados_orcamentarios";
-        url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho";
+        url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho/dados-orcamentarios";
         nomeDataInicialPadraoFiltro = null; // Não há campo de data específico
         nomeDataFinalPadraoFiltro = null; // Não há campo de data específico
         dtAnoPadrao = null; // Não há campo de ano específico
@@ -124,13 +124,19 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
 
         // Se o ano foi definido no DTO, usar ele; senão usar o ano atual
+        Integer ano;
         if (this.dtAnoExercicioCTB != null) {
-            camposParametros.put("dtAnoExercicioCTB", this.dtAnoExercicioCTB);
+            ano = this.dtAnoExercicioCTB;
+            camposParametros.put("dtAnoExercicioCTB", ano);
         } else {
-            camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
+            ano = utilsService.getAnoAtual().intValue(); // Converter Short para Integer
+            camposParametros.put("dtAnoExercicioCTB", ano);
         }
 
-        // Busca apenas por UG e Ano - removido cdGestao e sqEmpenho
+        // IMPORTANTE: Para dados orçamentários, precisamos de cdGestao e sqEmpenho
+        // Estes devem ser obtidos da tabela empenho e iterados
+        // Por enquanto, retornamos apenas UG e Ano para que o ConsumoApiService
+        // possa implementar a lógica de iteração sobre empenhos
         return camposParametros;
     }
 
@@ -140,8 +146,31 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", ugCd);
         camposParametros.put("dtAnoExercicioCTB", ano);
 
-        // Busca apenas por UG e Ano - removido cdGestao e sqEmpenho
+        // IMPORTANTE: Para dados orçamentários, precisamos de cdGestao e sqEmpenho
+        // Estes devem ser obtidos da tabela empenho e iterados
         return camposParametros;
+    }
+
+    /**
+     * Indica que este endpoint requer iteração sobre empenhos para obter cdGestao e sqEmpenho
+     * MANTIDO COMO TRUE pois todos os parâmetros são obrigatórios para esta API
+     */
+    @Override
+    public boolean requerIteracaoEmpenhos() {
+        return true; // Todos os parâmetros são obrigatórios: cdUnidadeGestora, dtAnoExercicioCTB, cdGestao, sqEmpenho
+    }
+
+    /**
+     * Cria parâmetros específicos para uma consulta com cdGestao e sqEmpenho
+     */
+    public Map<String, Object> criarParametrosComEmpenho(String cdUnidadeGestora, Integer dtAnoExercicioCTB,
+                                                         String cdGestao, Integer sqEmpenho) {
+        Map<String, Object> parametros = new LinkedHashMap<>();
+        parametros.put("cdUnidadeGestora", cdUnidadeGestora);
+        parametros.put("dtAnoExercicioCTB", dtAnoExercicioCTB);
+        parametros.put("cdGestao", cdGestao);
+        parametros.put("sqEmpenho", sqEmpenho);
+        return parametros;
     }
 
     /**

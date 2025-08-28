@@ -121,4 +121,11 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         return hasDataInTable("sco.pagamento", "cd_unidade_gestora");
     }
 
+    /**
+     * Getter para JdbcTemplate - usado para consultas específicas
+     */
+    public JdbcTemplate getJdbcTemplate() {
+        return jdbcTemplate;
+    }
+
 }
