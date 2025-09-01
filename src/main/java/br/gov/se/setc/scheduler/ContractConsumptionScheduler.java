@@ -131,8 +131,9 @@ public class ContractConsumptionScheduler {
     /**
      * Execução agendada para produção - diariamente às 2:45 AM
      * Processa todas as entidades (UG, Contratos, Receitas, Pagamentos)
-     * Comentado por padrão para testes
+     * HABILITADO para execução automática
      */
+    @Scheduled(cron = "0 45 2 * * *")
     public void scheduledExecution() {
         logger.info("=== INICIANDO EXECUÇÃO AGENDADA DO SCHEDULER - TODAS AS ENTIDADES ===");
         executeAllEntities();
@@ -1100,11 +1101,11 @@ public class ContractConsumptionScheduler {
         Map<String, Object> status = new HashMap<>();
         status.put("schedulerActive", true);
         status.put("firstExecutionCompleted", !isFirstExecution);
-        status.put("nextScheduledExecution", "2:45 AM daily - All entities (if enabled)");
+        status.put("nextScheduledExecution", "2:45 AM daily - All entities (ENABLED)");
         status.put("testExecutionOnStartup", "DISABLED - No automatic execution on startup");
         status.put("availableEntities", "UG, Contratos, Receitas, Pagamentos, Liquidações, Ordens de Fornecimento, Dados Orçamentários, Empenhos, Totalizadores de Execução, Consulta Gerencial");
         status.put("startupExecution", "DISABLED");
-        status.put("scheduledExecution", "All entities");
+        status.put("scheduledExecution", "ENABLED - All entities at 2:45 AM daily");
         return status;
     }
     /**
