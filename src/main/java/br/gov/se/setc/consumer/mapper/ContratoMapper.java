@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.mapper;
+﻿package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.entity.Contrato;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 /**
  * Mapper responsável por converter ContratoDTO para Contrato entity.
- * 
+ *
  * Este mapper resolve as inconsistências de tipos identificadas:
  * - Datas que vêm como String da API → LocalDate na entidade
  * - Conversão manual de campos de data
@@ -20,7 +20,7 @@ public class ContratoMapper {
     }
     /**
      * Converte ContratoDTO para Contrato entity.
-     * 
+     *
      * @param dto DTO recebido da API SEFAZ
      * @return Entidade JPA pronta para persistência
      */
@@ -55,7 +55,7 @@ public class ContratoMapper {
     /**
      * Converte Contrato entity para ContratoDTO.
      * Útil para operações de leitura e testes.
-     * 
+     *
      * @param entity Entidade JPA
      * @return DTO para resposta
      */

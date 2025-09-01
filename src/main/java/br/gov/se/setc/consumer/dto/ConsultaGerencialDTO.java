@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -85,8 +85,8 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.consulta_gerencial";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio_ctb";
     }
     @Override

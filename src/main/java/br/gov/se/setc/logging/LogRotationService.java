@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging;
+﻿package br.gov.se.setc.logging;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.core.rolling.RollingFileAppender;
 import ch.qos.logback.core.Appender;
@@ -50,7 +50,7 @@ public class LogRotationService {
     /**
      * Monitora o tamanho do arquivo operations.md a cada 30 minutos
      */
-    @Scheduled(fixedRate = 1800000) // 30 minutos
+    @Scheduled(fixedRate = 1800000)
     public void monitorLogSize() {
         if (!rotationEnabled) {
             return;
@@ -350,8 +350,8 @@ public class LogRotationService {
                 gzos.write(buffer, 0, length);
             }
         }
-        logger.info("📦 Arquivo compactado: {} -> {}", 
-                formatBytes(Files.size(sourceFile)), 
+        logger.info("📦 Arquivo compactado: {} -> {}",
+                formatBytes(Files.size(sourceFile)),
                 formatBytes(Files.size(compressedFile)));
         return compressedFile;
     }

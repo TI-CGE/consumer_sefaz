@@ -1,4 +1,4 @@
-package br.gov.se.setc.scheduler;
+﻿package br.gov.se.setc.scheduler;
 import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
 import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
@@ -115,7 +115,7 @@ public class ContractConsumptionScheduler {
     public void executeOnStartup() {
         CompletableFuture.runAsync(() -> {
             try {
-                Thread.sleep(10000); // Aguarda 10 segundos
+                Thread.sleep(10000);
                 String correlationId = MDCUtil.generateAndSetCorrelationId();
                 unifiedLogger.logApplicationEvent("SCHEDULER_STARTUP_TEST", "Execução de teste do scheduler - Pagamento");
                 unifiedLogger.logOperationStart("SCHEDULER", "STARTUP_TEST_PAGAMENTO", "CORRELATION_ID", correlationId);
@@ -516,7 +516,7 @@ public class ContractConsumptionScheduler {
                               .info("  • Termo (Convênios): " + processingResults.getOrDefault("Termo", 0))
                               .info("  • Previsão Realização Receita: " + processingResults.getOrDefault("PrevisaoRealizacaoReceita", 0))
                               .info("  • Despesa Detalhada: " + processingResults.getOrDefault("DespesaDetalhada", 0));
-                if (totalExecutionTime > 30000) { // Mais de 30 segundos
+                if (totalExecutionTime > 30000) {
                     markdownSection.warning("Execução demorou mais que 30 segundos");
                 }
             }
@@ -576,7 +576,7 @@ public class ContractConsumptionScheduler {
             if (totalRecordsProcessed > 0) {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Pagamentos: " + totalRecordsProcessed);
-                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                if (totalExecutionTime > 15000) {
                     markdownSection.warning("Execução demorou mais que 15 segundos");
                 }
             }
@@ -685,7 +685,7 @@ public class ContractConsumptionScheduler {
             if (totalRecordsProcessed > 0) {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Ordens de Fornecimento: " + totalRecordsProcessed);
-                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                if (totalExecutionTime > 15000) {
                     markdownSection.warning("Execução demorou mais que 15 segundos");
                 }
             }
@@ -1005,7 +1005,7 @@ public class ContractConsumptionScheduler {
             if (totalRecordsProcessed > 0) {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Consulta Gerencial: " + totalRecordsProcessed);
-                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                if (totalExecutionTime > 15000) {
                     markdownSection.warning("Execução demorou mais que 15 segundos");
                 }
             }
@@ -1272,7 +1272,7 @@ public class ContractConsumptionScheduler {
             } catch (Exception e) {
                 logger.error("Erro ao consumir Base Despesa Credor", e);
                 markdownSection.error("Falha no processamento de Base Despesa Credor: " + e.getMessage());
-                throw e; // Re-throw para ser capturado pelo catch externo
+                throw e;
             }
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
             userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
@@ -1345,7 +1345,7 @@ public class ContractConsumptionScheduler {
             } catch (Exception e) {
                 logger.error("Erro ao consumir Base Despesa Licitação", e);
                 markdownSection.error("Falha no processamento de Base Despesa Licitação: " + e.getMessage());
-                throw e; // Re-throw para ser capturado pelo catch externo
+                throw e;
             }
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
             userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
@@ -1597,7 +1597,7 @@ public class ContractConsumptionScheduler {
             if (totalRecordsProcessed > 0) {
                 markdownSection.info("📊 Estatísticas de processamento:")
                               .info("  • Despesa Detalhada: " + totalRecordsProcessed);
-                if (totalExecutionTime > 15000) { // Mais de 15 segundos
+                if (totalExecutionTime > 15000) {
                     markdownSection.warning("Execução demorou mais que 15 segundos");
                 }
             }

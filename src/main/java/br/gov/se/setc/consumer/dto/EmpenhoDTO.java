@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -29,14 +29,6 @@ public class EmpenhoDTO extends EndpontSefaz {
     private Integer sqEmpenho;
     @JsonProperty("dtGeracaoEmpenho")
     private String dtGeracaoEmpenho;
-    @JsonProperty("dtEmissaoEmpenho")
-    private String dtEmissaoEmpenho;
-    @JsonProperty("dtLancamentoEmpenho")
-    private String dtLancamentoEmpenho;
-    @JsonProperty("cdNaturezaDespesaCompleta")
-    private String cdNaturezaDespesaCompleta;
-    @JsonProperty("cdNaturezaDespesa")
-    private String cdNaturezaDespesa;
     @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
     @JsonProperty("nuDocumento")
@@ -47,20 +39,12 @@ public class EmpenhoDTO extends EndpontSefaz {
     private BigDecimal vlOriginalEmpenho;
     @JsonProperty("vlTotalReforcadoEmpenho")
     private BigDecimal vlTotalReforcadoEmpenho;
-    @JsonProperty("vlTotalAnuladoEmpenho")
-    private BigDecimal vlTotalAnuladoEmpenho;
     @JsonProperty("vlTotalLiquidadoEmpenho")
     private BigDecimal vlTotalLiquidadoEmpenho;
-    @JsonProperty("vlTotalEstornoLiqdEmpenho")
-    private BigDecimal vlTotalEstornoLiqdEmpenho;
     @JsonProperty("vlTotalPagoEmpenho")
     private BigDecimal vlTotalPagoEmpenho;
     @JsonProperty("vlTotalExecutado")
     private BigDecimal vlTotalExecutado;
-    @JsonProperty("vlTotalDevolvidoOBEmpenho")
-    private BigDecimal vlTotalDevolvidoOBEmpenho;
-    @JsonProperty("vlTotalDevolvidoGREmpenho")
-    private BigDecimal vlTotalDevolvidoGREmpenho;
     @JsonProperty("cdFuncao")
     private Integer cdFuncao;
     @JsonProperty("nmFuncao")
@@ -107,22 +91,14 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("sq_solic_empenho", sqSolicEmpenho);
         camposResposta.put("sq_empenho", sqEmpenho);
         camposResposta.put("dt_geracao_empenho", dtGeracaoEmpenho);
-        camposResposta.put("dt_emissao_empenho", dtEmissaoEmpenho);
-        camposResposta.put("dt_lancamento_empenho", dtLancamentoEmpenho);
-        camposResposta.put("cd_natureza_despesa_completa", cdNaturezaDespesaCompleta);
-        camposResposta.put("cd_natureza_despesa", cdNaturezaDespesa);
         camposResposta.put("nm_razao_social_pessoa", nmRazaoSocialPessoa);
         camposResposta.put("nu_documento", nuDocumento);
         camposResposta.put("vl_solic_empenho", vlSolicEmpenho);
         camposResposta.put("vl_original_empenho", vlOriginalEmpenho);
         camposResposta.put("vl_total_reforcado_empenho", vlTotalReforcadoEmpenho);
-        camposResposta.put("vl_total_anulado_empenho", vlTotalAnuladoEmpenho);
         camposResposta.put("vl_total_liquidado_empenho", vlTotalLiquidadoEmpenho);
-        camposResposta.put("vl_total_estorno_liqd_empenho", vlTotalEstornoLiqdEmpenho);
         camposResposta.put("vl_total_pago_empenho", vlTotalPagoEmpenho);
         camposResposta.put("vl_total_executado", vlTotalExecutado);
-        camposResposta.put("vl_total_devolvido_ob_empenho", vlTotalDevolvidoOBEmpenho);
-        camposResposta.put("vl_total_devolvido_gr_empenho", vlTotalDevolvidoGREmpenho);
         camposResposta.put("cd_funcao", cdFuncao);
         camposResposta.put("nm_funcao", nmFuncao);
         camposResposta.put("cd_sub_funcao", cdSubFuncao);
@@ -221,30 +197,6 @@ public class EmpenhoDTO extends EndpontSefaz {
     public void setDtGeracaoEmpenho(String dtGeracaoEmpenho) {
         this.dtGeracaoEmpenho = dtGeracaoEmpenho;
     }
-    public String getDtEmissaoEmpenho() {
-        return dtEmissaoEmpenho;
-    }
-    public void setDtEmissaoEmpenho(String dtEmissaoEmpenho) {
-        this.dtEmissaoEmpenho = dtEmissaoEmpenho;
-    }
-    public String getDtLancamentoEmpenho() {
-        return dtLancamentoEmpenho;
-    }
-    public void setDtLancamentoEmpenho(String dtLancamentoEmpenho) {
-        this.dtLancamentoEmpenho = dtLancamentoEmpenho;
-    }
-    public String getCdNaturezaDespesaCompleta() {
-        return cdNaturezaDespesaCompleta;
-    }
-    public void setCdNaturezaDespesaCompleta(String cdNaturezaDespesaCompleta) {
-        this.cdNaturezaDespesaCompleta = cdNaturezaDespesaCompleta;
-    }
-    public String getCdNaturezaDespesa() {
-        return cdNaturezaDespesa;
-    }
-    public void setCdNaturezaDespesa(String cdNaturezaDespesa) {
-        this.cdNaturezaDespesa = cdNaturezaDespesa;
-    }
     public String getNmRazaoSocialPessoa() {
         return nmRazaoSocialPessoa;
     }
@@ -275,23 +227,11 @@ public class EmpenhoDTO extends EndpontSefaz {
     public void setVlTotalReforcadoEmpenho(BigDecimal vlTotalReforcadoEmpenho) {
         this.vlTotalReforcadoEmpenho = vlTotalReforcadoEmpenho;
     }
-    public BigDecimal getVlTotalAnuladoEmpenho() {
-        return vlTotalAnuladoEmpenho;
-    }
-    public void setVlTotalAnuladoEmpenho(BigDecimal vlTotalAnuladoEmpenho) {
-        this.vlTotalAnuladoEmpenho = vlTotalAnuladoEmpenho;
-    }
     public BigDecimal getVlTotalLiquidadoEmpenho() {
         return vlTotalLiquidadoEmpenho;
     }
     public void setVlTotalLiquidadoEmpenho(BigDecimal vlTotalLiquidadoEmpenho) {
         this.vlTotalLiquidadoEmpenho = vlTotalLiquidadoEmpenho;
-    }
-    public BigDecimal getVlTotalEstornoLiqdEmpenho() {
-        return vlTotalEstornoLiqdEmpenho;
-    }
-    public void setVlTotalEstornoLiqdEmpenho(BigDecimal vlTotalEstornoLiqdEmpenho) {
-        this.vlTotalEstornoLiqdEmpenho = vlTotalEstornoLiqdEmpenho;
     }
     public BigDecimal getVlTotalPagoEmpenho() {
         return vlTotalPagoEmpenho;
@@ -304,18 +244,6 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setVlTotalExecutado(BigDecimal vlTotalExecutado) {
         this.vlTotalExecutado = vlTotalExecutado;
-    }
-    public BigDecimal getVlTotalDevolvidoOBEmpenho() {
-        return vlTotalDevolvidoOBEmpenho;
-    }
-    public void setVlTotalDevolvidoOBEmpenho(BigDecimal vlTotalDevolvidoOBEmpenho) {
-        this.vlTotalDevolvidoOBEmpenho = vlTotalDevolvidoOBEmpenho;
-    }
-    public BigDecimal getVlTotalDevolvidoGREmpenho() {
-        return vlTotalDevolvidoGREmpenho;
-    }
-    public void setVlTotalDevolvidoGREmpenho(BigDecimal vlTotalDevolvidoGREmpenho) {
-        this.vlTotalDevolvidoGREmpenho = vlTotalDevolvidoGREmpenho;
     }
     public Integer getCdFuncao() {
         return cdFuncao;

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -22,9 +22,9 @@ public class ContratoDTO extends EndpontSefaz {
     @JsonProperty("cdAditivo")
     private String cdAditivo;
     @JsonProperty("dtInicioVigencia")
-    private String dtInicioVigenciaStr; // Recebe como string da API
+    private String dtInicioVigenciaStr;
     @JsonProperty("dtFimVigencia")
-    private String dtFimVigenciaStr; // Recebe como string da API
+    private String dtFimVigenciaStr;
     @JsonProperty("nmCategoria")
     private String nmCategoria;
     @JsonProperty("nmFornecedor")
@@ -50,8 +50,8 @@ public class ContratoDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.contrato";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio";
     }
     @Override

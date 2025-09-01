@@ -1,4 +1,4 @@
-package br.gov.se.setc.controller;
+﻿package br.gov.se.setc.controller;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

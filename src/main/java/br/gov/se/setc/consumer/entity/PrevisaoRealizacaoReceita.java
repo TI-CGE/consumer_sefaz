@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.entity;
+﻿package br.gov.se.setc.consumer.entity;
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 /**
  * Entidade JPA para Previsão Realização Receita
  * Tabela: previsao_realizacao_receita no schema consumer_sefaz
- * 
+ *
  * Representa dados de previsão e realização de receitas por unidade gestora,
  * organizados em hierarquia de categorização (categoria → origem → espécie → desdobramento → tipo)
  */

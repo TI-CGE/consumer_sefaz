@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.contracts;
+﻿package br.gov.se.setc.consumer.contracts;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import br.gov.se.setc.util.ValidacaoUtil;
@@ -49,7 +49,7 @@ public abstract class EndpontSefaz {
     public abstract Map<String,Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano);
     /**
      * @param ugCd   unidade gestora code
-     * @param utilsService   utility objects for consults and validation 
+     * @param utilsService   utility objects for consults and validation
      * @return map of query parameters for this DTO and year
      */
      public abstract Map<String, Object> getCamposParametrosAtual(String ugCd, ValidacaoUtil<?> utilsService);

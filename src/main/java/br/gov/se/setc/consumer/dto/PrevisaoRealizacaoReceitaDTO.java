@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -22,7 +22,7 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
     @JsonProperty("dtAnoExercicioCTB")
-    private String dtAnoExercicioCTBString; // Recebido como String da API
+    private String dtAnoExercicioCTBString;
     @JsonProperty("cdCategoriaEconomica")
     private String cdCategoriaEconomica;
     @JsonProperty("nmCategoriaEconomica")
@@ -62,8 +62,8 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.previsao_realizacao_receita";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/ctb/v1/previsao-realizacao-receita";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio_ctb";
     }
     @Override
@@ -199,7 +199,7 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     }
     public void setDtAnoExercicioCTBString(String dtAnoExercicioCTBString) {
         this.dtAnoExercicioCTBString = dtAnoExercicioCTBString;
-        processarCamposDerivados(); // Converter automaticamente
+        processarCamposDerivados();
     }
     public Integer getDtAnoExercicioCTB() {
         return dtAnoExercicioCTB;

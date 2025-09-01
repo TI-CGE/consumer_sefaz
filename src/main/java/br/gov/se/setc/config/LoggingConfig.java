@@ -1,4 +1,4 @@
-package br.gov.se.setc.config;
+﻿package br.gov.se.setc.config;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 /**

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
@@ -77,7 +77,7 @@ public class PagamentoDTO extends EndpontSefaz {
     public PagamentoDTO() {
         inicializarDadosEndpoint();
     }
-    public PagamentoDTO(Integer dtAnoExercicioCTB, String cdUnidadeGestora, String cdGestao, 
+    public PagamentoDTO(Integer dtAnoExercicioCTB, String cdUnidadeGestora, String cdGestao,
                        String sgUnidadeGestora, String idOrgao, String sgOrgao, String idOrgaoSupervisor,
                        String sgOrgaoSupervisor, Long sqPrevisaoDesembolso, Long sqEmpenho, Long sqOB,
                        String cdNaturezaDespesaCompleta, String nuDocumento, String tpDocumento,

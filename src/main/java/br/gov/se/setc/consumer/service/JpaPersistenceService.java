@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.service;
+﻿package br.gov.se.setc.consumer.service;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 /**
  * Serviço de persistência JPA que substitui o EndpontSefazRepository.
- * 
+ *
  * Este serviço:
  * - Usa entidades JPA em vez de SQL direto
  * - Aplica mappers para conversão de tipos
@@ -53,7 +53,7 @@ public class JpaPersistenceService {
     /**
      * Persiste uma lista de DTOs usando JPA.
      * Método principal que substitui o EndpontSefazRepository.persist().
-     * 
+     *
      * @param dtos Lista de DTOs para persistir
      * @param <T> Tipo do DTO
      */
@@ -127,7 +127,7 @@ public class JpaPersistenceService {
      * Verifica se a persistência JPA está implementada para uma tabela.
      */
     public boolean isJpaPersistenceSupported(String tableName) {
-        return tableName.contains("consulta_gerencial") || 
+        return tableName.contains("consulta_gerencial") ||
                (tableName.contains("contrato") && !tableName.contains("empenho"));
     }
 }

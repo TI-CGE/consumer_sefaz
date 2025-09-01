@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.TermoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -27,7 +27,7 @@ public class SwaggerTermoController {
     private ConsumoApiService<TermoDTO> consumoApiService;
     @GetMapping
     @Operation(
-        summary = "Consultar dados de Termo (Convênios)", 
+        summary = "Consultar dados de Termo (Convênios)",
         description = "Consulta dados de Termo (Convênios) armazenados no banco de dados local com filtros opcionais. " +
                      "Retorna array de objetos com informações sobre convênios e termos."
     )
@@ -48,8 +48,8 @@ public class SwaggerTermoController {
             @Parameter(description = "Data fim da vigência (formato: YYYY-MM-DD)", example = "2024-12-31")
             @RequestParam(required = false) LocalDate vigenciaAte) {
         try {
-            logger.info("Consultando dados de Termo com filtros: cdUnidadeGestora=" + cdUnidadeGestora + 
-                       ", cdGestao=" + cdGestao + ", situacao=" + situacao + 
+            logger.info("Consultando dados de Termo com filtros: cdUnidadeGestora=" + cdUnidadeGestora +
+                       ", cdGestao=" + cdGestao + ", situacao=" + situacao +
                        ", vigenciaDe=" + vigenciaDe + ", vigenciaAte=" + vigenciaAte);
             TermoDTO termoDto = new TermoDTO();
             if (cdUnidadeGestora != null && !cdUnidadeGestora.trim().isEmpty()) {
@@ -77,7 +77,7 @@ public class SwaggerTermoController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Consumir dados de Termo (Convênios) da API externa", 
+        summary = "Consumir dados de Termo (Convênios) da API externa",
         description = "Consome dados da API de Termo (Convênios) do SEFAZ e persiste no banco de dados local. " +
                      "Retorna resumo da operação com quantidade de registros processados e tempo de execução. " +
                      "Este endpoint é útil para testes e execução manual do consumo de dados."
@@ -110,7 +110,7 @@ public class SwaggerTermoController {
             } else {
                 info.append("Nenhum registro retornado pela API externa\n");
             }
-            logger.info("Consumo de Termo concluído. Registros processados: " + recordCount + 
+            logger.info("Consumo de Termo concluído. Registros processados: " + recordCount +
                        ", Tempo: " + duration + "ms");
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
@@ -126,7 +126,7 @@ public class SwaggerTermoController {
     }
     @GetMapping("/info")
     @Operation(
-        summary = "Informações do endpoint", 
+        summary = "Informações do endpoint",
         description = "Retorna informações técnicas sobre o endpoint de Termo (Convênios), " +
                      "incluindo configurações, filtros suportados e estrutura de dados."
     )

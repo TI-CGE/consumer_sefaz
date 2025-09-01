@@ -1,4 +1,4 @@
-package br.gov.se.setc.config;
+﻿package br.gov.se.setc.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -71,8 +71,8 @@ public class SefazConsumerConfig {
     public RestTemplate restTemplate() {
         logger.info("Creating primary SEFAZ RestTemplate bean with enhanced configuration");
         SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(15000); // 15 segundos para conectar
-        factory.setReadTimeout(30000);    // 30 segundos para ler resposta
+        factory.setConnectTimeout(15000);
+        factory.setReadTimeout(30000);
         RestTemplate restTemplate = new RestTemplate(factory);
         restTemplate.getInterceptors().add((request, body, execution) -> {
             logger.info("HTTP Request: " + request.getMethod() + " " + request.getURI());

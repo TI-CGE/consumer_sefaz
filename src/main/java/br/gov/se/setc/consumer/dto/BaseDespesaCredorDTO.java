@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -71,8 +71,8 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.base_despesa_credor";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data específicos
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data específicos
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio";
         parametrosRequeridos = true;
     }
@@ -209,7 +209,6 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
     public void setVlOriginalEmpenho(BigDecimal vlOriginalEmpenho) {
         this.vlOriginalEmpenho = vlOriginalEmpenho;
     }
-
     public BigDecimal getVlTotalLiquidadoEmpenho() {
         return vlTotalLiquidadoEmpenho;
     }
@@ -252,7 +251,6 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
     public void setVlUnitarioItemSolicitacaoEmpenho(BigDecimal vlUnitarioItemSolicitacaoEmpenho) {
         this.vlUnitarioItemSolicitacaoEmpenho = vlUnitarioItemSolicitacaoEmpenho;
     }
-
     public Integer getNuFaixaPaginacao() {
         return nuFaixaPaginacao;
     }

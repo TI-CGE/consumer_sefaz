@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -24,7 +24,7 @@ public class SwaggerConsultaGerencialController {
     }
     @GetMapping
     @Operation(
-        summary = "Lista todas as consultas gerenciais (diárias)", 
+        summary = "Lista todas as consultas gerenciais (diárias)",
         description = "Retorna uma lista com todas as consultas gerenciais (diárias) disponíveis. " +
                      "Este endpoint consome dados da API de transparência SEFAZ e persiste no banco local."
     )
@@ -60,7 +60,7 @@ public class SwaggerConsultaGerencialController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de consulta gerencial. " +
                      "Útil para verificar se a configuração está correta."
     )
@@ -89,7 +89,7 @@ public class SwaggerConsultaGerencialController {
     }
     @GetMapping("/info")
     @Operation(
-        summary = "Informações detalhadas sobre a API", 
+        summary = "Informações detalhadas sobre a API",
         description = "Retorna informações detalhadas sobre a configuração e estrutura da API de consulta gerencial."
     )
     @ApiResponses(value = {

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.mapper;
+﻿package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.entity.ConsultaGerencial;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 /**
  * Mapper responsável por converter ConsultaGerencialDTO para ConsultaGerencial entity.
- * 
+ *
  * Este mapper resolve as inconsistências de tipos identificadas:
  * - Valores monetários que vêm como String da API → BigDecimal na entidade
  * - Datas que vêm como String da API → LocalDate na entidade
@@ -21,7 +21,7 @@ public class ConsultaGerencialMapper {
     }
     /**
      * Converte ConsultaGerencialDTO para ConsultaGerencial entity.
-     * 
+     *
      * @param dto DTO recebido da API SEFAZ
      * @return Entidade JPA pronta para persistência
      */

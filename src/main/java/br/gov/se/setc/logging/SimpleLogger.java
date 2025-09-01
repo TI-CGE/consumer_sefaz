@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging;
+﻿package br.gov.se.setc.logging;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
@@ -128,7 +128,7 @@ public class SimpleLogger {
             System.out.print(" " + WHITE + details + RESET);
         }
         if (current >= total) {
-            System.out.println(); // Nova linha quando completo
+            System.out.println();
         }
     }
     private void showEndBanner(String consumptionType, String result, String duration) {

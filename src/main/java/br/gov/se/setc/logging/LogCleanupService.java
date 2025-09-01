@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging;
+﻿package br.gov.se.setc.logging;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -95,7 +95,7 @@ public class LogCleanupService {
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
                 LocalDateTime fileTime = LocalDateTime.ofInstant(
-                        attrs.lastModifiedTime().toInstant(), 
+                        attrs.lastModifiedTime().toInstant(),
                         ZoneId.systemDefault()
                 );
                 if (fileTime.isBefore(cutoff) && !isCurrentLogFile(file)) {
@@ -113,14 +113,14 @@ public class LogCleanupService {
      * Compacta arquivos de log grandes que não estão sendo usados atualmente
      */
     private void compressLargeFiles(Path logsDir, CleanupResult result) throws IOException {
-        final long LARGE_FILE_THRESHOLD = 10 * 1024 * 1024; // 10MB
+        final long LARGE_FILE_THRESHOLD = 10 * 1024 * 1024;
         Files.walkFileTree(logsDir, new SimpleFileVisitor<Path>() {
             @Override
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
-                if (attrs.size() > LARGE_FILE_THRESHOLD && 
-                    !isCurrentLogFile(file) && 
+                if (attrs.size() > LARGE_FILE_THRESHOLD &&
+                    !isCurrentLogFile(file) &&
                     !file.toString().endsWith(".gz")) {
-                    logger.debug("📦 Arquivo grande detectado: {} ({})", 
+                    logger.debug("📦 Arquivo grande detectado: {} ({})",
                             file.getFileName(), formatBytes(attrs.size()));
                     result.largeFiles++;
                 }
@@ -159,7 +159,7 @@ public class LogCleanupService {
         result.totalSizeBytes = totalSize.get();
         long maxSizeBytes = maxSizeMb * 1024 * 1024;
         if (result.totalSizeBytes > maxSizeBytes) {
-            logger.warn("⚠️ Tamanho total dos logs ({}) excede o limite configurado ({})", 
+            logger.warn("⚠️ Tamanho total dos logs ({}) excede o limite configurado ({})",
                     formatBytes(result.totalSizeBytes), formatBytes(maxSizeBytes));
             result.sizeExceeded = true;
         }

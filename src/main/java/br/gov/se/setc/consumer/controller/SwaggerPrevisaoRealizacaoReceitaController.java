@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import java.util.List;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -31,7 +31,7 @@ public class SwaggerPrevisaoRealizacaoReceitaController {
     }
     @GetMapping
     @Operation(
-        summary = "Lista dados de previsão e realização de receitas", 
+        summary = "Lista dados de previsão e realização de receitas",
         description = "Retorna uma lista com dados de previsão e realização de receitas filtrados por unidade gestora e/ou ano de exercício. " +
                      "Os dados são organizados em hierarquia: Categoria Econômica → Origem → Espécie → Desdobramento → Tipo."
     )
@@ -72,7 +72,7 @@ public class SwaggerPrevisaoRealizacaoReceitaController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações de configuração do endpoint para verificação de funcionamento. " +
                      "Útil para validar se o serviço está configurado corretamente."
     )

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -132,7 +132,7 @@ public class LiquidacaoDTO extends EndpontSefaz {
     }
     @Override
     public boolean requerIteracaoCdGestao() {
-        return true; // LiquidacaoDTO precisa iterar sobre todos os valores de cdGestao
+        return true;
     }
     public Long getSqEmpenho() {
         return sqEmpenho;

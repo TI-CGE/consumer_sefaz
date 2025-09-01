@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import java.util.List;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -29,7 +29,7 @@ public class SwaggerTotalizadoresExecucaoController {
     }
     @GetMapping
     @Operation(
-        summary = "Lista todos os totalizadores de execução", 
+        summary = "Lista todos os totalizadores de execução",
         description = "Retorna uma lista com todos os totalizadores de execução disponíveis. Suporta filtros opcionais por unidade gestora e ano do exercício."
     )
     public List<TotalizadoresExecucaoDTO> listarTotalizadoresExecucao(
@@ -60,7 +60,7 @@ public class SwaggerTotalizadoresExecucaoController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de totalizadores de execução."
     )
     public ResponseEntity<String> testeEndpoint() {

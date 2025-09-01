@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging.util;
+﻿package br.gov.se.setc.logging.util;
 import org.slf4j.MDC;
 import java.util.UUID;
 /**

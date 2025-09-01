@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -22,7 +22,7 @@ public class SwaggerBaseDespesaLicitacaoController {
     private ConsumoApiService<BaseDespesaLicitacaoDTO> consumoApiService;
     @GetMapping
     @Operation(
-        summary = "Consumir dados de Base Despesa Licitação", 
+        summary = "Consumir dados de Base Despesa Licitação",
         description = "Consome dados da API de Base Despesa Licitação do SEFAZ e persiste no banco de dados local. " +
                      "Retorna array de objetos com informações sobre despesas por licitação."
     )
@@ -58,7 +58,7 @@ public class SwaggerBaseDespesaLicitacaoController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de Base Despesa Licitação. " +
                      "Útil para verificar se a configuração está correta."
     )

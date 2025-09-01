@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging.util;
+﻿package br.gov.se.setc.logging.util;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -143,16 +143,16 @@ public class LoggingUtils {
      */
     public static String determineErrorCategory(Exception exception) {
         String exceptionType = exception.getClass().getSimpleName().toLowerCase();
-        if (exceptionType.contains("security") || exceptionType.contains("auth") || 
+        if (exceptionType.contains("security") || exceptionType.contains("auth") ||
             exceptionType.contains("unauthorized") || exceptionType.contains("forbidden")) {
             return "SECURITY";
-        } else if (exceptionType.contains("sql") || exceptionType.contains("database") || 
+        } else if (exceptionType.contains("sql") || exceptionType.contains("database") ||
                    exceptionType.contains("connection") || exceptionType.contains("jdbc")) {
             return "DATABASE";
-        } else if (exceptionType.contains("http") || exceptionType.contains("rest") || 
+        } else if (exceptionType.contains("http") || exceptionType.contains("rest") ||
                    exceptionType.contains("client") || exceptionType.contains("timeout")) {
             return "INTEGRATION";
-        } else if (exceptionType.contains("validation") || exceptionType.contains("illegal") || 
+        } else if (exceptionType.contains("validation") || exceptionType.contains("illegal") ||
                    exceptionType.contains("business")) {
             return "BUSINESS";
         } else {
@@ -164,10 +164,10 @@ public class LoggingUtils {
      */
     public static String determineSeverity(Exception exception) {
         String exceptionType = exception.getClass().getSimpleName().toLowerCase();
-        if (exceptionType.contains("security") || exceptionType.contains("auth") || 
+        if (exceptionType.contains("security") || exceptionType.contains("auth") ||
             exceptionType.contains("outofmemory") || exceptionType.contains("stackoverflow")) {
             return "CRITICAL";
-        } else if (exceptionType.contains("sql") || exceptionType.contains("connection") || 
+        } else if (exceptionType.contains("sql") || exceptionType.contains("connection") ||
                    exceptionType.contains("timeout") || exceptionType.contains("runtime")) {
             return "HIGH";
         } else if (exceptionType.contains("validation") || exceptionType.contains("illegal")) {

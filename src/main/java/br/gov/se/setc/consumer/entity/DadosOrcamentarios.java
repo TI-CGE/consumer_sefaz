@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.entity;
+﻿package br.gov.se.setc.consumer.entity;
 import jakarta.persistence.*;
 @Entity
 @Table(name = "dados_orcamentarios", schema = "consumer_sefaz")

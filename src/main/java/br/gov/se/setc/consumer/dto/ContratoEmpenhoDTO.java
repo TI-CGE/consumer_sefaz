@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -77,14 +77,13 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.contrato_empenho";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data específicos
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data específicos
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio";
     }
     @Override
     public void mapearCamposResposta() {
         camposResposta.put("cd_solicitacao_compra", cdSolicitacaoCompra);
-        // ug_cd é campo técnico - usar a UG do filtro atual ou a UG do empenho
         String ugAtual = cdUnidadeGestoraFiltro != null ? cdUnidadeGestoraFiltro :
                         (ugNe != null ? ugNe : (ugSe != null ? ugSe : ugCd));
         camposResposta.put("ug_cd", ugAtual);
@@ -212,7 +211,6 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
     public void setDocSe(String docSe) {
         this.docSe = docSe;
     }
-
     public BigDecimal getValorSe() {
         return valorSe;
     }

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import java.util.List;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -27,7 +27,7 @@ public class SwaggerBaseDespesaCredorController {
     }
     @GetMapping
     @Operation(
-        summary = "Lista dados de Base Despesa Credor", 
+        summary = "Lista dados de Base Despesa Credor",
         description = "Retorna uma lista com dados de Base Despesa Credor da API SEFAZ. " +
                      "Este endpoint consome dados do endpoint https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor " +
                      "e persiste os dados na tabela consumer_sefaz.base_despesa_credor. " +
@@ -66,7 +66,7 @@ public class SwaggerBaseDespesaCredorController {
             List<BaseDespesaCredorDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
             logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
             if (result != null && !result.isEmpty() && result.get(0).getQtTotalFaixasPaginacao() != null) {
-                logger.info("Informações de paginação - Faixa atual: " + result.get(0).getNuFaixaPaginacao() + 
+                logger.info("Informações de paginação - Faixa atual: " + result.get(0).getNuFaixaPaginacao() +
                            ", Total de faixas: " + result.get(0).getQtTotalFaixasPaginacao());
             }
             return result;
@@ -78,7 +78,7 @@ public class SwaggerBaseDespesaCredorController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste completo do endpoint", 
+        summary = "Teste completo do endpoint",
         description = "Executa um teste completo do endpoint de Base Despesa Credor, " +
                      "incluindo consumo de todas as faixas de paginação disponíveis. " +
                      "Útil para verificar se a configuração está correta, o endpoint está funcionando " +

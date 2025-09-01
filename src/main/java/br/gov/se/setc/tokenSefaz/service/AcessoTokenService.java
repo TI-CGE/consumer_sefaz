@@ -1,4 +1,4 @@
-package br.gov.se.setc.tokenSefaz.service;
+﻿package br.gov.se.setc.tokenSefaz.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.*;
@@ -14,8 +14,8 @@ public class AcessoTokenService {
     private final RestTemplate restTemplate;
     private String cachedToken;
     private long tokenExpirationTime;
-    private static final long TOKEN_VALIDITY_DURATION = 3600000; // 1 hora em millisegundos
-    private static final long TOKEN_REFRESH_BUFFER = 300000; // 5 minutos de buffer antes da expiração
+    private static final long TOKEN_VALIDITY_DURATION = 3600000;
+    private static final long TOKEN_REFRESH_BUFFER = 300000;
     @Autowired
     private UnifiedLogger unifiedLogger;
     @Autowired
@@ -59,7 +59,7 @@ public class AcessoTokenService {
         userFriendlyLogger.logAuthenticationStart();
         unifiedLogger.logOperationStart("SECURITY", "GET_NEW_TOKEN", "CLIENT_ID", clientId, "URL", tokenUrl);
         int maxRetries = 3;
-        long baseDelay = 1000; // 1 segundo
+        long baseDelay = 1000;
         for (int attempt = 1; attempt <= maxRetries; attempt++) {
             long startTime = System.currentTimeMillis();
             try {
@@ -67,7 +67,7 @@ public class AcessoTokenService {
                 HttpHeaders headers = new HttpHeaders();
                 headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
                 headers.set("User-Agent", "SEFAZ-Consumer/1.0");
-                headers.set("Connection", "close"); // Evitar problemas de keep-alive
+                headers.set("Connection", "close");
                 HttpEntity<String> entity = new HttpEntity<>(body, headers);
                 unifiedLogger.logOperationStart("SECURITY", "TOKEN_REQUEST_ATTEMPT",
                     "ATTEMPT", String.valueOf(attempt), "MAX_RETRIES", String.valueOf(maxRetries));
@@ -126,7 +126,7 @@ public class AcessoTokenService {
     private void cacheToken(String token) {
         this.cachedToken = token;
         this.tokenExpirationTime = System.currentTimeMillis() + TOKEN_VALIDITY_DURATION;
-        unifiedLogger.logOperationSuccess("SECURITY", "TOKEN_CACHED", 
+        unifiedLogger.logOperationSuccess("SECURITY", "TOKEN_CACHED",
             0, 1, "EXPIRATION_TIME", String.valueOf(tokenExpirationTime));
     }
     private String extractToken(String responseBody) {

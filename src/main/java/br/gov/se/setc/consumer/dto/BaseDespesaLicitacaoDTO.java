@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -51,10 +51,10 @@ public class BaseDespesaLicitacaoDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.base_despesa_licitacao";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-licitacao";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data específicos
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data específicos
-        dtAnoPadrao = null; // Não usa ano padrão específico
-        parametrosRequeridos = false; // Endpoint não requer parâmetros obrigatórios
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
+        dtAnoPadrao = null;
+        parametrosRequeridos = false;
     }
     @Override
     public void mapearCamposResposta() {

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.repository;
+﻿package br.gov.se.setc.consumer.repository;
 import br.gov.se.setc.consumer.entity.ConsultaGerencial;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 /**
  * Repositório JPA para ConsultaGerencial.
- * 
+ *
  * Substitui o uso de JdbcTemplate por operações JPA nativas,
  * garantindo consistência de tipos e validação automática.
  */

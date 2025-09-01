@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -70,7 +70,7 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
         camposResposta.put("cd_contrato", cdContrato);
         camposResposta.put("dt_inicio_vigencia_contrato", dtInicioVigenciaContrato);
         camposResposta.put("ds_qualificador", dsQualificador);
-    } 
+    }
     @Override
     protected void mapearParametros(){
         camposParametros.put("cdUnidadeGestora",cdUnidadeGestora  );
@@ -87,19 +87,19 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicio", utilsService.getAnoAtual()); 
-        camposParametros.put("nuMes", utilsService.getMesAtual());  
+        camposParametros.put("dtAnoExercicio", utilsService.getAnoAtual());
+        camposParametros.put("nuMes", utilsService.getMesAtual());
         camposParametros.put("cdQualificador", 133);
         return camposParametros;
-    }     
+    }
     @Override
     public  Map<String, Object> getCamposParametrosTodosOsAnos(String cdUnidadeGestora,Short ano ) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicio", ano);   
+        camposParametros.put("dtAnoExercicio", ano);
         camposParametros.put("cdQualificador", 133);
         return camposParametros;
-    }     
+    }
     public void setCamposParametros(Map<String, Object> camposParametros) {
         this.camposParametros = camposParametros;
     }

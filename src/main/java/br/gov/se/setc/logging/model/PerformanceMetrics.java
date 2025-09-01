@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging.model;
+﻿package br.gov.se.setc.logging.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 /**
  * Modelo para métricas de performance
@@ -18,7 +18,7 @@ public class PerformanceMetrics extends LogEvent {
     private Integer apiCallCount;
     private String operationType;
     private Double throughputRecordsPerSecond;
-    private String status; // SUCCESS, FAILED, PARTIAL
+    private String status;
     public PerformanceMetrics() {
         super();
         setEventType("PERFORMANCE");

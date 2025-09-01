@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -62,7 +62,7 @@ public class SwaggerContratoController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de contratos. " +
                      "Útil para verificar se a configuração está correta."
     )

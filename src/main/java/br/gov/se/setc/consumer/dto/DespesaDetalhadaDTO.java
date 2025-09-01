@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.entity.DespesaDetalhada;
 import br.gov.se.setc.util.ValidacaoUtil;
@@ -17,7 +17,7 @@ import java.util.Map;
  *
  * Filtros disponíveis:
  * - Obrigatório: dtAnoExercicioCTB (ano do exercício)
- * - Opcionais: cdOrgao, cdUnidOrc, cdFuncao, cdSubFuncao, cdProgramaGoverno, 
+ * - Opcionais: cdOrgao, cdUnidOrc, cdFuncao, cdSubFuncao, cdProgramaGoverno,
  *              cdPPAAcao, cdSubAcao, cdCategoriaEconomica, cdNaturezaDespesa
  *
  * Chave única: dtAnoExercicioCTB + cdOrgao + cdUnidOrc + cdNaturezaDespesa + cdPPAAcao + cdSubAcao
@@ -94,8 +94,8 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.despesa_detalhada";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/ctb/v1/despesa-detalhada";
-        nomeDataInicialPadraoFiltro = null; // Não usa filtros de data
-        nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio_ctb";
     }
     @Override

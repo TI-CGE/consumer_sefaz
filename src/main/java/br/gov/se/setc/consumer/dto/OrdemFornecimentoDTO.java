@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -27,14 +27,8 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     private BigDecimal vlOrdemFornecimento;
     @JsonProperty("nuDanfe")
     private String nuDanfe;
-    @JsonProperty("nuNfe")
-    private String nuNfe;
-    @JsonProperty("cdVerificacaoNfse")
-    private String cdVerificacaoNfse;
     @JsonProperty("dtEmissao")
     private LocalDate dtEmissao;
-    @JsonProperty("dtServico")
-    private LocalDate dtServico;
     @JsonProperty("nuDocumentoDestinatario")
     private String nuDocumentoDestinatario;
     @JsonProperty("nmDestinatario")
@@ -55,54 +49,16 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     private BigDecimal vlTotalFrete;
     @JsonProperty("vlTotalSeguro")
     private BigDecimal vlTotalSeguro;
-    @JsonProperty("vlBaseCalcICMS")
+    @JsonProperty("vlBaseCalcIcms")
     private BigDecimal vlBaseCalcICMS;
-    @JsonProperty("vlBaseCalcICMSST")
+    @JsonProperty("vlBaseCalcIcmsSt")
     private BigDecimal vlBaseCalcICMSST;
-    @JsonProperty("vlTotalICMSST")
+    @JsonProperty("vlTotalIcmsSt")
     private BigDecimal vlTotalICMSST;
-    @JsonProperty("vlPis")
-    private BigDecimal vlPis;
-    @JsonProperty("vlCofins")
-    private BigDecimal vlCofins;
-    @JsonProperty("vlIss")
-    private BigDecimal vlIss;
-    @JsonProperty("vlBaseCalcIss")
-    private BigDecimal vlBaseCalcIss;
-    @JsonProperty("vlAliqISS")
-    private BigDecimal vlAliqISS;
-    @JsonProperty("vlTotalICMS")
+    @JsonProperty("vlTotalIcms")
     private BigDecimal vlTotalICMS;
     @JsonProperty("vlIpi")
     private BigDecimal vlIpi;
-    @JsonProperty("vlLiquido")
-    private BigDecimal vlLiquido;
-    @JsonProperty("vlDeducoes")
-    private BigDecimal vlDeducoes;
-    @JsonProperty("vlOutRetencoes")
-    private BigDecimal vlOutRetencoes;
-    @JsonProperty("vlDescIncondicionado")
-    private BigDecimal vlDescIncondicionado;
-    @JsonProperty("vlDescCondicionado")
-    private BigDecimal vlDescCondicionado;
-    @JsonProperty("discriminacao")
-    private String discriminacao;
-    @JsonProperty("vlInss")
-    private BigDecimal vlInss;
-    @JsonProperty("vlRetPis")
-    private BigDecimal vlRetPis;
-    @JsonProperty("vlRetCofins")
-    private BigDecimal vlRetCofins;
-    @JsonProperty("vlRetCsll")
-    private BigDecimal vlRetCsll;
-    @JsonProperty("vlRetIRRF")
-    private BigDecimal vlRetIRRF;
-    @JsonProperty("vlBaseCalcRetIRRF")
-    private BigDecimal vlBaseCalcRetIRRF;
-    @JsonProperty("vlRetPrev")
-    private BigDecimal vlRetPrev;
-    @JsonProperty("vlBaseCalcRetPrev")
-    private BigDecimal vlBaseCalcRetPrev;
     public OrdemFornecimentoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -128,10 +84,7 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
         camposResposta.put("dt_recebimento", dtRecebimento);
         camposResposta.put("vl_ordem_fornecimento", vlOrdemFornecimento);
         camposResposta.put("nu_danfe", nuDanfe);
-        camposResposta.put("nu_nfe", nuNfe);
-        camposResposta.put("cd_verificacao_nfse", cdVerificacaoNfse);
         camposResposta.put("dt_emissao", dtEmissao);
-        camposResposta.put("dt_servico", dtServico);
         camposResposta.put("nu_documento_destinatario", nuDocumentoDestinatario);
         camposResposta.put("nm_destinatario", nmDestinatario);
         camposResposta.put("nu_documento_emitente", nuDocumentoEmitente);
@@ -145,27 +98,8 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
         camposResposta.put("vl_base_calc_icms", vlBaseCalcICMS);
         camposResposta.put("vl_base_calc_icms_st", vlBaseCalcICMSST);
         camposResposta.put("vl_total_icms_st", vlTotalICMSST);
-        camposResposta.put("vl_pis", vlPis);
-        camposResposta.put("vl_cofins", vlCofins);
-        camposResposta.put("vl_iss", vlIss);
-        camposResposta.put("vl_base_calc_iss", vlBaseCalcIss);
-        camposResposta.put("vl_aliq_iss", vlAliqISS);
         camposResposta.put("vl_total_icms", vlTotalICMS);
         camposResposta.put("vl_ipi", vlIpi);
-        camposResposta.put("vl_liquido", vlLiquido);
-        camposResposta.put("vl_deducoes", vlDeducoes);
-        camposResposta.put("vl_out_retencoes", vlOutRetencoes);
-        camposResposta.put("vl_desc_incondicionado", vlDescIncondicionado);
-        camposResposta.put("vl_desc_condicionado", vlDescCondicionado);
-        camposResposta.put("discriminacao", discriminacao);
-        camposResposta.put("vl_inss", vlInss);
-        camposResposta.put("vl_ret_pis", vlRetPis);
-        camposResposta.put("vl_ret_cofins", vlRetCofins);
-        camposResposta.put("vl_ret_csll", vlRetCsll);
-        camposResposta.put("vl_ret_irrf", vlRetIRRF);
-        camposResposta.put("vl_base_calc_ret_irrf", vlBaseCalcRetIRRF);
-        camposResposta.put("vl_ret_prev", vlRetPrev);
-        camposResposta.put("vl_base_calc_ret_prev", vlBaseCalcRetPrev);
     }
     @Override
     protected void mapearParametros() {
@@ -245,29 +179,11 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     public void setNuDanfe(String nuDanfe) {
         this.nuDanfe = nuDanfe;
     }
-    public String getNuNfe() {
-        return nuNfe;
-    }
-    public void setNuNfe(String nuNfe) {
-        this.nuNfe = nuNfe;
-    }
-    public String getCdVerificacaoNfse() {
-        return cdVerificacaoNfse;
-    }
-    public void setCdVerificacaoNfse(String cdVerificacaoNfse) {
-        this.cdVerificacaoNfse = cdVerificacaoNfse;
-    }
     public LocalDate getDtEmissao() {
         return dtEmissao;
     }
     public void setDtEmissao(LocalDate dtEmissao) {
         this.dtEmissao = dtEmissao;
-    }
-    public LocalDate getDtServico() {
-        return dtServico;
-    }
-    public void setDtServico(LocalDate dtServico) {
-        this.dtServico = dtServico;
     }
     public String getNuDocumentoDestinatario() {
         return nuDocumentoDestinatario;
@@ -347,36 +263,6 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     public void setVlTotalICMSST(BigDecimal vlTotalICMSST) {
         this.vlTotalICMSST = vlTotalICMSST;
     }
-    public BigDecimal getVlPis() {
-        return vlPis;
-    }
-    public void setVlPis(BigDecimal vlPis) {
-        this.vlPis = vlPis;
-    }
-    public BigDecimal getVlCofins() {
-        return vlCofins;
-    }
-    public void setVlCofins(BigDecimal vlCofins) {
-        this.vlCofins = vlCofins;
-    }
-    public BigDecimal getVlIss() {
-        return vlIss;
-    }
-    public void setVlIss(BigDecimal vlIss) {
-        this.vlIss = vlIss;
-    }
-    public BigDecimal getVlBaseCalcIss() {
-        return vlBaseCalcIss;
-    }
-    public void setVlBaseCalcIss(BigDecimal vlBaseCalcIss) {
-        this.vlBaseCalcIss = vlBaseCalcIss;
-    }
-    public BigDecimal getVlAliqISS() {
-        return vlAliqISS;
-    }
-    public void setVlAliqISS(BigDecimal vlAliqISS) {
-        this.vlAliqISS = vlAliqISS;
-    }
     public BigDecimal getVlTotalICMS() {
         return vlTotalICMS;
     }
@@ -388,89 +274,5 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     }
     public void setVlIpi(BigDecimal vlIpi) {
         this.vlIpi = vlIpi;
-    }
-    public BigDecimal getVlLiquido() {
-        return vlLiquido;
-    }
-    public void setVlLiquido(BigDecimal vlLiquido) {
-        this.vlLiquido = vlLiquido;
-    }
-    public BigDecimal getVlDeducoes() {
-        return vlDeducoes;
-    }
-    public void setVlDeducoes(BigDecimal vlDeducoes) {
-        this.vlDeducoes = vlDeducoes;
-    }
-    public BigDecimal getVlOutRetencoes() {
-        return vlOutRetencoes;
-    }
-    public void setVlOutRetencoes(BigDecimal vlOutRetencoes) {
-        this.vlOutRetencoes = vlOutRetencoes;
-    }
-    public BigDecimal getVlDescIncondicionado() {
-        return vlDescIncondicionado;
-    }
-    public void setVlDescIncondicionado(BigDecimal vlDescIncondicionado) {
-        this.vlDescIncondicionado = vlDescIncondicionado;
-    }
-    public BigDecimal getVlDescCondicionado() {
-        return vlDescCondicionado;
-    }
-    public void setVlDescCondicionado(BigDecimal vlDescCondicionado) {
-        this.vlDescCondicionado = vlDescCondicionado;
-    }
-    public String getDiscriminacao() {
-        return discriminacao;
-    }
-    public void setDiscriminacao(String discriminacao) {
-        this.discriminacao = discriminacao;
-    }
-    public BigDecimal getVlInss() {
-        return vlInss;
-    }
-    public void setVlInss(BigDecimal vlInss) {
-        this.vlInss = vlInss;
-    }
-    public BigDecimal getVlRetPis() {
-        return vlRetPis;
-    }
-    public void setVlRetPis(BigDecimal vlRetPis) {
-        this.vlRetPis = vlRetPis;
-    }
-    public BigDecimal getVlRetCofins() {
-        return vlRetCofins;
-    }
-    public void setVlRetCofins(BigDecimal vlRetCofins) {
-        this.vlRetCofins = vlRetCofins;
-    }
-    public BigDecimal getVlRetCsll() {
-        return vlRetCsll;
-    }
-    public void setVlRetCsll(BigDecimal vlRetCsll) {
-        this.vlRetCsll = vlRetCsll;
-    }
-    public BigDecimal getVlRetIRRF() {
-        return vlRetIRRF;
-    }
-    public void setVlRetIRRF(BigDecimal vlRetIRRF) {
-        this.vlRetIRRF = vlRetIRRF;
-    }
-    public BigDecimal getVlBaseCalcRetIRRF() {
-        return vlBaseCalcRetIRRF;
-    }
-    public void setVlBaseCalcRetIRRF(BigDecimal vlBaseCalcRetIRRF) {
-        this.vlBaseCalcRetIRRF = vlBaseCalcRetIRRF;
-    }
-    public BigDecimal getVlRetPrev() {
-        return vlRetPrev;
-    }
-    public void setVlRetPrev(BigDecimal vlRetPrev) {
-        this.vlRetPrev = vlRetPrev;
-    }
-    public BigDecimal getVlBaseCalcRetPrev() {
-        return vlBaseCalcRetPrev;
-    }
-    public void setVlBaseCalcRetPrev(BigDecimal vlBaseCalcRetPrev) {
-        this.vlBaseCalcRetPrev = vlBaseCalcRetPrev;
     }
 }

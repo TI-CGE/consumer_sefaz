@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging.model;
+﻿package br.gov.se.setc.logging.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 /**
  * Modelo específico para logs de erro
@@ -10,8 +10,8 @@ public class ErrorLog extends LogEvent {
     private String stackTrace;
     private String rootCause;
     private String errorCode;
-    private String errorCategory; // BUSINESS, TECHNICAL, INTEGRATION, SECURITY
-    private String severity; // LOW, MEDIUM, HIGH, CRITICAL
+    private String errorCategory;
+    private String severity;
     private String affectedOperation;
     private String recoveryAction;
     private String userImpact;

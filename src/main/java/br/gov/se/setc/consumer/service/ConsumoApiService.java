@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.service;
+﻿package br.gov.se.setc.consumer.service;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -200,7 +200,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                           .info("  • Registros processados: " + totalRecordsProcessed)
                           .info("  • Tempo de persistência: " + persistTime + "ms")
                           .info("  • Tabela: " + mapper.getTabelaBanco());
-            if (totalTime > 10000) { // Mais de 10 segundos
+            if (totalTime > 10000) {
                 markdownSection.warning("Operação demorou mais que 10 segundos");
             }
             markdownSection.logWithSummary(totalRecordsProcessed);
@@ -447,23 +447,23 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             if (targetSetterName != null) {
                 possibleSetterNames = new String[]{
                     targetSetterName,
-                    "set" + capitalize(fieldName),                    // setFieldName
-                    "set" + capitalize(toCamelCase(fieldName)),       // setFieldName (from snake_case)
-                    "set" + fieldName,                               // setfieldName
-                    "set" + fieldName.toUpperCase()                  // setFIELDNAME
+                    "set" + capitalize(fieldName),
+                    "set" + capitalize(toCamelCase(fieldName)),
+                    "set" + fieldName,
+                    "set" + fieldName.toUpperCase()
                 };
             } else {
                 possibleSetterNames = new String[]{
-                    "set" + capitalize(fieldName),                    // setFieldName
-                    "set" + capitalize(toCamelCase(fieldName)),       // setFieldName (from snake_case)
-                    "set" + fieldName,                               // setfieldName
-                    "set" + fieldName.toUpperCase()                  // setFIELDNAME
+                    "set" + capitalize(fieldName),
+                    "set" + capitalize(toCamelCase(fieldName)),
+                    "set" + fieldName,
+                    "set" + fieldName.toUpperCase()
                 };
             }
             for (String setterName : possibleSetterNames) {
                 if (tryInvokeSetterWithValue(dtoInstance, dtoClass, setterName, fieldValue)) {
                     logger.fine("Mapeado campo '" + fieldName + "' usando setter '" + setterName + "'");
-                    return; // Success, stop trying other names
+                    return;
                 }
             }
             if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
@@ -686,9 +686,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         List<T> resultadoTodosAnos = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
         String dataType = getDataTypeFromMapper(mapper);
-        int totalAnos = 6; // 2020-2025
+        int totalAnos = 6;
         int anoProcessado = 0;
-
         for (Short dtAno = anoAtual; dtAno >= anoAtual-5;  dtAno--) {
             anoProcessado++;
             simpleLogger.consumptionProgress(dataType, "Processando anos", anoProcessado, totalAnos,
@@ -950,7 +949,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     @SuppressWarnings("unchecked")
     private List<T> deduplicateTermoList(List<T> originalList) {
         logger.info("Aplicando deduplicação para Termo baseada em cdConvenio...");
-        Map<Long, T> uniqueTermos = new LinkedHashMap<>(); // Preserva ordem de inserção
+        Map<Long, T> uniqueTermos = new LinkedHashMap<>();
         int duplicatesRemoved = 0;
         for (T item : originalList) {
             try {
@@ -964,7 +963,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 } else {
                     logger.warning("Termo com cdConvenio null encontrado - mantendo registro");
-                    uniqueTermos.put(System.currentTimeMillis(), item); // Usar timestamp como chave temporária
+                    uniqueTermos.put(System.currentTimeMillis(), item);
                 }
             } catch (Exception e) {
                 logger.warning("Erro ao obter cdConvenio para deduplicação: " + e.getMessage());
@@ -985,7 +984,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     @SuppressWarnings("unchecked")
     private List<T> deduplicateDespesaDetalhadaList(List<T> originalList) {
         logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave composta da constraint única...");
-        Map<String, T> uniqueDespesas = new LinkedHashMap<>(); // Preserva ordem de inserção
+        Map<String, T> uniqueDespesas = new LinkedHashMap<>();
         int duplicatesRemoved = 0;
         for (T item : originalList) {
             try {

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import java.util.HashMap;
 import java.util.Map;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;

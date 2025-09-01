@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.UnifiedLogger;
@@ -61,7 +61,7 @@ public class SwaggerDadosOrcamentariosController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de dados orçamentários."
     )
     public ResponseEntity<String> testeEndpoint() {

@@ -1,4 +1,4 @@
-package br.gov.se.setc.controller;
+﻿package br.gov.se.setc.controller;
 import br.gov.se.setc.logging.LogCleanupService;
 import br.gov.se.setc.logging.LogRotationService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -51,7 +51,7 @@ public class LogManagementController {
         if (!logsDir.exists()) {
             return "❌ Diretório de logs não encontrado: " + LOGS_DIR;
         }
-        File[] logFiles = logsDir.listFiles((dir, name) -> 
+        File[] logFiles = logsDir.listFiles((dir, name) ->
             name.endsWith(".log") || name.endsWith(".md"));
         if (logFiles == null || logFiles.length == 0) {
             result.append("📁 Nenhum arquivo de log encontrado\n");
@@ -60,7 +60,7 @@ public class LogManagementController {
                 long size = file.length();
                 String sizeStr = formatFileSize(size);
                 String lastModified = LocalDateTime.ofEpochSecond(
-                    file.lastModified() / 1000, 0, 
+                    file.lastModified() / 1000, 0,
                     java.time.ZoneOffset.systemDefault().getRules().getOffset(java.time.Instant.now())
                 ).format(FORMATTER);
                 result.append("📄 ").append(file.getName())

@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -45,7 +45,7 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     @JsonProperty("nmConcedente")
     private String nmConcedente;
     @JsonProperty("inConvenioFichaIngresso")
-    private String inConvenioFichaIngresso; // CHAR(1)
+    private String inConvenioFichaIngresso;
     @JsonProperty("dsObjetoConvenio")
     private String dsObjetoConvenio;
     @JsonProperty("cdGestao")
@@ -67,7 +67,7 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     @JsonProperty("inLocalPublicacaoConvenio")
     private String inLocalPublicacaoConvenio;
     @JsonProperty("inConvenioEmpenhoIngresso")
-    private String inConvenioEmpenhoIngresso; // CHAR(1)
+    private String inConvenioEmpenhoIngresso;
     private String cdUnidadeGestoraFiltro;
     private String cdGestaoFiltro;
     private Integer nuAnoLancamentoFiltro;

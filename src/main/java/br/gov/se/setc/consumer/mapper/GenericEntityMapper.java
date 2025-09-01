@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.mapper;
+﻿package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -9,14 +9,14 @@ import java.time.LocalDateTime;
 import java.util.Map;
 /**
  * Mapper genérico para entidades que já possuem tipos consistentes entre DTO e Entity.
- * 
+ *
  * Este mapper usa reflection para mapear automaticamente campos de DTOs para entidades
  * quando os tipos já são compatíveis, eliminando a necessidade de mappers específicos
  * para entidades simples.
- * 
+ *
  * Usado para entidades como:
  * - BaseDespesaCredor
- * - BaseDespesaLicitacao  
+ * - BaseDespesaLicitacao
  * - ContratoEmpenho
  * - Pagamento
  * - Empenho
@@ -27,7 +27,7 @@ public class GenericEntityMapper {
     private static final Logger logger = LoggerFactory.getLogger(GenericEntityMapper.class);
     /**
      * Mapeia um DTO para uma entidade usando reflection.
-     * 
+     *
      * @param dto DTO source
      * @param entityClass Classe da entidade target
      * @param <T> Tipo do DTO (deve estender EndpontSefaz)
@@ -52,7 +52,7 @@ public class GenericEntityMapper {
             setAuditFields(entity);
             return entity;
         } catch (Exception e) {
-            logger.error("Erro ao mapear DTO {} para entidade {}: {}", 
+            logger.error("Erro ao mapear DTO {} para entidade {}: {}",
                         dto.getClass().getSimpleName(), entityClass.getSimpleName(), e.getMessage(), e);
             throw new RuntimeException("Erro no mapeamento genérico", e);
         }
@@ -100,7 +100,7 @@ public class GenericEntityMapper {
             }
             logger.debug("Campo '{}' não encontrado na entidade {}", fieldName, entity.getClass().getSimpleName());
         } catch (Exception e) {
-            logger.warn("Erro ao definir campo '{}' na entidade {}: {}", 
+            logger.warn("Erro ao definir campo '{}' na entidade {}: {}",
                        fieldName, entity.getClass().getSimpleName(), e.getMessage());
         }
     }
@@ -127,7 +127,7 @@ public class GenericEntityMapper {
         } catch (NoSuchMethodException e) {
             Method[] methods = clazz.getMethods();
             for (Method method : methods) {
-                if (method.getName().equals(setterName) && 
+                if (method.getName().equals(setterName) &&
                     method.getParameterCount() == 1 &&
                     method.getParameterTypes()[0].isAssignableFrom(paramType)) {
                     return method;

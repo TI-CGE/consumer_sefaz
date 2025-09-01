@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import java.util.List;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -25,7 +25,7 @@ public class SwaggerContratoEmpenhoController {
     }
     @GetMapping
     @Operation(
-        summary = "Lista todos os contratos-empenho", 
+        summary = "Lista todos os contratos-empenho",
         description = "Retorna uma lista com todos os contratos-empenho disponíveis da API SEFAZ. " +
                      "Este endpoint consome dados do endpoint https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho " +
                      "e persiste os dados na tabela consumer_sefaz.contrato_empenho."
@@ -50,7 +50,7 @@ public class SwaggerContratoEmpenhoController {
     }
     @GetMapping("/test")
     @Operation(
-        summary = "Teste básico do endpoint", 
+        summary = "Teste básico do endpoint",
         description = "Retorna informações básicas para teste do endpoint de Contrato-Empenho. " +
                      "Útil para verificar se a configuração está correta e o endpoint está funcionando."
     )

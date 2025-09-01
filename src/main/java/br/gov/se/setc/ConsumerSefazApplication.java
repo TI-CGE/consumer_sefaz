@@ -1,4 +1,4 @@
-package br.gov.se.setc;
+﻿package br.gov.se.setc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;

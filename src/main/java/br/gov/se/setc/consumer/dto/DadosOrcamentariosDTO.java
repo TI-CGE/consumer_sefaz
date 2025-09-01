@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -65,9 +65,9 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.dados_orcamentarios";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/empenho/dados-orcamentarios";
-        nomeDataInicialPadraoFiltro = null; // Não há campo de data específico
-        nomeDataFinalPadraoFiltro = null; // Não há campo de data específico
-        dtAnoPadrao = null; // Não há campo de ano específico
+        nomeDataInicialPadraoFiltro = null;
+        nomeDataFinalPadraoFiltro = null;
+        dtAnoPadrao = null;
         parametrosRequeridos = true;
     }
     @Override
@@ -110,7 +110,7 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
             ano = this.dtAnoExercicioCTB;
             camposParametros.put("dtAnoExercicioCTB", ano);
         } else {
-            ano = utilsService.getAnoAtual().intValue(); // Converter Short para Integer
+            ano = utilsService.getAnoAtual().intValue();
             camposParametros.put("dtAnoExercicioCTB", ano);
         }
         return camposParametros;
@@ -128,7 +128,7 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
      */
     @Override
     public boolean requerIteracaoEmpenhos() {
-        return true; // Todos os parâmetros são obrigatórios: cdUnidadeGestora, dtAnoExercicioCTB, cdGestao, sqEmpenho
+        return true;
     }
     /**
      * Cria parâmetros específicos para uma consulta com cdGestao e sqEmpenho

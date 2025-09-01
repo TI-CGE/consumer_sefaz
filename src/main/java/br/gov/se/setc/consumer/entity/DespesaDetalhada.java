@@ -1,11 +1,11 @@
-package br.gov.se.setc.consumer.entity;
+﻿package br.gov.se.setc.consumer.entity;
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 /**
  * Entidade JPA para Despesa Detalhada
  * Tabela: despesa_detalhada no schema consumer_sefaz
- * 
+ *
  * Representa dados detalhados de despesas por órgão, unidade orçamentária,
  * organizados em hierarquia de categorização (função → subfunção → programa → ação → natureza)
  */

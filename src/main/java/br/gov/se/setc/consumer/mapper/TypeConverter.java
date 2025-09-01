@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.mapper;
+﻿package br.gov.se.setc.consumer.mapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -9,10 +9,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 /**
  * Conversor de tipos padronizado para eliminar inconsistências entre DTOs e entidades.
- * 
+ *
  * Este componente centraliza todas as conversões de tipos que acontecem entre
  * os dados recebidos das APIs SEFAZ e os tipos esperados pelas entidades JPA.
- * 
+ *
  * Principais conversões:
  * - String → BigDecimal (valores monetários)
  * - String → LocalDate (datas)
@@ -28,7 +28,7 @@ public class TypeConverter {
     /**
      * Converte String para BigDecimal de forma segura.
      * Trata valores nulos, vazios e formatos inválidos.
-     * 
+     *
      * @param value String a ser convertida
      * @return BigDecimal convertido ou BigDecimal.ZERO se inválido
      */
@@ -47,7 +47,7 @@ public class TypeConverter {
     /**
      * Converte String para BigDecimal, retornando null se inválido.
      * Útil quando null é um valor válido.
-     * 
+     *
      * @param value String a ser convertida
      * @return BigDecimal convertido ou null se inválido
      */
@@ -66,7 +66,7 @@ public class TypeConverter {
     /**
      * Converte String para LocalDate de forma segura.
      * Suporta formato ISO (yyyy-MM-dd).
-     * 
+     *
      * @param value String a ser convertida
      * @return LocalDate convertido ou null se inválido
      */
@@ -85,7 +85,7 @@ public class TypeConverter {
     /**
      * Converte String para LocalDateTime de forma segura.
      * Suporta múltiplos formatos comuns.
-     * 
+     *
      * @param value String a ser convertida
      * @return LocalDateTime convertido ou null se inválido
      */
@@ -100,7 +100,7 @@ public class TypeConverter {
             try {
                 return LocalDateTime.parse(cleanValue, ALTERNATIVE_DATETIME_FORMATTER);
             } catch (DateTimeParseException e2) {
-                logger.warn("Erro ao converter '{}' para LocalDateTime. Retornando null. Erros: {} | {}", 
+                logger.warn("Erro ao converter '{}' para LocalDateTime. Retornando null. Erros: {} | {}",
                            value, e1.getMessage(), e2.getMessage());
                 return null;
             }
@@ -108,7 +108,7 @@ public class TypeConverter {
     }
     /**
      * Converte String para Integer de forma segura.
-     * 
+     *
      * @param value String a ser convertida
      * @return Integer convertido ou null se inválido
      */
@@ -125,7 +125,7 @@ public class TypeConverter {
     }
     /**
      * Converte String para Long de forma segura.
-     * 
+     *
      * @param value String a ser convertida
      * @return Long convertido ou null se inválido
      */
@@ -143,7 +143,7 @@ public class TypeConverter {
     /**
      * Converte Object para String de forma segura.
      * Útil para campos que podem vir como diferentes tipos da API.
-     * 
+     *
      * @param value Object a ser convertido
      * @return String convertida ou null se nulo
      */
@@ -156,7 +156,7 @@ public class TypeConverter {
     /**
      * Converte Integer para BigDecimal de forma segura.
      * Útil quando a API retorna números inteiros mas o banco espera decimal.
-     * 
+     *
      * @param value Integer a ser convertido
      * @return BigDecimal convertido ou null se nulo
      */
@@ -168,7 +168,7 @@ public class TypeConverter {
     }
     /**
      * Converte Long para BigDecimal de forma segura.
-     * 
+     *
      * @param value Long a ser convertido
      * @return BigDecimal convertido ou null se nulo
      */

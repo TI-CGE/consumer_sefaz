@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.dto;
+﻿package br.gov.se.setc.consumer.dto;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
@@ -64,7 +64,7 @@ public class ReceitaDTO extends EndpontSefaz {
     public ReceitaDTO() {
         inicializarDadosEndpoint();
     }
-    public ReceitaDTO(LocalDate dtFimVigenciaConvenio, Integer cdConvenio, String cdUnidadeGestora, 
+    public ReceitaDTO(LocalDate dtFimVigenciaConvenio, Integer cdConvenio, String cdUnidadeGestora,
                      String nmConcedente, String inConvenioFichaIngresso, LocalDate dtPublicacaoConvenio,
                      String dsObjetoConvenio, BigDecimal vlConcedenteConvenio, String cdGestao,
                      String txIdentOriginalConvenio, Integer cdConcedentePessoa, String cdEfetivacaoUsuario,
@@ -109,8 +109,8 @@ public class ReceitaDTO extends EndpontSefaz {
         tabelaBanco = "consumer_sefaz.receita";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/receita";
         nomeDataInicialPadraoFiltro = "dt_celebracao_convenio";
-        nomeDataFinalPadraoFiltro = "dt_celebracao_convenio"; // Usar mesmo campo para evitar lógica incorreta
-        dtAnoPadrao = null; // Não há campo de ano específico, usaremos nuAnoCelebracao nos parâmetros
+        nomeDataFinalPadraoFiltro = "dt_celebracao_convenio";
+        dtAnoPadrao = null;
     }
     @Override
     public void mapearCamposResposta() {

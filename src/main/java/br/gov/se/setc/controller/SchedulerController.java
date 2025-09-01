@@ -1,4 +1,4 @@
-package br.gov.se.setc.controller;
+﻿package br.gov.se.setc.controller;
 import br.gov.se.setc.scheduler.ContractConsumptionScheduler;
 import br.gov.se.setc.consumer.service.PrevisaoRealizacaoReceitaMultiMesService;
 import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;

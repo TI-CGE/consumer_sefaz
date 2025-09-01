@@ -1,4 +1,4 @@
-package br.gov.se.setc.logging;
+﻿package br.gov.se.setc.logging;
 import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
 import org.slf4j.Logger;
@@ -35,7 +35,7 @@ public class UnifiedLogger {
         setupMDC(component, operation);
         String contextStr = context.length > 0 ? " | " + formatContext(context) : "";
         String message = operation + " | " + dataCount + " registros" + contextStr;
-        if (durationMs > 5000) { // Operação lenta
+        if (durationMs > 5000) {
             simpleLogger.slow(component, message, durationMs);
         } else {
             simpleLogger.success(component, message, durationMs);
@@ -53,29 +53,29 @@ public class UnifiedLogger {
     /**
      * Log de processamento de dados
      */
-    public void logDataProcessing(String component, String operation, int recordsReceived, 
+    public void logDataProcessing(String component, String operation, int recordsReceived,
                                 int recordsProcessed, int recordsValid, int recordsInvalid) {
         setupMDC(component, operation);
-        logger.info("📊 PROCESSAMENTO {} | RECEBIDOS: {} | PROCESSADOS: {} | VÁLIDOS: {} | INVÁLIDOS: {}", 
+        logger.info("📊 PROCESSAMENTO {} | RECEBIDOS: {} | PROCESSADOS: {} | VÁLIDOS: {} | INVÁLIDOS: {}",
                 operation, recordsReceived, recordsProcessed, recordsValid, recordsInvalid);
     }
     /**
      * Log de chamada de API
      */
-    public void logApiCall(String endpoint, String method, int statusCode, long responseTimeMs, 
+    public void logApiCall(String endpoint, String method, int statusCode, long responseTimeMs,
                           int requestSize, int responseSize) {
         setupMDC("API_CLIENT", "API_CALL");
         String responseTimeStr = LoggingUtils.formatExecutionTime(responseTimeMs);
         String requestSizeStr = LoggingUtils.formatBytes(requestSize);
         String responseSizeStr = LoggingUtils.formatBytes(responseSize);
-        if (responseTimeMs > 3000) { // Chamada lenta
-            logger.warn("🐌 API LENTA {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}", 
+        if (responseTimeMs > 3000) {
+            logger.warn("🐌 API LENTA {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}",
                     method, endpoint, statusCode, responseTimeStr, requestSizeStr, responseSizeStr);
-        } else if (statusCode >= 400) { // Erro HTTP
-            logger.error("🌐 API ERRO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}", 
+        } else if (statusCode >= 400) {
+            logger.error("🌐 API ERRO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}",
                     method, endpoint, statusCode, responseTimeStr, requestSizeStr, responseSizeStr);
         } else {
-            logger.info("🌐 API SUCESSO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}", 
+            logger.info("🌐 API SUCESSO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}",
                     method, endpoint, statusCode, responseTimeStr, requestSizeStr, responseSizeStr);
         }
     }
@@ -85,11 +85,11 @@ public class UnifiedLogger {
     public void logDatabaseOperation(String operation, String table, int recordCount, long durationMs) {
         setupMDC("DATABASE", operation + "_" + table);
         String durationStr = LoggingUtils.formatExecutionTime(durationMs);
-        if (durationMs > 10000) { // Query lenta
-            logger.warn("🐌 DB LENTO {} na tabela {} | RECORDS: {} | DURATION: {}", 
+        if (durationMs > 10000) {
+            logger.warn("🐌 DB LENTO {} na tabela {} | RECORDS: {} | DURATION: {}",
                     operation, table, recordCount, durationStr);
         } else {
-            logger.info("🗄️ DB {} na tabela {} | RECORDS: {} | DURATION: {}", 
+            logger.info("🗄️ DB {} na tabela {} | RECORDS: {} | DURATION: {}",
                     operation, table, recordCount, durationStr);
         }
     }
@@ -107,7 +107,7 @@ public class UnifiedLogger {
     public void logApplicationStartup(String applicationName, String version, String profile) {
         setupMDC("APPLICATION", "STARTUP");
         String timestamp = LocalDateTime.now().format(TIME_FORMATTER);
-        logger.info("🚀 [{}] APLICAÇÃO INICIADA | {} v{} | Perfil: {}", 
+        logger.info("🚀 [{}] APLICAÇÃO INICIADA | {} v{} | Perfil: {}",
                 timestamp, applicationName, version, profile);
         logger.info("═══════════════════════════════════════════════════════════════════════════════");
         logger.info("🔸 [{}] APLICAÇÃO PRONTA PARA RECEBER REQUISIÇÕES", timestamp);
@@ -120,10 +120,10 @@ public class UnifiedLogger {
         setupMDC("SECURITY", success ? "AUTH_SUCCESS" : "AUTH_FAILED");
         String durationStr = LoggingUtils.formatExecutionTime(durationMs);
         if (success) {
-            logger.info("✅ AUTENTICAÇÃO SUCESSO | Cliente: {} | Endpoint: {} | DURATION: {} | ID: {}", 
+            logger.info("✅ AUTENTICAÇÃO SUCESSO | Cliente: {} | Endpoint: {} | DURATION: {} | ID: {}",
                     clientId, endpoint, durationStr, correlationId);
         } else {
-            logger.error("❌ AUTENTICAÇÃO FALHOU | Cliente: {} | Endpoint: {} | DURATION: {} | ID: {}", 
+            logger.error("❌ AUTENTICAÇÃO FALHOU | Cliente: {} | Endpoint: {} | DURATION: {} | ID: {}",
                     clientId, endpoint, durationStr, correlationId);
         }
     }

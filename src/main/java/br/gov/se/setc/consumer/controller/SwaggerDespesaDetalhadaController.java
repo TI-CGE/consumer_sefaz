@@ -1,4 +1,4 @@
-package br.gov.se.setc.consumer.controller;
+﻿package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.annotation.LogOperation;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.logging.Logger;
 /**
  * Controller para consumo da API de Despesa Detalhada do SEFAZ
- * 
+ *
  * Endpoints disponíveis:
  * - GET /despesa-detalhada: Consome dados de despesa detalhada com filtros opcionais
  * - GET /despesa-detalhada/test: Endpoint de teste para verificar funcionamento
@@ -26,7 +26,7 @@ public class SwaggerDespesaDetalhadaController {
     private static final Logger logger = Logger.getLogger(SwaggerDespesaDetalhadaController.class.getName());
     private final ConsumoApiService<DespesaDetalhadaDTO> consumoApiService;
     public SwaggerDespesaDetalhadaController(
-            @Qualifier("despesaDetalhadaConsumoApiService") 
+            @Qualifier("despesaDetalhadaConsumoApiService")
             ConsumoApiService<DespesaDetalhadaDTO> consumoApiService) {
         this.consumoApiService = consumoApiService;
     }
@@ -35,7 +35,7 @@ public class SwaggerDespesaDetalhadaController {
      */
     @GetMapping
     @Operation(
-        summary = "Consumir Despesa Detalhada", 
+        summary = "Consumir Despesa Detalhada",
         description = "Consome dados de despesa detalhada da API SEFAZ com filtros opcionais. " +
                      "O parâmetro 'ano' é obrigatório. Outros filtros são opcionais para refinar a consulta."
     )
@@ -135,7 +135,7 @@ public class SwaggerDespesaDetalhadaController {
      */
     @GetMapping("/test")
     @Operation(
-        summary = "Teste do Serviço", 
+        summary = "Teste do Serviço",
         description = "Endpoint de teste para verificar se o serviço de Despesa Detalhada está funcionando corretamente"
     )
     @LogOperation(operation = "TEST_DESPESA_DETALHADA", component = "DESPESA_DETALHADA_CONTROLLER")
