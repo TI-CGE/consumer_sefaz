@@ -30,14 +30,14 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
     private Integer dtAnoExercicio;
     
     @JsonProperty("sqEmpenho")
-    private String sqEmpenho;
+    private Integer sqEmpenho;
     
     // Campos do credor/pessoa
     @JsonProperty("nuDocumentoPessoa")
     private String nuDocumentoPessoa;
     
     @JsonProperty("cdTipoDocumento")
-    private String cdTipoDocumento;
+    private Integer cdTipoDocumento;
     
     @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
@@ -244,11 +244,11 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
         this.dtAnoExercicio = dtAnoExercicio;
     }
 
-    public String getSqEmpenho() {
+    public Integer getSqEmpenho() {
         return sqEmpenho;
     }
 
-    public void setSqEmpenho(String sqEmpenho) {
+    public void setSqEmpenho(Integer sqEmpenho) {
         this.sqEmpenho = sqEmpenho;
     }
 
@@ -260,11 +260,11 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
         this.nuDocumentoPessoa = nuDocumentoPessoa;
     }
 
-    public String getCdTipoDocumento() {
+    public Integer getCdTipoDocumento() {
         return cdTipoDocumento;
     }
 
-    public void setCdTipoDocumento(String cdTipoDocumento) {
+    public void setCdTipoDocumento(Integer cdTipoDocumento) {
         this.cdTipoDocumento = cdTipoDocumento;
     }
 

@@ -28,3 +28,780 @@ java.nio.file.FileSystemException: .\logs\application.2025-08-31.2.log.gz: O arq
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-01 07:40:33.795 INFO  [N/A] [APP] [UNKNOWN] - Starting CorrecaoTiposFinaisTest using Java 21.0.7 with PID 364 (started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:40:33.796 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:40:35.521 WARN  [N/A] [APP] [UNKNOWN] - Erro no SSE: Uma conexão estabelecida foi anulada pelo software no computador host
+2025-09-01 07:40:35.521 WARN  [N/A] [APP] [UNKNOWN] - Erro ao enviar atualização SSE: ServletOutputStream failed to flush: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2025-09-01 07:40:35.521 WARN  [N/A] [APP] [UNKNOWN] - Erro ao enviar atualização SSE: ServletOutputStream failed to flush: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2025-09-01 07:40:35.521 WARN  [N/A] [APP] [UNKNOWN] - Erro no SSE: Uma conexão estabelecida foi anulada pelo software no computador host
+2025-09-01 07:40:35.526 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1252)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:155)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214)
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135)
+	at br.gov.se.setc.controller.LogMonitorController.sendLogUpdate(LogMonitorController.java:267)
+	at br.gov.se.setc.controller.LogMonitorController.checkForFileChanges(LogMonitorController.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-01 07:40:35.526 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1252)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:155)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214)
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135)
+	at br.gov.se.setc.controller.LogMonitorController.sendLogUpdate(LogMonitorController.java:267)
+	at br.gov.se.setc.controller.LogMonitorController.checkForFileChanges(LogMonitorController.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-01 07:40:35.528 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1252)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:155)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214)
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135)
+	at br.gov.se.setc.controller.LogMonitorController.sendLogUpdate(LogMonitorController.java:267)
+	at br.gov.se.setc.controller.LogMonitorController.checkForFileChanges(LogMonitorController.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-01 07:40:35.528 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)
+	at java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:122)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1378)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:764)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:728)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:712)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:574)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:156)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:216)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1252)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:408)
+	at org.apache.coyote.Response.action(Response.java:208)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:299)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:265)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:136)
+	at org.springframework.web.context.request.async.StandardServletAsyncWebRequest$LifecycleServletOutputStream.flush(StandardServletAsyncWebRequest.java:389)
+	at java.base/java.io.FilterOutputStream.flush(FilterOutputStream.java:155)
+	at com.fasterxml.jackson.core.json.UTF8JsonGenerator.flush(UTF8JsonGenerator.java:1207)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1063)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.writeInternal(AbstractGenericHttpMessageConverter.java:123)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:235)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.sendInternal(ResponseBodyEmitterReturnValueHandler.java:221)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitterReturnValueHandler$HttpMessageConvertingHandler.send(ResponseBodyEmitterReturnValueHandler.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.sendInternal(ResponseBodyEmitter.java:223)
+	at org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter.send(ResponseBodyEmitter.java:214)
+	at org.springframework.web.servlet.mvc.method.annotation.SseEmitter.send(SseEmitter.java:135)
+	at br.gov.se.setc.controller.LogMonitorController.sendLogUpdate(LogMonitorController.java:267)
+	at br.gov.se.setc.controller.LogMonitorController.checkForFileChanges(LogMonitorController.java:235)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-01 07:40:36.044 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:40:37.274 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2025-09-01 07:40:37.285 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2025-09-01 07:40:37.348 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2025-09-01 07:40:38.066 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2025-09-01 07:40:38.110 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2025-09-01 07:40:38.111 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2025-09-01 07:40:38.118 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2025-09-01 07:40:38.119 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2025-09-01 07:40:38.125 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2025-09-01 07:40:38.126 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2025-09-01 07:40:38.132 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2025-09-01 07:40:38.133 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2025-09-01 07:40:38.141 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-09-01 07:40:38.141 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2025-09-01 07:40:38.152 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2025-09-01 07:40:38.153 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2025-09-01 07:40:38.162 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2025-09-01 07:40:38.163 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2025-09-01 07:40:38.171 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2025-09-01 07:40:38.172 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2025-09-01 07:40:38.182 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2025-09-01 07:40:38.183 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2025-09-01 07:40:38.191 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2025-09-01 07:40:38.192 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2025-09-01 07:40:38.200 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2025-09-01 07:40:38.201 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2025-09-01 07:40:38.209 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2025-09-01 07:40:38.210 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2025-09-01 07:40:38.219 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2025-09-01 07:40:38.220 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2025-09-01 07:40:38.230 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2025-09-01 07:40:38.231 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2025-09-01 07:40:38.241 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2025-09-01 07:40:38.242 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2025-09-01 07:40:38.251 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2025-09-01 07:40:38.252 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2025-09-01 07:40:38.261 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-09-01 07:40:38.262 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-09-01 07:40:38.318 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 38895815 bytes
+2025-09-01 07:40:38.318 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 24075 bytes
+2025-09-01 07:40:38.319 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 18754 bytes
+2025-09-01 07:40:38.319 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 0 bytes
+2025-09-01 07:40:38.319 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2025-09-01 07:40:38.363 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2025-09-01 07:40:38.642 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:40:39.227 INFO  [N/A] [APP] [UNKNOWN] - Started CorrecaoTiposFinaisTest in 5.802 seconds (process running for 6.721)
+2025-09-01 07:41:39.123 INFO  [N/A] [APP] [UNKNOWN] - Starting CorrecaoTiposFinaisFixTest using Java 21.0.7 with PID 13548 (started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:41:39.124 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:41:41.315 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:41:42.455 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2025-09-01 07:41:42.467 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2025-09-01 07:41:42.528 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2025-09-01 07:41:43.259 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2025-09-01 07:41:43.292 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2025-09-01 07:41:43.293 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2025-09-01 07:41:43.302 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2025-09-01 07:41:43.303 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2025-09-01 07:41:43.312 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2025-09-01 07:41:43.313 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2025-09-01 07:41:43.322 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2025-09-01 07:41:43.323 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2025-09-01 07:41:43.332 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-09-01 07:41:43.333 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2025-09-01 07:41:43.346 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2025-09-01 07:41:43.347 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2025-09-01 07:41:43.356 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2025-09-01 07:41:43.357 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2025-09-01 07:41:43.365 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2025-09-01 07:41:43.365 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2025-09-01 07:41:43.376 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2025-09-01 07:41:43.378 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2025-09-01 07:41:43.385 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2025-09-01 07:41:43.386 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2025-09-01 07:41:43.393 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2025-09-01 07:41:43.394 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2025-09-01 07:41:43.402 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2025-09-01 07:41:43.403 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2025-09-01 07:41:43.411 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2025-09-01 07:41:43.412 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2025-09-01 07:41:43.422 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2025-09-01 07:41:43.423 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2025-09-01 07:41:43.431 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2025-09-01 07:41:43.432 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2025-09-01 07:41:43.441 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2025-09-01 07:41:43.442 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2025-09-01 07:41:43.450 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-09-01 07:41:43.451 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-09-01 07:41:43.501 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 38895951 bytes
+2025-09-01 07:41:43.501 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 29520 bytes
+2025-09-01 07:41:43.501 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 18754 bytes
+2025-09-01 07:41:43.502 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 102 bytes
+2025-09-01 07:41:43.503 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2025-09-01 07:41:43.538 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2025-09-01 07:41:43.796 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:41:44.437 INFO  [N/A] [APP] [UNKNOWN] - Started CorrecaoTiposFinaisFixTest in 5.669 seconds (process running for 6.556)
+2025-09-01 07:43:39.938 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:43:39.939 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:43:40.345 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-09-01 07:43:40.356 ERROR [N/A] [APP] [UNKNOWN] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at br.gov.se.setc.ConsumerSefazApplication.main(ConsumerSefazApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.TypeNotPresentException: Type br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.MethodRepository.computeReturnType(MethodRepository.java:75)
+	at java.base/sun.reflect.generics.repository.MethodRepository.getReturnType(MethodRepository.java:66)
+	at java.base/java.lang.reflect.Method.getGenericReturnType(Method.java:299)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:516)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:297)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:106)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1458)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1379)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1361)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1328)
+	at org.springframework.core.ResolvableType.forMethodReturnType(ResolvableType.java:1273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 48 common frames omitted
+2025-09-01 07:43:42.736 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:43:42.737 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:43:42.966 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-09-01 07:43:42.971 ERROR [N/A] [APP] [UNKNOWN] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at br.gov.se.setc.ConsumerSefazApplication.main(ConsumerSefazApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.TypeNotPresentException: Type br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.MethodRepository.computeReturnType(MethodRepository.java:75)
+	at java.base/sun.reflect.generics.repository.MethodRepository.getReturnType(MethodRepository.java:66)
+	at java.base/java.lang.reflect.Method.getGenericReturnType(Method.java:299)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:516)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:297)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:106)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1458)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1379)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1361)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1328)
+	at org.springframework.core.ResolvableType.forMethodReturnType(ResolvableType.java:1273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 48 common frames omitted
+2025-09-01 07:43:51.619 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:43:51.619 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:43:51.801 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-09-01 07:43:51.804 ERROR [N/A] [APP] [UNKNOWN] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at br.gov.se.setc.ConsumerSefazApplication.main(ConsumerSefazApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.TypeNotPresentException: Type br.gov.se.setc.consumer.dto.PagamentoDTO not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.MethodRepository.computeReturnType(MethodRepository.java:75)
+	at java.base/sun.reflect.generics.repository.MethodRepository.getReturnType(MethodRepository.java:66)
+	at java.base/java.lang.reflect.Method.getGenericReturnType(Method.java:299)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:516)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:297)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:106)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1458)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1379)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1361)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1328)
+	at org.springframework.core.ResolvableType.forMethodReturnType(ResolvableType.java:1273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.dto.PagamentoDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 48 common frames omitted
+2025-09-01 07:43:53.726 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:43:53.726 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:43:54.155 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-09-01 07:43:54.161 ERROR [N/A] [APP] [UNKNOWN] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at br.gov.se.setc.ConsumerSefazApplication.main(ConsumerSefazApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.TypeNotPresentException: Type br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.MethodRepository.computeReturnType(MethodRepository.java:75)
+	at java.base/sun.reflect.generics.repository.MethodRepository.getReturnType(MethodRepository.java:66)
+	at java.base/java.lang.reflect.Method.getGenericReturnType(Method.java:299)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:516)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:297)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:106)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1458)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1379)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1361)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1328)
+	at org.springframework.core.ResolvableType.forMethodReturnType(ResolvableType.java:1273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 48 common frames omitted
+2025-09-01 07:44:39.744 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:44:39.744 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:44:40.343 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:44:40.527 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:44:40.992 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 1.284 seconds (process running for 246305.393)
+2025-09-01 07:44:44.822 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:44:44.822 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:44:45.398 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:44:45.835 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2025-09-01 07:44:45.836 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2025-09-01 07:44:45.863 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2025-09-01 07:44:46.001 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2025-09-01 07:44:46.024 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2025-09-01 07:44:46.024 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2025-09-01 07:44:46.035 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2025-09-01 07:44:46.036 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2025-09-01 07:44:46.045 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2025-09-01 07:44:46.046 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2025-09-01 07:44:46.054 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2025-09-01 07:44:46.055 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2025-09-01 07:44:46.064 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-09-01 07:44:46.064 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2025-09-01 07:44:46.076 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2025-09-01 07:44:46.077 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2025-09-01 07:44:46.087 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2025-09-01 07:44:46.087 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2025-09-01 07:44:46.095 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2025-09-01 07:44:46.096 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2025-09-01 07:44:46.107 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2025-09-01 07:44:46.108 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2025-09-01 07:44:46.117 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2025-09-01 07:44:46.118 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2025-09-01 07:44:46.127 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2025-09-01 07:44:46.128 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2025-09-01 07:44:46.140 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2025-09-01 07:44:46.141 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2025-09-01 07:44:46.149 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2025-09-01 07:44:46.150 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2025-09-01 07:44:46.158 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2025-09-01 07:44:46.158 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2025-09-01 07:44:46.166 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2025-09-01 07:44:46.167 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2025-09-01 07:44:46.175 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2025-09-01 07:44:46.175 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2025-09-01 07:44:46.183 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-09-01 07:44:46.184 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-09-01 07:44:46.204 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 38896087 bytes
+2025-09-01 07:44:46.204 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 67021 bytes
+2025-09-01 07:44:46.205 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 46834 bytes
+2025-09-01 07:44:46.205 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 204 bytes
+2025-09-01 07:44:46.205 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2025-09-01 07:44:46.228 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2025-09-01 07:44:46.272 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:44:46.445 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 1.661 seconds (process running for 246310.847)
+2025-09-01 07:44:56.220 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:44:56.220 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:44:56.494 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+2025-09-01 07:44:56.500 ERROR [N/A] [APP] [UNKNOWN] - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:429)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at br.gov.se.setc.ConsumerSefazApplication.main(ConsumerSefazApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.TypeNotPresentException: Type br.gov.se.setc.consumer.dto.PagamentoDTO not present
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:117)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:125)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.visitor.Reifier.reifyTypeArguments(Reifier.java:68)
+	at java.base/sun.reflect.generics.visitor.Reifier.visitClassTypeSignature(Reifier.java:138)
+	at java.base/sun.reflect.generics.tree.ClassTypeSignature.accept(ClassTypeSignature.java:49)
+	at java.base/sun.reflect.generics.repository.MethodRepository.computeReturnType(MethodRepository.java:75)
+	at java.base/sun.reflect.generics.repository.MethodRepository.getReturnType(MethodRepository.java:66)
+	at java.base/java.lang.reflect.Method.getGenericReturnType(Method.java:299)
+	at org.springframework.core.MethodParameter.getGenericParameterType(MethodParameter.java:516)
+	at org.springframework.core.SerializableTypeWrapper$MethodParameterTypeProvider.getType(SerializableTypeWrapper.java:297)
+	at org.springframework.core.SerializableTypeWrapper.forTypeProvider(SerializableTypeWrapper.java:106)
+	at org.springframework.core.ResolvableType.forType(ResolvableType.java:1458)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1379)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1361)
+	at org.springframework.core.ResolvableType.forMethodParameter(ResolvableType.java:1328)
+	at org.springframework.core.ResolvableType.forMethodReturnType(ResolvableType.java:1273)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:534)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:247)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:240)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:230)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:183)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:158)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 20 common frames omitted
+Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.dto.PagamentoDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at java.base/sun.reflect.generics.factory.CoreReflectionFactory.makeNamedType(CoreReflectionFactory.java:114)
+	... 48 common frames omitted
+2025-09-01 07:44:58.443 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 24540 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:44:58.443 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:44:59.200 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:44:59.511 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2025-09-01 07:44:59.513 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2025-09-01 07:44:59.539 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2025-09-01 07:44:59.934 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2025-09-01 07:44:59.957 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2025-09-01 07:44:59.958 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2025-09-01 07:44:59.969 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2025-09-01 07:44:59.970 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2025-09-01 07:44:59.999 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2025-09-01 07:45:00.000 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2025-09-01 07:45:00.080 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2025-09-01 07:45:00.082 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2025-09-01 07:45:00.102 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-09-01 07:45:00.103 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2025-09-01 07:45:00.129 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2025-09-01 07:45:00.133 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2025-09-01 07:45:00.153 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2025-09-01 07:45:00.155 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2025-09-01 07:45:00.176 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2025-09-01 07:45:00.178 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2025-09-01 07:45:00.202 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2025-09-01 07:45:00.203 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2025-09-01 07:45:00.228 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2025-09-01 07:45:00.230 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2025-09-01 07:45:00.245 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2025-09-01 07:45:00.247 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2025-09-01 07:45:00.270 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2025-09-01 07:45:00.287 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2025-09-01 07:45:00.302 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2025-09-01 07:45:00.304 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2025-09-01 07:45:00.322 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2025-09-01 07:45:00.324 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2025-09-01 07:45:00.339 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2025-09-01 07:45:00.340 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2025-09-01 07:45:00.359 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2025-09-01 07:45:00.361 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2025-09-01 07:45:00.378 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-09-01 07:45:00.379 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-09-01 07:45:00.473 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 38896223 bytes
+2025-09-01 07:45:00.473 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 80287 bytes
+2025-09-01 07:45:00.473 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 53842 bytes
+2025-09-01 07:45:00.473 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 306 bytes
+2025-09-01 07:45:00.485 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2025-09-01 07:45:00.548 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2025-09-01 07:45:00.717 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:45:01.209 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 2.822 seconds (process running for 246325.611)
+2025-09-01 07:48:34.691 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.7 with PID 4136 (C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento\target\classes started by vinicius.alves in C:\Users\vinicius.alves\Documents\GitHub\se_ouve_api-desenvolvimento)
+2025-09-01 07:48:34.692 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2025-09-01 07:48:36.529 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-01 07:48:37.537 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2025-09-01 07:48:37.548 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2025-09-01 07:48:37.588 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2025-09-01 07:48:38.139 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2025-09-01 07:48:38.164 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2025-09-01 07:48:38.165 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2025-09-01 07:48:38.175 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2025-09-01 07:48:38.176 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2025-09-01 07:48:38.189 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2025-09-01 07:48:38.190 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2025-09-01 07:48:38.200 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2025-09-01 07:48:38.201 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2025-09-01 07:48:38.218 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2025-09-01 07:48:38.219 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2025-09-01 07:48:38.240 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2025-09-01 07:48:38.240 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2025-09-01 07:48:38.252 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2025-09-01 07:48:38.252 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2025-09-01 07:48:38.261 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2025-09-01 07:48:38.262 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2025-09-01 07:48:38.274 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2025-09-01 07:48:38.275 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2025-09-01 07:48:38.285 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2025-09-01 07:48:38.286 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2025-09-01 07:48:38.296 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2025-09-01 07:48:38.296 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2025-09-01 07:48:38.306 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2025-09-01 07:48:38.306 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2025-09-01 07:48:38.316 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2025-09-01 07:48:38.317 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2025-09-01 07:48:38.327 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2025-09-01 07:48:38.328 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2025-09-01 07:48:38.337 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2025-09-01 07:48:38.338 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2025-09-01 07:48:38.347 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2025-09-01 07:48:38.348 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2025-09-01 07:48:38.359 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2025-09-01 07:48:38.360 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2025-09-01 07:48:38.392 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 38896359 bytes
+2025-09-01 07:48:38.392 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 85821 bytes
+2025-09-01 07:48:38.392 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 53842 bytes
+2025-09-01 07:48:38.392 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 408 bytes
+2025-09-01 07:48:38.392 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2025-09-01 07:48:38.416 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2025-09-01 07:48:38.517 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-01 07:48:38.950 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 4.687 seconds (process running for 5.352)

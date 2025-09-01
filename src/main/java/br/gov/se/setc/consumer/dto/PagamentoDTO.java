@@ -95,7 +95,7 @@ public class PagamentoDTO extends EndpontSefaz {
     private Integer cdElementoDespesa;
 
     @JsonProperty("cdFonteRecurso")
-    private Integer cdFonteRecurso;
+    private String cdFonteRecurso;
 
     @JsonProperty("cdLicitacao")
     private Integer cdLicitacao;
@@ -121,7 +121,7 @@ public class PagamentoDTO extends EndpontSefaz {
                        BigDecimal vlOB, Integer dtAnoExercicioCTBReferencia, LocalDate dtPrevisaoDesembolso,
                        LocalDate dtLancamentoOB, String inSituacaoPagamento, String situacaoOB,
                        Integer cdFuncao, String nmFuncao, Integer cdSubFuncao, String nmSubFuncao,
-                       Integer cdElementoDespesa, Integer cdFonteRecurso, Integer cdLicitacao,
+                       Integer cdElementoDespesa, String cdFonteRecurso, Integer cdLicitacao,
                        String dsObjetoLicitacao, String nuProcessoLicitacao, String nmModalidadeLicitacao) {
         
         this.dtAnoExercicioCTB = dtAnoExercicioCTB;
@@ -464,11 +464,11 @@ public class PagamentoDTO extends EndpontSefaz {
         this.cdElementoDespesa = cdElementoDespesa;
     }
 
-    public Integer getCdFonteRecurso() {
+    public String getCdFonteRecurso() {
         return cdFonteRecurso;
     }
 
-    public void setCdFonteRecurso(Integer cdFonteRecurso) {
+    public void setCdFonteRecurso(String cdFonteRecurso) {
         this.cdFonteRecurso = cdFonteRecurso;
     }
 
