@@ -2,9 +2,11 @@ package br.gov.se.setc.consumer.service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
+import br.gov.se.setc.logging.SimpleLogger;
 /**
  * Serviço wrapper para PrevisaoRealizacaoReceita que implementa busca de todos os 12 meses
  * 
@@ -22,6 +24,9 @@ import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
 public class PrevisaoRealizacaoReceitaMultiMesService {
     private static final Logger logger = Logger.getLogger(PrevisaoRealizacaoReceitaMultiMesService.class.getName());
     private final ConsumoApiService<PrevisaoRealizacaoReceitaDTO> consumoApiService;
+
+    @Autowired
+    private SimpleLogger simpleLogger;
     public PrevisaoRealizacaoReceitaMultiMesService(
             @Qualifier("previsaoRealizacaoReceitaConsumoApiService") 
             ConsumoApiService<PrevisaoRealizacaoReceitaDTO> consumoApiService) {
@@ -34,7 +39,12 @@ public class PrevisaoRealizacaoReceitaMultiMesService {
         logger.info("=== INICIANDO CONSUMO MULTI-MÊS DE PREVISÃO REALIZAÇÃO RECEITA ===");
         logger.info("Implementação: busca todos os 12 meses do ano para dados completos");
         List<PrevisaoRealizacaoReceitaDTO> resultadoConsolidado = new ArrayList<>();
+
+        long startTime = System.currentTimeMillis();
+        simpleLogger.consumptionStart("PREVISAO_REALIZACAO_RECEITA", "Consumindo dados de todos os 12 meses");
+
         for (int mes = 1; mes <= 12; mes++) {
+            simpleLogger.consumptionProgress("PREVISAO_REALIZACAO_RECEITA", "Processando meses", mes, 12, "Mês: " + mes);
             logger.info("=== PROCESSANDO MÊS " + mes + "/12 ===");
             try {
                 PrevisaoRealizacaoReceitaDTO mapper = criarMapperParaMes(mes);
@@ -54,6 +64,12 @@ public class PrevisaoRealizacaoReceitaMultiMesService {
                 e.printStackTrace();
             }
         }
+
+        long duration = System.currentTimeMillis() - startTime;
+        simpleLogger.consumptionEnd("PREVISAO_REALIZACAO_RECEITA",
+                resultadoConsolidado.size() + " registros processados de todos os meses",
+                duration);
+
         logger.info("=== CONSUMO MULTI-MÊS CONCLUÍDO ===");
         logger.info("Total consolidado: " + resultadoConsolidado.size() + " registros");
         return resultadoConsolidado;

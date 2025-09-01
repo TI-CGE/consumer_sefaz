@@ -122,6 +122,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
+                        simpleLogger.consumptionProgress(dataType, "Processando UGs (carga completa)", ugProcessed, ugCdArray.size(),
+                                "UG: " + ugCd);
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
                         userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
                         List<T> result = pegarDeTodosAnos(ugCd,mapper);
@@ -656,7 +658,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             List<String> cdGestaoList = utilsService.cdGestao();
             if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
                 logger.info("Encontrados " + cdGestaoList.size() + " códigos de gestão para iterar");
+                String dataType = getDataTypeFromMapper(mapper);
+                int cdGestaoProcessado = 0;
                 for (String cdGestao : cdGestaoList) {
+                    cdGestaoProcessado++;
+                    simpleLogger.consumptionProgress(dataType, "Processando cdGestao (ano vigente)", cdGestaoProcessado, cdGestaoList.size(),
+                            "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
                     List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
                     if (resultadoCdGestao != null) {
@@ -678,7 +685,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private List<T> pegarDeTodosAnos(String ugCd, T mapper){
         List<T> resultadoTodosAnos = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
+        String dataType = getDataTypeFromMapper(mapper);
+        int totalAnos = 6; // 2020-2025
+        int anoProcessado = 0;
+
         for (Short dtAno = anoAtual; dtAno >= anoAtual-5;  dtAno--) {
+            anoProcessado++;
+            simpleLogger.consumptionProgress(dataType, "Processando anos", anoProcessado, totalAnos,
+                    "UG: " + ugCd + " | Ano: " + dtAno);
             logger.info("Processando ano: " + dtAno + " para UG: " + ugCd);
             if (mapper.requerIteracaoEmpenhos()) {
                 logger.info("DTO requer iteração sobre empenhos para ano " + dtAno);
@@ -692,7 +706,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("DTO requer iteração sobre cdGestao para ano " + dtAno);
                 List<String> cdGestaoList = utilsService.cdGestao();
                 if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
+                    int cdGestaoProcessado = 0;
                     for (String cdGestao : cdGestaoList) {
+                        cdGestaoProcessado++;
+                        simpleLogger.consumptionProgress(dataType, "Processando cdGestao", cdGestaoProcessado, cdGestaoList.size(),
+                                "UG: " + ugCd + " | Ano: " + dtAno + " | cdGestao: " + cdGestao);
                         logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd + " e ano: " + dtAno);
                         List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
                         if (resultadoCdGestao != null) {
@@ -1030,9 +1048,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 return resultado;
             }
             logger.info("Encontrados " + empenhos.size() + " empenhos para UG " + ugCd + " e ano " + ano);
+            String dataType = getDataTypeFromMapper(mapper);
+            int empenhoProcessado = 0;
             for (Map<String, Object> empenho : empenhos) {
+                empenhoProcessado++;
                 String cdGestao = (String) empenho.get("cd_gestao");
                 Integer sqEmpenho = (Integer) empenho.get("sq_empenho");
+                simpleLogger.consumptionProgress(dataType, "Processando empenhos", empenhoProcessado, empenhos.size(),
+                        "UG: " + ugCd + " | Ano: " + ano + " | Empenho: " + sqEmpenho);
                 logger.info("Processando empenho: cdGestao=" + cdGestao + ", sqEmpenho=" + sqEmpenho);
                 Map<String, Object> parametros;
                 if (mapper instanceof br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) {
