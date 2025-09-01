@@ -40,8 +40,8 @@ public class DadosOrcamentarios {
     @Column(name = "nm_modalidade_aplicacao", length = 500)
     private String nmModalidadeAplicacao;
 
-    @Column(name = "cd_fonte_recurso")
-    private Integer cdFonteRecurso;
+    @Column(name = "cd_fonte_recurso", length = 50)
+    private String cdFonteRecurso;
 
     @Column(name = "nm_fonte_recurso", length = 500)
     private String nmFonteRecurso;
@@ -61,6 +61,18 @@ public class DadosOrcamentarios {
     @Column(name = "nu_processo_licitacao")
     private String nuProcessoLicitacao;
 
+    @Column(name = "cd_elemento_despesa")
+    private Integer cdElementoDespesa;
+
+    @Column(name = "nm_elemento_despesa", length = 500)
+    private String nmElementoDespesa;
+
+    @Column(name = "cd_tipo_despesa")
+    private Integer cdTipoDespesa;
+
+    @Column(name = "ds_tipo_despesa", length = 500)
+    private String dsTipoDespesa;
+
     // Construtor padrão
     public DadosOrcamentarios() {
     }
@@ -69,8 +81,9 @@ public class DadosOrcamentarios {
     public DadosOrcamentarios(Integer cdFuncaoPLO, String nmFuncaoPLO, Integer cdSubFuncao, String nmSubFuncao,
                              Integer cdProgramaGoverno, String nmProgramaGoverno, Integer cdCategoriaEconomica,
                              String nmCategoriaEconomica, Integer cdModalidadeAplicacao, String nmModalidadeAplicacao,
-                             Integer cdFonteRecurso, String nmFonteRecurso, Integer cdGrupoDespesa, String nmGrupoDespesa,
-                             String cdLicitacao, String dsObjetoLicitacao, String nuProcessoLicitacao) {
+                             String cdFonteRecurso, String nmFonteRecurso, Integer cdGrupoDespesa, String nmGrupoDespesa,
+                             String cdLicitacao, String dsObjetoLicitacao, String nuProcessoLicitacao,
+                             Integer cdElementoDespesa, String nmElementoDespesa, Integer cdTipoDespesa, String dsTipoDespesa) {
         this.cdFuncaoPLO = cdFuncaoPLO;
         this.nmFuncaoPLO = nmFuncaoPLO;
         this.cdSubFuncao = cdSubFuncao;
@@ -88,6 +101,10 @@ public class DadosOrcamentarios {
         this.cdLicitacao = cdLicitacao;
         this.dsObjetoLicitacao = dsObjetoLicitacao;
         this.nuProcessoLicitacao = nuProcessoLicitacao;
+        this.cdElementoDespesa = cdElementoDespesa;
+        this.nmElementoDespesa = nmElementoDespesa;
+        this.cdTipoDespesa = cdTipoDespesa;
+        this.dsTipoDespesa = dsTipoDespesa;
     }
 
     // Getters and Setters
@@ -179,11 +196,11 @@ public class DadosOrcamentarios {
         this.nmModalidadeAplicacao = nmModalidadeAplicacao;
     }
 
-    public Integer getCdFonteRecurso() {
+    public String getCdFonteRecurso() {
         return cdFonteRecurso;
     }
 
-    public void setCdFonteRecurso(Integer cdFonteRecurso) {
+    public void setCdFonteRecurso(String cdFonteRecurso) {
         this.cdFonteRecurso = cdFonteRecurso;
     }
 
@@ -235,6 +252,38 @@ public class DadosOrcamentarios {
         this.nuProcessoLicitacao = nuProcessoLicitacao;
     }
 
+    public Integer getCdElementoDespesa() {
+        return cdElementoDespesa;
+    }
+
+    public void setCdElementoDespesa(Integer cdElementoDespesa) {
+        this.cdElementoDespesa = cdElementoDespesa;
+    }
+
+    public String getNmElementoDespesa() {
+        return nmElementoDespesa;
+    }
+
+    public void setNmElementoDespesa(String nmElementoDespesa) {
+        this.nmElementoDespesa = nmElementoDespesa;
+    }
+
+    public Integer getCdTipoDespesa() {
+        return cdTipoDespesa;
+    }
+
+    public void setCdTipoDespesa(Integer cdTipoDespesa) {
+        this.cdTipoDespesa = cdTipoDespesa;
+    }
+
+    public String getDsTipoDespesa() {
+        return dsTipoDespesa;
+    }
+
+    public void setDsTipoDespesa(String dsTipoDespesa) {
+        this.dsTipoDespesa = dsTipoDespesa;
+    }
+
     @Override
     public String toString() {
         return "DadosOrcamentarios{" +
@@ -256,6 +305,10 @@ public class DadosOrcamentarios {
                 ", cdLicitacao='" + cdLicitacao + '\'' +
                 ", dsObjetoLicitacao='" + dsObjetoLicitacao + '\'' +
                 ", nuProcessoLicitacao='" + nuProcessoLicitacao + '\'' +
+                ", cdElementoDespesa=" + cdElementoDespesa +
+                ", nmElementoDespesa='" + nmElementoDespesa + '\'' +
+                ", cdTipoDespesa=" + cdTipoDespesa +
+                ", dsTipoDespesa='" + dsTipoDespesa + '\'' +
                 '}';
     }
 }

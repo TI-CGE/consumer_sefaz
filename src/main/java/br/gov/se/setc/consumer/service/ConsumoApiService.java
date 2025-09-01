@@ -29,6 +29,7 @@ import java.util.logging.Logger;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import br.gov.se.setc.logging.MarkdownLogger;
+import br.gov.se.setc.logging.SimpleLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
@@ -52,11 +53,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private UserFriendlyLogger userFriendlyLogger;
     private MarkdownLogger markdownLogger;
 
+    private SimpleLogger simpleLogger;
+
     public ConsumoApiService(RestTemplate restTemplate,
     AcessoTokenService acessoTokenService,
     JdbcTemplate jdbcTemplate, ValidacaoUtil<T> utilsService,
     UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger,
-    MarkdownLogger markdownLogger, JpaPersistenceService jpaPersistenceService, Class<T> type) {
+    MarkdownLogger markdownLogger, SimpleLogger simpleLogger, JpaPersistenceService jpaPersistenceService, Class<T> type) {
         this.restTemplate = restTemplate;
         this.acessoTokenService = acessoTokenService;
         this.utilsService = utilsService;
@@ -64,6 +67,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         this.unifiedLogger = unifiedLogger;
         this.userFriendlyLogger = userFriendlyLogger;
         this.markdownLogger = markdownLogger;
+        this.simpleLogger = simpleLogger;
         this.jpaPersistenceService = jpaPersistenceService;
         contratosFiscaisDAO = new EndpontSefazRepository<T>(jdbcTemplate, unifiedLogger);
         this.ugCdArray = utilsService.getUgs();
@@ -82,6 +86,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         // Determinar tipo de dados baseado no mapper
         String dataType = getDataTypeFromMapper(mapper);
         boolean isUnidadeGestora = mapper.getTabelaBanco().contains("unidade_gestora");
+
+        // Log de início de consumo
+        simpleLogger.consumptionStart(dataType, "Iniciando consumo de dados da API SEFAZ");
 
         // Log simples para usuário
         userFriendlyLogger.logDataFetchStart(dataType);
@@ -174,6 +181,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
+
+                        // Log de progresso da barra
+                        simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugCdArray.size(),
+                                "UG: " + ugCd);
+
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
                         userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
 
@@ -254,6 +266,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
             // Log técnico para arquivo
             unifiedLogger.logOperationSuccess("CONTRACT_CONSUMER", operation, totalTime, totalRecordsProcessed, "ENDPOINT", endpoint);
+
+            // Log de finalização do consumo
+            simpleLogger.consumptionEnd(dataType, totalRecordsProcessed + " registros processados", totalTime);
 
             // Finalizar log markdown com estatísticas
             markdownSection.info("📊 Estatísticas:")
@@ -1322,7 +1337,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
             logger.info("Encontrados " + empenhos.size() + " empenhos para UG " + ugCd + " e ano " + ano);
 
-            // Iterar sobre cada empenho
+            // Processar cada empenho individualmente (sequencial para respeitar rate limiting da API)
             for (Map<String, Object> empenho : empenhos) {
                 String cdGestao = (String) empenho.get("cd_gestao");
                 Integer sqEmpenho = (Integer) empenho.get("sq_empenho");

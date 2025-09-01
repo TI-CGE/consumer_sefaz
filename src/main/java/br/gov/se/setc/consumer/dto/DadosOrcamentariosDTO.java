@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.Map;
 
 public class DadosOrcamentariosDTO extends EndpontSefaz {
-    @JsonProperty("cdFuncaoPLO")
+    @JsonProperty("cdFuncao")
     private Integer cdFuncaoPLO;
 
-    @JsonProperty("nmFuncaoPLO")
+    @JsonProperty("nmFuncao")
     private String nmFuncaoPLO;
 
     @JsonProperty("cdSubFuncao")
@@ -40,7 +40,7 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
     private String nmModalidadeAplicacao;
 
     @JsonProperty("cdFonteRecurso")
-    private Integer cdFonteRecurso;
+    private String cdFonteRecurso;
 
     @JsonProperty("nmFonteRecurso")
     private String nmFonteRecurso;
@@ -59,6 +59,18 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
 
     @JsonProperty("nuProcessoLicitacao")
     private String nuProcessoLicitacao;
+
+    @JsonProperty("cdElementoDespesa")
+    private Integer cdElementoDespesa;
+
+    @JsonProperty("nmElementoDespesa")
+    private String nmElementoDespesa;
+
+    @JsonProperty("cdTipoDespesa")
+    private Integer cdTipoDespesa;
+
+    @JsonProperty("dsTipoDespesa")
+    private String dsTipoDespesa;
 
     // Parâmetros para a API
     @JsonProperty("dtAnoExercicioCTB")
@@ -108,6 +120,10 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         camposResposta.put("cd_licitacao", cdLicitacao);
         camposResposta.put("ds_objeto_licitacao", dsObjetoLicitacao);
         camposResposta.put("nu_processo_licitacao", nuProcessoLicitacao);
+        camposResposta.put("cd_elemento_despesa", cdElementoDespesa);
+        camposResposta.put("nm_elemento_despesa", nmElementoDespesa);
+        camposResposta.put("cd_tipo_despesa", cdTipoDespesa);
+        camposResposta.put("ds_tipo_despesa", dsTipoDespesa);
     }
 
     @Override
@@ -267,11 +283,11 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
         this.nmModalidadeAplicacao = nmModalidadeAplicacao;
     }
 
-    public Integer getCdFonteRecurso() {
+    public String getCdFonteRecurso() {
         return cdFonteRecurso;
     }
 
-    public void setCdFonteRecurso(Integer cdFonteRecurso) {
+    public void setCdFonteRecurso(String cdFonteRecurso) {
         this.cdFonteRecurso = cdFonteRecurso;
     }
 
@@ -353,5 +369,37 @@ public class DadosOrcamentariosDTO extends EndpontSefaz {
 
     public void setNuProcessoLicitacao(String nuProcessoLicitacao) {
         this.nuProcessoLicitacao = nuProcessoLicitacao;
+    }
+
+    public Integer getCdElementoDespesa() {
+        return cdElementoDespesa;
+    }
+
+    public void setCdElementoDespesa(Integer cdElementoDespesa) {
+        this.cdElementoDespesa = cdElementoDespesa;
+    }
+
+    public String getNmElementoDespesa() {
+        return nmElementoDespesa;
+    }
+
+    public void setNmElementoDespesa(String nmElementoDespesa) {
+        this.nmElementoDespesa = nmElementoDespesa;
+    }
+
+    public Integer getCdTipoDespesa() {
+        return cdTipoDespesa;
+    }
+
+    public void setCdTipoDespesa(Integer cdTipoDespesa) {
+        this.cdTipoDespesa = cdTipoDespesa;
+    }
+
+    public String getDsTipoDespesa() {
+        return dsTipoDespesa;
+    }
+
+    public void setDsTipoDespesa(String dsTipoDespesa) {
+        this.dsTipoDespesa = dsTipoDespesa;
     }
 }

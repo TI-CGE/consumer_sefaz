@@ -12,14 +12,17 @@ class LogMonitor {
         this.filters = {};
         this.logData = {};
         this.totalLines = 0;
-        
+        this.progressBars = {};
+        this.progressVisible = false;
+
         this.logFiles = ['simple.log', 'application.log', 'errors.log', 'operations.md'];
-        
+
         this.init();
     }
 
     init() {
         this.setupEventListeners();
+        this.setupProgressListeners();
         this.loadInitialData();
         this.connectToStream();
         this.applyTheme();
@@ -63,6 +66,183 @@ class LogMonitor {
         // Before unload
         window.addEventListener('beforeunload', () => {
             this.disconnect();
+        });
+    }
+
+    setupProgressListeners() {
+        // Toggle progress section
+        document.getElementById('toggleProgressBtn').addEventListener('click', () => {
+            this.toggleProgressSection();
+        });
+    }
+
+    toggleProgressSection() {
+        const section = document.getElementById('progressSection');
+        const content = document.getElementById('progressContent');
+        const icon = document.querySelector('#toggleProgressBtn i');
+
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            icon.setAttribute('data-feather', 'chevron-up');
+            section.classList.remove('progress-collapsed');
+        } else {
+            content.style.display = 'none';
+            icon.setAttribute('data-feather', 'chevron-down');
+            section.classList.add('progress-collapsed');
+        }
+        feather.replace();
+    }
+
+    showProgressSection() {
+        const section = document.getElementById('progressSection');
+        if (!this.progressVisible) {
+            section.style.display = 'block';
+            this.progressVisible = true;
+        }
+    }
+
+    hideProgressSection() {
+        const section = document.getElementById('progressSection');
+        if (this.progressVisible && Object.keys(this.progressBars).length === 0) {
+            section.style.display = 'none';
+            this.progressVisible = false;
+        }
+    }
+
+    createProgressBar(consumptionType, stage, current, total, details) {
+        const progressId = `${consumptionType}_${stage}`.replace(/\s+/g, '_');
+        const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
+
+        this.showProgressSection();
+
+        const progressContent = document.getElementById('progressContent');
+
+        // Remove existing progress bar if it exists
+        const existingBar = document.getElementById(progressId);
+        if (existingBar) {
+            existingBar.remove();
+        }
+
+        const progressItem = document.createElement('div');
+        progressItem.className = 'progress-item';
+        progressItem.id = progressId;
+
+        progressItem.innerHTML = `
+            <div class="progress-title">
+                <span class="progress-name">${consumptionType}</span>
+                <span class="progress-status">
+                    <i data-feather="activity"></i>
+                    ${stage}
+                </span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" style="width: ${percentage}%"></div>
+            </div>
+            <div class="progress-details">
+                <div class="progress-info">
+                    <span>${current}/${total}</span>
+                    ${details ? `<span>${details}</span>` : ''}
+                </div>
+                <span class="progress-percentage">${percentage}%</span>
+            </div>
+        `;
+
+        progressContent.appendChild(progressItem);
+        feather.replace();
+
+        this.progressBars[progressId] = {
+            consumptionType,
+            stage,
+            current,
+            total,
+            percentage,
+            element: progressItem
+        };
+    }
+
+    updateProgressBar(consumptionType, stage, current, total, details) {
+        const progressId = `${consumptionType}_${stage}`.replace(/\s+/g, '_');
+        const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
+
+        if (this.progressBars[progressId]) {
+            const progressItem = this.progressBars[progressId].element;
+            const progressBar = progressItem.querySelector('.progress-bar');
+            const progressDetails = progressItem.querySelector('.progress-details');
+            const progressPercentage = progressItem.querySelector('.progress-percentage');
+
+            // Update progress bar width
+            progressBar.style.width = `${percentage}%`;
+
+            // Update details
+            progressDetails.innerHTML = `
+                <div class="progress-info">
+                    <span>${current}/${total}</span>
+                    ${details ? `<span>${details}</span>` : ''}
+                </div>
+                <span class="progress-percentage">${percentage}%</span>
+            `;
+
+            // Update stored data
+            this.progressBars[progressId].current = current;
+            this.progressBars[progressId].total = total;
+            this.progressBars[progressId].percentage = percentage;
+
+            // Mark as completed if 100%
+            if (percentage >= 100) {
+                progressBar.classList.add('completed');
+                setTimeout(() => {
+                    this.removeProgressBar(progressId);
+                }, 3000); // Remove after 3 seconds
+            }
+        } else {
+            // Create new progress bar if it doesn't exist
+            this.createProgressBar(consumptionType, stage, current, total, details);
+        }
+    }
+
+    removeProgressBar(progressId) {
+        if (this.progressBars[progressId]) {
+            this.progressBars[progressId].element.remove();
+            delete this.progressBars[progressId];
+
+            // Hide section if no more progress bars
+            this.hideProgressSection();
+        }
+    }
+
+    markProgressAsCompleted(consumptionType) {
+        // Mark all progress bars for this consumption type as completed
+        Object.keys(this.progressBars).forEach(progressId => {
+            if (progressId.startsWith(consumptionType.replace(/\s+/g, '_'))) {
+                const progressBar = this.progressBars[progressId].element.querySelector('.progress-bar');
+                progressBar.classList.add('completed');
+                progressBar.style.width = '100%';
+
+                setTimeout(() => {
+                    this.removeProgressBar(progressId);
+                }, 2000);
+            }
+        });
+    }
+
+    markProgressAsError(consumptionType, errorMessage) {
+        // Mark all progress bars for this consumption type as error
+        Object.keys(this.progressBars).forEach(progressId => {
+            if (progressId.startsWith(consumptionType.replace(/\s+/g, '_'))) {
+                const progressBar = this.progressBars[progressId].element.querySelector('.progress-bar');
+                const progressStatus = this.progressBars[progressId].element.querySelector('.progress-status');
+
+                progressBar.classList.add('error');
+                progressStatus.innerHTML = `
+                    <i data-feather="alert-circle"></i>
+                    Erro: ${errorMessage}
+                `;
+                feather.replace();
+
+                setTimeout(() => {
+                    this.removeProgressBar(progressId);
+                }, 5000);
+            }
         });
     }
 
@@ -154,11 +334,31 @@ class LogMonitor {
         }
     }
 
+    handleStreamMessage(event) {
+        try {
+            const data = JSON.parse(event.data);
+
+            // Check if this is a log update
+            if (data.fileName && data.lines) {
+                this.handleLogUpdate(event);
+
+                // Process lines for progress information
+                if (data.lines && Array.isArray(data.lines)) {
+                    data.lines.forEach(line => {
+                        this.processLineForProgress(line);
+                    });
+                }
+            }
+        } catch (error) {
+            console.error('Erro ao processar mensagem do stream:', error);
+        }
+    }
+
     handleLogUpdate(event) {
         try {
             const data = JSON.parse(event.data);
             const { fileName, lines, timestamp } = data;
-            
+
             if (lines && lines.length > 0) {
                 this.appendLogLines(fileName, lines);
                 this.updateLastUpdate(timestamp);
@@ -168,6 +368,51 @@ class LogMonitor {
 
         } catch (error) {
             console.error('Erro ao processar atualização:', error);
+        }
+    }
+
+    processLineForProgress(line) {
+        try {
+            // Check for progress bar logs
+            if (line.includes('PROGRESS_BAR |')) {
+                const parts = line.split(' | ');
+                if (parts.length >= 5) {
+                    const consumptionType = parts[1];
+                    const stage = parts[2];
+                    const progress = parts[3]; // format: current/total
+                    const percentage = parts[4]; // format: XX%
+                    const details = parts.length > 5 ? parts[5] : '';
+
+                    const [current, total] = progress.split('/').map(n => parseInt(n) || 0);
+
+                    this.updateProgressBar(consumptionType, stage, current, total, details);
+                }
+            }
+
+            // Check for consumption start logs
+            else if (line.includes('CONSUMPTION_START |')) {
+                const parts = line.split(' | ');
+                if (parts.length >= 3) {
+                    const consumptionType = parts[1];
+                    const description = parts[2];
+
+                    this.createProgressBar(consumptionType, 'Iniciando', 0, 100, description);
+                }
+            }
+
+            // Check for consumption end logs
+            else if (line.includes('CONSUMPTION_END |')) {
+                const parts = line.split(' | ');
+                if (parts.length >= 3) {
+                    const consumptionType = parts[1];
+                    const result = parts[2];
+
+                    this.markProgressAsCompleted(consumptionType);
+                }
+            }
+
+        } catch (error) {
+            console.error('Erro ao processar linha para progresso:', error);
         }
     }
 

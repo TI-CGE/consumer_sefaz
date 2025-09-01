@@ -86,8 +86,135 @@ public class SimpleLogger {
     public void progress(String component, String operation, int current, int total) {
         setContext(component);
         int percentage = (int) ((current * 100.0) / total);
-        logger.info("{} | {} | 🔄 {} - {}/{} ({}%)", 
+        logger.info("{} | {} | 🔄 {} - {}/{} ({}%)",
                 getCurrentTime(), component, operation, current, total, percentage);
+    }
+
+    /**
+     * Log de progresso de consumo com informações detalhadas
+     */
+    public void consumptionProgress(String consumptionType, String stage, int current, int total, String details) {
+        setContext("CONSUMPTION_PROGRESS");
+        int percentage = total > 0 ? (int) ((current * 100.0) / total) : 0;
+
+        // BARRA DE PROGRESSO VISUAL NO TERMINAL
+        showProgressBar(consumptionType, current, total, details);
+
+        // Log estruturado para captura pelo frontend
+        logger.info("PROGRESS_BAR | {} | {} | {}/{} | {}% | {}",
+                consumptionType, stage, current, total, percentage, details != null ? details : "");
+    }
+
+    /**
+     * Log de início de consumo
+     */
+    public void consumptionStart(String consumptionType, String description) {
+        setContext("CONSUMPTION_START");
+
+        // BANNER CHAMATIVO NO TERMINAL
+        showStartBanner(consumptionType, description);
+
+        logger.info("CONSUMPTION_START | {} | {}", consumptionType, description);
+    }
+
+    /**
+     * Log de finalização de consumo
+     */
+    public void consumptionEnd(String consumptionType, String result, long durationMs) {
+        setContext("CONSUMPTION_END");
+        String duration = formatDuration(durationMs);
+
+        // BANNER DE FINALIZAÇÃO NO TERMINAL
+        showEndBanner(consumptionType, result, duration);
+
+        logger.info("CONSUMPTION_END | {} | {} | {}", consumptionType, result, duration);
+    }
+
+    // ========== MÉTODOS PARA BARRAS DE PROGRESSO VISUAIS NO TERMINAL ==========
+
+    // Cores ANSI para terminal
+    private static final String RESET = "\u001B[0m";
+    private static final String RED = "\u001B[31m";
+    private static final String GREEN = "\u001B[32m";
+    private static final String YELLOW = "\u001B[33m";
+    private static final String BLUE = "\u001B[34m";
+    private static final String PURPLE = "\u001B[35m";
+    private static final String CYAN = "\u001B[36m";
+    private static final String WHITE = "\u001B[37m";
+    private static final String BOLD = "\u001B[1m";
+
+    private void showStartBanner(String consumptionType, String description) {
+        System.out.println();
+        System.out.println(GREEN + BOLD + "╔══════════════════════════════════════════════════════════════╗" + RESET);
+        System.out.println(GREEN + BOLD + "║" + centerText("🚀 INICIANDO CONSUMO 🚀", 62) + "║" + RESET);
+        System.out.println(GREEN + BOLD + "╚══════════════════════════════════════════════════════════════╝" + RESET);
+        System.out.println(CYAN + BOLD + "📋 TIPO: " + WHITE + consumptionType + RESET);
+        System.out.println(CYAN + BOLD + "💬 DESC: " + WHITE + description + RESET);
+        System.out.println(BLUE + "─".repeat(64) + RESET);
+    }
+
+    private void showProgressBar(String consumptionType, int current, int total, String details) {
+        int percentage = total > 0 ? (int) ((current * 100.0) / total) : 0;
+        String progressBar = createProgressBar(percentage, 40);
+
+        System.out.print("\r" + YELLOW + BOLD + "⚡ " + CYAN + consumptionType + RESET + " ");
+        System.out.print(progressBar + " ");
+        System.out.print(WHITE + BOLD + percentage + "%" + RESET + " ");
+        System.out.print(PURPLE + BOLD + "(" + current + "/" + total + ")" + RESET);
+
+        if (details != null && !details.isEmpty()) {
+            System.out.print(" " + WHITE + details + RESET);
+        }
+
+        if (current >= total) {
+            System.out.println(); // Nova linha quando completo
+        }
+    }
+
+    private void showEndBanner(String consumptionType, String result, String duration) {
+        System.out.println();
+        System.out.println(GREEN + BOLD + "╔══════════════════════════════════════════════════════════════╗" + RESET);
+        System.out.println(GREEN + BOLD + "║" + centerText("✅ CONSUMO FINALIZADO ✅", 62) + "║" + RESET);
+        System.out.println(GREEN + BOLD + "╚══════════════════════════════════════════════════════════════╝" + RESET);
+        System.out.println(CYAN + BOLD + "🎯 TIPO: " + WHITE + consumptionType + RESET);
+        System.out.println(CYAN + BOLD + "🎉 RESULTADO: " + WHITE + result + RESET);
+        System.out.println(CYAN + BOLD + "⏱️ DURAÇÃO: " + WHITE + duration + RESET);
+        System.out.println(BLUE + "─".repeat(64) + RESET);
+        System.out.println();
+    }
+
+    private String createProgressBar(int percentage, int width) {
+        int filled = (int) ((double) percentage / 100 * width);
+        StringBuilder bar = new StringBuilder();
+
+        bar.append("[");
+        for (int i = 0; i < width; i++) {
+            if (i < filled) {
+                bar.append(GREEN + "█" + RESET);
+            } else {
+                bar.append(RED + "░" + RESET);
+            }
+        }
+        bar.append("]");
+
+        return bar.toString();
+    }
+
+    private String centerText(String text, int width) {
+        int padding = (width - text.length()) / 2;
+        return " ".repeat(Math.max(0, padding)) + text + " ".repeat(Math.max(0, width - text.length() - padding));
+    }
+
+    private String formatDuration(long durationMs) {
+        if (durationMs < 1000) {
+            return durationMs + "ms";
+        } else if (durationMs < 60000) {
+            return String.format("%.1fs", durationMs / 1000.0);
+        } else {
+            long minutes = durationMs / 60000;
+            long seconds = (durationMs % 60000) / 1000;
+            return String.format("%dm %ds", minutes, seconds);
+        }
     }
     
     /**
@@ -109,18 +236,6 @@ public class SimpleLogger {
     
     private String getCurrentTime() {
         return LocalDateTime.now().format(TIME_FORMATTER);
-    }
-    
-    private String formatDuration(long milliseconds) {
-        if (milliseconds < 1000) {
-            return milliseconds + "ms";
-        } else if (milliseconds < 60000) {
-            return String.format("%.1fs", milliseconds / 1000.0);
-        } else {
-            long minutes = milliseconds / 60000;
-            long seconds = (milliseconds % 60000) / 1000;
-            return String.format("%dm %ds", minutes, seconds);
-        }
     }
     
     private void setContext(String component) {

@@ -22,6 +22,7 @@ import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.consumer.service.DespesaDetalhadaMultiMesService;
 
 import br.gov.se.setc.logging.MarkdownLogger;
+import br.gov.se.setc.logging.SimpleLogger;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
@@ -132,6 +133,9 @@ public class ContractConsumptionScheduler {
     @Autowired
     private MarkdownLogger markdownLogger;
 
+    @Autowired
+    private SimpleLogger simpleLogger;
+
     private boolean isFirstExecution = true;
 
     /**
@@ -211,6 +215,9 @@ public class ContractConsumptionScheduler {
             logger.info("=== INICIANDO CONSUMO DE UNIDADES GESTORAS ===");
             markdownSection.progress("Processando Unidades Gestoras...");
 
+            // Log de progresso geral do scheduler
+            simpleLogger.consumptionProgress("SCHEDULER", "Executando entidades", 1, 4, "Unidades Gestoras");
+
             try {
                 long ugStartTime = System.currentTimeMillis();
                 UnidadeGestoraDTO ugDto = new UnidadeGestoraDTO();
@@ -235,6 +242,9 @@ public class ContractConsumptionScheduler {
             // 3. Consumir Consulta Gerencial (Diárias) - MOVIDO PARA CIMA PARA FORNECER DADOS PARA OUTROS CONSUMOS
             logger.info("=== INICIANDO CONSUMO DE CONSULTA GERENCIAL ===");
             markdownSection.progress("Processando Consulta Gerencial (Diárias)...");
+
+            // Log de progresso geral do scheduler
+            simpleLogger.consumptionProgress("SCHEDULER", "Executando entidades", 2, 4, "Consulta Gerencial");
 
             try {
                 long consultaGerencialStartTime = System.currentTimeMillis();
@@ -261,6 +271,9 @@ public class ContractConsumptionScheduler {
             logger.info("=== INICIANDO CONSUMO DE CONTRATOS FISCAIS ===");
             markdownSection.progress("Processando Contratos Fiscais...");
 
+            // Log de progresso geral do scheduler
+            simpleLogger.consumptionProgress("SCHEDULER", "Executando entidades", 3, 4, "Contratos Fiscais");
+
             try {
                 long cfStartTime = System.currentTimeMillis();
                 ContratosFiscaisDTO contratoDto = new ContratosFiscaisDTO();
@@ -286,6 +299,9 @@ public class ContractConsumptionScheduler {
             logger.info("=== INICIANDO CONSUMO DE CONTRATOS ===");
             markdownSection.progress("Processando Contratos...");
 
+            // Log de progresso geral do scheduler
+            simpleLogger.consumptionProgress("SCHEDULER", "Executando entidades", 4, 6, "Contratos");
+
             try {
                 long contratoStartTime = System.currentTimeMillis();
                 ContratoDTO contratoDto = new ContratoDTO();
@@ -310,6 +326,9 @@ public class ContractConsumptionScheduler {
             // 9. Consumir Contrato-Empenho
             logger.info("=== INICIANDO CONSUMO DE CONTRATO-EMPENHO ===");
             markdownSection.progress("Processando Contrato-Empenho...");
+
+            // Log de progresso geral do scheduler
+            simpleLogger.consumptionProgress("SCHEDULER", "Executando entidades", 5, 6, "Contrato-Empenho");
 
             try {
                 long contratoEmpenhoStartTime = System.currentTimeMillis();
