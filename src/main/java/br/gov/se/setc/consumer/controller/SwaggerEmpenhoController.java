@@ -1,33 +1,26 @@
 package br.gov.se.setc.consumer.controller;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 @RestController
 @RequestMapping("/empenho")
 @Tag(name = "Empenhos", description = "API para consumo e gestão de dados de empenhos do SEFAZ")
 public class SwaggerEmpenhoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerEmpenhoController.class.getName());
     private final ConsumoApiService<EmpenhoDTO> consumoApiService;
-
     public SwaggerEmpenhoController(
             @Qualifier("empenhoConsumoApiService") ConsumoApiService<EmpenhoDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Consumir e listar empenhos",
@@ -49,7 +42,6 @@ public class SwaggerEmpenhoController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste de configuração do endpoint",
@@ -69,7 +61,6 @@ public class SwaggerEmpenhoController {
             info.append("Data inicial filtro: ").append(dto.getNomeDataInicialPadraoFiltro()).append("\n");
             info.append("Data final filtro: ").append(dto.getNomeDataFinalPadraoFiltro()).append("\n");
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Empenho: " + e.getMessage());

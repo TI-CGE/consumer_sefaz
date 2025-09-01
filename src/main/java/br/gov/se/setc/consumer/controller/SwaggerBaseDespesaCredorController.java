@@ -1,15 +1,12 @@
 package br.gov.se.setc.consumer.controller;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -17,21 +14,17 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 @RestController
 @RequestMapping("/base-despesa-credor")
 @Tag(name = "Base Despesa Credor", description = "API para consumo e gestão de dados de base despesa credor do SEFAZ")
 public class SwaggerBaseDespesaCredorController {
-
     private static final Logger logger = Logger.getLogger(SwaggerBaseDespesaCredorController.class.getName());
     private final ConsumoApiService<BaseDespesaCredorDTO> consumoApiService;
-
     public SwaggerBaseDespesaCredorController(
             @Qualifier("baseDespesaCredorConsumoApiService") ConsumoApiService<BaseDespesaCredorDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Lista dados de Base Despesa Credor", 
@@ -50,43 +43,32 @@ public class SwaggerBaseDespesaCredorController {
     public List<BaseDespesaCredorDTO> listarBaseDespesaCredor(
             @Parameter(description = "Código da Unidade Gestora para filtro", example = "123456")
             @RequestParam(required = false) String cdUnidadeGestora,
-            
             @Parameter(description = "Ano do Exercício para filtro", example = "2025")
             @RequestParam(required = false) Integer dtAnoExercicio,
-            
             @Parameter(description = "Número da Faixa de Paginação (1 para primeira página)", example = "1")
             @RequestParam(required = false) Integer nuFaixaPaginacao
     ) {
         try {
             logger.info("Iniciando consumo da API de Base Despesa Credor");
-            
             BaseDespesaCredorDTO consumirPersistir = new BaseDespesaCredorDTO();
-            
-            // Aplicar filtros se fornecidos
             if (cdUnidadeGestora != null && !cdUnidadeGestora.trim().isEmpty()) {
                 consumirPersistir.setCdUnidadeGestoraFiltro(cdUnidadeGestora);
                 logger.info("Aplicando filtro por Unidade Gestora: " + cdUnidadeGestora);
             }
-            
             if (dtAnoExercicio != null) {
                 consumirPersistir.setDtAnoExercicioFiltro(dtAnoExercicio);
                 logger.info("Aplicando filtro por Ano do Exercício: " + dtAnoExercicio);
             }
-            
             if (nuFaixaPaginacao != null) {
                 consumirPersistir.setNuFaixaPaginacaoFiltro(nuFaixaPaginacao);
                 logger.info("Aplicando filtro por Faixa de Paginação: " + nuFaixaPaginacao);
             }
-            
             List<BaseDespesaCredorDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
             logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
-            
-            // Log informações de paginação se disponível
             if (result != null && !result.isEmpty() && result.get(0).getQtTotalFaixasPaginacao() != null) {
                 logger.info("Informações de paginação - Faixa atual: " + result.get(0).getNuFaixaPaginacao() + 
                            ", Total de faixas: " + result.get(0).getQtTotalFaixasPaginacao());
             }
-            
             return result;
         } catch (Exception e) {
             logger.severe("Erro ao consumir API de Base Despesa Credor: " + e.getMessage());
@@ -94,7 +76,6 @@ public class SwaggerBaseDespesaCredorController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste completo do endpoint", 
@@ -112,7 +93,6 @@ public class SwaggerBaseDespesaCredorController {
             logger.info("Iniciando teste completo do endpoint de Base Despesa Credor");
             BaseDespesaCredorDTO dto = new BaseDespesaCredorDTO();
             StringBuilder info = new StringBuilder();
-            
             info.append("=== TESTE ENDPOINT BASE DESPESA CREDOR ===\n");
             info.append("Status: Endpoint funcionando!\n");
             info.append("URL configurada: ").append(dto.getUrl()).append("\n");
@@ -133,16 +113,12 @@ public class SwaggerBaseDespesaCredorController {
             info.append("  - Licitação: nmModalidadeLicitacao, cdLicitacao\n");
             info.append("  - Itens: nmItemMaterialServico, qtItemSolicitacaoEmpenho\n");
             info.append("  - Paginação: nuFaixaPaginacao, qtTotalFaixasPaginacao\n");
-            
-            // Executar teste de consumo básico
             try {
                 logger.info("Executando teste de consumo da API...");
                 List<BaseDespesaCredorDTO> testResult = consumoApiService.consumirPersistir(dto);
-                
                 if (testResult != null) {
                     info.append("TESTE DE CONSUMO: SUCESSO\n");
                     info.append("Registros retornados: ").append(testResult.size()).append("\n");
-                    
                     if (!testResult.isEmpty()) {
                         BaseDespesaCredorDTO firstRecord = testResult.get(0);
                         if (firstRecord.getQtTotalFaixasPaginacao() != null) {
@@ -160,9 +136,7 @@ public class SwaggerBaseDespesaCredorController {
                 info.append("TESTE DE CONSUMO: ERRO - ").append(testException.getMessage()).append("\n");
                 logger.warning("Erro durante teste de consumo: " + testException.getMessage());
             }
-            
             info.append("=== FIM TESTE ===\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Base Despesa Credor: " + e.getMessage());

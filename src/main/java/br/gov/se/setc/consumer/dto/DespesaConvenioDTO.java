@@ -1,119 +1,82 @@
 package br.gov.se.setc.consumer.dto;
-
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 /**
  * DTO para consumo da API de Despesa de Convênios da SEFAZ
  * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/aco/v1/convenio/despesa
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DespesaConvenioDTO extends EndpontSefaz {
-
-    // Datas
     @JsonProperty("dtFimVigenciaConvenio")
     private LocalDate dtFimVigenciaConvenio;
-
     @JsonProperty("dtPublicacaoConvenio")
     private LocalDate dtPublicacaoConvenio;
-
     @JsonProperty("dtLancamentoConvenio")
     private LocalDate dtLancamentoConvenio;
-
     @JsonProperty("dtPrazoPrestContasConvenio")
     private LocalDate dtPrazoPrestContasConvenio;
-
     @JsonProperty("dtCelebracaoConvenio")
     private LocalDate dtCelebracaoConvenio;
-
     @JsonProperty("dtInicioVigenciaConvenio")
     private LocalDate dtInicioVigenciaConvenio;
-
-    // Numéricos e monetários
     @JsonProperty("cdConvenio")
     private Long cdConvenio;
-
     @JsonProperty("vlConcedenteConvenio")
     private BigDecimal vlConcedenteConvenio;
-
     @JsonProperty("cdConcedentePessoa")
     private Long cdConcedentePessoa;
-
     @JsonProperty("cdBeneficiarioPessoa")
     private Long cdBeneficiarioPessoa;
-
     @JsonProperty("cdAreaAtuacao")
     private Integer cdAreaAtuacao;
-
     @JsonProperty("vlContrapartidaConvenio")
     private BigDecimal vlContrapartidaConvenio;
-
     @JsonProperty("sqUnidadeGestoraGestao")
     private Long sqUnidadeGestoraGestao;
-
-    // Textos e códigos
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
-
     @JsonProperty("nmConcedente")
     private String nmConcedente;
-
     @JsonProperty("inConvenioFichaIngresso")
     private String inConvenioFichaIngresso; // CHAR(1)
-
     @JsonProperty("dsObjetoConvenio")
     private String dsObjetoConvenio;
-
     @JsonProperty("cdGestao")
     private String cdGestao;
-
     @JsonProperty("txIdentOriginalConvenio")
     private String txIdentOriginalConvenio;
-
     @JsonProperty("cdEfetivacaoUsuario")
     private String cdEfetivacaoUsuario;
-
     @JsonProperty("txObservacaoConvenio")
     private String txObservacaoConvenio;
-
     @JsonProperty("cdConvenioSituacao")
     private String cdConvenioSituacao;
-
     @JsonProperty("nmBeneficiario")
     private String nmBeneficiario;
-
     @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
-
     @JsonProperty("nmConvenio")
     private String nmConvenio;
-
     @JsonProperty("inLocalPublicacaoConvenio")
     private String inLocalPublicacaoConvenio;
-
     @JsonProperty("inConvenioEmpenhoIngresso")
     private String inConvenioEmpenhoIngresso; // CHAR(1)
-
-    // Filtros opcionais para controller (não vêm do JSON)
     private String cdUnidadeGestoraFiltro;
     private String cdGestaoFiltro;
     private Integer nuAnoLancamentoFiltro;
     private Integer nuMesLancamentoFiltro;
-
     public DespesaConvenioDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
         mapearParametros();
     }
-
     @Override
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.convenio_despesa";
@@ -123,10 +86,8 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         dtAnoPadrao = null;
         parametrosRequeridos = false;
     }
-
     @Override
     public void mapearCamposResposta() {
-        // Colunas conforme tabela consumer_sefaz.convenio_despesa
         camposResposta.put("dt_fim_vigencia_convenio", dtFimVigenciaConvenio);
         camposResposta.put("cd_convenio", cdConvenio);
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
@@ -154,13 +115,10 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         camposResposta.put("vl_contrapartida_convenio", vlContrapartidaConvenio);
         camposResposta.put("in_convenio_empenho_ingresso", inConvenioEmpenhoIngresso);
         camposResposta.put("sq_unidade_gestora_gestao", sqUnidadeGestoraGestao);
-
-        // Auditoria
         LocalDateTime now = LocalDateTime.now();
         camposResposta.put("created_at", now);
         camposResposta.put("updated_at", now);
     }
-
     @Override
     protected void mapearParametros() {
         if (cdUnidadeGestoraFiltro != null) camposParametros.put("cdUnidadeGestora", cdUnidadeGestoraFiltro);
@@ -168,7 +126,6 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         if (nuAnoLancamentoFiltro != null) camposParametros.put("nuAnoLancamento", nuAnoLancamentoFiltro);
         if (nuMesLancamentoFiltro != null) camposParametros.put("nuMesLancamento", nuMesLancamentoFiltro);
     }
-
     @Override
     public Map<String, Object> getCamposParametrosAtual(String ugCd, ValidacaoUtil<?> utilsService) {
         Map<String, Object> params = new LinkedHashMap<>();
@@ -178,7 +135,6 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         params.put("inVigente", "S");
         return params;
     }
-
     @Override
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
         Map<String, Object> params = new LinkedHashMap<>();
@@ -186,8 +142,6 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         params.put("nuAnoLancamento", ano);
         return params;
     }
-
-    // Getters e Setters
     public LocalDate getDtFimVigenciaConvenio() { return dtFimVigenciaConvenio; }
     public void setDtFimVigenciaConvenio(LocalDate dtFimVigenciaConvenio) { this.dtFimVigenciaConvenio = dtFimVigenciaConvenio; }
     public Long getCdConvenio() { return cdConvenio; }
@@ -242,7 +196,6 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     public void setInConvenioEmpenhoIngresso(String inConvenioEmpenhoIngresso) { this.inConvenioEmpenhoIngresso = inConvenioEmpenhoIngresso; }
     public Long getSqUnidadeGestoraGestao() { return sqUnidadeGestoraGestao; }
     public void setSqUnidadeGestoraGestao(Long sqUnidadeGestoraGestao) { this.sqUnidadeGestoraGestao = sqUnidadeGestoraGestao; }
-
     public String getCdUnidadeGestoraFiltro() { return cdUnidadeGestoraFiltro; }
     public void setCdUnidadeGestoraFiltro(String cdUnidadeGestoraFiltro) { this.cdUnidadeGestoraFiltro = cdUnidadeGestoraFiltro; }
     public String getCdGestaoFiltro() { return cdGestaoFiltro; }
@@ -252,4 +205,3 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     public Integer getNuMesLancamentoFiltro() { return nuMesLancamentoFiltro; }
     public void setNuMesLancamentoFiltro(Integer nuMesLancamentoFiltro) { this.nuMesLancamentoFiltro = nuMesLancamentoFiltro; }
 }
-

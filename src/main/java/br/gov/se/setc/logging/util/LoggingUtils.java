@@ -1,30 +1,23 @@
 package br.gov.se.setc.logging.util;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.springframework.http.HttpHeaders;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
-
 /**
  * Utilitários para logging
  */
 public class LoggingUtils {
-
     private static final ObjectMapper objectMapper = new ObjectMapper()
             .registerModule(new JavaTimeModule())
             .disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
-    
-    // Padrões para sanitização de dados sensíveis
     private static final Pattern TOKEN_PATTERN = Pattern.compile("(Bearer\\s+)([A-Za-z0-9\\-._~+/]+=*)", Pattern.CASE_INSENSITIVE);
     private static final Pattern PASSWORD_PATTERN = Pattern.compile("(password[\"']?\\s*[:=]\\s*[\"']?)([^\"',\\s}]+)", Pattern.CASE_INSENSITIVE);
     private static final Pattern CLIENT_SECRET_PATTERN = Pattern.compile("(client_secret[\"']?\\s*[:=]\\s*[\"']?)([^\"',\\s}]+)", Pattern.CASE_INSENSITIVE);
     private static final Pattern CPF_PATTERN = Pattern.compile("\\b\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}\\b");
     private static final Pattern CNPJ_PATTERN = Pattern.compile("\\b\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}\\b");
-    
     /**
      * Converte objeto para JSON string
      */
@@ -38,7 +31,6 @@ public class LoggingUtils {
             return "Error converting to JSON: " + e.getMessage();
         }
     }
-    
     /**
      * Sanitiza dados sensíveis de uma string
      */
@@ -46,27 +38,14 @@ public class LoggingUtils {
         if (data == null || data.trim().isEmpty()) {
             return data;
         }
-        
         String sanitized = data;
-        
-        // Sanitizar tokens
         sanitized = TOKEN_PATTERN.matcher(sanitized).replaceAll("$1***MASKED***");
-        
-        // Sanitizar senhas
         sanitized = PASSWORD_PATTERN.matcher(sanitized).replaceAll("$1***MASKED***");
-        
-        // Sanitizar client secrets
         sanitized = CLIENT_SECRET_PATTERN.matcher(sanitized).replaceAll("$1***MASKED***");
-        
-        // Sanitizar CPF
         sanitized = CPF_PATTERN.matcher(sanitized).replaceAll("***.***.***-**");
-        
-        // Sanitizar CNPJ
         sanitized = CNPJ_PATTERN.matcher(sanitized).replaceAll("**.***.***/****-**");
-        
         return sanitized;
     }
-    
     /**
      * Converte HttpHeaders para Map<String, String> sanitizado
      */
@@ -74,7 +53,6 @@ public class LoggingUtils {
         if (headers == null) {
             return null;
         }
-        
         Map<String, String> sanitizedHeaders = new HashMap<>();
         headers.forEach((key, values) -> {
             String value = String.join(", ", values);
@@ -84,10 +62,8 @@ public class LoggingUtils {
                 sanitizedHeaders.put(key, value);
             }
         });
-        
         return sanitizedHeaders;
     }
-    
     /**
      * Trunca string se exceder o tamanho máximo
      */
@@ -100,7 +76,6 @@ public class LoggingUtils {
         }
         return str.substring(0, maxLength - 3) + "...";
     }
-    
     /**
      * Calcula tamanho em bytes de uma string
      */
@@ -110,7 +85,6 @@ public class LoggingUtils {
         }
         return str.getBytes().length;
     }
-    
     /**
      * Formata tempo de execução em formato legível
      */
@@ -125,7 +99,6 @@ public class LoggingUtils {
             return String.format("%dm %ds", minutes, seconds);
         }
     }
-    
     /**
      * Formata tamanho em bytes em formato legível
      */
@@ -140,14 +113,12 @@ public class LoggingUtils {
             return String.format("%.2f GB", bytes / (1024.0 * 1024.0 * 1024.0));
         }
     }
-    
     /**
      * Extrai nome da classe sem o pacote
      */
     public static String getSimpleClassName(Class<?> clazz) {
         return clazz.getSimpleName();
     }
-    
     /**
      * Extrai nome da classe sem o pacote de um objeto
      */
@@ -157,7 +128,6 @@ public class LoggingUtils {
         }
         return obj.getClass().getSimpleName();
     }
-    
     /**
      * Cria mapa de metadados básicos
      */
@@ -168,13 +138,11 @@ public class LoggingUtils {
         metadata.put("timestamp", System.currentTimeMillis());
         return metadata;
     }
-    
     /**
      * Determina categoria de erro baseada na exceção
      */
     public static String determineErrorCategory(Exception exception) {
         String exceptionType = exception.getClass().getSimpleName().toLowerCase();
-        
         if (exceptionType.contains("security") || exceptionType.contains("auth") || 
             exceptionType.contains("unauthorized") || exceptionType.contains("forbidden")) {
             return "SECURITY";
@@ -191,13 +159,11 @@ public class LoggingUtils {
             return "TECHNICAL";
         }
     }
-    
     /**
      * Determina severidade baseada na exceção
      */
     public static String determineSeverity(Exception exception) {
         String exceptionType = exception.getClass().getSimpleName().toLowerCase();
-        
         if (exceptionType.contains("security") || exceptionType.contains("auth") || 
             exceptionType.contains("outofmemory") || exceptionType.contains("stackoverflow")) {
             return "CRITICAL";

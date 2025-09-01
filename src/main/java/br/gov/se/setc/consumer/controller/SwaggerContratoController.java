@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.controller;
-
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -10,24 +9,19 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 @RestController
 @RequestMapping("/contrato")
 @Tag(name = "Contratos", description = "API para consumo e gestão de dados de contratos do SEFAZ")
 public class SwaggerContratoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerContratoController.class.getName());
     private final ConsumoApiService<ContratoDTO> consumoApiService;
-
     public SwaggerContratoController(
             @Qualifier("contratoConsumoApiService") ConsumoApiService<ContratoDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Consumir e listar contratos",
@@ -48,20 +42,15 @@ public class SwaggerContratoController {
     ) {
         try {
             logger.info("Iniciando consumo da API de Contratos");
-            
             ContratoDTO consumirPersistir = new ContratoDTO();
-            
-            // Aplicar filtros se fornecidos
             if (cdUnidadeGestora != null) {
                 consumirPersistir.setCdUnidadeGestoraFiltro(cdUnidadeGestora);
                 logger.info("Filtro aplicado - Código Unidade Gestora: " + cdUnidadeGestora);
             }
-            
             if (dtAnoExercicio != null) {
                 consumirPersistir.setDtAnoExercicioFiltro(dtAnoExercicio);
                 logger.info("Filtro aplicado - Ano Exercício: " + dtAnoExercicio);
             }
-            
             List<ContratoDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
             logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
             return result;
@@ -71,7 +60,6 @@ public class SwaggerContratoController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste básico do endpoint", 
@@ -94,14 +82,12 @@ public class SwaggerContratoController {
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
             info.append("Filtros suportados: cdUnidadeGestora, dtAnoExercicio\n");
             info.append("Exemplo de uso: /contrato?cdUnidadeGestora=161011&dtAnoExercicio=2022\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Contratos: " + e.getMessage());
             return ResponseEntity.internalServerError().body("Erro: " + e.getMessage());
         }
     }
-
     @GetMapping("/info")
     @Operation(
         summary = "Informações detalhadas do endpoint",
@@ -116,17 +102,14 @@ public class SwaggerContratoController {
             logger.info("Solicitação de informações detalhadas de Contratos");
             ContratoDTO dto = new ContratoDTO();
             StringBuilder info = new StringBuilder();
-            
             info.append("=== CONTRATOS - INFORMAÇÕES DETALHADAS ===\n\n");
             info.append("Descrição: Endpoint para consumo de dados de contratos da SEFAZ\n");
             info.append("URL da API: ").append(dto.getUrl()).append("\n");
             info.append("Tabela de destino: ").append(dto.getTabelaBanco()).append("\n");
             info.append("Schema: consumer_sefaz\n\n");
-            
             info.append("=== PARÂMETROS DE CONSULTA ===\n");
             info.append("- cdUnidadeGestora: Código da Unidade Gestora (obrigatório)\n");
             info.append("- dtAnoExercicio: Ano do exercício (obrigatório)\n\n");
-            
             info.append("=== CAMPOS RETORNADOS ===\n");
             info.append("- sgUnidadeGestora: Sigla da Unidade Gestora\n");
             info.append("- cdUnidadeGestora: Código da Unidade Gestora\n");
@@ -141,12 +124,10 @@ public class SwaggerContratoController {
             info.append("- dsObjetoContrato: Descrição do objeto do contrato\n");
             info.append("- vlContrato: Valor do contrato\n");
             info.append("- tpContrato: Tipo do contrato\n\n");
-            
             info.append("=== EXEMPLOS DE USO ===\n");
             info.append("GET /contrato?cdUnidadeGestora=161011&dtAnoExercicio=2022\n");
             info.append("GET /contrato/test\n");
             info.append("GET /contrato/info\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro ao obter informações detalhadas de Contratos: " + e.getMessage());

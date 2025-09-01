@@ -1,12 +1,9 @@
 package br.gov.se.setc.consumer.mapper;
-
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.entity.Contrato;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
-
 /**
  * Mapper responsável por converter ContratoDTO para Contrato entity.
  * 
@@ -16,14 +13,11 @@ import java.time.LocalDateTime;
  */
 @Component
 public class ContratoMapper {
-    
     private final TypeConverter typeConverter;
-    
     @Autowired
     public ContratoMapper(TypeConverter typeConverter) {
         this.typeConverter = typeConverter;
     }
-    
     /**
      * Converte ContratoDTO para Contrato entity.
      * 
@@ -34,10 +28,7 @@ public class ContratoMapper {
         if (dto == null) {
             return null;
         }
-        
         Contrato entity = new Contrato();
-        
-        // Campos básicos (já consistentes)
         entity.setSgUnidadeGestora(dto.getSgUnidadeGestora());
         entity.setCdUnidadeGestora(dto.getCdUnidadeGestora());
         entity.setDtAnoExercicio(dto.getDtAnoExercicio());
@@ -49,27 +40,18 @@ public class ContratoMapper {
         entity.setDsObjetoContrato(dto.getDsObjetoContrato());
         entity.setVlContrato(dto.getVlContrato());
         entity.setTpContrato(dto.getTpContrato());
-        
-        // Conversões de datas (String → LocalDate)
-        // O DTO já faz a conversão internamente, mas vamos usar os campos convertidos
         entity.setDtInicioVigencia(dto.getDtInicioVigencia());
         entity.setDtFimVigencia(dto.getDtFimVigencia());
-        
-        // Se as datas convertidas forem null, tentar converter das strings
         if (entity.getDtInicioVigencia() == null && dto.getDtInicioVigenciaStr() != null) {
             entity.setDtInicioVigencia(typeConverter.stringToLocalDate(dto.getDtInicioVigenciaStr()));
         }
         if (entity.getDtFimVigencia() == null && dto.getDtFimVigenciaStr() != null) {
             entity.setDtFimVigencia(typeConverter.stringToLocalDate(dto.getDtFimVigenciaStr()));
         }
-        
-        // Campos de auditoria (serão preenchidos automaticamente pelo JPA)
         entity.setCreatedAt(LocalDateTime.now());
         entity.setUpdatedAt(LocalDateTime.now());
-        
         return entity;
     }
-    
     /**
      * Converte Contrato entity para ContratoDTO.
      * Útil para operações de leitura e testes.
@@ -81,10 +63,7 @@ public class ContratoMapper {
         if (entity == null) {
             return null;
         }
-        
         ContratoDTO dto = new ContratoDTO();
-        
-        // Campos básicos
         dto.setSgUnidadeGestora(entity.getSgUnidadeGestora());
         dto.setCdUnidadeGestora(entity.getCdUnidadeGestora());
         dto.setDtAnoExercicio(entity.getDtAnoExercicio());
@@ -96,18 +75,14 @@ public class ContratoMapper {
         dto.setDsObjetoContrato(entity.getDsObjetoContrato());
         dto.setVlContrato(entity.getVlContrato());
         dto.setTpContrato(entity.getTpContrato());
-        
-        // Conversões de datas (LocalDate → String)
         dto.setDtInicioVigencia(entity.getDtInicioVigencia());
         dto.setDtFimVigencia(entity.getDtFimVigencia());
-        
         if (entity.getDtInicioVigencia() != null) {
             dto.setDtInicioVigenciaStr(entity.getDtInicioVigencia().toString());
         }
         if (entity.getDtFimVigencia() != null) {
             dto.setDtFimVigenciaStr(entity.getDtFimVigencia().toString());
         }
-        
         return dto;
     }
 }

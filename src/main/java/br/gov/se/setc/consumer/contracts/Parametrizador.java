@@ -1,11 +1,6 @@
 package br.gov.se.setc.consumer.contracts;
-
 import java.util.Map;
-
 import br.gov.se.setc.util.ValidacaoUtil;
-
-
-
 public interface  Parametrizador {
      /**
      * @param ugCd   unidade gestora code

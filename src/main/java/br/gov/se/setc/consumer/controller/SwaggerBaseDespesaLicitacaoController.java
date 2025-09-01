@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.controller;
-
 import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -11,21 +10,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 @RestController
 @RequestMapping("/base-despesa-licitacao")
 @Tag(name = "Base Despesa Licitação", description = "API para consumo e gestão de dados de base despesa licitação do SEFAZ")
 public class SwaggerBaseDespesaLicitacaoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerBaseDespesaLicitacaoController.class.getName());
-
     @Autowired
     @Qualifier("baseDespesaLicitacaoConsumoApiService")
     private ConsumoApiService<BaseDespesaLicitacaoDTO> consumoApiService;
-
     @GetMapping
     @Operation(
         summary = "Consumir dados de Base Despesa Licitação", 
@@ -42,22 +36,17 @@ public class SwaggerBaseDespesaLicitacaoController {
             @RequestParam(required = false) String cdUnidadeGestora,
             @Parameter(description = "Ano de exercício para filtro", example = "2024")
             @RequestParam(required = false) Integer dtAnoExercicio) {
-        
         try {
             logger.info("Iniciando consumo de Base Despesa Licitação");
-            
             BaseDespesaLicitacaoDTO consumirPersistir = new BaseDespesaLicitacaoDTO();
-            
             if (cdUnidadeGestora != null) {
                 consumirPersistir.setCdUnidadeGestoraFiltro(cdUnidadeGestora);
                 logger.info("Filtro aplicado - Código Unidade Gestora: " + cdUnidadeGestora);
             }
-            
             if (dtAnoExercicio != null) {
                 consumirPersistir.setDtAnoExercicioFiltro(dtAnoExercicio);
                 logger.info("Filtro aplicado - Ano Exercício: " + dtAnoExercicio);
             }
-            
             List<BaseDespesaLicitacaoDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
             logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
             return result;
@@ -67,7 +56,6 @@ public class SwaggerBaseDespesaLicitacaoController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste básico do endpoint", 
@@ -90,7 +78,6 @@ public class SwaggerBaseDespesaLicitacaoController {
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
             info.append("Filtros suportados: cdUnidadeGestora, dtAnoExercicio\n");
             info.append("Exemplo de uso: /base-despesa-licitacao?cdUnidadeGestora=161011&dtAnoExercicio=2024\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Base Despesa Licitação: " + e.getMessage());

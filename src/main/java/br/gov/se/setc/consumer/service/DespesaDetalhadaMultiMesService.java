@@ -1,15 +1,12 @@
 package br.gov.se.setc.consumer.service;
-
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
-
 /**
  * Serviço wrapper para DespesaDetalhada que implementa busca de todos os 12 meses
  * 
@@ -25,63 +22,44 @@ import java.util.logging.Logger;
  */
 @Service
 public class DespesaDetalhadaMultiMesService {
-
     private static final Logger logger = Logger.getLogger(DespesaDetalhadaMultiMesService.class.getName());
-    
     private final ConsumoApiService<DespesaDetalhadaDTO> consumoApiService;
-
     public DespesaDetalhadaMultiMesService(
             @Qualifier("despesaDetalhadaConsumoApiService") 
             ConsumoApiService<DespesaDetalhadaDTO> consumoApiService) {
         this.consumoApiService = consumoApiService;
     }
-
     /**
      * Executa o consumo com busca de todos os 12 meses
      */
     public List<DespesaDetalhadaDTO> consumirTodosMeses() {
         logger.info("=== INICIANDO CONSUMO MULTI-MÊS DE DESPESA DETALHADA ===");
         logger.info("Implementação: busca todos os 12 meses do ano para dados completos");
-        
         List<DespesaDetalhadaDTO> resultadoConsolidado = new ArrayList<>();
-        
-        // Fazer 12 execuções, uma para cada mês
         for (int mes = 1; mes <= 12; mes++) {
             logger.info("=== PROCESSANDO MÊS " + mes + "/12 ===");
-            
             try {
-                // Criar DTO configurado para o mês específico
                 DespesaDetalhadaDTO mapper = criarMapperParaMes(mes);
-                
-                // Executar consumo para o mês
                 List<DespesaDetalhadaDTO> resultadoMes = consumoApiService.consumirPersistir(mapper);
-                
                 if (resultadoMes != null && !resultadoMes.isEmpty()) {
                     resultadoConsolidado.addAll(resultadoMes);
                     logger.info("Mês " + mes + ": " + resultadoMes.size() + " registros processados");
                 } else {
                     logger.info("Mês " + mes + ": 0 registros encontrados");
                 }
-                
-                // Pausa entre meses para não sobrecarregar a API
                 if (mes < 12) {
                     logger.info("Pausando 500ms antes do próximo mês...");
                     Thread.sleep(500);
                 }
-                
             } catch (Exception e) {
                 logger.severe("Erro ao processar mês " + mes + ": " + e.getMessage());
                 e.printStackTrace();
-                // Continuar com os próximos meses mesmo se um falhar
             }
         }
-        
         logger.info("=== CONSUMO MULTI-MÊS CONCLUÍDO ===");
         logger.info("Total de registros consolidados: " + resultadoConsolidado.size());
-        
         return resultadoConsolidado;
     }
-
     /**
      * Executa consumo para um mês específico (para testes)
      */
@@ -89,134 +67,90 @@ public class DespesaDetalhadaMultiMesService {
         if (mes < 1 || mes > 12) {
             throw new IllegalArgumentException("Mês deve estar entre 1 e 12");
         }
-        
         logger.info("=== CONSUMINDO MÊS ESPECÍFICO: " + mes + " ===");
-        
         try {
             DespesaDetalhadaDTO mapper = criarMapperParaMes(mes);
             List<DespesaDetalhadaDTO> resultado = consumoApiService.consumirPersistir(mapper);
-            
             logger.info("Mês " + mes + " processado: " + 
                        (resultado != null ? resultado.size() : 0) + " registros");
-            
             return resultado;
-            
         } catch (Exception e) {
             logger.severe("Erro ao processar mês específico " + mes + ": " + e.getMessage());
             e.printStackTrace();
             return new ArrayList<>();
         }
     }
-
     /**
      * Executa consumo para todos os 12 meses de um ano específico
      */
     public List<DespesaDetalhadaDTO> consumirTodosMesesAno(int ano) {
         logger.info("=== INICIANDO CONSUMO MULTI-MÊS PARA ANO " + ano + " ===");
-        
         List<DespesaDetalhadaDTO> resultadoConsolidado = new ArrayList<>();
-        
-        // Fazer 12 execuções, uma para cada mês do ano especificado
         for (int mes = 1; mes <= 12; mes++) {
             logger.info("=== PROCESSANDO ANO " + ano + " - MÊS " + mes + "/12 ===");
-            
             try {
-                // Criar DTO configurado para o mês e ano específicos
                 DespesaDetalhadaDTO mapper = criarMapperParaMesAno(mes, ano);
-                
-                // Executar consumo para o mês
                 List<DespesaDetalhadaDTO> resultadoMes = consumoApiService.consumirPersistir(mapper);
-                
                 if (resultadoMes != null && !resultadoMes.isEmpty()) {
                     resultadoConsolidado.addAll(resultadoMes);
                     logger.info("Ano " + ano + " Mês " + mes + ": " + resultadoMes.size() + " registros processados");
                 } else {
                     logger.info("Ano " + ano + " Mês " + mes + ": 0 registros encontrados");
                 }
-                
-                // Pausa entre meses para não sobrecarregar a API
                 if (mes < 12) {
                     logger.info("Pausando 500ms antes do próximo mês...");
                     Thread.sleep(500);
                 }
-                
             } catch (Exception e) {
                 logger.severe("Erro ao processar ano " + ano + " mês " + mes + ": " + e.getMessage());
                 e.printStackTrace();
-                // Continuar com os próximos meses mesmo se um falhar
             }
         }
-        
         logger.info("=== CONSUMO MULTI-MÊS PARA ANO " + ano + " CONCLUÍDO ===");
         logger.info("Total de registros consolidados: " + resultadoConsolidado.size());
-        
         return resultadoConsolidado;
     }
-
     /**
      * Cria um mapper configurado para um mês específico (ano atual)
      */
     private DespesaDetalhadaDTO criarMapperParaMes(int mes) {
         DespesaDetalhadaDTO mapper = new DespesaDetalhadaDTO();
-
-        // Definir filtros
         mapper.setNuMesFiltro(mes);
         mapper.setDtAnoExercicioCTBFiltro(2025); // Ano atual
-
-        // CORREÇÃO CRÍTICA: Definir explicitamente os campos derivados para garantir que não sejam NULL
         mapper.setNuMes(mes);
         mapper.setDtAnoExercicioCTB(2025);
-        // IMPORTANTE: cdUnidadeGestora será definido pelos parâmetros da consulta
-
-        // Definir parâmetros explicitamente para garantir que estejam disponíveis
         Map<String, Object> parametros = new LinkedHashMap<>();
         parametros.put("nuMes", mes);
         parametros.put("dtAnoExercicio", 2025);
         mapper.setCamposParametros(parametros);
-
         logger.info("Mapper criado - mes=" + mes + ", ano=2025");
-
         return mapper;
     }
-
     /**
      * Cria um mapper configurado para um mês e ano específicos
      */
     private DespesaDetalhadaDTO criarMapperParaMesAno(int mes, int ano) {
         DespesaDetalhadaDTO mapper = new DespesaDetalhadaDTO();
-
-        // Definir filtros
         mapper.setNuMesFiltro(mes);
         mapper.setDtAnoExercicioCTBFiltro(ano);
-
-        // CORREÇÃO CRÍTICA: Definir explicitamente os campos derivados para garantir que não sejam NULL
         mapper.setNuMes(mes);
         mapper.setDtAnoExercicioCTB(ano);
-        // IMPORTANTE: cdUnidadeGestora será definido pelos parâmetros da consulta
-
-        // Definir parâmetros explicitamente para garantir que estejam disponíveis
         Map<String, Object> parametros = new LinkedHashMap<>();
         parametros.put("nuMes", mes);
         parametros.put("dtAnoExercicio", ano);
         mapper.setCamposParametros(parametros);
-
         logger.info("Mapper criado - mes=" + mes + ", ano=" + ano);
-
         return mapper;
     }
-
     /**
      * Executa consumo para todos os anos (2020-2025) e todos os 12 meses de cada ano
      */
     public List<DespesaDetalhadaDTO> consumirTodosAnosMeses() {
         logger.info("=== INICIANDO CONSUMO COMPLETO - TODOS OS ANOS E MESES ===");
-        
         List<DespesaDetalhadaDTO> resultadoConsolidado = new ArrayList<>();
         int[] anos = {2020, 2021, 2022, 2023, 2024, 2025};
-        
         for (int ano : anos) {
             logger.info("=== PROCESSANDO ANO " + ano + " ===");
-            
             try {
                 List<DespesaDetalhadaDTO> resultadoAno = consumirTodosMesesAno(ano);
                 if (resultadoAno != null && !resultadoAno.isEmpty()) {
@@ -225,23 +159,17 @@ public class DespesaDetalhadaMultiMesService {
                 } else {
                     logger.info("Ano " + ano + ": 0 registros encontrados");
                 }
-                
-                // Pausa entre anos para não sobrecarregar a API
                 if (ano < 2025) {
                     logger.info("Pausando 1 segundo antes do próximo ano...");
                     Thread.sleep(1000);
                 }
-                
             } catch (Exception e) {
                 logger.severe("Erro ao processar ano " + ano + ": " + e.getMessage());
                 e.printStackTrace();
-                // Continuar com os próximos anos mesmo se um falhar
             }
         }
-        
         logger.info("=== CONSUMO COMPLETO CONCLUÍDO ===");
         logger.info("Total de registros consolidados: " + resultadoConsolidado.size());
-        
         return resultadoConsolidado;
     }
 }

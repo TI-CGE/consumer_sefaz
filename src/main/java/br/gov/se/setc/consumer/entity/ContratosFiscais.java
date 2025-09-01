@@ -5,14 +5,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
-
 import java.time.LocalDate;
-
-
 @Entity
 @Table(name = "contratos_fiscais", schema = "consumer_sefaz")
 public class ContratosFiscais {
-    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -27,8 +23,6 @@ public class ContratosFiscais {
     private String nuDocumentoContratado;
     private String nmFiscal;
     private String dsQualificador;
-    
-    
     public Long getId() {
         return id;
     }
@@ -101,7 +95,4 @@ public class ContratosFiscais {
     public void setDsQualificador(String dsQualificador) {
         this.dsQualificador = dsQualificador;
     }
-
-
-    
 }

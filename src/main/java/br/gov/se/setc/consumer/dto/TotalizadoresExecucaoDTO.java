@@ -1,95 +1,65 @@
 package br.gov.se.setc.consumer.dto;
-
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.Map;
-
 /**
  * DTO para consumo da API de Totalizadores de Execução do SEFAZ
  * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/totalizadores-execucao
  */
 public class TotalizadoresExecucaoDTO extends EndpontSefaz {
-
     @JsonProperty("cdProgramaGoverno")
     private Integer cdProgramaGoverno;
-
     @JsonProperty("cdNaturezaDespesaElementoDespesa")
     private String cdNaturezaDespesaElementoDespesa;
-
     @JsonProperty("nmNaturezaDespesaElementoDespesa")
     private String nmNaturezaDespesaElementoDespesa;
-
     @JsonProperty("nmProgramaGoverno")
     private String nmProgramaGoverno;
-
     @JsonProperty("vlTotalPago")
     private BigDecimal vlTotalPago;
-
     @JsonProperty("vlTotalLiquidado")
     private BigDecimal vlTotalLiquidado;
-
     @JsonProperty("cdUnidadeOrcamentaria")
     private String cdUnidadeOrcamentaria;
-
     @JsonProperty("vlTotalEmpenhado")
     private BigDecimal vlTotalEmpenhado;
-
     @JsonProperty("nmFonteRecurso")
     private String nmFonteRecurso;
-
     @JsonProperty("nmComplementoExecOrc")
     private String nmComplementoExecOrc;
-
     @JsonProperty("vlTotalDotacaoAtualizada")
     private BigDecimal vlTotalDotacaoAtualizada;
-
     @JsonProperty("cdFonteRecursoReduzida")
     private String cdFonteRecursoReduzida;
-
     @JsonProperty("cdSubAcao")
     private String cdSubAcao;
-
     @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
-
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
-
     @JsonProperty("dhUltimaAlteracao")
     private String dhUltimaAlteracao;
-
-    // Campo convertido para LocalDateTime
     private LocalDateTime dhUltimaAlteracaoConverted;
-
     @JsonProperty("nmAcao")
     private String nmAcao;
-
     @JsonProperty("dtAnoExercicioCTB")
     private Integer dtAnoExercicioCTB;
-
     @JsonProperty("cdAcao")
     private String cdAcao;
-
     @JsonProperty("cdGestao")
     private String cdGestao;
-
     @JsonProperty("cdComplementoExecOrc")
     private String cdComplementoExecOrc;
-
-    // Campos para parâmetros de filtro
     private String cdUnidadeGestoraFiltro;
     private Integer dtAnoExercicioCTBFiltro;
-
     public TotalizadoresExecucaoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
         mapearParametros();
     }
-
     @Override
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.totalizadores_execucao";
@@ -98,10 +68,8 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         nomeDataFinalPadraoFiltro = null;   // Não usa filtros de data
         dtAnoPadrao = "dt_ano_exercicio_ctb";
     }
-
     @Override
     public void mapearCamposResposta() {
-        // Mapear todos os campos de resposta para persistência no banco
         camposResposta.put("cd_programa_governo", cdProgramaGoverno);
         camposResposta.put("cd_natureza_despesa_elemento_despesa", cdNaturezaDespesaElementoDespesa);
         camposResposta.put("nm_natureza_despesa_elemento_despesa", nmNaturezaDespesaElementoDespesa);
@@ -124,10 +92,8 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         camposResposta.put("cd_gestao", cdGestao);
         camposResposta.put("cd_complemento_exec_orc", cdComplementoExecOrc);
     }
-
     @Override
     protected void mapearParametros() {
-        // Mapear parâmetros de filtro para a API
         if (cdUnidadeGestoraFiltro != null) {
             camposParametros.put("cdUnidadeGestora", cdUnidadeGestoraFiltro);
         }
@@ -135,10 +101,8 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
             camposParametros.put("dtAnoExercicioCTB", dtAnoExercicioCTBFiltro);
         }
     }
-
     @Override
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
-        // Para Totalizadores de Execução, usar os parâmetros básicos
         camposParametros.clear();
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
@@ -148,151 +112,113 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         }
         return camposParametros;
     }
-
     @Override
     public Map<String, Object> getCamposParametrosAtual(String ugCd, ValidacaoUtil<?> utilsService) {
-        // Para Totalizadores de Execução, usar ano atual
         camposParametros.clear();
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        // Usar ano atual (2025)
         camposParametros.put("dtAnoExercicioCTB", 2025);
         return camposParametros;
     }
-
-    // Getters and Setters
     public Integer getCdProgramaGoverno() {
         return cdProgramaGoverno;
     }
-
     public void setCdProgramaGoverno(Integer cdProgramaGoverno) {
         this.cdProgramaGoverno = cdProgramaGoverno;
     }
-
     public String getCdNaturezaDespesaElementoDespesa() {
         return cdNaturezaDespesaElementoDespesa;
     }
-
     public void setCdNaturezaDespesaElementoDespesa(String cdNaturezaDespesaElementoDespesa) {
         this.cdNaturezaDespesaElementoDespesa = cdNaturezaDespesaElementoDespesa;
     }
-
     public String getNmNaturezaDespesaElementoDespesa() {
         return nmNaturezaDespesaElementoDespesa;
     }
-
     public void setNmNaturezaDespesaElementoDespesa(String nmNaturezaDespesaElementoDespesa) {
         this.nmNaturezaDespesaElementoDespesa = nmNaturezaDespesaElementoDespesa;
     }
-
     public String getNmProgramaGoverno() {
         return nmProgramaGoverno;
     }
-
     public void setNmProgramaGoverno(String nmProgramaGoverno) {
         this.nmProgramaGoverno = nmProgramaGoverno;
     }
-
     public BigDecimal getVlTotalPago() {
         return vlTotalPago;
     }
-
     public void setVlTotalPago(BigDecimal vlTotalPago) {
         this.vlTotalPago = vlTotalPago;
     }
-
     public BigDecimal getVlTotalLiquidado() {
         return vlTotalLiquidado;
     }
-
     public void setVlTotalLiquidado(BigDecimal vlTotalLiquidado) {
         this.vlTotalLiquidado = vlTotalLiquidado;
     }
-
     public String getCdUnidadeOrcamentaria() {
         return cdUnidadeOrcamentaria;
     }
-
     public void setCdUnidadeOrcamentaria(String cdUnidadeOrcamentaria) {
         this.cdUnidadeOrcamentaria = cdUnidadeOrcamentaria;
     }
-
     public BigDecimal getVlTotalEmpenhado() {
         return vlTotalEmpenhado;
     }
-
     public void setVlTotalEmpenhado(BigDecimal vlTotalEmpenhado) {
         this.vlTotalEmpenhado = vlTotalEmpenhado;
     }
-
     public String getNmFonteRecurso() {
         return nmFonteRecurso;
     }
-
     public void setNmFonteRecurso(String nmFonteRecurso) {
         this.nmFonteRecurso = nmFonteRecurso;
     }
-
     public String getNmComplementoExecOrc() {
         return nmComplementoExecOrc;
     }
-
     public void setNmComplementoExecOrc(String nmComplementoExecOrc) {
         this.nmComplementoExecOrc = nmComplementoExecOrc;
     }
-
     public BigDecimal getVlTotalDotacaoAtualizada() {
         return vlTotalDotacaoAtualizada;
     }
-
     public void setVlTotalDotacaoAtualizada(BigDecimal vlTotalDotacaoAtualizada) {
         this.vlTotalDotacaoAtualizada = vlTotalDotacaoAtualizada;
     }
-
     public String getCdFonteRecursoReduzida() {
         return cdFonteRecursoReduzida;
     }
-
     public void setCdFonteRecursoReduzida(String cdFonteRecursoReduzida) {
         this.cdFonteRecursoReduzida = cdFonteRecursoReduzida;
     }
-
     public String getCdSubAcao() {
         return cdSubAcao;
     }
-
     public void setCdSubAcao(String cdSubAcao) {
         this.cdSubAcao = cdSubAcao;
     }
-
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;
     }
-
     public void setSgUnidadeGestora(String sgUnidadeGestora) {
         this.sgUnidadeGestora = sgUnidadeGestora;
     }
-
     public String getCdUnidadeGestora() {
         return cdUnidadeGestora;
     }
-
     public void setCdUnidadeGestora(String cdUnidadeGestora) {
         this.cdUnidadeGestora = cdUnidadeGestora;
     }
-
     public String getDhUltimaAlteracao() {
         return dhUltimaAlteracao;
     }
-
     public LocalDateTime getDhUltimaAlteracaoConverted() {
         return dhUltimaAlteracaoConverted;
     }
-
     public void setDhUltimaAlteracao(String dhUltimaAlteracao) {
         this.dhUltimaAlteracao = dhUltimaAlteracao;
-        // Converter string ISO 8601 para LocalDateTime
         if (dhUltimaAlteracao != null && !dhUltimaAlteracao.isEmpty()) {
             try {
                 this.dhUltimaAlteracaoConverted = LocalDateTime.parse(dhUltimaAlteracao);
@@ -303,59 +229,45 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
             this.dhUltimaAlteracaoConverted = null;
         }
     }
-
     public String getNmAcao() {
         return nmAcao;
     }
-
     public void setNmAcao(String nmAcao) {
         this.nmAcao = nmAcao;
     }
-
     public Integer getDtAnoExercicioCTB() {
         return dtAnoExercicioCTB;
     }
-
     public void setDtAnoExercicioCTB(Integer dtAnoExercicioCTB) {
         this.dtAnoExercicioCTB = dtAnoExercicioCTB;
     }
-
     public String getCdAcao() {
         return cdAcao;
     }
-
     public void setCdAcao(String cdAcao) {
         this.cdAcao = cdAcao;
     }
-
     public String getCdGestao() {
         return cdGestao;
     }
-
     public void setCdGestao(String cdGestao) {
         this.cdGestao = cdGestao;
     }
-
     public String getCdComplementoExecOrc() {
         return cdComplementoExecOrc;
     }
-
     public void setCdComplementoExecOrc(String cdComplementoExecOrc) {
         this.cdComplementoExecOrc = cdComplementoExecOrc;
     }
-
     public String getCdUnidadeGestoraFiltro() {
         return cdUnidadeGestoraFiltro;
     }
-
     public void setCdUnidadeGestoraFiltro(String cdUnidadeGestoraFiltro) {
         this.cdUnidadeGestoraFiltro = cdUnidadeGestoraFiltro;
     }
-
     public Integer getDtAnoExercicioCTBFiltro() {
         return dtAnoExercicioCTBFiltro;
     }
-
     public void setDtAnoExercicioCTBFiltro(Integer dtAnoExercicioCTBFiltro) {
         this.dtAnoExercicioCTBFiltro = dtAnoExercicioCTBFiltro;
     }

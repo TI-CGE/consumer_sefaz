@@ -1,33 +1,26 @@
 package br.gov.se.setc.consumer.controller;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.gov.se.setc.consumer.dto.UnidadeGestoraDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import io.swagger.v3.oas.annotations.Operation;
-
 @RestController
 @RequestMapping("/unidade-gestora")
 @Tag(name = "Unidades Gestoras", description = "API para consumo e gestão de dados de unidades gestoras do SEFAZ")
 public class SwaggerUnidadeGestoraController {
-
     private static final Logger logger = Logger.getLogger(SwaggerUnidadeGestoraController.class.getName());
     private final ConsumoApiService<UnidadeGestoraDTO> consumoApiService;
-
     public SwaggerUnidadeGestoraController(
             @Qualifier("unidadeGestoraConsumoApiService") ConsumoApiService<UnidadeGestoraDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
   @GetMapping
   @Operation(
       summary = "Consumir e listar unidades gestoras",
@@ -49,7 +42,6 @@ public class SwaggerUnidadeGestoraController {
           throw e;
       }
   }
-
   @GetMapping("/test")
   @Operation(summary = "Teste básico do endpoint", description = "Retorna informações básicas para teste.")
   public ResponseEntity<String> testeEndpoint() {

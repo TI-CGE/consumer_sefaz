@@ -1,5 +1,4 @@
 package br.gov.se.setc.controller;
-
 import br.gov.se.setc.logging.LogCleanupService;
 import br.gov.se.setc.logging.LogRotationService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -9,12 +8,10 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -22,7 +19,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
 /**
  * Controller para gerenciar arquivos de log
  */
@@ -30,16 +26,12 @@ import java.time.format.DateTimeFormatter;
 @RequestMapping("/api/logs")
 @Tag(name = "Gerenciamento de Logs", description = "API para gerenciamento, rotação e monitoramento de arquivos de log")
 public class LogManagementController {
-
     @Autowired
     private LogRotationService logRotationService;
-
     @Autowired
     private LogCleanupService logCleanupService;
-
     private static final String LOGS_DIR = "logs";
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-    
     /**
      * Lista status de todos os arquivos de log
      */
@@ -55,15 +47,12 @@ public class LogManagementController {
     public String getLogStatus() {
         StringBuilder result = new StringBuilder();
         result.append("📊 Status dos Logs - ").append(LocalDateTime.now().format(FORMATTER)).append("\n\n");
-        
         File logsDir = new File(LOGS_DIR);
         if (!logsDir.exists()) {
             return "❌ Diretório de logs não encontrado: " + LOGS_DIR;
         }
-        
         File[] logFiles = logsDir.listFiles((dir, name) -> 
             name.endsWith(".log") || name.endsWith(".md"));
-        
         if (logFiles == null || logFiles.length == 0) {
             result.append("📁 Nenhum arquivo de log encontrado\n");
         } else {
@@ -74,16 +63,13 @@ public class LogManagementController {
                     file.lastModified() / 1000, 0, 
                     java.time.ZoneOffset.systemDefault().getRules().getOffset(java.time.Instant.now())
                 ).format(FORMATTER);
-                
                 result.append("📄 ").append(file.getName())
                       .append(" - ").append(sizeStr)
                       .append(" (modificado: ").append(lastModified).append(")\n");
             }
         }
-        
         return result.toString();
     }
-    
     /**
      * Mostra as últimas linhas de um arquivo de log específico
      */
@@ -95,7 +81,6 @@ public class LogManagementController {
     public String tailSimpleLog() {
         return tailLogFile("simple.log", 20);
     }
-    
     @GetMapping("/tail/errors")
     @Operation(
         summary = "Últimas linhas do errors.log",
@@ -104,7 +89,6 @@ public class LogManagementController {
     public String tailErrorsLog() {
         return tailLogFile("errors.log", 20);
     }
-    
     @GetMapping("/tail/application")
     @Operation(
         summary = "Últimas linhas do application.log",
@@ -113,7 +97,6 @@ public class LogManagementController {
     public String tailApplicationLog() {
         return tailLogFile("application.log", 20);
     }
-    
     /**
      * Limpa todos os arquivos de log (apenas para desenvolvimento)
      */
@@ -129,15 +112,12 @@ public class LogManagementController {
     public String clearLogs() {
         StringBuilder result = new StringBuilder();
         result.append("🧹 Limpando arquivos de log...\n\n");
-        
         File logsDir = new File(LOGS_DIR);
         if (!logsDir.exists()) {
             return "❌ Diretório de logs não encontrado";
         }
-        
         String[] logFiles = {"simple.log", "errors.log", "application.log", "operations.md"};
         int cleared = 0;
-        
         for (String fileName : logFiles) {
             File file = new File(logsDir, fileName);
             if (file.exists()) {
@@ -152,47 +132,37 @@ public class LogManagementController {
                 result.append("⚠️ ").append(fileName).append(" - Não encontrado\n");
             }
         }
-        
         result.append("\n📊 Total de arquivos limpos: ").append(cleared).append("\n");
         result.append("🔄 Os logs serão recriados automaticamente quando a aplicação gerar novos eventos.\n");
-        
         return result.toString();
     }
-    
     private String tailLogFile(String fileName, int lines) {
         try {
             Path filePath = Paths.get(LOGS_DIR, fileName);
             if (!Files.exists(filePath)) {
                 return "❌ Arquivo não encontrado: " + fileName;
             }
-            
             java.util.List<String> allLines = Files.readAllLines(filePath);
             if (allLines.isEmpty()) {
                 return "📄 " + fileName + " está vazio";
             }
-            
             StringBuilder result = new StringBuilder();
             result.append("📄 Últimas ").append(Math.min(lines, allLines.size()))
                   .append(" linhas de ").append(fileName).append(":\n\n");
-            
             int start = Math.max(0, allLines.size() - lines);
             for (int i = start; i < allLines.size(); i++) {
                 result.append(String.format("%3d: %s\n", i + 1, allLines.get(i)));
             }
-            
             return result.toString();
-            
         } catch (IOException e) {
             return "❌ Erro ao ler arquivo " + fileName + ": " + e.getMessage();
         }
     }
-    
     private String formatFileSize(long bytes) {
         if (bytes < 1024) return bytes + " B";
         if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
     }
-
     /**
      * Força rotação de todos os arquivos de log
      */
@@ -208,7 +178,6 @@ public class LogManagementController {
     public ResponseEntity<Map<String, Object>> forceRotation() {
         try {
             LogRotationService.AllLogsRotationResult result = logRotationService.forceAllLogsRotation();
-
             Map<String, Object> response = new HashMap<>();
             response.put("success", result.success);
             response.put("message", result.message);
@@ -218,8 +187,6 @@ public class LogManagementController {
             response.put("totalCompressedBytes", result.totalCompressedBytes);
             response.put("overallCompressionRatio", String.format("%.1f%%", result.overallCompressionRatio * 100));
             response.put("errors", result.errors);
-
-            // Detalhes de cada arquivo rotacionado
             List<Map<String, Object>> fileDetails = new ArrayList<>();
             for (LogRotationService.RotationResult fileResult : result.results) {
                 Map<String, Object> fileDetail = new HashMap<>();
@@ -233,13 +200,11 @@ public class LogManagementController {
                 fileDetails.add(fileDetail);
             }
             response.put("fileDetails", fileDetails);
-
             if (result.success) {
                 return ResponseEntity.ok(response);
             } else {
                 return ResponseEntity.internalServerError().body(response);
             }
-
         } catch (Exception e) {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("success", false);
@@ -247,7 +212,6 @@ public class LogManagementController {
             return ResponseEntity.internalServerError().body(errorResponse);
         }
     }
-
     /**
      * Força rotação apenas do arquivo operations.md
      */
@@ -263,7 +227,6 @@ public class LogManagementController {
     public ResponseEntity<Map<String, Object>> forceOperationsRotation() {
         try {
             LogRotationService.RotationResult result = logRotationService.forceOperationsRotation();
-
             Map<String, Object> response = new HashMap<>();
             response.put("success", result.success);
             response.put("message", result.message);
@@ -272,13 +235,11 @@ public class LogManagementController {
             response.put("originalSizeBytes", result.originalSizeBytes);
             response.put("compressedSizeBytes", result.compressedSizeBytes);
             response.put("compressionRatio", String.format("%.1f%%", result.compressionRatio * 100));
-
             if (result.success) {
                 return ResponseEntity.ok(response);
             } else {
                 return ResponseEntity.internalServerError().body(response);
             }
-
         } catch (Exception e) {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("success", false);
@@ -286,7 +247,6 @@ public class LogManagementController {
             return ResponseEntity.internalServerError().body(errorResponse);
         }
     }
-
     /**
      * Verifica informações detalhadas do operations.md
      */
@@ -302,7 +262,6 @@ public class LogManagementController {
     public ResponseEntity<Map<String, Object>> getOperationsInfo() {
         try {
             LogRotationService.FileInfo fileInfo = logRotationService.getCurrentFileInfo();
-
             Map<String, Object> response = new HashMap<>();
             response.put("success", true);
             response.put("fileExists", fileInfo.exists);
@@ -313,8 +272,6 @@ public class LogManagementController {
             response.put("needsRotation", fileInfo.needsRotation);
             response.put("error", fileInfo.error);
             response.put("message", fileInfo.toString());
-
-            // Adicionar recomendação
             if (fileInfo.needsRotation) {
                 response.put("recommendation", "⚠️ Arquivo precisa de rotação! Execute POST /api/logs/rotate");
             } else if (fileInfo.sizeMb > 1.0) {
@@ -322,9 +279,7 @@ public class LogManagementController {
             } else {
                 response.put("recommendation", "✅ Arquivo em tamanho normal.");
             }
-
             return ResponseEntity.ok(response);
-
         } catch (Exception e) {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("success", false);
@@ -332,7 +287,6 @@ public class LogManagementController {
             return ResponseEntity.internalServerError().body(errorResponse);
         }
     }
-
     /**
      * Executa limpeza automática de logs
      */
@@ -348,7 +302,6 @@ public class LogManagementController {
     public ResponseEntity<Map<String, Object>> performCleanup() {
         try {
             LogCleanupService.CleanupResult result = logCleanupService.performCleanup();
-
             Map<String, Object> response = new HashMap<>();
             response.put("success", true);
             response.put("filesDeleted", result.filesDeleted);
@@ -359,9 +312,7 @@ public class LogManagementController {
             response.put("sizeExceeded", result.sizeExceeded);
             response.put("errors", result.errors);
             response.put("message", result.toString());
-
             return ResponseEntity.ok(response);
-
         } catch (Exception e) {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("success", false);

@@ -1,33 +1,26 @@
 package br.gov.se.setc.consumer.controller;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 @RestController
 @RequestMapping("/pagamento")
 @Tag(name = "Pagamentos", description = "API para consumo e gestão de dados de pagamentos do SEFAZ")
 public class SwaggerPagamentoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerPagamentoController.class.getName());
     private final ConsumoApiService<PagamentoDTO> consumoApiService;
-
     public SwaggerPagamentoController(
             @Qualifier("pagamentoConsumoApiService") ConsumoApiService<PagamentoDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Consumir e listar pagamentos",
@@ -49,7 +42,6 @@ public class SwaggerPagamentoController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(summary = "Teste básico do endpoint", description = "Retorna informações básicas para teste.")
     public ResponseEntity<String> testeEndpoint() {
@@ -63,7 +55,6 @@ public class SwaggerPagamentoController {
             info.append("Data inicial filtro: ").append(dto.getNomeDataInicialPadraoFiltro()).append("\n");
             info.append("Data final filtro: ").append(dto.getNomeDataFinalPadraoFiltro()).append("\n");
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Pagamento: " + e.getMessage());

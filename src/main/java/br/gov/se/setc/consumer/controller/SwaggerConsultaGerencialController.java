@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.controller;
-
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -10,24 +9,19 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 @RestController
 @RequestMapping("/consulta-gerencial")
 @Tag(name = "Consulta Gerencial", description = "API para consumo de dados de consultas gerenciais e diárias do SEFAZ")
 public class SwaggerConsultaGerencialController {
-
     private static final Logger logger = Logger.getLogger(SwaggerConsultaGerencialController.class.getName());
     private final ConsumoApiService<ConsultaGerencialDTO> consumoApiService;
-
     public SwaggerConsultaGerencialController(
             @Qualifier("consultaGerencialConsumoApiService") ConsumoApiService<ConsultaGerencialDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Lista todas as consultas gerenciais (diárias)", 
@@ -46,20 +40,15 @@ public class SwaggerConsultaGerencialController {
     ) {
         try {
             logger.info("Iniciando consumo da API de Consulta Gerencial (Diárias)");
-            
             ConsultaGerencialDTO consumirPersistir = new ConsultaGerencialDTO();
-            
-            // Aplicar filtros se fornecidos
             if (cdUnidadeGestora != null) {
                 consumirPersistir.setCdUnidadeGestoraFiltro(cdUnidadeGestora);
                 logger.info("Filtro aplicado - Código Unidade Gestora: " + cdUnidadeGestora);
             }
-            
             if (dtAnoExercicioCTB != null) {
                 consumirPersistir.setDtAnoExercicioCTBFiltro(dtAnoExercicioCTB);
                 logger.info("Filtro aplicado - Ano Exercício CTB: " + dtAnoExercicioCTB);
             }
-            
             List<ConsultaGerencialDTO> result = consumoApiService.consumirPersistir(consumirPersistir);
             logger.info("Consumo concluído. Retornando " + (result != null ? result.size() : 0) + " registros");
             return result;
@@ -69,7 +58,6 @@ public class SwaggerConsultaGerencialController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste básico do endpoint", 
@@ -93,14 +81,12 @@ public class SwaggerConsultaGerencialController {
             info.append("Ano padrão: ").append(dto.getDtAnoPadrao()).append("\n");
             info.append("Filtros suportados: cdUnidadeGestora, dtAnoExercicioCTB\n");
             info.append("Exemplo de uso: /consulta-gerencial?cdUnidadeGestora=123456&dtAnoExercicioCTB=2025\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Consulta Gerencial: " + e.getMessage());
             return ResponseEntity.internalServerError().body("Erro: " + e.getMessage());
         }
     }
-
     @GetMapping("/info")
     @Operation(
         summary = "Informações detalhadas sobre a API", 
@@ -115,17 +101,14 @@ public class SwaggerConsultaGerencialController {
             logger.info("Solicitação de informações detalhadas da Consulta Gerencial");
             ConsultaGerencialDTO dto = new ConsultaGerencialDTO();
             StringBuilder info = new StringBuilder();
-            
             info.append("=== CONSULTA GERENCIAL (DIÁRIAS) - INFORMAÇÕES DETALHADAS ===\n\n");
             info.append("Descrição: Endpoint para consumo de dados de diárias da SEFAZ\n");
             info.append("URL da API: ").append(dto.getUrl()).append("\n");
             info.append("Tabela de destino: ").append(dto.getTabelaBanco()).append("\n");
             info.append("Schema: consumer_sefaz\n\n");
-            
             info.append("=== FILTROS DISPONÍVEIS ===\n");
             info.append("- cdUnidadeGestora: Código da Unidade Gestora (obrigatório na API)\n");
             info.append("- dtAnoExercicioCTB: Ano do exercício contábil (obrigatório na API)\n\n");
-            
             info.append("=== CAMPOS PRINCIPAIS ===\n");
             info.append("- sqSolicitacaoDiaria: Chave primária da solicitação\n");
             info.append("- nmRazaoSocialPessoa: Nome da pessoa beneficiária\n");
@@ -134,14 +117,12 @@ public class SwaggerConsultaGerencialController {
             info.append("- dtRetornoSolicitacaoDiaria: Data de retorno\n");
             info.append("- destinoViagemMunicipioSolicitacaoDiaria: Destino da viagem\n");
             info.append("- nmCargo: Cargo do beneficiário\n\n");
-            
             info.append("=== EXEMPLOS DE USO ===\n");
             info.append("GET /consulta-gerencial\n");
             info.append("GET /consulta-gerencial?cdUnidadeGestora=123456\n");
             info.append("GET /consulta-gerencial?cdUnidadeGestora=123456&dtAnoExercicioCTB=2025\n");
             info.append("GET /consulta-gerencial/test\n");
             info.append("GET /consulta-gerencial/info\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro ao obter informações detalhadas: " + e.getMessage());

@@ -1,15 +1,12 @@
 package br.gov.se.setc.consumer.mapper;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
-
 /**
  * Conversor de tipos padronizado para eliminar inconsistências entre DTOs e entidades.
  * 
@@ -24,14 +21,10 @@ import java.time.format.DateTimeParseException;
  */
 @Component
 public class TypeConverter {
-    
     private static final Logger logger = LoggerFactory.getLogger(TypeConverter.class);
-    
-    // Formatadores de data padrão das APIs SEFAZ
     private static final DateTimeFormatter ISO_DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final DateTimeFormatter ISO_DATETIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
     private static final DateTimeFormatter ALTERNATIVE_DATETIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-    
     /**
      * Converte String para BigDecimal de forma segura.
      * Trata valores nulos, vazios e formatos inválidos.
@@ -43,9 +36,7 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return BigDecimal.ZERO;
         }
-        
         try {
-            // Remover espaços e substituir vírgula por ponto se necessário
             String cleanValue = value.trim().replace(",", ".");
             return new BigDecimal(cleanValue);
         } catch (NumberFormatException e) {
@@ -53,7 +44,6 @@ public class TypeConverter {
             return BigDecimal.ZERO;
         }
     }
-    
     /**
      * Converte String para BigDecimal, retornando null se inválido.
      * Útil quando null é um valor válido.
@@ -65,7 +55,6 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return null;
         }
-        
         try {
             String cleanValue = value.trim().replace(",", ".");
             return new BigDecimal(cleanValue);
@@ -74,7 +63,6 @@ public class TypeConverter {
             return null;
         }
     }
-    
     /**
      * Converte String para LocalDate de forma segura.
      * Suporta formato ISO (yyyy-MM-dd).
@@ -86,7 +74,6 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return null;
         }
-        
         try {
             String cleanValue = value.trim();
             return LocalDate.parse(cleanValue, ISO_DATE_FORMATTER);
@@ -95,7 +82,6 @@ public class TypeConverter {
             return null;
         }
     }
-    
     /**
      * Converte String para LocalDateTime de forma segura.
      * Suporta múltiplos formatos comuns.
@@ -107,14 +93,10 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return null;
         }
-        
         String cleanValue = value.trim();
-        
-        // Tentar formato ISO com T
         try {
             return LocalDateTime.parse(cleanValue, ISO_DATETIME_FORMATTER);
         } catch (DateTimeParseException e1) {
-            // Tentar formato alternativo com espaço
             try {
                 return LocalDateTime.parse(cleanValue, ALTERNATIVE_DATETIME_FORMATTER);
             } catch (DateTimeParseException e2) {
@@ -124,7 +106,6 @@ public class TypeConverter {
             }
         }
     }
-    
     /**
      * Converte String para Integer de forma segura.
      * 
@@ -135,7 +116,6 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return null;
         }
-        
         try {
             return Integer.valueOf(value.trim());
         } catch (NumberFormatException e) {
@@ -143,7 +123,6 @@ public class TypeConverter {
             return null;
         }
     }
-    
     /**
      * Converte String para Long de forma segura.
      * 
@@ -154,7 +133,6 @@ public class TypeConverter {
         if (value == null || value.trim().isEmpty()) {
             return null;
         }
-        
         try {
             return Long.valueOf(value.trim());
         } catch (NumberFormatException e) {
@@ -162,7 +140,6 @@ public class TypeConverter {
             return null;
         }
     }
-    
     /**
      * Converte Object para String de forma segura.
      * Útil para campos que podem vir como diferentes tipos da API.
@@ -176,7 +153,6 @@ public class TypeConverter {
         }
         return value.toString().trim();
     }
-    
     /**
      * Converte Integer para BigDecimal de forma segura.
      * Útil quando a API retorna números inteiros mas o banco espera decimal.
@@ -190,7 +166,6 @@ public class TypeConverter {
         }
         return new BigDecimal(value);
     }
-    
     /**
      * Converte Long para BigDecimal de forma segura.
      * 

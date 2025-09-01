@@ -1,35 +1,28 @@
 package br.gov.se.setc.consumer.controller;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-
 @RestController
 @RequestMapping("/contrato-empenho")
 @Tag(name = "Contrato Empenho", description = "API para consumo e gestão de dados de contrato-empenho do SEFAZ")
 public class SwaggerContratoEmpenhoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerContratoEmpenhoController.class.getName());
     private final ConsumoApiService<ContratoEmpenhoDTO> consumoApiService;
-
     public SwaggerContratoEmpenhoController(
             @Qualifier("contratoEmpenhoConsumoApiService") ConsumoApiService<ContratoEmpenhoDTO> consumoApiService
     ) {
         this.consumoApiService = consumoApiService;
     }
-    
     @GetMapping
     @Operation(
         summary = "Lista todos os contratos-empenho", 
@@ -55,7 +48,6 @@ public class SwaggerContratoEmpenhoController {
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(
         summary = "Teste básico do endpoint", 
@@ -81,7 +73,6 @@ public class SwaggerContratoEmpenhoController {
             info.append("Descrição: Endpoint para consumo de dados de Contrato-Empenho da SEFAZ\n");
             info.append("Campos principais: cdSolicitacaoCompra, cdContrato, cdLicitacao, valores monetários, datas de vigência\n");
             info.append("=== FIM TESTE ===\n");
-            
             return ResponseEntity.ok(info.toString());
         } catch (Exception e) {
             logger.severe("Erro no teste do endpoint de Contrato-Empenho: " + e.getMessage());

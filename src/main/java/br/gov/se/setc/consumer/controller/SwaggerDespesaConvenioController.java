@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.controller;
-
 import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -15,21 +14,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 @RestController
 @RequestMapping("/convenio/despesa")
 @Tag(name = "Despesa Convênio", description = "API para consumo e gestão de dados de despesas de convênios do SEFAZ")
 public class SwaggerDespesaConvenioController {
-
     private static final Logger logger = Logger.getLogger(SwaggerDespesaConvenioController.class.getName());
-
     @Autowired
     @Qualifier("despesaConvenioConsumoApiService")
     private ConsumoApiService<DespesaConvenioDTO> consumoApiService;
-
     @GetMapping
     @Operation(
         summary = "Consumir dados de Despesa de Convênios",
@@ -54,19 +48,16 @@ public class SwaggerDespesaConvenioController {
         try {
             logger.info("Iniciando consumo da API de Despesa de Convênios");
             DespesaConvenioDTO dto = new DespesaConvenioDTO();
-
             if (cdUnidadeGestora != null) dto.setCdUnidadeGestoraFiltro(cdUnidadeGestora);
             if (cdGestao != null) dto.setCdGestaoFiltro(cdGestao);
             if (nuAnoLancamento != null) dto.setNuAnoLancamentoFiltro(nuAnoLancamento);
             if (nuMesLancamento != null) dto.setNuMesLancamentoFiltro(nuMesLancamento);
-
             return consumoApiService.consumirPersistir(dto);
         } catch (Exception e) {
             logger.severe("Erro ao consumir API de Despesa de Convênios: " + e.getMessage());
             throw e;
         }
     }
-
     @GetMapping("/test")
     @Operation(summary = "Teste básico do endpoint", description = "Retorna informações básicas para teste do endpoint de Despesa de Convênios.")
     public ResponseEntity<String> testeEndpoint() {
@@ -85,4 +76,3 @@ public class SwaggerDespesaConvenioController {
         }
     }
 }
-

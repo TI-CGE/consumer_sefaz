@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.controller;
-
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -8,20 +7,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import java.util.List;
 import java.util.logging.Logger;
-
 @RestController
 @RequestMapping("/api/ordem-fornecimento")
 @Tag(name = "Ordem de Fornecimento", description = "API para consumo e gestão de dados de ordem de fornecimento do SEFAZ")
 public class SwaggerOrdemFornecimentoController {
-
     private static final Logger logger = Logger.getLogger(SwaggerOrdemFornecimentoController.class.getName());
-
     @Autowired
     private ConsumoApiService<OrdemFornecimentoDTO> consumoApiService;
-    
     @GetMapping
     @Operation(
         summary = "Consumir e listar ordens de fornecimento",

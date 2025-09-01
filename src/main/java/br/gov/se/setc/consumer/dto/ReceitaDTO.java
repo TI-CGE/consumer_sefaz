@@ -1,100 +1,69 @@
 package br.gov.se.setc.consumer.dto;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
 import java.util.Map;
-
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class ReceitaDTO extends EndpontSefaz {
     @JsonProperty("dtFimVigenciaConvenio")
     private LocalDate dtFimVigenciaConvenio;
-
     @JsonProperty("cdConvenio")
     private Integer cdConvenio;
-
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
-
     @JsonProperty("nmConcedente")
     private String nmConcedente;
-
     @JsonProperty("inConvenioFichaIngresso")
     private String inConvenioFichaIngresso;
-
     @JsonProperty("dtPublicacaoConvenio")
     private LocalDate dtPublicacaoConvenio;
-
     @JsonProperty("dsObjetoConvenio")
     private String dsObjetoConvenio;
-
     @JsonProperty("vlConcedenteConvenio")
     private BigDecimal vlConcedenteConvenio;
-
     @JsonProperty("cdGestao")
     private String cdGestao;
-
     @JsonProperty("txIdentOriginalConvenio")
     private String txIdentOriginalConvenio;
-
     @JsonProperty("cdConcedentePessoa")
     private Integer cdConcedentePessoa;
-
     @JsonProperty("cdEfetivacaoUsuario")
     private String cdEfetivacaoUsuario;
-
     @JsonProperty("txObservacaoConvenio")
     private String txObservacaoConvenio;
-
     @JsonProperty("cdBeneficiarioPessoa")
     private Integer cdBeneficiarioPessoa;
-
     @JsonProperty("cdConvenioSituacao")
     private String cdConvenioSituacao;
-
     @JsonProperty("cdAreaAtuacao")
     private Integer cdAreaAtuacao;
-
     @JsonProperty("dtLancamentoConvenio")
     private LocalDate dtLancamentoConvenio;
-
     @JsonProperty("dtPrazoPrestContasConvenio")
     private LocalDate dtPrazoPrestContasConvenio;
-
     @JsonProperty("nmBeneficiario")
     private String nmBeneficiario;
-
     @JsonProperty("dtCelebracaoConvenio")
     private LocalDate dtCelebracaoConvenio;
-
     @JsonProperty("dtInicioVigenciaConvenio")
     private LocalDate dtInicioVigenciaConvenio;
-
     @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
-
     @JsonProperty("nmConvenio")
     private String nmConvenio;
-
     @JsonProperty("inLocalPublicacaoConvenio")
     private String inLocalPublicacaoConvenio;
-
     @JsonProperty("vlContrapartidaConvenio")
     private BigDecimal vlContrapartidaConvenio;
-
     @JsonProperty("inConvenioEmpenhoIngresso")
     private String inConvenioEmpenhoIngresso;
-
     @JsonProperty("sqUnidadeGestoraGestao")
     private Integer sqUnidadeGestoraGestao;
-
     public ReceitaDTO() {
         inicializarDadosEndpoint();
     }
-
     public ReceitaDTO(LocalDate dtFimVigenciaConvenio, Integer cdConvenio, String cdUnidadeGestora, 
                      String nmConcedente, String inConvenioFichaIngresso, LocalDate dtPublicacaoConvenio,
                      String dsObjetoConvenio, BigDecimal vlConcedenteConvenio, String cdGestao,
@@ -131,12 +100,10 @@ public class ReceitaDTO extends EndpontSefaz {
         this.vlContrapartidaConvenio = vlContrapartidaConvenio;
         this.inConvenioEmpenhoIngresso = inConvenioEmpenhoIngresso;
         this.sqUnidadeGestoraGestao = sqUnidadeGestoraGestao;
-        
         inicializarDadosEndpoint();
         mapearParametros();
         mapearCamposResposta();
     }
-
     @Override
     protected void inicializarDadosEndpoint() {
         tabelaBanco = "consumer_sefaz.receita";
@@ -145,7 +112,6 @@ public class ReceitaDTO extends EndpontSefaz {
         nomeDataFinalPadraoFiltro = "dt_celebracao_convenio"; // Usar mesmo campo para evitar lógica incorreta
         dtAnoPadrao = null; // Não há campo de ano específico, usaremos nuAnoCelebracao nos parâmetros
     }
-
     @Override
     public void mapearCamposResposta() {
         camposResposta.put("dt_fim_vigencia_convenio", dtFimVigenciaConvenio);
@@ -176,14 +142,12 @@ public class ReceitaDTO extends EndpontSefaz {
         camposResposta.put("in_convenio_empenho_ingresso", inConvenioEmpenhoIngresso);
         camposResposta.put("sq_unidade_gestora_gestao", sqUnidadeGestoraGestao);
     }
-
     @Override
     protected void mapearParametros() {
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
         camposParametros.put("cdConvenio", cdConvenio);
         camposParametros.put("cdConvenioSituacao", cdConvenioSituacao);
     }
-
     @Override
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
@@ -193,7 +157,6 @@ public class ReceitaDTO extends EndpontSefaz {
         camposParametros.put("inVigente", "S");
         return camposParametros;
     }
-
     @Override
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
@@ -201,220 +164,165 @@ public class ReceitaDTO extends EndpontSefaz {
         camposParametros.put("nuAnoCelebracao", ano);
         return camposParametros;
     }
-
-    // Getters and Setters
     public LocalDate getDtFimVigenciaConvenio() {
         return dtFimVigenciaConvenio;
     }
-
     public void setDtFimVigenciaConvenio(LocalDate dtFimVigenciaConvenio) {
         this.dtFimVigenciaConvenio = dtFimVigenciaConvenio;
     }
-
     public Integer getCdConvenio() {
         return cdConvenio;
     }
-
     public void setCdConvenio(Integer cdConvenio) {
         this.cdConvenio = cdConvenio;
     }
-
     public String getCdUnidadeGestora() {
         return cdUnidadeGestora;
     }
-
     public void setCdUnidadeGestora(String cdUnidadeGestora) {
         this.cdUnidadeGestora = cdUnidadeGestora;
     }
-
     public String getNmConcedente() {
         return nmConcedente;
     }
-
     public void setNmConcedente(String nmConcedente) {
         this.nmConcedente = nmConcedente;
     }
-
     public String getInConvenioFichaIngresso() {
         return inConvenioFichaIngresso;
     }
-
     public void setInConvenioFichaIngresso(String inConvenioFichaIngresso) {
         this.inConvenioFichaIngresso = inConvenioFichaIngresso;
     }
-
     public LocalDate getDtPublicacaoConvenio() {
         return dtPublicacaoConvenio;
     }
-
     public void setDtPublicacaoConvenio(LocalDate dtPublicacaoConvenio) {
         this.dtPublicacaoConvenio = dtPublicacaoConvenio;
     }
-
     public String getDsObjetoConvenio() {
         return dsObjetoConvenio;
     }
-
     public void setDsObjetoConvenio(String dsObjetoConvenio) {
         this.dsObjetoConvenio = dsObjetoConvenio;
     }
-
     public BigDecimal getVlConcedenteConvenio() {
         return vlConcedenteConvenio;
     }
-
     public void setVlConcedenteConvenio(BigDecimal vlConcedenteConvenio) {
         this.vlConcedenteConvenio = vlConcedenteConvenio;
     }
-
     public String getCdGestao() {
         return cdGestao;
     }
-
     public void setCdGestao(String cdGestao) {
         this.cdGestao = cdGestao;
     }
-
     public String getTxIdentOriginalConvenio() {
         return txIdentOriginalConvenio;
     }
-
     public void setTxIdentOriginalConvenio(String txIdentOriginalConvenio) {
         this.txIdentOriginalConvenio = txIdentOriginalConvenio;
     }
-
     public Integer getCdConcedentePessoa() {
         return cdConcedentePessoa;
     }
-
     public void setCdConcedentePessoa(Integer cdConcedentePessoa) {
         this.cdConcedentePessoa = cdConcedentePessoa;
     }
-
     public String getCdEfetivacaoUsuario() {
         return cdEfetivacaoUsuario;
     }
-
     public void setCdEfetivacaoUsuario(String cdEfetivacaoUsuario) {
         this.cdEfetivacaoUsuario = cdEfetivacaoUsuario;
     }
-
     public String getTxObservacaoConvenio() {
         return txObservacaoConvenio;
     }
-
     public void setTxObservacaoConvenio(String txObservacaoConvenio) {
         this.txObservacaoConvenio = txObservacaoConvenio;
     }
-
     public Integer getCdBeneficiarioPessoa() {
         return cdBeneficiarioPessoa;
     }
-
     public void setCdBeneficiarioPessoa(Integer cdBeneficiarioPessoa) {
         this.cdBeneficiarioPessoa = cdBeneficiarioPessoa;
     }
-
     public String getCdConvenioSituacao() {
         return cdConvenioSituacao;
     }
-
     public void setCdConvenioSituacao(String cdConvenioSituacao) {
         this.cdConvenioSituacao = cdConvenioSituacao;
     }
-
     public Integer getCdAreaAtuacao() {
         return cdAreaAtuacao;
     }
-
     public void setCdAreaAtuacao(Integer cdAreaAtuacao) {
         this.cdAreaAtuacao = cdAreaAtuacao;
     }
-
     public LocalDate getDtLancamentoConvenio() {
         return dtLancamentoConvenio;
     }
-
     public void setDtLancamentoConvenio(LocalDate dtLancamentoConvenio) {
         this.dtLancamentoConvenio = dtLancamentoConvenio;
     }
-
     public LocalDate getDtPrazoPrestContasConvenio() {
         return dtPrazoPrestContasConvenio;
     }
-
     public void setDtPrazoPrestContasConvenio(LocalDate dtPrazoPrestContasConvenio) {
         this.dtPrazoPrestContasConvenio = dtPrazoPrestContasConvenio;
     }
-
     public String getNmBeneficiario() {
         return nmBeneficiario;
     }
-
     public void setNmBeneficiario(String nmBeneficiario) {
         this.nmBeneficiario = nmBeneficiario;
     }
-
     public LocalDate getDtCelebracaoConvenio() {
         return dtCelebracaoConvenio;
     }
-
     public void setDtCelebracaoConvenio(LocalDate dtCelebracaoConvenio) {
         this.dtCelebracaoConvenio = dtCelebracaoConvenio;
     }
-
     public LocalDate getDtInicioVigenciaConvenio() {
         return dtInicioVigenciaConvenio;
     }
-
     public void setDtInicioVigenciaConvenio(LocalDate dtInicioVigenciaConvenio) {
         this.dtInicioVigenciaConvenio = dtInicioVigenciaConvenio;
     }
-
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;
     }
-
     public void setSgUnidadeGestora(String sgUnidadeGestora) {
         this.sgUnidadeGestora = sgUnidadeGestora;
     }
-
     public String getNmConvenio() {
         return nmConvenio;
     }
-
     public void setNmConvenio(String nmConvenio) {
         this.nmConvenio = nmConvenio;
     }
-
     public String getInLocalPublicacaoConvenio() {
         return inLocalPublicacaoConvenio;
     }
-
     public void setInLocalPublicacaoConvenio(String inLocalPublicacaoConvenio) {
         this.inLocalPublicacaoConvenio = inLocalPublicacaoConvenio;
     }
-
     public BigDecimal getVlContrapartidaConvenio() {
         return vlContrapartidaConvenio;
     }
-
     public void setVlContrapartidaConvenio(BigDecimal vlContrapartidaConvenio) {
         this.vlContrapartidaConvenio = vlContrapartidaConvenio;
     }
-
     public String getInConvenioEmpenhoIngresso() {
         return inConvenioEmpenhoIngresso;
     }
-
     public void setInConvenioEmpenhoIngresso(String inConvenioEmpenhoIngresso) {
         this.inConvenioEmpenhoIngresso = inConvenioEmpenhoIngresso;
     }
-
     public Integer getSqUnidadeGestoraGestao() {
         return sqUnidadeGestoraGestao;
     }
-
     public void setSqUnidadeGestoraGestao(Integer sqUnidadeGestoraGestao) {
         this.sqUnidadeGestoraGestao = sqUnidadeGestoraGestao;
     }

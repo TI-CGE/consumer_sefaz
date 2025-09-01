@@ -1,54 +1,40 @@
 package br.gov.se.setc.tokenSefaz.service;
-
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.MDCUtil;
-
 @Service
 public class AcessoTokenService {
-
     private final RestTemplate restTemplate;
-    
-    // Cache de token
     private String cachedToken;
     private long tokenExpirationTime;
     private static final long TOKEN_VALIDITY_DURATION = 3600000; // 1 hora em millisegundos
     private static final long TOKEN_REFRESH_BUFFER = 300000; // 5 minutos de buffer antes da expiração
-
     @Autowired
     private UnifiedLogger unifiedLogger;
-
     @Autowired
     private UserFriendlyLogger userFriendlyLogger;
-
     @Autowired
     public AcessoTokenService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
         this.cachedToken = null;
         this.tokenExpirationTime = 0;
     }
-
     @LogOperation(operation = "GET_TOKEN", component = "SECURITY", logParameters = false, logResult = false, slowOperationThresholdMs = 5000)
     public String getToken() {
-        // Verificar se token em cache ainda é válido
         if (isTokenValid()) {
             unifiedLogger.logOperationStart("SECURITY", "TOKEN_CACHE_HIT", "CACHED_TOKEN", "REUSING_VALID_TOKEN");
             userFriendlyLogger.logInfo("Reutilizando token válido em cache");
             return cachedToken;
         }
-
-        // Token expirado ou não existe, solicitar novo
         return requestNewToken();
     }
-
     /**
      * Verifica se o token em cache ainda é válido
      */
@@ -56,14 +42,10 @@ public class AcessoTokenService {
         if (cachedToken == null) {
             return false;
         }
-        
         long currentTime = System.currentTimeMillis();
         long timeUntilExpiration = tokenExpirationTime - currentTime;
-        
-        // Considera válido se ainda tem mais que o buffer de tempo antes da expiração
         return timeUntilExpiration > TOKEN_REFRESH_BUFFER;
     }
-
     /**
      * Solicita um novo token da API com retry automático
      */
@@ -72,95 +54,62 @@ public class AcessoTokenService {
         String clientSecret = "44019d983f556130ee774f1a36e5bcc2";
         String grantType = "client_credentials";
         String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
-
-        // Configurar contexto de segurança
         MDCUtil.setComponent("SECURITY");
         MDCUtil.setOperation("GET_TOKEN");
-
-        // Log simples para usuário
         userFriendlyLogger.logAuthenticationStart();
-
-        // Log técnico para arquivo
         unifiedLogger.logOperationStart("SECURITY", "GET_NEW_TOKEN", "CLIENT_ID", clientId, "URL", tokenUrl);
-
-        // Implementar retry com backoff exponencial
         int maxRetries = 3;
         long baseDelay = 1000; // 1 segundo
-
         for (int attempt = 1; attempt <= maxRetries; attempt++) {
             long startTime = System.currentTimeMillis();
-
             try {
                 String body = "client_id=" + clientId + "&client_secret=" + clientSecret + "&grant_type=" + grantType;
-
                 HttpHeaders headers = new HttpHeaders();
                 headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
                 headers.set("User-Agent", "SEFAZ-Consumer/1.0");
                 headers.set("Connection", "close"); // Evitar problemas de keep-alive
-
                 HttpEntity<String> entity = new HttpEntity<>(body, headers);
-
                 unifiedLogger.logOperationStart("SECURITY", "TOKEN_REQUEST_ATTEMPT",
                     "ATTEMPT", String.valueOf(attempt), "MAX_RETRIES", String.valueOf(maxRetries));
-
                 ResponseEntity<String> response = restTemplate.exchange(
                         tokenUrl,
                         HttpMethod.POST,
                         entity,
                         String.class
                 );
-
                 long responseTime = System.currentTimeMillis() - startTime;
-
                 if (response.getStatusCode() == HttpStatus.OK) {
                     String token = extractToken(response.getBody());
-
-                    // Armazenar token em cache
                     cacheToken(token);
-
-                    // Log simples para usuário
                     userFriendlyLogger.logAuthenticationSuccess();
-
-                    // Log técnico para arquivo
                     unifiedLogger.logAuthentication(clientId, tokenUrl, true, responseTime, MDCUtil.getCorrelationId());
-
                     return token;
                 } else {
                     String errorMsg = "HTTP " + response.getStatusCode() + " na tentativa " + attempt;
                     RuntimeException httpError = new RuntimeException(errorMsg);
                     unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_FAILED", responseTime, httpError,
                         "ATTEMPT", String.valueOf(attempt), "STATUS", response.getStatusCode().toString());
-
                     if (attempt == maxRetries) {
                         userFriendlyLogger.logAuthenticationError();
                         unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
                         throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + response.getStatusCode());
                     }
                 }
-
             } catch (Exception e) {
                 long responseTime = System.currentTimeMillis() - startTime;
-
                 String errorMsg = "Erro na tentativa " + attempt + ": " + e.getMessage();
                 unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_EXCEPTION", responseTime, e,
                     "ATTEMPT", String.valueOf(attempt), "ERROR", e.getClass().getSimpleName());
-
                 if (attempt == maxRetries) {
-                    // Log simples para usuário
                     userFriendlyLogger.logAuthenticationError();
-
-                    // Log técnico para arquivo
                     unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
                     throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + e.getMessage(), e);
                 }
             }
-
-            // Aguardar antes da próxima tentativa (backoff exponencial)
             if (attempt < maxRetries) {
                 long delay = baseDelay * (long) Math.pow(2, attempt - 1);
                 unifiedLogger.logOperationStart("SECURITY", "TOKEN_RETRY_DELAY",
                     "DELAY_MS", String.valueOf(delay), "NEXT_ATTEMPT", String.valueOf(attempt + 1));
-
                 try {
                     Thread.sleep(delay);
                 } catch (InterruptedException ie) {
@@ -169,22 +118,17 @@ public class AcessoTokenService {
                 }
             }
         }
-
-        // Este ponto nunca deve ser alcançado
         throw new RuntimeException("Falha inesperada ao obter token");
     }
-
     /**
      * Armazena o token em cache com timestamp de expiração
      */
     private void cacheToken(String token) {
         this.cachedToken = token;
         this.tokenExpirationTime = System.currentTimeMillis() + TOKEN_VALIDITY_DURATION;
-        
         unifiedLogger.logOperationSuccess("SECURITY", "TOKEN_CACHED", 
             0, 1, "EXPIRATION_TIME", String.valueOf(tokenExpirationTime));
     }
-
     private String extractToken(String responseBody) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
@@ -194,22 +138,17 @@ public class AcessoTokenService {
             throw new RuntimeException("Erro ao processar resposta do token", e);
         }
     }
-
     /**
      * Testa a conectividade com o servidor de autenticação
      */
     public boolean testConnectivity() {
         String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
         long startTime = System.currentTimeMillis();
-
         try {
             unifiedLogger.logOperationStart("SECURITY", "CONNECTIVITY_TEST", "URL", tokenUrl);
-
-            // Fazer uma requisição simples para testar conectividade
             HttpHeaders headers = new HttpHeaders();
             headers.set("User-Agent", "SEFAZ-Consumer/1.0");
             HttpEntity<String> entity = new HttpEntity<>(headers);
-
             ResponseEntity<String> response = restTemplate.exchange(
                 tokenUrl,
                 HttpMethod.POST,
@@ -217,12 +156,9 @@ public class AcessoTokenService {
                 String.class
             );
             long responseTime = System.currentTimeMillis() - startTime;
-
             unifiedLogger.logOperationSuccess("SECURITY", "CONNECTIVITY_TEST",
                 responseTime, 1, "STATUS", response.getStatusCode().toString());
-
             return true;
-
         } catch (Exception e) {
             long responseTime = System.currentTimeMillis() - startTime;
             unifiedLogger.logOperationError("SECURITY", "CONNECTIVITY_TEST", responseTime, e,
@@ -230,21 +166,15 @@ public class AcessoTokenService {
             return false;
         }
     }
-
     /**
      * Força a renovação do token (limpa cache e solicita novo)
      */
     public String forceTokenRenewal() {
         unifiedLogger.logOperationStart("SECURITY", "FORCE_TOKEN_RENEWAL", "REASON", "MANUAL_REQUEST");
-
-        // Limpar cache
         this.cachedToken = null;
         this.tokenExpirationTime = 0;
-
-        // Solicitar novo token
         return requestNewToken();
     }
-
     /**
      * Retorna informações sobre o status do token
      */
@@ -252,10 +182,8 @@ public class AcessoTokenService {
         if (cachedToken == null) {
             return "Token não existe em cache";
         }
-
         long currentTime = System.currentTimeMillis();
         long timeUntilExpiration = tokenExpirationTime - currentTime;
-
         if (timeUntilExpiration <= 0) {
             return "Token expirado há " + Math.abs(timeUntilExpiration / 1000) + " segundos";
         } else if (timeUntilExpiration <= TOKEN_REFRESH_BUFFER) {

@@ -1,5 +1,4 @@
 package br.gov.se.setc.controller;
-
 import br.gov.se.setc.scheduler.ContractConsumptionScheduler;
 import br.gov.se.setc.consumer.service.PrevisaoRealizacaoReceitaMultiMesService;
 import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
@@ -13,11 +12,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
-
 /**
  * Controller para gerenciamento e monitoramento do scheduler
  */
@@ -25,15 +22,11 @@ import java.util.List;
 @RequestMapping("/scheduler")
 @Tag(name = "Scheduler", description = "API para gerenciamento e controle do scheduler de consumo automático de dados")
 public class SchedulerController {
-
     private static final Logger logger = LoggerFactory.getLogger(SchedulerController.class);
-
     @Autowired
     private ContractConsumptionScheduler scheduler;
-
     @Autowired
     private PrevisaoRealizacaoReceitaMultiMesService previsaoRealizacaoReceitaMultiMesService;
-
     /**
      * Executa o consumo de contratos manualmente
      */
@@ -44,30 +37,23 @@ public class SchedulerController {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
         MDCUtil.setComponent("SCHEDULER_CONTROLLER");
         MDCUtil.setOperation("MANUAL_EXECUTION");
-
         logger.info("Solicitação de execução manual recebida - Correlation ID: {}", correlationId);
-
         try {
             Map<String, Object> result = scheduler.executeManually();
             result.put("correlationId", correlationId);
-
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual", e);
-
             Map<String, Object> errorResult = new HashMap<>();
             errorResult.put("status", "ERROR");
             errorResult.put("message", "Erro durante execução manual: " + e.getMessage());
             errorResult.put("correlationId", correlationId);
             errorResult.put("error", e.getClass().getSimpleName());
-
             return ResponseEntity.internalServerError().body(errorResult);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Verifica o status do scheduler
      */
@@ -77,21 +63,16 @@ public class SchedulerController {
         try {
             Map<String, Object> status = scheduler.getSchedulerStatus();
             status.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.ok(status);
-
         } catch (Exception e) {
             logger.error("Erro ao obter status do scheduler", e);
-
             Map<String, Object> errorStatus = new HashMap<>();
             errorStatus.put("status", "ERROR");
             errorStatus.put("message", "Erro ao obter status: " + e.getMessage());
             errorStatus.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorStatus);
         }
     }
-
     /**
      * Informações sobre configuração do scheduler
      */
@@ -99,7 +80,6 @@ public class SchedulerController {
     @Operation(summary = "Informações do scheduler", description = "Retorna informações detalhadas sobre a configuração do scheduler")
     public ResponseEntity<Map<String, Object>> getSchedulerInfo() {
         Map<String, Object> info = new HashMap<>();
-
         info.put("description", "Scheduler para consumo automático de contratos da SEFAZ");
         info.put("testExecution", "DESABILITADO - Sem execução automática no startup");
         info.put("productionSchedule", "Diariamente às 2:45 AM (se habilitado)");
@@ -135,10 +115,8 @@ public class SchedulerController {
                 "errors", "./logs/errors/errors.log"
             )
         ));
-
         return ResponseEntity.ok(info);
     }
-
     /**
      * Executa manualmente apenas o processamento de Pagamento
      */
@@ -147,29 +125,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_PAGAMENTO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executePagamentoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Pagamento solicitada via endpoint");
             Map<String, Object> result = scheduler.executePagamentoManually();
-
             logger.info("Execução manual de Pagamento concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Pagamento via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Pagamento: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Liquidação
      */
@@ -178,29 +150,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_LIQUIDACAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeLiquidacaoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Liquidação solicitada via endpoint");
             Map<String, Object> result = scheduler.executeLiquidacaoManually();
-
             logger.info("Execução manual de Liquidação concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Liquidação via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Liquidação: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Ordem de Fornecimento
      */
@@ -209,29 +175,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_ORDEM_FORNECIMENTO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeOrdemFornecimentoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Ordem de Fornecimento solicitada via endpoint");
             Map<String, Object> result = scheduler.executeOrdemFornecimentoManually();
-
             logger.info("Execução manual de Ordem de Fornecimento concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Ordem de Fornecimento via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Ordem de Fornecimento: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Dados Orçamentários
      */
@@ -240,29 +200,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_DADOS_ORCAMENTARIOS_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeDadosOrcamentariosOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Dados Orçamentários solicitada via endpoint");
             Map<String, Object> result = scheduler.executeDadosOrcamentariosManually();
-
             logger.info("Execução manual de Dados Orçamentários concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Dados Orçamentários via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Dados Orçamentários: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Empenho
      */
@@ -271,29 +225,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_EMPENHO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeEmpenhoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Empenho solicitada via endpoint");
             Map<String, Object> result = scheduler.executeEmpenhoManually();
-
             logger.info("Execução manual de Empenho concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Empenho via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Empenho: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Totalizadores de Execução
      */
@@ -302,14 +250,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_TOTALIZADORES_EXECUCAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeTotalizadoresExecucaoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Totalizadores de Execução solicitada via endpoint");
             Map<String, Object> result = scheduler.executeTotalizadoresExecucaoManually();
-
             logger.info("Execução manual de Totalizadores de Execução concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Totalizadores de Execução", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -321,7 +266,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Consulta Gerencial
      */
@@ -330,14 +274,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_CONSULTA_GERENCIAL_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeConsultaGerencialOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Consulta Gerencial solicitada via endpoint");
             Map<String, Object> result = scheduler.executeConsultaGerencialManually();
-
             logger.info("Execução manual de Consulta Gerencial concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Consulta Gerencial", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -349,7 +290,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Contratos
      */
@@ -358,14 +298,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_CONTRATO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeContratoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Contratos solicitada via endpoint");
             Map<String, Object> result = scheduler.executeContratoManually();
-
             logger.info("Execução manual de Contratos concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Contratos", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -377,7 +314,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Contrato-Empenho
      */
@@ -386,14 +322,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_CONTRATO_EMPENHO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeContratoEmpenhoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Contrato-Empenho solicitada via endpoint");
             Map<String, Object> result = scheduler.executeContratoEmpenhoManually();
-
             logger.info("Execução manual de Contrato-Empenho concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Contrato-Empenho", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -405,7 +338,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Endpoint de teste simples
      */
@@ -416,10 +348,8 @@ public class SchedulerController {
         response.put("status", "OK");
         response.put("message", "Scheduler controller is running");
         response.put("timestamp", System.currentTimeMillis());
-
         return ResponseEntity.ok(response);
     }
-
     /**
      * Executa manualmente apenas o processamento de Base Despesa Credor
      */
@@ -428,29 +358,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_BASE_DESPESA_CREDOR_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeBaseDespesaCredorOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Base Despesa Credor solicitada via endpoint");
             Map<String, Object> result = scheduler.executeBaseDespesaCredorManually();
-
             logger.info("Execução manual de Base Despesa Credor concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Base Despesa Credor via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Base Despesa Credor: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Base Despesa Licitação
      */
@@ -459,29 +383,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_BASE_DESPESA_LICITACAO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeBaseDespesaLicitacaoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Base Despesa Licitação solicitada via endpoint");
             Map<String, Object> result = scheduler.executeBaseDespesaLicitacaoManually();
-
             logger.info("Execução manual de Base Despesa Licitação concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execução manual de Base Despesa Licitação via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Base Despesa Licitação: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Despesa de Convenio
      */
@@ -490,29 +408,23 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_DESPESA_CONVENIO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeDespesaConvenioOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execucao manual de Despesa de Convenio solicitada via endpoint");
             Map<String, Object> result = scheduler.executeDespesaConvenioManually();
-
             logger.info("Execucao manual de Despesa de Convenio concluida com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro na execucao manual de Despesa de Convenio via endpoint", e);
-
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execucao manual de Despesa de Convenio: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
-
             return ResponseEntity.internalServerError().body(errorResponse);
         } finally {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Termo (Convênios)
      */
@@ -521,13 +433,10 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_TERMO_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeTermoOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("=== EXECUÇÃO MANUAL DE TERMO (CONVÊNIOS) INICIADA ===");
             logger.info("Correlation ID: {}", correlationId);
-
             Map<String, Object> result = scheduler.executeTermoManually();
-
             if ("SUCCESS".equals(result.get("status"))) {
                 logger.info("Execução manual de Termo concluída com sucesso");
                 return ResponseEntity.ok(result);
@@ -535,7 +444,6 @@ public class SchedulerController {
                 logger.error("Falha na execução manual de Termo: {}", result.get("message"));
                 return ResponseEntity.status(500).body(result);
             }
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Termo", e);
             Map<String, Object> errorResult = Map.of(
@@ -546,7 +454,6 @@ public class SchedulerController {
             return ResponseEntity.status(500).body(errorResult);
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Previsão Realização Receita (usando scheduler padrão)
      */
@@ -557,14 +464,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Previsão Realização Receita solicitada via endpoint");
             Map<String, Object> result = scheduler.executePrevisaoRealizacaoReceitaManually();
-
             logger.info("Execução manual de Previsão Realização Receita concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Previsão Realização Receita", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -576,7 +480,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente a busca de todos os 12 meses da Previsão Realização Receita
      */
@@ -587,20 +490,15 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_PREVISAO_REALIZACAO_RECEITA_MULTI_MES_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaMultiMes() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual multi-mês de Previsão Realização Receita solicitada via endpoint");
-
             String resultado = previsaoRealizacaoReceitaMultiMesService.executarManual();
-
             Map<String, Object> response = new HashMap<>();
             response.put("status", "SUCCESS");
             response.put("message", resultado);
             response.put("correlationId", correlationId);
-
             logger.info("Execução manual multi-mês de Previsão Realização Receita concluída");
             return ResponseEntity.ok(response);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual multi-mês de Previsão Realização Receita", e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -612,7 +510,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente a busca de um mês específico da Previsão Realização Receita
      */
@@ -623,9 +520,7 @@ public class SchedulerController {
     public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaMesEspecifico(
             @Parameter(description = "Número do mês (1-12)", example = "12")
             @PathVariable int mes) {
-
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             if (mes < 1 || mes > 12) {
                 Map<String, Object> errorResult = new HashMap<>();
@@ -634,11 +529,8 @@ public class SchedulerController {
                 errorResult.put("correlationId", correlationId);
                 return ResponseEntity.badRequest().body(errorResult);
             }
-
             logger.info("Execução manual para mês {} de Previsão Realização Receita solicitada via endpoint", mes);
-
             List<PrevisaoRealizacaoReceitaDTO> resultado = previsaoRealizacaoReceitaMultiMesService.consumirMesEspecifico(mes);
-
             Map<String, Object> response = new HashMap<>();
             response.put("status", "SUCCESS");
             response.put("message", "Execução do mês " + mes + " concluída! Registros processados: " +
@@ -646,10 +538,8 @@ public class SchedulerController {
             response.put("recordsProcessed", resultado != null ? resultado.size() : 0);
             response.put("month", mes);
             response.put("correlationId", correlationId);
-
             logger.info("Execução manual para mês {} de Previsão Realização Receita concluída", mes);
             return ResponseEntity.ok(response);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual para mês {} de Previsão Realização Receita", mes, e);
             Map<String, Object> errorResult = new HashMap<>();
@@ -662,7 +552,6 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
-
     /**
      * Executa manualmente apenas o processamento de Despesa Detalhada
      */
@@ -672,14 +561,11 @@ public class SchedulerController {
     @LogOperation(operation = "MANUAL_DESPESA_DETALHADA_EXECUTION", component = "SCHEDULER_CONTROLLER")
     public ResponseEntity<Map<String, Object>> executeDespesaDetalhadaOnly() {
         String correlationId = MDCUtil.generateAndSetCorrelationId();
-
         try {
             logger.info("Execução manual de Despesa Detalhada solicitada via endpoint");
             Map<String, Object> result = scheduler.executeDespesaDetalhadaManually();
-
             logger.info("Execução manual de Despesa Detalhada concluída com status: {}", result.get("status"));
             return ResponseEntity.ok(result);
-
         } catch (Exception e) {
             logger.error("Erro durante execução manual de Despesa Detalhada", e);
             Map<String, Object> errorResult = new HashMap<>();

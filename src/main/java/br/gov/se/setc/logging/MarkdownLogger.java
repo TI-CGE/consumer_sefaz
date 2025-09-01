@@ -1,31 +1,25 @@
 package br.gov.se.setc.logging;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Logger que produz saída em formato Markdown para melhor legibilidade
  * de operações complexas e relatórios de execução.
  */
 @Component
 public class MarkdownLogger {
-    
     private static final Logger logger = LoggerFactory.getLogger("MARKDOWN");
     private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm:ss");
-    
     /**
      * Inicia uma seção de log estruturado
      */
     public MarkdownSection startSection(String title) {
         return new MarkdownSection(title);
     }
-    
     /**
      * Classe para construir logs estruturados em markdown
      */
@@ -34,14 +28,12 @@ public class MarkdownLogger {
         private final String startTime;
         private final List<String> items;
         private long startTimestamp;
-        
         public MarkdownSection(String title) {
             this.title = title;
             this.startTime = getCurrentTime();
             this.startTimestamp = System.currentTimeMillis();
             this.items = new ArrayList<>();
         }
-        
         /**
          * Adiciona item de sucesso
          */
@@ -49,7 +41,6 @@ public class MarkdownLogger {
             items.add("- ✅ " + message);
             return this;
         }
-        
         /**
          * Adiciona item de sucesso com duração
          */
@@ -58,7 +49,6 @@ public class MarkdownLogger {
             items.add("- ✅ " + message + " (" + duration + ")");
             return this;
         }
-        
         /**
          * Adiciona item de progresso
          */
@@ -66,7 +56,6 @@ public class MarkdownLogger {
             items.add("- 🔄 " + message);
             return this;
         }
-        
         /**
          * Adiciona item de aviso
          */
@@ -74,7 +63,6 @@ public class MarkdownLogger {
             items.add("- ⚠️ " + message);
             return this;
         }
-        
         /**
          * Adiciona item de erro
          */
@@ -82,7 +70,6 @@ public class MarkdownLogger {
             items.add("- ❌ " + message);
             return this;
         }
-        
         /**
          * Adiciona item de informação
          */
@@ -90,7 +77,6 @@ public class MarkdownLogger {
             items.add("- 📋 " + message);
             return this;
         }
-        
         /**
          * Adiciona resumo final
          */
@@ -100,21 +86,17 @@ public class MarkdownLogger {
             items.add("- ⏱️ **" + message + " | Tempo total: " + duration + "**");
             return this;
         }
-        
         /**
          * Finaliza e registra a seção
          */
         public void log() {
             StringBuilder sb = new StringBuilder();
             sb.append("\n## ").append(startTime).append(" | ").append(title).append("\n");
-            
             for (String item : items) {
                 sb.append(item).append("\n");
             }
-            
             logger.info(sb.toString());
         }
-        
         /**
          * Finaliza e registra a seção com resumo automático
          */
@@ -124,7 +106,6 @@ public class MarkdownLogger {
             log();
         }
     }
-    
     /**
      * Log simples em formato markdown
      */
@@ -132,7 +113,6 @@ public class MarkdownLogger {
         String time = getCurrentTime();
         logger.info("\n## {} | {}\n- 📋 {}\n", time, title, message);
     }
-    
     /**
      * Log de erro em formato markdown
      */
@@ -140,11 +120,9 @@ public class MarkdownLogger {
         String time = getCurrentTime();
         logger.error("\n## {} | {}\n- ❌ {}\n- 🔍 Detalhes: {}\n", time, title, error, e.getMessage());
     }
-    
     private String getCurrentTime() {
         return LocalDateTime.now().format(TIME_FORMATTER);
     }
-    
     private String formatDuration(long milliseconds) {
         if (milliseconds < 1000) {
             return milliseconds + "ms";

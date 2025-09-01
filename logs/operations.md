@@ -1,20 +1,21924 @@
 
-## 07:40:39 | Inicialização da Aplicação
+## 08:01:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (5,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5500ms
+- 📋   • Tamanho da resposta: 354,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:01:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1358ms
+- 📋   • Tamanho da resposta: 752,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1308ms
+- 📋   • Tamanho da resposta: 654,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1070ms
+- 📋   • Tamanho da resposta: 607,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (777ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 777ms
+- 📋   • Tamanho da resposta: 557,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (699ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 699ms
+- 📋   • Tamanho da resposta: 535,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3763ms
+- 📋   • Tamanho da resposta: 5,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:01:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (8,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8609ms
+- 📋   • Tamanho da resposta: 7,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:01:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (7,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7329ms
+- 📋   • Tamanho da resposta: 6,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:01:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (9,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 9146ms
+- 📋   • Tamanho da resposta: 6,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:01:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (5,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5437ms
+- 📋   • Tamanho da resposta: 4,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:01:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2586ms
+- 📋   • Tamanho da resposta: 3,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3946ms
+- 📋   • Tamanho da resposta: 4,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3726ms
+- 📋   • Tamanho da resposta: 5,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2721ms
+- 📋   • Tamanho da resposta: 4,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:21 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 08:02:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3292ms
+- 📋   • Tamanho da resposta: 3,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4050ms
+- 📋   • Tamanho da resposta: 3,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (697ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 697ms
+- 📋   • Tamanho da resposta: 609,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2299ms
+- 📋   • Tamanho da resposta: 904,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1963ms
+- 📋   • Tamanho da resposta: 898,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1733ms
+- 📋   • Tamanho da resposta: 993,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (864ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 864ms
+- 📋   • Tamanho da resposta: 824,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (860ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 860ms
+- 📋   • Tamanho da resposta: 779,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 224,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (720ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 720ms
+- 📋   • Tamanho da resposta: 374,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (646ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 646ms
+- 📋   • Tamanho da resposta: 309,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (467ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 467ms
+- 📋   • Tamanho da resposta: 391,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (589ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 589ms
+- 📋   • Tamanho da resposta: 301,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (372ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 372ms
+- 📋   • Tamanho da resposta: 284,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 10,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (454ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 454ms
+- 📋   • Tamanho da resposta: 94,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (396ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 396ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 39,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (120ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 120ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:02:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:03:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (10,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 10747ms
+- 📋   • Tamanho da resposta: 9,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:03:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (22,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 21994ms
+- 📋   • Tamanho da resposta: 12,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:03:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (12,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 12112ms
+- 📋   • Tamanho da resposta: 8,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:04:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (13,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 12989ms
+- 📋   • Tamanho da resposta: 9,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:04:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (8,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8560ms
+- 📋   • Tamanho da resposta: 6,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:04:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (4,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4265ms
+- 📋   • Tamanho da resposta: 5,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (509ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 509ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1128ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (717ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 717ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (841ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 841ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (894ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 894ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (428ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 428ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (819ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 819ms
+- 📋   • Tamanho da resposta: 287,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1018ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 58,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 96,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 361,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (914ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 914ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (118ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 118ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (149ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 149ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1092ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2335ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1908ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3354ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2569ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3136ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1469ms
+- 📋   • Tamanho da resposta: 15,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 910 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 7,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 6,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 136,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (582ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 582ms
+- 📋   • Tamanho da resposta: 274,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (722ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 722ms
+- 📋   • Tamanho da resposta: 208,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1344ms
+- 📋   • Tamanho da resposta: 339,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (734ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 734ms
+- 📋   • Tamanho da resposta: 350,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1121ms
+- 📋   • Tamanho da resposta: 366,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:04:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1281ms
+- 📋   • Tamanho da resposta: 305,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 452,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1875ms
+- 📋   • Tamanho da resposta: 426,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1104ms
+- 📋   • Tamanho da resposta: 378,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (488ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 488ms
+- 📋   • Tamanho da resposta: 301,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (675ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 675ms
+- 📋   • Tamanho da resposta: 299,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 75,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (678ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 678ms
+- 📋   • Tamanho da resposta: 109,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (283ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 283ms
+- 📋   • Tamanho da resposta: 97,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (642ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 642ms
+- 📋   • Tamanho da resposta: 118,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (678ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 678ms
+- 📋   • Tamanho da resposta: 83,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 89,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (527ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 527ms
+- 📋   • Tamanho da resposta: 120,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 193,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (579ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 579ms
+- 📋   • Tamanho da resposta: 182,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 169,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (359ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 359ms
+- 📋   • Tamanho da resposta: 158,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (360ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 360ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 150,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (459ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 459ms
+- 📋   • Tamanho da resposta: 160,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (555ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 555ms
+- 📋   • Tamanho da resposta: 159,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (423ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 423ms
+- 📋   • Tamanho da resposta: 145,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (578ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 578ms
+- 📋   • Tamanho da resposta: 149,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 119,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (870ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 870ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1605ms
+- 📋   • Tamanho da resposta: 1,8 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1085ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (854ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 854ms
+- 📋   • Tamanho da resposta: 531,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (434ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 434ms
+- 📋   • Tamanho da resposta: 364,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (155ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 155ms
+- 📋   • Tamanho da resposta: 1,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (850ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 850ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1121ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (707ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 707ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (542ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 542ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (336ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 336ms
+- 📋   • Tamanho da resposta: 179,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (358ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 358ms
+- 📋   • Tamanho da resposta: 40,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 6,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 10,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (431ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 431ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1427ms
+- 📋   • Tamanho da resposta: 225,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (7,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7101ms
+- 📋   • Tamanho da resposta: 281,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:05:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (573ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 573ms
+- 📋   • Tamanho da resposta: 385,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2277ms
+- 📋   • Tamanho da resposta: 521,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1449ms
+- 📋   • Tamanho da resposta: 214,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 135,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 7,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 19,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (120ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 120ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (122ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 122ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (298ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 298ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 228,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 328,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (878ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 878ms
+- 📋   • Tamanho da resposta: 203,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (364ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 364ms
+- 📋   • Tamanho da resposta: 137,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1749ms
+- 📋   • Tamanho da resposta: 120,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 93,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1130ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1949ms
+- 📋   • Tamanho da resposta: 2,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2090ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1977ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1077ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (974ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 974ms
+- 📋   • Tamanho da resposta: 913,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 6,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (459ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 459ms
+- 📋   • Tamanho da resposta: 533,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1011ms
+- 📋   • Tamanho da resposta: 802,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1512ms
+- 📋   • Tamanho da resposta: 938,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (908ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 908ms
+- 📋   • Tamanho da resposta: 788,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (570ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 570ms
+- 📋   • Tamanho da resposta: 634,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 634,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (398ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 398ms
+- 📋   • Tamanho da resposta: 537,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (709ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 709ms
+- 📋   • Tamanho da resposta: 786,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (985ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 985ms
+- 📋   • Tamanho da resposta: 709,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (872ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 872ms
+- 📋   • Tamanho da resposta: 728,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 576,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (516ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 516ms
+- 📋   • Tamanho da resposta: 488,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 133,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 90,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (583ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 583ms
+- 📋   • Tamanho da resposta: 383,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1030ms
+- 📋   • Tamanho da resposta: 533,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (355ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 355ms
+- 📋   • Tamanho da resposta: 240,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 378,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (491ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 491ms
+- 📋   • Tamanho da resposta: 676,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (330ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 330ms
+- 📋   • Tamanho da resposta: 471,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (397ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 397ms
+- 📋   • Tamanho da resposta: 519,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 465,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 516,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 106,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 318,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (955ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 955ms
+- 📋   • Tamanho da resposta: 752,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1225ms
+- 📋   • Tamanho da resposta: 352,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1504ms
+- 📋   • Tamanho da resposta: 395,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1215ms
+- 📋   • Tamanho da resposta: 290,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1270ms
+- 📋   • Tamanho da resposta: 223,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (680ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 680ms
+- 📋   • Tamanho da resposta: 403,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2185ms
+- 📋   • Tamanho da resposta: 553,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (697ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 697ms
+- 📋   • Tamanho da resposta: 212,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (564ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 564ms
+- 📋   • Tamanho da resposta: 282,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (966ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 966ms
+- 📋   • Tamanho da resposta: 180,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (704ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 704ms
+- 📋   • Tamanho da resposta: 143,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 196,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (320ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 320ms
+- 📋   • Tamanho da resposta: 374,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (554ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 554ms
+- 📋   • Tamanho da resposta: 268,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1006ms
+- 📋   • Tamanho da resposta: 285,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (479ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 479ms
+- 📋   • Tamanho da resposta: 276,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (381ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 381ms
+- 📋   • Tamanho da resposta: 226,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (888ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 888ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2928ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1489ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (897ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 897ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (805ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 805ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (307ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 307ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (530ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 530ms
+- 📋   • Tamanho da resposta: 478,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (883ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 883ms
+- 📋   • Tamanho da resposta: 558,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1109ms
+- 📋   • Tamanho da resposta: 619,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1637ms
+- 📋   • Tamanho da resposta: 719,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (949ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 949ms
+- 📋   • Tamanho da resposta: 660,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (468ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 468ms
+- 📋   • Tamanho da resposta: 467,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 132,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 208,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (342ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 342ms
+- 📋   • Tamanho da resposta: 233,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (590ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 590ms
+- 📋   • Tamanho da resposta: 246,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (377ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 377ms
+- 📋   • Tamanho da resposta: 230,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (363ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 363ms
+- 📋   • Tamanho da resposta: 256,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 93,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 119,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 99,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 165,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 136,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (312ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 312ms
+- 📋   • Tamanho da resposta: 332,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 178,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (576ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 576ms
+- 📋   • Tamanho da resposta: 363,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (453ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 453ms
+- 📋   • Tamanho da resposta: 287,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (763ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 763ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (493ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 493ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (319ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 319ms
+- 📋   • Tamanho da resposta: 310,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 242,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (638ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 638ms
+- 📋   • Tamanho da resposta: 421,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (927ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 927ms
+- 📋   • Tamanho da resposta: 354,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (921ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 921ms
+- 📋   • Tamanho da resposta: 290,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (493ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 493ms
+- 📋   • Tamanho da resposta: 252,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (510ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 510ms
+- 📋   • Tamanho da resposta: 233,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1146ms
+- 📋   • Tamanho da resposta: 876,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1399ms
+- 📋   • Tamanho da resposta: 939,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3112ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (3,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3478ms
+- 📋   • Tamanho da resposta: 1,5 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1830ms
+- 📋   • Tamanho da resposta: 1022,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (927ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 927ms
+- 📋   • Tamanho da resposta: 866,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (341ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 341ms
+- 📋   • Tamanho da resposta: 224,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (531ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 531ms
+- 📋   • Tamanho da resposta: 311,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1281ms
+- 📋   • Tamanho da resposta: 192,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1797ms
+- 📋   • Tamanho da resposta: 172,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (826ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 826ms
+- 📋   • Tamanho da resposta: 239,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (753ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 753ms
+- 📋   • Tamanho da resposta: 151,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (390ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 390ms
+- 📋   • Tamanho da resposta: 319,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (958ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 958ms
+- 📋   • Tamanho da resposta: 507,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1028ms
+- 📋   • Tamanho da resposta: 586,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (692ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 692ms
+- 📋   • Tamanho da resposta: 575,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (474ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 474ms
+- 📋   • Tamanho da resposta: 469,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (410ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 410ms
+- 📋   • Tamanho da resposta: 470,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (572ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 572ms
+- 📋   • Tamanho da resposta: 794,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1040ms
+- 📋   • Tamanho da resposta: 1,3 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1139ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1844ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (734ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 734ms
+- 📋   • Tamanho da resposta: 790,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (485ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 485ms
+- 📋   • Tamanho da resposta: 590,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 13,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 9,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 73,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (315ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 315ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 196,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (457ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 457ms
+- 📋   • Tamanho da resposta: 435,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (847ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 847ms
+- 📋   • Tamanho da resposta: 227,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 216,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (571ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 571ms
+- 📋   • Tamanho da resposta: 285,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (764ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 764ms
+- 📋   • Tamanho da resposta: 131,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 866 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 954 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (428ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 428ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 14,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 111,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 204,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 155,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:07:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 170,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 151,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 145,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (723ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 723ms
+- 📋   • Tamanho da resposta: 780,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (940ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 940ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1188ms
+- 📋   • Tamanho da resposta: 640,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1131ms
+- 📋   • Tamanho da resposta: 740,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (880ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 880ms
+- 📋   • Tamanho da resposta: 573,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (480ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 480ms
+- 📋   • Tamanho da resposta: 528,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 211,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (546ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 546ms
+- 📋   • Tamanho da resposta: 495,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 94,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 85,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 245,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (419ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 419ms
+- 📋   • Tamanho da resposta: 417,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (765ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 765ms
+- 📋   • Tamanho da resposta: 325,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1088ms
+- 📋   • Tamanho da resposta: 373,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (358ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 358ms
+- 📋   • Tamanho da resposta: 280,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 244,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (365ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 365ms
+- 📋   • Tamanho da resposta: 327,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1477ms
+- 📋   • Tamanho da resposta: 229,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 78,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 334,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1122ms
+- 📋   • Tamanho da resposta: 605,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (908ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 908ms
+- 📋   • Tamanho da resposta: 411,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1050ms
+- 📋   • Tamanho da resposta: 403,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (744ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 744ms
+- 📋   • Tamanho da resposta: 383,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (476ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 476ms
+- 📋   • Tamanho da resposta: 358,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (152ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 152ms
+- 📋   • Tamanho da resposta: 34,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 114,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 172,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (287ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 287ms
+- 📋   • Tamanho da resposta: 213,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 106,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (164ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 164ms
+- 📋   • Tamanho da resposta: 42,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (133ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 133ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 42,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (150ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 150ms
+- 📋   • Tamanho da resposta: 26,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (161ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 161ms
+- 📋   • Tamanho da resposta: 50,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (499ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 499ms
+- 📋   • Tamanho da resposta: 712,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1473ms
+- 📋   • Tamanho da resposta: 1011,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (2,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1958ms
+- 📋   • Tamanho da resposta: 681,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1194ms
+- 📋   • Tamanho da resposta: 607,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1738ms
+- 📋   • Tamanho da resposta: 557,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (947ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 947ms
+- 📋   • Tamanho da resposta: 522,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (488ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 488ms
+- 📋   • Tamanho da resposta: 729,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1155ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1508ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1371ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1492ms
+- 📋   • Tamanho da resposta: 918,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (682ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 682ms
+- 📋   • Tamanho da resposta: 791,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 15,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 29,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (966ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 966ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1783ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1212ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1681ms
+- 📋   • Tamanho da resposta: 1,2 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (855ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 855ms
+- 📋   • Tamanho da resposta: 946,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (679ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 679ms
+- 📋   • Tamanho da resposta: 921,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 247,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (596ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 596ms
+- 📋   • Tamanho da resposta: 373,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (583ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 583ms
+- 📋   • Tamanho da resposta: 324,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (516ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 516ms
+- 📋   • Tamanho da resposta: 306,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (325ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 325ms
+- 📋   • Tamanho da resposta: 300,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 310,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:08:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 7,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 18,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 16,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 6,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (527ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 527ms
+- 📋   • Tamanho da resposta: 364,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (482ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 482ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 253,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (776ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 776ms
+- 📋   • Tamanho da resposta: 363,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 323,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1065ms
+- 📋   • Tamanho da resposta: 404,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (357ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 357ms
+- 📋   • Tamanho da resposta: 290,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 261,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (38ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 38ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 137,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (486ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 486ms
+- 📋   • Tamanho da resposta: 301,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (275ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 275ms
+- 📋   • Tamanho da resposta: 220,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (305ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 305ms
+- 📋   • Tamanho da resposta: 157,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 99,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 67,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (39ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 39ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 150,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 222,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (412ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 412ms
+- 📋   • Tamanho da resposta: 91,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 929 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (141ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 141ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 5,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 1021 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:09:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+
+
+## 08:00:54 | Consumo de Pagamentos
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/pagamento
+- 🔄 Iniciando consumo de dados...
+- ✅ 241354 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (1m 41s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 241354
+- 📋   • Tempo de persistência: 101378ms
+- 📋   • Tabela: consumer_sefaz.pagamento
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 241354 registros | Tempo total: 9m 58s**
+
+
+## 08:00:54 | Execução Específica - Pagamento
+- 📋 Iniciando consumo específico de Pagamentos da SEFAZ
+- 📋 Correlation ID: 9842191c
+- 🔄 Processando Pagamentos...
+- ✅ 241354 registros de Pagamento processados (9m 58s)
+- 📋 📊 Estatísticas de processamento:
+- 📋   • Pagamentos: 241354
+- ⚠️ Execução demorou mais que 15 segundos
+- ⏱️ **Total: 241354 registros | Tempo total: 9m 58s**
+
+
+## 08:11:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3941ms
+- 📋   • Tamanho da resposta: 97,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1168ms
+- 📋   • Tamanho da resposta: 145,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1082ms
+- 📋   • Tamanho da resposta: 86,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (783ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 783ms
+- 📋   • Tamanho da resposta: 81,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (579ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 579ms
+- 📋   • Tamanho da resposta: 78,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (657ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 657ms
+- 📋   • Tamanho da resposta: 92,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4520ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:12:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (18,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 18309ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:12:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (14,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 14735ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:12:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (11,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 11120ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:12:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (8,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8520ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:12:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4351ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:12:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1597ms
+- 📋   • Tamanho da resposta: 629,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:12:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (5,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 5855ms
+- 📋   • Tamanho da resposta: 667,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:12:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4342ms
+- 📋   • Tamanho da resposta: 427,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:12:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2883ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2862ms
+- 📋   • Tamanho da resposta: 407,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2709ms
+- 📋   • Tamanho da resposta: 477,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (468ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 468ms
+- 📋   • Tamanho da resposta: 138,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (717ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 717ms
+- 📋   • Tamanho da resposta: 235,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (802ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 802ms
+- 📋   • Tamanho da resposta: 261,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (680ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 680ms
+- 📋   • Tamanho da resposta: 239,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (618ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 618ms
+- 📋   • Tamanho da resposta: 203,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (829ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 829ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 85,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 118,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (641ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 641ms
+- 📋   • Tamanho da resposta: 181,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (530ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 530ms
+- 📋   • Tamanho da resposta: 193,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (564ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 564ms
+- 📋   • Tamanho da resposta: 210,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (685ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 685ms
+- 📋   • Tamanho da resposta: 202,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:13:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (20,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 20628ms
+- 📋   • Tamanho da resposta: 7,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:14:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:14:41 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:15:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor": Read timed out
+
+
+## 08:15:41 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor": Read timed out
+
+
+## 08:16:11 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:16:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (462ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 462ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (618ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 618ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1256ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (808ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 808ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 102,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (123ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 123ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 18,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (551ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 551ms
+- 📋   • Tamanho da resposta: 175,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (978ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 978ms
+- 📋   • Tamanho da resposta: 280,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1050ms
+- 📋   • Tamanho da resposta: 261,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1333ms
+- 📋   • Tamanho da resposta: 282,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (931ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 931ms
+- 📋   • Tamanho da resposta: 248,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1810ms
+- 📋   • Tamanho da resposta: 326,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 1006 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (129ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 129ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (338ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 338ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 23,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 38,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 68,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 57,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (380ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 380ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 45,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 36,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (449ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 449ms
+- 📋   • Tamanho da resposta: 41,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (298ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 298ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (673ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 673ms
+- 📋   • Tamanho da resposta: 45,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (459ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 459ms
+- 📋   • Tamanho da resposta: 26,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 710 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (136ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 136ms
+- 📋   • Tamanho da resposta: 10,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 19,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (148ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 148ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (337ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 337ms
+- 📋   • Tamanho da resposta: 11,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 5,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 3,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (960ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 960ms
+- 📋   • Tamanho da resposta: 4,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 22,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 13,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (606ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 606ms
+- 📋   • Tamanho da resposta: 91,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 155,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 26,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (338ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 338ms
+- 📋   • Tamanho da resposta: 58,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (134ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 134ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4375ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1525ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (864ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 864ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (788ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 788ms
+- 📋   • Tamanho da resposta: 42,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (352ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 352ms
+- 📋   • Tamanho da resposta: 34,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (679ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 679ms
+- 📋   • Tamanho da resposta: 80,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (392ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 392ms
+- 📋   • Tamanho da resposta: 99,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (940ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 940ms
+- 📋   • Tamanho da resposta: 63,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (424ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 424ms
+- 📋   • Tamanho da resposta: 38,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (122ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 122ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 754 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 868 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1320ms
+- 📋   • Tamanho da resposta: 318,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2766ms
+- 📋   • Tamanho da resposta: 223,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (820ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 820ms
+- 📋   • Tamanho da resposta: 197,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (663ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 663ms
+- 📋   • Tamanho da resposta: 168,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (673ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 673ms
+- 📋   • Tamanho da resposta: 133,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (770ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 770ms
+- 📋   • Tamanho da resposta: 168,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 185,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:16:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 230,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (587ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 587ms
+- 📋   • Tamanho da resposta: 242,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (871ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 871ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (775ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 775ms
+- 📋   • Tamanho da resposta: 144,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (731ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 731ms
+- 📋   • Tamanho da resposta: 212,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1298ms
+- 📋   • Tamanho da resposta: 220,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1156ms
+- 📋   • Tamanho da resposta: 386,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1039ms
+- 📋   • Tamanho da resposta: 338,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (820ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 820ms
+- 📋   • Tamanho da resposta: 327,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (826ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 826ms
+- 📋   • Tamanho da resposta: 313,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 234,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 16,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (122ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 122ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 9,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 31,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:12 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 08:17:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (791ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 791ms
+- 📋   • Tamanho da resposta: 205,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (931ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 931ms
+- 📋   • Tamanho da resposta: 336,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1054ms
+- 📋   • Tamanho da resposta: 263,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2124ms
+- 📋   • Tamanho da resposta: 318,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (985ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 985ms
+- 📋   • Tamanho da resposta: 330,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1055ms
+- 📋   • Tamanho da resposta: 368,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 4,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 12,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 37,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 19,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (408ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 408ms
+- 📋   • Tamanho da resposta: 62,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (428ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 428ms
+- 📋   • Tamanho da resposta: 71,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (665ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 665ms
+- 📋   • Tamanho da resposta: 101,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 12,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 964 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (142ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 142ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 18,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (157ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 157ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (672ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 672ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (545ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 545ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1786ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 98,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (425ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 425ms
+- 📋   • Tamanho da resposta: 176,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (525ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 525ms
+- 📋   • Tamanho da resposta: 117,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (817ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 817ms
+- 📋   • Tamanho da resposta: 154,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (626ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 626ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (492ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 492ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (373ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 373ms
+- 📋   • Tamanho da resposta: 5,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (284ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 284ms
+- 📋   • Tamanho da resposta: 12,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 27,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (155ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 155ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (501ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 501ms
+- 📋   • Tamanho da resposta: 30,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 41,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (513ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 513ms
+- 📋   • Tamanho da resposta: 56,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 112,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 217,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (538ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 538ms
+- 📋   • Tamanho da resposta: 177,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (510ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 510ms
+- 📋   • Tamanho da resposta: 170,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (531ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 531ms
+- 📋   • Tamanho da resposta: 133,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 114,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (567ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 567ms
+- 📋   • Tamanho da resposta: 164,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1382ms
+- 📋   • Tamanho da resposta: 307,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1096ms
+- 📋   • Tamanho da resposta: 416,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2862ms
+- 📋   • Tamanho da resposta: 342,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1041ms
+- 📋   • Tamanho da resposta: 293,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (562ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 562ms
+- 📋   • Tamanho da resposta: 79,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (145ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 145ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (307ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 307ms
+- 📋   • Tamanho da resposta: 210,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (688ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 688ms
+- 📋   • Tamanho da resposta: 321,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (811ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 811ms
+- 📋   • Tamanho da resposta: 266,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1140ms
+- 📋   • Tamanho da resposta: 310,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (928ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 928ms
+- 📋   • Tamanho da resposta: 193,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (401ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 401ms
+- 📋   • Tamanho da resposta: 182,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (969ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 969ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1736ms
+- 📋   • Tamanho da resposta: 453,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:17:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1464ms
+- 📋   • Tamanho da resposta: 426,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1184ms
+- 📋   • Tamanho da resposta: 338,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (725ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 725ms
+- 📋   • Tamanho da resposta: 196,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (456ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 456ms
+- 📋   • Tamanho da resposta: 179,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 751 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 9,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 24,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (141ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 141ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 4,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (332ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 332ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 792 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 803 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 14,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 13,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 8,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (498ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 498ms
+- 📋   • Tamanho da resposta: 260,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1478ms
+- 📋   • Tamanho da resposta: 206,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (542ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 542ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (588ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 588ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (482ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 482ms
+- 📋   • Tamanho da resposta: 157,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (351ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 351ms
+- 📋   • Tamanho da resposta: 126,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (545ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 545ms
+- 📋   • Tamanho da resposta: 258,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 63,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (324ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 324ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 69,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 53,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 53,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (711ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 711ms
+- 📋   • Tamanho da resposta: 60,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 62,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 45,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (368ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 368ms
+- 📋   • Tamanho da resposta: 48,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 21,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 22,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (520ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 520ms
+- 📋   • Tamanho da resposta: 140,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (528ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 528ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (381ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 381ms
+- 📋   • Tamanho da resposta: 89,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (829ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 829ms
+- 📋   • Tamanho da resposta: 130,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 208,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 35,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (130ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 130ms
+- 📋   • Tamanho da resposta: 32,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 115,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 66,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 32,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1177ms
+- 📋   • Tamanho da resposta: 554,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1457ms
+- 📋   • Tamanho da resposta: 543,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (520ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 520ms
+- 📋   • Tamanho da resposta: 272,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (500ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 500ms
+- 📋   • Tamanho da resposta: 245,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1061ms
+- 📋   • Tamanho da resposta: 342,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (669ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 669ms
+- 📋   • Tamanho da resposta: 293,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 51,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (343ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 343ms
+- 📋   • Tamanho da resposta: 86,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 93,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 80,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 83,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (296ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 296ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (488ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 488ms
+- 📋   • Tamanho da resposta: 210,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (934ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 934ms
+- 📋   • Tamanho da resposta: 535,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1018ms
+- 📋   • Tamanho da resposta: 394,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2527ms
+- 📋   • Tamanho da resposta: 328,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1512ms
+- 📋   • Tamanho da resposta: 410,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (932ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 932ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (395ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 395ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 45,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 20,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 742 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (40ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 40ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 25,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (489ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 489ms
+- 📋   • Tamanho da resposta: 25,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 24,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (318ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 318ms
+- 📋   • Tamanho da resposta: 23,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 10,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 638 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 10,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 7,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (115ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 115ms
+- 📋   • Tamanho da resposta: 45,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 1,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:18:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:11:28 | Consumo de Base despesa credor
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔄 Iniciando consumo de dados...
+- ✅ 61855 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (24,1s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 61855
+- 📋   • Tempo de persistência: 24086ms
+- 📋   • Tabela: consumer_sefaz.base_despesa_credor
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 61855 registros | Tempo total: 7m 39s**
+
+
+## 08:11:28 | Execução Específica - Base Despesa Credor
+- 🔄 Processando Base Despesa Credor...
+- ✅ 61855 registros de Base Despesa Credor processados (7m 39s)
+- ⏱️ **Processamento específico de Base Despesa Credor concluído com sucesso | Tempo total: 7m 39s**
+- 📋 Total processado: 61855 registros
+- 📋 Tempo de execução: 459098 ms
+
+
+## 08:29:31 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
 
-## 07:41:44 | Inicialização da Aplicação
+## 08:29:36 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
 
-## 07:44:46 | Inicialização da Aplicação
+## 08:30:58 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
 
-## 07:45:01 | Inicialização da Aplicação
+## 08:32:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (844ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 844ms
+- 📋   • Tamanho da resposta: 97,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (399ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 399ms
+- 📋   • Tamanho da resposta: 145,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 86,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (285ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 285ms
+- 📋   • Tamanho da resposta: 81,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 78,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 92,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2493ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:32:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (15,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 15335ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:32:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (10,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 10684ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:33:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (7,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7074ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:33:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3743ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2796ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1438ms
+- 📋   • Tamanho da resposta: 629,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4930ms
+- 📋   • Tamanho da resposta: 667,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4261ms
+- 📋   • Tamanho da resposta: 427,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2783ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2231ms
+- 📋   • Tamanho da resposta: 407,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2226ms
+- 📋   • Tamanho da resposta: 477,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (930ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 930ms
+- 📋   • Tamanho da resposta: 138,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (853ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 853ms
+- 📋   • Tamanho da resposta: 235,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (794ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 794ms
+- 📋   • Tamanho da resposta: 261,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (643ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 643ms
+- 📋   • Tamanho da resposta: 239,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (607ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 607ms
+- 📋   • Tamanho da resposta: 203,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (664ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 664ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (291ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 291ms
+- 📋   • Tamanho da resposta: 85,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (387ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 387ms
+- 📋   • Tamanho da resposta: 118,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (478ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 478ms
+- 📋   • Tamanho da resposta: 181,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (640ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 640ms
+- 📋   • Tamanho da resposta: 193,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (721ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 721ms
+- 📋   • Tamanho da resposta: 210,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (710ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 710ms
+- 📋   • Tamanho da resposta: 202,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:33:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:34:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (21,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 21494ms
+- 📋   • Tamanho da resposta: 7,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:34:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:35:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:35:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor": Read timed out
+
+
+## 08:36:03 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 102,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (125ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 125ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 18,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (414ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 414ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (824ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 824ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (450ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 450ms
+- 📋   • Tamanho da resposta: 175,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (807ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 807ms
+- 📋   • Tamanho da resposta: 280,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (770ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 770ms
+- 📋   • Tamanho da resposta: 261,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (803ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 803ms
+- 📋   • Tamanho da resposta: 282,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (697ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 697ms
+- 📋   • Tamanho da resposta: 248,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (856ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 856ms
+- 📋   • Tamanho da resposta: 326,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 1006 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 23,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (169ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 169ms
+- 📋   • Tamanho da resposta: 38,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 68,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 57,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 45,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 36,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 41,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 45,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 26,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 710 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 10,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 19,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 11,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 5,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 3,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 4,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 22,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 13,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (739ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 739ms
+- 📋   • Tamanho da resposta: 91,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (366ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 366ms
+- 📋   • Tamanho da resposta: 155,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 26,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 58,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 42,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (339ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 339ms
+- 📋   • Tamanho da resposta: 34,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (325ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 325ms
+- 📋   • Tamanho da resposta: 80,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (703ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 703ms
+- 📋   • Tamanho da resposta: 99,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (307ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 307ms
+- 📋   • Tamanho da resposta: 63,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 38,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 754 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 868 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1018ms
+- 📋   • Tamanho da resposta: 318,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (936ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 936ms
+- 📋   • Tamanho da resposta: 223,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (649ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 649ms
+- 📋   • Tamanho da resposta: 197,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (562ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 562ms
+- 📋   • Tamanho da resposta: 168,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:36:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (791ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 791ms
+- 📋   • Tamanho da resposta: 133,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 168,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 185,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (698ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 698ms
+- 📋   • Tamanho da resposta: 230,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (848ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 848ms
+- 📋   • Tamanho da resposta: 242,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (468ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 468ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (591ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 591ms
+- 📋   • Tamanho da resposta: 144,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (454ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 454ms
+- 📋   • Tamanho da resposta: 212,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (555ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 555ms
+- 📋   • Tamanho da resposta: 220,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1011ms
+- 📋   • Tamanho da resposta: 386,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (722ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 722ms
+- 📋   • Tamanho da resposta: 338,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (705ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 705ms
+- 📋   • Tamanho da resposta: 327,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (845ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 845ms
+- 📋   • Tamanho da resposta: 313,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (559ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 559ms
+- 📋   • Tamanho da resposta: 234,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (93ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 93ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 16,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 9,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (427ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 427ms
+- 📋   • Tamanho da resposta: 31,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (703ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 703ms
+- 📋   • Tamanho da resposta: 205,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1213ms
+- 📋   • Tamanho da resposta: 336,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (856ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 856ms
+- 📋   • Tamanho da resposta: 263,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1169ms
+- 📋   • Tamanho da resposta: 318,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (930ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 930ms
+- 📋   • Tamanho da resposta: 330,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1171ms
+- 📋   • Tamanho da resposta: 368,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 4,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 12,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 37,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 19,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 62,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 71,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 101,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 12,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 964 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (383ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 383ms
+- 📋   • Tamanho da resposta: 18,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (407ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 407ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 98,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 176,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (466ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 466ms
+- 📋   • Tamanho da resposta: 117,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (759ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 759ms
+- 📋   • Tamanho da resposta: 154,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (489ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 489ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (420ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 420ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 5,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (133ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 133ms
+- 📋   • Tamanho da resposta: 12,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (130ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 130ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 27,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (154ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 154ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 30,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 41,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 56,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (333ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 333ms
+- 📋   • Tamanho da resposta: 112,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (828ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 828ms
+- 📋   • Tamanho da resposta: 217,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (845ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 845ms
+- 📋   • Tamanho da resposta: 177,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (631ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 631ms
+- 📋   • Tamanho da resposta: 170,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (609ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 609ms
+- 📋   • Tamanho da resposta: 133,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (324ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 324ms
+- 📋   • Tamanho da resposta: 114,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (480ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 480ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (782ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 782ms
+- 📋   • Tamanho da resposta: 164,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1848ms
+- 📋   • Tamanho da resposta: 307,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1396ms
+- 📋   • Tamanho da resposta: 416,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1159ms
+- 📋   • Tamanho da resposta: 342,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1278ms
+- 📋   • Tamanho da resposta: 293,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (131ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 131ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 79,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (103ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 103ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (496ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 496ms
+- 📋   • Tamanho da resposta: 210,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (745ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 745ms
+- 📋   • Tamanho da resposta: 321,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (726ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 726ms
+- 📋   • Tamanho da resposta: 266,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (757ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 757ms
+- 📋   • Tamanho da resposta: 310,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (417ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 417ms
+- 📋   • Tamanho da resposta: 193,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (378ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 378ms
+- 📋   • Tamanho da resposta: 182,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (834ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 834ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1189ms
+- 📋   • Tamanho da resposta: 453,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1513ms
+- 📋   • Tamanho da resposta: 426,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1570ms
+- 📋   • Tamanho da resposta: 338,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (644ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 644ms
+- 📋   • Tamanho da resposta: 196,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (509ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 509ms
+- 📋   • Tamanho da resposta: 179,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 751 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 9,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 24,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 4,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 792 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 803 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 14,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 13,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (114ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 114ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 8,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (566ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 566ms
+- 📋   • Tamanho da resposta: 260,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1013ms
+- 📋   • Tamanho da resposta: 206,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:37:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (858ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 858ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (668ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 668ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (634ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 634ms
+- 📋   • Tamanho da resposta: 157,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (444ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 444ms
+- 📋   • Tamanho da resposta: 126,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (579ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 579ms
+- 📋   • Tamanho da resposta: 258,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 63,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (121ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 121ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 69,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 53,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 53,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 60,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 62,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 45,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (144ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 144ms
+- 📋   • Tamanho da resposta: 48,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 21,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 140,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (453ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 453ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 89,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 130,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 208,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 35,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 32,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 115,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (140ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 140ms
+- 📋   • Tamanho da resposta: 66,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 32,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (938ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 938ms
+- 📋   • Tamanho da resposta: 554,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1081ms
+- 📋   • Tamanho da resposta: 543,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (607ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 607ms
+- 📋   • Tamanho da resposta: 272,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (606ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 606ms
+- 📋   • Tamanho da resposta: 245,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (730ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 730ms
+- 📋   • Tamanho da resposta: 342,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (759ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 759ms
+- 📋   • Tamanho da resposta: 293,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 51,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 86,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 93,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 80,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 83,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (443ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 443ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 210,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (802ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 802ms
+- 📋   • Tamanho da resposta: 535,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (700ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 700ms
+- 📋   • Tamanho da resposta: 394,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1438ms
+- 📋   • Tamanho da resposta: 328,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1300ms
+- 📋   • Tamanho da resposta: 410,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1135ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 45,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (158ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 158ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 20,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 742 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 25,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 25,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 24,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (128ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 128ms
+- 📋   • Tamanho da resposta: 23,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (99ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 99ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 10,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 638 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 10,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 7,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (116ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 116ms
+- 📋   • Tamanho da resposta: 45,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 1,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:38:27 | ❌ ERRO em DATABASE
+- 🚨 **Erro**: INSERT_BATCH | TABLE: consumer_sefaz.base_despesa_credor
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: aef2feda
+
+
+
+## 08:38:27 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: aef2feda
+
+
+
+## 08:32:22 | Consumo de Base despesa credor
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔄 Iniciando consumo de dados...
+- ✅ 61815 registros encontrados
+- 🔄 Salvando dados no banco...
+- ❌ Falha na operação: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📋 Tempo até falha: 365636ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 6m 5s**
+
+
+## 08:38:27 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: 6a5ee2a2
+
+
+
+## 08:38:27 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: BASE_DESPESA_CREDOR_ONLY_CONSUMPTION | ENDPOINT: base-despesa-credor
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: dd33533a
+
+
+
+## 08:32:22 | Execução Específica - Base Despesa Credor
+- 🔄 Processando Base Despesa Credor...
+- ❌ Falha no processamento de Base Despesa Credor: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- ❌ Falha no processamento de Base Despesa Credor: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.base_despesa_credor (cd_gestao, ug_cd, dt_ano_exercicio, sq_empenho, nu_documento_pessoa, cd_tipo_documento, nm_razao_social_pessoa, dh_lancamento_empenho, dt_geracao_empenho, vl_original_empenho, vl_total_reforcado_empenho, vl_total_anulado_empenho, vl_empenhado_atual, vl_total_liquidado_empenho, vl_total_pago_empenho, nm_modalidade_licitacao, cd_licitacao, nm_item_material_servico, qt_item_solicitacao_empenho, vl_unitario_item_solicitacao_empenho, qt_reforcada, vl_total_itens, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- ⏱️ **Execução interrompida por erro | Tempo total: 6m 5s**
+
+
+## 08:41:43 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
 
-## 07:48:38 | Inicialização da Aplicação
+## 08:43:22 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:43:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (348ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 348ms
+- 📋   • Tamanho da resposta: 97,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (372ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 372ms
+- 📋   • Tamanho da resposta: 145,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 86,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 81,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 78,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 92,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:43:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2537ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:01 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:44:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (494ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 494ms
+- 📋   • Tamanho da resposta: 97,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (405ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 405ms
+- 📋   • Tamanho da resposta: 145,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (306ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 306ms
+- 📋   • Tamanho da resposta: 86,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 81,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (494ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 494ms
+- 📋   • Tamanho da resposta: 78,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (442ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 442ms
+- 📋   • Tamanho da resposta: 92,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (14,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 14873ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3914ms
+- 📋   • Tamanho da resposta: 1,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (9,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 9703ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (14,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 14158ms
+- 📋   • Tamanho da resposta: 1,9 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (7,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 7881ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,7s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4677ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (8,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 8103ms
+- 📋   • Tamanho da resposta: 1,7 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3453ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:41 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: cd37d3c8
+
+
+
+## 08:43:52 | Consumo de Base despesa credor
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 49460ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 49,5s**
+
+
+## 08:44:41 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 7ee4e668
+
+
+
+## 08:44:41 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: BASE_DESPESA_CREDOR_ONLY_CONSUMPTION | ENDPOINT: base-despesa-credor
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 112d9bf3
+
+
+
+## 08:43:52 | Execução Específica - Base Despesa Credor
+- 🔄 Processando Base Despesa Credor...
+- ❌ Falha no processamento de Base Despesa Credor: Failed to obtain JDBC Connection
+- ❌ Falha no processamento de Base Despesa Credor: Failed to obtain JDBC Connection
+- ⏱️ **Execução interrompida por erro | Tempo total: 49,5s**
+
+
+## 08:44:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (6,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6630ms
+- 📋   • Tamanho da resposta: 1,4 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:44:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (4,8s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 4818ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3579ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1381ms
+- 📋   • Tamanho da resposta: 629,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (6,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 6523ms
+- 📋   • Tamanho da resposta: 667,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:45:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3403ms
+- 📋   • Tamanho da resposta: 427,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2391ms
+- 📋   • Tamanho da resposta: 371,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (2,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2438ms
+- 📋   • Tamanho da resposta: 407,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,9s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1930ms
+- 📋   • Tamanho da resposta: 477,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (266ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 266ms
+- 📋   • Tamanho da resposta: 138,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1050ms
+- 📋   • Tamanho da resposta: 235,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (968ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 968ms
+- 📋   • Tamanho da resposta: 261,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (463ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 463ms
+- 📋   • Tamanho da resposta: 239,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 203,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (524ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 524ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 85,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 118,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (808ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 808ms
+- 📋   • Tamanho da resposta: 181,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 193,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (657ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 657ms
+- 📋   • Tamanho da resposta: 210,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (701ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 701ms
+- 📋   • Tamanho da resposta: 202,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:45:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (21,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 21546ms
+- 📋   • Tamanho da resposta: 7,6 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- ⚠️ Chamada lenta detectada (>5s)
+
+
+## 08:46:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:46:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor": Read timed out
+
+
+## 08:47:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:47:48 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: 504 Gateway Time-out: "<html><body><h1>504 Gateway Time-out</h1><EOL>The server didn't respond in time.<EOL></body></html><EOL>"
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔍 Detalhes: I/O error on GET request for "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor": Read timed out
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (96ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 96ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 102,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (147ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 147ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 9,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 18,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 175,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (938ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 938ms
+- 📋   • Tamanho da resposta: 280,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (784ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 784ms
+- 📋   • Tamanho da resposta: 261,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (869ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 869ms
+- 📋   • Tamanho da resposta: 282,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (719ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 719ms
+- 📋   • Tamanho da resposta: 248,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1014ms
+- 📋   • Tamanho da resposta: 326,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 1006 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 23,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 38,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (433ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 433ms
+- 📋   • Tamanho da resposta: 68,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 57,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (156ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 156ms
+- 📋   • Tamanho da resposta: 45,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 36,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 41,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (151ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 151ms
+- 📋   • Tamanho da resposta: 45,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 26,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 1,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 710 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (316ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 316ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 10,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (109ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 109ms
+- 📋   • Tamanho da resposta: 19,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (119ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 119ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 11,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 5,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 3,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 4,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (106ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 106ms
+- 📋   • Tamanho da resposta: 22,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 13,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (430ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 430ms
+- 📋   • Tamanho da resposta: 91,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (436ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 436ms
+- 📋   • Tamanho da resposta: 155,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (159ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 159ms
+- 📋   • Tamanho da resposta: 26,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 58,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 42,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (347ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 347ms
+- 📋   • Tamanho da resposta: 34,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 80,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (400ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 400ms
+- 📋   • Tamanho da resposta: 99,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 63,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 38,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 754 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 868 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (925ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 925ms
+- 📋   • Tamanho da resposta: 318,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (849ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 849ms
+- 📋   • Tamanho da resposta: 223,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (876ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 876ms
+- 📋   • Tamanho da resposta: 197,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (653ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 653ms
+- 📋   • Tamanho da resposta: 168,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 133,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (507ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 507ms
+- 📋   • Tamanho da resposta: 168,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (399ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 399ms
+- 📋   • Tamanho da resposta: 185,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (848ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 848ms
+- 📋   • Tamanho da resposta: 230,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (744ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 744ms
+- 📋   • Tamanho da resposta: 242,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (570ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 570ms
+- 📋   • Tamanho da resposta: 209,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 144,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (762ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 762ms
+- 📋   • Tamanho da resposta: 212,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (761ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 761ms
+- 📋   • Tamanho da resposta: 220,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (799ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 799ms
+- 📋   • Tamanho da resposta: 386,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (872ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 872ms
+- 📋   • Tamanho da resposta: 338,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (933ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 933ms
+- 📋   • Tamanho da resposta: 327,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (822ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 822ms
+- 📋   • Tamanho da resposta: 313,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1242ms
+- 📋   • Tamanho da resposta: 234,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 16,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (97ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 97ms
+- 📋   • Tamanho da resposta: 9,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (166ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 166ms
+- 📋   • Tamanho da resposta: 31,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (578ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 578ms
+- 📋   • Tamanho da resposta: 205,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,5s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1456ms
+- 📋   • Tamanho da resposta: 336,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:48:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (855ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 855ms
+- 📋   • Tamanho da resposta: 263,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (972ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 972ms
+- 📋   • Tamanho da resposta: 318,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1251ms
+- 📋   • Tamanho da resposta: 330,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1143ms
+- 📋   • Tamanho da resposta: 368,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 4,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 12,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 37,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 19,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 62,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 71,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 101,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 12,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (137ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 137ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 3,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 964 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (124ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 124ms
+- 📋   • Tamanho da resposta: 36,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 18,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (100ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 100ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (118ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 118ms
+- 📋   • Tamanho da resposta: 9,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 16,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (146ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 146ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 98,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (688ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 688ms
+- 📋   • Tamanho da resposta: 176,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 117,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (559ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 559ms
+- 📋   • Tamanho da resposta: 154,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (665ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 665ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (399ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 399ms
+- 📋   • Tamanho da resposta: 127,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 5,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (301ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 301ms
+- 📋   • Tamanho da resposta: 12,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (476ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 476ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 1,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 27,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (111ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 111ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (132ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 132ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 30,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 41,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (163ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 163ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 56,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 112,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (783ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 783ms
+- 📋   • Tamanho da resposta: 217,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 177,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (527ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 527ms
+- 📋   • Tamanho da resposta: 170,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,4s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1373ms
+- 📋   • Tamanho da resposta: 133,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (528ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 528ms
+- 📋   • Tamanho da resposta: 114,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (323ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 323ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (519ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 519ms
+- 📋   • Tamanho da resposta: 164,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (790ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 790ms
+- 📋   • Tamanho da resposta: 307,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1275ms
+- 📋   • Tamanho da resposta: 416,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1221ms
+- 📋   • Tamanho da resposta: 342,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1038ms
+- 📋   • Tamanho da resposta: 293,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 79,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 22,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (110ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 110ms
+- 📋   • Tamanho da resposta: 16,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (575ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 575ms
+- 📋   • Tamanho da resposta: 210,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (701ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 701ms
+- 📋   • Tamanho da resposta: 321,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (725ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 725ms
+- 📋   • Tamanho da resposta: 266,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (849ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 849ms
+- 📋   • Tamanho da resposta: 310,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (439ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 439ms
+- 📋   • Tamanho da resposta: 193,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 182,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (832ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 832ms
+- 📋   • Tamanho da resposta: 410,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1071ms
+- 📋   • Tamanho da resposta: 453,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,2s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1160ms
+- 📋   • Tamanho da resposta: 426,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (970ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 970ms
+- 📋   • Tamanho da resposta: 338,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (398ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 398ms
+- 📋   • Tamanho da resposta: 196,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 179,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 751 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (91ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 91ms
+- 📋   • Tamanho da resposta: 9,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 24,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (102ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 102ms
+- 📋   • Tamanho da resposta: 11,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (85ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 85ms
+- 📋   • Tamanho da resposta: 4,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 792 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 803 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (95ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 95ms
+- 📋   • Tamanho da resposta: 14,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 13,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (107ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 107ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (108ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 108ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (90ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 90ms
+- 📋   • Tamanho da resposta: 16,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 9,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 8,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 4,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (559ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 559ms
+- 📋   • Tamanho da resposta: 260,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (681ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 681ms
+- 📋   • Tamanho da resposta: 206,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (700ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 700ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (563ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 563ms
+- 📋   • Tamanho da resposta: 184,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (499ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 499ms
+- 📋   • Tamanho da resposta: 157,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (400ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 400ms
+- 📋   • Tamanho da resposta: 126,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (626ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 626ms
+- 📋   • Tamanho da resposta: 258,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 63,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (120ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 120ms
+- 📋   • Tamanho da resposta: 17,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 69,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (162ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 162ms
+- 📋   • Tamanho da resposta: 53,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 53,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 60,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 62,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 45,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 48,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 21,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (123ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 123ms
+- 📋   • Tamanho da resposta: 22,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 140,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (382ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 382ms
+- 📋   • Tamanho da resposta: 171,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 89,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (289ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 289ms
+- 📋   • Tamanho da resposta: 124,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (487ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 487ms
+- 📋   • Tamanho da resposta: 130,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (606ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 606ms
+- 📋   • Tamanho da resposta: 208,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (139ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 139ms
+- 📋   • Tamanho da resposta: 35,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (314ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 314ms
+- 📋   • Tamanho da resposta: 32,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 115,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 66,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (122ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 122ms
+- 📋   • Tamanho da resposta: 32,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 885 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (938ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 938ms
+- 📋   • Tamanho da resposta: 554,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1072ms
+- 📋   • Tamanho da resposta: 543,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (818ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 818ms
+- 📋   • Tamanho da resposta: 272,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 245,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (702ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 702ms
+- 📋   • Tamanho da resposta: 342,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (3,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2981ms
+- 📋   • Tamanho da resposta: 293,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (143ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 143ms
+- 📋   • Tamanho da resposta: 51,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 86,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 93,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 80,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:49:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 83,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (333ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 333ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 1,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (953ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 953ms
+- 📋   • Tamanho da resposta: 210,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (922ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 922ms
+- 📋   • Tamanho da resposta: 535,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (709ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 709ms
+- 📋   • Tamanho da resposta: 394,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,6s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1556ms
+- 📋   • Tamanho da resposta: 328,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1058ms
+- 📋   • Tamanho da resposta: 410,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (1,3s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1345ms
+- 📋   • Tamanho da resposta: 374,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (330ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 330ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (153ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 153ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (377ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 377ms
+- 📋   • Tamanho da resposta: 45,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (127ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 127ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 20,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 742 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (138ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 138ms
+- 📋   • Tamanho da resposta: 25,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 25,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (105ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 105ms
+- 📋   • Tamanho da resposta: 24,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 23,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (88ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 88ms
+- 📋   • Tamanho da resposta: 17,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 14,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 10,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 638 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 10,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 7,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (126ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 126ms
+- 📋   • Tamanho da resposta: 45,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 1,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:50:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+
+
+## 08:44:07 | Consumo de Base despesa credor
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/base-despesa-credor
+- 🔄 Iniciando consumo de dados...
+- ✅ 61857 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (23,0s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 61857
+- 📋   • Tempo de persistência: 22999ms
+- 📋   • Tabela: consumer_sefaz.base_despesa_credor
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 61857 registros | Tempo total: 6m 29s**
+
+
+## 08:44:07 | Execução Específica - Base Despesa Credor
+- 🔄 Processando Base Despesa Credor...
+- ✅ 61857 registros de Base Despesa Credor processados (6m 29s)
+- ⏱️ **Processamento específico de Base Despesa Credor concluído com sucesso | Tempo total: 6m 29s**
+- 📋 Total processado: 61857 registros
+- 📋 Tempo de execução: 389268 ms
+
+
+## 08:53:33 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:53:42 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:53:45 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 08:55:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 28,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 46,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (470ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 470ms
+- 📋   • Tamanho da resposta: 110,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 105,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 67,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (877ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 877ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 96,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 495,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (382ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 382ms
+- 📋   • Tamanho da resposta: 236,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (319ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 319ms
+- 📋   • Tamanho da resposta: 153,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 96,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (337ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 337ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 146,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (420ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 420ms
+- 📋   • Tamanho da resposta: 377,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (620ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 620ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 121,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (436ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 436ms
+- 📋   • Tamanho da resposta: 73,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 117,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 98,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (280ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 280ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 15,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 18,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (251ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 251ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 70,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 369,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (863ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 863ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (355ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 355ms
+- 📋   • Tamanho da resposta: 373,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (388ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 388ms
+- 📋   • Tamanho da resposta: 271,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (528ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 528ms
+- 📋   • Tamanho da resposta: 201,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 48,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (292ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 292ms
+- 📋   • Tamanho da resposta: 58,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (3,0s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 3011ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (120ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 120ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (112ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 112ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (741ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 741ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (288ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 288ms
+- 📋   • Tamanho da resposta: 13,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (302ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 302ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:55:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (391ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 391ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (375ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 375ms
+- 📋   • Tamanho da resposta: 16,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 19,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 7,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 925 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (604ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 604ms
+- 📋   • Tamanho da resposta: 777,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (622ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 622ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (471ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 471ms
+- 📋   • Tamanho da resposta: 594,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (460ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 460ms
+- 📋   • Tamanho da resposta: 126,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 4,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 24,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 955 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (87ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 87ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 32,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 8,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (279ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 279ms
+- 📋   • Tamanho da resposta: 14,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 37,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 30,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 32,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 19,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (410ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 410ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 987 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (274ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 274ms
+- 📋   • Tamanho da resposta: 100,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (635ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 635ms
+- 📋   • Tamanho da resposta: 92,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 174,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 53,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 64,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 95,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (404ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 404ms
+- 📋   • Tamanho da resposta: 79,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 988 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 15,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 22,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 11,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 16,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 10,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 967 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 40,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 20,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 12,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 28,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 12,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 13,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 65,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 57,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 1007 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 28,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 7,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (175ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 175ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 975 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 36,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 11,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 20,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 58,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 34,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 29,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 82,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 155,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 224,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (327ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 327ms
+- 📋   • Tamanho da resposta: 253,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (308ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 308ms
+- 📋   • Tamanho da resposta: 174,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 122,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 33,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 838 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 115,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 44,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 152,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 115,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 150,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 78,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 19,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 8,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 6,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 13,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (92ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 92ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 902 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 948 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 63,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (448ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 448ms
+- 📋   • Tamanho da resposta: 112,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 79,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (296ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 296ms
+- 📋   • Tamanho da resposta: 63,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 46,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 66,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (317ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 317ms
+- 📋   • Tamanho da resposta: 85,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 35,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:56:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 7,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 21,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 36,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 46,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 29,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 915 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 938 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 28,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 34,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 117,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 169,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 102,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 99,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (170ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 170ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 128,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 119,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 76,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 74,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 8,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 1000 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 912 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (117ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 117ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 21,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 5,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 857 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 08:57:18 | ❌ ERRO em DATABASE
+- 🚨 **Erro**: INSERT_BATCH | TABLE: consumer_sefaz.contrato_empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: a9cffbbf
+
+
+
+## 08:57:18 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: a9cffbbf
+
+
+
+## 08:55:24 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 16476 registros encontrados
+- 🔄 Salvando dados no banco...
+- ❌ Falha na operação: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📋 Tempo até falha: 113748ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 1m 53s**
+
+
+## 08:57:18 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: b435d5a2
+
+
+
+## 08:57:18 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: CONTRATO_EMPENHO_ONLY_CONSUMPTION | ENDPOINT: contrato-empenho
+- 🔍 **Tipo**: BadSqlGrammarException
+- 📋 **Detalhes**: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- 📍 **Local**: org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+- 🔗 **Correlation ID**: bcb30dcd
+
+
+
+## 08:55:24 | Execução Específica - Contrato-Empenho
+- 🔄 Processando Contrato-Empenho...
+- ❌ Falha no processamento de Contrato-Empenho: PreparedStatementCallback; bad SQL grammar [INSERT INTO consumer_sefaz.contrato_empenho (cd_solicitacao_compra, ug_cd, ds_resumida_solicitacao_compra, cd_licitacao, dt_ano_exercicio, situacao, nm_modalidade_licitacao, crit_julg_licitacao, natureza_objeto_licitacao, ug_se, doc_se, doc_referencia_ne, valor_se, ug_ne, doc_ne, doc_credor_ne, nm_credor_ne, tipo_empenho, vl_original_ne, vltotal_reforco_ne, vltotal_anulado_ne, vltotal_liquidado_ne, vl_total_pago_ne, cd_contrato, tipo_contrato, vl_contrato, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+- ⏱️ **Execução interrompida por erro | Tempo total: 1m 53s**
+
+
+## 09:03:17 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
