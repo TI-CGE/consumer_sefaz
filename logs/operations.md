@@ -21922,3 +21922,9876 @@
 ## 09:03:17 | Inicialização da Aplicação
 - 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
 
+
+## 09:04:16 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:05:05 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:05:07 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:05:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (548ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 548ms
+- 📋   • Tamanho da resposta: 28,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 46,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 110,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 105,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (307ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 307ms
+- 📋   • Tamanho da resposta: 67,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 96,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (421ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 421ms
+- 📋   • Tamanho da resposta: 495,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 236,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (500ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 500ms
+- 📋   • Tamanho da resposta: 153,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 96,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 146,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (300ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 300ms
+- 📋   • Tamanho da resposta: 377,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (626ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 626ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 121,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 73,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (432ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 432ms
+- 📋   • Tamanho da resposta: 117,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 98,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (520ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 520ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 15,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:37 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 09:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 18,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (160ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 160ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (429ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 429ms
+- 📋   • Tamanho da resposta: 70,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (367ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 367ms
+- 📋   • Tamanho da resposta: 369,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (635ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 635ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (411ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 411ms
+- 📋   • Tamanho da resposta: 373,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (535ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 535ms
+- 📋   • Tamanho da resposta: 271,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (309ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 309ms
+- 📋   • Tamanho da resposta: 201,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 48,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 58,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 13,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 16,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 19,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (274ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 274ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 7,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 925 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (541ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 541ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (653ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 653ms
+- 📋   • Tamanho da resposta: 777,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (529ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 529ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (639ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 639ms
+- 📋   • Tamanho da resposta: 594,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 126,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 4,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 24,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 955 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (264ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 264ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 32,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 8,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 14,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 37,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (401ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 401ms
+- 📋   • Tamanho da resposta: 30,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 32,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 19,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 987 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 100,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 92,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 174,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 53,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (259ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 259ms
+- 📋   • Tamanho da resposta: 64,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 95,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 79,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 988 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 15,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 22,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 11,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 16,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 10,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 967 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (417ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 417ms
+- 📋   • Tamanho da resposta: 40,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 20,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 12,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 28,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 12,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (358ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 358ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 13,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 65,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 57,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 1007 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (167ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 167ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 28,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 7,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 975 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 36,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 11,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 20,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 58,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 34,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (389ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 389ms
+- 📋   • Tamanho da resposta: 29,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (386ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 386ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (445ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 445ms
+- 📋   • Tamanho da resposta: 82,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (258ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 258ms
+- 📋   • Tamanho da resposta: 155,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (322ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 322ms
+- 📋   • Tamanho da resposta: 224,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 253,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (463ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 463ms
+- 📋   • Tamanho da resposta: 174,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 122,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (319ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 319ms
+- 📋   • Tamanho da resposta: 33,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (434ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 434ms
+- 📋   • Tamanho da resposta: 838 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 115,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 44,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (299ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 299ms
+- 📋   • Tamanho da resposta: 152,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 115,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 150,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 78,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 19,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 8,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 6,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (113ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 113ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 13,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 902 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 948 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (410ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 410ms
+- 📋   • Tamanho da resposta: 63,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 112,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (620ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 620ms
+- 📋   • Tamanho da resposta: 79,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (326ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 326ms
+- 📋   • Tamanho da resposta: 63,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 46,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 66,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (483ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 483ms
+- 📋   • Tamanho da resposta: 85,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 35,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 7,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (165ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 165ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 21,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 36,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (384ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 384ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 46,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 29,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 915 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (177ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 177ms
+- 📋   • Tamanho da resposta: 938 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ❌ Falha na chamada: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔍 Detalhes: 500 Internal Server Error: "Desculpe! Não foi possível concluir a operação com sucesso."
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 28,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:06:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 34,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 117,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (296ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 296ms
+- 📋   • Tamanho da resposta: 169,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 102,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (246ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 246ms
+- 📋   • Tamanho da resposta: 99,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (321ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 321ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 128,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 119,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 76,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (402ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 402ms
+- 📋   • Tamanho da resposta: 74,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 8,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 1000 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 912 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (84ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 84ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 21,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (242ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 242ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 5,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (211ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 211ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 857 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:07:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:05:22 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 16471 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (6,7s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 16471
+- 📋   • Tempo de persistência: 6670ms
+- 📋   • Tabela: consumer_sefaz.contrato_empenho
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 16471 registros | Tempo total: 1m 56s**
+
+
+## 09:05:22 | Execução Específica - Contrato-Empenho
+- 🔄 Processando Contrato-Empenho...
+- ✅ 16471 registros de Contrato-Empenho processados (1m 56s)
+- ⏱️ **Processamento específico de Contrato-Empenho concluído com sucesso | Tempo total: 1m 56s**
+- 📋 Total processado: 16471 registros
+- 📋 Tempo de execução: 116160 ms
+
+
+## 09:19:05 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:19:57 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:30:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (414ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 414ms
+- 📋   • Tamanho da resposta: 28,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 96,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 146,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 70,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (83ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 83ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (441ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 441ms
+- 📋   • Tamanho da resposta: 777,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 32,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 8,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 100,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:30:29 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: a94caf96
+
+
+
+## 09:30:22 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔄 Iniciando consumo de dados...
+- ❌ Falha na operação: Failed to obtain JDBC Connection
+- 📋 Tempo até falha: 7437ms
+- ⏱️ **Operação interrompida por erro | Tempo total: 7,4s**
+
+
+## 09:30:29 | ❌ ERRO em CONTRACT_CONSUMER
+- 🚨 **Erro**: CONSUMIR_PERSISTIR
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: a3a16e64
+
+
+
+## 09:30:29 | ❌ ERRO em SCHEDULER
+- 🚨 **Erro**: CONTRATO_EMPENHO_ONLY_CONSUMPTION | ENDPOINT: contrato-empenho
+- 🔍 **Tipo**: CannotGetJdbcConnectionException
+- 📋 **Detalhes**: Failed to obtain JDBC Connection
+- 📍 **Local**: org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:84)
+- 🔗 **Correlation ID**: 99f08b95
+
+
+
+## 09:30:22 | Execução Específica - Contrato-Empenho
+- 🔄 Processando Contrato-Empenho...
+- ❌ Falha no processamento de Contrato-Empenho: Failed to obtain JDBC Connection
+- ⏱️ **Execução interrompida por erro | Tempo total: 7,4s**
+
+
+## 09:30:31 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:31:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 28,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (440ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 440ms
+- 📋   • Tamanho da resposta: 96,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (310ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 310ms
+- 📋   • Tamanho da resposta: 146,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 70,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (135ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 135ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (609ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 609ms
+- 📋   • Tamanho da resposta: 777,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 32,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (76ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 76ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 8,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (850ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 850ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (104ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 104ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 100,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (256ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 256ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (926ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 926ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (974ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 974ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (2,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 2145ms
+- 📋   • Tamanho da resposta: 967 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (667ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 667ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (227ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 227ms
+- 📋   • Tamanho da resposta: 13,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 975 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (450ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 450ms
+- 📋   • Tamanho da resposta: 82,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 44,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (174ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 174ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (94ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 94ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (212ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 212ms
+- 📋   • Tamanho da resposta: 63,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 21,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 28,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 34,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (44ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 44ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (42ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 42ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (41ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 41ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (45ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 45ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:31:32 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 1867 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (658ms)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 1867
+- 📋   • Tempo de persistência: 658ms
+- 📋   • Tabela: consumer_sefaz.contrato_empenho
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 1867 registros | Tempo total: 19,7s**
+
+
+## 09:31:32 | Execução Específica - Contrato-Empenho
+- 🔄 Processando Contrato-Empenho...
+- ✅ 1867 registros de Contrato-Empenho processados (19,7s)
+- ⏱️ **Processamento específico de Contrato-Empenho concluído com sucesso | Tempo total: 19,7s**
+- 📋 Total processado: 1867 registros
+- 📋 Tempo de execução: 19673 ms
+
+
+## 09:34:59 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:40:21 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:40:26 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:42:40 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:42:43 | Inicialização da Aplicação
+- 📋 SEFAZ Transparency Consumer vDEV | Perfil: dev
+
+
+## 09:46:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (476ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 476ms
+- 📋   • Tamanho da resposta: 28,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 46,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (448ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 448ms
+- 📋   • Tamanho da resposta: 110,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 105,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 67,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (465ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 465ms
+- 📋   • Tamanho da resposta: 96,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (623ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 623ms
+- 📋   • Tamanho da resposta: 495,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (538ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 538ms
+- 📋   • Tamanho da resposta: 236,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (305ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 305ms
+- 📋   • Tamanho da resposta: 153,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (272ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 272ms
+- 📋   • Tamanho da resposta: 96,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 56,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (521ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 521ms
+- 📋   • Tamanho da resposta: 146,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (434ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 434ms
+- 📋   • Tamanho da resposta: 377,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (655ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 655ms
+- 📋   • Tamanho da resposta: 1,1 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 121,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (245ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 245ms
+- 📋   • Tamanho da resposta: 73,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (497ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 497ms
+- 📋   • Tamanho da resposta: 117,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 98,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (506ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 506ms
+- 📋   • Tamanho da resposta: 120,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 15,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 18,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (371ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 371ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (630ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 630ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (172ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 172ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 14,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (123ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 123ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (46ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 46ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (43ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 43ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 70,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (359ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 359ms
+- 📋   • Tamanho da resposta: 369,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (830ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 830ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (425ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 425ms
+- 📋   • Tamanho da resposta: 373,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (362ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 362ms
+- 📋   • Tamanho da resposta: 271,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (331ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 331ms
+- 📋   • Tamanho da resposta: 201,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (240ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 240ms
+- 📋   • Tamanho da resposta: 48,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (261ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 261ms
+- 📋   • Tamanho da resposta: 58,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (171ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 171ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 13,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 10,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 8,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 16,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 19,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (89ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 89ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (194ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 194ms
+- 📋   • Tamanho da resposta: 6,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 3,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (173ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 173ms
+- 📋   • Tamanho da resposta: 7,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (179ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 179ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (168ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 168ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 925 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (254ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 254ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (1,1s)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 1060ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (80ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 80ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (499ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 499ms
+- 📋   • Tamanho da resposta: 777,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (628ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 628ms
+- 📋   • Tamanho da resposta: 1,0 MB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (634ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 634ms
+- 📋   • Tamanho da resposta: 594,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 126,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (247ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 247ms
+- 📋   • Tamanho da resposta: 4,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 24,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (101ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 101ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 955 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (78ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 78ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (208ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 208ms
+- 📋   • Tamanho da resposta: 32,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 5,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (82ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 82ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (193ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 193ms
+- 📋   • Tamanho da resposta: 8,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (199ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 199ms
+- 📋   • Tamanho da resposta: 14,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 37,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 30,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 32,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (230ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 230ms
+- 📋   • Tamanho da resposta: 23,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (452ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 452ms
+- 📋   • Tamanho da resposta: 3,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (79ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 79ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:04 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 19,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (239ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 239ms
+- 📋   • Tamanho da resposta: 987 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:05 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (251ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 251ms
+- 📋   • Tamanho da resposta: 16,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 33,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:06 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 6,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (218ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 218ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (231ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 231ms
+- 📋   • Tamanho da resposta: 23,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:07 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 100,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:08 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (424ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 424ms
+- 📋   • Tamanho da resposta: 92,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (483ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 483ms
+- 📋   • Tamanho da resposta: 174,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (265ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 265ms
+- 📋   • Tamanho da resposta: 53,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:09 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 56,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (428ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 428ms
+- 📋   • Tamanho da resposta: 64,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (253ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 253ms
+- 📋   • Tamanho da resposta: 27,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:10 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (309ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 309ms
+- 📋   • Tamanho da resposta: 95,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:11 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (476ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 476ms
+- 📋   • Tamanho da resposta: 79,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (461ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 461ms
+- 📋   • Tamanho da resposta: 75,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 14,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 9,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:12 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:13 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 988 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (197ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 197ms
+- 📋   • Tamanho da resposta: 15,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:14 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 22,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 6,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (313ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 313ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 15,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (98ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 98ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:15 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (303ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 303ms
+- 📋   • Tamanho da resposta: 4,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (270ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 270ms
+- 📋   • Tamanho da resposta: 11,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:16 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (251ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 251ms
+- 📋   • Tamanho da resposta: 16,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 10,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 17,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (249ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 249ms
+- 📋   • Tamanho da resposta: 15,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:17 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (75ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 75ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:18 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 967 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 40,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 20,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (205ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 205ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:19 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 12,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 28,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (257ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 257ms
+- 📋   • Tamanho da resposta: 12,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:20 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (71ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 71ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (69ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 69ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (72ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 72ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (77ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 77ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:21 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (81ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 81ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 13,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (304ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 304ms
+- 📋   • Tamanho da resposta: 65,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (281ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 281ms
+- 📋   • Tamanho da resposta: 57,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:22 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (233ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 233ms
+- 📋   • Tamanho da resposta: 3,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (213ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 213ms
+- 📋   • Tamanho da resposta: 1007 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (209ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 209ms
+- 📋   • Tamanho da resposta: 8,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:23 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 9,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 28,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (217ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 217ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (203ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 203ms
+- 📋   • Tamanho da resposta: 7,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:24 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 4,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:25 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (198ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 198ms
+- 📋   • Tamanho da resposta: 975 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (200ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 200ms
+- 📋   • Tamanho da resposta: 3,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (237ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 237ms
+- 📋   • Tamanho da resposta: 36,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (269ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 269ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:26 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (214ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 214ms
+- 📋   • Tamanho da resposta: 11,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (429ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 429ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 3,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (236ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 236ms
+- 📋   • Tamanho da resposta: 20,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:27 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 58,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (241ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 241ms
+- 📋   • Tamanho da resposta: 34,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:28 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (508ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 508ms
+- 📋   • Tamanho da resposta: 29,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 8,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (294ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 294ms
+- 📋   • Tamanho da resposta: 82,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:29 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (275ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 275ms
+- 📋   • Tamanho da resposta: 155,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (557ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 557ms
+- 📋   • Tamanho da resposta: 224,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:30 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (327ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 327ms
+- 📋   • Tamanho da resposta: 253,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:31 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (520ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 520ms
+- 📋   • Tamanho da resposta: 174,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (282ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 282ms
+- 📋   • Tamanho da resposta: 122,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (419ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 419ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:32 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 33,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (215ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 215ms
+- 📋   • Tamanho da resposta: 21,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 1,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (181ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 181ms
+- 📋   • Tamanho da resposta: 838 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:33 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 21,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 115,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (228ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 228ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:34 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (221ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 221ms
+- 📋   • Tamanho da resposta: 44,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:35 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (376ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 376ms
+- 📋   • Tamanho da resposta: 152,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 115,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 150,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:36 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (260ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 260ms
+- 📋   • Tamanho da resposta: 78,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 19,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (267ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 267ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:37 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 6,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (189ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 189ms
+- 📋   • Tamanho da resposta: 8,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (225ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 225ms
+- 📋   • Tamanho da resposta: 6,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (235ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 235ms
+- 📋   • Tamanho da resposta: 5,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:38 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 11,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (204ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 204ms
+- 📋   • Tamanho da resposta: 13,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 2,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:39 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (183ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 183ms
+- 📋   • Tamanho da resposta: 4,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (184ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 184ms
+- 📋   • Tamanho da resposta: 937 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (66ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 66ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:40 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 902 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 948 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 63,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:41 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (262ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 262ms
+- 📋   • Tamanho da resposta: 112,5 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 79,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:42 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (255ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 255ms
+- 📋   • Tamanho da resposta: 63,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (503ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 503ms
+- 📋   • Tamanho da resposta: 46,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 29,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:43 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 66,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (256ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 256ms
+- 📋   • Tamanho da resposta: 85,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 35,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (201ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 201ms
+- 📋   • Tamanho da resposta: 1,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (50ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 50ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:44 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (223ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 223ms
+- 📋   • Tamanho da resposta: 944 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (188ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 188ms
+- 📋   • Tamanho da resposta: 7,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 50,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:45 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 18,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (232ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 232ms
+- 📋   • Tamanho da resposta: 6,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:46 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (238ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 238ms
+- 📋   • Tamanho da resposta: 21,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (263ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 263ms
+- 📋   • Tamanho da resposta: 36,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 21,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:47 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (176ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 176ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 15,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 35,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 45,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:48 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (210ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 210ms
+- 📋   • Tamanho da resposta: 46,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (207ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 207ms
+- 📋   • Tamanho da resposta: 29,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 3,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (191ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 191ms
+- 📋   • Tamanho da resposta: 915 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:49 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (186ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 186ms
+- 📋   • Tamanho da resposta: 8,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (187ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 187ms
+- 📋   • Tamanho da resposta: 938 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (58ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 58ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 28,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:50 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 98,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 37,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (63ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 63ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (51ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 51ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 34,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:51 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (268ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 268ms
+- 📋   • Tamanho da resposta: 117,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (328ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 328ms
+- 📋   • Tamanho da resposta: 169,1 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:52 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (243ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 243ms
+- 📋   • Tamanho da resposta: 102,2 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (297ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 297ms
+- 📋   • Tamanho da resposta: 99,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (229ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 229ms
+- 📋   • Tamanho da resposta: 65,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:53 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (248ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 248ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (185ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 185ms
+- 📋   • Tamanho da resposta: 928 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (180ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 180ms
+- 📋   • Tamanho da resposta: 7,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (182ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 182ms
+- 📋   • Tamanho da resposta: 1,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (47ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 47ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:54 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (234ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 234ms
+- 📋   • Tamanho da resposta: 42,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (455ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 455ms
+- 📋   • Tamanho da resposta: 128,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (252ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 252ms
+- 📋   • Tamanho da resposta: 119,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:55 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (224ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 224ms
+- 📋   • Tamanho da resposta: 76,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (278ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 278ms
+- 📋   • Tamanho da resposta: 74,9 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (220ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 220ms
+- 📋   • Tamanho da resposta: 39,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:56 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (250ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 250ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (431ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 431ms
+- 📋   • Tamanho da resposta: 8,4 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (290ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 290ms
+- 📋   • Tamanho da resposta: 5,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:57 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (273ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 273ms
+- 📋   • Tamanho da resposta: 1000 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (271ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 271ms
+- 📋   • Tamanho da resposta: 953 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (49ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 49ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (202ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 202ms
+- 📋   • Tamanho da resposta: 912 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (192ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 192ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (48ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 48ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (53ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 53ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (52ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 52ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:58 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (65ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 65ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (68ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 68ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (55ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 55ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (178ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 178ms
+- 📋   • Tamanho da resposta: 2,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (196ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 196ms
+- 📋   • Tamanho da resposta: 7,3 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (190ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 190ms
+- 📋   • Tamanho da resposta: 1,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:47:59 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (293ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 293ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (86ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 86ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (70ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 70ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (57ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 57ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 8,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:00 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (244ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 244ms
+- 📋   • Tamanho da resposta: 21,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (206ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 206ms
+- 📋   • Tamanho da resposta: 4,7 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (226ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 226ms
+- 📋   • Tamanho da resposta: 5,6 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (216ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 216ms
+- 📋   • Tamanho da resposta: 2,8 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (219ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 219ms
+- 📋   • Tamanho da resposta: 5,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:01 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (59ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 59ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (54ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 54ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (67ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 67ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (62ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 62ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (195ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 195ms
+- 📋   • Tamanho da resposta: 1,0 KB
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (61ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 61ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (64ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 64ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:02 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (74ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 74ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (222ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 222ms
+- 📋   • Tamanho da resposta: 857 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (73ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 73ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (60ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 60ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:48:03 | Chamada de API SEFAZ
+- ✅ GET https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho - Status: 200 (56ms)
+- 📋 📊 Detalhes da chamada:
+- 📋   • Tempo de resposta: 56ms
+- 📋   • Tamanho da resposta: 2 bytes
+- 📋   • Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+
+
+## 09:46:22 | Consumo de Dados
+- 📋 Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-empenho
+- 🔄 Iniciando consumo de dados...
+- ✅ 16476 registros encontrados
+- 🔄 Salvando dados no banco...
+- ✅ Dados salvos no banco (7,2s)
+- 📋 📊 Estatísticas:
+- 📋   • Registros processados: 16476
+- 📋   • Tempo de persistência: 7222ms
+- 📋   • Tabela: consumer_sefaz.contrato_empenho
+- ⚠️ Operação demorou mais que 10 segundos
+- ⏱️ **Total: 16476 registros | Tempo total: 1m 47s**
+
+
+## 09:46:22 | Execução Específica - Contrato-Empenho
+- 🔄 Processando Contrato-Empenho...
+- ✅ 16476 registros de Contrato-Empenho processados (1m 48s)
+- ⏱️ **Processamento específico de Contrato-Empenho concluído com sucesso | Tempo total: 1m 48s**
+- 📋 Total processado: 16476 registros
+- 📋 Tempo de execução: 108005 ms
+

@@ -26,26 +26,24 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
     private String situacao;
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
-    @JsonProperty("critJulgLicitacao")
-    private String critJulgLicitacao;
-    @JsonProperty("naturezaObjetoLicitacao")
+    @JsonProperty("tpNaturezaObjetoLicitacao")
     private String naturezaObjetoLicitacao;
     @JsonProperty("cdUnidadeGestoraSE")
     private String ugSe;
     @JsonProperty("docSe")
     private String docSe;
-    @JsonProperty("docReferenciaNe")
-    private String docReferenciaNe;
     @JsonProperty("vlSE")
     private BigDecimal valorSe;
     @JsonProperty("cdUnidadeGestoraNE")
     private String ugNe;
     @JsonProperty("docNe")
     private String docNe;
-    @JsonProperty("docCredorNe")
+    @JsonProperty("nuDocumentoCredor")
     private String docCredorNe;
-    @JsonProperty("nmCredorNe")
+    @JsonProperty("nmCredor")
     private String nmCredorNe;
+    @JsonProperty("tpCritJulgLicitacao")
+    private String critJulgLicitacao;
     @JsonProperty("tpEmpenho")
     private String tipoEmpenho;
     @JsonProperty("vlOriginalNE")
@@ -86,7 +84,10 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
     @Override
     public void mapearCamposResposta() {
         camposResposta.put("cd_solicitacao_compra", cdSolicitacaoCompra);
-        camposResposta.put("ug_cd", ugCd);
+        // ug_cd é campo técnico - usar a UG do filtro atual ou a UG do empenho
+        String ugAtual = cdUnidadeGestoraFiltro != null ? cdUnidadeGestoraFiltro :
+                        (ugNe != null ? ugNe : (ugSe != null ? ugSe : ugCd));
+        camposResposta.put("ug_cd", ugAtual);
         camposResposta.put("ds_resumida_solicitacao_compra", dsResumidaSolicitacaoCompra);
         camposResposta.put("cd_licitacao", cdLicitacao);
         camposResposta.put("dt_ano_exercicio", dtAnoExercicio);
@@ -96,7 +97,6 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
         camposResposta.put("natureza_objeto_licitacao", naturezaObjetoLicitacao);
         camposResposta.put("ug_se", ugSe);
         camposResposta.put("doc_se", docSe);
-        camposResposta.put("doc_referencia_ne", docReferenciaNe);
         camposResposta.put("valor_se", valorSe);
         camposResposta.put("ug_ne", ugNe);
         camposResposta.put("doc_ne", docNe);
@@ -212,12 +212,7 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
     public void setDocSe(String docSe) {
         this.docSe = docSe;
     }
-    public String getDocReferenciaNe() {
-        return docReferenciaNe;
-    }
-    public void setDocReferenciaNe(String docReferenciaNe) {
-        this.docReferenciaNe = docReferenciaNe;
-    }
+
     public BigDecimal getValorSe() {
         return valorSe;
     }
