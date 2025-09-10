@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.service;
+package br.gov.se.setc.consumer.service;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;

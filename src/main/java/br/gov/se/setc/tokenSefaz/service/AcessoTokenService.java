@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.tokenSefaz.service;
+package br.gov.se.setc.tokenSefaz.service;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.*;

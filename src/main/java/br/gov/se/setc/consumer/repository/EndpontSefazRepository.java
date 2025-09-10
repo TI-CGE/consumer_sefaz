@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.repository;
+package br.gov.se.setc.consumer.repository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

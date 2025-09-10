@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.service;
+package br.gov.se.setc.consumer.service;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.logging.SimpleLogger;
 import org.springframework.beans.factory.annotation.Autowired;

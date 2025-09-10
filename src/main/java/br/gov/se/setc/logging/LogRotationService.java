@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging;
+package br.gov.se.setc.logging;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.core.rolling.RollingFileAppender;
 import ch.qos.logback.core.Appender;

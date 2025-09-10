@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.service;
+package br.gov.se.setc.consumer.service;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.jdbc.core.JdbcTemplate;

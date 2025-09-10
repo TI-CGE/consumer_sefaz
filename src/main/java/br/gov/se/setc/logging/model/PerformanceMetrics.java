@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging.model;
+package br.gov.se.setc.logging.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 /**
  * Modelo para métricas de performance

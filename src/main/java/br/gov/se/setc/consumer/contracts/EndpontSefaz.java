@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.contracts;
+package br.gov.se.setc.consumer.contracts;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import br.gov.se.setc.util.ValidacaoUtil;

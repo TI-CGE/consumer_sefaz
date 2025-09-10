@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging.model;
+package br.gov.se.setc.logging.model;
 import com.fasterxml.jackson.annotation.JsonInclude;
 /**
  * Modelo específico para logs de chamadas de API

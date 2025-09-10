@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.controller;
+package br.gov.se.setc.consumer.controller;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.List;

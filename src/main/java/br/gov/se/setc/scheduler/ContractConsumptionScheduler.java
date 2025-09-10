@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.scheduler;
+package br.gov.se.setc.scheduler;
 import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
 import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
 import br.gov.se.setc.consumer.dto.ContratoDTO;

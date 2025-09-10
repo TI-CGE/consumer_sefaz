@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.service;
+package br.gov.se.setc.consumer.service;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.ContratoDTO;

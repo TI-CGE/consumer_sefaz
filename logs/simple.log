@@ -1,0 +1,95 @@
+15:57:54 | SCHEDULER_CONTROLLER | 🚀 Iniciando MANUAL_EXECUTION
+15:57:54 | SCHEDULER | 🚀 Iniciando SCHEDULED_EXECUTION | ENDPOINTS: MULTIPLE_ENDPOINTS
+PROGRESS_BAR | SCHEDULER | Executando entidades | 1/4 | 25% | Unidades Gestoras
+15:57:54 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+CONSUMPTION_START | unidades gestoras | Iniciando consumo de dados da API SEFAZ
+15:57:54 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+15:57:54 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:57:54 | SECURITY | 🚀 Iniciando GET_NEW_TOKEN | CLIENT_ID: 87f72053 | URL: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+15:57:54 | SECURITY | 🚀 Iniciando TOKEN_REQUEST_ATTEMPT | ATTEMPT: 1 | MAX_RETRIES: 3
+15:57:54 | SECURITY | ✅ TOKEN_CACHED | 1 registros | EXPIRATION_TIME: 1757534274630 (0ms)
+15:57:54 | SECURITY | ✅ GET_TOKEN | 1 registros (176ms)
+15:57:54 | DATABASE | 🚀 Iniciando INSERT_BATCH | TABLE: consumer_sefaz.unidade_gestora | COUNT: 119
+15:57:54 | DATABASE | ✅ INSERT_BATCH | 119 registros | TABLE: consumer_sefaz.unidade_gestora (84ms)
+15:57:54 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 119 registros | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E (481ms)
+CONSUMPTION_END | unidades gestoras | 119 registros processados | 481ms
+15:57:54 | CONTRACT_CONSUMER | ✅ CONSUMIR_PERSISTIR | 119 registros (484ms)
+PROGRESS_BAR | SCHEDULER | Executando entidades | 2/4 | 50% | Consulta Gerencial
+15:57:56 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR
+CONSUMPTION_START | dados | Iniciando consumo de dados da API SEFAZ
+15:57:56 | CONTRACT_CONSUMER | 🚀 Iniciando CONSUMIR_PERSISTIR | ENDPOINT: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial
+PROGRESS_BAR | dados | Processando UGs (carga completa) | 1/90 | 1% | UG: 173011
+PROGRESS_BAR | dados | Processando anos | 1/6 | 16% | UG: 173011 | Ano: 2025
+15:57:56 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:57:56 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:57:56 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 2/6 | 33% | UG: 173011 | Ano: 2024
+15:58:00 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:00 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:00 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 3/6 | 50% | UG: 173011 | Ano: 2023
+15:58:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:05 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:05 | SECURITY | ✅ GET_TOKEN | 1 registros (1ms)
+PROGRESS_BAR | dados | Processando anos | 4/6 | 66% | UG: 173011 | Ano: 2022
+15:58:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:05 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:05 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 5/6 | 83% | UG: 173011 | Ano: 2021
+15:58:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:05 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:05 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 6/6 | 100% | UG: 173011 | Ano: 2020
+15:58:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:05 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:05 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando UGs (carga completa) | 2/90 | 2% | UG: 181011
+PROGRESS_BAR | dados | Processando anos | 1/6 | 16% | UG: 181011 | Ano: 2025
+15:58:05 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:05 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:05 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 2/6 | 33% | UG: 181011 | Ano: 2024
+15:58:11 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:11 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:11 | SECURITY | ✅ GET_TOKEN | 1 registros (1ms)
+PROGRESS_BAR | dados | Processando anos | 3/6 | 50% | UG: 181011 | Ano: 2023
+15:58:18 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:18 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:18 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 4/6 | 66% | UG: 181011 | Ano: 2022
+15:58:18 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:18 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:18 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 5/6 | 83% | UG: 181011 | Ano: 2021
+15:58:18 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:18 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:18 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 6/6 | 100% | UG: 181011 | Ano: 2020
+15:58:18 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:18 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:18 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando UGs (carga completa) | 3/90 | 3% | UG: 152041
+PROGRESS_BAR | dados | Processando anos | 1/6 | 16% | UG: 152041 | Ano: 2025
+15:58:18 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:18 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:18 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 2/6 | 33% | UG: 152041 | Ano: 2024
+15:58:19 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:19 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:19 | SECURITY | ✅ GET_TOKEN | 1 registros (1ms)
+PROGRESS_BAR | dados | Processando anos | 3/6 | 50% | UG: 152041 | Ano: 2023
+15:58:19 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:19 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:19 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 4/6 | 66% | UG: 152041 | Ano: 2022
+15:58:19 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:19 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:19 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 5/6 | 83% | UG: 152041 | Ano: 2021
+15:58:19 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:19 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:19 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)
+PROGRESS_BAR | dados | Processando anos | 6/6 | 100% | UG: 152041 | Ano: 2020
+15:58:20 | SECURITY | 🚀 Iniciando GET_TOKEN
+15:58:20 | SECURITY | 🚀 Iniciando TOKEN_CACHE_HIT | CACHED_TOKEN: REUSING_VALID_TOKEN
+15:58:20 | SECURITY | ✅ GET_TOKEN | 1 registros (0ms)

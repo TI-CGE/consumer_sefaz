@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.repository;
+package br.gov.se.setc.consumer.repository;
 import br.gov.se.setc.consumer.entity.Contrato;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

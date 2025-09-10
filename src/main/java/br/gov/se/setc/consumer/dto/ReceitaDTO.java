@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.dto;
+package br.gov.se.setc.consumer.dto;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;

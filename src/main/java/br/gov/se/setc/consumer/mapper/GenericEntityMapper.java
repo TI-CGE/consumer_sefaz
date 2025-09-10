@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.mapper;
+package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

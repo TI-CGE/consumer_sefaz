@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.mapper;
+package br.gov.se.setc.consumer.mapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

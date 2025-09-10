@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.controller;
+package br.gov.se.setc.controller;
 import br.gov.se.setc.logging.LogCleanupService;
 import br.gov.se.setc.logging.LogRotationService;
 import io.swagger.v3.oas.annotations.Operation;

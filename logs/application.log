@@ -1,0 +1,172 @@
+2025-09-10 15:57:54.443 INFO  [d6c56ed6] [SCHEDULER_CONTROLLER] [MANUAL_EXECUTION] - Solicitação de execução manual recebida - Correlation ID: d6c56ed6
+2025-09-10 15:57:54.443 INFO  [d6c56ed6] [SCHEDULER_CONTROLLER] [MANUAL_EXECUTION] - === EXECUÇÃO MANUAL SOLICITADA ===
+2025-09-10 15:57:54.444 INFO  [086cc4ce] [SCHEDULER] [SCHEDULED_EXECUTION] - === INICIANDO CONSUMO DE UNIDADES GESTORAS ===
+2025-09-10 15:57:54.447 INFO  [086cc4ce] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - === PROCESSAMENTO DE UNIDADES GESTORAS ===
+2025-09-10 15:57:54.447 INFO  [086cc4ce] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Tipo: Dados independentes de UG e ano (busca todas as UGs ativas)
+2025-09-10 15:57:54.447 INFO  [086cc4ce] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Filtro aplicado: sgTipoUnidadeGestora=E
+2025-09-10 15:57:54.458 INFO  [086cc4ce] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - URL da API UG: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-09-10 15:57:54.458 INFO  [086cc4ce] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Fazendo requisição para buscar todas as UGs ativas...
+2025-09-10 15:57:54.470 INFO  [086cc4ce] [SECURITY] [TOKEN_REQUEST_ATTEMPT] - HTTP Request: POST https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token
+2025-09-10 15:57:54.634 INFO  [086cc4ce] [SECURITY] [AUTH_SUCCESS] - ✅ AUTENTICAÇÃO SUCESSO | Cliente: 87f72053 | Endpoint: https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token | DURATION: 156ms | ID: 086cc4ce
+2025-09-10 15:57:54.634 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-09-10 15:57:54.634 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:57:54.635 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E
+2025-09-10 15:57:54.824 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 17988
+2025-09-10 15:57:54.824 INFO  [87357e37] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v2/unidade-gestora?sgTipoUnidadeGestora=E | STATUS: 200 | DURATION: 365ms | REQUEST: 0 B | RESPONSE: 17,61 KB
+2025-09-10 15:57:54.825 INFO  [87357e37] [API_CLIENT] [API_CALL] - Resposta da API UG recebida. Status: 200 OK
+2025-09-10 15:57:54.825 INFO  [87357e37] [API_CLIENT] [API_CALL] - Processando JSON das Unidades Gestoras...
+2025-09-10 15:57:54.826 INFO  [87357e37] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"nmUnidadeGestora":"ASSEMBLÉIA LEGISLATIVA","sgUnidadeGestora":"ALESE","cdUnidadeGestora":"011011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE","sgUnidadeGestora":"TCE","cdUnidadeGestora":"021011","sgTipoUnidadeGestora":"E"},{"nmUnidadeGestora":"FUNDO DE MODERNIZAÇÃO DO TRIBUNAL DE CONTAS DO ESTADO DE SERGIPE
+2025-09-10 15:57:54.827 INFO  [87357e37] [API_CLIENT] [API_CALL] - Processando array com 119 itens
+2025-09-10 15:57:54.834 INFO  [87357e37] [API_CLIENT] [API_CALL] - Array processado: 119 instâncias criadas
+2025-09-10 15:57:54.834 INFO  [87357e37] [API_CLIENT] [API_CALL] - UGs processadas com sucesso: 119 unidades gestoras
+2025-09-10 15:57:54.835 INFO  [87357e37] [API_CLIENT] [API_CALL] - UGs encontradas: 119
+2025-09-10 15:57:54.928 INFO  [87357e37] [DATABASE] [INSERT_BATCH_PROGRESS_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT_BATCH_PROGRESS na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 83ms
+2025-09-10 15:57:54.928 INFO  [87357e37] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 84ms
+2025-09-10 15:57:54.928 INFO  [87357e37] [DATABASE] [INSERT_consumer_sefaz.unidade_gestora] - 🗄️ DB INSERT na tabela consumer_sefaz.unidade_gestora | RECORDS: 119 | DURATION: 93ms
+2025-09-10 15:57:54.930 INFO  [N/A] [APP] [UNKNOWN] - Unidades Gestoras processadas: 119
+2025-09-10 15:57:56.936 INFO  [N/A] [APP] [UNKNOWN] - === INICIANDO CONSUMO DE CONSULTA GERENCIAL ===
+2025-09-10 15:57:56.945 INFO  [4a0c8300] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - === PROCESSAMENTO DE CONSULTA_GERENCIAL ===
+2025-09-10 15:57:56.946 INFO  [4a0c8300] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Total de UGs a processar: 90
+2025-09-10 15:57:56.946 INFO  [4a0c8300] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Dados existentes no banco: NÃO
+2025-09-10 15:57:56.946 INFO  [4a0c8300] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - Modo: TODOS OS ANOS (2020-2025) - Carga inicial completa
+2025-09-10 15:57:56.947 INFO  [4a0c8300] [CONSUMPTION_PROGRESS] [CONSUMIR_PERSISTIR] - Processando UG 1/90: 173011
+2025-09-10 15:57:56.951 INFO  [4a0c8300] [CONSUMPTION_PROGRESS] [CONSUMIR_PERSISTIR] - Processando ano: 2025 para UG: 173011
+2025-09-10 15:57:56.952 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2025
+2025-09-10 15:57:56.952 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:57:56.953 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2025
+2025-09-10 15:57:58.492 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 3577663
+2025-09-10 15:57:58.499 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2025 | STATUS: 200 | DURATION: 1,54s | REQUEST: 0 B | RESPONSE: 3,42 MB
+2025-09-10 15:57:58.561 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2025-05-09","dtSaidaSolicitacaoDiaria":"2025-05-06","sqOB":2586,"vlTotalValorPagoAtualizado":2800,"tpViagemSolicitacaoDiaria":"E","destinoViagemMunicipioSolicitacaoDiaria":"ALAGOA NOVA","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"JOSE NEVITON SANTOS MELO","qtdDiariaSolicitacaoDiaria":4,"tpTransporteViagemSolicitacaoDiaria":"C","cdUnidadeGestora":"173011","dsQualificacaoVinculo":"DEMAIS CARGOS, FUNÇÕES OU EMPREGOS.","dtAnoExercicioCTB":2025
+2025-09-10 15:57:58.561 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:57:58.561 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:57:58.561 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - Processando array com 4106 itens
+2025-09-10 15:58:00.035 INFO  [60c3bfb4] [API_CLIENT] [API_CALL] - Array processado: 4106 instâncias criadas
+2025-09-10 15:58:00.035 INFO  [60c3bfb4] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2024 para UG: 173011
+2025-09-10 15:58:00.036 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2024
+2025-09-10 15:58:00.036 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:00.037 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2024
+2025-09-10 15:58:02.947 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 5077388
+2025-09-10 15:58:02.953 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2024 | STATUS: 200 | DURATION: 2,91s | REQUEST: 0 B | RESPONSE: 4,85 MB
+2025-09-10 15:58:02.988 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2024-11-11","dtSaidaSolicitacaoDiaria":"2024-11-11","sqOB":7585,"vlTotalValorPagoAtualizado":25,"tpViagemSolicitacaoDiaria":"M","destinoViagemMunicipioSolicitacaoDiaria":"AQUIDABA","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"MATHEUS CRISTOVAO DE SANTANA FREIRE","qtdDiariaSolicitacaoDiaria":1,"tpTransporteViagemSolicitacaoDiaria":"C","cdUnidadeGestora":"173011","dsQualificacaoVinculo":"DEMAIS CARGOS, FUNÇÕES OU EMPREGOS.","dtAnoExercicioCTB
+2025-09-10 15:58:02.988 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:58:02.988 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:58:02.988 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - Processando array com 5818 itens
+2025-09-10 15:58:05.151 INFO  [a5ed6caf] [API_CLIENT] [API_CALL] - Array processado: 5818 instâncias criadas
+2025-09-10 15:58:05.152 INFO  [a5ed6caf] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2023 para UG: 173011
+2025-09-10 15:58:05.153 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2023
+2025-09-10 15:58:05.153 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:05.153 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2023
+2025-09-10 15:58:05.318 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:05.320 ERROR [8a63023c] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2023 | STATUS: 500 | DURATION: 166ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:05.320 INFO  [8a63023c] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2022 para UG: 173011
+2025-09-10 15:58:05.321 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2022
+2025-09-10 15:58:05.321 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:05.321 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2022
+2025-09-10 15:58:05.453 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:05.454 ERROR [096ddea5] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2022 | STATUS: 500 | DURATION: 132ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:05.455 INFO  [096ddea5] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2021 para UG: 173011
+2025-09-10 15:58:05.455 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2021
+2025-09-10 15:58:05.455 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:05.456 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2021
+2025-09-10 15:58:05.587 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:05.588 ERROR [b44c8d5b] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2021 | STATUS: 500 | DURATION: 132ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:05.589 INFO  [b44c8d5b] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2020 para UG: 173011
+2025-09-10 15:58:05.589 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2020
+2025-09-10 15:58:05.590 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:05.590 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2020
+2025-09-10 15:58:05.732 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:05.732 ERROR [ea84ec0a] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=173011&dtAnoExercicioCTB=2020 | STATUS: 500 | DURATION: 142ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:05.733 INFO  [ea84ec0a] [API_CLIENT] [API_CALL] - UG 173011: 9924 registros encontrados (todos os anos)
+2025-09-10 15:58:05.733 INFO  [ea84ec0a] [CONSUMPTION_PROGRESS] [API_CALL] - Processando UG 2/90: 181011
+2025-09-10 15:58:05.739 INFO  [ea84ec0a] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2025 para UG: 181011
+2025-09-10 15:58:05.739 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2025
+2025-09-10 15:58:05.740 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:05.740 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2025
+2025-09-10 15:58:08.782 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 6322238
+2025-09-10 15:58:08.796 WARN  [29bf15ee] [API_CLIENT] [API_CALL] - 🐌 API LENTA GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2025 | STATUS: 200 | DURATION: 3,04s | REQUEST: 0 B | RESPONSE: 6,04 MB
+2025-09-10 15:58:08.857 INFO  [29bf15ee] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2025-08-28","dtSaidaSolicitacaoDiaria":"2025-08-28","sqOB":31334,"vlTotalValorPagoAtualizado":25,"tpViagemSolicitacaoDiaria":"M","destinoViagemMunicipioSolicitacaoDiaria":"AMPARO DE SAO FRANCISCO","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"BRUNO FERNANDES MARQUES DA SILVA","qtdDiariaSolicitacaoDiaria":1,"tpTransporteViagemSolicitacaoDiaria":"C","cdUnidadeGestora":"181011","dsQualificacaoVinculo":"DEMAIS CARGOS, FUNÇÕES OU EMPREGOS.","dtAn
+2025-09-10 15:58:08.858 INFO  [29bf15ee] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:58:08.858 INFO  [29bf15ee] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:58:08.858 INFO  [29bf15ee] [API_CLIENT] [API_CALL] - Processando array com 7437 itens
+2025-09-10 15:58:11.242 INFO  [29bf15ee] [API_CLIENT] [API_CALL] - Array processado: 7437 instâncias criadas
+2025-09-10 15:58:11.242 INFO  [29bf15ee] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2024 para UG: 181011
+2025-09-10 15:58:11.243 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2024
+2025-09-10 15:58:11.243 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:11.243 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2024
+2025-09-10 15:58:15.265 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 7561547
+2025-09-10 15:58:15.277 WARN  [a9d220e9] [API_CLIENT] [API_CALL] - 🐌 API LENTA GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2024 | STATUS: 200 | DURATION: 4,02s | REQUEST: 0 B | RESPONSE: 7,23 MB
+2025-09-10 15:58:15.341 INFO  [a9d220e9] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2024-11-25","dtSaidaSolicitacaoDiaria":"2024-11-25","sqOB":34293,"vlTotalValorPagoAtualizado":25,"tpViagemSolicitacaoDiaria":"M","destinoViagemMunicipioSolicitacaoDiaria":"AMPARO DE SAO FRANCISCO","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"CLAUDIA REGINA SANTOS OLIVEIRA","qtdDiariaSolicitacaoDiaria":1,"tpTransporteViagemSolicitacaoDiaria":"C","cdUnidadeGestora":"181011","dsQualificacaoVinculo":"DEMAIS CARGOS, FUNÇÕES OU EMPREGOS.","dtAnoE
+2025-09-10 15:58:15.341 INFO  [a9d220e9] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:58:15.341 INFO  [a9d220e9] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:58:15.341 INFO  [a9d220e9] [API_CLIENT] [API_CALL] - Processando array com 8792 itens
+2025-09-10 15:58:18.027 INFO  [a9d220e9] [API_CLIENT] [API_CALL] - Array processado: 8792 instâncias criadas
+2025-09-10 15:58:18.027 INFO  [a9d220e9] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2023 para UG: 181011
+2025-09-10 15:58:18.028 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2023
+2025-09-10 15:58:18.028 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:18.028 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2023
+2025-09-10 15:58:18.252 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:18.253 ERROR [985215fc] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2023 | STATUS: 500 | DURATION: 225ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:18.254 INFO  [985215fc] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2022 para UG: 181011
+2025-09-10 15:58:18.254 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2022
+2025-09-10 15:58:18.254 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:18.255 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2022
+2025-09-10 15:58:18.496 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:18.497 ERROR [fb8c9bac] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2022 | STATUS: 500 | DURATION: 242ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:18.497 INFO  [fb8c9bac] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2021 para UG: 181011
+2025-09-10 15:58:18.498 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2021
+2025-09-10 15:58:18.498 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:18.498 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2021
+2025-09-10 15:58:18.709 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:18.710 ERROR [f4412553] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2021 | STATUS: 500 | DURATION: 212ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:18.710 INFO  [f4412553] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2020 para UG: 181011
+2025-09-10 15:58:18.710 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2020
+2025-09-10 15:58:18.710 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:18.711 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2020
+2025-09-10 15:58:18.891 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:18.892 ERROR [6717da49] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=181011&dtAnoExercicioCTB=2020 | STATUS: 500 | DURATION: 181ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:18.892 INFO  [6717da49] [API_CLIENT] [API_CALL] - UG 181011: 16229 registros encontrados (todos os anos)
+2025-09-10 15:58:18.892 INFO  [6717da49] [CONSUMPTION_PROGRESS] [API_CALL] - Processando UG 3/90: 152041
+2025-09-10 15:58:18.898 INFO  [6717da49] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2025 para UG: 152041
+2025-09-10 15:58:18.898 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2025
+2025-09-10 15:58:18.899 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:18.899 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2025
+2025-09-10 15:58:19.176 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 50632
+2025-09-10 15:58:19.176 INFO  [b02958a3] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2025 | STATUS: 200 | DURATION: 277ms | REQUEST: 0 B | RESPONSE: 49,50 KB
+2025-09-10 15:58:19.178 INFO  [b02958a3] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2025-08-09","dtSaidaSolicitacaoDiaria":"2025-08-07","sqOB":11333,"vlTotalValorPagoAtualizado":2000,"tpViagemSolicitacaoDiaria":"E","destinoViagemMunicipioSolicitacaoDiaria":"ARACAJU","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"WALTER GOMES PINHEIRO JUNIOR","qtdDiariaSolicitacaoDiaria":3,"tpTransporteViagemSolicitacaoDiaria":"A","cdUnidadeGestora":"152041","dsQualificacaoVinculo":"SECRETÁRIOS, AUTORIDADES EQUIPARADAS E MEMBROS DE DIRETORIA 
+2025-09-10 15:58:19.178 INFO  [b02958a3] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:58:19.178 INFO  [b02958a3] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:58:19.178 INFO  [b02958a3] [API_CLIENT] [API_CALL] - Processando array com 53 itens
+2025-09-10 15:58:19.199 INFO  [b02958a3] [API_CLIENT] [API_CALL] - Array processado: 53 instâncias criadas
+2025-09-10 15:58:19.199 INFO  [b02958a3] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2024 para UG: 152041
+2025-09-10 15:58:19.200 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2024
+2025-09-10 15:58:19.200 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:19.200 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2024
+2025-09-10 15:58:19.476 INFO  [N/A] [APP] [UNKNOWN] - Resposta recebida - Status: 200 | Body length: 20012
+2025-09-10 15:58:19.476 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - 🌐 API SUCESSO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2024 | STATUS: 200 | DURATION: 277ms | REQUEST: 0 B | RESPONSE: 19,58 KB
+2025-09-10 15:58:19.477 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - Resposta SEFAZ (primeiros 500 chars): [{"dtRetornoSolicitacaoDiaria":"2024-04-25","dtSaidaSolicitacaoDiaria":"2024-04-23","vlTotalValorPagoAtualizado":0,"tpViagemSolicitacaoDiaria":"E","destinoViagemMunicipioSolicitacaoDiaria":"MARILIA","destinoViagemPaisSolicitacaoDiaria":"BRASIL","nmRazaoSocialPessoa":"MARCIA FONSECA COSTA","qtdDiariaSolicitacaoDiaria":3,"tpTransporteViagemSolicitacaoDiaria":"A","cdUnidadeGestora":"152041","dsQualificacaoVinculo":"DEMAIS CARGOS, FUNÇÕES OU EMPREGOS.","dtAnoExercicioCTB":2024,"destinoViagemUFSolici
+2025-09-10 15:58:19.477 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - Processando resposta da API de Consulta Gerencial
+2025-09-10 15:58:19.477 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - Tipo do mapper: ConsultaGerencialDTO
+2025-09-10 15:58:19.477 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - Processando array com 24 itens
+2025-09-10 15:58:19.486 INFO  [e6f179f5] [API_CLIENT] [API_CALL] - Array processado: 24 instâncias criadas
+2025-09-10 15:58:19.486 INFO  [e6f179f5] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2023 para UG: 152041
+2025-09-10 15:58:19.487 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2023
+2025-09-10 15:58:19.487 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:19.487 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2023
+2025-09-10 15:58:19.690 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:19.691 ERROR [1ea0d400] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2023 | STATUS: 500 | DURATION: 204ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:19.691 INFO  [1ea0d400] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2022 para UG: 152041
+2025-09-10 15:58:19.691 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2022
+2025-09-10 15:58:19.691 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:19.692 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2022
+2025-09-10 15:58:19.849 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:19.849 ERROR [513ee7ab] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2022 | STATUS: 500 | DURATION: 158ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:19.850 INFO  [513ee7ab] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2021 para UG: 152041
+2025-09-10 15:58:19.850 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2021
+2025-09-10 15:58:19.850 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:19.850 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2021
+2025-09-10 15:58:20.011 ERROR [N/A] [APP] [UNKNOWN] - Erro na chamada da API SEFAZ: 404 Not Found: "Desculpe! Não foi possível concluir a operação com sucesso."
+2025-09-10 15:58:20.012 ERROR [f39a5e2a] [API_CLIENT] [API_CALL] - 🌐 API ERRO GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2021 | STATUS: 500 | DURATION: 161ms | REQUEST: 0 B | RESPONSE: 0 B
+2025-09-10 15:58:20.012 INFO  [f39a5e2a] [CONSUMPTION_PROGRESS] [API_CALL] - Processando ano: 2020 para UG: 152041
+2025-09-10 15:58:20.013 INFO  [N/A] [APP] [UNKNOWN] - Fazendo requisição para: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2020
+2025-09-10 15:58:20.013 INFO  [N/A] [APP] [UNKNOWN] - Token obtido (primeiros 20 chars): eyJhbGciOiJSUzI1NiIs...
+2025-09-10 15:58:20.013 INFO  [N/A] [APP] [UNKNOWN] - HTTP Request: GET https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial?cdUnidadeGestora=152041&dtAnoExercicioCTB=2020

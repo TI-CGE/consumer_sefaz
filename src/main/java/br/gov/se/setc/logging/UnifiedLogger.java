@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging;
+package br.gov.se.setc.logging;
 import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
 import org.slf4j.Logger;

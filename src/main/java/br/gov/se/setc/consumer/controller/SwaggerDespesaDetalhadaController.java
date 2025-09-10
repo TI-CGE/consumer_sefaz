@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.controller;
+package br.gov.se.setc.consumer.controller;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.consumer.service.ConsumoApiService;
 import br.gov.se.setc.logging.annotation.LogOperation;

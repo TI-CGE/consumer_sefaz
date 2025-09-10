@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.mapper;
+package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.dto.ContratoDTO;
 import br.gov.se.setc.consumer.entity.Contrato;
 import org.springframework.beans.factory.annotation.Autowired;

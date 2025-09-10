@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.dto;
+package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;

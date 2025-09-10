@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.controller;
+package br.gov.se.setc.consumer.controller;
 import java.util.List;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;

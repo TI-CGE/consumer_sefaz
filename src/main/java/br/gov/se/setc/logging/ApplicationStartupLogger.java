@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging;
+package br.gov.se.setc.logging;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.boot.context.event.ApplicationStartedEvent;

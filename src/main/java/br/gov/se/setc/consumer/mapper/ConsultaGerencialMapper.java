@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.consumer.mapper;
+package br.gov.se.setc.consumer.mapper;
 import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.entity.ConsultaGerencial;
 import org.springframework.beans.factory.annotation.Autowired;

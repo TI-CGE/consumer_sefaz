@@ -1,4 +1,4 @@
-﻿package br.gov.se.setc.logging.aspect;
+package br.gov.se.setc.logging.aspect;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.LoggingUtils;
