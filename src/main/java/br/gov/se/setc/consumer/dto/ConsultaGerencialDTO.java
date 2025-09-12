@@ -91,6 +91,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
     @Override
     public void mapearCamposResposta() {
+        // Mapear todos os campos permitindo NULL quando não vierem da API
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
         camposResposta.put("sg_unidade_gestora", sgUnidadeGestora);
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);

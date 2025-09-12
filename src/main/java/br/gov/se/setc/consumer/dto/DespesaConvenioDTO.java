@@ -88,6 +88,7 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     }
     @Override
     public void mapearCamposResposta() {
+        // Mapear todos os campos permitindo NULL quando não vierem da API
         camposResposta.put("dt_fim_vigencia_convenio", dtFimVigenciaConvenio);
         camposResposta.put("cd_convenio", cdConvenio);
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
@@ -115,6 +116,8 @@ public class DespesaConvenioDTO extends EndpontSefaz {
         camposResposta.put("vl_contrapartida_convenio", vlContrapartidaConvenio);
         camposResposta.put("in_convenio_empenho_ingresso", inConvenioEmpenhoIngresso);
         camposResposta.put("sq_unidade_gestora_gestao", sqUnidadeGestoraGestao);
+
+        // Campos de auditoria - sempre preenchidos automaticamente
         LocalDateTime now = LocalDateTime.now();
         camposResposta.put("created_at", now);
         camposResposta.put("updated_at", now);
