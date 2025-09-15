@@ -17,6 +17,7 @@ import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
+import br.gov.se.setc.consumer.dto.EmpenhoMensalDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
@@ -266,6 +267,27 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<EmpenhoDTO> empenhoValidacaoUtil(JdbcTemplate jdbcTemplate) {
         return createValidacaoUtil("Empenho", jdbcTemplate);
+    }
+
+    @Bean("empenhoMensalConsumoApiService")
+    public ConsumoApiService<EmpenhoMensalDTO> empenhoMensalConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<EmpenhoMensalDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger,
+            SimpleLogger simpleLogger,
+            JpaPersistenceService jpaPersistenceService) {
+        return createConsumoApiService("EmpenhoMensal", EmpenhoMensalDTO.class,
+            restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
+            unifiedLogger, userFriendlyLogger, markdownLogger, simpleLogger, jpaPersistenceService);
+    }
+
+    @Bean
+    public ValidacaoUtil<EmpenhoMensalDTO> empenhoMensalValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        return createValidacaoUtil("EmpenhoMensal", jdbcTemplate);
     }
     @Bean("totalizadoresExecucaoConsumoApiService")
     public ConsumoApiService<TotalizadoresExecucaoDTO> totalizadoresExecucaoConsumoApiService(

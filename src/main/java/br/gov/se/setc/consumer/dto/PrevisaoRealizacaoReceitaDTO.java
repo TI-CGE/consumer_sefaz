@@ -1,6 +1,7 @@
 package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
@@ -201,6 +202,7 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
         this.dtAnoExercicioCTBString = dtAnoExercicioCTBString;
         processarCamposDerivados();
     }
+    @JsonIgnore
     public Integer getDtAnoExercicioCTB() {
         return dtAnoExercicioCTB;
     }

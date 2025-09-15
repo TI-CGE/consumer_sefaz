@@ -91,6 +91,7 @@ public class SchedulerController {
         manualExecutionMap.put("dadosOrcamentariosOnly", "POST /scheduler/execute/dados-orcamentarios");
         manualExecutionMap.put("empenhoOnly", "POST /scheduler/execute/empenho");
         manualExecutionMap.put("contratoOnly", "POST /scheduler/execute/contrato");
+        manualExecutionMap.put("contratosFiscaisOnly", "POST /scheduler/execute/contratos-fiscais");
         manualExecutionMap.put("contratoEmpenhoOnly", "POST /scheduler/execute/contrato-empenho");
         manualExecutionMap.put("baseDespesaCredorOnly", "POST /scheduler/execute/base-despesa-credor");
         manualExecutionMap.put("baseDespesaLicitacaoOnly", "POST /scheduler/execute/base-despesa-licitacao");
@@ -314,6 +315,32 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
+
+    /**
+     * Executa manualmente apenas o processamento de Contratos Fiscais
+     */
+    @PostMapping("/execute/contratos-fiscais")
+    @Operation(summary = "Executar Apenas Contratos Fiscais", description = "Executa manualmente apenas o processamento da entidade Contratos Fiscais")
+    @LogOperation(operation = "MANUAL_CONTRATOS_FISCAIS_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeContratosFiscaisOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            logger.info("Execução manual de Contratos Fiscais solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeContratosFiscaisManually();
+            logger.info("Execução manual de Contratos Fiscais concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro durante execução manual de Contratos Fiscais", e);
+            Map<String, Object> errorResult = new HashMap<>();
+            errorResult.put("status", "ERROR");
+            errorResult.put("message", "Erro durante execução: " + e.getMessage());
+            errorResult.put("correlationId", correlationId);
+            return ResponseEntity.internalServerError().body(errorResult);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
     /**
      * Executa manualmente apenas o processamento de Contrato-Empenho
      */

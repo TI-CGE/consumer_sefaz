@@ -1,6 +1,7 @@
 package br.gov.se.setc.consumer.dto;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -191,12 +192,14 @@ public class ContratoDTO extends EndpontSefaz {
     public void setTpContrato(String tpContrato) {
         this.tpContrato = tpContrato;
     }
+    @JsonIgnore
     public LocalDate getDtInicioVigencia() {
         return dtInicioVigencia;
     }
     public void setDtInicioVigencia(LocalDate dtInicioVigencia) {
         this.dtInicioVigencia = dtInicioVigencia;
     }
+    @JsonIgnore
     public LocalDate getDtFimVigencia() {
         return dtFimVigencia;
     }

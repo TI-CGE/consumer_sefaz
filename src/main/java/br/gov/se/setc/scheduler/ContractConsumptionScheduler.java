@@ -1154,6 +1154,58 @@ public class ContractConsumptionScheduler {
             MDCUtil.clear();
         }
     }
+
+    /**
+     * Método específico para executar apenas Contratos Fiscais
+     */
+    @LogOperation(operation = "SCHEDULED_CONTRATOS_FISCAIS_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeContratosFiscaisOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "CONTRATOS_FISCAIS_ONLY_CONSUMPTION");
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Contratos Fiscais");
+        try {
+            unifiedLogger.logOperationStart("SCHEDULER", "CONTRATOS_FISCAIS_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+            markdownSection.info("Iniciando processamento de Contratos Fiscais...")
+                          .info("Correlation ID: " + correlationId);
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE CONTRATOS FISCAIS ===");
+            markdownSection.progress("Processando Contratos Fiscais...");
+            try {
+                long contratosFiscaisStartTime = System.currentTimeMillis();
+                ContratosFiscaisDTO contratosFiscaisDto = new ContratosFiscaisDTO();
+                List<ContratosFiscaisDTO> contratosFiscaisResults = contratosFiscaisService.consumirPersistir(contratosFiscaisDto);
+                int contratosFiscaisCount = contratosFiscaisResults != null ? contratosFiscaisResults.size() : 0;
+                totalRecordsProcessed = contratosFiscaisCount;
+                long contratosFiscaisDuration = System.currentTimeMillis() - contratosFiscaisStartTime;
+                logger.info("Contratos Fiscais processados: {}", contratosFiscaisCount);
+                markdownSection.success(contratosFiscaisCount + " registros de Contratos Fiscais processados", contratosFiscaisDuration);
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Contratos Fiscais", e);
+                markdownSection.error("Falha no processamento de Contratos Fiscais: " + e.getMessage());
+                throw e;
+            }
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            userFriendlyLogger.logScheduledExecutionComplete(totalRecordsProcessed, totalExecutionTime);
+            unifiedLogger.logOperationSuccess("SCHEDULER", "CONTRATOS_FISCAIS_ONLY",
+                totalExecutionTime, totalRecordsProcessed, "ENTITY", "ContratosFiscais");
+            markdownSection.summary("Execução de Contratos Fiscais concluída com sucesso")
+                          .log();
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            userFriendlyLogger.logError("execução de contratos fiscais", e.getMessage());
+            unifiedLogger.logOperationError("SCHEDULER", "CONTRATOS_FISCAIS_ONLY", totalExecutionTime, e,
+                "ENDPOINT", "contratos-fiscais");
+            logger.error("Erro durante execução de Contratos Fiscais", e);
+            markdownSection.error("Falha na execução de Contratos Fiscais: " + e.getMessage())
+                          .summary("Execução de Contratos Fiscais interrompida por erro")
+                          .log();
+            throw e;
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+
     /**
      * Método para execução manual apenas de Contratos via endpoint
      */
@@ -1174,6 +1226,28 @@ public class ContractConsumptionScheduler {
         }
         return result;
     }
+
+    /**
+     * Método para execução manual apenas de Contratos Fiscais via endpoint
+     */
+    public Map<String, Object> executeContratosFiscaisManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE CONTRATOS FISCAIS SOLICITADA ===");
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+        try {
+            executeContratosFiscaisOnly();
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Contratos Fiscais concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Contratos Fiscais: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+        return result;
+    }
+
     /**
      * Método específico para executar apenas Contrato-Empenho
      */
