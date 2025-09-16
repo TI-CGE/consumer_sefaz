@@ -435,10 +435,22 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
             setVlTotalSolicitacaoDiariaStr(vlTotalSolicitacaoDiaria.toString());
         }
     }
+
+    public void setVlTotalSolicitacaoDiaria(Number vlTotalSolicitacaoDiaria) {
+        if (vlTotalSolicitacaoDiaria != null) {
+            setVlTotalSolicitacaoDiariaStr(vlTotalSolicitacaoDiaria.toString());
+        }
+    }
     public void setVlTotalValorPagoAtualizado(String vlTotalValorPagoAtualizado) {
         setVlTotalValorPagoAtualizadoStr(vlTotalValorPagoAtualizado);
     }
     public void setVlTotalValorPagoAtualizado(Integer vlTotalValorPagoAtualizado) {
+        if (vlTotalValorPagoAtualizado != null) {
+            setVlTotalValorPagoAtualizadoStr(vlTotalValorPagoAtualizado.toString());
+        }
+    }
+
+    public void setVlTotalValorPagoAtualizado(Number vlTotalValorPagoAtualizado) {
         if (vlTotalValorPagoAtualizado != null) {
             setVlTotalValorPagoAtualizadoStr(vlTotalValorPagoAtualizado.toString());
         }
@@ -451,10 +463,22 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
             setVlDescontoSolicitacaoDiariaStr(vlDescontoSolicitacaoDiaria.toString());
         }
     }
+
+    public void setVlDescontoSolicitacaoDiaria(Number vlDescontoSolicitacaoDiaria) {
+        if (vlDescontoSolicitacaoDiaria != null) {
+            setVlDescontoSolicitacaoDiariaStr(vlDescontoSolicitacaoDiaria.toString());
+        }
+    }
     public void setVlValorMoeda(String vlValorMoeda) {
         setVlValorMoedaStr(vlValorMoeda);
     }
     public void setVlValorMoeda(Integer vlValorMoeda) {
+        if (vlValorMoeda != null) {
+            setVlValorMoedaStr(vlValorMoeda.toString());
+        }
+    }
+
+    public void setVlValorMoeda(Number vlValorMoeda) {
         if (vlValorMoeda != null) {
             setVlValorMoedaStr(vlValorMoeda.toString());
         }

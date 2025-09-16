@@ -16,31 +16,31 @@ public class Contrato {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "sg_unidade_gestora", length = 100)
+    @Column(name = "sg_unidade_gestora", length = 100, nullable = true)
     private String sgUnidadeGestora;
-    @Column(name = "cd_unidade_gestora", length = 20)
+    @Column(name = "cd_unidade_gestora", length = 20, nullable = true)
     private String cdUnidadeGestora;
-    @Column(name = "dt_ano_exercicio")
+    @Column(name = "dt_ano_exercicio", nullable = true)
     private Integer dtAnoExercicio;
-    @Column(name = "cd_contrato", length = 30)
+    @Column(name = "cd_contrato", length = 30, nullable = true)
     private String cdContrato;
-    @Column(name = "cd_aditivo", length = 30)
+    @Column(name = "cd_aditivo", length = 30, nullable = true)
     private String cdAditivo;
-    @Column(name = "dt_inicio_vigencia")
+    @Column(name = "dt_inicio_vigencia", nullable = true)
     private LocalDate dtInicioVigencia;
-    @Column(name = "dt_fim_vigencia")
+    @Column(name = "dt_fim_vigencia", nullable = true)
     private LocalDate dtFimVigencia;
-    @Column(name = "nm_categoria", length = 200)
+    @Column(name = "nm_categoria", length = 200, nullable = true)
     private String nmCategoria;
-    @Column(name = "nm_fornecedor", length = 200)
+    @Column(name = "nm_fornecedor", length = 200, nullable = true)
     private String nmFornecedor;
-    @Column(name = "nu_documento", length = 20)
+    @Column(name = "nu_documento", length = 20, nullable = true)
     private String nuDocumento;
-    @Column(name = "ds_objeto_contrato", columnDefinition = "TEXT")
+    @Column(name = "ds_objeto_contrato", columnDefinition = "TEXT", nullable = true)
     private String dsObjetoContrato;
-    @Column(name = "vl_contrato", precision = 18, scale = 2)
+    @Column(name = "vl_contrato", precision = 18, scale = 2, nullable = true)
     private BigDecimal vlContrato;
-    @Column(name = "tp_contrato", length = 10)
+    @Column(name = "tp_contrato", length = 10, nullable = true)
     private String tpContrato;
     @Column(name = "created_at", updatable = false)
     @CreationTimestamp

@@ -28,8 +28,6 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     private LocalDate dtInicioVigenciaContrato;
     @JsonProperty("dsQualificador")
     private String dsQualificador;
-    @JsonProperty("cdQualificador")
-    private Integer cdQualificador;
     public ContratosFiscaisDTO() {
         inicializarDadosEndpoint();
     }
@@ -77,7 +75,6 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
         camposParametros.put("dtAnoExercicio", dtAnoExercicio);
         camposParametros.put("cdContrato", cdContrato);
         camposParametros.put("nuDocumentoContratado", nuDocumentoContratado);
-        camposParametros.put("cdQualificador", cdQualificador);
     }
     public void setCamposParamentrosObrigatorios(String cdUnidadeGestora,Short dtAnoExercicio ) {
         camposParametros.put("cdUnidadeGestora",cdUnidadeGestora  );

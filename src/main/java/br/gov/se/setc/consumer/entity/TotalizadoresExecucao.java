@@ -38,6 +38,8 @@ public class TotalizadoresExecucao {
     private String cdFonteRecursoReduzida;
     @Column(name = "cd_sub_acao", length = 50)
     private String cdSubAcao;
+    @Column(name = "nm_sub_acao", length = 500)
+    private String nmSubAcao;
     @Column(name = "sg_unidade_gestora", length = 100)
     private String sgUnidadeGestora;
     @Column(name = "cd_unidade_gestora", length = 50)
@@ -151,6 +153,12 @@ public class TotalizadoresExecucao {
     }
     public void setCdSubAcao(String cdSubAcao) {
         this.cdSubAcao = cdSubAcao;
+    }
+    public String getNmSubAcao() {
+        return nmSubAcao;
+    }
+    public void setNmSubAcao(String nmSubAcao) {
+        this.nmSubAcao = nmSubAcao;
     }
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;

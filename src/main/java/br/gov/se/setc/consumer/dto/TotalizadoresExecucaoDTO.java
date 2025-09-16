@@ -36,6 +36,8 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
     private String cdFonteRecursoReduzida;
     @JsonProperty("cdSubAcao")
     private String cdSubAcao;
+    @JsonProperty("nmSubAcao")
+    private String nmSubAcao;
     @JsonProperty("sgUnidadeGestora")
     private String sgUnidadeGestora;
     @JsonProperty("cdUnidadeGestora")
@@ -83,6 +85,7 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         camposResposta.put("vl_total_dotacao_atualizada", vlTotalDotacaoAtualizada);
         camposResposta.put("cd_fonte_recurso_reduzida", cdFonteRecursoReduzida);
         camposResposta.put("cd_sub_acao", cdSubAcao);
+        camposResposta.put("nm_sub_acao", nmSubAcao);
         camposResposta.put("sg_unidade_gestora", sgUnidadeGestora);
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
         camposResposta.put("dh_ultima_alteracao", dhUltimaAlteracaoConverted);
@@ -198,6 +201,12 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
     }
     public void setCdSubAcao(String cdSubAcao) {
         this.cdSubAcao = cdSubAcao;
+    }
+    public String getNmSubAcao() {
+        return nmSubAcao;
+    }
+    public void setNmSubAcao(String nmSubAcao) {
+        this.nmSubAcao = nmSubAcao;
     }
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;
