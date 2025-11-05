@@ -29,6 +29,10 @@ public class EmpenhoDTO extends EndpontSefaz {
     private Integer sqEmpenho;
     @JsonProperty("dtGeracaoEmpenho")
     private String dtGeracaoEmpenho;
+    @JsonProperty("dtEmissaoEmpenho")
+    private String dtEmissaoEmpenho;
+    @JsonProperty("dtLancamentoEmpenho")
+    private String dtLancamentoEmpenho;
     @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
     @JsonProperty("nuDocumento")
@@ -39,6 +43,8 @@ public class EmpenhoDTO extends EndpontSefaz {
     private BigDecimal vlOriginalEmpenho;
     @JsonProperty("vlTotalReforcadoEmpenho")
     private BigDecimal vlTotalReforcadoEmpenho;
+    @JsonProperty("vlTotalAnuladoEmpenho")
+    private BigDecimal vlTotalAnuladoEmpenho;
     @JsonProperty("vlTotalLiquidadoEmpenho")
     private BigDecimal vlTotalLiquidadoEmpenho;
     @JsonProperty("vlTotalPagoEmpenho")
@@ -91,11 +97,14 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("sq_solic_empenho", sqSolicEmpenho);
         camposResposta.put("sq_empenho", sqEmpenho);
         camposResposta.put("dt_geracao_empenho", dtGeracaoEmpenho);
+        camposResposta.put("dt_emissao_empenho", dtEmissaoEmpenho);
+        camposResposta.put("dt_lancamento_empenho", dtLancamentoEmpenho);
         camposResposta.put("nm_razao_social_pessoa", nmRazaoSocialPessoa);
         camposResposta.put("nu_documento", nuDocumento);
         camposResposta.put("vl_solic_empenho", vlSolicEmpenho);
         camposResposta.put("vl_original_empenho", vlOriginalEmpenho);
         camposResposta.put("vl_total_reforcado_empenho", vlTotalReforcadoEmpenho);
+        camposResposta.put("vl_total_anulado_empenho", vlTotalAnuladoEmpenho);
         camposResposta.put("vl_total_liquidado_empenho", vlTotalLiquidadoEmpenho);
         camposResposta.put("vl_total_pago_empenho", vlTotalPagoEmpenho);
         camposResposta.put("vl_total_executado", vlTotalExecutado);
@@ -197,6 +206,18 @@ public class EmpenhoDTO extends EndpontSefaz {
     public void setDtGeracaoEmpenho(String dtGeracaoEmpenho) {
         this.dtGeracaoEmpenho = dtGeracaoEmpenho;
     }
+    public String getDtEmissaoEmpenho() {
+        return dtEmissaoEmpenho;
+    }
+    public void setDtEmissaoEmpenho(String dtEmissaoEmpenho) {
+        this.dtEmissaoEmpenho = dtEmissaoEmpenho;
+    }
+    public String getDtLancamentoEmpenho() {
+        return dtLancamentoEmpenho;
+    }
+    public void setDtLancamentoEmpenho(String dtLancamentoEmpenho) {
+        this.dtLancamentoEmpenho = dtLancamentoEmpenho;
+    }
     public String getNmRazaoSocialPessoa() {
         return nmRazaoSocialPessoa;
     }
@@ -226,6 +247,12 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setVlTotalReforcadoEmpenho(BigDecimal vlTotalReforcadoEmpenho) {
         this.vlTotalReforcadoEmpenho = vlTotalReforcadoEmpenho;
+    }
+    public BigDecimal getVlTotalAnuladoEmpenho() {
+        return vlTotalAnuladoEmpenho;
+    }
+    public void setVlTotalAnuladoEmpenho(BigDecimal vlTotalAnuladoEmpenho) {
+        this.vlTotalAnuladoEmpenho = vlTotalAnuladoEmpenho;
     }
     public BigDecimal getVlTotalLiquidadoEmpenho() {
         return vlTotalLiquidadoEmpenho;
