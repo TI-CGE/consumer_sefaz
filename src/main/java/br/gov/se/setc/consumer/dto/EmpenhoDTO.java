@@ -33,6 +33,9 @@ public class EmpenhoDTO extends EndpontSefaz {
     private String dtEmissaoEmpenho;
     @JsonProperty("dtLancamentoEmpenho")
     private String dtLancamentoEmpenho;
+    @JsonProperty("cdNaturezaDespesaCompleta")
+    private String cdNaturezaDespesaCompleta;
+
     @JsonProperty("nmRazaoSocialPessoa")
     private String nmRazaoSocialPessoa;
     @JsonProperty("nuDocumento")
@@ -96,6 +99,8 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("sg_orgao_supervisor", sgOrgaoSupervisor);
         camposResposta.put("sq_solic_empenho", sqSolicEmpenho);
         camposResposta.put("sq_empenho", sqEmpenho);
+        camposResposta.put("cd_natureza_despesa_completa", cdNaturezaDespesaCompleta);
+
         camposResposta.put("dt_geracao_empenho", dtGeracaoEmpenho);
         camposResposta.put("dt_emissao_empenho", dtEmissaoEmpenho);
         camposResposta.put("dt_lancamento_empenho", dtLancamentoEmpenho);
@@ -217,6 +222,12 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setDtLancamentoEmpenho(String dtLancamentoEmpenho) {
         this.dtLancamentoEmpenho = dtLancamentoEmpenho;
+    }
+    public String getCdNaturezaDespesaCompleta() {
+        return cdNaturezaDespesaCompleta;
+    }
+    public void setCdNaturezaDespesaCompleta(String cdNaturezaDespesaCompleta) {
+        this.cdNaturezaDespesaCompleta = cdNaturezaDespesaCompleta;
     }
     public String getNmRazaoSocialPessoa() {
         return nmRazaoSocialPessoa;

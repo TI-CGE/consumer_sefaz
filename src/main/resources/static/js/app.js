@@ -249,9 +249,9 @@ class LogMonitor {
     async loadInitialData() {
         try {
             // Load log info
-            const infoResponse = await fetch('/logs/info');
+            const infoResponse = await fetch(window.ContextPath.buildApiUrl('logs/info'));
             const info = await infoResponse.json();
-            
+
             this.updateStats(info);
 
             // Load initial content for each log file
@@ -267,9 +267,9 @@ class LogMonitor {
 
     async loadLogContent(fileName, lines = 100) {
         try {
-            const response = await fetch(`/logs/${fileName}?lines=${lines}`);
+            const response = await fetch(window.ContextPath.buildApiUrl(`logs/${fileName}?lines=${lines}`));
             const data = await response.json();
-            
+
             if (data.error) {
                 this.showError(fileName, data.error);
                 return;
@@ -291,8 +291,8 @@ class LogMonitor {
         }
 
         try {
-            this.eventSource = new EventSource('/logs/stream');
-            
+            this.eventSource = new EventSource(window.ContextPath.buildApiUrl('logs/stream'));
+
             this.eventSource.onopen = () => {
                 this.isConnected = true;
                 this.updateConnectionStatus();

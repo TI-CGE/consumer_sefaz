@@ -17,6 +17,9 @@ BEGIN
         EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS dt_emissao_empenho VARCHAR(30)';
         EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS dt_lancamento_empenho VARCHAR(30)';
 
+        -- Natureza da despesa completa
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_natureza_despesa_completa VARCHAR(255)';
+
         -- Valores monetários com precisão 15,2
         EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS vl_total_anulado_empenho NUMERIC(15,2)';
     ELSE
