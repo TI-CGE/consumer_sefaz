@@ -21,8 +21,23 @@ public class DatabaseErrorLogAppender extends AppenderBase<ILoggingEvent> implem
     private static final ExecutorService executorService = Executors.newSingleThreadExecutor(r -> {
         Thread t = new Thread(r, "ErrorLogAppender-Thread");
         t.setDaemon(true);
+        t.setContextClassLoader(null);
         return t;
     });
+    
+    static {
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            executorService.shutdown();
+            try {
+                if (!executorService.awaitTermination(5, java.util.concurrent.TimeUnit.SECONDS)) {
+                    executorService.shutdownNow();
+                }
+            } catch (InterruptedException e) {
+                executorService.shutdownNow();
+                Thread.currentThread().interrupt();
+            }
+        }, "ErrorLogAppender-ShutdownHook"));
+    }
     
     @Override
     public void setApplicationContext(@NonNull ApplicationContext context) {
@@ -154,6 +169,17 @@ public class DatabaseErrorLogAppender extends AppenderBase<ILoggingEvent> implem
     public void stop() {
         super.stop();
         executorService.shutdown();
+        try {
+            if (!executorService.awaitTermination(5, java.util.concurrent.TimeUnit.SECONDS)) {
+                executorService.shutdownNow();
+                if (!executorService.awaitTermination(5, java.util.concurrent.TimeUnit.SECONDS)) {
+                    System.err.println("ExecutorService não terminou após shutdown");
+                }
+            }
+        } catch (InterruptedException e) {
+            executorService.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
     }
 }
 
