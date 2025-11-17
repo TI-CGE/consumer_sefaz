@@ -423,11 +423,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.warn("Erro ao executar definirCamposDerivados: " + e.getMessage());
         }
     }
-    /**
-     * Uses reflection to find and invoke setter methods for JSON fields.
-     * Supports multiple naming conventions and data types.
-     * Also considers @JsonProperty annotations to map field names correctly.
-     */
     private void invocarSetterSeExistir(T dtoInstance, Class<?> dtoClass, String fieldName, JsonNode fieldValue) {
         try {
             String targetSetterName = findSetterNameByJsonProperty(dtoClass, fieldName);
@@ -824,9 +819,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultado;
     }
-    /**
-     * Processa requisição sem cdGestao para dados atuais (DTOs que não precisam de iteração)
-     */
     private List<T> processarSemCdGestao(String ugCd, T mapper, boolean isAnoAtual) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
@@ -890,10 +882,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultado;
     }
-    /**
-     * Aplica deduplicação se necessário baseado no tipo de DTO
-     * Para TermoDTO, remove duplicatas baseadas em cdConvenio
-     */
     private List<T> deduplicateIfNeeded(List<T> originalList) {
         if (originalList == null || originalList.isEmpty()) {
             return originalList;
@@ -907,9 +895,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return originalList;
     }
-    /**
-     * Remove duplicatas de TermoDTO baseadas em cdConvenio
-     */
     @SuppressWarnings("unchecked")
     private List<T> deduplicateTermoList(List<T> originalList) {
         logger.info("Aplicando deduplicação para Termo baseada em cdConvenio...");
@@ -941,10 +926,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
         return deduplicatedList;
     }
-    /**
-     * Remove duplicatas de DespesaDetalhadaDTO baseadas na chave composta da constraint única
-     * Chave: cd_unidade_gestora + dt_ano_exercicio_ctb + nu_mes + cd_orgao + cd_unid_orc + cd_natureza_despesa + cd_ppa_acao + cd_sub_acao
-     */
     @SuppressWarnings("unchecked")
     private List<T> deduplicateDespesaDetalhadaList(List<T> originalList) {
         logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave composta da constraint única...");
@@ -1046,9 +1027,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultado;
     }
-    /**
-     * Faz chamada para a API com parâmetros específicos
-     */
     private List<T> chamarApiComParametros(T mapper, Map<String, Object> parametros) {
         List<T> resultado = new ArrayList<>();
         try {
