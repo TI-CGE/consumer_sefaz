@@ -387,10 +387,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return null;
         }
     }
-    /**
-     * Generic method that uses reflection to map JSON fields to DTO properties.
-     * This method automatically maps JSON fields to DTO setters without hardcoding.
-     */
     private void mapearJsonParaDTO(JsonNode jsonNode, T dtoInstance) {
         try {
             Class<?> dtoClass = dtoInstance.getClass();
@@ -416,9 +412,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.error("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
         }
     }
-    /**
-     * Define campos derivados se o DTO suportar (especificamente para DespesaDetalhadaDTO)
-     */
     private void definirCamposDerivadosSeSuportado(T dtoInstance) {
         try {
             if (dtoInstance.getClass().getSimpleName().equals("DespesaDetalhadaDTO")) {
@@ -470,9 +463,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.warn("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
         }
     }
-    /**
-     * Finds the setter name for a field that has a @JsonProperty annotation matching the given fieldName.
-     */
     private String findSetterNameByJsonProperty(Class<?> dtoClass, String fieldName) {
         try {
             Field[] fields = dtoClass.getDeclaredFields();
@@ -488,9 +478,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return null;
     }
-    /**
-     * Attempts to invoke a setter method with the appropriate data type conversion.
-     */
     private boolean tryInvokeSetterWithValue(T dtoInstance, Class<?> dtoClass, String setterName, JsonNode fieldValue) {
         try {
             try {
@@ -542,9 +529,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return false;
         }
     }
-    /**
-     * Utility method to capitalize the first letter of a string.
-     */
     private String capitalize(String str) {
         if (str == null || str.isEmpty()) return str;
         return str.substring(0, 1).toUpperCase() + str.substring(1);
