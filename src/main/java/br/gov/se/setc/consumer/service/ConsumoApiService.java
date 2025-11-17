@@ -1004,10 +1004,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
         return deduplicatedList;
     }
-    /**
-     * Processa dados iterando sobre empenhos para obter cdGestao e sqEmpenho
-     * Usado especificamente para o endpoint de dados orçamentários
-     */
     private List<T> processarIterandoEmpenhos(String ugCd, T mapper, Short ano) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
