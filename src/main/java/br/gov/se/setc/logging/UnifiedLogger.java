@@ -1,4 +1,5 @@
 package br.gov.se.setc.logging;
+import br.gov.se.setc.logging.service.ErrorLogService;
 import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
 import org.slf4j.Logger;
@@ -19,6 +20,9 @@ public class UnifiedLogger {
     private static final AtomicLong operationCounter = new AtomicLong(0);
     @Autowired
     private SimpleLogger simpleLogger;
+    
+    @Autowired(required = false)
+    private ErrorLogService errorLogService;
     /**
      * Log de início de operação
      */
@@ -49,6 +53,9 @@ public class UnifiedLogger {
         String contextStr = context.length > 0 ? " | " + formatContext(context) : "";
         String message = operation + contextStr;
         simpleLogger.error(component, message, error);
+        if (errorLogService != null) {
+            errorLogService.saveErrorLog(component, operation, message, error);
+        }
     }
     /**
      * Log de processamento de dados
@@ -74,6 +81,11 @@ public class UnifiedLogger {
         } else if (statusCode >= 400) {
             logger.error("🌐 API ERRO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}",
                     method, endpoint, statusCode, responseTimeStr, requestSizeStr, responseSizeStr);
+            if (errorLogService != null) {
+                Exception apiException = new Exception("API retornou status " + statusCode + " para " + endpoint);
+                errorLogService.saveErrorLog("API_CLIENT", "API_CALL", 
+                    "API ERRO " + method + " " + endpoint + " | STATUS: " + statusCode, apiException);
+            }
         } else {
             logger.info("🌐 API SUCESSO {} {} | STATUS: {} | DURATION: {} | REQUEST: {} | RESPONSE: {}",
                     method, endpoint, statusCode, responseTimeStr, requestSizeStr, responseSizeStr);

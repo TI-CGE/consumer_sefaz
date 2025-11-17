@@ -1,7 +1,9 @@
 package br.gov.se.setc.logging;
+import br.gov.se.setc.logging.service.ErrorLogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -16,6 +18,9 @@ public class SimpleLogger {
     private static final Logger errorLogger = LoggerFactory.getLogger(SimpleLogger.class);
     private static final Logger markdownLogger = LoggerFactory.getLogger("MARKDOWN");
     private static final DateTimeFormatter TIME_FORMATTER = DateTimeFormatter.ofPattern("HH:mm:ss");
+    
+    @Autowired(required = false)
+    private ErrorLogService errorLogService;
     /**
      * Log de informação simples
      */
@@ -53,6 +58,9 @@ public class SimpleLogger {
         logger.error("{} | {} | ❌ {}", getCurrentTime(), component, message);
         errorLogger.error("ERRO em {} - {}", component, message);
         logErrorToMarkdown(component, message, null);
+        if (errorLogService != null) {
+            errorLogService.saveErrorLog(component, message, null);
+        }
     }
     /**
      * Log de erro com exceção
@@ -62,6 +70,9 @@ public class SimpleLogger {
         logger.error("{} | {} | ❌ {}: {}", getCurrentTime(), component, message, e.getMessage());
         errorLogger.error("ERRO em {} - {}: {}", component, message, e.getMessage(), e);
         logErrorToMarkdown(component, message, e);
+        if (errorLogService != null) {
+            errorLogService.saveErrorLog(component, message, e);
+        }
     }
     /**
      * Log de progresso
