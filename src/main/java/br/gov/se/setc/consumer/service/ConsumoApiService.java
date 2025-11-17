@@ -7,7 +7,8 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.repository.EndpontSefazRepository;
@@ -20,7 +21,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import br.gov.se.setc.logging.MarkdownLogger;
 import br.gov.se.setc.logging.SimpleLogger;
@@ -31,7 +31,7 @@ import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 public class ConsumoApiService<T extends EndpontSefaz> {
-    private static final Logger logger = Logger.getLogger(ConsumoApiService.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(ConsumoApiService.class);
     private final RestTemplate restTemplate;
     private final AcessoTokenService acessoTokenService;
     private ValidacaoUtil<T> utilsService;
@@ -104,7 +104,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 } else {
                     if (isUnidadeGestora) {
-                        logger.warning("Nenhuma UG encontrada");
+                        logger.warn("Nenhuma UG encontrada");
                         userFriendlyLogger.logWarning("Nenhuma Unidade Gestora encontrada");
                         markdownSection.warning("Nenhuma UG encontrada");
                     }
@@ -122,6 +122,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
+                        MDCUtil.setUgCode(ugCd);
                         simpleLogger.consumptionProgress(dataType, "Processando UGs (carga completa)", ugProcessed, ugCdArray.size(),
                                 "UG: " + ugCd);
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
@@ -141,6 +142,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
+                        MDCUtil.setUgCode(ugCd);
                         simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugCdArray.size(),
                                 "UG: " + ugCd);
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
@@ -166,7 +168,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 } else {
                     errorMessage += " (processando " + ugCdArray.size() + " UGs)";
                 }
-                logger.warning(errorMessage + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
+                logger.warn(errorMessage + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
                 markdownSection.warning("Nenhum dado encontrado")
                               .info("Pode ser normal se não houver dados para o período")
                               .summary("0 registros processados")
@@ -221,6 +223,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     @LogOperation(operation = "API_CALL_SEFAZ", component = "API_CLIENT")
     private ResponseEntity<String> respostaApiRaw(String apiUrl) {
         long startTime = System.currentTimeMillis();
+        MDCUtil.setApiEndpoint(apiUrl);
+        String requestId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setRequestId(requestId);
         String token = acessoTokenService.getToken();
         logger.info("Fazendo requisição para: " + apiUrl);
         logger.info("Token obtido (primeiros 20 chars): " + (token != null ? token.substring(0, Math.min(20, token.length())) + "..." : "null"));
@@ -241,7 +246,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Resposta recebida - Status: " + statusCode + " | Body length: " +
                            (response.getBody() != null ? response.getBody().length() : 0));
                 if (statusCode != 200) {
-                    logger.warning("Resposta não-200: " + statusCode + " | Body: " +
+                    logger.warn("Resposta não-200: " + statusCode + " | Body: " +
                                  (response.getBody() != null ? response.getBody().substring(0, Math.min(500, response.getBody().length())) : "null"));
                 }
                 int responseSize = response.getBody() != null ? LoggingUtils.calculateSizeInBytes(response.getBody()) : 0;
@@ -250,8 +255,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 return response;
             } catch (Exception e) {
                 long responseTime = System.currentTimeMillis() - startTime;
-                logger.severe("Erro na chamada da API SEFAZ: " + e.getMessage());
-                e.printStackTrace();
+                logger.error("Erro na chamada da API SEFAZ: {}", e.getMessage(), e);
                 unifiedLogger.logApiCall(apiUrl, "GET", 500, responseTime, 0, 0);
                 logApiCallToMarkdown(apiUrl, 500, responseTime, 0, e);
                 return null;
@@ -291,15 +295,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
         } catch (Exception e) {
-            logger.severe("Erro ao processar resposta JSON: " + e.getMessage());
+            logger.error("Erro ao processar resposta JSON: " + e.getMessage());
             e.printStackTrace();
         }
         return resultList;
     }
-    /**
-     * Processa resposta específica para BaseDespesaCredor com estrutura aninhada ou array direto
-     * Estrutura esperada: result > dados > colecao[] OU array direto []
-     */
     private List<T> processarRespostaBaseDespesaCredor(JsonNode rootNode, T mapper) {
         List<T> resultList = new ArrayList<>();
         try {
@@ -330,7 +330,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                                 firstItem.getClass().getMethod("setQtTotalFaixasPaginacao", Integer.class)
                                          .invoke(firstItem, qtTotalFaixasPaginacao.asInt());
                             } catch (Exception e) {
-                                logger.warning("Erro ao definir informações de paginação: " + e.getMessage());
+                                logger.warn("Erro ao definir informações de paginação: " + e.getMessage());
                             }
                         }
                     }
@@ -366,16 +366,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Array direto processado - " + resultList.size() + " registros");
             }
         } catch (Exception e) {
-            logger.severe("Erro ao processar resposta de BaseDespesaCredor: " + e.getMessage());
+            logger.error("Erro ao processar resposta de BaseDespesaCredor: " + e.getMessage());
             e.printStackTrace();
         }
         return resultList;
     }
-    /**
-     * Creates a new DTO instance and populates it with data from JSON using reflection
-     * and the DTO's own mapearCamposResposta() method.
-     * This approach is truly generic and works with any DTO that extends EndpontSefaz.
-     */
     @SuppressWarnings("unchecked")
     private T criarInstanciaGenerica(JsonNode itemNode, T mapper) {
         try {
@@ -387,7 +382,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             newInstance.mapearCamposResposta();
             return newInstance;
         } catch (Exception e) {
-            logger.severe("Erro ao criar instância genérica do DTO: " + e.getMessage());
+            logger.error("Erro ao criar instância genérica do DTO: " + e.getMessage());
             e.printStackTrace();
             return null;
         }
@@ -404,21 +399,21 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     JsonNode fieldValue = jsonNode.get(fieldName);
                     if (fieldValue != null && !fieldValue.isNull()) {
                         if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
-                            logger.fine("Mapeando campo ConsultaGerencial: " + fieldName + " = " + fieldValue.asText());
+                            logger.debug("Mapeando campo ConsultaGerencial: " + fieldName + " = " + fieldValue.asText());
                         }
                         invocarSetterSeExistir(dtoInstance, dtoClass, fieldName, fieldValue);
                     } else {
                         if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
-                            logger.warning("Campo null ou vazio em ConsultaGerencial: " + fieldName);
+                            logger.warn("Campo null ou vazio em ConsultaGerencial: " + fieldName);
                         }
                     }
                 } catch (Exception e) {
-                    logger.warning("Erro ao mapear campo '" + fieldName + "': " + e.getMessage());
+                    logger.warn("Erro ao mapear campo '" + fieldName + "': " + e.getMessage());
                 }
             });
             definirCamposDerivadosSeSuportado(dtoInstance);
         } catch (Exception e) {
-            logger.severe("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
+            logger.error("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
         }
     }
     /**
@@ -432,7 +427,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 definirCamposDerivadosMethod.invoke(dtoInstance);
             }
         } catch (Exception e) {
-            logger.warning("Erro ao executar definirCamposDerivados: " + e.getMessage());
+            logger.warn("Erro ao executar definirCamposDerivados: " + e.getMessage());
         }
     }
     /**
@@ -462,17 +457,17 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             }
             for (String setterName : possibleSetterNames) {
                 if (tryInvokeSetterWithValue(dtoInstance, dtoClass, setterName, fieldValue)) {
-                    logger.fine("Mapeado campo '" + fieldName + "' usando setter '" + setterName + "'");
+                    logger.debug("Mapeado campo '" + fieldName + "' usando setter '" + setterName + "'");
                     return;
                 }
             }
             if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
-                logger.warning("Nenhum setter encontrado para campo ConsultaGerencial: " + fieldName + " (valor: " + fieldValue.asText() + ")");
+                logger.warn("Nenhum setter encontrado para campo ConsultaGerencial: " + fieldName + " (valor: " + fieldValue.asText() + ")");
             } else {
-                logger.fine("Nenhum setter encontrado para campo: " + fieldName);
+                logger.debug("Nenhum setter encontrado para campo: " + fieldName);
             }
         } catch (Exception e) {
-            logger.warning("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
+            logger.warn("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
         }
     }
     /**
@@ -489,7 +484,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
         } catch (Exception e) {
-            logger.fine("Erro ao buscar campo com @JsonProperty: " + e.getMessage());
+            logger.debug("Erro ao buscar campo com @JsonProperty: " + e.getMessage());
         }
         return null;
     }
@@ -554,9 +549,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         if (str == null || str.isEmpty()) return str;
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
-    /**
-     * Converts snake_case to camelCase.
-     */
     private String toCamelCase(String snakeCase) {
         if (snakeCase == null || snakeCase.isEmpty()) return snakeCase;
         StringBuilder camelCase = new StringBuilder();
@@ -585,7 +577,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Fazendo requisição para buscar todas as UGs ativas...");
             }
         } catch (Exception e) {
-            logger.severe("Erro ao montar URL independente de data e ug: " + e.getMessage());
+            logger.error("Erro ao montar URL independente de data e ug: " + e.getMessage());
         }
         try {
             ResponseEntity<String> response = respostaApiRaw(apiUrl);
@@ -612,9 +604,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                     } else {
                         if (isUnidadeGestora) {
-                            logger.warning("Processamento de UGs retornou null");
+                            logger.warn("Processamento de UGs retornou null");
                         } else {
-                            logger.warning("processarRespostaSefaz retornou null");
+                            logger.warn("processarRespostaSefaz retornou null");
                         }
                     }
                 } else {
@@ -622,25 +614,26 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     if (isUnidadeGestora) {
                         errorMsg = "API de UG retornou erro. Status: " + response.getStatusCode();
                     }
-                    logger.warning(errorMsg + " | Body: " + (response.getBody() != null ? response.getBody().substring(0, Math.min(200, response.getBody().length())) : "null"));
+                    logger.warn(errorMsg + " | Body: " + (response.getBody() != null ? response.getBody().substring(0, Math.min(200, response.getBody().length())) : "null"));
                 }
             } else {
                 if (isUnidadeGestora) {
-                    logger.warning("Resposta da API UG é null");
+                    logger.warn("Resposta da API UG é null");
                 } else {
-                    logger.warning("Resposta da API é null");
+                    logger.warn("Resposta da API é null");
                 }
             }
         } catch (RestClientException e) {
             if (isUnidadeGestora) {
-                logger.severe("Erro ao consumir API de UG: " + e.getMessage());
+                logger.error("Erro ao consumir API de UG: " + e.getMessage());
             } else {
-                logger.severe("Erro ao consumir API vigente: " + e.getMessage());
+                logger.error("Erro ao consumir API vigente: " + e.getMessage());
             }
         }
         return resultadoAnoMesVigente;
     }
     private List<T> pegarDadosMesAnoVigente(String ugCd, T mapper){
+        MDCUtil.setUgCode(ugCd);
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
         Short mesAtual = utilsService.getMesAtual();
@@ -672,7 +665,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 }
             } else {
-                logger.warning("Nenhum código de gestão encontrado na tabela consumer_sefaz.empenho");
+                logger.warn("Nenhum código de gestão encontrado na tabela consumer_sefaz.empenho");
             }
         } else {
             List<T> resultado = processarSemCdGestao(ugCd, mapper, true);
@@ -683,6 +676,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         return resultadoAnoMesVigente;
     }
     private List<T> pegarDeTodosAnos(String ugCd, T mapper){
+        MDCUtil.setUgCode(ugCd);
         List<T> resultadoTodosAnos = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
         String dataType = getDataTypeFromMapper(mapper);
@@ -718,7 +712,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                     }
                 } else {
-                    logger.warning("Nenhum código de gestão encontrado para ano " + dtAno);
+                    logger.warn("Nenhum código de gestão encontrado para ano " + dtAno);
                 }
             } else {
                 List<T> resultadoAno = processarSemCdGestaoTodosAnos(ugCd, mapper, dtAno);
@@ -729,9 +723,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultadoTodosAnos;
     }
-    /**
-     * Log estruturado em markdown para chamadas de API
-     */
     private void logApiCallToMarkdown(String apiUrl, int statusCode, long responseTime, int responseSize, Exception error) {
         try {
             String endpoint = apiUrl.contains("?") ? apiUrl.substring(0, apiUrl.indexOf("?")) : apiUrl;
@@ -757,20 +748,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 section.log();
             }
         } catch (Exception e) {
-            logger.warning("Erro ao registrar log de API em markdown: " + e.getMessage());
+            logger.warn("Erro ao registrar log de API em markdown: " + e.getMessage());
         }
     }
-    /**
-     * Formata bytes em formato legível
-     */
     private String formatBytes(int bytes) {
         if (bytes < 1024) return bytes + " bytes";
         if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
     }
-    /**
-     * Determina o tipo de dados baseado no mapper
-     */
     private String getDataTypeFromMapper(T mapper) {
         String tableName = mapper.getTabelaBanco();
         if (tableName.contains("unidade_gestora")) {
@@ -789,10 +774,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return "dados";
         }
     }
-    /**
-     * Processa requisição com cdGestao específico para dados atuais
-     */
     private List<T> processarComCdGestao(String ugCd, T mapper, String cdGestao, boolean isAnoAtual) {
+        MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
         try {
@@ -806,7 +789,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             apiUrl = builder.toUriString();
             logger.info("URL da API com cdGestao: " + apiUrl);
         } catch (Exception e) {
-            logger.severe("Erro ao montar URL com cdGestao " + cdGestao + ": " + e.getMessage());
+            logger.error("Erro ao montar URL com cdGestao " + cdGestao + ": " + e.getMessage());
             return resultado;
         }
         try {
@@ -817,21 +800,19 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     resultado.addAll(processedData);
                     logger.info("Dados processados com sucesso para cdGestao " + cdGestao + ": " + processedData.size() + " registros");
                 } else {
-                    logger.warning("Processamento retornou null para cdGestao " + cdGestao);
+                    logger.warn("Processamento retornou null para cdGestao " + cdGestao);
                 }
             } else {
-                logger.warning("API retornou erro para cdGestao " + cdGestao + ". Status: " +
+                logger.warn("API retornou erro para cdGestao " + cdGestao + ". Status: " +
                              (response != null ? response.getStatusCode() : "null"));
             }
         } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API para cdGestao " + cdGestao + ": " + e.getMessage());
+            logger.error("Erro ao consumir API para cdGestao " + cdGestao + ": " + e.getMessage());
         }
         return resultado;
     }
-    /**
-     * Processa requisição com cdGestao específico para todos os anos
-     */
     private List<T> processarComCdGestaoTodosAnos(String ugCd, T mapper, String cdGestao, Short ano) {
+        MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
         try {
@@ -843,7 +824,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             }
             apiUrl = builder.toUriString();
         } catch (Exception e) {
-            logger.severe("Erro ao montar URL com cdGestao " + cdGestao + " para ano " + ano + ": " + e.getMessage());
+            logger.error("Erro ao montar URL com cdGestao " + cdGestao + " para ano " + ano + ": " + e.getMessage());
             return resultado;
         }
         try {
@@ -855,7 +836,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
         } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API para cdGestao " + cdGestao + " e ano " + ano + ": " + e.getMessage());
+            logger.error("Erro ao consumir API para cdGestao " + cdGestao + " e ano " + ano + ": " + e.getMessage());
         }
         return resultado;
     }
@@ -863,6 +844,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
      * Processa requisição sem cdGestao para dados atuais (DTOs que não precisam de iteração)
      */
     private List<T> processarSemCdGestao(String ugCd, T mapper, boolean isAnoAtual) {
+        MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
         try {
@@ -875,7 +857,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             apiUrl = builder.toUriString();
             logger.info("URL da API: " + apiUrl);
         } catch (Exception e) {
-            logger.severe("Erro ao montar URL para ano vigente: " + e.getMessage());
+            logger.error("Erro ao montar URL para ano vigente: " + e.getMessage());
             return resultado;
         }
         try {
@@ -886,21 +868,19 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     resultado.addAll(processedData);
                     logger.info("Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
                 } else {
-                    logger.warning("Processamento retornou null para UG " + ugCd);
+                    logger.warn("Processamento retornou null para UG " + ugCd);
                 }
             } else {
-                logger.warning("API retornou erro para UG " + ugCd + ". Status: " +
+                logger.warn("API retornou erro para UG " + ugCd + ". Status: " +
                              (response != null ? response.getStatusCode() : "null"));
             }
         } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
+            logger.error("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
         }
         return resultado;
     }
-    /**
-     * Processa requisição sem cdGestao para todos os anos (DTOs que não precisam de iteração)
-     */
     private List<T> processarSemCdGestaoTodosAnos(String ugCd, T mapper, Short ano) {
+        MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
         try {
@@ -910,7 +890,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             }
             apiUrl = builder.toUriString();
         } catch (Exception e) {
-            logger.severe("Erro ao montar URL antiga: " + e.getMessage());
+            logger.error("Erro ao montar URL antiga: " + e.getMessage());
             return resultado;
         }
         try {
@@ -922,7 +902,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
         } catch (RestClientException e) {
-            logger.severe("Erro ao consumir API antiga: " + e.getMessage());
+            logger.error("Erro ao consumir API antiga: " + e.getMessage());
         }
         return resultado;
     }
@@ -957,16 +937,16 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 if (cdConvenio != null) {
                     if (uniqueTermos.containsKey(cdConvenio)) {
                         duplicatesRemoved++;
-                        logger.fine("Removendo duplicata: cdConvenio=" + cdConvenio);
+                        logger.debug("Removendo duplicata: cdConvenio=" + cdConvenio);
                     } else {
                         uniqueTermos.put(cdConvenio, item);
                     }
                 } else {
-                    logger.warning("Termo com cdConvenio null encontrado - mantendo registro");
+                    logger.warn("Termo com cdConvenio null encontrado - mantendo registro");
                     uniqueTermos.put(System.currentTimeMillis(), item);
                 }
             } catch (Exception e) {
-                logger.warning("Erro ao obter cdConvenio para deduplicação: " + e.getMessage());
+                logger.warn("Erro ao obter cdConvenio para deduplicação: " + e.getMessage());
                 uniqueTermos.put(System.currentTimeMillis(), item);
             }
         }
@@ -1008,12 +988,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 );
                 if (uniqueDespesas.containsKey(chaveComposta)) {
                     duplicatesRemoved++;
-                    logger.fine("Removendo duplicata DespesaDetalhada: " + chaveComposta);
+                    logger.debug("Removendo duplicata DespesaDetalhada: " + chaveComposta);
                 } else {
                     uniqueDespesas.put(chaveComposta, item);
                 }
             } catch (Exception e) {
-                logger.warning("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
+                logger.warn("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
                 uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
             }
         }
@@ -1029,6 +1009,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
      * Usado especificamente para o endpoint de dados orçamentários
      */
     private List<T> processarIterandoEmpenhos(String ugCd, T mapper, Short ano) {
+        MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         try {
             String queryEmpenhos = """
@@ -1043,7 +1024,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             List<Map<String, Object>> empenhos = utilsService.getJdbcTemplate().queryForList(
                 queryEmpenhos, ugCd, ano.intValue());
             if (empenhos.isEmpty()) {
-                logger.warning("Nenhum empenho encontrado para UG " + ugCd + " e ano " + ano);
+                logger.warn("Nenhum empenho encontrado para UG " + ugCd + " e ano " + ano);
                 return resultado;
             }
             logger.info("Encontrados " + empenhos.size() + " empenhos para UG " + ugCd + " e ano " + ano);
@@ -1074,13 +1055,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     logger.info("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): " +
                                resultadoEmpenho.size() + " registros obtidos");
                 } else {
-                    logger.fine("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): nenhum registro");
+                    logger.debug("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): nenhum registro");
                 }
             }
             logger.info("Processamento de empenhos concluído para UG " + ugCd + " e ano " + ano +
                        ": " + resultado.size() + " registros totais");
         } catch (Exception e) {
-            logger.severe("Erro ao processar empenhos para UG " + ugCd + " e ano " + ano + ": " + e.getMessage());
+            logger.error("Erro ao processar empenhos para UG " + ugCd + " e ano " + ano + ": " + e.getMessage());
             e.printStackTrace();
         }
         return resultado;
@@ -1096,7 +1077,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 builder.queryParam(entry.getKey(), entry.getValue());
             }
             String apiUrl = builder.toUriString();
-            logger.fine("Chamando API: " + apiUrl);
+            logger.debug("Chamando API: " + apiUrl);
             ResponseEntity<String> response = respostaApiRaw(apiUrl);
             if (response != null && response.getStatusCode() == HttpStatus.OK && response.getBody() != null) {
                 List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
@@ -1104,11 +1085,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     resultado.addAll(processedData);
                 }
             } else {
-                logger.warning("API retornou erro. Status: " +
+                logger.warn("API retornou erro. Status: " +
                              (response != null ? response.getStatusCode() : "null"));
             }
         } catch (Exception e) {
-            logger.warning("Erro ao chamar API com parâmetros " + parametros + ": " + e.getMessage());
+            logger.warn("Erro ao chamar API com parâmetros " + parametros + ": " + e.getMessage());
         }
         return resultado;
     }
