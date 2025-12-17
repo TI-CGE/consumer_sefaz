@@ -251,7 +251,18 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
                 int responseSize = response.getBody() != null ? LoggingUtils.calculateSizeInBytes(response.getBody()) : 0;
                 unifiedLogger.logApiCall(apiUrl, "GET", statusCode, responseTime, 0, responseSize);
-                logApiCallToMarkdown(apiUrl, statusCode, responseTime, responseSize, null);
+                Exception httpError = null;
+                if (statusCode >= 400 && response.getBody() != null) {
+                    String reasonPhrase = statusCode == 400 ? "Bad Request" : 
+                                         statusCode == 401 ? "Unauthorized" :
+                                         statusCode == 403 ? "Forbidden" :
+                                         statusCode == 404 ? "Not Found" :
+                                         statusCode == 500 ? "Internal Server Error" : "Error";
+                    String errorMessage = statusCode + " " + reasonPhrase + ": \"" + response.getBody() + "\"";
+                    httpError = new Exception(errorMessage);
+                    logger.error("Erro HTTP na chamada da API SEFAZ: {}", errorMessage);
+                }
+                logApiCallToMarkdown(apiUrl, statusCode, responseTime, responseSize, httpError);
                 return response;
             } catch (Exception e) {
                 long responseTime = System.currentTimeMillis() - startTime;
