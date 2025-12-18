@@ -1,25 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <!-- Propriedades -->
     <springProfile name="!prod">
         <property name="LOG_PATH" value="./logs"/>
     </springProfile>
     <springProfile name="prod">
         <property name="LOG_PATH" value="/var/log/sefaz-consumer"/>
     </springProfile>
-    <!-- Console Appender - Formato simples para usuários -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%msg%n</pattern>
         </encoder>
     </appender>
-    <!-- Console Técnico - Para desenvolvimento (opcional) -->
     <appender name="CONSOLE_TECHNICAL" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{HH:mm:ss.SSS} %highlight(%-5level) [%X{correlationId:-N/A}] %cyan([%X{component:-APP}]) %yellow([%X{operation:-UNKNOWN}]) - %msg%n</pattern>
         </encoder>
     </appender>
-    <!-- Simple Log File - FORMATO SIMPLIFICADO -->
     <appender name="SIMPLE_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/simple.log</file>
         <encoder>
@@ -32,7 +28,6 @@
             <totalSizeCap>1GB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    <!-- Markdown Log File - LOGS ESTRUTURADOS -->
     <appender name="MARKDOWN_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/operations.md</file>
         <encoder>
@@ -45,7 +40,6 @@
             <totalSizeCap>500MB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    <!-- Application Log File - LOG TÉCNICO COMPLETO -->
     <appender name="APPLICATION_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/application.log</file>
         <encoder>
@@ -58,7 +52,6 @@
             <totalSizeCap>3GB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    <!-- Error Log File - LOG DE ERROS -->
     <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/errors.log</file>
         <filter class="ch.qos.logback.classic.filter.LevelFilter">
@@ -76,21 +69,18 @@
             <totalSizeCap>5GB</totalSizeCap>
         </rollingPolicy>
     </appender>
-    <!-- Logger específico para mensagens de usuário -->
     <logger name="USER_FRIENDLY" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE"/>
     </logger>
-    <!-- Logger simplificado -->
     <logger name="SIMPLE" level="INFO" additivity="false">
         <appender-ref ref="SIMPLE_FILE"/>
         <appender-ref ref="ERROR_FILE"/>
         <appender-ref ref="CONSOLE"/>
     </logger>
-    <!-- Logger para formato markdown -->
     <logger name="MARKDOWN" level="INFO" additivity="false">
         <appender-ref ref="MARKDOWN_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
     </logger>
-    <!-- Filtros para reduzir ruído de frameworks -->
     <logger name="org.springframework" level="WARN"/>
     <logger name="org.hibernate" level="WARN"/>
     <logger name="com.zaxxer.hikari" level="WARN"/>
@@ -98,15 +88,11 @@
     <logger name="org.apache.catalina" level="WARN"/>
     <logger name="org.jboss.logging" level="WARN"/>
     <logger name="jakarta.persistence" level="WARN"/>
-    <!-- Manter logs da aplicação em nível INFO -->
     <logger name="br.gov.se.setc" level="INFO"/>
-    <!-- Root logger configuration -->
     <springProfile name="dev">
         <root level="WARN">
             <appender-ref ref="APPLICATION_FILE"/>
             <appender-ref ref="ERROR_FILE"/>
-            <!-- Descomente a linha abaixo para ver logs técnicos no console -->
-            <!-- <appender-ref ref="CONSOLE_TECHNICAL"/> -->
         </root>
     </springProfile>
     <springProfile name="prod">
@@ -119,8 +105,6 @@
         <root level="WARN">
             <appender-ref ref="APPLICATION_FILE"/>
             <appender-ref ref="ERROR_FILE"/>
-            <!-- Descomente a linha abaixo para ver logs técnicos no console -->
-            <!-- <appender-ref ref="CONSOLE_TECHNICAL"/> -->
         </root>
     </springProfile>
 </configuration>
