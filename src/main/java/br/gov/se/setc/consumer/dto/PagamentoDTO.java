@@ -46,6 +46,7 @@ public class PagamentoDTO extends EndpontSefaz {
     private BigDecimal vlOB;
     @JsonIgnore
     private Integer dtAnoExercicioCTBReferencia;
+    private Integer nuMesFiltro;
     @JsonProperty("dtPrevisaoDesembolso")
     private LocalDate dtPrevisaoDesembolso;
     @JsonProperty("dtLancamentoOB")
@@ -182,7 +183,14 @@ public class PagamentoDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
         camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
         camposParametros.put("nuAnoLancamento", utilsService.getAnoAtual());
-        camposParametros.put("nuMesLancamento", utilsService.getMesAtual());
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        } else {
+            Short mesAtual = utilsService.getMesAtual();
+            if (mesAtual != null) {
+                camposParametros.put("nuMes", mesAtual.intValue());
+            }
+        }
         return camposParametros;
     }
     @Override
@@ -191,7 +199,14 @@ public class PagamentoDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", ugCd);
         camposParametros.put("dtAnoExercicioCTB", ano);
         camposParametros.put("nuAnoLancamento", ano);
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
         return camposParametros;
+    }
+    @Override
+    public boolean requerIteracaoCdGestao() {
+        return true;
     }
     public Integer getDtAnoExercicioCTB() {
         return dtAnoExercicioCTB;
@@ -211,6 +226,12 @@ public class PagamentoDTO extends EndpontSefaz {
     }
     public void setCdGestao(String cdGestao) {
         this.cdGestao = cdGestao;
+    }
+    public Integer getNuMesFiltro() {
+        return nuMesFiltro;
+    }
+    public void setNuMesFiltro(Integer nuMesFiltro) {
+        this.nuMesFiltro = nuMesFiltro;
     }
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;

@@ -5,13 +5,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.time.LocalDate;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.logging.Logger;
-/**
- * DTO para consumo da API de Consulta Gerencial (Diárias) do SEFAZ
- * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial
- */
 public class ConsultaGerencialDTO extends EndpontSefaz {
     private static final Logger logger = Logger.getLogger(ConsultaGerencialDTO.class.getName());
     @JsonProperty("cdUnidadeGestora")
@@ -76,6 +71,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     private BigDecimal vlTotalValorPagoAtualizado;
     private String cdUnidadeGestoraFiltro;
     private Integer dtAnoExercicioCTBFiltro;
+    private Integer nuMesFiltro;
     public ConsultaGerencialDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -91,7 +87,6 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
     @Override
     public void mapearCamposResposta() {
-        // Mapear todos os campos permitindo NULL quando não vierem da API
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
         camposResposta.put("sg_unidade_gestora", sgUnidadeGestora);
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);
@@ -128,6 +123,9 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (dtAnoExercicioCTBFiltro != null) {
             camposParametros.put("dtAnoExercicioCTB", dtAnoExercicioCTBFiltro);
         }
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
     }
     @Override
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
@@ -138,6 +136,9 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (ano != null) {
             camposParametros.put("dtAnoExercicioCTB", ano.intValue());
         }
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
         return camposParametros;
     }
     @Override
@@ -146,8 +147,27 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        camposParametros.put("dtAnoExercicioCTB", 2025);
+        if (dtAnoExercicioCTBFiltro != null) {
+            camposParametros.put("dtAnoExercicioCTB", dtAnoExercicioCTBFiltro);
+        } else if (utilsService != null) {
+            Short anoAtual = utilsService.getAnoAtual();
+            if (anoAtual != null) {
+                camposParametros.put("dtAnoExercicioCTB", anoAtual.intValue());
+            }
+        }
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        } else if (utilsService != null) {
+            Short mesAtual = utilsService.getMesAtual();
+            if (mesAtual != null) {
+                camposParametros.put("nuMes", mesAtual.intValue());
+            }
+        }
         return camposParametros;
+    }
+    @Override
+    public boolean requerIteracaoCdGestao() {
+        return true;
     }
     public String getCdUnidadeGestora() {
         return cdUnidadeGestora;
@@ -494,5 +514,11 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
     public void setDtAnoExercicioCTBFiltro(Integer dtAnoExercicioCTBFiltro) {
         this.dtAnoExercicioCTBFiltro = dtAnoExercicioCTBFiltro;
+    }
+    public Integer getNuMesFiltro() {
+        return nuMesFiltro;
+    }
+    public void setNuMesFiltro(Integer nuMesFiltro) {
+        this.nuMesFiltro = nuMesFiltro;
     }
 }

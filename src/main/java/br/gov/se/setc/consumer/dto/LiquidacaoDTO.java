@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 public class LiquidacaoDTO extends EndpontSefaz {
     @JsonProperty("sqEmpenho")
@@ -62,6 +61,7 @@ public class LiquidacaoDTO extends EndpontSefaz {
     private String nuProcessoLicitacao;
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
+    private Integer nuMesFiltro;
     public LiquidacaoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -119,7 +119,14 @@ public class LiquidacaoDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
         camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
         camposParametros.put("nuAnoLancamento", utilsService.getAnoAtual());
-        camposParametros.put("nuMesLancamento", utilsService.getMesAtual());
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        } else {
+            Short mesAtual = utilsService.getMesAtual();
+            if (mesAtual != null) {
+                camposParametros.put("nuMes", mesAtual.intValue());
+            }
+        }
         return camposParametros;
     }
     @Override
@@ -128,11 +135,20 @@ public class LiquidacaoDTO extends EndpontSefaz {
         camposParametros.put("cdUnidadeGestora", ugCd);
         camposParametros.put("dtAnoExercicioCTB", ano);
         camposParametros.put("nuAnoLancamento", ano);
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
         return camposParametros;
     }
     @Override
     public boolean requerIteracaoCdGestao() {
         return true;
+    }
+    public Integer getNuMesFiltro() {
+        return nuMesFiltro;
+    }
+    public void setNuMesFiltro(Integer nuMesFiltro) {
+        this.nuMesFiltro = nuMesFiltro;
     }
     public Long getSqEmpenho() {
         return sqEmpenho;

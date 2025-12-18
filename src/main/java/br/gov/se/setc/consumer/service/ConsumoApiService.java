@@ -1,5 +1,4 @@
 package br.gov.se.setc.consumer.service;
-import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.client.RestClientException;
@@ -10,11 +9,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
-import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.repository.EndpontSefazRepository;
-import br.gov.se.setc.consumer.service.JpaPersistenceService;
 import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
+import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
+import br.gov.se.setc.consumer.dto.PagamentoDTO;
+import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
+import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -29,7 +30,6 @@ import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 public class ConsumoApiService<T extends EndpontSefaz> {
     private static final Logger logger = LoggerFactory.getLogger(ConsumoApiService.class);
     private final RestTemplate restTemplate;
@@ -626,7 +626,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         MDCUtil.setUgCode(ugCd);
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
-        Short mesAtual = utilsService.getMesAtual();
         logger.info("Buscando dados do ano atual (" + anoAtual + ") para UG: " + ugCd);
         if (mapper.requerIteracaoEmpenhos()) {
             logger.info("DTO requer iteração sobre empenhos. Buscando empenhos para UG: " + ugCd + " e ano: " + anoAtual);
@@ -638,7 +637,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         else if (mapper.requerIteracaoCdGestao()) {
             logger.info("DTO requer iteração sobre cdGestao. Buscando todos os códigos de gestão...");
-            List<String> cdGestaoList = utilsService.cdGestao();
+            List<String> cdGestaoList;
+            if (mapper instanceof EmpenhoDTO) {
+                cdGestaoList = utilsService.cdGestaoSeed();
+            } else {
+                cdGestaoList = utilsService.cdGestaoPorUgAno(ugCd, anoAtual);
+            }
             if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
                 logger.info("Encontrados " + cdGestaoList.size() + " códigos de gestão para iterar");
                 String dataType = getDataTypeFromMapper(mapper);
@@ -648,10 +652,52 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     simpleLogger.consumptionProgress(dataType, "Processando cdGestao (ano vigente)", cdGestaoProcessado, cdGestaoList.size(),
                             "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
-                    List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
-                    if (resultadoCdGestao != null) {
-                        resultadoAnoMesVigente.addAll(resultadoCdGestao);
-                        logger.info("cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros processados");
+                    if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
+                        for (int mes = 1; mes <= 12; mes++) {
+                            consultaGerencialDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                            if (resultadoCdGestaoMes != null) {
+                                resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                            }
+                        }
+                        consultaGerencialDTO.setNuMesFiltro(null);
+                    } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
+                        for (int mes = 1; mes <= 12; mes++) {
+                            pagamentoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                            if (resultadoCdGestaoMes != null) {
+                                resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                            }
+                        }
+                        pagamentoDTO.setNuMesFiltro(null);
+                    } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
+                        for (int mes = 1; mes <= 12; mes++) {
+                            liquidacaoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                            if (resultadoCdGestaoMes != null) {
+                                resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                            }
+                        }
+                        liquidacaoDTO.setNuMesFiltro(null);
+                    } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
+                        for (int mes = 1; mes <= 12; mes++) {
+                            empenhoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                            if (resultadoCdGestaoMes != null) {
+                                resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                            }
+                        }
+                        empenhoDTO.setNuMesFiltro(null);
+                    } else {
+                        List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                        if (resultadoCdGestao != null) {
+                            resultadoAnoMesVigente.addAll(resultadoCdGestao);
+                            logger.info("cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros processados");
+                        }
                     }
                 }
             } else {
@@ -687,7 +733,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             }
             else if (mapper.requerIteracaoCdGestao()) {
                 logger.info("DTO requer iteração sobre cdGestao para ano " + dtAno);
-                List<String> cdGestaoList = utilsService.cdGestao();
+                List<String> cdGestaoList;
+                if (mapper instanceof EmpenhoDTO) {
+                    cdGestaoList = utilsService.cdGestaoSeed();
+                } else {
+                    cdGestaoList = utilsService.cdGestaoPorUgAno(ugCd, dtAno);
+                }
                 if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
                     int cdGestaoProcessado = 0;
                     for (String cdGestao : cdGestaoList) {
@@ -695,10 +746,52 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         simpleLogger.consumptionProgress(dataType, "Processando cdGestao", cdGestaoProcessado, cdGestaoList.size(),
                                 "UG: " + ugCd + " | Ano: " + dtAno + " | cdGestao: " + cdGestao);
                         logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd + " e ano: " + dtAno);
-                        List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
-                        if (resultadoCdGestao != null) {
-                            resultadoTodosAnos.addAll(resultadoCdGestao);
-                            logger.info("Ano " + dtAno + " cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros");
+                        if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
+                            for (int mes = 1; mes <= 12; mes++) {
+                                consultaGerencialDTO.setNuMesFiltro(mes);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                if (resultadoCdGestaoMes != null) {
+                                    resultadoTodosAnos.addAll(resultadoCdGestaoMes);
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                }
+                            }
+                            consultaGerencialDTO.setNuMesFiltro(null);
+                        } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
+                            for (int mes = 1; mes <= 12; mes++) {
+                                pagamentoDTO.setNuMesFiltro(mes);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                if (resultadoCdGestaoMes != null) {
+                                    resultadoTodosAnos.addAll(resultadoCdGestaoMes);
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                }
+                            }
+                            pagamentoDTO.setNuMesFiltro(null);
+                        } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
+                            for (int mes = 1; mes <= 12; mes++) {
+                                liquidacaoDTO.setNuMesFiltro(mes);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                if (resultadoCdGestaoMes != null) {
+                                    resultadoTodosAnos.addAll(resultadoCdGestaoMes);
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                }
+                            }
+                            liquidacaoDTO.setNuMesFiltro(null);
+                        } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
+                            for (int mes = 1; mes <= 12; mes++) {
+                                empenhoDTO.setNuMesFiltro(mes);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                if (resultadoCdGestaoMes != null) {
+                                    resultadoTodosAnos.addAll(resultadoCdGestaoMes);
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                }
+                            }
+                            empenhoDTO.setNuMesFiltro(null);
+                        } else {
+                            List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                            if (resultadoCdGestao != null) {
+                                resultadoTodosAnos.addAll(resultadoCdGestao);
+                                logger.info("Ano " + dtAno + " cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros");
+                            }
                         }
                     }
                 } else {

@@ -4,7 +4,6 @@ import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 public class EmpenhoDTO extends EndpontSefaz {
     @JsonProperty("dtAnoExercicioCTB")
@@ -74,6 +73,7 @@ public class EmpenhoDTO extends EndpontSefaz {
     private String nuProcessoLicitacao;
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
+    private Integer nuMesFiltro;
     public EmpenhoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -136,6 +136,14 @@ public class EmpenhoDTO extends EndpontSefaz {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
         camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        } else {
+            Short mesAtual = utilsService.getMesAtual();
+            if (mesAtual != null) {
+                camposParametros.put("nuMes", mesAtual.intValue());
+            }
+        }
         return camposParametros;
     }
     @Override
@@ -143,7 +151,14 @@ public class EmpenhoDTO extends EndpontSefaz {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
         camposParametros.put("dtAnoExercicioCTB", ano);
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
         return camposParametros;
+    }
+    @Override
+    public boolean requerIteracaoCdGestao() {
+        return true;
     }
     public Integer getDtAnoExercicioCTB() {
         return dtAnoExercicioCTB;
@@ -162,6 +177,12 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setCdGestao(String cdGestao) {
         this.cdGestao = cdGestao;
+    }
+    public Integer getNuMesFiltro() {
+        return nuMesFiltro;
+    }
+    public void setNuMesFiltro(Integer nuMesFiltro) {
+        this.nuMesFiltro = nuMesFiltro;
     }
     public String getSgUnidadeGestora() {
         return sgUnidadeGestora;

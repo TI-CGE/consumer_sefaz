@@ -1,5 +1,4 @@
 package br.gov.se.setc.util;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import br.gov.se.setc.consumer.contracts.EndpontSefaz;
@@ -8,17 +7,16 @@ import java.util.List;
 @Service
 public class ValidacaoUtil<T extends EndpontSefaz> {
     private final JdbcTemplate jdbcTemplate;
-    @Autowired
     public ValidacaoUtil(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
     public boolean isPresenteBanco(T endpointInstance){
         if (endpointInstance.getDtAnoPadrao() == null) {
             String sql = "select ( coalesce(count(*),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
-            return jdbcTemplate.queryForObject(sql, Boolean.class);
+            return Boolean.TRUE.equals(jdbcTemplate.queryForObject(sql, Boolean.class));
         } else {
             String sql = "select ( coalesce(count( "+endpointInstance.getDtAnoPadrao()+ "),0) > 0 ) as valor from "+endpointInstance.getTabelaBanco() +"  LIMIT 1;";
-            return jdbcTemplate.queryForObject(sql, Boolean.class);
+            return Boolean.TRUE.equals(jdbcTemplate.queryForObject(sql, Boolean.class));
         }
     }
     public boolean isEndpointIdependenteUGData(T mapper){
@@ -59,6 +57,37 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         String sql = "SELECT DISTINCT cd_gestao FROM consumer_sefaz.empenho ";
         return jdbcTemplate.queryForList(sql, String.class);
     }
+    public List<String> cdGestaoSeed() {
+        String sql = """
+            SELECT DISTINCT cd_gestao
+            FROM (
+                SELECT cd_gestao FROM consumer_sefaz.pagamento
+                UNION
+                SELECT cd_gestao FROM consumer_sefaz.liquidacao
+                UNION
+                SELECT cd_gestao FROM consumer_sefaz.termo
+                UNION
+                SELECT cd_gestao FROM consumer_sefaz.consulta_gerencial
+            ) t
+            WHERE cd_gestao IS NOT NULL
+            ORDER BY cd_gestao
+            """;
+        return jdbcTemplate.queryForList(sql, String.class);
+    }
+    public List<String> cdGestaoPorUgAno(String cdUnidadeGestora, Short ano) {
+        if (cdUnidadeGestora == null || ano == null) {
+            return new ArrayList<>();
+        }
+        String sql = """
+            SELECT DISTINCT cd_gestao
+            FROM consumer_sefaz.empenho
+            WHERE cd_unidade_gestora = ?
+              AND dt_ano_exercicio_ctb = ?
+              AND cd_gestao IS NOT NULL
+            ORDER BY cd_gestao
+            """;
+        return jdbcTemplate.queryForList(sql, String.class, cdUnidadeGestora, ano.intValue());
+    }
     public Boolean getValidaContratosFiscais() {
         return hasDataInTable("sco.contratos_fiscais", "dt_ano_exercicio");
     }
@@ -95,9 +124,6 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
     public Boolean getValidaPagamento(){
         return hasDataInTable("sco.pagamento", "cd_unidade_gestora");
     }
-    /**
-     * Getter para JdbcTemplate - usado para consultas específicas
-     */
     public JdbcTemplate getJdbcTemplate() {
         return jdbcTemplate;
     }
