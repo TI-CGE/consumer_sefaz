@@ -79,12 +79,16 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
             return new ArrayList<>();
         }
         String sql = """
-            SELECT DISTINCT cd_gestao
-            FROM consumer_sefaz.empenho
-            WHERE cd_unidade_gestora = ?
-              AND dt_ano_exercicio_ctb = ?
-              AND cd_gestao IS NOT NULL
-            ORDER BY cd_gestao
+            SELECT DISTINCT v.cd_gestao
+            FROM spt.vw_unidades_gestora_liq v
+            INNER JOIN consumer_sefaz.empenho e 
+                ON v.cd_gestao = e.cd_gestao 
+                AND v.cd_unidade_gestora = e.cd_unidade_gestora
+            WHERE v.cd_unidade_gestora = ?
+              AND e.dt_ano_exercicio_ctb = ?
+              AND v.cd_gestao IS NOT NULL
+              AND v.cd_gestao != ''
+            ORDER BY v.cd_gestao
             """;
         return jdbcTemplate.queryForList(sql, String.class, cdUnidadeGestora, ano.intValue());
     }
