@@ -6,19 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
-/**
- * DTO para consumo da API de Previsão Realização Receita do SEFAZ
- * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/ctb/v1/previsao-realizacao-receita
- * Contexto: CTB (Contabilidade)
- *
- * Esta API requer o parâmetro 'nuMes' (número do mês de 1-12).
- * Para busca de múltiplos meses, utilize os endpoints do scheduler.
- *
- * Estrutura de resposta: Array de objetos JSON com dados de previsão e realização de receitas
- * organizados em hierarquia de 5 níveis: Categoria → Origem → Espécie → Desdobramento → Tipo
- *
- * Chave única: cdUnidadeGestora + dtAnoExercicioCTB + nuMes + hierarquia completa
- */
 public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     @JsonProperty("cdUnidadeGestora")
     private String cdUnidadeGestora;
@@ -122,13 +109,10 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
         camposParametros.put("dtAnoExercicioCTB", 2025);
-        Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : 12;
+        Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : (utilsService != null && utilsService.getMesAtual() != null ? utilsService.getMesAtual().intValue() : 12);
         camposParametros.put("nuMes", mesParaUsar);
         return camposParametros;
     }
-    /**
-     * Método para converter dtAnoExercicioCTBString para Integer após deserialização
-     */
     public void processarCamposDerivados() {
         if (dtAnoExercicioCTBString != null && !dtAnoExercicioCTBString.trim().isEmpty()) {
             try {
@@ -138,12 +122,6 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
             }
         }
     }
-    /**
-     * Método específico para Previsão Realização Receita que retorna parâmetros para todos os 12 meses
-     * @param ugCd Código da Unidade Gestora
-     * @param ano Ano do exercício
-     * @return Lista com 12 mapas de parâmetros (um para cada mês)
-     */
     public java.util.List<Map<String, Object>> getCamposParametrosTodosMeses(String ugCd, Short ano) {
         java.util.List<Map<String, Object>> parametrosMeses = new java.util.ArrayList<>();
         for (int mes = 1; mes <= 12; mes++) {
@@ -159,33 +137,17 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
         }
         return parametrosMeses;
     }
-    /**
-     * Método para definir o mês específico nos parâmetros
-     * @param mes Número do mês (1-12)
-     */
     public void setMesParametro(int mes) {
         if (mes >= 1 && mes <= 12) {
             camposParametros.put("nuMes", mes);
         }
     }
-    /**
-     * Indica se esta entidade requer múltiplas requisições (12 meses)
-     * @return true para PrevisaoRealizacaoReceita
-     */
     public boolean requerMultiplasRequisicoes() {
         return true;
     }
-    /**
-     * Retorna o número de requisições necessárias (12 meses)
-     * @return 12
-     */
     public int getNumeroRequisicoes() {
         return 12;
     }
-    /**
-     * Retorna o tempo de pausa entre requisições em milissegundos
-     * @return 500ms
-     */
     public long getPausaEntreRequisicoes() {
         return 500L;
     }

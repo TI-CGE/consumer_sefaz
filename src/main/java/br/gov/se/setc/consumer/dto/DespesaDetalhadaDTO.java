@@ -7,21 +7,6 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.LinkedHashMap;
 import java.util.Map;
-/**
- * DTO para consumo da API de Despesa Detalhada do SEFAZ
- * Endpoint: https://api-transparencia.apps.sefaz.se.gov.br/ctb/v1/despesa-detalhada
- * Contexto: CTB (Contabilidade)
- *
- * Estrutura de resposta: Array de objetos JSON com dados detalhados de despesas
- * organizados por órgão, unidade orçamentária, função, programa, ação e natureza da despesa
- *
- * Filtros disponíveis:
- * - Obrigatório: dtAnoExercicioCTB (ano do exercício)
- * - Opcionais: cdOrgao, cdUnidOrc, cdFuncao, cdSubFuncao, cdProgramaGoverno,
- *              cdPPAAcao, cdSubAcao, cdCategoriaEconomica, cdNaturezaDespesa
- *
- * Chave única: dtAnoExercicioCTB + cdOrgao + cdUnidOrc + cdNaturezaDespesa + cdPPAAcao + cdSubAcao
- */
 public class DespesaDetalhadaDTO extends EndpontSefaz {
     @JsonProperty("cdOrgao")
     private String cdOrgao;
@@ -191,16 +176,10 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
         camposParametros.put("dtAnoExercicio", 2025);
-        Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : 12;
+        Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : (utilsService != null && utilsService.getMesAtual() != null ? utilsService.getMesAtual().intValue() : 12);
         camposParametros.put("nuMes", mesParaUsar);
         return camposParametros;
     }
-    /**
-     * Método específico para Despesa Detalhada que retorna parâmetros para todos os 12 meses
-     * @param ugCd Código da Unidade Gestora
-     * @param ano Ano do exercício
-     * @return Lista com 12 mapas de parâmetros (um para cada mês)
-     */
     public java.util.List<Map<String, Object>> getCamposParametrosTodosMeses(String ugCd, Short ano) {
         java.util.List<Map<String, Object>> parametrosMeses = new java.util.ArrayList<>();
         for (int mes = 1; mes <= 12; mes++) {
@@ -216,40 +195,20 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
         }
         return parametrosMeses;
     }
-    /**
-     * Método para definir o mês específico nos parâmetros
-     * @param mes Número do mês (1-12)
-     */
     public void setMesParametro(int mes) {
         if (mes >= 1 && mes <= 12) {
             camposParametros.put("nuMes", mes);
         }
     }
-    /**
-     * Indica se esta entidade requer múltiplas requisições (12 meses)
-     * @return true para DespesaDetalhada
-     */
     public boolean requerMultiplasRequisicoes() {
         return true;
     }
-    /**
-     * Retorna o número de requisições necessárias (12 meses)
-     * @return 12
-     */
     public int getNumeroRequisicoes() {
         return 12;
     }
-    /**
-     * Retorna o tempo de pausa entre requisições em milissegundos
-     * @return 500ms
-     */
     public long getPausaEntreRequisicoes() {
         return 500L;
     }
-    /**
-     * Define os campos derivados a partir dos filtros e parâmetros
-     * CORREÇÃO: A API não retorna esses campos, eles devem ser derivados dos parâmetros da consulta
-     */
     private void definirCamposDerivados() {
         if (cdUnidadeGestora == null && cdUnidadeGestoraFiltro != null) {
             cdUnidadeGestora = cdUnidadeGestoraFiltro;
@@ -300,10 +259,6 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
             System.err.println("  - Parâmetros disponíveis: " + camposParametros.keySet());
         }
     }
-    /**
-     * Converte o DTO para a entidade JPA
-     * @return DespesaDetalhada entity
-     */
     public DespesaDetalhada toEntity() {
         DespesaDetalhada entity = new DespesaDetalhada();
         definirCamposDerivados();

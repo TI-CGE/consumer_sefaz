@@ -653,45 +653,57 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
                     if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
-                        for (int mes = 1; mes <= 12; mes++) {
-                            consultaGerencialDTO.setNuMesFiltro(mes);
+                        Short mesAtual = utilsService.getMesAtual();
+                        if (mesAtual != null) {
+                            consultaGerencialDTO.setNuMesFiltro(mesAtual.intValue());
                             List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
+                            consultaGerencialDTO.setNuMesFiltro(null);
+                        } else {
+                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
-                        consultaGerencialDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
-                        for (int mes = 1; mes <= 12; mes++) {
-                            pagamentoDTO.setNuMesFiltro(mes);
+                        Short mesAtual = utilsService.getMesAtual();
+                        if (mesAtual != null) {
+                            pagamentoDTO.setNuMesFiltro(mesAtual.intValue());
                             List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
+                            pagamentoDTO.setNuMesFiltro(null);
+                        } else {
+                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
-                        pagamentoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
-                        for (int mes = 1; mes <= 12; mes++) {
-                            liquidacaoDTO.setNuMesFiltro(mes);
+                        Short mesAtual = utilsService.getMesAtual();
+                        if (mesAtual != null) {
+                            liquidacaoDTO.setNuMesFiltro(mesAtual.intValue());
                             List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
+                            liquidacaoDTO.setNuMesFiltro(null);
+                        } else {
+                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
-                        liquidacaoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
-                        for (int mes = 1; mes <= 12; mes++) {
-                            empenhoDTO.setNuMesFiltro(mes);
+                        Short mesAtual = utilsService.getMesAtual();
+                        if (mesAtual != null) {
+                            empenhoDTO.setNuMesFiltro(mesAtual.intValue());
                             List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
+                            empenhoDTO.setNuMesFiltro(null);
+                        } else {
+                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
-                        empenhoDTO.setNuMesFiltro(null);
                     } else {
                         List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
                         if (resultadoCdGestao != null) {
