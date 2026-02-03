@@ -8,20 +8,23 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import java.util.List;
-/**
- * Configuração do OpenAPI/Swagger para documentação da API
- */
 @Configuration
 public class OpenApiConfig {
     @Value("${server.port:8083}")
     private String serverPort;
+    @Value("${server.servlet.context-path:}")
+    private String contextPath;
     @Bean
     public OpenAPI customOpenAPI() {
+        String relativeUrl = (contextPath == null || contextPath.isEmpty()) ? "" : contextPath;
         return new OpenAPI()
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:" + serverPort)
-                                .description("Servidor de Desenvolvimento")
+                                .url(relativeUrl)
+                                .description("Servidor atual (mesma origem)"),
+                        new Server()
+                                .url("http://localhost:" + serverPort + relativeUrl)
+                                .description("Localhost")
                 ))
                 .info(new Info()
                         .title("SEFAZ Transparency Consumer API")
