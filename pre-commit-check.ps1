@@ -23,7 +23,8 @@ $exitCode = $LASTEXITCODE
 if ($exitCode -eq 0) {
     Write-Host ""
     Write-Host "Todas as verificacoes passaram." -ForegroundColor Green
-} else {
+}
+else {
     Write-Host ""
     Write-Host "Verificacoes falharam. Corrija os problemas acima." -ForegroundColor Red
 }
