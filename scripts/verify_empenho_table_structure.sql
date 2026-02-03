@@ -1,8 +1,8 @@
 -- Verifica e adiciona colunas ausentes na tabela consumer_sefaz.empenho
--- Campos solicitados:
--- 1) dt_emissao_empenho (texto para data vinda da API)
--- 2) dt_lancamento_empenho (texto para data vinda da API)
--- 3) vl_total_anulado_empenho (valor decimal)
+-- Campos: dt_emissao_empenho, dt_lancamento_empenho, vl_total_*,
+-- cd_funcao_plo, nm_funcao_plo, cd_programa_governo, nm_programa_governo,
+-- cd_categoria_economica, nm_categoria_economica, cd_modalidade_aplicacao,
+-- nm_modalidade_aplicacao, nm_fonte_recurso, cd_grupo_despesa, nm_grupo_despesa (retorno API Empenho)
 
 CREATE SCHEMA IF NOT EXISTS consumer_sefaz;
 
@@ -22,6 +22,21 @@ BEGIN
 
         -- Valores monetários com precisão 15,2
         EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS vl_total_anulado_empenho NUMERIC(15,2)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS vl_total_estorno_liqd_empenho NUMERIC(15,2)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS vl_total_devolvido_ob_empenho NUMERIC(15,2)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS vl_total_devolvido_gr_empenho NUMERIC(15,2)';
+
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_funcao_plo INTEGER';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_funcao_plo VARCHAR(255)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_programa_governo INTEGER';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_programa_governo VARCHAR(255)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_categoria_economica INTEGER';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_categoria_economica VARCHAR(255)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_modalidade_aplicacao INTEGER';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_modalidade_aplicacao VARCHAR(255)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_fonte_recurso VARCHAR(255)';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS cd_grupo_despesa INTEGER';
+        EXECUTE 'ALTER TABLE consumer_sefaz.empenho ADD COLUMN IF NOT EXISTS nm_grupo_despesa VARCHAR(255)';
     ELSE
         RAISE NOTICE 'Tabela consumer_sefaz.empenho não encontrada. Nenhuma alteração aplicada.';
     END IF;
