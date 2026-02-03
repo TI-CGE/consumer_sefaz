@@ -35,4 +35,5 @@ build/
 ### Logs ###
 /logs
 logs/application.log
+hs_err_pid*.log
 /logs
