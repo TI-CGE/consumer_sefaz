@@ -3,7 +3,6 @@ import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.util.ValidacaoUtil;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 public class DadosOrcamentariosDTO extends EndpontSefaz {
     @JsonProperty("cdFuncao")

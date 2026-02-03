@@ -222,6 +222,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     }
     @LogOperation(operation = "API_CALL_SEFAZ", component = "API_CLIENT")
     private ResponseEntity<String> respostaApiRaw(String apiUrl) {
+        if (apiUrl != null) {
+            simpleLogger.apiEndpoint("GET", apiUrl);
+        }
         long startTime = System.currentTimeMillis();
         MDCUtil.setApiEndpoint(apiUrl);
         String requestId = MDCUtil.generateAndSetCorrelationId();
@@ -289,16 +292,23 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             if (mapper.getTabelaBanco().contains("base_despesa_credor")) {
                 return processarRespostaBaseDespesaCredor(rootNode, mapper);
             }
+            JsonNode arrayParaProcessar = null;
             if (rootNode.isArray()) {
+                arrayParaProcessar = rootNode;
                 logger.info("Processando array com " + rootNode.size() + " itens");
-                for (JsonNode itemNode : rootNode) {
+            } else if (rootNode.has("content") && rootNode.get("content").isArray()) {
+                arrayParaProcessar = rootNode.get("content");
+                logger.info("Processando resposta paginada (content) com " + arrayParaProcessar.size() + " itens");
+            }
+            if (arrayParaProcessar != null) {
+                for (JsonNode itemNode : arrayParaProcessar) {
                     T newInstance = criarInstanciaGenerica(itemNode, mapper);
                     if (newInstance != null) {
                         resultList.add(newInstance);
                     }
                 }
                 logger.info("Array processado: " + resultList.size() + " instâncias criadas");
-            } else {
+            } else if (!rootNode.isArray() && !rootNode.has("content")) {
                 logger.info("Processando objeto único");
                 T newInstance = criarInstanciaGenerica(rootNode, mapper);
                 if (newInstance != null) {
@@ -644,6 +654,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 cdGestaoList = utilsService.cdGestaoPorUgAno(ugCd, anoAtual);
             }
             if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
+                simpleLogger.apiUgCdGestaoCount(ugCd, cdGestaoList.size());
                 logger.info("Encontrados " + cdGestaoList.size() + " códigos de gestão para iterar");
                 String dataType = getDataTypeFromMapper(mapper);
                 int cdGestaoProcessado = 0;
@@ -653,57 +664,57 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
                     if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
-                        Short mesAtual = utilsService.getMesAtual();
-                        if (mesAtual != null) {
-                            consultaGerencialDTO.setNuMesFiltro(mesAtual.intValue());
-                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
+                        for (int[] anoMes : ultimos2Meses) {
+                            int ano = anoMes[0];
+                            int mes = anoMes[1];
+                            consultaGerencialDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
-                            consultaGerencialDTO.setNuMesFiltro(null);
-                        } else {
-                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
+                        consultaGerencialDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
-                        Short mesAtual = utilsService.getMesAtual();
-                        if (mesAtual != null) {
-                            pagamentoDTO.setNuMesFiltro(mesAtual.intValue());
-                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
+                        for (int[] anoMes : ultimos2Meses) {
+                            int ano = anoMes[0];
+                            int mes = anoMes[1];
+                            pagamentoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
-                            pagamentoDTO.setNuMesFiltro(null);
-                        } else {
-                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
+                        pagamentoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
-                        Short mesAtual = utilsService.getMesAtual();
-                        if (mesAtual != null) {
-                            liquidacaoDTO.setNuMesFiltro(mesAtual.intValue());
-                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
+                        for (int[] anoMes : ultimos2Meses) {
+                            int ano = anoMes[0];
+                            int mes = anoMes[1];
+                            liquidacaoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
-                            liquidacaoDTO.setNuMesFiltro(null);
-                        } else {
-                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
+                        liquidacaoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
-                        Short mesAtual = utilsService.getMesAtual();
-                        if (mesAtual != null) {
-                            empenhoDTO.setNuMesFiltro(mesAtual.intValue());
-                            List<T> resultadoCdGestaoMes = processarComCdGestao(ugCd, mapper, cdGestao, true);
+                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
+                        for (int[] anoMes : ultimos2Meses) {
+                            int ano = anoMes[0];
+                            int mes = anoMes[1];
+                            empenhoDTO.setNuMesFiltro(mes);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | nuMes " + mesAtual + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
                             }
-                            empenhoDTO.setNuMesFiltro(null);
-                        } else {
-                            logger.warn("Mês atual não disponível, pulando consumo para cdGestao " + cdGestao);
                         }
+                        empenhoDTO.setNuMesFiltro(null);
                     } else {
                         List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
                         if (resultadoCdGestao != null) {
@@ -713,6 +724,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 }
             } else {
+                simpleLogger.apiSkipUg(ugCd, "0 cd_gestao para ano atual (empenho/view)");
                 logger.warn("Nenhum código de gestão encontrado na tabela consumer_sefaz.empenho");
             }
         } else {
@@ -752,6 +764,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     cdGestaoList = utilsService.cdGestaoPorUgAno(ugCd, dtAno);
                 }
                 if (cdGestaoList != null && !cdGestaoList.isEmpty()) {
+                    simpleLogger.apiUgCdGestaoCount(ugCd + " ano=" + dtAno, cdGestaoList.size());
                     int cdGestaoProcessado = 0;
                     for (String cdGestao : cdGestaoList) {
                         cdGestaoProcessado++;
@@ -807,6 +820,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                     }
                 } else {
+                    simpleLogger.apiSkipUg(ugCd, "0 cd_gestao para ano " + dtAno);
                     logger.warn("Nenhum código de gestão encontrado para ano " + dtAno);
                 }
             } else {
@@ -865,6 +879,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return "contratos fiscais";
         } else if (tableName.contains("base_despesa_credor")) {
             return "base despesa credor";
+        } else if (tableName.contains("restos_a_pagar")) {
+            return "restos a pagar";
         } else {
             return "dados";
         }
@@ -1009,6 +1025,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         if (firstItem.getTabelaBanco().contains("despesa_detalhada")) {
             return deduplicateDespesaDetalhadaList(originalList);
         }
+        if (firstItem.getTabelaBanco().contains("previsao_realizacao_receita")) {
+            return deduplicatePrevisaoRealizacaoReceitaList(originalList);
+        }
         return originalList;
     }
     @SuppressWarnings("unchecked")
@@ -1075,7 +1094,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             } catch (Exception e) {
                 logger.warn("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
-                uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
+                String chaveFallback = construirChaveDespesaDetalhadaFromCampos(item);
+                if (chaveFallback != null) {
+                    if (uniqueDespesas.containsKey(chaveFallback)) duplicatesRemoved++;
+                    else uniqueDespesas.put(chaveFallback, item);
+                } else {
+                    uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
+                }
             }
         }
         List<T> deduplicatedList = new ArrayList<>(uniqueDespesas.values());
@@ -1084,6 +1109,58 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Registros únicos: " + deduplicatedList.size());
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
         return deduplicatedList;
+    }
+    @SuppressWarnings("unchecked")
+    private List<T> deduplicatePrevisaoRealizacaoReceitaList(List<T> originalList) {
+        logger.info("Aplicando deduplicação para PrevisaoRealizacaoReceita baseada na chave composta da constraint única...");
+        Map<String, T> unique = new LinkedHashMap<>();
+        int duplicatesRemoved = 0;
+        for (T item : originalList) {
+            try {
+                String cdUg = (String) item.getClass().getMethod("getCdUnidadeGestora").invoke(item);
+                Integer dtAno = (Integer) item.getClass().getMethod("getDtAnoExercicioCTB").invoke(item);
+                Integer nuMes = (Integer) item.getClass().getMethod("getNuMes").invoke(item);
+                String cdCat = (String) item.getClass().getMethod("getCdCategoriaEconomica").invoke(item);
+                String cdOrigem = (String) item.getClass().getMethod("getCdOrigem").invoke(item);
+                String cdEsp = (String) item.getClass().getMethod("getCdEspecie").invoke(item);
+                String cdDesdob = (String) item.getClass().getMethod("getCdDesdobramento").invoke(item);
+                String cdTipo = (String) item.getClass().getMethod("getCdTipo").invoke(item);
+                String chave = String.format("%s|%s|%s|%s|%s|%s|%s|%s",
+                    cdUg != null ? cdUg : "NULL", dtAno != null ? dtAno : "NULL", nuMes != null ? nuMes : "NULL",
+                    cdCat != null ? cdCat : "NULL", cdOrigem != null ? cdOrigem : "NULL",
+                    cdEsp != null ? cdEsp : "NULL", cdDesdob != null ? cdDesdob : "NULL", cdTipo != null ? cdTipo : "NULL");
+                if (unique.containsKey(chave)) duplicatesRemoved++;
+                else unique.put(chave, item);
+            } catch (Exception e) {
+                logger.warn("Erro ao obter campos para deduplicação de PrevisaoRealizacaoReceita: " + e.getMessage());
+                unique.put("ERROR_" + System.currentTimeMillis(), item);
+            }
+        }
+        List<T> deduplicatedList = new ArrayList<>(unique.values());
+        logger.info("Deduplicação PrevisaoRealizacaoReceita concluída: originais={}, únicos={}, removidas={}",
+            originalList.size(), deduplicatedList.size(), duplicatesRemoved);
+        return deduplicatedList;
+    }
+    private String construirChaveDespesaDetalhadaFromCampos(T item) {
+        Map<String, Object> campos = item.getCamposResposta();
+        if (campos == null) return null;
+        Object v1 = campos.get("cd_unidade_gestora");
+        Object v2 = campos.get("dt_ano_exercicio_ctb");
+        Object v3 = campos.get("nu_mes");
+        Object v4 = campos.get("cd_orgao");
+        Object v5 = campos.get("cd_unid_orc");
+        Object v6 = campos.get("cd_natureza_despesa");
+        Object v7 = campos.get("cd_ppa_acao");
+        Object v8 = campos.get("cd_sub_acao");
+        return String.format("%s|%s|%s|%s|%s|%s|%s|%s",
+            v1 != null ? v1.toString() : "NULL",
+            v2 != null ? v2.toString() : "NULL",
+            v3 != null ? v3.toString() : "NULL",
+            v4 != null ? v4.toString() : "NULL",
+            v5 != null ? v5.toString() : "NULL",
+            v6 != null ? v6.toString() : "NULL",
+            v7 != null ? v7.toString() : "NULL",
+            v8 != null ? v8.toString() : "NULL");
     }
     private List<T> processarIterandoEmpenhos(String ugCd, T mapper, Short ano) {
         MDCUtil.setUgCode(ugCd);

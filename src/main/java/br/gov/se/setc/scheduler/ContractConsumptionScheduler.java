@@ -8,6 +8,7 @@ import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
+import br.gov.se.setc.consumer.dto.RestosAPagarDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
@@ -29,8 +30,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import java.util.HashMap;
@@ -61,6 +60,9 @@ public class ContractConsumptionScheduler {
     @Autowired
     @Qualifier("liquidacaoConsumoApiService")
     private ConsumoApiService<LiquidacaoDTO> liquidacaoConsumoApiService;
+    @Autowired
+    @Qualifier("restosAPagarConsumoApiService")
+    private ConsumoApiService<RestosAPagarDTO> restosAPagarConsumoApiService;
     @Autowired
     @Qualifier("dadosOrcamentariosConsumoApiService")
     private ConsumoApiService<DadosOrcamentariosDTO> dadosOrcamentariosConsumoApiService;
@@ -329,6 +331,24 @@ public class ContractConsumptionScheduler {
                 logger.error("Erro ao consumir Liquidações", e);
                 processingResults.put("Liquidacao", 0);
                 markdownSection.error("Falha no processamento de Liquidações: " + e.getMessage());
+            }
+            Thread.sleep(2000);
+            logger.info("=== INICIANDO CONSUMO DE RESTOS A PAGAR ===");
+            markdownSection.progress("Processando Restos a Pagar...");
+            try {
+                long restosAPagarStartTime = System.currentTimeMillis();
+                RestosAPagarDTO restosAPagarDto = new RestosAPagarDTO();
+                List<RestosAPagarDTO> restosAPagarResults = restosAPagarConsumoApiService.consumirPersistir(restosAPagarDto);
+                int restosAPagarCount = restosAPagarResults != null ? restosAPagarResults.size() : 0;
+                processingResults.put("RestosAPagar", restosAPagarCount);
+                totalRecordsProcessed += restosAPagarCount;
+                long restosAPagarDuration = System.currentTimeMillis() - restosAPagarStartTime;
+                logger.info("Restos a Pagar processados: {}", restosAPagarCount);
+                markdownSection.success(restosAPagarCount + " registros de Restos a Pagar processados", restosAPagarDuration);
+            } catch (Exception e) {
+                logger.error("Erro ao consumir Restos a Pagar", e);
+                processingResults.put("RestosAPagar", 0);
+                markdownSection.error("Falha no processamento de Restos a Pagar: " + e.getMessage());
             }
             Thread.sleep(2000);
             logger.info("=== INICIANDO CONSUMO DE ORDENS DE FORNECIMENTO ===");
@@ -649,6 +669,47 @@ public class ContractConsumptionScheduler {
             MDCUtil.clear();
         }
     }
+    @LogOperation(operation = "SCHEDULED_RESTOS_A_PAGAR_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
+    private void executeRestosAPagarOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        MDCUtil.setupOperationContext("SCHEDULER", "RESTOS_A_PAGAR_ONLY_CONSUMPTION");
+        long totalStartTime = System.currentTimeMillis();
+        int totalRecordsProcessed = 0;
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Execução Específica - Restos a Pagar");
+        try {
+            userFriendlyLogger.logInfo("Iniciando processamento específico de Restos a Pagar");
+            unifiedLogger.logOperationStart("SCHEDULER", "RESTOS_A_PAGAR_ONLY_CONSUMPTION", "CORRELATION_ID", correlationId);
+            logger.info("=== INICIANDO CONSUMO ESPECÍFICO DE RESTOS A PAGAR ===");
+            markdownSection.progress("Processando Restos a Pagar...");
+            long restosAPagarStartTime = System.currentTimeMillis();
+            RestosAPagarDTO restosAPagarDto = new RestosAPagarDTO();
+            List<RestosAPagarDTO> restosAPagarResults = restosAPagarConsumoApiService.consumirPersistir(restosAPagarDto);
+            int restosAPagarCount = restosAPagarResults != null ? restosAPagarResults.size() : 0;
+            totalRecordsProcessed = restosAPagarCount;
+            long restosAPagarDuration = System.currentTimeMillis() - restosAPagarStartTime;
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            logger.info("Restos a Pagar processados: {}", restosAPagarCount);
+            markdownSection.success(restosAPagarCount + " registros de Restos a Pagar processados", restosAPagarDuration);
+            userFriendlyLogger.logOperationComplete(totalExecutionTime);
+            unifiedLogger.logOperationSuccess("SCHEDULER", "RESTOS_A_PAGAR_ONLY_CONSUMPTION",
+                totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "restos-a-pagar");
+            markdownSection.summary("Processamento de Restos a Pagar concluído com sucesso")
+                          .info("Total de registros: " + totalRecordsProcessed)
+                          .info("Tempo de execução: " + totalExecutionTime + "ms")
+                          .logWithSummary(totalRecordsProcessed);
+        } catch (Exception e) {
+            long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
+            userFriendlyLogger.logError("processamento de Restos a Pagar", e.getMessage());
+            unifiedLogger.logOperationError("SCHEDULER", "RESTOS_A_PAGAR_ONLY_CONSUMPTION", totalExecutionTime, e,
+                "ENDPOINT", "restos-a-pagar");
+            logger.error("Erro durante execução específica de Restos a Pagar", e);
+            markdownSection.error("Falha no processamento de Restos a Pagar: " + e.getMessage())
+                          .summary("Execução interrompida por erro")
+                          .log();
+        } finally {
+            MDCUtil.clear();
+        }
+    }
     /**
      * Método específico para executar apenas Ordem de Fornecimento
      */
@@ -763,6 +824,23 @@ public class ContractConsumptionScheduler {
         } catch (Exception e) {
             result.put("status", "ERROR");
             result.put("message", "Erro durante execução manual de Liquidação: " + e.getMessage());
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+            result.put("error", e.getClass().getSimpleName());
+        }
+        return result;
+    }
+    public Map<String, Object> executeRestosAPagarManually() {
+        logger.info("=== EXECUÇÃO MANUAL DE RESTOS A PAGAR SOLICITADA ===");
+        long startTime = System.currentTimeMillis();
+        Map<String, Object> result = new HashMap<>();
+        try {
+            executeRestosAPagarOnly();
+            result.put("status", "SUCCESS");
+            result.put("message", "Execução manual de Restos a Pagar concluída com sucesso");
+            result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+        } catch (Exception e) {
+            result.put("status", "ERROR");
+            result.put("message", "Erro durante execução manual de Restos a Pagar: " + e.getMessage());
             result.put("executionTimeMs", System.currentTimeMillis() - startTime);
             result.put("error", e.getClass().getSimpleName());
         }

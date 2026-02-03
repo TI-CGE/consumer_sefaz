@@ -10,12 +10,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class ConsumerSefazApplication extends SpringBootServletInitializer {
 
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(ConsumerSefazApplication.class);
-	}
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(ConsumerSefazApplication.class);
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(ConsumerSefazApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ConsumerSefazApplication.class, args);
+    }
 }

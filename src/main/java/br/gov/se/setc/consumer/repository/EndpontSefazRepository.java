@@ -10,7 +10,6 @@ import br.gov.se.setc.consumer.contracts.EndpontSefaz;
 import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
-import br.gov.se.setc.logging.util.MDCUtil;
 @Repository
 public class EndpontSefazRepository<T extends EndpontSefaz> {
     private final JdbcTemplate jdbcTemplate;
@@ -78,16 +77,50 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         long startTime = System.currentTimeMillis();
         String deleteSql;
         if ("consumer_sefaz.previsao_realizacao_receita".equals(tableName)) {
+            Integer nuMes = obterNuMesDoEndpoint(endpointInstance);
+            if (nuMes != null) {
+                deleteSql = "DELETE FROM " + tableName + " " +
+                        "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer) AND nu_mes = ?";
+                try {
+                    int deletedRecords = jdbcTemplate.update(deleteSql, nuMes);
+                    long executionTime = System.currentTimeMillis() - startTime;
+                    unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
+                } catch (Exception e) {
+                    long executionTime = System.currentTimeMillis() - startTime;
+                    unifiedLogger.logOperationError("DATABASE", "DELETE_BY_MONTH", executionTime, e, "TABLE", tableName);
+                    throw e;
+                }
+                return;
+            }
             deleteSql = "DELETE FROM " + tableName + " " +
                     "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
         }
         else if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
+            Integer nuMes = obterNuMesDoEndpoint(endpointInstance);
+            if (nuMes != null) {
+                deleteSql = "DELETE FROM " + tableName + " " +
+                        "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer) AND nu_mes = ?";
+                try {
+                    int deletedRecords = jdbcTemplate.update(deleteSql, nuMes);
+                    long executionTime = System.currentTimeMillis() - startTime;
+                    unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
+                } catch (Exception e) {
+                    long executionTime = System.currentTimeMillis() - startTime;
+                    unifiedLogger.logOperationError("DATABASE", "DELETE_BY_MONTH", executionTime, e, "TABLE", tableName);
+                    throw e;
+                }
+                return;
+            }
             deleteSql = "DELETE FROM " + tableName + " " +
                     "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
         }
         else if ("consumer_sefaz.empenho".equals(tableName)) {
             deleteSql = "DELETE FROM " + tableName + " " +
                     "WHERE dt_geracao_empenho LIKE '" + java.time.Year.now().getValue() + "-%'";
+        }
+        else if ("consumer_sefaz.restos_a_pagar".equals(tableName)) {
+            deleteSql = "DELETE FROM " + tableName + " " +
+                    "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer)";
         } else {
             if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){
                 return;
@@ -105,6 +138,17 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
             unifiedLogger.logOperationError("DATABASE", "DELETE_BY_MONTH", executionTime, e, "TABLE", tableName);
             throw e;
         }
+    }
+    private Integer obterNuMesDoEndpoint(T endpointInstance) {
+        String tableName = endpointInstance.getTabelaBanco();
+        try {
+            if (tableName.contains("despesa_detalhada") || tableName.contains("previsao_realizacao_receita")) {
+                Object result = endpointInstance.getClass().getMethod("getNuMes").invoke(endpointInstance);
+                return result instanceof Integer ? (Integer) result : null;
+            }
+        } catch (Exception ignored) {
+        }
+        return null;
     }
     public void persist(List<T> contratos) {
         if (contratos != null && !contratos.isEmpty()) {
