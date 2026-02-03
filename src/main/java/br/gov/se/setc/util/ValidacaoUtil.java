@@ -30,6 +30,24 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
         String sql = "SELECT EXTRACT(MONTH FROM CURRENT_DATE) AS mes_atual";
         return jdbcTemplate.queryForObject(sql, Short.class);
     }
+    public List<int[]> getUltimos2Meses() {
+        List<int[]> out = new ArrayList<>();
+        Short anoAtual = getAnoAtual();
+        Short mesAtual = getMesAtual();
+        if (anoAtual == null || mesAtual == null) {
+            return out;
+        }
+        int ano = anoAtual.intValue();
+        int mes = mesAtual.intValue();
+        if (mes >= 2) {
+            out.add(new int[]{ ano, mes - 1 });
+            out.add(new int[]{ ano, mes });
+        } else {
+            out.add(new int[]{ ano - 1, 12 });
+            out.add(new int[]{ ano, 1 });
+        }
+        return out;
+    }
     private Boolean hasDataInTable(String tableName, String columnName) {
         String sql = "Select count(" + columnName + ") > 0 from " + tableName + " LIMIT 1;";
         return jdbcTemplate.queryForObject(sql, Boolean.class);
@@ -59,18 +77,11 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
     }
     public List<String> cdGestaoSeed() {
         String sql = """
-            SELECT DISTINCT cd_gestao
-            FROM (
-                SELECT cd_gestao FROM consumer_sefaz.pagamento
-                UNION
-                SELECT cd_gestao FROM consumer_sefaz.liquidacao
-                UNION
-                SELECT cd_gestao FROM consumer_sefaz.termo
-                UNION
-                SELECT cd_gestao FROM consumer_sefaz.consulta_gerencial
-            ) t
-            WHERE cd_gestao IS NOT NULL
-            ORDER BY cd_gestao
+            SELECT DISTINCT vugl.cd_gestao
+            FROM spt.vw_unidades_gestora_liq vugl
+            WHERE vugl.cd_gestao IS NOT NULL
+              AND vugl.cd_gestao != ''
+            ORDER BY vugl.cd_gestao
             """;
         return jdbcTemplate.queryForList(sql, String.class);
     }
@@ -79,18 +90,14 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
             return new ArrayList<>();
         }
         String sql = """
-            SELECT DISTINCT v.cd_gestao
-            FROM spt.vw_unidades_gestora_liq v
-            INNER JOIN consumer_sefaz.empenho e 
-                ON v.cd_gestao = e.cd_gestao 
-                AND v.cd_unidade_gestora = e.cd_unidade_gestora
-            WHERE v.cd_unidade_gestora = ?
-              AND e.dt_ano_exercicio_ctb = ?
-              AND v.cd_gestao IS NOT NULL
-              AND v.cd_gestao != ''
-            ORDER BY v.cd_gestao
+            SELECT DISTINCT vugl.cd_gestao
+            FROM spt.vw_unidades_gestora_liq vugl
+            WHERE vugl.cd_unidade_gestora = ?
+              AND vugl.cd_gestao IS NOT NULL
+              AND vugl.cd_gestao != ''
+            ORDER BY vugl.cd_gestao
             """;
-        return jdbcTemplate.queryForList(sql, String.class, cdUnidadeGestora, ano.intValue());
+        return jdbcTemplate.queryForList(sql, String.class, cdUnidadeGestora);
     }
     public Boolean getValidaContratosFiscais() {
         return hasDataInTable("sco.contratos_fiscais", "dt_ano_exercicio");
@@ -106,9 +113,6 @@ public class ValidacaoUtil<T extends EndpontSefaz> {
     }
     public Boolean getValidaLiquidacao() {
         return hasDataInTable("sco.liquidacao", "dt_liquidacao");
-    }
-    public Boolean getValidaDiarias() {
-        return hasDataInTable("sco.diarias", "dt_saida_solicitacao_diaria");
     }
     public Boolean getValidaDespesaConvenio(){
         return hasDataInTable("sco.despesa_convenio", "dt_lancamento_convenio");

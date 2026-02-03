@@ -110,6 +110,27 @@ public class SimpleLogger {
         showEndBanner(consumptionType, result, duration);
         logger.info("CONSUMPTION_END | {} | {} | {}", consumptionType, result, duration);
     }
+    /**
+     * Log de endpoint de API chamado (registrado em simple.log para debug)
+     */
+    public void apiEndpoint(String method, String url) {
+        setContext("API_CLIENT");
+        logger.info("API_CALL | {} | {}", method, url != null ? url : "");
+    }
+    /**
+     * Log quando UG é pulada por não ter cd_gestao (nenhuma chamada à API)
+     */
+    public void apiSkipUg(String ugCd, String reason) {
+        setContext("API_CLIENT");
+        logger.info("API_SKIP | UG: {} | {}", ugCd, reason);
+    }
+    /**
+     * Log quando UG tem cd_gestao e vai iniciar chamadas à API
+     */
+    public void apiUgCdGestaoCount(String ugCd, int cdGestaoCount) {
+        setContext("API_CLIENT");
+        logger.info("API_UG_CDGESTAO | UG: {} | {} cd_gestao, iniciando chamadas", ugCd, cdGestaoCount);
+    }
     private static final String RESET = "\u001B[0m";
     private static final String RED = "\u001B[31m";
     private static final String GREEN = "\u001B[32m";
