@@ -49,10 +49,16 @@ public class EmpenhoDTO extends EndpontSefaz {
     private BigDecimal vlTotalAnuladoEmpenho;
     @JsonProperty("vlTotalLiquidadoEmpenho")
     private BigDecimal vlTotalLiquidadoEmpenho;
+    @JsonProperty("vlTotalEstornoLiqdEmpenho")
+    private BigDecimal vlTotalEstornoLiqdEmpenho;
     @JsonProperty("vlTotalPagoEmpenho")
     private BigDecimal vlTotalPagoEmpenho;
     @JsonProperty("vlTotalExecutado")
     private BigDecimal vlTotalExecutado;
+    @JsonProperty("vlTotalDevolvidoOBEmpenho")
+    private BigDecimal vlTotalDevolvidoOBEmpenho;
+    @JsonProperty("vlTotalDevolvidoGREmpenho")
+    private BigDecimal vlTotalDevolvidoGREmpenho;
     @JsonProperty("cdFuncao")
     private Integer cdFuncao;
     @JsonProperty("nmFuncao")
@@ -73,6 +79,28 @@ public class EmpenhoDTO extends EndpontSefaz {
     private String nuProcessoLicitacao;
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
+    @JsonProperty("cdFuncaoPLO")
+    private Integer cdFuncaoPLO;
+    @JsonProperty("nmFuncaoPLO")
+    private String nmFuncaoPLO;
+    @JsonProperty("cdProgramaGoverno")
+    private Integer cdProgramaGoverno;
+    @JsonProperty("nmProgramaGoverno")
+    private String nmProgramaGoverno;
+    @JsonProperty("cdCategoriaEconomica")
+    private Integer cdCategoriaEconomica;
+    @JsonProperty("nmCategoriaEconomica")
+    private String nmCategoriaEconomica;
+    @JsonProperty("cdModalidadeAplicacao")
+    private Integer cdModalidadeAplicacao;
+    @JsonProperty("nmModalidadeAplicacao")
+    private String nmModalidadeAplicacao;
+    @JsonProperty("nmFonteRecurso")
+    private String nmFonteRecurso;
+    @JsonProperty("cdGrupoDespesa")
+    private Integer cdGrupoDespesa;
+    @JsonProperty("nmGrupoDespesa")
+    private String nmGrupoDespesa;
     private Integer nuMesFiltro;
     public EmpenhoDTO() {
         inicializarDadosEndpoint();
@@ -111,8 +139,11 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("vl_total_reforcado_empenho", vlTotalReforcadoEmpenho);
         camposResposta.put("vl_total_anulado_empenho", vlTotalAnuladoEmpenho);
         camposResposta.put("vl_total_liquidado_empenho", vlTotalLiquidadoEmpenho);
+        camposResposta.put("vl_total_estorno_liqd_empenho", vlTotalEstornoLiqdEmpenho);
         camposResposta.put("vl_total_pago_empenho", vlTotalPagoEmpenho);
         camposResposta.put("vl_total_executado", vlTotalExecutado);
+        camposResposta.put("vl_total_devolvido_ob_empenho", vlTotalDevolvidoOBEmpenho);
+        camposResposta.put("vl_total_devolvido_gr_empenho", vlTotalDevolvidoGREmpenho);
         camposResposta.put("cd_funcao", cdFuncao);
         camposResposta.put("nm_funcao", nmFuncao);
         camposResposta.put("cd_sub_funcao", cdSubFuncao);
@@ -123,6 +154,17 @@ public class EmpenhoDTO extends EndpontSefaz {
         camposResposta.put("ds_objeto_licitacao", dsObjetoLicitacao);
         camposResposta.put("nu_processo_licitacao", nuProcessoLicitacao);
         camposResposta.put("nm_modalidade_licitacao", nmModalidadeLicitacao);
+        camposResposta.put("cd_funcao_plo", cdFuncaoPLO);
+        camposResposta.put("nm_funcao_plo", nmFuncaoPLO);
+        camposResposta.put("cd_programa_governo", cdProgramaGoverno);
+        camposResposta.put("nm_programa_governo", nmProgramaGoverno);
+        camposResposta.put("cd_categoria_economica", cdCategoriaEconomica);
+        camposResposta.put("nm_categoria_economica", nmCategoriaEconomica);
+        camposResposta.put("cd_modalidade_aplicacao", cdModalidadeAplicacao);
+        camposResposta.put("nm_modalidade_aplicacao", nmModalidadeAplicacao);
+        camposResposta.put("nm_fonte_recurso", nmFonteRecurso);
+        camposResposta.put("cd_grupo_despesa", cdGrupoDespesa);
+        camposResposta.put("nm_grupo_despesa", nmGrupoDespesa);
     }
     @Override
     protected void mapearParametros() {
@@ -292,6 +334,12 @@ public class EmpenhoDTO extends EndpontSefaz {
     public void setVlTotalLiquidadoEmpenho(BigDecimal vlTotalLiquidadoEmpenho) {
         this.vlTotalLiquidadoEmpenho = vlTotalLiquidadoEmpenho;
     }
+    public BigDecimal getVlTotalEstornoLiqdEmpenho() {
+        return vlTotalEstornoLiqdEmpenho;
+    }
+    public void setVlTotalEstornoLiqdEmpenho(BigDecimal vlTotalEstornoLiqdEmpenho) {
+        this.vlTotalEstornoLiqdEmpenho = vlTotalEstornoLiqdEmpenho;
+    }
     public BigDecimal getVlTotalPagoEmpenho() {
         return vlTotalPagoEmpenho;
     }
@@ -303,6 +351,18 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setVlTotalExecutado(BigDecimal vlTotalExecutado) {
         this.vlTotalExecutado = vlTotalExecutado;
+    }
+    public BigDecimal getVlTotalDevolvidoOBEmpenho() {
+        return vlTotalDevolvidoOBEmpenho;
+    }
+    public void setVlTotalDevolvidoOBEmpenho(BigDecimal vlTotalDevolvidoOBEmpenho) {
+        this.vlTotalDevolvidoOBEmpenho = vlTotalDevolvidoOBEmpenho;
+    }
+    public BigDecimal getVlTotalDevolvidoGREmpenho() {
+        return vlTotalDevolvidoGREmpenho;
+    }
+    public void setVlTotalDevolvidoGREmpenho(BigDecimal vlTotalDevolvidoGREmpenho) {
+        this.vlTotalDevolvidoGREmpenho = vlTotalDevolvidoGREmpenho;
     }
     public Integer getCdFuncao() {
         return cdFuncao;
@@ -363,5 +423,71 @@ public class EmpenhoDTO extends EndpontSefaz {
     }
     public void setNmModalidadeLicitacao(String nmModalidadeLicitacao) {
         this.nmModalidadeLicitacao = nmModalidadeLicitacao;
+    }
+    public Integer getCdFuncaoPLO() {
+        return cdFuncaoPLO;
+    }
+    public void setCdFuncaoPLO(Integer cdFuncaoPLO) {
+        this.cdFuncaoPLO = cdFuncaoPLO;
+    }
+    public String getNmFuncaoPLO() {
+        return nmFuncaoPLO;
+    }
+    public void setNmFuncaoPLO(String nmFuncaoPLO) {
+        this.nmFuncaoPLO = nmFuncaoPLO;
+    }
+    public Integer getCdProgramaGoverno() {
+        return cdProgramaGoverno;
+    }
+    public void setCdProgramaGoverno(Integer cdProgramaGoverno) {
+        this.cdProgramaGoverno = cdProgramaGoverno;
+    }
+    public String getNmProgramaGoverno() {
+        return nmProgramaGoverno;
+    }
+    public void setNmProgramaGoverno(String nmProgramaGoverno) {
+        this.nmProgramaGoverno = nmProgramaGoverno;
+    }
+    public Integer getCdCategoriaEconomica() {
+        return cdCategoriaEconomica;
+    }
+    public void setCdCategoriaEconomica(Integer cdCategoriaEconomica) {
+        this.cdCategoriaEconomica = cdCategoriaEconomica;
+    }
+    public String getNmCategoriaEconomica() {
+        return nmCategoriaEconomica;
+    }
+    public void setNmCategoriaEconomica(String nmCategoriaEconomica) {
+        this.nmCategoriaEconomica = nmCategoriaEconomica;
+    }
+    public Integer getCdModalidadeAplicacao() {
+        return cdModalidadeAplicacao;
+    }
+    public void setCdModalidadeAplicacao(Integer cdModalidadeAplicacao) {
+        this.cdModalidadeAplicacao = cdModalidadeAplicacao;
+    }
+    public String getNmModalidadeAplicacao() {
+        return nmModalidadeAplicacao;
+    }
+    public void setNmModalidadeAplicacao(String nmModalidadeAplicacao) {
+        this.nmModalidadeAplicacao = nmModalidadeAplicacao;
+    }
+    public String getNmFonteRecurso() {
+        return nmFonteRecurso;
+    }
+    public void setNmFonteRecurso(String nmFonteRecurso) {
+        this.nmFonteRecurso = nmFonteRecurso;
+    }
+    public Integer getCdGrupoDespesa() {
+        return cdGrupoDespesa;
+    }
+    public void setCdGrupoDespesa(Integer cdGrupoDespesa) {
+        this.cdGrupoDespesa = cdGrupoDespesa;
+    }
+    public String getNmGrupoDespesa() {
+        return nmGrupoDespesa;
+    }
+    public void setNmGrupoDespesa(String nmGrupoDespesa) {
+        this.nmGrupoDespesa = nmGrupoDespesa;
     }
 }

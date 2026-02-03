@@ -87,6 +87,7 @@ public class SchedulerController {
         manualExecutionMap.put("allEntities", "POST /scheduler/execute");
         manualExecutionMap.put("pagamentoOnly", "POST /scheduler/execute/pagamento");
         manualExecutionMap.put("liquidacaoOnly", "POST /scheduler/execute/liquidacao");
+        manualExecutionMap.put("restosAPagarOnly", "POST /scheduler/execute/restos-a-pagar");
         manualExecutionMap.put("ordemFornecimentoOnly", "POST /scheduler/execute/ordem-fornecimento");
         manualExecutionMap.put("dadosOrcamentariosOnly", "POST /scheduler/execute/dados-orcamentarios");
         manualExecutionMap.put("empenhoOnly", "POST /scheduler/execute/empenho");
@@ -211,6 +212,31 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução manual de Dados Orçamentários: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    /**
+     * Executa manualmente apenas o processamento de Restos a Pagar
+     */
+    @PostMapping("/execute/restos-a-pagar")
+    @Operation(summary = "Executar Apenas Restos a Pagar", description = "Executa manualmente apenas o processamento da entidade Restos a Pagar")
+    @LogOperation(operation = "MANUAL_RESTOS_A_PAGAR_EXECUTION", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeRestosAPagarOnly() {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            logger.info("Execução manual de Restos a Pagar solicitada via endpoint");
+            Map<String, Object> result = scheduler.executeRestosAPagarManually();
+            logger.info("Execução manual de Restos a Pagar concluída com status: {}", result.get("status"));
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de Restos a Pagar via endpoint", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", "Erro durante execução manual de Restos a Pagar: " + e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
             return ResponseEntity.internalServerError().body(errorResponse);

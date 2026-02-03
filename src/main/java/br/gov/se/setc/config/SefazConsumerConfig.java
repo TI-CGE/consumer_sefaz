@@ -16,6 +16,7 @@ import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO;
 import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
+import br.gov.se.setc.consumer.dto.RestosAPagarDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoMensalDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
@@ -229,6 +230,25 @@ public class SefazConsumerConfig {
     @Bean
     public ValidacaoUtil<LiquidacaoDTO> liquidacaoValidacaoUtil(JdbcTemplate jdbcTemplate) {
         return createValidacaoUtil("Liquidacao", jdbcTemplate);
+    }
+    @Bean("restosAPagarConsumoApiService")
+    public ConsumoApiService<RestosAPagarDTO> restosAPagarConsumoApiService(
+            RestTemplate restTemplate,
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate,
+            ValidacaoUtil<RestosAPagarDTO> validacaoUtil,
+            UnifiedLogger unifiedLogger,
+            UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger,
+            SimpleLogger simpleLogger,
+            JpaPersistenceService jpaPersistenceService) {
+        return createConsumoApiService("RestosAPagar", RestosAPagarDTO.class,
+            restTemplate, acessoTokenService, jdbcTemplate, validacaoUtil,
+            unifiedLogger, userFriendlyLogger, markdownLogger, simpleLogger, jpaPersistenceService);
+    }
+    @Bean
+    public ValidacaoUtil<RestosAPagarDTO> restosAPagarValidacaoUtil(JdbcTemplate jdbcTemplate) {
+        return createValidacaoUtil("RestosAPagar", jdbcTemplate);
     }
     @Bean("dadosOrcamentariosConsumoApiService")
     public ConsumoApiService<DadosOrcamentariosDTO> dadosOrcamentariosConsumoApiService(

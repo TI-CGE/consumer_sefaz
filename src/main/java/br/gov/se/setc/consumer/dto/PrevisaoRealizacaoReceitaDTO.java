@@ -37,6 +37,8 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     private BigDecimal vlAtualizado;
     @JsonProperty("vlRealizado")
     private BigDecimal vlRealizado;
+    @JsonProperty("nuMes")
+    private Integer nuMes;
     private String cdUnidadeGestoraFiltro;
     private Integer dtAnoExercicioCTBFiltro;
     private Integer nuMesFiltro;
@@ -58,10 +60,8 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     public void mapearCamposResposta() {
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);
-        Integer mesParaSalvar = nuMesFiltro;
-        if (mesParaSalvar == null) {
-            mesParaSalvar = 12;
-        }
+        Integer mesParaSalvar = nuMes != null ? nuMes : nuMesFiltro;
+        if (mesParaSalvar == null) mesParaSalvar = 12;
         camposResposta.put("nu_mes", mesParaSalvar);
         camposResposta.put("cd_categoria_economica", cdCategoriaEconomica);
         camposResposta.put("nm_categoria_economica", nmCategoriaEconomica);
@@ -266,5 +266,11 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     }
     public void setNuMesFiltro(Integer nuMesFiltro) {
         this.nuMesFiltro = nuMesFiltro;
+    }
+    public Integer getNuMes() {
+        return nuMes != null ? nuMes : nuMesFiltro;
+    }
+    public void setNuMes(Integer nuMes) {
+        this.nuMes = nuMes;
     }
 }

@@ -75,6 +75,18 @@ public class PagamentoDTO extends EndpontSefaz {
     private String nuProcessoLicitacao;
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
+    @JsonProperty("nuContaBancariaRecebedora")
+    private Long nuContaBancariaRecebedora;
+    @JsonProperty("nuContaBancariaPagadora")
+    private Long nuContaBancariaPagadora;
+    @JsonProperty("cdBancoAgenteArrecPagadora")
+    private Integer cdBancoAgenteArrecPagadora;
+    @JsonProperty("cdBancoAgenteArrecRecebedor")
+    private Integer cdBancoAgenteArrecRecebedor;
+    @JsonProperty("cdPontoAtendimentoPagadora")
+    private Integer cdPontoAtendimentoPagadora;
+    @JsonProperty("cdPontoAtendimentoRecebedora")
+    private Integer cdPontoAtendimentoRecebedora;
     public PagamentoDTO() {
         inicializarDadosEndpoint();
     }
@@ -168,6 +180,12 @@ public class PagamentoDTO extends EndpontSefaz {
         camposResposta.put("ds_objeto_licitacao", dsObjetoLicitacao);
         camposResposta.put("nu_processo_licitacao", nuProcessoLicitacao);
         camposResposta.put("nm_modalidade_licitacao", nmModalidadeLicitacao);
+        camposResposta.put("nu_conta_bancaria_recebedora", nuContaBancariaRecebedora);
+        camposResposta.put("nu_conta_bancaria_pagadora", nuContaBancariaPagadora);
+        camposResposta.put("cd_banco_agente_arrec_pagadora", cdBancoAgenteArrecPagadora);
+        camposResposta.put("cd_banco_agente_arrec_recebedor", cdBancoAgenteArrecRecebedor);
+        camposResposta.put("cd_ponto_atendimento_pagadora", cdPontoAtendimentoPagadora);
+        camposResposta.put("cd_ponto_atendimento_recebedora", cdPontoAtendimentoRecebedora);
     }
     @Override
     protected void mapearParametros() {

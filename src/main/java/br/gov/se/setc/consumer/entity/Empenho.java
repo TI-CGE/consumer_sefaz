@@ -81,6 +81,28 @@ public class Empenho {
     private String nuProcessoLicitacao;
     @Column(name = "nm_modalidade_licitacao")
     private String nmModalidadeLicitacao;
+    @Column(name = "cd_funcao_plo")
+    private Integer cdFuncaoPLO;
+    @Column(name = "nm_funcao_plo")
+    private String nmFuncaoPLO;
+    @Column(name = "cd_programa_governo")
+    private Integer cdProgramaGoverno;
+    @Column(name = "nm_programa_governo")
+    private String nmProgramaGoverno;
+    @Column(name = "cd_categoria_economica")
+    private Integer cdCategoriaEconomica;
+    @Column(name = "nm_categoria_economica")
+    private String nmCategoriaEconomica;
+    @Column(name = "cd_modalidade_aplicacao")
+    private Integer cdModalidadeAplicacao;
+    @Column(name = "nm_modalidade_aplicacao")
+    private String nmModalidadeAplicacao;
+    @Column(name = "nm_fonte_recurso")
+    private String nmFonteRecurso;
+    @Column(name = "cd_grupo_despesa")
+    private Integer cdGrupoDespesa;
+    @Column(name = "nm_grupo_despesa")
+    private String nmGrupoDespesa;
     public Empenho() {}
     public Long getId() {
         return id;
@@ -309,5 +331,71 @@ public class Empenho {
     }
     public void setNmModalidadeLicitacao(String nmModalidadeLicitacao) {
         this.nmModalidadeLicitacao = nmModalidadeLicitacao;
+    }
+    public Integer getCdFuncaoPLO() {
+        return cdFuncaoPLO;
+    }
+    public void setCdFuncaoPLO(Integer cdFuncaoPLO) {
+        this.cdFuncaoPLO = cdFuncaoPLO;
+    }
+    public String getNmFuncaoPLO() {
+        return nmFuncaoPLO;
+    }
+    public void setNmFuncaoPLO(String nmFuncaoPLO) {
+        this.nmFuncaoPLO = nmFuncaoPLO;
+    }
+    public Integer getCdProgramaGoverno() {
+        return cdProgramaGoverno;
+    }
+    public void setCdProgramaGoverno(Integer cdProgramaGoverno) {
+        this.cdProgramaGoverno = cdProgramaGoverno;
+    }
+    public String getNmProgramaGoverno() {
+        return nmProgramaGoverno;
+    }
+    public void setNmProgramaGoverno(String nmProgramaGoverno) {
+        this.nmProgramaGoverno = nmProgramaGoverno;
+    }
+    public Integer getCdCategoriaEconomica() {
+        return cdCategoriaEconomica;
+    }
+    public void setCdCategoriaEconomica(Integer cdCategoriaEconomica) {
+        this.cdCategoriaEconomica = cdCategoriaEconomica;
+    }
+    public String getNmCategoriaEconomica() {
+        return nmCategoriaEconomica;
+    }
+    public void setNmCategoriaEconomica(String nmCategoriaEconomica) {
+        this.nmCategoriaEconomica = nmCategoriaEconomica;
+    }
+    public Integer getCdModalidadeAplicacao() {
+        return cdModalidadeAplicacao;
+    }
+    public void setCdModalidadeAplicacao(Integer cdModalidadeAplicacao) {
+        this.cdModalidadeAplicacao = cdModalidadeAplicacao;
+    }
+    public String getNmModalidadeAplicacao() {
+        return nmModalidadeAplicacao;
+    }
+    public void setNmModalidadeAplicacao(String nmModalidadeAplicacao) {
+        this.nmModalidadeAplicacao = nmModalidadeAplicacao;
+    }
+    public String getNmFonteRecurso() {
+        return nmFonteRecurso;
+    }
+    public void setNmFonteRecurso(String nmFonteRecurso) {
+        this.nmFonteRecurso = nmFonteRecurso;
+    }
+    public Integer getCdGrupoDespesa() {
+        return cdGrupoDespesa;
+    }
+    public void setCdGrupoDespesa(Integer cdGrupoDespesa) {
+        this.cdGrupoDespesa = cdGrupoDespesa;
+    }
+    public String getNmGrupoDespesa() {
+        return nmGrupoDespesa;
+    }
+    public void setNmGrupoDespesa(String nmGrupoDespesa) {
+        this.nmGrupoDespesa = nmGrupoDespesa;
     }
 }
