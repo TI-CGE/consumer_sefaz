@@ -1063,12 +1063,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     }
     @SuppressWarnings("unchecked")
     private List<T> deduplicateDespesaDetalhadaList(List<T> originalList) {
-        logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave composta da constraint única...");
+        logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave da constraint uq_despesa_detalhada (7 colunas: dt_ano_exercicio_ctb, nu_mes, cd_orgao, cd_unid_orc, cd_natureza_despesa, cd_ppa_acao, cd_sub_acao)...");
         Map<String, T> uniqueDespesas = new LinkedHashMap<>();
         int duplicatesRemoved = 0;
         for (T item : originalList) {
             try {
-                String cdUnidadeGestora = (String) item.getClass().getMethod("getCdUnidadeGestora").invoke(item);
                 Integer dtAnoExercicioCTB = (Integer) item.getClass().getMethod("getDtAnoExercicioCTB").invoke(item);
                 Integer nuMes = (Integer) item.getClass().getMethod("getNuMes").invoke(item);
                 String cdOrgao = (String) item.getClass().getMethod("getCdOrgao").invoke(item);
@@ -1076,8 +1075,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 String cdNaturezaDespesa = (String) item.getClass().getMethod("getCdNaturezaDespesa").invoke(item);
                 String cdPPAAcao = (String) item.getClass().getMethod("getCdPPAAcao").invoke(item);
                 String cdSubAcao = (String) item.getClass().getMethod("getCdSubAcao").invoke(item);
-                String chaveComposta = String.format("%s|%s|%s|%s|%s|%s|%s|%s",
-                    cdUnidadeGestora != null ? cdUnidadeGestora : "NULL",
+                String chaveComposta = String.format("%s|%s|%s|%s|%s|%s|%s",
                     dtAnoExercicioCTB != null ? dtAnoExercicioCTB.toString() : "NULL",
                     nuMes != null ? nuMes.toString() : "NULL",
                     cdOrgao != null ? cdOrgao : "NULL",
@@ -1144,7 +1142,6 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private String construirChaveDespesaDetalhadaFromCampos(T item) {
         Map<String, Object> campos = item.getCamposResposta();
         if (campos == null) return null;
-        Object v1 = campos.get("cd_unidade_gestora");
         Object v2 = campos.get("dt_ano_exercicio_ctb");
         Object v3 = campos.get("nu_mes");
         Object v4 = campos.get("cd_orgao");
@@ -1152,8 +1149,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         Object v6 = campos.get("cd_natureza_despesa");
         Object v7 = campos.get("cd_ppa_acao");
         Object v8 = campos.get("cd_sub_acao");
-        return String.format("%s|%s|%s|%s|%s|%s|%s|%s",
-            v1 != null ? v1.toString() : "NULL",
+        return String.format("%s|%s|%s|%s|%s|%s|%s",
             v2 != null ? v2.toString() : "NULL",
             v3 != null ? v3.toString() : "NULL",
             v4 != null ? v4.toString() : "NULL",
