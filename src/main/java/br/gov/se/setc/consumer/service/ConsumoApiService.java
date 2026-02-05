@@ -1,4 +1,5 @@
 package br.gov.se.setc.consumer.service;
+
 import org.springframework.http.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.client.RestClientException;
@@ -30,12 +31,13 @@ import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.MDCUtil;
 import br.gov.se.setc.logging.util.LoggingUtils;
+
 public class ConsumoApiService<T extends EndpontSefaz> {
     private static final Logger logger = LoggerFactory.getLogger(ConsumoApiService.class);
     private final RestTemplate restTemplate;
     private final AcessoTokenService acessoTokenService;
     private ValidacaoUtil<T> utilsService;
-    private final EndpontSefazRepository<T > contratosFiscaisDAO;
+    private final EndpontSefazRepository<T> contratosFiscaisDAO;
     private final JpaPersistenceService jpaPersistenceService;
     private final Class<T> typeClass;
     private List<String> ugCdArray;
@@ -43,11 +45,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
     private UserFriendlyLogger userFriendlyLogger;
     private MarkdownLogger markdownLogger;
     private SimpleLogger simpleLogger;
+
     public ConsumoApiService(RestTemplate restTemplate,
-    AcessoTokenService acessoTokenService,
-    JdbcTemplate jdbcTemplate, ValidacaoUtil<T> utilsService,
-    UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger,
-    MarkdownLogger markdownLogger, SimpleLogger simpleLogger, JpaPersistenceService jpaPersistenceService, Class<T> type) {
+            AcessoTokenService acessoTokenService,
+            JdbcTemplate jdbcTemplate, ValidacaoUtil<T> utilsService,
+            UnifiedLogger unifiedLogger, UserFriendlyLogger userFriendlyLogger,
+            MarkdownLogger markdownLogger, SimpleLogger simpleLogger, JpaPersistenceService jpaPersistenceService,
+            Class<T> type) {
         this.restTemplate = restTemplate;
         this.acessoTokenService = acessoTokenService;
         this.utilsService = utilsService;
@@ -60,6 +64,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         contratosFiscaisDAO = new EndpontSefazRepository<T>(jdbcTemplate, unifiedLogger);
         this.ugCdArray = utilsService.getUgs();
     }
+
     @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
     public List<T> consumirPersistir(T mapper) {
         String operation = "CONSUMIR_PERSISTIR";
@@ -70,21 +75,22 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         simpleLogger.consumptionStart(dataType, "Iniciando consumo de dados da API SEFAZ");
         userFriendlyLogger.logDataFetchStart(dataType);
         unifiedLogger.logOperationStart("CONTRACT_CONSUMER", operation, "ENDPOINT", endpoint);
-        MarkdownLogger.MarkdownSection markdownSection = markdownLogger.startSection("Consumo de " + dataType.substring(0, 1).toUpperCase() + dataType.substring(1));
+        MarkdownLogger.MarkdownSection markdownSection = markdownLogger
+                .startSection("Consumo de " + dataType.substring(0, 1).toUpperCase() + dataType.substring(1));
         markdownSection.info("Endpoint: " + endpoint)
-                      .progress("Iniciando consumo de dados...");
+                .progress("Iniciando consumo de dados...");
         long startTime = System.currentTimeMillis();
         List<T> resultList = new ArrayList<>();
         int totalRecordsProcessed = 0;
         try {
-            if(utilsService.isEndpointIdependenteUGData(mapper)){
+            if (utilsService.isEndpointIdependenteUGData(mapper)) {
                 if (isUnidadeGestora) {
                     logger.info("=== PROCESSAMENTO DE UNIDADES GESTORAS ===");
                     logger.info("Tipo: Dados independentes de UG e ano (busca todas as UGs ativas)");
                     logger.info("Filtro aplicado: sgTipoUnidadeGestora=E");
                     userFriendlyLogger.logInfo("Buscando todas as Unidades Gestoras ativas...");
                     markdownSection.info("Buscando todas as UGs ativas (sgTipoUnidadeGestora=E)")
-                                  .info("Não utiliza filtros de ano ou UG específica");
+                            .info("Não utiliza filtros de ano ou UG específica");
                 } else {
                     logger.info("Processando dados independentes de UG para: " + mapper.getTabelaBanco());
                     userFriendlyLogger.logInfo("Buscando dados independentes de UG...");
@@ -92,7 +98,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 long ugStartTime = System.currentTimeMillis();
                 List<T> result = pegarDadosIndependenteDataUg(mapper);
                 long ugDuration = System.currentTimeMillis() - ugStartTime;
-                if(result != null ){
+                if (result != null) {
                     resultList.addAll(result);
                     totalRecordsProcessed += result.size();
                     if (isUnidadeGestora) {
@@ -123,12 +129,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
                         MDCUtil.setUgCode(ugCd);
-                        simpleLogger.consumptionProgress(dataType, "Processando UGs (carga completa)", ugProcessed, ugCdArray.size(),
+                        simpleLogger.consumptionProgress(dataType, "Processando UGs (carga completa)", ugProcessed,
+                                ugCdArray.size(),
                                 "UG: " + ugCd);
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
-                        userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
-                        List<T> result = pegarDeTodosAnos(ugCd,mapper);
-                        if(result != null ){
+                        userFriendlyLogger
+                                .logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        List<T> result = pegarDeTodosAnos(ugCd, mapper);
+                        if (result != null) {
                             resultList.addAll(result);
                             totalRecordsProcessed += result.size();
                             logger.info("UG " + ugCd + ": " + result.size() + " registros encontrados (todos os anos)");
@@ -138,7 +146,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 } else {
                     logger.info("Modo: APENAS ANO ATUAL (" + utilsService.getAnoAtual() + ") - DELETE-BEFORE-INSERT");
-                    userFriendlyLogger.logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
+                    userFriendlyLogger
+                            .logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
@@ -146,9 +155,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugCdArray.size(),
                                 "UG: " + ugCd);
                         logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
-                        userFriendlyLogger.logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
-                        List<T> result = pegarDadosMesAnoVigente(ugCd,mapper);
-                        if(result != null ){
+                        userFriendlyLogger
+                                .logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        List<T> result = pegarDadosMesAnoVigente(ugCd, mapper);
+                        if (result != null) {
                             resultList.addAll(result);
                             totalRecordsProcessed += result.size();
                             logger.info("UG " + ugCd + ": " + result.size() + " registros atualizados (ano atual)");
@@ -161,18 +171,19 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Total de registros processados: " + totalRecordsProcessed);
                 userFriendlyLogger.logInfo("Processamento concluído: " + totalRecordsProcessed + " registros");
             }
-            if(resultList == null || resultList.isEmpty()) {
+            if (resultList == null || resultList.isEmpty()) {
                 String errorMessage = "Nenhum dado encontrado para o endpoint: " + endpoint;
-                if(utilsService.isEndpointIdependenteUGData(mapper)) {
+                if (utilsService.isEndpointIdependenteUGData(mapper)) {
                     errorMessage += " (dados independentes de UG)";
                 } else {
                     errorMessage += " (processando " + ugCdArray.size() + " UGs)";
                 }
-                logger.warn(errorMessage + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
+                logger.warn(errorMessage
+                        + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
                 markdownSection.warning("Nenhum dado encontrado")
-                              .info("Pode ser normal se não houver dados para o período")
-                              .summary("0 registros processados")
-                              .log();
+                        .info("Pode ser normal se não houver dados para o período")
+                        .summary("0 registros processados")
+                        .log();
                 return new ArrayList<>();
             }
             userFriendlyLogger.logDataFound(dataType, totalRecordsProcessed);
@@ -196,12 +207,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 markdownSection.success("Dados salvos no banco", persistTime);
             }
             userFriendlyLogger.logOperationComplete(totalTime);
-            unifiedLogger.logOperationSuccess("CONTRACT_CONSUMER", operation, totalTime, totalRecordsProcessed, "ENDPOINT", endpoint);
+            unifiedLogger.logOperationSuccess("CONTRACT_CONSUMER", operation, totalTime, totalRecordsProcessed,
+                    "ENDPOINT", endpoint);
             simpleLogger.consumptionEnd(dataType, totalRecordsProcessed + " registros processados", totalTime);
             markdownSection.info("📊 Estatísticas:")
-                          .info("  • Registros processados: " + totalRecordsProcessed)
-                          .info("  • Tempo de persistência: " + persistTime + "ms")
-                          .info("  • Tabela: " + mapper.getTabelaBanco());
+                    .info("  • Registros processados: " + totalRecordsProcessed)
+                    .info("  • Tempo de persistência: " + persistTime + "ms")
+                    .info("  • Tabela: " + mapper.getTabelaBanco());
             if (totalTime > 10000) {
                 markdownSection.warning("Operação demorou mais que 10 segundos");
             }
@@ -212,14 +224,15 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             userFriendlyLogger.logError("busca de " + dataType, e.getMessage());
             unifiedLogger.logOperationError("CONTRACT_CONSUMER", operation, totalTime, e, "ENDPOINT", endpoint);
             markdownSection.error("Falha na operação: " + e.getMessage())
-                          .info("Tempo até falha: " + totalTime + "ms")
-                          .summary("Operação interrompida por erro")
-                          .log();
+                    .info("Tempo até falha: " + totalTime + "ms")
+                    .summary("Operação interrompida por erro")
+                    .log();
             throw e;
         } finally {
             MDCUtil.clear();
         }
     }
+
     @LogOperation(operation = "API_CALL_SEFAZ", component = "API_CLIENT")
     private ResponseEntity<String> respostaApiRaw(String apiUrl) {
         if (apiUrl != null) {
@@ -231,7 +244,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         MDCUtil.setRequestId(requestId);
         String token = acessoTokenService.getToken();
         logger.info("Fazendo requisição para: " + apiUrl);
-        logger.info("Token obtido (primeiros 20 chars): " + (token != null ? token.substring(0, Math.min(20, token.length())) + "..." : "null"));
+        logger.info("Token obtido (primeiros 20 chars): "
+                + (token != null ? token.substring(0, Math.min(20, token.length())) + "..." : "null"));
         HttpHeaders headers = new HttpHeaders();
         headers.set("Authorization", "Bearer " + token);
         headers.set("Accept", "application/json");
@@ -239,28 +253,30 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         if (apiUrl != null) {
             try {
                 ResponseEntity<String> response = restTemplate.exchange(
-                    apiUrl,
-                    HttpMethod.GET,
-                    entity,
-                    String.class
-                );
+                        apiUrl,
+                        HttpMethod.GET,
+                        entity,
+                        String.class);
                 long responseTime = System.currentTimeMillis() - startTime;
                 int statusCode = response.getStatusCode().value();
                 logger.info("Resposta recebida - Status: " + statusCode + " | Body length: " +
-                           (response.getBody() != null ? response.getBody().length() : 0));
+                        (response.getBody() != null ? response.getBody().length() : 0));
                 if (statusCode != 200) {
                     logger.warn("Resposta não-200: " + statusCode + " | Body: " +
-                                 (response.getBody() != null ? response.getBody().substring(0, Math.min(500, response.getBody().length())) : "null"));
+                            (response.getBody() != null
+                                    ? response.getBody().substring(0, Math.min(500, response.getBody().length()))
+                                    : "null"));
                 }
-                int responseSize = response.getBody() != null ? LoggingUtils.calculateSizeInBytes(response.getBody()) : 0;
+                int responseSize = response.getBody() != null ? LoggingUtils.calculateSizeInBytes(response.getBody())
+                        : 0;
                 unifiedLogger.logApiCall(apiUrl, "GET", statusCode, responseTime, 0, responseSize);
                 Exception httpError = null;
                 if (statusCode >= 400 && response.getBody() != null) {
-                    String reasonPhrase = statusCode == 400 ? "Bad Request" : 
-                                         statusCode == 401 ? "Unauthorized" :
-                                         statusCode == 403 ? "Forbidden" :
-                                         statusCode == 404 ? "Not Found" :
-                                         statusCode == 500 ? "Internal Server Error" : "Error";
+                    String reasonPhrase = statusCode == 400 ? "Bad Request"
+                            : statusCode == 401 ? "Unauthorized"
+                                    : statusCode == 403 ? "Forbidden"
+                                            : statusCode == 404 ? "Not Found"
+                                                    : statusCode == 500 ? "Internal Server Error" : "Error";
                     String errorMessage = statusCode + " " + reasonPhrase + ": \"" + response.getBody() + "\"";
                     httpError = new Exception(errorMessage);
                     logger.error("Erro HTTP na chamada da API SEFAZ: {}", errorMessage);
@@ -277,6 +293,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return null;
     }
+
     private List<T> processarRespostaSefaz(String jsonResponse, T mapper) {
         List<T> resultList = new ArrayList<>();
         try {
@@ -284,7 +301,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             objectMapper.registerModule(new com.fasterxml.jackson.datatype.jsr310.JavaTimeModule());
             objectMapper.disable(com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS);
             JsonNode rootNode = objectMapper.readTree(jsonResponse);
-            logger.info("Resposta SEFAZ (primeiros 500 chars): " +  jsonResponse.substring(0, Math.min(500, jsonResponse.length())));
+            logger.info("Resposta SEFAZ (primeiros 500 chars): "
+                    + jsonResponse.substring(0, Math.min(500, jsonResponse.length())));
             if (mapper.getTabelaBanco().contains("consulta_gerencial")) {
                 logger.info("Processando resposta da API de Consulta Gerencial");
                 logger.info("Tipo do mapper: " + mapper.getClass().getSimpleName());
@@ -321,6 +339,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultList;
     }
+
     private List<T> processarRespostaBaseDespesaCredor(JsonNode rootNode, T mapper) {
         List<T> resultList = new ArrayList<>();
         try {
@@ -342,14 +361,15 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     JsonNode nuFaixaPaginacao = dadosNode.get("nuFaixaPaginacao");
                     JsonNode qtTotalFaixasPaginacao = dadosNode.get("qtTotalFaixasPaginacao");
                     if (nuFaixaPaginacao != null && qtTotalFaixasPaginacao != null) {
-                        logger.info("Informações de paginação - Faixa: " + nuFaixaPaginacao.asInt() + "/" + qtTotalFaixasPaginacao.asInt());
+                        logger.info("Informações de paginação - Faixa: " + nuFaixaPaginacao.asInt() + "/"
+                                + qtTotalFaixasPaginacao.asInt());
                         if (!resultList.isEmpty()) {
                             T firstItem = resultList.get(0);
                             try {
                                 firstItem.getClass().getMethod("setNuFaixaPaginacao", Integer.class)
-                                         .invoke(firstItem, nuFaixaPaginacao.asInt());
+                                        .invoke(firstItem, nuFaixaPaginacao.asInt());
                                 firstItem.getClass().getMethod("setQtTotalFaixasPaginacao", Integer.class)
-                                         .invoke(firstItem, qtTotalFaixasPaginacao.asInt());
+                                        .invoke(firstItem, qtTotalFaixasPaginacao.asInt());
                             } catch (Exception e) {
                                 logger.warn("Erro ao definir informações de paginação: " + e.getMessage());
                             }
@@ -392,6 +412,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultList;
     }
+
     @SuppressWarnings("unchecked")
     private T criarInstanciaGenerica(JsonNode itemNode, T mapper) {
         try {
@@ -408,6 +429,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return null;
         }
     }
+
     private void mapearJsonParaDTO(JsonNode jsonNode, T dtoInstance) {
         try {
             Class<?> dtoClass = dtoInstance.getClass();
@@ -416,7 +438,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     JsonNode fieldValue = jsonNode.get(fieldName);
                     if (fieldValue != null && !fieldValue.isNull()) {
                         if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
-                            logger.debug("Mapeando campo ConsultaGerencial: " + fieldName + " = " + fieldValue.asText());
+                            logger.debug(
+                                    "Mapeando campo ConsultaGerencial: " + fieldName + " = " + fieldValue.asText());
                         }
                         invocarSetterSeExistir(dtoInstance, dtoClass, fieldName, fieldValue);
                     } else {
@@ -433,10 +456,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.error("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
         }
     }
+
     private void definirCamposDerivadosSeSuportado(T dtoInstance) {
         try {
             if (dtoInstance.getClass().getSimpleName().equals("DespesaDetalhadaDTO")) {
-                Method definirCamposDerivadosMethod = dtoInstance.getClass().getDeclaredMethod("definirCamposDerivados");
+                Method definirCamposDerivadosMethod = dtoInstance.getClass()
+                        .getDeclaredMethod("definirCamposDerivados");
                 definirCamposDerivadosMethod.setAccessible(true);
                 definirCamposDerivadosMethod.invoke(dtoInstance);
             }
@@ -444,24 +469,25 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.warn("Erro ao executar definirCamposDerivados: " + e.getMessage());
         }
     }
+
     private void invocarSetterSeExistir(T dtoInstance, Class<?> dtoClass, String fieldName, JsonNode fieldValue) {
         try {
             String targetSetterName = findSetterNameByJsonProperty(dtoClass, fieldName);
             String[] possibleSetterNames;
             if (targetSetterName != null) {
-                possibleSetterNames = new String[]{
-                    targetSetterName,
-                    "set" + capitalize(fieldName),
-                    "set" + capitalize(toCamelCase(fieldName)),
-                    "set" + fieldName,
-                    "set" + fieldName.toUpperCase()
+                possibleSetterNames = new String[] {
+                        targetSetterName,
+                        "set" + capitalize(fieldName),
+                        "set" + capitalize(toCamelCase(fieldName)),
+                        "set" + fieldName,
+                        "set" + fieldName.toUpperCase()
                 };
             } else {
-                possibleSetterNames = new String[]{
-                    "set" + capitalize(fieldName),
-                    "set" + capitalize(toCamelCase(fieldName)),
-                    "set" + fieldName,
-                    "set" + fieldName.toUpperCase()
+                possibleSetterNames = new String[] {
+                        "set" + capitalize(fieldName),
+                        "set" + capitalize(toCamelCase(fieldName)),
+                        "set" + fieldName,
+                        "set" + fieldName.toUpperCase()
                 };
             }
             for (String setterName : possibleSetterNames) {
@@ -471,7 +497,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             }
             if (dtoInstance.getClass().getSimpleName().equals("ConsultaGerencialDTO")) {
-                logger.warn("Nenhum setter encontrado para campo ConsultaGerencial: " + fieldName + " (valor: " + fieldValue.asText() + ")");
+                logger.warn("Nenhum setter encontrado para campo ConsultaGerencial: " + fieldName + " (valor: "
+                        + fieldValue.asText() + ")");
             } else {
                 logger.debug("Nenhum setter encontrado para campo: " + fieldName);
             }
@@ -479,6 +506,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.warn("Erro ao invocar setter para campo '" + fieldName + "': " + e.getMessage());
         }
     }
+
     private String findSetterNameByJsonProperty(Class<?> dtoClass, String fieldName) {
         try {
             Field[] fields = dtoClass.getDeclaredFields();
@@ -494,33 +522,39 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return null;
     }
+
     private boolean tryInvokeSetterWithValue(T dtoInstance, Class<?> dtoClass, String setterName, JsonNode fieldValue) {
         try {
             try {
                 var method = dtoClass.getMethod(setterName, String.class);
                 method.invoke(dtoInstance, fieldValue.asText());
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, Integer.class);
                 method.invoke(dtoInstance, fieldValue.asInt());
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, int.class);
                 method.invoke(dtoInstance, fieldValue.asInt());
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, Long.class);
                 method.invoke(dtoInstance, fieldValue.asLong());
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, Boolean.class);
                 method.invoke(dtoInstance, fieldValue.asBoolean());
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, java.math.BigDecimal.class);
                 if (fieldValue.isNumber()) {
@@ -529,28 +563,35 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     method.invoke(dtoInstance, new java.math.BigDecimal(fieldValue.asText()));
                 }
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, java.time.LocalDate.class);
                 method.invoke(dtoInstance, java.time.LocalDate.parse(fieldValue.asText()));
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             try {
                 var method = dtoClass.getMethod(setterName, java.time.LocalDateTime.class);
                 method.invoke(dtoInstance, java.time.LocalDateTime.parse(fieldValue.asText()));
                 return true;
-            } catch (NoSuchMethodException ignored) {}
+            } catch (NoSuchMethodException ignored) {
+            }
             return false;
         } catch (Exception e) {
             return false;
         }
     }
+
     private String capitalize(String str) {
-        if (str == null || str.isEmpty()) return str;
+        if (str == null || str.isEmpty())
+            return str;
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
+
     private String toCamelCase(String snakeCase) {
-        if (snakeCase == null || snakeCase.isEmpty()) return snakeCase;
+        if (snakeCase == null || snakeCase.isEmpty())
+            return snakeCase;
         StringBuilder camelCase = new StringBuilder();
         boolean capitalizeNext = false;
         for (char c : snakeCase.toCharArray()) {
@@ -565,6 +606,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return camelCase.toString();
     }
+
     private List<T> pegarDadosIndependenteDataUg(T mapper) {
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         String apiUrl = null;
@@ -614,7 +656,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     if (isUnidadeGestora) {
                         errorMsg = "API de UG retornou erro. Status: " + response.getStatusCode();
                     }
-                    logger.warn(errorMsg + " | Body: " + (response.getBody() != null ? response.getBody().substring(0, Math.min(200, response.getBody().length())) : "null"));
+                    logger.warn(errorMsg + " | Body: "
+                            + (response.getBody() != null
+                                    ? response.getBody().substring(0, Math.min(200, response.getBody().length()))
+                                    : "null"));
                 }
             } else {
                 if (isUnidadeGestora) {
@@ -632,20 +677,21 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultadoAnoMesVigente;
     }
-    private List<T> pegarDadosMesAnoVigente(String ugCd, T mapper){
+
+    private List<T> pegarDadosMesAnoVigente(String ugCd, T mapper) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultadoAnoMesVigente = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
         logger.info("Buscando dados do ano atual (" + anoAtual + ") para UG: " + ugCd);
         if (mapper.requerIteracaoEmpenhos()) {
-            logger.info("DTO requer iteração sobre empenhos. Buscando empenhos para UG: " + ugCd + " e ano: " + anoAtual);
+            logger.info(
+                    "DTO requer iteração sobre empenhos. Buscando empenhos para UG: " + ugCd + " e ano: " + anoAtual);
             List<T> resultadoEmpenhos = processarIterandoEmpenhos(ugCd, mapper, anoAtual);
             if (resultadoEmpenhos != null) {
                 resultadoAnoMesVigente.addAll(resultadoEmpenhos);
                 logger.info("Processamento por empenhos concluído: " + resultadoEmpenhos.size() + " registros");
             }
-        }
-        else if (mapper.requerIteracaoCdGestao()) {
+        } else if (mapper.requerIteracaoCdGestao()) {
             logger.info("DTO requer iteração sobre cdGestao. Buscando todos os códigos de gestão...");
             List<String> cdGestaoList;
             if (mapper instanceof EmpenhoDTO) {
@@ -659,8 +705,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 String dataType = getDataTypeFromMapper(mapper);
                 int cdGestaoProcessado = 0;
                 for (String cdGestao : cdGestaoList) {
+                    if (cdGestao == null || cdGestao.trim().isEmpty()) {
+                        continue;
+                    }
                     cdGestaoProcessado++;
-                    simpleLogger.consumptionProgress(dataType, "Processando cdGestao (ano vigente)", cdGestaoProcessado, cdGestaoList.size(),
+                    simpleLogger.consumptionProgress(dataType, "Processando cdGestao (ano vigente)", cdGestaoProcessado,
+                            cdGestaoList.size(),
                             "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
                     if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
@@ -669,10 +719,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             consultaGerencialDTO.setNuMesFiltro(mes);
-                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                    (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": "
+                                        + resultadoCdGestaoMes.size() + " registros processados");
                             }
                         }
                         consultaGerencialDTO.setNuMesFiltro(null);
@@ -682,10 +734,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             pagamentoDTO.setNuMesFiltro(mes);
-                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                    (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": "
+                                        + resultadoCdGestaoMes.size() + " registros processados");
                             }
                         }
                         pagamentoDTO.setNuMesFiltro(null);
@@ -695,10 +749,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             liquidacaoDTO.setNuMesFiltro(mes);
-                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                    (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": "
+                                        + resultadoCdGestaoMes.size() + " registros processados");
                             }
                         }
                         liquidacaoDTO.setNuMesFiltro(null);
@@ -708,10 +764,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             empenhoDTO.setNuMesFiltro(mes);
-                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, (short) ano);
+                            List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                    (short) ano);
                             if (resultadoCdGestaoMes != null) {
                                 resultadoAnoMesVigente.addAll(resultadoCdGestaoMes);
-                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros processados");
+                                logger.info("cdGestao " + cdGestao + " | ano " + ano + " nuMes " + mes + ": "
+                                        + resultadoCdGestaoMes.size() + " registros processados");
                             }
                         }
                         empenhoDTO.setNuMesFiltro(null);
@@ -719,7 +777,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
                         if (resultadoCdGestao != null) {
                             resultadoAnoMesVigente.addAll(resultadoCdGestao);
-                            logger.info("cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros processados");
+                            logger.info("cdGestao " + cdGestao + ": " + resultadoCdGestao.size()
+                                    + " registros processados");
                         }
                     }
                 }
@@ -735,14 +794,15 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultadoAnoMesVigente;
     }
-    private List<T> pegarDeTodosAnos(String ugCd, T mapper){
+
+    private List<T> pegarDeTodosAnos(String ugCd, T mapper) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultadoTodosAnos = new ArrayList<>();
         Short anoAtual = utilsService.getAnoAtual();
         String dataType = getDataTypeFromMapper(mapper);
         int totalAnos = 6;
         int anoProcessado = 0;
-        for (Short dtAno = anoAtual; dtAno >= anoAtual-5;  dtAno--) {
+        for (Short dtAno = anoAtual; dtAno >= anoAtual - 5; dtAno--) {
             anoProcessado++;
             simpleLogger.consumptionProgress(dataType, "Processando anos", anoProcessado, totalAnos,
                     "UG: " + ugCd + " | Ano: " + dtAno);
@@ -752,10 +812,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 List<T> resultadoEmpenhos = processarIterandoEmpenhos(ugCd, mapper, dtAno);
                 if (resultadoEmpenhos != null) {
                     resultadoTodosAnos.addAll(resultadoEmpenhos);
-                    logger.info("Ano " + dtAno + " processamento por empenhos: " + resultadoEmpenhos.size() + " registros");
+                    logger.info(
+                            "Ano " + dtAno + " processamento por empenhos: " + resultadoEmpenhos.size() + " registros");
                 }
-            }
-            else if (mapper.requerIteracaoCdGestao()) {
+            } else if (mapper.requerIteracaoCdGestao()) {
                 logger.info("DTO requer iteração sobre cdGestao para ano " + dtAno);
                 List<String> cdGestaoList;
                 if (mapper instanceof EmpenhoDTO) {
@@ -767,47 +827,59 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     simpleLogger.apiUgCdGestaoCount(ugCd + " ano=" + dtAno, cdGestaoList.size());
                     int cdGestaoProcessado = 0;
                     for (String cdGestao : cdGestaoList) {
+                        if (cdGestao == null || cdGestao.trim().isEmpty()) {
+                            continue;
+                        }
                         cdGestaoProcessado++;
-                        simpleLogger.consumptionProgress(dataType, "Processando cdGestao", cdGestaoProcessado, cdGestaoList.size(),
+                        simpleLogger.consumptionProgress(dataType, "Processando cdGestao", cdGestaoProcessado,
+                                cdGestaoList.size(),
                                 "UG: " + ugCd + " | Ano: " + dtAno + " | cdGestao: " + cdGestao);
                         logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd + " e ano: " + dtAno);
                         if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
                             for (int mes = 1; mes <= 12; mes++) {
                                 consultaGerencialDTO.setNuMesFiltro(mes);
-                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                        dtAno);
                                 if (resultadoCdGestaoMes != null) {
                                     resultadoTodosAnos.addAll(resultadoCdGestaoMes);
-                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": "
+                                            + resultadoCdGestaoMes.size() + " registros");
                                 }
                             }
                             consultaGerencialDTO.setNuMesFiltro(null);
                         } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
                             for (int mes = 1; mes <= 12; mes++) {
                                 pagamentoDTO.setNuMesFiltro(mes);
-                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                        dtAno);
                                 if (resultadoCdGestaoMes != null) {
                                     resultadoTodosAnos.addAll(resultadoCdGestaoMes);
-                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": "
+                                            + resultadoCdGestaoMes.size() + " registros");
                                 }
                             }
                             pagamentoDTO.setNuMesFiltro(null);
                         } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
                             for (int mes = 1; mes <= 12; mes++) {
                                 liquidacaoDTO.setNuMesFiltro(mes);
-                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                        dtAno);
                                 if (resultadoCdGestaoMes != null) {
                                     resultadoTodosAnos.addAll(resultadoCdGestaoMes);
-                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": "
+                                            + resultadoCdGestaoMes.size() + " registros");
                                 }
                             }
                             liquidacaoDTO.setNuMesFiltro(null);
                         } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
                             for (int mes = 1; mes <= 12; mes++) {
                                 empenhoDTO.setNuMesFiltro(mes);
-                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
+                                List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
+                                        dtAno);
                                 if (resultadoCdGestaoMes != null) {
                                     resultadoTodosAnos.addAll(resultadoCdGestaoMes);
-                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": " + resultadoCdGestaoMes.size() + " registros");
+                                    logger.info("Ano " + dtAno + " cdGestao " + cdGestao + " | nuMes " + mes + ": "
+                                            + resultadoCdGestaoMes.size() + " registros");
                                 }
                             }
                             empenhoDTO.setNuMesFiltro(null);
@@ -815,7 +887,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
                             if (resultadoCdGestao != null) {
                                 resultadoTodosAnos.addAll(resultadoCdGestao);
-                                logger.info("Ano " + dtAno + " cdGestao " + cdGestao + ": " + resultadoCdGestao.size() + " registros");
+                                logger.info("Ano " + dtAno + " cdGestao " + cdGestao + ": " + resultadoCdGestao.size()
+                                        + " registros");
                             }
                         }
                     }
@@ -832,7 +905,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultadoTodosAnos;
     }
-    private void logApiCallToMarkdown(String apiUrl, int statusCode, long responseTime, int responseSize, Exception error) {
+
+    private void logApiCallToMarkdown(String apiUrl, int statusCode, long responseTime, int responseSize,
+            Exception error) {
         try {
             String endpoint = apiUrl.contains("?") ? apiUrl.substring(0, apiUrl.indexOf("?")) : apiUrl;
             String title = "Chamada de API SEFAZ";
@@ -848,9 +923,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     section.warning("GET " + endpoint + " - Status: " + statusCode + " (Status não-200)");
                 }
                 section.info("📊 Detalhes da chamada:")
-                      .info("  • Tempo de resposta: " + responseTime + "ms")
-                      .info("  • Tamanho da resposta: " + formatBytes(responseSize))
-                      .info("  • Endpoint: " + endpoint);
+                        .info("  • Tempo de resposta: " + responseTime + "ms")
+                        .info("  • Tamanho da resposta: " + formatBytes(responseSize))
+                        .info("  • Endpoint: " + endpoint);
                 if (responseTime > 5000) {
                     section.warning("Chamada lenta detectada (>5s)");
                 }
@@ -860,11 +935,15 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             logger.warn("Erro ao registrar log de API em markdown: " + e.getMessage());
         }
     }
+
     private String formatBytes(int bytes) {
-        if (bytes < 1024) return bytes + " bytes";
-        if (bytes < 1024 * 1024) return String.format("%.1f KB", bytes / 1024.0);
+        if (bytes < 1024)
+            return bytes + " bytes";
+        if (bytes < 1024 * 1024)
+            return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
     }
+
     private String getDataTypeFromMapper(T mapper) {
         String tableName = mapper.getTabelaBanco();
         if (tableName.contains("unidade_gestora")) {
@@ -885,7 +964,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return "dados";
         }
     }
+
     private List<T> processarComCdGestao(String ugCd, T mapper, String cdGestao, boolean isAnoAtual) {
+        if (cdGestao == null || cdGestao.trim().isEmpty()) {
+            logger.warn("cdGestao nulo ou vazio ignorado para UG " + ugCd);
+            return new ArrayList<>();
+        }
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
@@ -895,7 +979,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             parametros.put("cdGestao", cdGestao);
             logger.info("Parâmetros da consulta com cdGestao " + cdGestao + ": " + parametros);
             for (Map.Entry<String, Object> entry : parametros.entrySet()) {
-                builder.queryParam(entry.getKey(), entry.getValue());
+                if (entry.getValue() != null) {
+                    builder.queryParam(entry.getKey(), entry.getValue());
+                }
             }
             apiUrl = builder.toUriString();
             logger.info("URL da API com cdGestao: " + apiUrl);
@@ -909,20 +995,26 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
                 if (processedData != null) {
                     resultado.addAll(processedData);
-                    logger.info("Dados processados com sucesso para cdGestao " + cdGestao + ": " + processedData.size() + " registros");
+                    logger.info("Dados processados com sucesso para cdGestao " + cdGestao + ": " + processedData.size()
+                            + " registros");
                 } else {
                     logger.warn("Processamento retornou null para cdGestao " + cdGestao);
                 }
             } else {
                 logger.warn("API retornou erro para cdGestao " + cdGestao + ". Status: " +
-                             (response != null ? response.getStatusCode() : "null"));
+                        (response != null ? response.getStatusCode() : "null"));
             }
         } catch (RestClientException e) {
             logger.error("Erro ao consumir API para cdGestao " + cdGestao + ": " + e.getMessage());
         }
         return resultado;
     }
+
     private List<T> processarComCdGestaoTodosAnos(String ugCd, T mapper, String cdGestao, Short ano) {
+        if (cdGestao == null || cdGestao.trim().isEmpty()) {
+            logger.warn("cdGestao nulo ou vazio ignorado para UG " + ugCd + " ano " + ano);
+            return new ArrayList<>();
+        }
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         String apiUrl = null;
@@ -931,7 +1023,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             Map<String, Object> parametros = mapper.getCamposParametrosTodosOsAnos(ugCd, ano);
             parametros.put("cdGestao", cdGestao);
             for (Map.Entry<String, Object> entry : parametros.entrySet()) {
-                builder.queryParam(entry.getKey(), entry.getValue());
+                if (entry.getValue() != null) {
+                    builder.queryParam(entry.getKey(), entry.getValue());
+                }
             }
             apiUrl = builder.toUriString();
         } catch (Exception e) {
@@ -951,6 +1045,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultado;
     }
+
     private List<T> processarSemCdGestao(String ugCd, T mapper, boolean isAnoAtual) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
@@ -974,19 +1069,21 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 List<T> processedData = processarRespostaSefaz(response.getBody(), mapper);
                 if (processedData != null) {
                     resultado.addAll(processedData);
-                    logger.info("Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
+                    logger.info(
+                            "Dados processados com sucesso: " + processedData.size() + " registros para UG " + ugCd);
                 } else {
                     logger.warn("Processamento retornou null para UG " + ugCd);
                 }
             } else {
                 logger.warn("API retornou erro para UG " + ugCd + ". Status: " +
-                             (response != null ? response.getStatusCode() : "null"));
+                        (response != null ? response.getStatusCode() : "null"));
             }
         } catch (RestClientException e) {
             logger.error("Erro ao consumir API para UG " + ugCd + ": " + e.getMessage());
         }
         return resultado;
     }
+
     private List<T> processarSemCdGestaoTodosAnos(String ugCd, T mapper, Short ano) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
@@ -1014,6 +1111,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return resultado;
     }
+
     private List<T> deduplicateIfNeeded(List<T> originalList) {
         if (originalList == null || originalList.isEmpty()) {
             return originalList;
@@ -1030,6 +1128,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         return originalList;
     }
+
     @SuppressWarnings("unchecked")
     private List<T> deduplicateTermoList(List<T> originalList) {
         logger.info("Aplicando deduplicação para Termo baseada em cdConvenio...");
@@ -1061,9 +1160,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
         return deduplicatedList;
     }
+
     @SuppressWarnings("unchecked")
     private List<T> deduplicateDespesaDetalhadaList(List<T> originalList) {
-        logger.info("Aplicando deduplicação para DespesaDetalhada baseada na chave da constraint uq_despesa_detalhada (7 colunas: dt_ano_exercicio_ctb, nu_mes, cd_orgao, cd_unid_orc, cd_natureza_despesa, cd_ppa_acao, cd_sub_acao)...");
+        logger.info(
+                "Aplicando deduplicação para DespesaDetalhada baseada na chave da constraint uq_despesa_detalhada (7 colunas: dt_ano_exercicio_ctb, nu_mes, cd_orgao, cd_unid_orc, cd_natureza_despesa, cd_ppa_acao, cd_sub_acao)...");
         Map<String, T> uniqueDespesas = new LinkedHashMap<>();
         int duplicatesRemoved = 0;
         for (T item : originalList) {
@@ -1076,14 +1177,13 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 String cdPPAAcao = (String) item.getClass().getMethod("getCdPPAAcao").invoke(item);
                 String cdSubAcao = (String) item.getClass().getMethod("getCdSubAcao").invoke(item);
                 String chaveComposta = String.format("%s|%s|%s|%s|%s|%s|%s",
-                    dtAnoExercicioCTB != null ? dtAnoExercicioCTB.toString() : "NULL",
-                    nuMes != null ? nuMes.toString() : "NULL",
-                    cdOrgao != null ? cdOrgao : "NULL",
-                    cdUnidOrc != null ? cdUnidOrc : "NULL",
-                    cdNaturezaDespesa != null ? cdNaturezaDespesa : "NULL",
-                    cdPPAAcao != null ? cdPPAAcao : "NULL",
-                    cdSubAcao != null ? cdSubAcao : "NULL"
-                );
+                        dtAnoExercicioCTB != null ? dtAnoExercicioCTB.toString() : "NULL",
+                        nuMes != null ? nuMes.toString() : "NULL",
+                        cdOrgao != null ? cdOrgao : "NULL",
+                        cdUnidOrc != null ? cdUnidOrc : "NULL",
+                        cdNaturezaDespesa != null ? cdNaturezaDespesa : "NULL",
+                        cdPPAAcao != null ? cdPPAAcao : "NULL",
+                        cdSubAcao != null ? cdSubAcao : "NULL");
                 if (uniqueDespesas.containsKey(chaveComposta)) {
                     duplicatesRemoved++;
                     logger.debug("Removendo duplicata DespesaDetalhada: " + chaveComposta);
@@ -1094,8 +1194,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.warn("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
                 String chaveFallback = construirChaveDespesaDetalhadaFromCampos(item);
                 if (chaveFallback != null) {
-                    if (uniqueDespesas.containsKey(chaveFallback)) duplicatesRemoved++;
-                    else uniqueDespesas.put(chaveFallback, item);
+                    if (uniqueDespesas.containsKey(chaveFallback))
+                        duplicatesRemoved++;
+                    else
+                        uniqueDespesas.put(chaveFallback, item);
                 } else {
                     uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
                 }
@@ -1108,9 +1210,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         logger.info("  • Duplicatas removidas: " + duplicatesRemoved);
         return deduplicatedList;
     }
+
     @SuppressWarnings("unchecked")
     private List<T> deduplicatePrevisaoRealizacaoReceitaList(List<T> originalList) {
-        logger.info("Aplicando deduplicação para PrevisaoRealizacaoReceita baseada na chave composta da constraint única...");
+        logger.info(
+                "Aplicando deduplicação para PrevisaoRealizacaoReceita baseada na chave composta da constraint única...");
         Map<String, T> unique = new LinkedHashMap<>();
         int duplicatesRemoved = 0;
         for (T item : originalList) {
@@ -1124,11 +1228,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 String cdDesdob = (String) item.getClass().getMethod("getCdDesdobramento").invoke(item);
                 String cdTipo = (String) item.getClass().getMethod("getCdTipo").invoke(item);
                 String chave = String.format("%s|%s|%s|%s|%s|%s|%s|%s",
-                    cdUg != null ? cdUg : "NULL", dtAno != null ? dtAno : "NULL", nuMes != null ? nuMes : "NULL",
-                    cdCat != null ? cdCat : "NULL", cdOrigem != null ? cdOrigem : "NULL",
-                    cdEsp != null ? cdEsp : "NULL", cdDesdob != null ? cdDesdob : "NULL", cdTipo != null ? cdTipo : "NULL");
-                if (unique.containsKey(chave)) duplicatesRemoved++;
-                else unique.put(chave, item);
+                        cdUg != null ? cdUg : "NULL", dtAno != null ? dtAno : "NULL", nuMes != null ? nuMes : "NULL",
+                        cdCat != null ? cdCat : "NULL", cdOrigem != null ? cdOrigem : "NULL",
+                        cdEsp != null ? cdEsp : "NULL", cdDesdob != null ? cdDesdob : "NULL",
+                        cdTipo != null ? cdTipo : "NULL");
+                if (unique.containsKey(chave))
+                    duplicatesRemoved++;
+                else
+                    unique.put(chave, item);
             } catch (Exception e) {
                 logger.warn("Erro ao obter campos para deduplicação de PrevisaoRealizacaoReceita: " + e.getMessage());
                 unique.put("ERROR_" + System.currentTimeMillis(), item);
@@ -1136,12 +1243,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         }
         List<T> deduplicatedList = new ArrayList<>(unique.values());
         logger.info("Deduplicação PrevisaoRealizacaoReceita concluída: originais={}, únicos={}, removidas={}",
-            originalList.size(), deduplicatedList.size(), duplicatesRemoved);
+                originalList.size(), deduplicatedList.size(), duplicatesRemoved);
         return deduplicatedList;
     }
+
     private String construirChaveDespesaDetalhadaFromCampos(T item) {
         Map<String, Object> campos = item.getCamposResposta();
-        if (campos == null) return null;
+        if (campos == null)
+            return null;
         Object v2 = campos.get("dt_ano_exercicio_ctb");
         Object v3 = campos.get("nu_mes");
         Object v4 = campos.get("cd_orgao");
@@ -1150,29 +1259,30 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         Object v7 = campos.get("cd_ppa_acao");
         Object v8 = campos.get("cd_sub_acao");
         return String.format("%s|%s|%s|%s|%s|%s|%s",
-            v2 != null ? v2.toString() : "NULL",
-            v3 != null ? v3.toString() : "NULL",
-            v4 != null ? v4.toString() : "NULL",
-            v5 != null ? v5.toString() : "NULL",
-            v6 != null ? v6.toString() : "NULL",
-            v7 != null ? v7.toString() : "NULL",
-            v8 != null ? v8.toString() : "NULL");
+                v2 != null ? v2.toString() : "NULL",
+                v3 != null ? v3.toString() : "NULL",
+                v4 != null ? v4.toString() : "NULL",
+                v5 != null ? v5.toString() : "NULL",
+                v6 != null ? v6.toString() : "NULL",
+                v7 != null ? v7.toString() : "NULL",
+                v8 != null ? v8.toString() : "NULL");
     }
+
     private List<T> processarIterandoEmpenhos(String ugCd, T mapper, Short ano) {
         MDCUtil.setUgCode(ugCd);
         List<T> resultado = new ArrayList<>();
         try {
             String queryEmpenhos = """
-                SELECT DISTINCT cd_gestao, sq_empenho
-                FROM consumer_sefaz.empenho
-                WHERE cd_unidade_gestora = ?
-                  AND dt_ano_exercicio_ctb = ?
-                  AND cd_gestao IS NOT NULL
-                  AND sq_empenho IS NOT NULL
-                ORDER BY cd_gestao, sq_empenho
-                """;
+                    SELECT DISTINCT cd_gestao, sq_empenho
+                    FROM consumer_sefaz.empenho
+                    WHERE cd_unidade_gestora = ?
+                      AND dt_ano_exercicio_ctb = ?
+                      AND cd_gestao IS NOT NULL
+                      AND sq_empenho IS NOT NULL
+                    ORDER BY cd_gestao, sq_empenho
+                    """;
             List<Map<String, Object>> empenhos = utilsService.getJdbcTemplate().queryForList(
-                queryEmpenhos, ugCd, ano.intValue());
+                    queryEmpenhos, ugCd, ano.intValue());
             if (empenhos.isEmpty()) {
                 logger.warn("Nenhum empenho encontrado para UG " + ugCd + " e ano " + ano);
                 return resultado;
@@ -1189,8 +1299,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Processando empenho: cdGestao=" + cdGestao + ", sqEmpenho=" + sqEmpenho);
                 Map<String, Object> parametros;
                 if (mapper instanceof br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) {
-                    br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO dadosDTO =
-                        (br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) mapper;
+                    br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO dadosDTO = (br.gov.se.setc.consumer.dto.DadosOrcamentariosDTO) mapper;
                     parametros = dadosDTO.criarParametrosComEmpenho(ugCd, ano.intValue(), cdGestao, sqEmpenho);
                 } else {
                     parametros = new LinkedHashMap<>();
@@ -1203,19 +1312,20 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 if (resultadoEmpenho != null && !resultadoEmpenho.isEmpty()) {
                     resultado.addAll(resultadoEmpenho);
                     logger.info("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): " +
-                               resultadoEmpenho.size() + " registros obtidos");
+                            resultadoEmpenho.size() + " registros obtidos");
                 } else {
                     logger.debug("Empenho " + sqEmpenho + " (cdGestao=" + cdGestao + "): nenhum registro");
                 }
             }
             logger.info("Processamento de empenhos concluído para UG " + ugCd + " e ano " + ano +
-                       ": " + resultado.size() + " registros totais");
+                    ": " + resultado.size() + " registros totais");
         } catch (Exception e) {
             logger.error("Erro ao processar empenhos para UG " + ugCd + " e ano " + ano + ": " + e.getMessage());
             e.printStackTrace();
         }
         return resultado;
     }
+
     private List<T> chamarApiComParametros(T mapper, Map<String, Object> parametros) {
         List<T> resultado = new ArrayList<>();
         try {
@@ -1233,7 +1343,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 }
             } else {
                 logger.warn("API retornou erro. Status: " +
-                             (response != null ? response.getStatusCode() : "null"));
+                        (response != null ? response.getStatusCode() : "null"));
             }
         } catch (Exception e) {
             logger.warn("Erro ao chamar API com parâmetros " + parametros + ": " + e.getMessage());
