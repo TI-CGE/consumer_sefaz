@@ -63,13 +63,55 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         Map<String, Object> fieldMap = firstItem.getCamposResposta();
         String columns = String.join(", ", fieldMap.keySet());
         String placeholders = fieldMap.keySet().stream().map(k -> "?").collect(Collectors.joining(", "));
-        String insertSql = "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ")";
+        String sql;
+        if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("dt_ano_exercicio_ctb", "nu_mes", "cd_orgao", "cd_unid_orc", "cd_natureza_despesa", "cd_ppa_acao", "cd_sub_acao"));
+        } else if ("consumer_sefaz.previsao_realizacao_receita".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("cd_unidade_gestora", "dt_ano_exercicio_ctb", "nu_mes", "cd_categoria_economica", "cd_origem", "cd_especie", "cd_desdobramento", "cd_tipo"));
+        } else if ("consumer_sefaz.empenho".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
+        } else if ("consumer_sefaz.pagamento".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_ob"));
+        } else if ("consumer_sefaz.liquidacao".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_liquidacao"));
+        } else if ("consumer_sefaz.restos_a_pagar".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
+        } else if ("consumer_sefaz.contrato_empenho".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("cd_solicitacao_compra", "ug_cd", "dt_ano_exercicio"));
+        } else if ("consumer_sefaz.ordem_fornecimento".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("cd_unidade_gestora", "cd_gestao", "dt_ano_exercicio_emp", "sq_empenho", "sq_ordem_fornecimento"));
+        } else if ("consumer_sefaz.receita".equals(tableName)) {
+            sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
+                    java.util.Set.of("cd_convenio"));
+        } else {
+            sql = "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ")";
+        }
         List<Object[]> batchArgs = new ArrayList<>();
         for (T item : batch) {
             Map<String, Object> itemFieldMap = item.getCamposResposta();
             batchArgs.add(itemFieldMap.values().toArray());
         }
-        jdbcTemplate.batchUpdate(insertSql, batchArgs);
+        jdbcTemplate.batchUpdate(sql, batchArgs);
+    }
+
+    private String buildUpsertSql(String tableName, String columns, java.util.Set<String> columnSet, java.util.Set<String> conflictColumnSet) {
+        String placeholders = columnSet.stream().map(k -> "?").collect(Collectors.joining(", "));
+        String conflictColumns = String.join(", ", conflictColumnSet);
+        List<String> updateSet = columnSet.stream()
+                .filter(c -> !conflictColumnSet.contains(c))
+                .map(c -> c + " = EXCLUDED." + c)
+                .collect(Collectors.toList());
+        String updateClause = String.join(", ", updateSet);
+        return "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ") " +
+                "ON CONFLICT (" + conflictColumns + ") DO UPDATE SET " + updateClause;
     }
     @LogOperation(operation = "DELETE_BY_MONTH", component = "DATABASE")
     public void deleteByMesVigente(T endpointInstance) {
@@ -78,11 +120,13 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         String deleteSql;
         if ("consumer_sefaz.previsao_realizacao_receita".equals(tableName)) {
             Integer nuMes = obterNuMesDoEndpoint(endpointInstance);
+            Integer dtAno = obterDtAnoExercicioCtbDoEndpoint(endpointInstance);
+            int anoDelete = dtAno != null ? dtAno : java.time.Year.now().getValue();
             if (nuMes != null) {
                 deleteSql = "DELETE FROM " + tableName + " " +
-                        "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer) AND nu_mes = ?";
+                        "WHERE dt_ano_exercicio_ctb = ? AND nu_mes = ?";
                 try {
-                    int deletedRecords = jdbcTemplate.update(deleteSql, nuMes);
+                    int deletedRecords = jdbcTemplate.update(deleteSql, anoDelete, nuMes);
                     long executionTime = System.currentTimeMillis() - startTime;
                     unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
                 } catch (Exception e) {
@@ -93,15 +137,27 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
                 return;
             }
             deleteSql = "DELETE FROM " + tableName + " " +
-                    "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
+                    "WHERE dt_ano_exercicio_ctb = ?";
+            try {
+                int deletedRecords = jdbcTemplate.update(deleteSql, anoDelete);
+                long executionTime = System.currentTimeMillis() - startTime;
+                unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
+            } catch (Exception e) {
+                long executionTime = System.currentTimeMillis() - startTime;
+                unifiedLogger.logOperationError("DATABASE", "DELETE_BY_MONTH", executionTime, e, "TABLE", tableName);
+                throw e;
+            }
+            return;
         }
         else if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
             Integer nuMes = obterNuMesDoEndpoint(endpointInstance);
+            Integer dtAno = obterDtAnoExercicioCtbDoEndpoint(endpointInstance);
+            int anoDelete = dtAno != null ? dtAno : java.time.Year.now().getValue();
             if (nuMes != null) {
                 deleteSql = "DELETE FROM " + tableName + " " +
-                        "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer) AND nu_mes = ?";
+                        "WHERE dt_ano_exercicio_ctb = ? AND nu_mes = ?";
                 try {
-                    int deletedRecords = jdbcTemplate.update(deleteSql, nuMes);
+                    int deletedRecords = jdbcTemplate.update(deleteSql, anoDelete, nuMes);
                     long executionTime = System.currentTimeMillis() - startTime;
                     unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
                 } catch (Exception e) {
@@ -112,16 +168,30 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
                 return;
             }
             deleteSql = "DELETE FROM " + tableName + " " +
-                    "WHERE dt_ano_exercicio_ctb = EXTRACT(YEAR FROM CURRENT_DATE)";
+                    "WHERE dt_ano_exercicio_ctb = ?";
+            try {
+                int deletedRecords = jdbcTemplate.update(deleteSql, anoDelete);
+                long executionTime = System.currentTimeMillis() - startTime;
+                unifiedLogger.logDatabaseOperation("DELETE", tableName, deletedRecords, executionTime);
+            } catch (Exception e) {
+                long executionTime = System.currentTimeMillis() - startTime;
+                unifiedLogger.logOperationError("DATABASE", "DELETE_BY_MONTH", executionTime, e, "TABLE", tableName);
+                throw e;
+            }
+            return;
         }
         else if ("consumer_sefaz.empenho".equals(tableName)) {
-            deleteSql = "DELETE FROM " + tableName + " " +
-                    "WHERE dt_geracao_empenho LIKE '" + java.time.Year.now().getValue() + "-%'";
+            return;
         }
-        else if ("consumer_sefaz.restos_a_pagar".equals(tableName)) {
-            deleteSql = "DELETE FROM " + tableName + " " +
-                    "WHERE dt_ano_exercicio_ctb = (SELECT EXTRACT(YEAR FROM CURRENT_DATE)::integer)";
-        } else {
+        else if ("consumer_sefaz.pagamento".equals(tableName)
+                || "consumer_sefaz.liquidacao".equals(tableName)
+                || "consumer_sefaz.restos_a_pagar".equals(tableName)
+                || "consumer_sefaz.contrato_empenho".equals(tableName)
+                || "consumer_sefaz.ordem_fornecimento".equals(tableName)
+                || "consumer_sefaz.receita".equals(tableName)) {
+            return;
+        }
+        else {
             if(endpointInstance.getNomeDataInicialPadraoFiltro() == null || endpointInstance.getNomeDataFinalPadraoFiltro() == null){
                 return;
             }
@@ -146,6 +216,23 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
                 Object result = endpointInstance.getClass().getMethod("getNuMes").invoke(endpointInstance);
                 return result instanceof Integer ? (Integer) result : null;
             }
+        } catch (Exception ignored) {
+        }
+        return null;
+    }
+
+    private Integer obterDtAnoExercicioCtbDoEndpoint(T endpointInstance) {
+        String tableName = endpointInstance.getTabelaBanco();
+        if (!tableName.contains("despesa_detalhada") && !tableName.contains("previsao_realizacao_receita")) {
+            return null;
+        }
+        try {
+            Object result = endpointInstance.getClass().getMethod("getDtAnoExercicioCTB").invoke(endpointInstance);
+            if (result instanceof Integer) {
+                return (Integer) result;
+            }
+            result = endpointInstance.getClass().getMethod("getDtAnoExercicioCTBFiltro").invoke(endpointInstance);
+            return result instanceof Integer ? (Integer) result : null;
         } catch (Exception ignored) {
         }
         return null;
