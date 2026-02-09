@@ -17,6 +17,18 @@ import br.gov.se.setc.consumer.dto.ConsultaGerencialDTO;
 import br.gov.se.setc.consumer.dto.PagamentoDTO;
 import br.gov.se.setc.consumer.dto.LiquidacaoDTO;
 import br.gov.se.setc.consumer.dto.EmpenhoDTO;
+import br.gov.se.setc.consumer.dto.RestosAPagarDTO;
+import br.gov.se.setc.consumer.dto.OrdemFornecimentoDTO;
+import br.gov.se.setc.consumer.dto.EmpenhoMensalDTO;
+import br.gov.se.setc.consumer.dto.TotalizadoresExecucaoDTO;
+import br.gov.se.setc.consumer.dto.BaseDespesaCredorDTO;
+import br.gov.se.setc.consumer.dto.BaseDespesaLicitacaoDTO;
+import br.gov.se.setc.consumer.dto.ContratoDTO;
+import br.gov.se.setc.consumer.dto.ContratoEmpenhoDTO;
+import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
+import br.gov.se.setc.consumer.dto.ReceitaDTO;
+import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
+import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -122,7 +134,37 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.info("Total de UGs a processar: " + ugCdArray.size());
                 logger.info("Dados existentes no banco: " + (hasDataInDatabase ? "SIM" : "NÃO"));
                 userFriendlyLogger.logInfo("Processando " + ugCdArray.size() + " Unidades Gestoras...");
-                if (!hasDataInDatabase) {
+                if (mapper instanceof EmpenhoMensalDTO empenhoMensal
+                        && empenhoMensal.getNuMesFiltro() != null
+                        && empenhoMensal.getDtAnoExercicioFiltro() != null) {
+                    logger.info("Modo: PERÍODO ESPECÍFICO - mês " + empenhoMensal.getNuMesFiltro() + " ano " + empenhoMensal.getDtAnoExercicioFiltro());
+                    int ugProcessed = 0;
+                    for (String ugCd : ugCdArray) {
+                        ugProcessed++;
+                        MDCUtil.setUgCode(ugCd);
+                        simpleLogger.consumptionProgress(dataType, "Processando UGs (período específico)", ugProcessed,
+                                ugCdArray.size(), "UG: " + ugCd);
+                        List<T> result = pegarDadosMesAnoEspecifico(ugCd, mapper);
+                        if (result != null) {
+                            resultList.addAll(result);
+                            totalRecordsProcessed += result.size();
+                        }
+                    }
+                } else if (!hasDataInDatabase && !(mapper instanceof ReceitaDTO receitaComFiltro && receitaComFiltro.getNuAnoCelebracaoFiltro() != null)
+                        && !(mapper instanceof DespesaConvenioDTO despesaConvComFiltro && despesaConvComFiltro.getNuAnoLancamentoFiltro() != null)
+                        && !(mapper instanceof PrevisaoRealizacaoReceitaDTO previsaoComFiltro && previsaoComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof PagamentoDTO pagComFiltro && pagComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof LiquidacaoDTO liqComFiltro && liqComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof EmpenhoDTO empComFiltro && empComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof ConsultaGerencialDTO cgComFiltro && cgComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof RestosAPagarDTO rapComFiltro && rapComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof OrdemFornecimentoDTO ofComFiltro && ofComFiltro.getDtAnoExercicioEmpFiltro() != null)
+                        && !(mapper instanceof TotalizadoresExecucaoDTO teComFiltro && teComFiltro.getDtAnoExercicioCTBFiltro() != null)
+                        && !(mapper instanceof BaseDespesaCredorDTO bdcComFiltro && bdcComFiltro.getDtAnoExercicioFiltro() != null)
+                        && !(mapper instanceof BaseDespesaLicitacaoDTO bdlComFiltro && bdlComFiltro.getDtAnoExercicioFiltro() != null)
+                        && !(mapper instanceof ContratoDTO cComFiltro && cComFiltro.getDtAnoExercicioFiltro() != null)
+                        && !(mapper instanceof ContratoEmpenhoDTO ceComFiltro && ceComFiltro.getDtAnoExercicioFiltro() != null)
+                        && !(mapper instanceof ContratosFiscaisDTO cfComFiltro && cfComFiltro.getDtAnoExercicioFiltro() != null)) {
                     logger.info("Modo: TODOS OS ANOS (2020-2025) - Carga inicial completa");
                     userFriendlyLogger.logInfo("Modo: Carga inicial completa (todos os anos)");
                     int ugProcessed = 0;
@@ -145,9 +187,74 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                     }
                 } else {
-                    logger.info("Modo: APENAS ANO ATUAL (" + utilsService.getAnoAtual() + ") - DELETE-BEFORE-INSERT");
-                    userFriendlyLogger
-                            .logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
+                    if (mapper instanceof ReceitaDTO receitaPeriodo && receitaPeriodo.getNuAnoCelebracaoFiltro() != null) {
+                        logger.info("Modo: RECEITA PERÍODO ESPECÍFICO - ano " + receitaPeriodo.getNuAnoCelebracaoFiltro()
+                                + (receitaPeriodo.getNuMesCelebracaoFiltro() != null ? " mês " + receitaPeriodo.getNuMesCelebracaoFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Receita (Convênio) por período - ano " + receitaPeriodo.getNuAnoCelebracaoFiltro()
+                                + (receitaPeriodo.getNuMesCelebracaoFiltro() != null ? " mês " + receitaPeriodo.getNuMesCelebracaoFiltro() : ""));
+                    } else if (mapper instanceof DespesaConvenioDTO despesaConvPeriodo && despesaConvPeriodo.getNuAnoLancamentoFiltro() != null) {
+                        logger.info("Modo: DESPESA CONVÊNIO PERÍODO ESPECÍFICO - ano " + despesaConvPeriodo.getNuAnoLancamentoFiltro()
+                                + (despesaConvPeriodo.getNuMesLancamentoFiltro() != null ? " mês " + despesaConvPeriodo.getNuMesLancamentoFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Despesa Convênio por período - ano " + despesaConvPeriodo.getNuAnoLancamentoFiltro()
+                                + (despesaConvPeriodo.getNuMesLancamentoFiltro() != null ? " mês " + despesaConvPeriodo.getNuMesLancamentoFiltro() : ""));
+                    } else if (mapper instanceof PrevisaoRealizacaoReceitaDTO previsaoPeriodo && previsaoPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: PREVISÃO REALIZAÇÃO RECEITA PERÍODO ESPECÍFICO - ano " + previsaoPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (previsaoPeriodo.getNuMesFiltro() != null ? " mês " + previsaoPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Previsão Realização Receita por período - ano " + previsaoPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (previsaoPeriodo.getNuMesFiltro() != null ? " mês " + previsaoPeriodo.getNuMesFiltro() : ""));
+                    } else if (mapper instanceof PagamentoDTO pagPeriodo && pagPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: PAGAMENTO PERÍODO ESPECÍFICO - ano " + pagPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (pagPeriodo.getNuMesFiltro() != null ? " mês " + pagPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Pagamento por período - ano " + pagPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (pagPeriodo.getNuMesFiltro() != null ? " mês " + pagPeriodo.getNuMesFiltro() : ""));
+                    } else if (mapper instanceof LiquidacaoDTO liqPeriodo && liqPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: LIQUIDAÇÃO PERÍODO ESPECÍFICO - ano " + liqPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (liqPeriodo.getNuMesFiltro() != null ? " mês " + liqPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Liquidação por período - ano " + liqPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (liqPeriodo.getNuMesFiltro() != null ? " mês " + liqPeriodo.getNuMesFiltro() : ""));
+                    } else if (mapper instanceof EmpenhoDTO empPeriodo && empPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: EMPENHO PERÍODO ESPECÍFICO - ano " + empPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (empPeriodo.getNuMesFiltro() != null ? " mês " + empPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Empenho por período - ano " + empPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (empPeriodo.getNuMesFiltro() != null ? " mês " + empPeriodo.getNuMesFiltro() : ""));
+                    } else if (mapper instanceof ConsultaGerencialDTO cgPeriodo && cgPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: CONSULTA GERENCIAL PERÍODO ESPECÍFICO - ano " + cgPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (cgPeriodo.getNuMesFiltro() != null ? " mês " + cgPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Consulta Gerencial por período - ano " + cgPeriodo.getDtAnoExercicioCTBFiltro()
+                                + (cgPeriodo.getNuMesFiltro() != null ? " mês " + cgPeriodo.getNuMesFiltro() : ""));
+                    } else if (mapper instanceof RestosAPagarDTO rapPeriodo && rapPeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: RESTOS A PAGAR PERÍODO ESPECÍFICO - ano " + rapPeriodo.getDtAnoExercicioCTBFiltro());
+                        userFriendlyLogger.logInfo("Modo: Restos a Pagar por ano - ano " + rapPeriodo.getDtAnoExercicioCTBFiltro());
+                    } else if (mapper instanceof OrdemFornecimentoDTO ofPeriodo && ofPeriodo.getDtAnoExercicioEmpFiltro() != null) {
+                        logger.info("Modo: ORDEM FORNECIMENTO PERÍODO ESPECÍFICO - ano " + ofPeriodo.getDtAnoExercicioEmpFiltro()
+                                + (ofPeriodo.getNuMesRecebimentoFiltro() != null ? " mês " + ofPeriodo.getNuMesRecebimentoFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Ordem Fornecimento por período - ano " + ofPeriodo.getDtAnoExercicioEmpFiltro()
+                                + (ofPeriodo.getNuMesRecebimentoFiltro() != null ? " mês " + ofPeriodo.getNuMesRecebimentoFiltro() : ""));
+                    } else if (mapper instanceof TotalizadoresExecucaoDTO tePeriodo && tePeriodo.getDtAnoExercicioCTBFiltro() != null) {
+                        logger.info("Modo: TOTALIZADORES EXECUÇÃO PERÍODO ESPECÍFICO - ano " + tePeriodo.getDtAnoExercicioCTBFiltro());
+                        userFriendlyLogger.logInfo("Modo: Totalizadores Execução por ano - ano " + tePeriodo.getDtAnoExercicioCTBFiltro());
+                    } else if (mapper instanceof BaseDespesaCredorDTO bdcPeriodo && bdcPeriodo.getDtAnoExercicioFiltro() != null) {
+                        logger.info("Modo: BASE DESPESA CREDOR PERÍODO ESPECÍFICO - ano " + bdcPeriodo.getDtAnoExercicioFiltro());
+                        userFriendlyLogger.logInfo("Modo: Base Despesa Credor por ano - ano " + bdcPeriodo.getDtAnoExercicioFiltro());
+                    } else if (mapper instanceof BaseDespesaLicitacaoDTO bdlPeriodo && bdlPeriodo.getDtAnoExercicioFiltro() != null) {
+                        logger.info("Modo: BASE DESPESA LICITAÇÃO PERÍODO ESPECÍFICO - ano " + bdlPeriodo.getDtAnoExercicioFiltro());
+                        userFriendlyLogger.logInfo("Modo: Base Despesa Licitação por ano - ano " + bdlPeriodo.getDtAnoExercicioFiltro());
+                    } else if (mapper instanceof ContratoDTO cPeriodo && cPeriodo.getDtAnoExercicioFiltro() != null) {
+                        logger.info("Modo: CONTRATO PERÍODO ESPECÍFICO - ano " + cPeriodo.getDtAnoExercicioFiltro());
+                        userFriendlyLogger.logInfo("Modo: Contrato por ano - ano " + cPeriodo.getDtAnoExercicioFiltro());
+                    } else if (mapper instanceof ContratoEmpenhoDTO cePeriodo && cePeriodo.getDtAnoExercicioFiltro() != null) {
+                        logger.info("Modo: CONTRATO EMPENHO PERÍODO ESPECÍFICO - ano " + cePeriodo.getDtAnoExercicioFiltro());
+                        userFriendlyLogger.logInfo("Modo: Contrato Empenho por ano - ano " + cePeriodo.getDtAnoExercicioFiltro());
+                    } else if (mapper instanceof ContratosFiscaisDTO cfPeriodo && cfPeriodo.getDtAnoExercicioFiltro() != null) {
+                        logger.info("Modo: CONTRATOS FISCAIS PERÍODO ESPECÍFICO - ano " + cfPeriodo.getDtAnoExercicioFiltro()
+                                + (cfPeriodo.getNuMesFiltro() != null ? " mês " + cfPeriodo.getNuMesFiltro() : ""));
+                        userFriendlyLogger.logInfo("Modo: Contratos Fiscais por período - ano " + cfPeriodo.getDtAnoExercicioFiltro()
+                                + (cfPeriodo.getNuMesFiltro() != null ? " mês " + cfPeriodo.getNuMesFiltro() : ""));
+                    } else {
+                        logger.info("Modo: APENAS ANO ATUAL (" + utilsService.getAnoAtual() + ") - DELETE-BEFORE-INSERT");
+                        userFriendlyLogger
+                                .logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
+                    }
                     int ugProcessed = 0;
                     for (String ugCd : ugCdArray) {
                         ugProcessed++;
@@ -714,8 +821,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             "UG: " + ugCd + " | cdGestao: " + cdGestao);
                     logger.info("Processando cdGestao: " + cdGestao + " para UG: " + ugCd);
                     if (mapper instanceof ConsultaGerencialDTO consultaGerencialDTO) {
-                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
-                        for (int[] anoMes : ultimos2Meses) {
+                        List<int[]> periodos = (consultaGerencialDTO.getDtAnoExercicioCTBFiltro() != null && consultaGerencialDTO.getNuMesFiltro() != null)
+                                ? List.of(new int[]{consultaGerencialDTO.getDtAnoExercicioCTBFiltro(), consultaGerencialDTO.getNuMesFiltro()})
+                                : utilsService.getUltimos2Meses();
+                        for (int[] anoMes : periodos) {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             consultaGerencialDTO.setNuMesFiltro(mes);
@@ -729,8 +838,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                         consultaGerencialDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof PagamentoDTO pagamentoDTO) {
-                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
-                        for (int[] anoMes : ultimos2Meses) {
+                        List<int[]> periodos = (pagamentoDTO.getDtAnoExercicioCTBFiltro() != null && pagamentoDTO.getNuMesFiltro() != null)
+                                ? List.of(new int[]{pagamentoDTO.getDtAnoExercicioCTBFiltro(), pagamentoDTO.getNuMesFiltro()})
+                                : utilsService.getUltimos2Meses();
+                        for (int[] anoMes : periodos) {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             pagamentoDTO.setNuMesFiltro(mes);
@@ -744,8 +855,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                         pagamentoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof LiquidacaoDTO liquidacaoDTO) {
-                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
-                        for (int[] anoMes : ultimos2Meses) {
+                        List<int[]> periodos = (liquidacaoDTO.getDtAnoExercicioCTBFiltro() != null && liquidacaoDTO.getNuMesFiltro() != null)
+                                ? List.of(new int[]{liquidacaoDTO.getDtAnoExercicioCTBFiltro(), liquidacaoDTO.getNuMesFiltro()})
+                                : utilsService.getUltimos2Meses();
+                        for (int[] anoMes : periodos) {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             liquidacaoDTO.setNuMesFiltro(mes);
@@ -759,8 +872,10 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                         liquidacaoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
-                        List<int[]> ultimos2Meses = utilsService.getUltimos2Meses();
-                        for (int[] anoMes : ultimos2Meses) {
+                        List<int[]> periodos = (empenhoDTO.getDtAnoExercicioCTBFiltro() != null && empenhoDTO.getNuMesFiltro() != null)
+                                ? List.of(new int[]{empenhoDTO.getDtAnoExercicioCTBFiltro(), empenhoDTO.getNuMesFiltro()})
+                                : utilsService.getUltimos2Meses();
+                        for (int[] anoMes : periodos) {
                             int ano = anoMes[0];
                             int mes = anoMes[1];
                             empenhoDTO.setNuMesFiltro(mes);
@@ -793,6 +908,37 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             }
         }
         return resultadoAnoMesVigente;
+    }
+
+    private List<T> pegarDadosMesAnoEspecifico(String ugCd, T mapper) {
+        if (!(mapper instanceof EmpenhoMensalDTO empenhoMensal)
+                || empenhoMensal.getNuMesFiltro() == null
+                || empenhoMensal.getDtAnoExercicioFiltro() == null) {
+            return new ArrayList<>();
+        }
+        MDCUtil.setUgCode(ugCd);
+        List<T> resultado = new ArrayList<>();
+        Short ano = empenhoMensal.getDtAnoExercicioFiltro().shortValue();
+        List<String> cdGestaoList = utilsService.cdGestaoPorUgAno(ugCd, ano);
+        if (cdGestaoList == null || cdGestaoList.isEmpty()) {
+            logger.warn("Nenhum cd_gestao para UG " + ugCd + " e ano " + ano);
+            return resultado;
+        }
+        String dataType = getDataTypeFromMapper(mapper);
+        int cdGestaoProcessado = 0;
+        for (String cdGestao : cdGestaoList) {
+            if (cdGestao == null || cdGestao.trim().isEmpty()) {
+                continue;
+            }
+            cdGestaoProcessado++;
+            simpleLogger.consumptionProgress(dataType, "Processando cdGestao", cdGestaoProcessado, cdGestaoList.size(),
+                    "UG: " + ugCd + " | Ano: " + ano + " | Mês: " + empenhoMensal.getNuMesFiltro() + " | cdGestao: " + cdGestao);
+            List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, ano);
+            if (resultadoCdGestao != null) {
+                resultado.addAll(resultadoCdGestao);
+            }
+        }
+        return resultado;
     }
 
     private List<T> pegarDeTodosAnos(String ugCd, T mapper) {
