@@ -59,6 +59,8 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     private BigDecimal vlTotalICMS;
     @JsonProperty("vlIpi")
     private BigDecimal vlIpi;
+    private Integer dtAnoExercicioEmpFiltro;
+    private Integer nuMesRecebimentoFiltro;
     public OrdemFornecimentoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -108,15 +110,28 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
-        camposParametros.put("dtAnoExercicioEmp", ano);
+        Integer anoUsar = dtAnoExercicioEmpFiltro != null ? dtAnoExercicioEmpFiltro : ano.intValue();
+        camposParametros.put("dtAnoExercicioEmp", anoUsar);
+        if (nuMesRecebimentoFiltro != null) {
+            camposParametros.put("nuMesRecebimento", nuMesRecebimentoFiltro);
+        }
         return camposParametros;
     }
     @Override
     public Map<String, Object> getCamposParametrosAtual(String ugCd, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
-        camposParametros.put("dtAnoExercicioEmp", utilsService.getAnoAtual());
-        camposParametros.put("nuMesRecebimento", utilsService.getMesAtual());
+        Integer anoUsar = dtAnoExercicioEmpFiltro != null ? dtAnoExercicioEmpFiltro : (utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : null);
+        if (anoUsar != null) {
+            camposParametros.put("dtAnoExercicioEmp", anoUsar);
+        }
+        if (nuMesRecebimentoFiltro != null) {
+            camposParametros.put("nuMesRecebimento", nuMesRecebimentoFiltro);
+        } else {
+            if (utilsService.getMesAtual() != null) {
+                camposParametros.put("nuMesRecebimento", utilsService.getMesAtual().intValue());
+            }
+        }
         return camposParametros;
     }
     public String getCdUnidadeGestora() {
@@ -142,6 +157,18 @@ public class OrdemFornecimentoDTO extends EndpontSefaz {
     }
     public void setDtAnoExercicioEmp(Integer dtAnoExercicioEmp) {
         this.dtAnoExercicioEmp = dtAnoExercicioEmp;
+    }
+    public Integer getDtAnoExercicioEmpFiltro() {
+        return dtAnoExercicioEmpFiltro;
+    }
+    public void setDtAnoExercicioEmpFiltro(Integer dtAnoExercicioEmpFiltro) {
+        this.dtAnoExercicioEmpFiltro = dtAnoExercicioEmpFiltro;
+    }
+    public Integer getNuMesRecebimentoFiltro() {
+        return nuMesRecebimentoFiltro;
+    }
+    public void setNuMesRecebimentoFiltro(Integer nuMesRecebimentoFiltro) {
+        this.nuMesRecebimentoFiltro = nuMesRecebimentoFiltro;
     }
     public Integer getDtAnoExercicioOF() {
         return dtAnoExercicioOF;

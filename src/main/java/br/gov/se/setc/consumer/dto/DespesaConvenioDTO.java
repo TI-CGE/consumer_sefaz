@@ -133,8 +133,8 @@ public class DespesaConvenioDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosAtual(String ugCd, ValidacaoUtil<?> utilsService) {
         Map<String, Object> params = new LinkedHashMap<>();
         params.put("cdUnidadeGestora", ugCd);
-        params.put("nuAnoLancamento", utilsService.getAnoAtual());
-        params.put("nuMesLancamento", utilsService.getMesAtual());
+        params.put("nuAnoLancamento", nuAnoLancamentoFiltro != null ? nuAnoLancamentoFiltro : utilsService.getAnoAtual());
+        params.put("nuMesLancamento", nuMesLancamentoFiltro != null ? nuMesLancamentoFiltro : utilsService.getMesAtual());
         params.put("inVigente", "S");
         return params;
     }

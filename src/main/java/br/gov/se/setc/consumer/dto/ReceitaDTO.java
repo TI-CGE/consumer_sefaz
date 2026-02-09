@@ -61,6 +61,8 @@ public class ReceitaDTO extends EndpontSefaz {
     private String inConvenioEmpenhoIngresso;
     @JsonProperty("sqUnidadeGestoraGestao")
     private Integer sqUnidadeGestoraGestao;
+    private Integer nuAnoCelebracaoFiltro;
+    private Integer nuMesCelebracaoFiltro;
     public ReceitaDTO() {
         inicializarDadosEndpoint();
     }
@@ -152,8 +154,8 @@ public class ReceitaDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("nuAnoCelebracao", utilsService.getAnoAtual());
-        camposParametros.put("nuMesCelebracao", utilsService.getMesAtual());
+        camposParametros.put("nuAnoCelebracao", nuAnoCelebracaoFiltro != null ? nuAnoCelebracaoFiltro : utilsService.getAnoAtual());
+        camposParametros.put("nuMesCelebracao", nuMesCelebracaoFiltro != null ? nuMesCelebracaoFiltro : utilsService.getMesAtual());
         camposParametros.put("inVigente", "S");
         return camposParametros;
     }
@@ -325,5 +327,17 @@ public class ReceitaDTO extends EndpontSefaz {
     }
     public void setSqUnidadeGestoraGestao(Integer sqUnidadeGestoraGestao) {
         this.sqUnidadeGestoraGestao = sqUnidadeGestoraGestao;
+    }
+    public Integer getNuAnoCelebracaoFiltro() {
+        return nuAnoCelebracaoFiltro;
+    }
+    public void setNuAnoCelebracaoFiltro(Integer nuAnoCelebracaoFiltro) {
+        this.nuAnoCelebracaoFiltro = nuAnoCelebracaoFiltro;
+    }
+    public Integer getNuMesCelebracaoFiltro() {
+        return nuMesCelebracaoFiltro;
+    }
+    public void setNuMesCelebracaoFiltro(Integer nuMesCelebracaoFiltro) {
+        this.nuMesCelebracaoFiltro = nuMesCelebracaoFiltro;
     }
 }

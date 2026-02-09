@@ -62,6 +62,7 @@ public class LiquidacaoDTO extends EndpontSefaz {
     @JsonProperty("nmModalidadeLicitacao")
     private String nmModalidadeLicitacao;
     private Integer nuMesFiltro;
+    private Integer dtAnoExercicioCTBFiltro;
     public LiquidacaoDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -117,8 +118,11 @@ public class LiquidacaoDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
-        camposParametros.put("nuAnoLancamento", utilsService.getAnoAtual());
+        Integer anoUsar = dtAnoExercicioCTBFiltro != null ? dtAnoExercicioCTBFiltro : (utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : null);
+        if (anoUsar != null) {
+            camposParametros.put("dtAnoExercicioCTB", anoUsar);
+            camposParametros.put("nuAnoLancamento", anoUsar);
+        }
         if (nuMesFiltro != null) {
             camposParametros.put("nuMes", nuMesFiltro);
         } else {
@@ -133,8 +137,9 @@ public class LiquidacaoDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
-        camposParametros.put("dtAnoExercicioCTB", ano);
-        camposParametros.put("nuAnoLancamento", ano);
+        Integer anoUsar = dtAnoExercicioCTBFiltro != null ? dtAnoExercicioCTBFiltro : ano.intValue();
+        camposParametros.put("dtAnoExercicioCTB", anoUsar);
+        camposParametros.put("nuAnoLancamento", anoUsar);
         if (nuMesFiltro != null) {
             camposParametros.put("nuMes", nuMesFiltro);
         }
@@ -149,6 +154,12 @@ public class LiquidacaoDTO extends EndpontSefaz {
     }
     public void setNuMesFiltro(Integer nuMesFiltro) {
         this.nuMesFiltro = nuMesFiltro;
+    }
+    public Integer getDtAnoExercicioCTBFiltro() {
+        return dtAnoExercicioCTBFiltro;
+    }
+    public void setDtAnoExercicioCTBFiltro(Integer dtAnoExercicioCTBFiltro) {
+        this.dtAnoExercicioCTBFiltro = dtAnoExercicioCTBFiltro;
     }
     public Long getSqEmpenho() {
         return sqEmpenho;

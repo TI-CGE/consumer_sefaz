@@ -96,7 +96,8 @@ public class ContratoDTO extends EndpontSefaz {
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        camposParametros.put("dtAnoExercicio", 2025);
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : (utilsService != null && utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : 2025);
+        camposParametros.put("dtAnoExercicio", anoUsar);
         return camposParametros;
     }
     public String getSgUnidadeGestora() {

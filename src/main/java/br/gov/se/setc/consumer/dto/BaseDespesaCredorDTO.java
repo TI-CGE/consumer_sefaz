@@ -128,8 +128,9 @@ public class BaseDespesaCredorDTO extends EndpontSefaz {
         if (ugCd != null && !ugCd.trim().isEmpty()) {
             parametros.put("cdUnidadeGestora", ugCd);
         }
-        parametros.put("dtAnoExercicio", java.time.Year.now().getValue());
-        parametros.put("nuFaixaPaginacao", 1);
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : java.time.Year.now().getValue();
+        parametros.put("dtAnoExercicio", anoUsar);
+        parametros.put("nuFaixaPaginacao", nuFaixaPaginacaoFiltro != null ? nuFaixaPaginacaoFiltro : 1);
         return parametros;
     }
     /**

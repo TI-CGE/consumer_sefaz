@@ -28,6 +28,8 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     private LocalDate dtInicioVigenciaContrato;
     @JsonProperty("dsQualificador")
     private String dsQualificador;
+    private Integer dtAnoExercicioFiltro;
+    private Integer nuMesFiltro;
     public ContratosFiscaisDTO() {
         inicializarDadosEndpoint();
     }
@@ -84,8 +86,15 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicio", utilsService.getAnoAtual());
-        camposParametros.put("nuMes", utilsService.getMesAtual());
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : (utilsService != null && utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : null);
+        if (anoUsar != null) {
+            camposParametros.put("dtAnoExercicio", anoUsar);
+        }
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        } else if (utilsService != null && utilsService.getMesAtual() != null) {
+            camposParametros.put("nuMes", utilsService.getMesAtual().intValue());
+        }
         camposParametros.put("cdQualificador", 133);
         return camposParametros;
     }
@@ -93,7 +102,13 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     public  Map<String, Object> getCamposParametrosTodosOsAnos(String cdUnidadeGestora,Short ano ) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicio", ano);
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : (ano != null ? ano.intValue() : null);
+        if (anoUsar != null) {
+            camposParametros.put("dtAnoExercicio", anoUsar);
+        }
+        if (nuMesFiltro != null) {
+            camposParametros.put("nuMes", nuMesFiltro);
+        }
         camposParametros.put("cdQualificador", 133);
         return camposParametros;
     }
@@ -153,6 +168,18 @@ public class ContratosFiscaisDTO extends EndpontSefaz  {
     }
     public void setDtAnoExercicio(Integer dtAnoExercicio) {
         this.dtAnoExercicio = dtAnoExercicio;
+    }
+    public Integer getDtAnoExercicioFiltro() {
+        return dtAnoExercicioFiltro;
+    }
+    public void setDtAnoExercicioFiltro(Integer dtAnoExercicioFiltro) {
+        this.dtAnoExercicioFiltro = dtAnoExercicioFiltro;
+    }
+    public Integer getNuMesFiltro() {
+        return nuMesFiltro;
+    }
+    public void setNuMesFiltro(Integer nuMesFiltro) {
+        this.nuMesFiltro = nuMesFiltro;
     }
     public String getCdContrato() {
         return cdContrato;

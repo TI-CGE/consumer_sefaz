@@ -38,6 +38,7 @@ public class RestosAPagarDTO extends EndpontSefaz {
     private Integer sqSolicitacaoEmpenho;
     @JsonProperty("cdGestao")
     private String cdGestao;
+    private Integer dtAnoExercicioCTBFiltro;
     public RestosAPagarDTO() {
         inicializarDadosEndpoint();
         mapearCamposResposta();
@@ -80,19 +81,29 @@ public class RestosAPagarDTO extends EndpontSefaz {
     public Map<String, Object> getCamposParametrosAtual(String cdUnidadeGestora, ValidacaoUtil<?> utilsService) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", cdUnidadeGestora);
-        camposParametros.put("dtAnoExercicioCTB", utilsService.getAnoAtual());
+        Integer anoUsar = dtAnoExercicioCTBFiltro != null ? dtAnoExercicioCTBFiltro : (utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : null);
+        if (anoUsar != null) {
+            camposParametros.put("dtAnoExercicioCTB", anoUsar);
+        }
         return camposParametros;
     }
     @Override
     public Map<String, Object> getCamposParametrosTodosOsAnos(String ugCd, Short ano) {
         Map<String, Object> camposParametros = new LinkedHashMap<>();
         camposParametros.put("cdUnidadeGestora", ugCd);
-        camposParametros.put("dtAnoExercicioCTB", ano);
+        Integer anoUsar = dtAnoExercicioCTBFiltro != null ? dtAnoExercicioCTBFiltro : ano.intValue();
+        camposParametros.put("dtAnoExercicioCTB", anoUsar);
         return camposParametros;
     }
     @Override
     public boolean requerIteracaoCdGestao() {
         return true;
+    }
+    public Integer getDtAnoExercicioCTBFiltro() {
+        return dtAnoExercicioCTBFiltro;
+    }
+    public void setDtAnoExercicioCTBFiltro(Integer dtAnoExercicioCTBFiltro) {
+        this.dtAnoExercicioCTBFiltro = dtAnoExercicioCTBFiltro;
     }
     public BigDecimal getVlTotalTransferidoNPP() { return vlTotalTransferidoNPP; }
     public void setVlTotalTransferidoNPP(BigDecimal vlTotalTransferidoNPP) { this.vlTotalTransferidoNPP = vlTotalTransferidoNPP; }

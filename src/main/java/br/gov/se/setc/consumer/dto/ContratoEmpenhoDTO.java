@@ -141,7 +141,8 @@ public class ContratoEmpenhoDTO extends EndpontSefaz {
         if (ugCd != null && !ugCd.trim().isEmpty()) {
             parametros.put("cdUnidadeGestoraContrato", ugCd);
         }
-        parametros.put("dtAnoExercicio", java.time.Year.now().getValue());
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : java.time.Year.now().getValue();
+        parametros.put("dtAnoExercicio", anoUsar);
         return parametros;
     }
     public String getCdSolicitacaoCompra() {

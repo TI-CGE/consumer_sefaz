@@ -121,7 +121,8 @@ public class TotalizadoresExecucaoDTO extends EndpontSefaz {
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        camposParametros.put("dtAnoExercicioCTB", 2025);
+        Integer anoUsar = dtAnoExercicioCTBFiltro != null ? dtAnoExercicioCTBFiltro : (utilsService != null && utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : 2025);
+        camposParametros.put("dtAnoExercicioCTB", anoUsar);
         return camposParametros;
     }
     public Integer getCdProgramaGoverno() {

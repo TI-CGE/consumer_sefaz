@@ -101,7 +101,8 @@ public class BaseDespesaLicitacaoDTO extends EndpontSefaz {
         if (ugCd != null && !ugCd.trim().isEmpty()) {
             parametros.put("cdUnidadeGestora", ugCd);
         }
-        parametros.put("dtAnoExercicio", java.time.Year.now().getValue());
+        Integer anoUsar = dtAnoExercicioFiltro != null ? dtAnoExercicioFiltro : java.time.Year.now().getValue();
+        parametros.put("dtAnoExercicio", anoUsar);
         return parametros;
     }
     public String getNuProcesso() {

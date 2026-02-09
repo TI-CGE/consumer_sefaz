@@ -108,7 +108,8 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        camposParametros.put("dtAnoExercicioCTB", 2025);
+        Integer anoParaUsar = (dtAnoExercicioCTBFiltro != null) ? dtAnoExercicioCTBFiltro : (utilsService != null && utilsService.getAnoAtual() != null ? utilsService.getAnoAtual().intValue() : 2025);
+        camposParametros.put("dtAnoExercicioCTB", anoParaUsar);
         Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : (utilsService != null && utilsService.getMesAtual() != null ? utilsService.getMesAtual().intValue() : 12);
         camposParametros.put("nuMes", mesParaUsar);
         return camposParametros;
