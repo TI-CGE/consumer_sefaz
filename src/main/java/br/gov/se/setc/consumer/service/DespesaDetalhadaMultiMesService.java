@@ -129,6 +129,31 @@ public class DespesaDetalhadaMultiMesService {
         logger.info("Total de registros consolidados: " + resultadoConsolidado.size());
         return resultadoConsolidado;
     }
+    public List<DespesaDetalhadaDTO> consumirAnoEMes(int ano, int mes) {
+        if (mes < 1 || mes > 12) {
+            throw new IllegalArgumentException("Mês deve estar entre 1 e 12");
+        }
+        logger.info("=== CONSUMINDO DESPESA DETALHADA ANO " + ano + " MÊS " + mes + " ===");
+        DespesaDetalhadaDTO mapper = criarMapperParaMesAno(mes, ano);
+        List<DespesaDetalhadaDTO> resultado = consumoApiService.consumirPersistir(mapper);
+        logger.info("Ano " + ano + " Mês " + mes + " processado: " + (resultado != null ? resultado.size() : 0) + " registros");
+        return resultado;
+    }
+
+    public Map<String, Object> consumirAnoInteiro(int ano) {
+        long startTime = System.currentTimeMillis();
+        List<DespesaDetalhadaDTO> lista = consumirTodosMesesAno(ano);
+        long executionTimeMs = System.currentTimeMillis() - startTime;
+        int total = lista != null ? lista.size() : 0;
+        Map<String, Object> result = new LinkedHashMap<>();
+        result.put("status", "SUCCESS");
+        result.put("recordsProcessed", total);
+        result.put("ano", ano);
+        result.put("executionTimeMs", executionTimeMs);
+        result.put("message", "Execução concluída. " + total + " registros processados.");
+        return result;
+    }
+
     /**
      * Cria um mapper configurado para um mês específico (ano atual)
      */

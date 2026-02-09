@@ -1,6 +1,8 @@
 package br.gov.se.setc.consumer.service;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -69,14 +71,76 @@ public class PrevisaoRealizacaoReceitaMultiMesService {
         logger.info("Total consolidado: " + resultadoConsolidado.size() + " registros");
         return resultadoConsolidado;
     }
-    /**
-     * Cria um mapper configurado para um mês específico
-     */
     private PrevisaoRealizacaoReceitaDTO criarMapperParaMes(int mes) {
         PrevisaoRealizacaoReceitaDTO mapper = new PrevisaoRealizacaoReceitaDTO();
         mapper.setNuMesFiltro(mes);
         logger.info("Mapper configurado para mês " + mes);
         return mapper;
+    }
+
+    private PrevisaoRealizacaoReceitaDTO criarMapperParaAnoEMes(int ano, int mes) {
+        PrevisaoRealizacaoReceitaDTO mapper = new PrevisaoRealizacaoReceitaDTO();
+        mapper.setDtAnoExercicioCTBFiltro(ano);
+        mapper.setNuMesFiltro(mes);
+        return mapper;
+    }
+
+    public Map<String, Object> consumirAnoInteiro(int ano) {
+        if (ano < 2000 || ano > 2030) {
+            throw new IllegalArgumentException("Ano deve estar entre 2000 e 2030");
+        }
+        logger.info("=== INICIANDO CONSUMO PREVISÃO REALIZAÇÃO RECEITA - ANO INTEIRO " + ano + " ===");
+        List<PrevisaoRealizacaoReceitaDTO> resultadoConsolidado = new ArrayList<>();
+        long startTime = System.currentTimeMillis();
+        simpleLogger.consumptionStart("PREVISAO_REALIZACAO_RECEITA", "Consumindo Previsão Realização Receita para todos os 12 meses do ano " + ano);
+        for (int mes = 1; mes <= 12; mes++) {
+            simpleLogger.consumptionProgress("PREVISAO_REALIZACAO_RECEITA", "Processando meses ano " + ano, mes, 12, "Mês: " + mes);
+            logger.info("=== PROCESSANDO ANO " + ano + " MÊS " + mes + "/12 ===");
+            try {
+                PrevisaoRealizacaoReceitaDTO mapper = criarMapperParaAnoEMes(ano, mes);
+                List<PrevisaoRealizacaoReceitaDTO> resultadoMes = consumoApiService.consumirPersistir(mapper);
+                if (resultadoMes != null && !resultadoMes.isEmpty()) {
+                    resultadoConsolidado.addAll(resultadoMes);
+                    logger.info("Ano " + ano + " Mês " + mes + ": " + resultadoMes.size() + " registros processados");
+                } else {
+                    logger.info("Ano " + ano + " Mês " + mes + ": 0 registros encontrados");
+                }
+                if (mes < 12) {
+                    Thread.sleep(500);
+                }
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                throw new RuntimeException("Consumo interrompido: " + e.getMessage());
+            } catch (Exception e) {
+                logger.severe("Erro ao processar ano " + ano + " mês " + mes + ": " + e.getMessage());
+                throw new RuntimeException("Erro ao consumir Previsão Realização Receita para ano " + ano + " mês " + mes + ": " + e.getMessage(), e);
+            }
+        }
+        long executionTimeMs = System.currentTimeMillis() - startTime;
+        simpleLogger.consumptionEnd("PREVISAO_REALIZACAO_RECEITA",
+                resultadoConsolidado.size() + " registros processados (ano " + ano + ")",
+                executionTimeMs);
+        Map<String, Object> resumo = new HashMap<>();
+        resumo.put("status", "SUCCESS");
+        resumo.put("recordsProcessed", resultadoConsolidado.size());
+        resumo.put("ano", ano);
+        resumo.put("executionTimeMs", executionTimeMs);
+        resumo.put("message", "Execução por ano inteiro concluída. " + resultadoConsolidado.size() + " registros processados.");
+        return resumo;
+    }
+
+    public List<PrevisaoRealizacaoReceitaDTO> consumirAnoEMes(int ano, int mes) {
+        if (ano < 2000 || ano > 2030) {
+            throw new IllegalArgumentException("Ano deve estar entre 2000 e 2030");
+        }
+        if (mes < 1 || mes > 12) {
+            throw new IllegalArgumentException("Mês deve estar entre 1 e 12");
+        }
+        logger.info("=== CONSUMINDO PREVISÃO REALIZAÇÃO RECEITA - ANO " + ano + " MÊS " + mes + " ===");
+        PrevisaoRealizacaoReceitaDTO mapper = criarMapperParaAnoEMes(ano, mes);
+        List<PrevisaoRealizacaoReceitaDTO> resultado = consumoApiService.consumirPersistir(mapper);
+        logger.info("Ano " + ano + " Mês " + mes + " processado: " + (resultado != null ? resultado.size() : 0) + " registros");
+        return resultado != null ? resultado : new ArrayList<>();
     }
     /**
      * Método de conveniência para execução manual
