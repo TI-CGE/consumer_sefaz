@@ -1,7 +1,10 @@
 package br.gov.se.setc.consumer.repository;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -66,31 +69,31 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         String sql;
         if ("consumer_sefaz.despesa_detalhada".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("dt_ano_exercicio_ctb", "nu_mes", "cd_orgao", "cd_unid_orc", "cd_natureza_despesa", "cd_ppa_acao", "cd_sub_acao"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "nu_mes", "cd_orgao", "cd_unid_orc", "cd_natureza_despesa", "cd_ppa_acao", "cd_sub_acao"));
         } else if ("consumer_sefaz.previsao_realizacao_receita".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("cd_unidade_gestora", "dt_ano_exercicio_ctb", "nu_mes", "cd_categoria_economica", "cd_origem", "cd_especie", "cd_desdobramento", "cd_tipo"));
+                    Arrays.asList("cd_unidade_gestora", "dt_ano_exercicio_ctb", "nu_mes", "cd_categoria_economica", "cd_origem", "cd_especie", "cd_desdobramento", "cd_tipo"));
         } else if ("consumer_sefaz.empenho".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
         } else if ("consumer_sefaz.pagamento".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_ob"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_ob"));
         } else if ("consumer_sefaz.liquidacao".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_liquidacao"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_liquidacao"));
         } else if ("consumer_sefaz.restos_a_pagar".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
         } else if ("consumer_sefaz.contrato_empenho".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("cd_solicitacao_compra", "ug_cd", "dt_ano_exercicio"));
+                    Arrays.asList("cd_solicitacao_compra", "ug_cd", "dt_ano_exercicio"));
         } else if ("consumer_sefaz.ordem_fornecimento".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("cd_unidade_gestora", "cd_gestao", "dt_ano_exercicio_emp", "sq_empenho", "sq_ordem_fornecimento"));
+                    Arrays.asList("cd_unidade_gestora", "cd_gestao", "dt_ano_exercicio_emp", "sq_empenho", "sq_ordem_fornecimento"));
         } else if ("consumer_sefaz.receita".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    java.util.Set.of("cd_convenio"));
+                    Arrays.asList("cd_convenio"));
         } else {
             sql = "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ")";
         }
@@ -102,11 +105,12 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
         jdbcTemplate.batchUpdate(sql, batchArgs);
     }
 
-    private String buildUpsertSql(String tableName, String columns, java.util.Set<String> columnSet, java.util.Set<String> conflictColumnSet) {
+    private String buildUpsertSql(String tableName, String columns, Set<String> columnSet, List<String> conflictColumnsOrdered) {
         String placeholders = columnSet.stream().map(k -> "?").collect(Collectors.joining(", "));
-        String conflictColumns = String.join(", ", conflictColumnSet);
+        String conflictColumns = String.join(", ", conflictColumnsOrdered);
+        Set<String> conflictSet = new LinkedHashSet<>(conflictColumnsOrdered);
         List<String> updateSet = columnSet.stream()
-                .filter(c -> !conflictColumnSet.contains(c))
+                .filter(c -> !conflictSet.contains(c))
                 .map(c -> c + " = EXCLUDED." + c)
                 .collect(Collectors.toList());
         String updateClause = String.join(", ", updateSet);
