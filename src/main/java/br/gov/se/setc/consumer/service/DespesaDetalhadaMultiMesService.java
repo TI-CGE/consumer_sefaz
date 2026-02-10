@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -152,6 +153,66 @@ public class DespesaDetalhadaMultiMesService {
         result.put("executionTimeMs", executionTimeMs);
         result.put("message", "Execução concluída. " + total + " registros processados.");
         return result;
+    }
+
+    public Map<String, Object> consumirAnoInteiro(int ano, String cdUnidadeGestora) {
+        if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+            throw new IllegalArgumentException("cdUnidadeGestora é obrigatório");
+        }
+        List<String> ugFiltro = Collections.singletonList(cdUnidadeGestora.trim());
+        logger.info("=== INICIANDO CONSUMO DESPESA DETALHADA - ANO " + ano + " UG " + cdUnidadeGestora + " ===");
+        List<DespesaDetalhadaDTO> resultadoConsolidado = new ArrayList<>();
+        long startTime = System.currentTimeMillis();
+        simpleLogger.consumptionStart("DESPESA_DETALHADA", "Consumindo Despesa Detalhada ano " + ano + " UG " + cdUnidadeGestora);
+        for (int mes = 1; mes <= 12; mes++) {
+            simpleLogger.consumptionProgress("DESPESA_DETALHADA", "Processando meses ano " + ano, mes, 12, "Mês: " + mes);
+            logger.info("=== PROCESSANDO ANO " + ano + " MÊS " + mes + "/12 UG " + cdUnidadeGestora + " ===");
+            try {
+                DespesaDetalhadaDTO mapper = criarMapperParaMesAno(mes, ano);
+                List<DespesaDetalhadaDTO> resultadoMes = consumoApiService.consumirPersistir(mapper, ugFiltro);
+                if (resultadoMes != null && !resultadoMes.isEmpty()) {
+                    resultadoConsolidado.addAll(resultadoMes);
+                    logger.info("Ano " + ano + " Mês " + mes + ": " + resultadoMes.size() + " registros processados");
+                } else {
+                    logger.info("Ano " + ano + " Mês " + mes + ": 0 registros encontrados");
+                }
+                if (mes < 12) {
+                    Thread.sleep(500);
+                }
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                throw new RuntimeException("Consumo interrompido: " + e.getMessage());
+            } catch (Exception e) {
+                logger.severe("Erro ao processar ano " + ano + " mês " + mes + ": " + e.getMessage());
+                throw new RuntimeException("Erro ao consumir Despesa Detalhada para ano " + ano + " mês " + mes + ": " + e.getMessage(), e);
+            }
+        }
+        long executionTimeMs = System.currentTimeMillis() - startTime;
+        simpleLogger.consumptionEnd("DESPESA_DETALHADA",
+                resultadoConsolidado.size() + " registros processados (ano " + ano + " UG " + cdUnidadeGestora + ")",
+                executionTimeMs);
+        Map<String, Object> resumo = new LinkedHashMap<>();
+        resumo.put("status", "SUCCESS");
+        resumo.put("recordsProcessed", resultadoConsolidado.size());
+        resumo.put("ano", ano);
+        resumo.put("cdUnidadeGestora", cdUnidadeGestora);
+        resumo.put("executionTimeMs", executionTimeMs);
+        resumo.put("message", "Execução por ano inteiro concluída. " + resultadoConsolidado.size() + " registros processados.");
+        return resumo;
+    }
+
+    public List<DespesaDetalhadaDTO> consumirAnoEMes(int ano, int mes, String cdUnidadeGestora) {
+        if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+            throw new IllegalArgumentException("cdUnidadeGestora é obrigatório");
+        }
+        if (mes < 1 || mes > 12) {
+            throw new IllegalArgumentException("Mês deve estar entre 1 e 12");
+        }
+        logger.info("=== CONSUMINDO DESPESA DETALHADA ANO " + ano + " MÊS " + mes + " UG " + cdUnidadeGestora + " ===");
+        DespesaDetalhadaDTO mapper = criarMapperParaMesAno(mes, ano);
+        List<DespesaDetalhadaDTO> resultado = consumoApiService.consumirPersistir(mapper, Collections.singletonList(cdUnidadeGestora.trim()));
+        logger.info("Ano " + ano + " Mês " + mes + " UG " + cdUnidadeGestora + " processado: " + (resultado != null ? resultado.size() : 0) + " registros");
+        return resultado != null ? resultado : new ArrayList<>();
     }
 
     /**

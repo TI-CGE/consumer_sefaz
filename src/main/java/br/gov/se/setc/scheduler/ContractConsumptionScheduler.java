@@ -36,12 +36,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
-/**
- * Scheduler para execução automática do consumo de contratos
- */
+
 @Component
 public class ContractConsumptionScheduler {
     private static final Logger logger = LoggerFactory.getLogger(ContractConsumptionScheduler.class);
+    @Autowired
+    private ReceitaConvenioExecutionLock receitaConvenioExecutionLock;
     @Autowired
     @Qualifier("contratosFiscaisConsumoApiService")
     private ConsumoApiService<ContratosFiscaisDTO> contratosFiscaisService;
@@ -264,26 +264,37 @@ public class ContractConsumptionScheduler {
             logger.info("=== INICIANDO CONSUMO DE RECEITA (CONVÊNIO) ===");
             markdownSection.progress("Processando Receita (Convênio)...");
             try {
-                long receitaStartTime = System.currentTimeMillis();
-                ReceitaDTO receitaDto = new ReceitaDTO();
-                List<ReceitaDTO> receitaResults = receitaConsumoApiService.consumirPersistir(receitaDto);
-                int receitaCount = receitaResults != null ? receitaResults.size() : 0;
-                processingResults.put("Receita", receitaCount);
-                totalRecordsProcessed += receitaCount;
-                long receitaDuration = System.currentTimeMillis() - receitaStartTime;
-                if (receitaResults == null) {
-                    logger.warn("Receita (Convênio): serviço retornou null. Possíveis causas: falha na chamada à API, timeout ou resposta inesperada.");
-                    markdownSection.warning("Receita (Convênio): retorno null do serviço")
-                              .info("Possíveis causas: falha na chamada à API, timeout ou resposta inesperada.");
-                } else if (receitaCount == 0) {
-                    logger.info("Receita (Convênio): API respondida com sucesso, porém nenhum registro retornado. Possíveis causas: não há dados de receita de convênio para o período/UG consultados, ou a API retornou lista vazia.");
-                    markdownSection.info("Receita (Convênio): 0 registros retornados pela API (execução OK)")
-                              .info("Possíveis causas: não há dados para o período/UG ou resposta vazia da API.");
+                if (!receitaConvenioExecutionLock.tryStart()) {
+                    logger.warn("Receita (Convênio): já em execução em outro fluxo, pulando nesta rodada.");
+                    processingResults.put("Receita", 0);
+                    markdownSection.warning("Receita (Convênio) já em execução, etapa pulada.");
                 } else {
-                    logger.info("Receita (Convênio): dados recebidos com sucesso. Registros processados: {} em {} ms", receitaCount, receitaDuration);
-                    markdownSection.success(receitaCount + " registros de Receita (Convênio) processados", receitaDuration);
+                    try {
+                        long receitaStartTime = System.currentTimeMillis();
+                        ReceitaDTO receitaDto = new ReceitaDTO();
+                        List<ReceitaDTO> receitaResults = receitaConsumoApiService.consumirPersistir(receitaDto);
+                        int receitaCount = receitaResults != null ? receitaResults.size() : 0;
+                        processingResults.put("Receita", receitaCount);
+                        totalRecordsProcessed += receitaCount;
+                        long receitaDuration = System.currentTimeMillis() - receitaStartTime;
+                        if (receitaResults == null) {
+                            logger.warn("Receita (Convênio): serviço retornou null. Possíveis causas: falha na chamada à API, timeout ou resposta inesperada.");
+                            markdownSection.warning("Receita (Convênio): retorno null do serviço")
+                                      .info("Possíveis causas: falha na chamada à API, timeout ou resposta inesperada.");
+                        } else if (receitaCount == 0) {
+                            logger.info("Receita (Convênio): API respondida com sucesso, porém nenhum registro retornado. Possíveis causas: não há dados de receita de convênio para o período/UG consultados, ou a API retornou lista vazia.");
+                            markdownSection.info("Receita (Convênio): 0 registros retornados pela API (execução OK)")
+                                      .info("Possíveis causas: não há dados para o período/UG ou resposta vazia da API.");
+                        } else {
+                            logger.info("Receita (Convênio): dados recebidos com sucesso. Registros processados: {} em {} ms", receitaCount, receitaDuration);
+                            markdownSection.success(receitaCount + " registros de Receita (Convênio) processados", receitaDuration);
+                        }
+                    } finally {
+                        receitaConvenioExecutionLock.finish();
+                    }
                 }
             } catch (Exception e) {
+                receitaConvenioExecutionLock.finish();
                 logger.error("Receita (Convênio): erro ao consumir. Motivo: {}", e.getMessage(), e);
                 processingResults.put("Receita", 0);
                 markdownSection.error("Falha no processamento de Receita (Convênio): " + e.getMessage());
@@ -1183,7 +1194,11 @@ public class ContractConsumptionScheduler {
         }
     }
     @LogOperation(operation = "SCHEDULED_RECEITA_CONVENIO_CONSUMPTION", component = "SCHEDULER", slowOperationThresholdMs = 30000)
-    private void executeReceitaOnly() {
+    private boolean executeReceitaOnly() {
+        if (!receitaConvenioExecutionLock.tryStart()) {
+            logger.warn("Receita (Convênio): consumo já em andamento, ignorando nova solicitação.");
+            return false;
+        }
         String correlationId = MDCUtil.generateAndSetCorrelationId();
         MDCUtil.setupOperationContext("SCHEDULER", "RECEITA_CONVENIO_ONLY_CONSUMPTION");
         long totalStartTime = System.currentTimeMillis();
@@ -1229,6 +1244,7 @@ public class ContractConsumptionScheduler {
             unifiedLogger.logOperationSuccess("SCHEDULER", "RECEITA_CONVENIO_ONLY_CONSUMPTION", totalExecutionTime, totalRecordsProcessed, "ENDPOINT", "CONVENIO_RECEITA");
             markdownSection.logWithSummary(totalRecordsProcessed);
             logger.info("=== EXECUÇÃO ISOLADA DE RECEITA (CONVÊNIO) CONCLUÍDA === Total processado: {}", totalRecordsProcessed);
+            return true;
         } catch (Exception e) {
             long totalExecutionTime = System.currentTimeMillis() - totalStartTime;
             logger.error("Receita (Convênio): erro durante execução. Motivo: {}", e.getMessage(), e);
@@ -1237,7 +1253,9 @@ public class ContractConsumptionScheduler {
             markdownSection.error("Falha no processamento de Receita (Convênio): " + e.getMessage())
                           .summary("Execução interrompida por erro")
                           .log();
+            return true;
         } finally {
+            receitaConvenioExecutionLock.finish();
             MDCUtil.clear();
         }
     }
@@ -1690,7 +1708,13 @@ public class ContractConsumptionScheduler {
         long startTime = System.currentTimeMillis();
         Map<String, Object> result = new HashMap<>();
         try {
-            executeReceitaOnly();
+            boolean executed = executeReceitaOnly();
+            if (!executed) {
+                result.put("status", "ALREADY_RUNNING");
+                result.put("message", "Consumo de Receita (Convênio) já está em andamento. Solicitação ignorada.");
+                result.put("executionTimeMs", System.currentTimeMillis() - startTime);
+                return result;
+            }
             result.put("status", "SUCCESS");
             result.put("message", "Execução manual de Receita (Convênio) concluída com sucesso");
             result.put("executionTimeMs", System.currentTimeMillis() - startTime);

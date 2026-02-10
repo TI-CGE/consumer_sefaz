@@ -177,6 +177,32 @@ public class SchedulerController {
         manualExecutionMap.put("despesaDetalhadaOnly", "POST /scheduler/execute/despesa-detalhada");
         manualExecutionMap.put("despesaDetalhadaPorAno", "POST /scheduler/execute/despesa-detalhada/por-ano/{ano}");
         manualExecutionMap.put("despesaDetalhadaPorPeriodo", "POST /scheduler/execute/despesa-detalhada/por-periodo?ano={ano}&mes={mes}");
+        manualExecutionMap.put("despesaConvenioPorAnoUg", "POST /scheduler/execute/convenio/despesa/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("despesaConvenioPorPeriodoUg", "POST /scheduler/execute/convenio/despesa/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("receitaConvenioPorAnoUg", "POST /scheduler/execute/convenio/receita/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("receitaConvenioPorPeriodoUg", "POST /scheduler/execute/convenio/receita/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("previsaoRealizacaoReceitaPorAnoUg", "POST /scheduler/execute/previsao-realizacao-receita/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("previsaoRealizacaoReceitaPorPeriodoUg", "POST /scheduler/execute/previsao-realizacao-receita/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("despesaDetalhadaPorAnoUg", "POST /scheduler/execute/despesa-detalhada/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("despesaDetalhadaPorPeriodoUg", "POST /scheduler/execute/despesa-detalhada/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("pagamentoPorAnoUg", "POST /scheduler/execute/pagamento/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("pagamentoPorPeriodoUg", "POST /scheduler/execute/pagamento/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("liquidacaoPorAnoUg", "POST /scheduler/execute/liquidacao/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("liquidacaoPorPeriodoUg", "POST /scheduler/execute/liquidacao/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("empenhoPorAnoUg", "POST /scheduler/execute/empenho/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("empenhoPorPeriodoUg", "POST /scheduler/execute/empenho/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("consultaGerencialPorAnoUg", "POST /scheduler/execute/consulta-gerencial/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("consultaGerencialPorPeriodoUg", "POST /scheduler/execute/consulta-gerencial/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("restosAPagarPorAnoUg", "POST /scheduler/execute/restos-a-pagar/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("ordemFornecimentoPorAnoUg", "POST /scheduler/execute/ordem-fornecimento/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("ordemFornecimentoPorPeriodoUg", "POST /scheduler/execute/ordem-fornecimento/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
+        manualExecutionMap.put("totalizadoresExecucaoPorAnoUg", "POST /scheduler/execute/totalizadores-execucao/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("baseDespesaCredorPorAnoUg", "POST /scheduler/execute/base-despesa-credor/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("baseDespesaLicitacaoPorAnoUg", "POST /scheduler/execute/base-despesa-licitacao/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("contratoPorAnoUg", "POST /scheduler/execute/contrato/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("contratoEmpenhoPorAnoUg", "POST /scheduler/execute/contrato-empenho/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("contratosFiscaisPorAnoUg", "POST /scheduler/execute/contratos-fiscais/por-ano/{ano}/ug/{cdUnidadeGestora}");
+        manualExecutionMap.put("contratosFiscaisPorPeriodoUg", "POST /scheduler/execute/contratos-fiscais/por-periodo/ug/{cdUnidadeGestora}?ano={ano}&mes={mes}");
         info.put("manualExecution", manualExecutionMap);
         info.put("endpoints", Map.of(
             "contratosFiscais", "https://api-transparencia.apps.sefaz.se.gov.br/gbp/v1/contrato-fiscais",
@@ -639,6 +665,89 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
+    @PostMapping("/execute/convenio/despesa/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Despesa Convênio por ano e UG", description = "Consumo da API convenio/despesa para o ano inteiro restrito à UG informada.")
+    @LogOperation(operation = "MANUAL_DESPESA_CONVENIO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConvenioDespesaPorAnoUg(
+            @PathVariable("ano") Integer ano,
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano inválido. Deve estar entre 2000 e 2030.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            Map<String, Object> result = despesaConvenioPorPeriodoService.consumirAnoInteiro(ano, cdUnidadeGestora.trim());
+            result.put("correlationId", correlationId);
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro na execução Despesa Convênio por ano/UG " + ano + "/" + cdUnidadeGestora, e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/convenio/despesa/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Despesa Convênio por período e UG", description = "Consumo da API convenio/despesa para ano e mês restrito à UG informada.")
+    @LogOperation(operation = "MANUAL_DESPESA_CONVENIO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConvenioDespesaPorPeriodoUg(
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora,
+            @RequestParam("ano") Integer ano,
+            @RequestParam("mes") Integer mes) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030 || mes == null || mes < 1 || mes > 12) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano (2000-2030) e mês (1-12) inválidos.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            List<DespesaConvenioDTO> resultado = despesaConvenioPorPeriodoService.consumirAnoEMes(ano, mes, cdUnidadeGestora.trim());
+            int count = resultado != null ? resultado.size() : 0;
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("recordsProcessed", count);
+            response.put("ano", ano);
+            response.put("mes", mes);
+            response.put("cdUnidadeGestora", cdUnidadeGestora);
+            response.put("correlationId", correlationId);
+            response.put("message", "Execução concluída. " + count + " registros processados.");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            logger.error("Erro na execução Despesa Convênio por período/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
     @PostMapping("/execute/convenio/receita")
     @Operation(summary = "Executar Apenas Receita (Convênio)", description = "Executa manualmente apenas o processamento da entidade Receita de Convênios (convenio/receita)")
     @LogOperation(operation = "MANUAL_RECEITA_CONVENIO_EXECUTION", component = "SCHEDULER_CONTROLLER")
@@ -648,6 +757,9 @@ public class SchedulerController {
             logger.info("Execucao manual de Receita (Convênio) solicitada via endpoint");
             Map<String, Object> result = scheduler.executeReceitaManually();
             logger.info("Execucao manual de Receita (Convênio) concluida com status: {}", result.get("status"));
+            if ("ALREADY_RUNNING".equals(result.get("status"))) {
+                return ResponseEntity.status(409).body(result);
+            }
             return ResponseEntity.ok(result);
         } catch (Exception e) {
             logger.error("Erro na execucao manual de Receita (Convênio) via endpoint", e);
@@ -683,6 +795,9 @@ public class SchedulerController {
             Map<String, Object> result = receitaPorPeriodoService.consumirAnoInteiro(ano);
             result.put("correlationId", correlationId);
             logger.info("Execução Receita (Convênio) por ano {} concluída com status: {}", ano, result.get("status"));
+            if ("ALREADY_RUNNING".equals(result.get("status"))) {
+                return ResponseEntity.status(409).body(result);
+            }
             return ResponseEntity.ok(result);
         } catch (Exception e) {
             logger.error("Erro na execução manual de Receita (Convênio) por ano " + ano, e);
@@ -735,11 +850,109 @@ public class SchedulerController {
             response.put("message", "Execução concluída. " + count + " registros processados.");
             logger.info("Execução Receita (Convênio) por período {}/{} concluída: {} registros", ano, mes, count);
             return ResponseEntity.ok(response);
+        } catch (IllegalStateException e) {
+            Map<String, Object> conflictResponse = new HashMap<>();
+            conflictResponse.put("status", "ALREADY_RUNNING");
+            conflictResponse.put("message", e.getMessage());
+            conflictResponse.put("correlationId", correlationId);
+            return ResponseEntity.status(409).body(conflictResponse);
         } catch (Exception e) {
             logger.error("Erro na execução manual de Receita (Convênio) por período ano=" + ano + " mes=" + mes, e);
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/convenio/receita/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Receita (Convênio) por ano e UG", description = "Consumo da API convenio/receita para o ano inteiro restrito à UG informada.")
+    @LogOperation(operation = "MANUAL_RECEITA_CONVENIO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConvenioReceitaPorAnoUg(
+            @PathVariable("ano") Integer ano,
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano inválido. Deve estar entre 2000 e 2030.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            Map<String, Object> result = receitaPorPeriodoService.consumirAnoInteiro(ano, cdUnidadeGestora.trim());
+            result.put("correlationId", correlationId);
+            if ("ALREADY_RUNNING".equals(result.get("status"))) {
+                return ResponseEntity.status(409).body(result);
+            }
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro na execução Receita (Convênio) por ano/UG " + ano + "/" + cdUnidadeGestora, e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/convenio/receita/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Receita (Convênio) por período e UG", description = "Consumo da API convenio/receita para ano e mês restrito à UG informada.")
+    @LogOperation(operation = "MANUAL_RECEITA_CONVENIO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConvenioReceitaPorPeriodoUg(
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora,
+            @RequestParam("ano") Integer ano,
+            @RequestParam("mes") Integer mes) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030 || mes == null || mes < 1 || mes > 12) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano (2000-2030) e mês (1-12) inválidos.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            List<ReceitaDTO> resultado = receitaPorPeriodoService.consumirAnoEMes(ano, mes, cdUnidadeGestora.trim());
+            int count = resultado != null ? resultado.size() : 0;
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("recordsProcessed", count);
+            response.put("ano", ano);
+            response.put("mes", mes);
+            response.put("cdUnidadeGestora", cdUnidadeGestora);
+            response.put("correlationId", correlationId);
+            response.put("message", "Execução concluída. " + count + " registros processados.");
+            return ResponseEntity.ok(response);
+        } catch (IllegalStateException e) {
+            Map<String, Object> conflictResponse = new HashMap<>();
+            conflictResponse.put("status", "ALREADY_RUNNING");
+            conflictResponse.put("message", e.getMessage());
+            conflictResponse.put("correlationId", correlationId);
+            return ResponseEntity.status(409).body(conflictResponse);
+        } catch (Exception e) {
+            logger.error("Erro na execução Receita (Convênio) por período/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
             return ResponseEntity.internalServerError().body(errorResponse);
@@ -960,6 +1173,75 @@ public class SchedulerController {
             MDCUtil.clear();
         }
     }
+    @PostMapping("/execute/previsao-realizacao-receita/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Previsão Realização Receita por ano e UG")
+    @LogOperation(operation = "MANUAL_PREVISAO_RECEITA_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaPorAnoUg(
+            @PathVariable("ano") Integer ano,
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty() || ano == null || ano < 2000 || ano > 2030) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório e ano deve estar entre 2000 e 2030.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            Map<String, Object> result = previsaoRealizacaoReceitaMultiMesService.consumirAnoInteiro(ano, cdUnidadeGestora.trim());
+            result.put("correlationId", correlationId);
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro Previsão Realização Receita por ano/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/previsao-realizacao-receita/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Previsão Realização Receita por período e UG")
+    @LogOperation(operation = "MANUAL_PREVISAO_RECEITA_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePrevisaoRealizacaoReceitaPorPeriodoUg(
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora,
+            @RequestParam("ano") Integer ano,
+            @RequestParam("mes") Integer mes) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty() || ano == null || ano < 2000 || ano > 2030 || mes == null || mes < 1 || mes > 12) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora, ano (2000-2030) e mês (1-12) são obrigatórios.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            List<PrevisaoRealizacaoReceitaDTO> resultado = previsaoRealizacaoReceitaMultiMesService.consumirAnoEMes(ano, mes, cdUnidadeGestora.trim());
+            int count = resultado != null ? resultado.size() : 0;
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("recordsProcessed", count);
+            response.put("ano", ano);
+            response.put("mes", mes);
+            response.put("cdUnidadeGestora", cdUnidadeGestora);
+            response.put("correlationId", correlationId);
+            response.put("message", "Execução concluída. " + count + " registros processados.");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            logger.error("Erro Previsão Realização Receita por período/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
     /**
      * Executa manualmente apenas o processamento de Despesa Detalhada
      */
@@ -1064,6 +1346,75 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/despesa-detalhada/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Despesa Detalhada por ano e UG")
+    @LogOperation(operation = "MANUAL_DESPESA_DETALHADA_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeDespesaDetalhadaPorAnoUg(
+            @PathVariable("ano") Integer ano,
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty() || ano == null || ano < 2000 || ano > 2030) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório e ano entre 2000 e 2030.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            Map<String, Object> result = despesaDetalhadaMultiMesService.consumirAnoInteiro(ano, cdUnidadeGestora.trim());
+            result.put("correlationId", correlationId);
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro Despesa Detalhada por ano/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/despesa-detalhada/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Despesa Detalhada por período e UG")
+    @LogOperation(operation = "MANUAL_DESPESA_DETALHADA_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeDespesaDetalhadaPorPeriodoUg(
+            @PathVariable("cdUnidadeGestora") String cdUnidadeGestora,
+            @RequestParam("ano") Integer ano,
+            @RequestParam("mes") Integer mes) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty() || ano == null || ano < 2000 || ano > 2030 || mes == null || mes < 1 || mes > 12) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora, ano (2000-2030) e mês (1-12) são obrigatórios.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            List<?> resultado = despesaDetalhadaMultiMesService.consumirAnoEMes(ano, mes, cdUnidadeGestora.trim());
+            int count = resultado != null ? resultado.size() : 0;
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("recordsProcessed", count);
+            response.put("ano", ano);
+            response.put("mes", mes);
+            response.put("cdUnidadeGestora", cdUnidadeGestora);
+            response.put("correlationId", correlationId);
+            response.put("message", "Execução concluída. " + count + " registros processados.");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            logger.error("Erro Despesa Detalhada por período/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
             return ResponseEntity.internalServerError().body(errorResponse);
@@ -1575,6 +1926,191 @@ public class SchedulerController {
             Map<String, Object> errorResponse = new HashMap<>();
             errorResponse.put("status", "ERROR");
             errorResponse.put("message", "Erro durante execução: " + e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @PostMapping("/execute/pagamento/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Pagamento por ano e UG")
+    @LogOperation(operation = "MANUAL_PAGAMENTO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePagamentoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, pagamentoPorPeriodoService::consumirAnoInteiro, "Pagamento");
+    }
+    @PostMapping("/execute/pagamento/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Pagamento por período e UG")
+    @LogOperation(operation = "MANUAL_PAGAMENTO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executePagamentoPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, pagamentoPorPeriodoService::consumirAnoEMes, "Pagamento");
+    }
+    @PostMapping("/execute/liquidacao/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Liquidação por ano e UG")
+    @LogOperation(operation = "MANUAL_LIQUIDACAO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeLiquidacaoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, liquidacaoPorPeriodoService::consumirAnoInteiro, "Liquidação");
+    }
+    @PostMapping("/execute/liquidacao/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Liquidação por período e UG")
+    @LogOperation(operation = "MANUAL_LIQUIDACAO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeLiquidacaoPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, liquidacaoPorPeriodoService::consumirAnoEMes, "Liquidação");
+    }
+    @PostMapping("/execute/empenho/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Empenho por ano e UG")
+    @LogOperation(operation = "MANUAL_EMPENHO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeEmpenhoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, empenhoPorPeriodoService::consumirAnoInteiro, "Empenho");
+    }
+    @PostMapping("/execute/empenho/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Empenho por período e UG")
+    @LogOperation(operation = "MANUAL_EMPENHO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeEmpenhoPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, empenhoPorPeriodoService::consumirAnoEMes, "Empenho");
+    }
+    @PostMapping("/execute/consulta-gerencial/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Consulta Gerencial por ano e UG")
+    @LogOperation(operation = "MANUAL_CONSULTA_GERENCIAL_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConsultaGerencialPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, consultaGerencialPorPeriodoService::consumirAnoInteiro, "Consulta Gerencial");
+    }
+    @PostMapping("/execute/consulta-gerencial/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Consulta Gerencial por período e UG")
+    @LogOperation(operation = "MANUAL_CONSULTA_GERENCIAL_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeConsultaGerencialPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, consultaGerencialPorPeriodoService::consumirAnoEMes, "Consulta Gerencial");
+    }
+    @PostMapping("/execute/restos-a-pagar/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Restos a Pagar por ano e UG")
+    @LogOperation(operation = "MANUAL_RESTOS_A_PAGAR_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeRestosAPagarPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, restosAPagarPorPeriodoService::consumirAnoInteiro, "Restos a Pagar");
+    }
+    @PostMapping("/execute/ordem-fornecimento/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Ordem Fornecimento por ano e UG")
+    @LogOperation(operation = "MANUAL_ORDEM_FORNECIMENTO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeOrdemFornecimentoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, ordemFornecimentoPorPeriodoService::consumirAnoInteiro, "Ordem Fornecimento");
+    }
+    @PostMapping("/execute/ordem-fornecimento/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Ordem Fornecimento por período e UG")
+    @LogOperation(operation = "MANUAL_ORDEM_FORNECIMENTO_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeOrdemFornecimentoPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, ordemFornecimentoPorPeriodoService::consumirAnoEMes, "Ordem Fornecimento");
+    }
+    @PostMapping("/execute/totalizadores-execucao/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Totalizadores Execução por ano e UG")
+    @LogOperation(operation = "MANUAL_TOTALIZADORES_EXECUCAO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeTotalizadoresExecucaoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, totalizadoresExecucaoPorPeriodoService::consumirAnoInteiro, "Totalizadores Execução");
+    }
+    @PostMapping("/execute/base-despesa-credor/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Base Despesa Credor por ano e UG")
+    @LogOperation(operation = "MANUAL_BASE_DESPESA_CREDOR_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeBaseDespesaCredorPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, baseDespesaCredorPorPeriodoService::consumirAnoInteiro, "Base Despesa Credor");
+    }
+    @PostMapping("/execute/base-despesa-licitacao/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Base Despesa Licitação por ano e UG")
+    @LogOperation(operation = "MANUAL_BASE_DESPESA_LICITACAO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeBaseDespesaLicitacaoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, baseDespesaLicitacaoPorPeriodoService::consumirAnoInteiro, "Base Despesa Licitação");
+    }
+    @PostMapping("/execute/contrato/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Contrato por ano e UG")
+    @LogOperation(operation = "MANUAL_CONTRATO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeContratoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, contratoPorPeriodoService::consumirAnoInteiro, "Contrato");
+    }
+    @PostMapping("/execute/contrato-empenho/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Contrato Empenho por ano e UG")
+    @LogOperation(operation = "MANUAL_CONTRATO_EMPENHO_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeContratoEmpenhoPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, contratoEmpenhoPorPeriodoService::consumirAnoInteiro, "Contrato Empenho");
+    }
+    @PostMapping("/execute/contratos-fiscais/por-ano/{ano}/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Contratos Fiscais por ano e UG")
+    @LogOperation(operation = "MANUAL_CONTRATOS_FISCAIS_POR_ANO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeContratosFiscaisPorAnoUg(@PathVariable("ano") Integer ano, @PathVariable("cdUnidadeGestora") String cdUnidadeGestora) {
+        return executePorAnoUg(ano, cdUnidadeGestora, contratosFiscaisPorPeriodoService::consumirAnoInteiro, "Contratos Fiscais");
+    }
+    @PostMapping("/execute/contratos-fiscais/por-periodo/ug/{cdUnidadeGestora}")
+    @Operation(summary = "Executar Contratos Fiscais por período e UG")
+    @LogOperation(operation = "MANUAL_CONTRATOS_FISCAIS_POR_PERIODO_UG", component = "SCHEDULER_CONTROLLER")
+    public ResponseEntity<Map<String, Object>> executeContratosFiscaisPorPeriodoUg(@PathVariable("cdUnidadeGestora") String cdUnidadeGestora, @RequestParam("ano") Integer ano, @RequestParam("mes") Integer mes) {
+        return executePorPeriodoUg(cdUnidadeGestora, ano, mes, contratosFiscaisPorPeriodoService::consumirAnoEMes, "Contratos Fiscais");
+    }
+    private ResponseEntity<Map<String, Object>> executePorAnoUg(Integer ano, String cdUnidadeGestora, java.util.function.BiFunction<Integer, String, Map<String, Object>> consumer, String entityName) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano inválido. Deve estar entre 2000 e 2030.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            Map<String, Object> result = consumer.apply(ano, cdUnidadeGestora.trim());
+            result.put("correlationId", correlationId);
+            return ResponseEntity.ok(result);
+        } catch (Exception e) {
+            logger.error("Erro na execução manual de " + entityName + " por ano/UG " + ano + "/" + cdUnidadeGestora, e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
+            errorResponse.put("correlationId", correlationId);
+            errorResponse.put("timestamp", System.currentTimeMillis());
+            return ResponseEntity.internalServerError().body(errorResponse);
+        } finally {
+            MDCUtil.clear();
+        }
+    }
+    @FunctionalInterface
+    private interface PorPeriodoUgConsumer {
+        List<?> apply(Integer ano, Integer mes, String cdUnidadeGestora);
+    }
+
+    private ResponseEntity<Map<String, Object>> executePorPeriodoUg(String cdUnidadeGestora, Integer ano, Integer mes, PorPeriodoUgConsumer consumer, String entityName) {
+        String correlationId = MDCUtil.generateAndSetCorrelationId();
+        try {
+            if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "cdUnidadeGestora é obrigatório.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            if (ano == null || ano < 2000 || ano > 2030 || mes == null || mes < 1 || mes > 12) {
+                Map<String, Object> badRequest = new HashMap<>();
+                badRequest.put("status", "ERROR");
+                badRequest.put("message", "Ano (2000-2030) e mês (1-12) inválidos.");
+                badRequest.put("correlationId", correlationId);
+                return ResponseEntity.badRequest().body(badRequest);
+            }
+            List<?> resultado = consumer.apply(ano, mes, cdUnidadeGestora.trim());
+            int count = resultado != null ? resultado.size() : 0;
+            Map<String, Object> response = new HashMap<>();
+            response.put("status", "SUCCESS");
+            response.put("recordsProcessed", count);
+            response.put("ano", ano);
+            response.put("mes", mes);
+            response.put("cdUnidadeGestora", cdUnidadeGestora);
+            response.put("correlationId", correlationId);
+            response.put("message", "Execução concluída. " + count + " registros processados.");
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            logger.error("Erro na execução " + entityName + " por período/UG", e);
+            Map<String, Object> errorResponse = new HashMap<>();
+            errorResponse.put("status", "ERROR");
+            errorResponse.put("message", e.getMessage());
             errorResponse.put("correlationId", correlationId);
             errorResponse.put("timestamp", System.currentTimeMillis());
             return ResponseEntity.internalServerError().body(errorResponse);

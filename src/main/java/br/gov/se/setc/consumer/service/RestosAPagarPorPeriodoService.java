@@ -1,6 +1,7 @@
 package br.gov.se.setc.consumer.service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,6 +44,33 @@ public class RestosAPagarPorPeriodoService {
         resumo.put("status", "SUCCESS");
         resumo.put("recordsProcessed", total);
         resumo.put("ano", ano);
+        resumo.put("executionTimeMs", executionTimeMs);
+        resumo.put("message", "Execução por ano concluída. " + total + " registros processados.");
+        return resumo;
+    }
+
+    public Map<String, Object> consumirAnoInteiro(int ano, String cdUnidadeGestora) {
+        if (cdUnidadeGestora == null || cdUnidadeGestora.trim().isEmpty()) {
+            throw new IllegalArgumentException("cdUnidadeGestora é obrigatório");
+        }
+        if (ano < ANO_MIN || ano > ANO_MAX) {
+            throw new IllegalArgumentException("Ano deve estar entre " + ANO_MIN + " e " + ANO_MAX);
+        }
+        logger.info("=== INICIANDO CONSUMO DE RESTOS A PAGAR - ANO " + ano + " UG " + cdUnidadeGestora + " ===");
+        long startTime = System.currentTimeMillis();
+        simpleLogger.consumptionStart("RESTOS_A_PAGAR", "Consumindo Restos a Pagar ano " + ano + " UG " + cdUnidadeGestora);
+        RestosAPagarDTO dto = new RestosAPagarDTO();
+        dto.setDtAnoExercicioCTBFiltro(ano);
+        List<RestosAPagarDTO> resultado = consumoApiService.consumirPersistir(dto, Collections.singletonList(cdUnidadeGestora.trim()));
+        long executionTimeMs = System.currentTimeMillis() - startTime;
+        int total = resultado != null ? resultado.size() : 0;
+        simpleLogger.consumptionEnd("RESTOS_A_PAGAR", total + " registros processados (ano " + ano + " UG " + cdUnidadeGestora + ")", executionTimeMs);
+        logger.info("=== CONSUMO RESTOS A PAGAR ANO " + ano + " UG " + cdUnidadeGestora + " CONCLUÍDO === Total: " + total + " registros");
+        Map<String, Object> resumo = new HashMap<>();
+        resumo.put("status", "SUCCESS");
+        resumo.put("recordsProcessed", total);
+        resumo.put("ano", ano);
+        resumo.put("cdUnidadeGestora", cdUnidadeGestora);
         resumo.put("executionTimeMs", executionTimeMs);
         resumo.put("message", "Execução por ano concluída. " + total + " registros processados.");
         return resumo;

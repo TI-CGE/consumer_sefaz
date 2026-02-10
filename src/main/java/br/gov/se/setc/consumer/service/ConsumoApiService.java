@@ -79,6 +79,11 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
     @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
     public List<T> consumirPersistir(T mapper) {
+        return consumirPersistir(mapper, null);
+    }
+
+    @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
+    public List<T> consumirPersistir(T mapper, List<String> ugFiltro) {
         String operation = "CONSUMIR_PERSISTIR";
         String endpoint = mapper != null ? mapper.getUrl() : "UNKNOWN";
         MDCUtil.setupOperationContext("CONTRACT_CONSUMER", operation);
@@ -128,22 +133,23 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     }
                 }
             } else {
+                List<String> ugsToProcess = (ugFiltro != null && !ugFiltro.isEmpty()) ? ugFiltro : ugCdArray;
                 boolean hasDataInDatabase = utilsService.isPresenteBanco(mapper);
                 String entityName = mapper.getTabelaBanco().substring(mapper.getTabelaBanco().lastIndexOf('.') + 1);
                 logger.info("=== PROCESSAMENTO DE " + entityName.toUpperCase() + " ===");
-                logger.info("Total de UGs a processar: " + ugCdArray.size());
+                logger.info("Total de UGs a processar: " + ugsToProcess.size());
                 logger.info("Dados existentes no banco: " + (hasDataInDatabase ? "SIM" : "NÃO"));
-                userFriendlyLogger.logInfo("Processando " + ugCdArray.size() + " Unidades Gestoras...");
+                userFriendlyLogger.logInfo("Processando " + ugsToProcess.size() + " Unidades Gestoras...");
                 if (mapper instanceof EmpenhoMensalDTO empenhoMensal
                         && empenhoMensal.getNuMesFiltro() != null
                         && empenhoMensal.getDtAnoExercicioFiltro() != null) {
                     logger.info("Modo: PERÍODO ESPECÍFICO - mês " + empenhoMensal.getNuMesFiltro() + " ano " + empenhoMensal.getDtAnoExercicioFiltro());
                     int ugProcessed = 0;
-                    for (String ugCd : ugCdArray) {
+                    for (String ugCd : ugsToProcess) {
                         ugProcessed++;
                         MDCUtil.setUgCode(ugCd);
                         simpleLogger.consumptionProgress(dataType, "Processando UGs (período específico)", ugProcessed,
-                                ugCdArray.size(), "UG: " + ugCd);
+                                ugsToProcess.size(), "UG: " + ugCd);
                         List<T> result = pegarDadosMesAnoEspecifico(ugCd, mapper);
                         if (result != null) {
                             resultList.addAll(result);
@@ -168,15 +174,15 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     logger.info("Modo: TODOS OS ANOS (2020-2025) - Carga inicial completa");
                     userFriendlyLogger.logInfo("Modo: Carga inicial completa (todos os anos)");
                     int ugProcessed = 0;
-                    for (String ugCd : ugCdArray) {
+                    for (String ugCd : ugsToProcess) {
                         ugProcessed++;
                         MDCUtil.setUgCode(ugCd);
                         simpleLogger.consumptionProgress(dataType, "Processando UGs (carga completa)", ugProcessed,
-                                ugCdArray.size(),
+                                ugsToProcess.size(),
                                 "UG: " + ugCd);
-                        logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        logger.info("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
                         userFriendlyLogger
-                                .logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                                .logInfo("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
                         List<T> result = pegarDeTodosAnos(ugCd, mapper);
                         if (result != null) {
                             resultList.addAll(result);
@@ -256,14 +262,14 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                                 .logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
                     }
                     int ugProcessed = 0;
-                    for (String ugCd : ugCdArray) {
+                    for (String ugCd : ugsToProcess) {
                         ugProcessed++;
                         MDCUtil.setUgCode(ugCd);
-                        simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugCdArray.size(),
+                        simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugsToProcess.size(),
                                 "UG: " + ugCd);
-                        logger.info("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                        logger.info("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
                         userFriendlyLogger
-                                .logInfo("Processando UG " + ugProcessed + "/" + ugCdArray.size() + ": " + ugCd);
+                                .logInfo("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
                         List<T> result = pegarDadosMesAnoVigente(ugCd, mapper);
                         if (result != null) {
                             resultList.addAll(result);
@@ -283,7 +289,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 if (utilsService.isEndpointIdependenteUGData(mapper)) {
                     errorMessage += " (dados independentes de UG)";
                 } else {
-                    errorMessage += " (processando " + ugCdArray.size() + " UGs)";
+                    List<String> ugsForMessage = (ugFiltro != null && !ugFiltro.isEmpty()) ? ugFiltro : ugCdArray;
+                    errorMessage += " (processando " + ugsForMessage.size() + " UGs)";
                 }
                 logger.warn(errorMessage
                         + " - Isso pode ser normal se não houver dados para o período consultado ou se a API estiver temporariamente indisponível.");
