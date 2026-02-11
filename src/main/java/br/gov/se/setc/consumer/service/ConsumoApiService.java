@@ -1105,6 +1105,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             return "pagamentos";
         } else if (tableName.contains("ordem_fornecimento")) {
             return "ordens de fornecimento";
+        } else if (tableName.contains("previsao_realizacao_receita")) {
+            return "PREVISAO_REALIZACAO_RECEITA";
         } else if (tableName.contains("receita")) {
             return "receitas";
         } else if (tableName.contains("contratos_fiscais")) {

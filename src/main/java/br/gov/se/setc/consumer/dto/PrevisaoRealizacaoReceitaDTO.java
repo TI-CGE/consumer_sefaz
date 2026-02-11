@@ -58,21 +58,21 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
     }
     @Override
     public void mapearCamposResposta() {
-        camposResposta.put("cd_unidade_gestora", cdUnidadeGestora);
+        camposResposta.put("cd_unidade_gestora", cdUnidadeGestora != null ? cdUnidadeGestora : "");
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);
         Integer mesParaSalvar = nuMes != null ? nuMes : nuMesFiltro;
         if (mesParaSalvar == null) mesParaSalvar = 12;
         camposResposta.put("nu_mes", mesParaSalvar);
-        camposResposta.put("cd_categoria_economica", cdCategoriaEconomica);
-        camposResposta.put("nm_categoria_economica", nmCategoriaEconomica);
-        camposResposta.put("cd_origem", cdOrigem);
-        camposResposta.put("nm_origem", nmOrigem);
-        camposResposta.put("cd_especie", cdEspecie);
-        camposResposta.put("nm_especie", nmEspecie);
-        camposResposta.put("cd_desdobramento", cdDesdobramento);
-        camposResposta.put("nm_desdobramento", nmDesdobramento);
-        camposResposta.put("cd_tipo", cdTipo);
-        camposResposta.put("nm_tipo", nmTipo);
+        camposResposta.put("cd_categoria_economica", cdCategoriaEconomica != null ? cdCategoriaEconomica : "");
+        camposResposta.put("nm_categoria_economica", nmCategoriaEconomica != null ? nmCategoriaEconomica : "");
+        camposResposta.put("cd_origem", cdOrigem != null ? cdOrigem : "");
+        camposResposta.put("nm_origem", nmOrigem != null ? nmOrigem : "");
+        camposResposta.put("cd_especie", cdEspecie != null ? cdEspecie : "");
+        camposResposta.put("nm_especie", nmEspecie != null ? nmEspecie : "");
+        camposResposta.put("cd_desdobramento", cdDesdobramento != null ? cdDesdobramento : "");
+        camposResposta.put("nm_desdobramento", nmDesdobramento != null ? nmDesdobramento : "");
+        camposResposta.put("cd_tipo", cdTipo != null ? cdTipo : "");
+        camposResposta.put("nm_tipo", nmTipo != null ? nmTipo : "");
         camposResposta.put("vl_previsto", vlPrevisto);
         camposResposta.put("vl_atualizado", vlAtualizado);
         camposResposta.put("vl_realizado", vlRealizado);
