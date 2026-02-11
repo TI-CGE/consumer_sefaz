@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <springProfile name="!prod">
         <property name="LOG_PATH" value="./logs"/>
@@ -8,6 +8,7 @@
     </springProfile>
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
+            <charset>UTF-8</charset>
             <pattern>%msg%n</pattern>
         </encoder>
     </appender>
@@ -75,7 +76,6 @@
     <logger name="SIMPLE" level="INFO" additivity="false">
         <appender-ref ref="SIMPLE_FILE"/>
         <appender-ref ref="ERROR_FILE"/>
-        <appender-ref ref="CONSOLE"/>
     </logger>
     <logger name="MARKDOWN" level="INFO" additivity="false">
         <appender-ref ref="MARKDOWN_FILE"/>

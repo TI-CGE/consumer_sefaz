@@ -63,6 +63,8 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     private String tpViagemSolicitacaoDiaria;
     @JsonProperty("nmCargo")
     private String nmCargo;
+    @JsonProperty("cdSituacaoSolicitacao")
+    private Integer cdSituacaoSolicitacao;
     private LocalDate dtSaidaSolicitacaoDiaria;
     private LocalDate dtRetornoSolicitacaoDiaria;
     private BigDecimal vlTotalSolicitacaoDiaria;
@@ -114,6 +116,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
         camposResposta.put("tp_transporte_viagem_solicitacao_diaria", tpTransporteViagemSolicitacaoDiaria);
         camposResposta.put("tp_viagem_solicitacao_diaria", tpViagemSolicitacaoDiaria);
         camposResposta.put("nm_cargo", nmCargo);
+        camposResposta.put("cd_situacao_solicitacao", cdSituacaoSolicitacao);
     }
     @Override
     protected void mapearParametros() {
@@ -398,6 +401,12 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
     public void setNmCargo(String nmCargo) {
         this.nmCargo = nmCargo;
+    }
+    public Integer getCdSituacaoSolicitacao() {
+        return cdSituacaoSolicitacao;
+    }
+    public void setCdSituacaoSolicitacao(Integer cdSituacaoSolicitacao) {
+        this.cdSituacaoSolicitacao = cdSituacaoSolicitacao;
     }
     @JsonIgnore
     public LocalDate getDtSaidaSolicitacaoDiaria() {

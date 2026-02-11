@@ -41,7 +41,7 @@ public class ConsultaGerencialPorPeriodoService {
                 ConsultaGerencialDTO dto = new ConsultaGerencialDTO();
                 dto.setDtAnoExercicioCTBFiltro(ano);
                 dto.setNuMesFiltro(mes);
-                List<ConsultaGerencialDTO> resultadoMes = consumoApiService.consumirPersistir(dto);
+                List<ConsultaGerencialDTO> resultadoMes = consumoApiService.consumirPersistir(dto, null, true);
                 if (resultadoMes != null && !resultadoMes.isEmpty()) {
                     resultadoConsolidado.addAll(resultadoMes);
                     logger.info("Ano " + ano + " Mês " + mes + ": " + resultadoMes.size() + " registros processados");
@@ -92,7 +92,7 @@ public class ConsultaGerencialPorPeriodoService {
                 ConsultaGerencialDTO dto = new ConsultaGerencialDTO();
                 dto.setDtAnoExercicioCTBFiltro(ano);
                 dto.setNuMesFiltro(mes);
-                List<ConsultaGerencialDTO> resultadoMes = consumoApiService.consumirPersistir(dto, ugFiltro);
+                List<ConsultaGerencialDTO> resultadoMes = consumoApiService.consumirPersistir(dto, ugFiltro, true);
                 if (resultadoMes != null && !resultadoMes.isEmpty()) {
                     resultadoConsolidado.addAll(resultadoMes);
                     logger.info("Ano " + ano + " Mês " + mes + ": " + resultadoMes.size() + " registros processados");

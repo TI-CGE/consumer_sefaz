@@ -79,17 +79,28 @@ public class ConsumoApiService<T extends EndpontSefaz> {
 
     @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
     public List<T> consumirPersistir(T mapper) {
-        return consumirPersistir(mapper, null);
+        return consumirPersistir(mapper, null, false);
     }
 
     @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
     public List<T> consumirPersistir(T mapper, List<String> ugFiltro) {
+        return consumirPersistir(mapper, ugFiltro, false);
+    }
+
+    @LogOperation(operation = "CONSUMIR_PERSISTIR", component = "CONTRACT_CONSUMER", slowOperationThresholdMs = 10000)
+    public List<T> consumirPersistir(T mapper, List<String> ugFiltro, boolean quietBanners) {
         String operation = "CONSUMIR_PERSISTIR";
         String endpoint = mapper != null ? mapper.getUrl() : "UNKNOWN";
         MDCUtil.setupOperationContext("CONTRACT_CONSUMER", operation);
         String dataType = getDataTypeFromMapper(mapper);
+        String periodInfo = buildPeriodInfo(mapper);
         boolean isUnidadeGestora = mapper.getTabelaBanco().contains("unidade_gestora");
-        simpleLogger.consumptionStart(dataType, "Iniciando consumo de dados da API SEFAZ");
+        String startDesc = "Iniciando consumo de dados da API SEFAZ" + (periodInfo != null && !periodInfo.isEmpty() ? " - " + periodInfo : "");
+        if (quietBanners) {
+            simpleLogger.consumptionStartQuiet(dataType, startDesc);
+        } else {
+            simpleLogger.consumptionStart(dataType, startDesc);
+        }
         userFriendlyLogger.logDataFetchStart(dataType);
         unifiedLogger.logOperationStart("CONTRACT_CONSUMER", operation, "ENDPOINT", endpoint);
         MarkdownLogger.MarkdownSection markdownSection = markdownLogger
@@ -262,11 +273,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                                 .logInfo("Modo: Atualização incremental do ano atual (" + utilsService.getAnoAtual() + ")");
                     }
                     int ugProcessed = 0;
+                    String progressDetailSuffix = (periodInfo != null && !periodInfo.isEmpty() ? " | " + periodInfo : "");
                     for (String ugCd : ugsToProcess) {
                         ugProcessed++;
                         MDCUtil.setUgCode(ugCd);
                         simpleLogger.consumptionProgress(dataType, "Processando UGs", ugProcessed, ugsToProcess.size(),
-                                "UG: " + ugCd);
+                                "UG: " + ugCd + progressDetailSuffix);
                         logger.info("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
                         userFriendlyLogger
                                 .logInfo("Processando UG " + ugProcessed + "/" + ugsToProcess.size() + ": " + ugCd);
@@ -323,7 +335,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
             userFriendlyLogger.logOperationComplete(totalTime);
             unifiedLogger.logOperationSuccess("CONTRACT_CONSUMER", operation, totalTime, totalRecordsProcessed,
                     "ENDPOINT", endpoint);
-            simpleLogger.consumptionEnd(dataType, totalRecordsProcessed + " registros processados", totalTime);
+            String endResult = totalRecordsProcessed + " registros processados" + (periodInfo != null && !periodInfo.isEmpty() ? " (" + periodInfo + ")" : "");
+            if (quietBanners) {
+                simpleLogger.consumptionEndQuiet(dataType, endResult, totalTime);
+            } else {
+                simpleLogger.consumptionEnd(dataType, endResult, totalTime);
+            }
             markdownSection.info("📊 Estatísticas:")
                     .info("  • Registros processados: " + totalRecordsProcessed)
                     .info("  • Tempo de persistência: " + persistTime + "ms")
@@ -1095,6 +1112,35 @@ public class ConsumoApiService<T extends EndpontSefaz> {
         if (bytes < 1024 * 1024)
             return String.format("%.1f KB", bytes / 1024.0);
         return String.format("%.1f MB", bytes / (1024.0 * 1024.0));
+    }
+
+    private String buildPeriodInfo(T mapper) {
+        if (mapper == null) return null;
+        if (mapper instanceof ConsultaGerencialDTO cg) {
+            Integer ano = cg.getDtAnoExercicioCTBFiltro();
+            Integer mes = cg.getNuMesFiltro();
+            if (ano != null)
+                return "ano " + ano + (mes != null ? " mês " + mes : "");
+        }
+        if (mapper instanceof EmpenhoDTO emp && emp.getDtAnoExercicioCTBFiltro() != null) {
+            return "ano " + emp.getDtAnoExercicioCTBFiltro() + (emp.getNuMesFiltro() != null ? " mês " + emp.getNuMesFiltro() : "");
+        }
+        if (mapper instanceof PagamentoDTO pag && pag.getDtAnoExercicioCTBFiltro() != null) {
+            return "ano " + pag.getDtAnoExercicioCTBFiltro() + (pag.getNuMesFiltro() != null ? " mês " + pag.getNuMesFiltro() : "");
+        }
+        if (mapper instanceof LiquidacaoDTO liq && liq.getDtAnoExercicioCTBFiltro() != null) {
+            return "ano " + liq.getDtAnoExercicioCTBFiltro() + (liq.getNuMesFiltro() != null ? " mês " + liq.getNuMesFiltro() : "");
+        }
+        if (mapper instanceof RestosAPagarDTO rap && rap.getDtAnoExercicioCTBFiltro() != null) {
+            return "ano " + rap.getDtAnoExercicioCTBFiltro();
+        }
+        if (mapper instanceof OrdemFornecimentoDTO of && of.getDtAnoExercicioEmpFiltro() != null) {
+            return "ano " + of.getDtAnoExercicioEmpFiltro() + (of.getNuMesRecebimentoFiltro() != null ? " mês " + of.getNuMesRecebimentoFiltro() : "");
+        }
+        if (mapper instanceof ContratosFiscaisDTO cf && cf.getDtAnoExercicioFiltro() != null) {
+            return "ano " + cf.getDtAnoExercicioFiltro() + (cf.getNuMesFiltro() != null ? " mês " + cf.getNuMesFiltro() : "");
+        }
+        return null;
     }
 
     private String getDataTypeFromMapper(T mapper) {

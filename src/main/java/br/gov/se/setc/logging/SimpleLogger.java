@@ -110,6 +110,18 @@ public class SimpleLogger {
         showEndBanner(consumptionType, result, duration);
         logger.info("CONSUMPTION_END | {} | {} | {}", consumptionType, result, duration);
     }
+
+    public void consumptionStartQuiet(String consumptionType, String description) {
+        setContext("CONSUMPTION_START");
+        logger.info("CONSUMPTION_START | {} | {}", consumptionType, description);
+    }
+
+    public void consumptionEndQuiet(String consumptionType, String result, long durationMs) {
+        setContext("CONSUMPTION_END");
+        String duration = formatDuration(durationMs);
+        logger.info("CONSUMPTION_END | {} | {} | {}", consumptionType, result, duration);
+    }
+
     /**
      * Log de endpoint de API chamado (registrado em simple.log para debug)
      */

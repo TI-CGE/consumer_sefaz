@@ -69,6 +69,7 @@ public class ConsultaGerencialMapper {
         entity.setTpTransporteViagemSolicitacaoDiaria(dto.getTpTransporteViagemSolicitacaoDiaria());
         entity.setTpViagemSolicitacaoDiaria(dto.getTpViagemSolicitacaoDiaria());
         entity.setNmCargo(dto.getNmCargo());
+        entity.setCdSituacaoSolicitacao(dto.getCdSituacaoSolicitacao());
         entity.setCreatedAt(LocalDateTime.now());
         entity.setUpdatedAt(LocalDateTime.now());
         return entity;

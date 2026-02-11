@@ -68,6 +68,8 @@ public class ConsultaGerencial {
     private String tpViagemSolicitacaoDiaria;
     @Column(name = "nm_cargo")
     private String nmCargo;
+    @Column(name = "cd_situacao_solicitacao")
+    private Integer cdSituacaoSolicitacao;
     @Column(name = "created_at", updatable = false)
     private LocalDateTime createdAt;
     @Column(name = "updated_at")
@@ -243,6 +245,12 @@ public class ConsultaGerencial {
     }
     public void setNmCargo(String nmCargo) {
         this.nmCargo = nmCargo;
+    }
+    public Integer getCdSituacaoSolicitacao() {
+        return cdSituacaoSolicitacao;
+    }
+    public void setCdSituacaoSolicitacao(Integer cdSituacaoSolicitacao) {
+        this.cdSituacaoSolicitacao = cdSituacaoSolicitacao;
     }
     public LocalDateTime getCreatedAt() {
         return createdAt;
