@@ -12,28 +12,32 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class LogbackConfig implements ApplicationListener<ContextRefreshedEvent> {
-    
+
     @Autowired
     private ApplicationContext applicationContext;
-    
+
     @Override
-    public void onApplicationEvent(@NonNull ContextRefreshedEvent event) {
+    public void onApplicationEvent(@NonNull final ContextRefreshedEvent event) {
         try {
-            LoggerContext loggerContext = (LoggerContext) LoggerFactory.getILoggerFactory();
+            LoggerContext loggerContext = (LoggerContext)
+                    LoggerFactory.getILoggerFactory();
             DatabaseErrorLogAppender appender = new DatabaseErrorLogAppender();
             appender.setContext(loggerContext);
             appender.setName("DATABASE_ERROR");
             appender.setApplicationContext(applicationContext);
             appender.start();
-            
-            ch.qos.logback.classic.Logger rootLogger = loggerContext.getLogger(ch.qos.logback.classic.Logger.ROOT_LOGGER_NAME);
+
+            ch.qos.logback.classic.Logger rootLogger = loggerContext.getLogger(
+                    ch.qos.logback.classic.Logger.ROOT_LOGGER_NAME);
             rootLogger.addAppender(appender);
-            
-            ch.qos.logback.classic.Logger appLogger = loggerContext.getLogger("br.gov.se.setc");
+
+            ch.qos.logback.classic.Logger appLogger =
+                    loggerContext.getLogger("br.gov.se.setc");
             appLogger.addAppender(appender);
             appLogger.setAdditive(false);
         } catch (Exception e) {
-            System.err.println("Erro ao configurar DatabaseErrorLogAppender: " + e.getMessage());
+            System.err.println("Erro ao configurar DatabaseErrorLogAppender: "
+                    + e.getMessage());
             e.printStackTrace();
         }
     }

@@ -37,7 +37,9 @@ import br.gov.se.setc.tokenSefaz.service.AcessoTokenService;
 import br.gov.se.setc.util.ValidacaoUtil;
 @Configuration
 public class SefazConsumerConfig {
-    private static final Logger logger = Logger.getLogger(SefazConsumerConfig.class.getName());
+    private static final Logger logger =
+            Logger.getLogger(SefazConsumerConfig.class.getName());
+
     private <T extends EndpontSefaz> ConsumoApiService<T> createConsumoApiService(
             String serviceName,
             Class<T> dtoClass,

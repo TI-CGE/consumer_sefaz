@@ -18,22 +18,29 @@ public class OpenApiConfig {
 
     @Bean
     public OpenAPI customOpenAPI() {
-        String basePath = (contextPath == null || contextPath.isEmpty()) ? "" : contextPath;
-        String serverUrl = basePath.isEmpty() ? "/" : basePath.endsWith("/") ? basePath : basePath + "/";
+        String basePath = (contextPath == null || contextPath.isEmpty())
+                ? "" : contextPath;
+        String serverUrl = basePath.isEmpty() ? "/"
+                : basePath.endsWith("/") ? basePath : basePath + "/";
         List<Server> servers = List.of(
                 new Server().url(serverUrl).description("Servidor atual"));
         return new OpenAPI()
                 .servers(servers)
                 .info(new Info()
                         .title("SEFAZ Transparency Consumer API")
-                        .description("API para consumo de dados do sistema de transparência da SEFAZ Sergipe. " +
-                                "Esta API permite o consumo automatizado de dados de contratos, empenhos, " +
-                                "liquidações, pagamentos e outras informações de transparência fiscal. " +
-                                "Os dados são consumidos das APIs oficiais da SEFAZ e armazenados localmente " +
-                                "para consulta e análise.")
+                        .description("API para consumo de dados do sistema de "
+                                + "transparência da SEFAZ Sergipe. "
+                                + "Esta API permite o consumo automatizado de "
+                                + "dados de contratos, empenhos, liquidações, "
+                                + "pagamentos e outras informações de "
+                                + "transparência fiscal. Os dados são "
+                                + "consumidos das APIs oficiais da SEFAZ e "
+                                + "armazenados localmente para consulta e "
+                                + "análise.")
                         .version("1.0.0")
                         .contact(new Contact()
-                                .name("Equipe SETC - Secretaria de Estado da Transparência e Controle")
+                                .name("Equipe SETC - Secretaria de Estado da "
+                                        + "Transparência e Controle")
                                 .email("setc@se.gov.br")
                                 .url("https://www.se.gov.br/setc"))
                         .license(new License()
