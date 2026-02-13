@@ -1,4 +1,5 @@
 package br.gov.se.setc.tokenSefaz.service;
+
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.*;
@@ -9,6 +10,7 @@ import br.gov.se.setc.logging.UnifiedLogger;
 import br.gov.se.setc.logging.UserFriendlyLogger;
 import br.gov.se.setc.logging.annotation.LogOperation;
 import br.gov.se.setc.logging.util.MDCUtil;
+
 @Service
 public class AcessoTokenService {
     private final RestTemplate restTemplate;
@@ -20,12 +22,14 @@ public class AcessoTokenService {
     private UnifiedLogger unifiedLogger;
     @Autowired
     private UserFriendlyLogger userFriendlyLogger;
+
     @Autowired
     public AcessoTokenService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
         this.cachedToken = null;
         this.tokenExpirationTime = 0;
     }
+
     @LogOperation(operation = "GET_TOKEN", component = "SECURITY", logParameters = false, logResult = false, slowOperationThresholdMs = 5000)
     public String getToken() {
         if (isTokenValid()) {
@@ -35,6 +39,7 @@ public class AcessoTokenService {
         }
         return requestNewToken();
     }
+
     /**
      * Verifica se o token em cache ainda é válido
      */
@@ -46,12 +51,13 @@ public class AcessoTokenService {
         long timeUntilExpiration = tokenExpirationTime - currentTime;
         return timeUntilExpiration > TOKEN_REFRESH_BUFFER;
     }
+
     /**
      * Solicita um novo token da API com retry automático
      */
     private String requestNewToken() {
         String clientId = "87f72053";
-        String clientSecret = "44019d983f556130ee774f1a36e5bcc2";
+        String clientSecret = "578c1d8c649b26eb04cb22c675e71487";
         String grantType = "client_credentials";
         String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
         MDCUtil.setComponent("SECURITY");
@@ -70,13 +76,12 @@ public class AcessoTokenService {
                 headers.set("Connection", "close");
                 HttpEntity<String> entity = new HttpEntity<>(body, headers);
                 unifiedLogger.logOperationStart("SECURITY", "TOKEN_REQUEST_ATTEMPT",
-                    "ATTEMPT", String.valueOf(attempt), "MAX_RETRIES", String.valueOf(maxRetries));
+                        "ATTEMPT", String.valueOf(attempt), "MAX_RETRIES", String.valueOf(maxRetries));
                 ResponseEntity<String> response = restTemplate.exchange(
                         tokenUrl,
                         HttpMethod.POST,
                         entity,
-                        String.class
-                );
+                        String.class);
                 long responseTime = System.currentTimeMillis() - startTime;
                 if (response.getStatusCode() == HttpStatus.OK) {
                     String token = extractToken(response.getBody());
@@ -88,28 +93,32 @@ public class AcessoTokenService {
                     String errorMsg = "HTTP " + response.getStatusCode() + " na tentativa " + attempt;
                     RuntimeException httpError = new RuntimeException(errorMsg);
                     unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_FAILED", responseTime, httpError,
-                        "ATTEMPT", String.valueOf(attempt), "STATUS", response.getStatusCode().toString());
+                            "ATTEMPT", String.valueOf(attempt), "STATUS", response.getStatusCode().toString());
                     if (attempt == maxRetries) {
                         userFriendlyLogger.logAuthenticationError();
-                        unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
-                        throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + response.getStatusCode());
+                        unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime,
+                                MDCUtil.getCorrelationId());
+                        throw new RuntimeException(
+                                "Erro ao obter token após " + maxRetries + " tentativas: " + response.getStatusCode());
                     }
                 }
             } catch (Exception e) {
                 long responseTime = System.currentTimeMillis() - startTime;
                 String errorMsg = "Erro na tentativa " + attempt + ": " + e.getMessage();
                 unifiedLogger.logOperationError("SECURITY", "TOKEN_REQUEST_EXCEPTION", responseTime, e,
-                    "ATTEMPT", String.valueOf(attempt), "ERROR", e.getClass().getSimpleName());
+                        "ATTEMPT", String.valueOf(attempt), "ERROR", e.getClass().getSimpleName());
                 if (attempt == maxRetries) {
                     userFriendlyLogger.logAuthenticationError();
-                    unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime, MDCUtil.getCorrelationId());
-                    throw new RuntimeException("Erro ao obter token após " + maxRetries + " tentativas: " + e.getMessage(), e);
+                    unifiedLogger.logAuthentication(clientId, tokenUrl, false, responseTime,
+                            MDCUtil.getCorrelationId());
+                    throw new RuntimeException(
+                            "Erro ao obter token após " + maxRetries + " tentativas: " + e.getMessage(), e);
                 }
             }
             if (attempt < maxRetries) {
                 long delay = baseDelay * (long) Math.pow(2, attempt - 1);
                 unifiedLogger.logOperationStart("SECURITY", "TOKEN_RETRY_DELAY",
-                    "DELAY_MS", String.valueOf(delay), "NEXT_ATTEMPT", String.valueOf(attempt + 1));
+                        "DELAY_MS", String.valueOf(delay), "NEXT_ATTEMPT", String.valueOf(attempt + 1));
                 try {
                     Thread.sleep(delay);
                 } catch (InterruptedException ie) {
@@ -120,6 +129,7 @@ public class AcessoTokenService {
         }
         throw new RuntimeException("Falha inesperada ao obter token");
     }
+
     /**
      * Armazena o token em cache com timestamp de expiração
      */
@@ -127,8 +137,9 @@ public class AcessoTokenService {
         this.cachedToken = token;
         this.tokenExpirationTime = System.currentTimeMillis() + TOKEN_VALIDITY_DURATION;
         unifiedLogger.logOperationSuccess("SECURITY", "TOKEN_CACHED",
-            0, 1, "EXPIRATION_TIME", String.valueOf(tokenExpirationTime));
+                0, 1, "EXPIRATION_TIME", String.valueOf(tokenExpirationTime));
     }
+
     private String extractToken(String responseBody) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
@@ -138,6 +149,7 @@ public class AcessoTokenService {
             throw new RuntimeException("Erro ao processar resposta do token", e);
         }
     }
+
     /**
      * Testa a conectividade com o servidor de autenticação
      */
@@ -150,22 +162,22 @@ public class AcessoTokenService {
             headers.set("User-Agent", "SEFAZ-Consumer/1.0");
             HttpEntity<String> entity = new HttpEntity<>(headers);
             ResponseEntity<String> response = restTemplate.exchange(
-                tokenUrl,
-                HttpMethod.POST,
-                entity,
-                String.class
-            );
+                    tokenUrl,
+                    HttpMethod.POST,
+                    entity,
+                    String.class);
             long responseTime = System.currentTimeMillis() - startTime;
             unifiedLogger.logOperationSuccess("SECURITY", "CONNECTIVITY_TEST",
-                responseTime, 1, "STATUS", response.getStatusCode().toString());
+                    responseTime, 1, "STATUS", response.getStatusCode().toString());
             return true;
         } catch (Exception e) {
             long responseTime = System.currentTimeMillis() - startTime;
             unifiedLogger.logOperationError("SECURITY", "CONNECTIVITY_TEST", responseTime, e,
-                "ERROR", e.getClass().getSimpleName(), "MESSAGE", e.getMessage());
+                    "ERROR", e.getClass().getSimpleName(), "MESSAGE", e.getMessage());
             return false;
         }
     }
+
     /**
      * Força a renovação do token (limpa cache e solicita novo)
      */
@@ -175,6 +187,7 @@ public class AcessoTokenService {
         this.tokenExpirationTime = 0;
         return requestNewToken();
     }
+
     /**
      * Retorna informações sobre o status do token
      */
