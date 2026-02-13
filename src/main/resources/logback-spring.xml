@@ -6,6 +6,9 @@
     <springProfile name="prod">
         <property name="LOG_PATH" value="/var/log/sefaz-consumer"/>
     </springProfile>
+    <springProfile name="docker">
+        <property name="LOG_PATH" value="/app/logs"/>
+    </springProfile>
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <charset>UTF-8</charset>
@@ -101,7 +104,14 @@
             <appender-ref ref="ERROR_FILE"/>
         </root>
     </springProfile>
-    <springProfile name="!dev &amp; !prod">
+    <springProfile name="docker">
+        <root level="WARN">
+            <appender-ref ref="CONSOLE_TECHNICAL"/>
+            <appender-ref ref="APPLICATION_FILE"/>
+            <appender-ref ref="ERROR_FILE"/>
+        </root>
+    </springProfile>
+    <springProfile name="!dev &amp; !prod &amp; !docker">
         <root level="WARN">
             <appender-ref ref="APPLICATION_FILE"/>
             <appender-ref ref="ERROR_FILE"/>

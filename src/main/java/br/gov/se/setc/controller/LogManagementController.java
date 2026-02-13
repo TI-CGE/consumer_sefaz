@@ -6,6 +6,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.HashMap;
@@ -30,7 +31,8 @@ public class LogManagementController {
     private LogRotationService logRotationService;
     @Autowired
     private LogCleanupService logCleanupService;
-    private static final String LOGS_DIR = "logs";
+    @Value("${logging.path:./logs}")
+    private String logsDir;
     private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     /**
      * Lista status de todos os arquivos de log
@@ -47,11 +49,11 @@ public class LogManagementController {
     public String getLogStatus() {
         StringBuilder result = new StringBuilder();
         result.append("📊 Status dos Logs - ").append(LocalDateTime.now().format(FORMATTER)).append("\n\n");
-        File logsDir = new File(LOGS_DIR);
-        if (!logsDir.exists()) {
-            return "❌ Diretório de logs não encontrado: " + LOGS_DIR;
+        File logsDirFile = new File(logsDir);
+        if (!logsDirFile.exists()) {
+            return "❌ Diretório de logs não encontrado: " + logsDir;
         }
-        File[] logFiles = logsDir.listFiles((dir, name) ->
+        File[] logFiles = logsDirFile.listFiles((dir, name) ->
             name.endsWith(".log") || name.endsWith(".md"));
         if (logFiles == null || logFiles.length == 0) {
             result.append("📁 Nenhum arquivo de log encontrado\n");
@@ -112,14 +114,14 @@ public class LogManagementController {
     public String clearLogs() {
         StringBuilder result = new StringBuilder();
         result.append("🧹 Limpando arquivos de log...\n\n");
-        File logsDir = new File(LOGS_DIR);
-        if (!logsDir.exists()) {
+        File logsDirFile = new File(logsDir);
+        if (!logsDirFile.exists()) {
             return "❌ Diretório de logs não encontrado";
         }
         String[] logFiles = {"simple.log", "errors.log", "application.log", "operations.md"};
         int cleared = 0;
         for (String fileName : logFiles) {
-            File file = new File(logsDir, fileName);
+            File file = new File(logsDirFile, fileName);
             if (file.exists()) {
                 try {
                     Files.write(file.toPath(), new byte[0]);
@@ -138,7 +140,7 @@ public class LogManagementController {
     }
     private String tailLogFile(String fileName, int lines) {
         try {
-            Path filePath = Paths.get(LOGS_DIR, fileName);
+            Path filePath = Paths.get(logsDir, fileName);
             if (!Files.exists(filePath)) {
                 return "❌ Arquivo não encontrado: " + fileName;
             }
