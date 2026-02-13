@@ -14,11 +14,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl \
 RUN rm -rf /usr/local/tomcat/webapps/*
 COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/ROOT.war
 
-RUN mkdir -p /app/logs && chown -R tomcat:tomcat /app/logs
+RUN mkdir -p /app/logs && chmod 777 /app/logs
 ENV SPRING_PROFILES_ACTIVE=docker
 ENV LOGGING_PATH=/app/logs
 ENV CATALINA_OPTS="-Dlogging.path=/app/logs -Xms256m -Xmx512m"
 
 EXPOSE 8080
-USER tomcat
 CMD ["catalina.sh", "run"]
