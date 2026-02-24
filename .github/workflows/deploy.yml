@@ -1,8 +1,13 @@
-name: Deploy (merge na main)
+name: Deploy (main)
 
 on:
   push:
     branches: [main]
+
+env:
+  COMPOSE_DIR: /srv/tomcat
+  APP_PATH: /srv/tomcat/apps/tc1
+  SERVICE_NAME: consumer-sefaz
 
 jobs:
   deploy:
@@ -10,7 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Parar e subir containers
+      - name: Atualizar código no servidor
         run: |
-          docker compose down || true
-          docker compose up -d --build
+          mkdir -p "${{ env.APP_PATH }}"
+          rsync -a --delete --exclude '.git' ./ "${{ env.APP_PATH }}/"
+
+      - name: Build e subir via compose geral
+        run: |
+          cd "${{ env.COMPOSE_DIR }}"
+          docker compose build "${{ env.SERVICE_NAME }}"
+          docker compose up -d "${{ env.SERVICE_NAME }}"
