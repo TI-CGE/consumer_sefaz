@@ -1,5 +1,5 @@
 services:
-  consumer-sefaz:
+  tc1:
     build:
       context: ./apps/tc1
       dockerfile: Dockerfile
@@ -14,7 +14,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD:-setc@2025}
       LOGGING_PATH: /app/logs
     volumes:
-      - consumer-sefaz-logs:/app/logs
+      - tc1-logs:/app/logs
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
       interval: 30s
@@ -23,4 +23,4 @@ services:
       start_period: 90s
 
 volumes:
-  consumer-sefaz-logs:
+  tc1-logs:

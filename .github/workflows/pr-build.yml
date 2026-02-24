@@ -19,3 +19,6 @@ jobs:
 
       - name: Compilar e verificar
         run: mvn -q clean verify -DskipTests
+
+      - name: Build da imagem Docker
+        run: docker build -t consumer-sefaz:test .
