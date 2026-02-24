@@ -7,7 +7,7 @@ on:
 env:
   COMPOSE_DIR: /srv/tomcat
   APP_PATH: /srv/tomcat/apps/tc1
-  SERVICE_NAME: consumer-sefaz
+  SERVICE_NAME: tc1
 
 jobs:
   deploy:
