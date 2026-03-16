@@ -18,7 +18,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 /**
  * Serviço de persistência JPA que substitui o EndpontSefazRepository.
@@ -201,7 +203,10 @@ public class JpaPersistenceService {
     }
     /**
      * Verifica se a persistência JPA está implementada para uma tabela.
+     * NOT_SUPPORTED evita abrir transação (e usar conexão) em método que não acessa o banco,
+     * evitando "Connection is closed" após operações longas de consumo da API.
      */
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
     public boolean isJpaPersistenceSupported(String tableName) {
         return tableName.contains("consulta_gerencial") ||
                (tableName.contains("contrato") && !tableName.contains("empenho") && !tableName.contains("contratos_fiscais")) ||
