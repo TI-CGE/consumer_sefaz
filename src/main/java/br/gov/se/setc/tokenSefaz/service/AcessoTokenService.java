@@ -57,7 +57,7 @@ public class AcessoTokenService {
      */
     private String requestNewToken() {
         String clientId = "87f72053";
-        String clientSecret = "578c1d8c649b26eb04cb22c675e71487";
+        String clientSecret = "6d1009a431e1f3b50c4141ca0c5e267b";
         String grantType = "client_credentials";
         String tokenUrl = "https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token";
         MDCUtil.setComponent("SECURITY");
