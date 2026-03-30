@@ -4,14 +4,8 @@ import { executeManually, executeEntityManually, getSchedulerStatus } from "../s
 import { consumirPersistir } from "../consumer/api-service.js";
 import { consumirAnoInteiro, consumirAnoEMes, needsMonthlyIteration } from "../consumer/por-periodo-service.js";
 import { tryAcquireReceitaLock, releaseReceitaLock, isReceitaRunning } from "../scheduler/lock.js";
+import { SCHEDULER_CONSUME_CONSOLE } from "../scheduler/consume-console-options.js";
 import * as ep from "../consumer/endpoints/index.js";
-
-/** Alinhado ao cron: progresso + GET no console, fim compacto. */
-const SCHEDULER_CONSUME_CONSOLE = {
-  quietBanners: false,
-  quietEndBanner: true,
-  verboseRequestLog: true,
-} as const;
 
 export const schedulerRoutes = new Hono();
 

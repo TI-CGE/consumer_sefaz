@@ -3,16 +3,10 @@ import { env } from "../env.js";
 import { logger, type SchedulerEntityReportRow } from "../logging/logger.js";
 import { consumirPersistir } from "../consumer/api-service.js";
 import { tryAcquireReceitaLock, releaseReceitaLock } from "./lock.js";
+import { SCHEDULER_CONSUME_CONSOLE } from "./consume-console-options.js";
 import * as endpoints from "../consumer/endpoints/index.js";
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-
-/** Mesmo nível de detalhe do consumo manual: cabeçalho, barra de progresso, GET no console; fim em linha única. */
-const SCHEDULER_CONSUME_CONSOLE = {
-  quietBanners: false,
-  quietEndBanner: true,
-  verboseRequestLog: true,
-} as const;
 
 let isFirstExecution = true;
 let lastExecutionTime: Date | null = null;
