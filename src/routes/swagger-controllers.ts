@@ -21,7 +21,7 @@ export const ENTITY_CONFIGS: QueryConfig[] = [
   { path: "/ordem-fornecimento", table: "consumer_sefaz.ordem_fornecimento", defaultOrderBy: "dt_ano_exercicio_emp DESC" },
   { path: "/despesa-detalhada", table: "consumer_sefaz.despesa_detalhada", defaultOrderBy: "dt_ano_exercicio_ctb DESC, nu_mes DESC" },
   { path: "/previsao-realizacao-receita", table: "consumer_sefaz.previsao_realizacao_receita", defaultOrderBy: "dt_ano_exercicio_ctb DESC, nu_mes DESC" },
-  { path: "/consulta-gerencial", table: "consumer_sefaz.consulta_gerencial", defaultOrderBy: "dt_ano_exercicio_ctb DESC", searchColumns: ["nm_razao_social_pessoa", "ds_motivo_viagem"] },
+  { path: "/consulta-gerencial", table: "consumer_sefaz.consulta_gerencial", defaultOrderBy: "dt_ano_exercicio_ctb DESC", searchColumns: ["nm_razao_social_pessoa", "tx_motivo_solicitacao"] },
   { path: "/contratos-fiscais", table: "consumer_sefaz.contratos_fiscais", defaultOrderBy: "dt_ano_exercicio DESC", searchColumns: ["nm_contratado", "nm_fiscal"] },
   { path: "/base-despesa-credor", table: "consumer_sefaz.base_despesa_credor", defaultOrderBy: "dt_ano_exercicio DESC", searchColumns: ["nm_razao_social_pessoa"] },
   { path: "/base-despesa-licitacao", table: "consumer_sefaz.base_despesa_licitacao", searchColumns: ["nm_razao_social_fornecedor", "ds_objeto"] },
