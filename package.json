@@ -1,0 +1,33 @@
+{
+  "name": "sefaz-transparency-consumer",
+  "version": "1.0.0",
+  "description": "API consumer for Sergipe State Tax Authority transparency data",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "dev:cluster": "bun run --watch src/cluster.ts",
+    "start": "bun run src/index.ts",
+    "start:cluster": "bun run src/cluster.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "hono": "^4.7.0",
+    "pg": "^8.13.0",
+    "@hono/swagger-ui": "^0.5.0",
+    "node-cron": "^3.0.3",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node-cron": "^3.0.11",
+    "@types/pg": "^8.11.0",
+    "bun-types": "latest",
+    "eslint": "^10.1.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.58.0"
+  }
+}
