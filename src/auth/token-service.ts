@@ -31,7 +31,11 @@ async function requestNewToken(): Promise<string> {
   for (let attempt = 1; attempt <= maxRetries; attempt++) {
     const startTime = Date.now();
     try {
-      const body = `client_id=${clientId}&client_secret=${clientSecret}&grant_type=client_credentials`;
+      const body = new URLSearchParams({
+        client_id: clientId,
+        client_secret: clientSecret,
+        grant_type: "client_credentials",
+      }).toString();
 
       logger.logOperationStart("SECURITY", "TOKEN_REQUEST_ATTEMPT", "ATTEMPT", attempt, "MAX_RETRIES", maxRetries);
 
