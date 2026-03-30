@@ -1,23 +1,24 @@
-FROM eclipse-temurin:21-jdk-alpine AS build
+FROM oven/bun:1 AS base
 WORKDIR /app
 
-RUN apk add --no-cache maven
-COPY pom.xml .
-RUN mvn dependency:go-offline -B
+FROM base AS install
+COPY package.json bun.lock* ./
+RUN bun install --frozen-lockfile --production
 
+FROM base AS release
+COPY --from=install /app/node_modules node_modules
 COPY src ./src
-RUN mvn package -DskipTests -B
-
-FROM tomcat:10.1-jre21-temurin-jammy
-RUN apt-get update && apt-get install -y --no-install-recommends curl \
-    && rm -rf /var/lib/apt/lists/*
-RUN rm -rf /usr/local/tomcat/webapps/*
-COPY --from=build /app/target/ROOT.war /usr/local/tomcat/webapps/ROOT.war
+COPY package.json tsconfig.json ./
 
 RUN mkdir -p /app/logs && chmod 777 /app/logs
-ENV SPRING_PROFILES_ACTIVE=docker
-ENV LOGGING_PATH=/app/logs
-ENV CATALINA_OPTS="-Dlogging.path=/app/logs -Xms256m -Xmx512m"
+
+ENV NODE_ENV=docker
+ENV LOG_PATH=/app/logs
+ENV PORT=8080
 
 EXPOSE 8080
-CMD ["catalina.sh", "run"]
+
+HEALTHCHECK --interval=30s --timeout=10s --retries=3 --start-period=30s \
+  CMD curl -f http://localhost:8080/health || exit 1
+
+CMD ["bun", "run", "src/index.ts"]
