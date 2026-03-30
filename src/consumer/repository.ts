@@ -1,5 +1,6 @@
 import { query } from "../db/client.js";
 import { logger } from "../logging/logger.js";
+import { contratosFiscais } from "./endpoints/index.js";
 import type { EndpointDefinition } from "./endpoints/types.js";
 
 const BATCH_SIZE = 1000;
@@ -157,17 +158,5 @@ export async function persistContratosFiscais(
     );
   }
 
-  const sql = `INSERT INTO consumer_sefaz.contratos_fiscais (sg_unidade_gestora, cd_unidade_gestora, dt_ano_exercicio, cd_contrato, cd_licitacao, dt_inicio_vigencia_contrato, dt_fim_vigencia_contrato, nm_contratado, nu_documento_contratado, nm_fiscal, ds_qualificador) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)`;
-
-  let count = 0;
-  for (const item of items) {
-    await query(sql, [
-      item.sgUnidadeGestora, item.cdUnidadeGestora, item.dtAnoExercicio,
-      item.cdContrato, item.cdLicitacao, item.dtInicioVigenciaContrato,
-      item.dtFimVigenciaContrato, item.nmContratado, item.nuDocumentoContratado,
-      item.nmFiscal, item.dsQualificador,
-    ]);
-    count++;
-  }
-  return count;
+  return insertBatch(contratosFiscais, items);
 }
