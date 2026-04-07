@@ -36,10 +36,4 @@ build/
 /logs
 logs/application.log
 hs_err_pid*.log
-
-### Node/Bun ###
-node_modules/
-dist/
-bun.lock
-.env
-*.tsbuildinfo
+/logs

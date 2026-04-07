@@ -4,27 +4,19 @@ services:
     ports:
       - "8090:8080"
     environment:
-      NODE_ENV: docker
-      PORT: 8080
-      DB_HOST: ${DB_HOST:-172.28.65.26}
-      DB_PORT: ${DB_PORT:-5432}
-      DB_NAME: ${DB_NAME:-setc@bd}
-      DB_USER: ${DB_USER:-gideon}
-      DB_PASSWORD: ${DB_PASSWORD:-setc@2025}
-      SEFAZ_TOKEN_URL: ${SEFAZ_TOKEN_URL:-https://sso.apps.sefaz.se.gov.br/auth/realms/externo/protocol/openid-connect/token}
-      SEFAZ_CLIENT_ID: ${SEFAZ_CLIENT_ID:-87f72053}
-      SEFAZ_CLIENT_SECRET: ${SEFAZ_CLIENT_SECRET:-6d1009a431e1f3b50c4141ca0c5e267b}
-      LOG_PATH: /app/logs
-      SCHEDULER_ENABLED: ${SCHEDULER_ENABLED:-true}
-      SCHEDULER_PRODUCTION_ENABLED: ${SCHEDULER_PRODUCTION_ENABLED:-true}
+      SPRING_PROFILES_ACTIVE: docker
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL:-jdbc:postgresql://172.28.65.26:5432/setc@bd}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME:-gideon}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD:-setc@2025}
+      LOGGING_PATH: /app/logs
     volumes:
       - app-logs:/app/logs
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      test: ["CMD", "curl", "-f", "http://localhost:8080/actuator/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 30s
+      start_period: 90s
 
 volumes:
   app-logs:
