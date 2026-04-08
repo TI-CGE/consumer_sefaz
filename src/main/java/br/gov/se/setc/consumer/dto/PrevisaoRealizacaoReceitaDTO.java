@@ -56,12 +56,29 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
         nomeDataFinalPadraoFiltro = null;
         dtAnoPadrao = "dt_ano_exercicio_ctb";
     }
+    /**
+     * Mês efetivo da consulta para persistência. A API costuma repetir {@code nuMes} no corpo (ex.: 12)
+     * mesmo quando a query usa {@code nuMes=11}; por isso priorizamos filtro/cópia dos parâmetros da URL.
+     */
+    private Integer resolveNuMesConsulta() {
+        if (nuMesFiltro != null) {
+            return nuMesFiltro;
+        }
+        Object pMes = camposParametros != null ? camposParametros.get("nuMes") : null;
+        if (pMes instanceof Number) {
+            return ((Number) pMes).intValue();
+        }
+        return nuMes;
+    }
+
     @Override
     public void mapearCamposResposta() {
         camposResposta.put("cd_unidade_gestora", cdUnidadeGestora != null ? cdUnidadeGestora : "");
         camposResposta.put("dt_ano_exercicio_ctb", dtAnoExercicioCTB);
-        Integer mesParaSalvar = nuMes != null ? nuMes : nuMesFiltro;
-        if (mesParaSalvar == null) mesParaSalvar = 12;
+        Integer mesParaSalvar = resolveNuMesConsulta();
+        if (mesParaSalvar == null) {
+            mesParaSalvar = 12;
+        }
         camposResposta.put("nu_mes", mesParaSalvar);
         camposResposta.put("cd_categoria_economica", cdCategoriaEconomica != null ? cdCategoriaEconomica : "");
         camposResposta.put("nm_categoria_economica", nmCategoriaEconomica != null ? nmCategoriaEconomica : "");
@@ -269,7 +286,7 @@ public class PrevisaoRealizacaoReceitaDTO extends EndpontSefaz {
         this.nuMesFiltro = nuMesFiltro;
     }
     public Integer getNuMes() {
-        return nuMes != null ? nuMes : nuMesFiltro;
+        return resolveNuMesConsulta();
     }
     public void setNuMes(Integer nuMes) {
         this.nuMes = nuMes;

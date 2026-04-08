@@ -1953,3 +1953,723 @@ Caused by: java.lang.ClassNotFoundException: br.gov.se.setc.consumer.controller.
 2025-11-17 08:57:13.028 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
 2025-11-17 08:57:13.041 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
 2025-11-17 08:57:13.084 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 09:38:53.617 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 22736 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 09:38:53.619 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 09:38:55.548 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 09:38:56.437 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2026-04-07 09:38:56.448 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2026-04-07 09:38:56.942 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2026-04-07 09:38:57.035 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2026-04-07 09:38:57.073 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2026-04-07 09:38:57.074 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2026-04-07 09:38:57.095 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2026-04-07 09:38:57.095 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2026-04-07 09:38:57.113 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2026-04-07 09:38:57.114 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2026-04-07 09:38:57.142 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2026-04-07 09:38:57.142 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2026-04-07 09:38:57.158 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2026-04-07 09:38:57.158 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2026-04-07 09:38:57.181 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2026-04-07 09:38:57.182 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2026-04-07 09:38:57.209 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2026-04-07 09:38:57.210 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2026-04-07 09:38:57.226 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2026-04-07 09:38:57.226 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2026-04-07 09:38:57.242 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2026-04-07 09:38:57.243 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2026-04-07 09:38:57.258 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ValidacaoUtil bean
+2026-04-07 09:38:57.258 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ConsumoApiService bean
+2026-04-07 09:38:57.275 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2026-04-07 09:38:57.276 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2026-04-07 09:38:57.294 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2026-04-07 09:38:57.295 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2026-04-07 09:38:57.310 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2026-04-07 09:38:57.310 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2026-04-07 09:38:57.325 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2026-04-07 09:38:57.325 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2026-04-07 09:38:57.340 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2026-04-07 09:38:57.340 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2026-04-07 09:38:57.357 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2026-04-07 09:38:57.358 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2026-04-07 09:38:57.375 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2026-04-07 09:38:57.375 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2026-04-07 09:38:57.389 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2026-04-07 09:38:57.391 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2026-04-07 09:38:57.423 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ValidacaoUtil bean
+2026-04-07 09:38:57.423 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ConsumoApiService bean
+2026-04-07 09:38:57.465 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 17418443 bytes
+2026-04-07 09:38:57.465 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 223732 bytes
+2026-04-07 09:38:57.465 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 4731 bytes
+2026-04-07 09:38:57.465 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 0 bytes
+2026-04-07 09:38:57.466 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2026-04-07 09:38:57.498 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2026-04-07 09:38:57.623 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 09:38:58.157 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 09:39:32.296 INFO  [N/A] [APP] [UNKNOWN] - Initializing Servlet 'dispatcherServlet'
+2026-04-07 09:39:32.298 INFO  [N/A] [APP] [UNKNOWN] - Completed initialization in 2 ms
+2026-04-07 10:21:05.871 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 26056 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 10:21:05.874 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 10:21:08.129 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 10:21:08.986 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2026-04-07 10:21:08.992 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2026-04-07 10:21:09.497 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2026-04-07 10:21:09.597 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2026-04-07 10:21:09.639 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2026-04-07 10:21:09.640 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2026-04-07 10:21:09.659 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2026-04-07 10:21:09.660 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2026-04-07 10:21:09.677 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2026-04-07 10:21:09.677 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2026-04-07 10:21:09.692 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2026-04-07 10:21:09.692 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2026-04-07 10:21:09.708 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2026-04-07 10:21:09.708 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2026-04-07 10:21:09.726 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2026-04-07 10:21:09.726 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2026-04-07 10:21:09.742 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2026-04-07 10:21:09.743 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2026-04-07 10:21:09.759 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2026-04-07 10:21:09.760 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2026-04-07 10:21:09.775 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2026-04-07 10:21:09.775 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2026-04-07 10:21:09.790 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ValidacaoUtil bean
+2026-04-07 10:21:09.790 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ConsumoApiService bean
+2026-04-07 10:21:09.805 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2026-04-07 10:21:09.806 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2026-04-07 10:21:09.823 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2026-04-07 10:21:09.824 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2026-04-07 10:21:09.840 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2026-04-07 10:21:09.841 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2026-04-07 10:21:09.858 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2026-04-07 10:21:09.858 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2026-04-07 10:21:09.875 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2026-04-07 10:21:09.875 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2026-04-07 10:21:09.898 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2026-04-07 10:21:09.899 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2026-04-07 10:21:09.912 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2026-04-07 10:21:09.913 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2026-04-07 10:21:09.925 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2026-04-07 10:21:09.927 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2026-04-07 10:21:09.957 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ValidacaoUtil bean
+2026-04-07 10:21:09.958 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ConsumoApiService bean
+2026-04-07 10:21:10.003 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 18555410 bytes
+2026-04-07 10:21:10.004 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 229772 bytes
+2026-04-07 10:21:10.004 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 4731 bytes
+2026-04-07 10:21:10.004 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 945233 bytes
+2026-04-07 10:21:10.004 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2026-04-07 10:21:10.034 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2026-04-07 10:21:10.168 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 10:21:10.721 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 10:21:10.777 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-07 10:21:10.905 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2026-04-07 10:25:15.875 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 2876 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 10:25:15.876 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 10:25:17.812 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 10:25:18.621 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2026-04-07 10:25:18.627 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2026-04-07 10:25:19.045 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2026-04-07 10:25:19.146 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2026-04-07 10:25:19.190 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2026-04-07 10:25:19.191 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2026-04-07 10:25:19.226 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2026-04-07 10:25:19.226 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2026-04-07 10:25:19.245 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2026-04-07 10:25:19.245 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2026-04-07 10:25:19.261 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2026-04-07 10:25:19.261 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2026-04-07 10:25:19.279 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2026-04-07 10:25:19.280 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2026-04-07 10:25:19.313 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2026-04-07 10:25:19.313 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2026-04-07 10:25:19.346 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2026-04-07 10:25:19.347 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2026-04-07 10:25:19.371 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2026-04-07 10:25:19.371 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2026-04-07 10:25:19.399 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2026-04-07 10:25:19.400 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2026-04-07 10:25:19.421 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ValidacaoUtil bean
+2026-04-07 10:25:19.421 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ConsumoApiService bean
+2026-04-07 10:25:19.440 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2026-04-07 10:25:19.441 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2026-04-07 10:25:19.457 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2026-04-07 10:25:19.457 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2026-04-07 10:25:19.483 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2026-04-07 10:25:19.483 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2026-04-07 10:25:19.499 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2026-04-07 10:25:19.500 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2026-04-07 10:25:19.516 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2026-04-07 10:25:19.517 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2026-04-07 10:25:19.532 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2026-04-07 10:25:19.532 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2026-04-07 10:25:19.548 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2026-04-07 10:25:19.549 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2026-04-07 10:25:19.564 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2026-04-07 10:25:19.565 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2026-04-07 10:25:19.599 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ValidacaoUtil bean
+2026-04-07 10:25:19.600 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ConsumoApiService bean
+2026-04-07 10:25:19.641 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 19647329 bytes
+2026-04-07 10:25:19.641 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 236223 bytes
+2026-04-07 10:25:19.641 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 5086 bytes
+2026-04-07 10:25:19.642 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 1854106 bytes
+2026-04-07 10:25:19.642 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2026-04-07 10:25:19.671 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2026-04-07 10:25:19.782 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 10:25:20.241 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 10:25:20.288 WARN  [N/A] [APP] [UNKNOWN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-04-07 10:25:20.330 ERROR [N/A] [APP] [UNKNOWN] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8083 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8083 or configure this application to listen on another port.
+
+2026-04-07 10:34:10.212 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 25208 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 10:34:10.214 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 10:34:12.365 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 10:34:13.232 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2026-04-07 10:34:13.238 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2026-04-07 10:34:13.698 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2026-04-07 10:34:13.794 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2026-04-07 10:34:13.833 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2026-04-07 10:34:13.833 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2026-04-07 10:34:13.851 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2026-04-07 10:34:13.851 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2026-04-07 10:34:13.876 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2026-04-07 10:34:13.877 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2026-04-07 10:34:13.907 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2026-04-07 10:34:13.907 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2026-04-07 10:34:13.930 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2026-04-07 10:34:13.931 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2026-04-07 10:34:13.953 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2026-04-07 10:34:13.953 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2026-04-07 10:34:13.974 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2026-04-07 10:34:13.975 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2026-04-07 10:34:13.995 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2026-04-07 10:34:13.996 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2026-04-07 10:34:14.013 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2026-04-07 10:34:14.014 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2026-04-07 10:34:14.029 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ValidacaoUtil bean
+2026-04-07 10:34:14.030 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ConsumoApiService bean
+2026-04-07 10:34:14.047 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2026-04-07 10:34:14.047 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2026-04-07 10:34:14.064 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2026-04-07 10:34:14.064 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2026-04-07 10:34:14.082 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2026-04-07 10:34:14.082 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2026-04-07 10:34:14.099 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2026-04-07 10:34:14.100 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2026-04-07 10:34:14.117 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2026-04-07 10:34:14.118 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2026-04-07 10:34:14.132 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2026-04-07 10:34:14.132 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2026-04-07 10:34:14.148 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2026-04-07 10:34:14.148 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2026-04-07 10:34:14.177 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2026-04-07 10:34:14.178 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2026-04-07 10:34:14.211 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ValidacaoUtil bean
+2026-04-07 10:34:14.211 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ConsumoApiService bean
+2026-04-07 10:34:14.250 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 19891668 bytes
+2026-04-07 10:34:14.250 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 242676 bytes
+2026-04-07 10:34:14.250 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 5441 bytes
+2026-04-07 10:34:14.250 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 2057859 bytes
+2026-04-07 10:34:14.250 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2026-04-07 10:34:14.285 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2026-04-07 10:34:14.427 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 10:34:14.953 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 10:35:23.384 INFO  [N/A] [APP] [UNKNOWN] - Initializing Servlet 'dispatcherServlet'
+2026-04-07 10:35:23.385 INFO  [N/A] [APP] [UNKNOWN] - Completed initialization in 1 ms
+2026-04-07 10:36:08.048 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:08.053 ERROR [N/A] [APP] [UNKNOWN] - Exception Processing [ErrorPage[errorCode=0, location=/error]]
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:11.520 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:11.520 ERROR [N/A] [APP] [UNKNOWN] - Exception Processing [ErrorPage[errorCode=0, location=/error]]
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:12.314 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:12.314 ERROR [N/A] [APP] [UNKNOWN] - Exception Processing [ErrorPage[errorCode=0, location=/error]]
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:12.907 ERROR [N/A] [APP] [UNKNOWN] - Servlet.service() for servlet [dispatcherServlet] threw exception
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 10:36:12.908 ERROR [N/A] [APP] [UNKNOWN] - Exception Processing [ErrorPage[errorCode=0, location=/error]]
+jakarta.servlet.ServletException: Circular view path [error]: would dispatch back to the current handler URL [/error] again. Check your ViewResolver setup! (Hint: This may be the result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:210)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:148)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1432)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:410)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:362)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:222)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:151)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-04-07 11:08:54.782 WARN  [cb488378] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@118945ac (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-04-07 11:08:54.782 WARN  [cb488378] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@59c98e30 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-04-07 11:08:54.782 WARN  [cb488378] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@114fee6b (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-04-07 11:08:54.782 WARN  [cb488378] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4ab06dcb (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-04-07 11:08:54.782 WARN  [cb488378] [CONTRACT_CONSUMER] [CONSUMIR_PERSISTIR] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@36d9dd19 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2026-04-07 11:23:13.667 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 25208 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 11:23:13.668 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 11:23:14.979 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 11:23:15.170 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 11:23:15.622 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 11:23:15.657 INFO  [N/A] [APP] [UNKNOWN] - Started ConsumerSefazApplication in 2.1 seconds (process running for 2946.279)
+2026-04-07 11:23:18.427 INFO  [N/A] [APP] [UNKNOWN] - Starting ConsumerSefazApplication using Java 21.0.10 with PID 25208 (C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz\target\classes started by gabriel.lopes in C:\PROJETOS-CGE\PROJETO-CGE-CONSUMER-SEFAZ\consumer_sefaz)
+2026-04-07 11:23:18.427 INFO  [N/A] [APP] [UNKNOWN] - The following 1 profile is active: "dev"
+2026-04-07 11:23:19.054 WARN  [N/A] [APP] [UNKNOWN] - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-04-07 11:23:19.395 INFO  [N/A] [APP] [UNKNOWN] - Creating primary SEFAZ RestTemplate bean with enhanced configuration
+2026-04-07 11:23:19.396 INFO  [N/A] [APP] [UNKNOWN] - RestTemplate configured with connect timeout: 15s, read timeout: 30s
+2026-04-07 11:23:19.507 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ValidacaoUtil bean
+2026-04-07 11:23:19.590 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaCredor ConsumoApiService bean
+2026-04-07 11:23:19.626 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ValidacaoUtil bean
+2026-04-07 11:23:19.627 INFO  [N/A] [APP] [UNKNOWN] - Creating BaseDespesaLicitacao ConsumoApiService bean
+2026-04-07 11:23:19.653 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ValidacaoUtil bean
+2026-04-07 11:23:19.653 INFO  [N/A] [APP] [UNKNOWN] - Creating ConsultaGerencial ConsumoApiService bean
+2026-04-07 11:23:19.670 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ValidacaoUtil bean
+2026-04-07 11:23:19.671 INFO  [N/A] [APP] [UNKNOWN] - Creating Contrato ConsumoApiService bean
+2026-04-07 11:23:19.692 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ValidacaoUtil bean
+2026-04-07 11:23:19.693 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratoEmpenho ConsumoApiService bean
+2026-04-07 11:23:19.707 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ValidacaoUtil bean
+2026-04-07 11:23:19.707 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscais ConsumoApiService bean
+2026-04-07 11:23:19.725 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ValidacaoUtil bean
+2026-04-07 11:23:19.725 INFO  [N/A] [APP] [UNKNOWN] - Creating DadosOrcamentarios ConsumoApiService bean
+2026-04-07 11:23:19.742 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ValidacaoUtil bean
+2026-04-07 11:23:19.742 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaConvenio ConsumoApiService bean
+2026-04-07 11:23:19.762 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ValidacaoUtil bean
+2026-04-07 11:23:19.762 INFO  [N/A] [APP] [UNKNOWN] - Creating DespesaDetalhada ConsumoApiService bean
+2026-04-07 11:23:19.794 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ValidacaoUtil bean
+2026-04-07 11:23:19.794 INFO  [N/A] [APP] [UNKNOWN] - Creating Empenho ConsumoApiService bean
+2026-04-07 11:23:19.813 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ValidacaoUtil bean
+2026-04-07 11:23:19.813 INFO  [N/A] [APP] [UNKNOWN] - Creating EmpenhoMensal ConsumoApiService bean
+2026-04-07 11:23:19.828 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ValidacaoUtil bean
+2026-04-07 11:23:19.828 INFO  [N/A] [APP] [UNKNOWN] - Creating Liquidacao ConsumoApiService bean
+2026-04-07 11:23:19.843 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ValidacaoUtil bean
+2026-04-07 11:23:19.843 INFO  [N/A] [APP] [UNKNOWN] - Creating OrdemFornecimento ConsumoApiService bean
+2026-04-07 11:23:19.860 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ValidacaoUtil bean
+2026-04-07 11:23:19.861 INFO  [N/A] [APP] [UNKNOWN] - Creating Pagamento ConsumoApiService bean
+2026-04-07 11:23:19.880 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ValidacaoUtil bean
+2026-04-07 11:23:19.881 INFO  [N/A] [APP] [UNKNOWN] - Creating PrevisaoRealizacaoReceita ConsumoApiService bean
+2026-04-07 11:23:19.900 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ValidacaoUtil bean
+2026-04-07 11:23:19.901 INFO  [N/A] [APP] [UNKNOWN] - Creating Receita ConsumoApiService bean
+2026-04-07 11:23:19.926 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ValidacaoUtil bean
+2026-04-07 11:23:19.927 INFO  [N/A] [APP] [UNKNOWN] - Creating Termo ConsumoApiService bean
+2026-04-07 11:23:19.945 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ValidacaoUtil bean
+2026-04-07 11:23:19.945 INFO  [N/A] [APP] [UNKNOWN] - Creating TotalizadoresExecucao ConsumoApiService bean
+2026-04-07 11:23:19.960 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ValidacaoUtil bean
+2026-04-07 11:23:19.961 INFO  [N/A] [APP] [UNKNOWN] - Creating UnidadeGestora ConsumoApiService bean
+2026-04-07 11:23:20.004 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ValidacaoUtil bean
+2026-04-07 11:23:20.005 INFO  [N/A] [APP] [UNKNOWN] - Creating RestosAPagar ConsumoApiService bean
+2026-04-07 11:23:20.060 INFO  [N/A] [APP] [UNKNOWN] - Arquivo simple.log inicializado com tamanho: 20379964 bytes
+2026-04-07 11:23:20.061 INFO  [N/A] [APP] [UNKNOWN] - Arquivo application.log inicializado com tamanho: 290259 bytes
+2026-04-07 11:23:20.061 INFO  [N/A] [APP] [UNKNOWN] - Arquivo errors.log inicializado com tamanho: 44613 bytes
+2026-04-07 11:23:20.061 INFO  [N/A] [APP] [UNKNOWN] - Arquivo operations.md inicializado com tamanho: 2463570 bytes
+2026-04-07 11:23:20.061 INFO  [N/A] [APP] [UNKNOWN] - Monitoramento de arquivos de log inicializado para: ./logs
+2026-04-07 11:23:20.127 INFO  [N/A] [APP] [UNKNOWN] - Creating ContratosFiscaisTeste ConsumoApiService bean
+2026-04-07 11:23:20.208 WARN  [N/A] [APP] [UNKNOWN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-07 11:23:20.485 WARN  [N/A] [APP] [UNKNOWN] - Unable to start LiveReload server
+2026-04-07 11:25:08.835 INFO  [N/A] [APP] [UNKNOWN] - Initializing Servlet 'dispatcherServlet'
+2026-04-07 11:25:08.836 INFO  [N/A] [APP] [UNKNOWN] - Completed initialization in 1 ms
