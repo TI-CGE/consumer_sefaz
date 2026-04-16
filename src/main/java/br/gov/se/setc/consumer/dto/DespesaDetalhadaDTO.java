@@ -34,7 +34,8 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
     private String nmPPAAcao;
     @JsonProperty("cdSubAcao")
     private String cdSubAcao;
-    @JsonProperty("nmSubacao")
+    /** Nome JSON da SEFAZ: {@code nmSubAcao} (A maiúsculo em Acao). Campo Java permanece {@code nmSubacao} → coluna {@code nm_subacao}. */
+    @JsonProperty("nmSubAcao")
     private String nmSubacao;
     @JsonProperty("cdCategoriaEconomica")
     private String cdCategoriaEconomica;
@@ -175,7 +176,17 @@ public class DespesaDetalhadaDTO extends EndpontSefaz {
         if (ugCd != null) {
             camposParametros.put("cdUnidadeGestora", ugCd);
         }
-        camposParametros.put("dtAnoExercicio", 2025);
+        int anoParaConsulta;
+        if (dtAnoExercicioCTBFiltro != null) {
+            anoParaConsulta = dtAnoExercicioCTBFiltro;
+        } else if (dtAnoExercicioCTB != null) {
+            anoParaConsulta = dtAnoExercicioCTB;
+        } else if (utilsService != null && utilsService.getAnoAtual() != null) {
+            anoParaConsulta = utilsService.getAnoAtual().intValue();
+        } else {
+            anoParaConsulta = java.time.Year.now().getValue();
+        }
+        camposParametros.put("dtAnoExercicio", anoParaConsulta);
         Integer mesParaUsar = (nuMesFiltro != null) ? nuMesFiltro : (utilsService != null && utilsService.getMesAtual() != null ? utilsService.getMesAtual().intValue() : 12);
         camposParametros.put("nuMes", mesParaUsar);
         return camposParametros;

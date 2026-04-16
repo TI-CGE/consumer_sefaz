@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
  *
  * Representa dados detalhados de despesas por órgão, unidade orçamentária,
  * organizados em hierarquia de categorização (função → subfunção → programa → ação → natureza)
+ *
  */
 @Entity
 @Table(name = "despesa_detalhada", schema = "consumer_sefaz",
@@ -18,7 +19,7 @@ import java.time.LocalDateTime;
            @Index(name = "ix_dd_unid_orc", columnList = "cd_unid_orc"),
            @Index(name = "ix_dd_natureza", columnList = "cd_natureza_despesa"),
            @Index(name = "uq_despesa_detalhada",
-                  columnList = "cd_unidade_gestora, dt_ano_exercicio_ctb, nu_mes, cd_orgao, cd_unid_orc, cd_natureza_despesa, cd_ppa_acao, cd_sub_acao",
+                  columnList = "dt_ano_exercicio_ctb, nu_mes, cd_orgao, cd_unid_orc, cd_natureza_despesa, cd_ppa_acao, cd_sub_acao",
                   unique = true)
        })
 public class DespesaDetalhada {
@@ -57,7 +58,7 @@ public class DespesaDetalhada {
     private String nmPPAAcao;
     @Column(name = "cd_sub_acao", length = 10, nullable = false)
     private String cdSubAcao;
-    @Column(name = "nm_subacao", length = 200)
+    @Column(name = "nm_subacao", length = 1000)
     private String nmSubacao;
     @Column(name = "cd_categoria_economica", length = 5)
     private String cdCategoriaEconomica;
