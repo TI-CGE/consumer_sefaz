@@ -29,6 +29,7 @@ import br.gov.se.setc.consumer.dto.ContratosFiscaisDTO;
 import br.gov.se.setc.consumer.dto.ReceitaDTO;
 import br.gov.se.setc.consumer.dto.DespesaConvenioDTO;
 import br.gov.se.setc.consumer.dto.PrevisaoRealizacaoReceitaDTO;
+import br.gov.se.setc.consumer.dto.DespesaDetalhadaDTO;
 import java.lang.reflect.Method;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -582,9 +583,62 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                     logger.warn("Erro ao mapear campo '" + fieldName + "': " + e.getMessage());
                 }
             });
+            complementarMapeamentoDespesaDetalhada(jsonNode, dtoInstance);
             definirCamposDerivadosSeSuportado(dtoInstance);
         } catch (Exception e) {
             logger.error("Erro no mapeamento genérico JSON para DTO: " + e.getMessage());
+        }
+    }
+
+    /**
+     * Garante {@code nmSubacao} a partir das chaves usadas pela API ({@code nmSubAcao} e variante {@code nmSubacao}).
+     */
+    private void complementarMapeamentoDespesaDetalhada(JsonNode jsonNode, T dtoInstance) {
+        if (!(dtoInstance instanceof DespesaDetalhadaDTO)) {
+            return;
+        }
+        DespesaDetalhadaDTO dto = (DespesaDetalhadaDTO) dtoInstance;
+        String v = extrairTextoJson(jsonNode, "nmSubAcao");
+        if (v == null || v.isBlank()) {
+            v = extrairTextoJson(jsonNode, "nmSubacao");
+        }
+        if (v != null && !v.isBlank()) {
+            dto.setNmSubacao(v);
+        }
+    }
+
+    private static String extrairTextoJson(JsonNode jsonNode, String campo) {
+        JsonNode n = jsonNode.get(campo);
+        if (n == null || n.isNull()) {
+            return null;
+        }
+        return n.asText();
+    }
+
+    private static boolean textoEmBranco(String s) {
+        return s == null || s.isBlank();
+    }
+
+    /**
+     * Na deduplicação, mantém a primeira linha da chave: copia texto da duplicata se o registro mantido estiver em branco.
+     */
+    private void mesclarDespesaDetalhadaCamposDescritivos(T existente, T novo) {
+        if (!(existente instanceof DespesaDetalhadaDTO) || !(novo instanceof DespesaDetalhadaDTO)) {
+            return;
+        }
+        DespesaDetalhadaDTO e = (DespesaDetalhadaDTO) existente;
+        DespesaDetalhadaDTO n = (DespesaDetalhadaDTO) novo;
+        boolean alterou = false;
+        if (textoEmBranco(e.getNmSubacao()) && !textoEmBranco(n.getNmSubacao())) {
+            e.setNmSubacao(n.getNmSubacao());
+            alterou = true;
+        }
+        if (textoEmBranco(e.getNmSubFuncao()) && !textoEmBranco(n.getNmSubFuncao())) {
+            e.setNmSubFuncao(n.getNmSubFuncao());
+            alterou = true;
+        }
+        if (alterou) {
+            e.mapearCamposResposta();
         }
     }
 
@@ -1387,7 +1441,8 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         cdSubAcao != null ? cdSubAcao : "NULL");
                 if (uniqueDespesas.containsKey(chaveComposta)) {
                     duplicatesRemoved++;
-                    logger.debug("Removendo duplicata DespesaDetalhada: " + chaveComposta);
+                    mesclarDespesaDetalhadaCamposDescritivos(uniqueDespesas.get(chaveComposta), item);
+                    logger.debug("Duplicata DespesaDetalhada (mesclada): " + chaveComposta);
                 } else {
                     uniqueDespesas.put(chaveComposta, item);
                 }
@@ -1395,10 +1450,12 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                 logger.warn("Erro ao obter campos para deduplicação de DespesaDetalhada: " + e.getMessage());
                 String chaveFallback = construirChaveDespesaDetalhadaFromCampos(item);
                 if (chaveFallback != null) {
-                    if (uniqueDespesas.containsKey(chaveFallback))
+                    if (uniqueDespesas.containsKey(chaveFallback)) {
                         duplicatesRemoved++;
-                    else
+                        mesclarDespesaDetalhadaCamposDescritivos(uniqueDespesas.get(chaveFallback), item);
+                    } else {
                         uniqueDespesas.put(chaveFallback, item);
+                    }
                 } else {
                     uniqueDespesas.put("ERROR_" + System.currentTimeMillis(), item);
                 }

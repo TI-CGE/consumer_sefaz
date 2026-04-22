@@ -219,16 +219,17 @@ public class DespesaDetalhadaMultiMesService {
      * Cria um mapper configurado para um mês específico (ano atual)
      */
     private DespesaDetalhadaDTO criarMapperParaMes(int mes) {
+        int ano = java.time.Year.now().getValue();
         DespesaDetalhadaDTO mapper = new DespesaDetalhadaDTO();
         mapper.setNuMesFiltro(mes);
-        mapper.setDtAnoExercicioCTBFiltro(2025);
+        mapper.setDtAnoExercicioCTBFiltro(ano);
         mapper.setNuMes(mes);
-        mapper.setDtAnoExercicioCTB(2025);
+        mapper.setDtAnoExercicioCTB(ano);
         Map<String, Object> parametros = new LinkedHashMap<>();
         parametros.put("nuMes", mes);
-        parametros.put("dtAnoExercicio", 2025);
+        parametros.put("dtAnoExercicio", ano);
         mapper.setCamposParametros(parametros);
-        logger.info("Mapper criado - mes=" + mes + ", ano=2025");
+        logger.info("Mapper criado - mes=" + mes + ", ano=" + ano);
         return mapper;
     }
     /**
