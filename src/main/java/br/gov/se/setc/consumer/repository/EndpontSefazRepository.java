@@ -1,6 +1,7 @@
 package br.gov.se.setc.consumer.repository;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
@@ -75,7 +76,8 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
                     Arrays.asList("cd_unidade_gestora", "dt_ano_exercicio_ctb", "nu_mes", "cd_categoria_economica", "cd_origem", "cd_especie", "cd_desdobramento", "cd_tipo"));
         } else if ("consumer_sefaz.empenho".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
-                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"));
+                    Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho"),
+                    Set.of("cd_natureza_despesa_completa"));
         } else if ("consumer_sefaz.pagamento".equals(tableName)) {
             sql = buildUpsertSql(tableName, columns, fieldMap.keySet(),
                     Arrays.asList("dt_ano_exercicio_ctb", "cd_unidade_gestora", "cd_gestao", "sq_empenho", "sq_ob"));
@@ -106,12 +108,19 @@ public class EndpontSefazRepository<T extends EndpontSefaz> {
     }
 
     private String buildUpsertSql(String tableName, String columns, Set<String> columnSet, List<String> conflictColumnsOrdered) {
+        return buildUpsertSql(tableName, columns, columnSet, conflictColumnsOrdered, Collections.emptySet());
+    }
+
+    private String buildUpsertSql(String tableName, String columns, Set<String> columnSet,
+                                  List<String> conflictColumnsOrdered, Set<String> preserveExistingWhenNullColumns) {
         String placeholders = columnSet.stream().map(k -> "?").collect(Collectors.joining(", "));
         String conflictColumns = String.join(", ", conflictColumnsOrdered);
         Set<String> conflictSet = new LinkedHashSet<>(conflictColumnsOrdered);
         List<String> updateSet = columnSet.stream()
                 .filter(c -> !conflictSet.contains(c))
-                .map(c -> c + " = EXCLUDED." + c)
+                .map(c -> preserveExistingWhenNullColumns.contains(c)
+                        ? c + " = COALESCE(EXCLUDED." + c + ", " + tableName + "." + c + ")"
+                        : c + " = EXCLUDED." + c)
                 .collect(Collectors.toList());
         String updateClause = String.join(", ", updateSet);
         return "INSERT INTO " + tableName + " (" + columns + ") VALUES (" + placeholders + ") " +

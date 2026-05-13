@@ -950,8 +950,9 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                         }
                         liquidacaoDTO.setNuMesFiltro(null);
                     } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
-                        List<int[]> periodos = (empenhoDTO.getDtAnoExercicioCTBFiltro() != null && empenhoDTO.getNuMesFiltro() != null)
-                                ? List.of(new int[]{empenhoDTO.getDtAnoExercicioCTBFiltro(), empenhoDTO.getNuMesFiltro()})
+                        Integer nuMesFiltroOriginal = empenhoDTO.getNuMesFiltro();
+                        List<int[]> periodos = (empenhoDTO.getDtAnoExercicioCTBFiltro() != null && nuMesFiltroOriginal != null)
+                                ? List.of(new int[]{empenhoDTO.getDtAnoExercicioCTBFiltro(), nuMesFiltroOriginal})
                                 : utilsService.getUltimos2Meses();
                         for (int[] anoMes : periodos) {
                             int ano = anoMes[0];
@@ -965,7 +966,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                                         + resultadoCdGestaoMes.size() + " registros processados");
                             }
                         }
-                        empenhoDTO.setNuMesFiltro(null);
+                        empenhoDTO.setNuMesFiltro(nuMesFiltroOriginal);
                     } else {
                         List<T> resultadoCdGestao = processarComCdGestao(ugCd, mapper, cdGestao, true);
                         if (resultadoCdGestao != null) {
@@ -1096,6 +1097,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                             }
                             liquidacaoDTO.setNuMesFiltro(null);
                         } else if (mapper instanceof EmpenhoDTO empenhoDTO) {
+                            Integer nuMesFiltroOriginal = empenhoDTO.getNuMesFiltro();
                             for (int mes = 1; mes <= 12; mes++) {
                                 empenhoDTO.setNuMesFiltro(mes);
                                 List<T> resultadoCdGestaoMes = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao,
@@ -1106,7 +1108,7 @@ public class ConsumoApiService<T extends EndpontSefaz> {
                                             + resultadoCdGestaoMes.size() + " registros");
                                 }
                             }
-                            empenhoDTO.setNuMesFiltro(null);
+                            empenhoDTO.setNuMesFiltro(nuMesFiltroOriginal);
                         } else {
                             List<T> resultadoCdGestao = processarComCdGestaoTodosAnos(ugCd, mapper, cdGestao, dtAno);
                             if (resultadoCdGestao != null) {
