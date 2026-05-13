@@ -181,15 +181,14 @@ public class JpaPersistenceService {
         existing.setInLocalPublicacaoConv(newTermo.getInLocalPublicacaoConv());
     }
     /**
-     * Deleta registros existentes antes de inserir novos.
-     * Mantém a lógica do deleteByMesVigente do sistema anterior.
+     * Deleta registros existentes antes de inserir novos (quando aplicável).
+     * Consulta gerencial (diárias) não remove dados: novas cargas são sempre inseridas (podem duplicar).
      */
     private void deleteExistingRecords(EndpontSefaz dto) {
         String tableName = dto.getTabelaBanco();
         try {
             if (tableName.contains("consulta_gerencial")) {
-                consultaGerencialRepository.deleteByCurrentYear();
-                logger.info("Registros existentes de ConsultaGerencial removidos");
+                return;
             } else if (tableName.contains("contrato") && !tableName.contains("empenho")) {
                 contratoRepository.deleteByCurrentYear();
                 logger.info("Registros existentes de Contrato removidos");

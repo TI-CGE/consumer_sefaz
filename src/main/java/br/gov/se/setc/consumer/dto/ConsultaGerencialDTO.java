@@ -81,7 +81,7 @@ public class ConsultaGerencialDTO extends EndpontSefaz {
     }
     @Override
     protected void inicializarDadosEndpoint() {
-        tabelaBanco = "consumer_sefaz.consulta_gerencial";
+        tabelaBanco = "raw_consumer_sefaz.consulta_gerencial";
         url = "https://api-transparencia.apps.sefaz.se.gov.br/gfu/v1/diarias/consulta-gerencial";
         nomeDataInicialPadraoFiltro = null;
         nomeDataFinalPadraoFiltro = null;

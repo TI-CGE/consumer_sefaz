@@ -105,7 +105,7 @@ public class SwaggerConsultaGerencialController {
             info.append("Descrição: Endpoint para consumo de dados de diárias da SEFAZ\n");
             info.append("URL da API: ").append(dto.getUrl()).append("\n");
             info.append("Tabela de destino: ").append(dto.getTabelaBanco()).append("\n");
-            info.append("Schema: consumer_sefaz\n\n");
+            info.append("Schema: raw_consumer_sefaz\n\n");
             info.append("=== FILTROS DISPONÍVEIS ===\n");
             info.append("- cdUnidadeGestora: Código da Unidade Gestora (obrigatório na API)\n");
             info.append("- dtAnoExercicioCTB: Ano do exercício contábil (obrigatório na API)\n\n");
